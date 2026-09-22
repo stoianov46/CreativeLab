@@ -102,8 +102,6 @@
 - ✅ Canonical + hreflang в head на всех страницах
 - ✅ JSON-LD: Organization, WebPage, BreadcrumbList
 
-### Shop / E-commerce
-- [] 🟡 Shop-страница не реализована — нужна отдельная задача
 
 ### Примечание
 Чтобы перенести эти правки из форка — cherry-pick коммитов:
