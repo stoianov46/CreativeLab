@@ -78,3 +78,41 @@
 - ✅ `next.config.ts` дважды возвращался к `output: "export"` (GitHub Pages) — оба раза ломал `next dev` полностью (middleware/proxy.ts не работает со static export). Вернул к обычному конфигу.
 - ✅ Добавлен `allowedDevOrigins: ["192.168.1.101"]` — без этого меню в хедере не реагировали на клики при открытии сайта через сетевой IP (Next.js блокирует cross-origin HMR-запросы в dev-режиме по умолчанию).
 - ✅ CI на GitHub Actions падал на чистом чекауте (не только локально) — `bots/` не был исключён из корневого `tsconfig.json`, и `tsc --noEmit` запускался до `next build`, из-за чего отсутствовали сгенерированные типы (`PageProps`/`LayoutProps`, image-модули). Исправлено.
+
+## Исправлено в DrAndromeda/CreativeLAB.in.th (форк — деплой на GitHub Pages)
+
+Эти правки были сделаны в форке для GitHub Pages. Если нужно перенести в основной репозиторий:
+
+### GitHub Pages / Static Export
+- ✅ `basePath: '/CreativeLAB.in.th'` + `output: 'export'` для деплоя на GitHub Pages
+- ✅ `next.config.ts` — `images.unoptimized: true` (для статического экспорта)
+- ✅ `deploy.yml` — GitHub Actions → gh-pages
+- ✅ locale routing: все страницы скопированы в корень (EN) + locale-директории
+
+### Mobile Menu & Navigation
+- ✅ Мобильное меню (burger) — базово реализовано
+- ✅ Menu links: locale prefix добавлен ко всем внутренним ссылкам (fix 404)  
+- ✅ BreadcrumbList JSON-LD на всех страницах
+
+### SEO & Security
+- ✅ SECURITY.md — политика токенов и паролей (ничего в клиентском коде)
+- ✅ Telegram token moves server-side: ContactForm → `/api/contact`
+- ✅ `llms.txt` + `llms-full.txt` для AI-краулеров
+- ✅ Full SEO title/description/H1 на всех 8 hubs
+- ✅ Canonical + hreflang в head на всех страницах
+- ✅ JSON-LD: Organization, WebPage, BreadcrumbList
+
+### Shop / E-commerce
+- [] 🟡 Shop-страница не реализована — нужна отдельная задача
+
+### Примечание
+Чтобы перенести эти правки из форка — cherry-pick коммитов:
+```
+DrAndromeda/CreativeLAB.in.th:
+  318d48f basePath + GitHub Pages
+  d0ed7fa images unoptimized
+  a00329a menu links fix
+  69fd667 404 menu fix
+  032bb49 SECURITY.md
+  a466890 server-side token
+```
