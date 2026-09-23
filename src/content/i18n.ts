@@ -9,6 +9,14 @@ export type Locale = "en" | "ru" | "th" | "he";
 export const LOCALES: Locale[] = ["en", "ru", "th", "he"];
 export const DEFAULT_LOCALE: Locale = "en";
 
+/** Each language's name in itself — what the language switcher shows. */
+export const LOCALE_NAMES: Record<Locale, string> = {
+  en: "English",
+  ru: "Русский",
+  th: "ไทย",
+  he: "עברית",
+};
+
 export function isLocale(value: string): value is Locale {
   return (LOCALES as string[]).includes(value);
 }

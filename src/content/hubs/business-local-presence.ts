@@ -8,11 +8,11 @@ export const businessLocalPresenceHub: HubPage = {
   priority: "P0",
   h1: "Local SEO on Koh Phangan",
   primaryKeyword: "local SEO Koh Phangan",
-  metaTitle: "Local SEO Koh Phangan | Google Business Profile & Maps",
+  metaTitle: "Local SEO Koh Phangan | GBP & Maps",
   metaDescription:
-    "Local SEO, Google Business Profile, Maps optimization, reviews, reputation and listings management for Koh Phangan businesses.",
+    "Local SEO, Google Business Profile, Maps optimization, reviews, reputation and listings management for businesses on Koh Phangan, Koh Samui and Koh Tao.",
   directAnswer:
-    "CreativeLAB helps Koh Phangan businesses get found locally — Google Business Profile and Maps optimization, review and reputation management, and consistent business listings — the visibility work that sits behind every 'near me' search.",
+    "CreativeLAB helps businesses on Koh Phangan, Koh Samui and Koh Tao get found locally — Google Business Profile and Maps optimization, review and reputation management, and consistent business listings, the visibility work that sits behind almost every 'near me' search a customer runs.",
   heroSupport:
     "Google Business Profile, Maps, reviews, reputation and listings for businesses that want to be found locally.",
   heroImage: images.studio,
@@ -21,6 +21,41 @@ export const businessLocalPresenceHub: HubPage = {
   editorialBody: [
     "Many Koh Phangan businesses have a website and Instagram, but an incomplete or inactive Google Business Profile, inconsistent listings, or reviews that go unanswered — all of which quietly cost visibility in local search and Maps.",
     "This work is unglamorous but foundational: it's often what determines whether a business shows up at all when someone searches 'near me' — before any content or advertising even gets a chance to work.",
+    "The mechanics of this work are the same whether a business operates on Koh Phangan, Koh Samui or Koh Tao — Google Business Profile, Maps and reviews don't change by island. The competitive landscape does, though, with Koh Samui in particular seeing a broader, more comparison-driven search audience thanks to its airport and larger visitor numbers.",
+    "This work pairs closely with two other parts of what we do: Technical SEO, in Websites & Digital, for the website side of search visibility, and, for restaurants and hospitality venues specifically, the review and content patterns covered in our Food & Restaurants hub. None of these areas work as well in isolation as they do together.",
+    "We don't promise a specific ranking position or a guaranteed volume of calls from this work — nobody honestly can, since Google's local algorithm isn't public and changes over time. What we commit to is the concrete, verifiable work: an accurate profile, consistent listings, reviews that get a real response, and regular reporting on what's actually been done.",
+    "We'll also say plainly when a business doesn't need the full scope of this hub. A single-location business with an already-solid Google Business Profile might only need periodic Maps and listings checks; a growing, multi-location operation dealing with a run of unanswered reviews might need most of this at once. The plan follows the business, not a fixed package applied regardless of where it's starting from — and we'd rather start with an honest, smaller audit than sell a broader retainer before it's actually useful.",
+  ],
+  sections: [
+    {
+      title: "The moment before someone even reaches your website",
+      body: [
+        "Before a website, an Instagram feed or an ad campaign gets a chance to make an impression, a local search result already has — a name, a star rating, a photo and a distance already shape a decision before anyone clicks through. Businesses that treat their website as the front door and their Google listing as an afterthought have that order backwards for most local searches.",
+        "This is especially true for travellers, who search 'near me' constantly and rarely have brand loyalty to fall back on — they're choosing between whichever few results show up complete, credible and close by. An incomplete or outdated profile loses that comparison before a business's actual quality ever factors in.",
+        "A 'near me' search is also one of the few moments where a smaller or newer business can compete evenly with an established one — Google's local results are driven far more by profile completeness, accuracy and activity than by how long a business has existed, which is unusually forgiving compared to most other forms of competitive marketing.",
+        "For visitors specifically, this often matters more than a business's own website ever will, since someone arriving on Koh Samui with an airport transfer to sort out, or a diver on Koh Tao between boat trips, is deciding from whatever Maps shows them in the moment rather than researching in advance.",
+      ],
+    },
+    {
+      title: "Why this work compounds instead of fading",
+      body: [
+        "Unlike a single ad campaign, which stops producing results the moment spend stops, local search and Maps improvements tend to build on themselves — a complete, active profile, consistent listings and a steady stream of responded-to reviews keep contributing to visibility long after the initial work is done.",
+        "That's also why it's easy to neglect: none of it produces a dramatic before-and-after moment the way a new website or ad campaign does. It's a series of unglamorous, correct decisions — accurate categories, matching addresses, a review answered within a day — that add up over months rather than a single project with a clear finish line.",
+        "It's also work that rewards attention rather than intensity — a business that spends a modest amount of consistent effort on this every month tends to outperform one that does an intense one-off push and then leaves it untouched for a year, even if the one-off push looked more impressive at the time.",
+        "That's part of why we don't treat this as a project with a fixed end date for most clients. An audit and initial cleanup has a clear finish line; the profile, listings and review work that follows it tends to be more useful run as an ongoing, lightweight habit than as a single sprint.",
+        "Seasonality plays a part here too. A business gearing up for high season benefits from having its profile, photos and listings refreshed before the search volume picks up, rather than catching up once the busiest weeks of the year have already started.",
+      ],
+    },
+    {
+      title: "One consistent business across every listing",
+      body: [
+        "A business that has moved, rebranded or simply grown organically over the years often ends up with several versions of itself online — an old address on one directory, a previous name on another, duplicate listings competing with each other on Maps. Each inconsistency is a small signal to both customers and Google that something isn't quite right.",
+        "We treat this as foundational work that supports everything else — a coordinated presence across Koh Phangan, Koh Samui and Koh Tao locations where relevant, consistent enough that a customer or a search engine never has to guess which listing is the real one.",
+        "Consistency matters even for a single-location business, not just multi-location ones — a business that changed its phone number two years ago, for instance, may still have the old number circulating on directories nobody thinks to check, quietly sending calls nowhere.",
+        "For a business genuinely serving customers across Koh Phangan, Koh Samui and Koh Tao — a service business making trips between islands, for example — the same consistency work also means being honest and clear about which areas are actually served, rather than appearing everywhere and disappointing anyone outside the real service area.",
+        "None of this is glamorous, and none of it produces a dramatic reveal moment for a client. It's the kind of work whose absence gets noticed far more than its presence does — right up until a customer can't find you, or finds the wrong version of you.",
+      ],
+    },
   ],
   faqs: [
     { q: "Is this the same as SEO for my website?", a: "It overlaps — Local SEO focuses specifically on local search and Maps visibility, while Technical SEO (in Websites & Digital) covers your website itself." },
@@ -29,6 +64,10 @@ export const businessLocalPresenceHub: HubPage = {
     { q: "How long does it take to see results in local search?", a: "Some fixes (accurate categories, complete profile info) help quickly; ranking improvements typically build over 1–3 months." },
     { q: "Do you manage this across multiple business locations?", a: "Yes, we manage local presence across as many locations as you operate." },
     { q: "Can this work alongside our website and social media?", a: "Yes — local presence, website SEO and social media reinforce each other and we coordinate across all three." },
+    { q: "Does this work the same way on Koh Samui and Koh Tao as on Koh Phangan?", a: "Yes — the same Google Business Profile, Maps and listings work applies on all three islands; Koh Samui's larger visitor numbers and airport traffic mean local competition there is often higher." },
+    { q: "We're a small business with no marketing team — is this too much to take on?", a: "No — this is exactly the situation this service is built for; we handle the ongoing profile, listings and review work so nothing goes stale without anyone noticing." },
+    { q: "Can this help us compete with businesses that have been established longer?", a: "It helps — profile completeness, review responsiveness and listing accuracy are all things a newer business can get right immediately, regardless of how long a competitor has been operating." },
+    { q: "Do you offer this as a one-time project or does it need to be ongoing?", a: "Both — an initial audit and cleanup is a one-time project, though most businesses see the most value from ongoing management, since profiles, listings and reviews all drift again over time without attention." },
   ],
   finalCtaLabel: "Start a Project",
   services: [
@@ -39,14 +78,21 @@ export const businessLocalPresenceHub: HubPage = {
       h1: "Local SEO on Koh Phangan",
       primaryKeyword: "local SEO Koh Phangan",
       secondaryTopics: ["local search visibility", "local citations"],
-      metaTitle: "Local SEO Koh Phangan | CreativeLAB",
+      metaTitle: "Local SEO Koh Phangan",
       metaDescription:
-        "Local SEO for Koh Phangan businesses — technical basics, relevance and visibility across Google Maps and local search.",
+        "Local SEO for businesses on Koh Phangan, Koh Samui and Koh Tao — technical basics, relevance and visibility across Google Maps and local search results.",
       directAnswer:
-        "We improve how Koh Phangan businesses appear in local search and Google Maps — fixing technical basics, aligning your online presence with relevant local search intent, and building the consistent signals Google uses to rank local results.",
+        "We improve how businesses on Koh Phangan, Koh Samui and Koh Tao appear in local search and Google Maps — fixing technical basics, aligning your online presence with relevant local search intent, and building the consistent signals Google uses to rank local results.",
       heroSupport: "Technical fixes and consistent signals that improve local search and Maps visibility.",
       heroImage: images.studio,
       heroImageAlt: "Local search results shown on a mobile phone",
+      overview: [
+        "Local SEO gets talked about as one thing, but it's really a combination of technical fixes, content relevance and consistency signals working together. A business can have a reasonably good website and still be nearly invisible in local search because a handful of technical or structural issues are quietly undermining it — missing location signals, inconsistent business information, or a Google Business Profile that contradicts what the website says.",
+        "We start with an audit rather than assumptions, because the actual blockers vary a lot between businesses — sometimes it's a technical issue on the website, sometimes it's a profile that's been dormant for months, sometimes it's simply that the business has never been consistently listed anywhere beyond Google. The plan follows from what we actually find, not a generic checklist applied regardless of starting point.",
+        "From there, the work is a mix of on-page adjustments to your website — making location and service relevance clear in the actual page content, not just metadata — and the profile and citation work covered by our other Business & Local Presence services. Local SEO is really the strategy layer that ties those pieces together toward one goal: appearing when someone nearby searches for what you do.",
+        "Results here build rather than spike — some fixes show an effect within weeks, but meaningful ranking movement typically takes one to three months, and it compounds the longer it's maintained. This applies to businesses across Koh Phangan, Koh Samui and Koh Tao, though the competitive baseline differs by island and by how many other businesses in your category are already doing this work.",
+      ],
+      industrySlugs: ["tourism-hospitality", "restaurants-food", "wellness-retreats", "villas-real-estate"],
       scope: [
         { title: "Local SEO audit", description: "A review of your current visibility, profile and listings." },
         { title: "On-page local signals", description: "Location and service relevance reflected clearly on your website." },
@@ -81,6 +127,8 @@ export const businessLocalPresenceHub: HubPage = {
         { q: "Do I need a website for Local SEO to work?", a: "It helps significantly — we can also help build one through our Websites & Digital team if you don't have one." },
         { q: "Can this help with multiple service areas, not just one town?", a: "Yes, we can structure your presence to reflect multiple areas you genuinely serve." },
         { q: "How do you report progress?", a: "Regular reporting on visibility, profile performance and any technical fixes completed." },
+        { q: "What's the very first thing you fix in a Local SEO project?", a: "Usually whatever the audit finds is actively hurting visibility — a wrong category, a missing service area, or content that doesn't clearly state what and where you do business." },
+        { q: "Does this help with searches specific to Koh Samui or Koh Tao if we're based on Koh Phangan but serve all three?", a: "Yes — where you genuinely serve multiple islands, we can structure your online presence to reflect that honestly, rather than only ever appearing for one location." },
       ],
       related: [
         { label: "Google Business Profile", href: "/business-local-presence/google-business-profile", description: "The core profile behind local search visibility." },
@@ -96,14 +144,22 @@ export const businessLocalPresenceHub: HubPage = {
       h1: "Google Business Profile Optimization on Koh Phangan",
       primaryKeyword: "Google Business Profile Koh Phangan",
       secondaryTopics: ["GBP optimization", "Google Business"],
-      metaTitle: "Google Business Profile Koh Phangan | GBP Setup",
+      metaTitle: "Google Business Profile Koh Phangan",
       metaDescription:
-        "Google Business Profile setup and optimization for Koh Phangan businesses — categories, photos, posts and reviews managed properly.",
+        "Google Business Profile setup and optimization for businesses on Koh Phangan, Koh Samui and Koh Tao — categories, photos, posts and reviews managed properly.",
       directAnswer:
-        "We set up and optimize Google Business Profiles for Koh Phangan businesses — accurate categories, complete information, regular photos and posts, and a proper review response process, so your profile actively helps visibility instead of sitting dormant.",
+        "We set up and optimize Google Business Profiles for businesses on Koh Phangan, Koh Samui and Koh Tao — accurate categories, complete information, regular photos and posts, and a proper review response process, so your profile actively helps visibility instead of sitting dormant.",
       heroSupport: "A complete, actively-managed Google Business Profile instead of a dormant listing.",
       heroImage: images.studio,
       heroImageAlt: "Google Business Profile shown on a laptop screen",
+      overview: [
+        "A Google Business Profile left on autopilot after initial setup tends to drift — hours go stale after a holiday schedule, photos age, and a backlog of unanswered reviews sits at the top of the listing for anyone considering your business to see first. None of that requires a major failure, just months of nobody checking in.",
+        "We treat the profile as something that needs ongoing attention rather than a one-time setup task: correct categories and attributes that actually match what you offer, regular photo updates so the listing doesn't look abandoned, and posts about real offers, events or news that give Google — and potential customers — a reason to see the business as active.",
+        "Category accuracy in particular gets more attention than it might seem to deserve, because it's one of the clearest signals Google uses to decide which searches your business should appear for. A restaurant listed under a generic category, or a villa agency without the right service attributes, can be quietly excluded from searches it should be winning.",
+        "This is available as a one-time setup or audit for a profile that's never been properly configured, or as ongoing management for a business that would rather not think about it monthly — relevant whether you operate on Koh Phangan, Koh Samui or Koh Tao, and especially useful for businesses managing more than one location's profile at once.",
+        "We also keep a simple change log of what's been updated and when, which matters most when something unexpected happens — a suspended listing, a policy update from Google, or an incorrect public edit — since it's far easier to identify and fix an issue when there's a clear record of the profile's recent history.",
+      ],
+      industrySlugs: ["restaurants-food", "wellness-retreats", "tourism-hospitality", "villas-real-estate"],
       scope: [
         { title: "Profile setup or claim", description: "Claiming and verifying your profile if not already done." },
         { title: "Category & attribute accuracy", description: "Correct categories and attributes that match what you offer." },
@@ -138,6 +194,8 @@ export const businessLocalPresenceHub: HubPage = {
         { q: "Do you handle verification if Google flags the listing?", a: "Yes, we can guide you through re-verification if needed." },
         { q: "Is this useful even if I already rank well?", a: "Yes — an active, well-maintained profile also improves conversion once people find you." },
         { q: "Does this include responding to reviews?", a: "Review monitoring is included; response management is part of our dedicated Reviews service." },
+        { q: "What happens if our profile has incorrect information a competitor or stranger added?", a: "Google allows suggested edits from the public; we monitor for this and correct any inaccurate changes as part of ongoing management." },
+        { q: "Can you set this up before we've even opened?", a: "Yes — claiming and preparing a profile ahead of opening is common, though full verification and visibility typically build once the business is live and active." },
       ],
       related: [
         { label: "Google Maps", href: "/business-local-presence/google-maps", description: "Maps-specific visibility building on the same profile." },
@@ -155,12 +213,20 @@ export const businessLocalPresenceHub: HubPage = {
       secondaryTopics: ["Maps marketing", "local visibility"],
       metaTitle: "Google Maps Optimization Koh Phangan",
       metaDescription:
-        "Google Maps optimization for Koh Phangan businesses — accurate listings, categories, reviews, photos and directions.",
+        "Google Maps optimization for businesses on Koh Phangan, Koh Samui and Koh Tao — accurate listings, categories, reviews, photos and directions information.",
       directAnswer:
-        "We optimize how Koh Phangan businesses appear on Google Maps — accurate pin placement, categories, photos and directions information, so customers can actually find you and trust what they see before arriving.",
+        "We optimize how businesses on Koh Phangan, Koh Samui and Koh Tao appear on Google Maps — accurate pin placement, categories, photos and directions information, so customers and delivery drivers can actually find you and trust what they see before arriving.",
       heroSupport: "Accurate, complete Maps listings that customers can actually find and trust.",
       heroImage: images.studio,
       heroImageAlt: "Business location pinned on Google Maps",
+      overview: [
+        "Maps is often the very first thing a customer interacts with, before your website, your menu or your Instagram — a wrong pin, a vague address or an unclear category can lose a customer before they've formed any impression of the business itself. On islands where street addressing is inconsistent, this problem is more common than it might be elsewhere.",
+        "Pin accuracy is usually the starting point, since it's the most consequential single fix — a pin placed a street or a bay away sends customers, delivery drivers and rideshare navigation to the wrong place entirely, generating the kind of 'we couldn't find you' messages that cost both time and goodwill on a busy day.",
+        "Beyond the pin itself, we work through the surrounding details that shape whether a customer trusts what they're looking at: accurate category selection, clear directions information, and photos that show what arriving actually looks like — details that matter more for first-time visitors than for regulars who already know the way.",
+        "Duplicate listings are a related, quieter problem — old locations, rebrand-era duplicates or third-party auto-generated pins that compete with your real listing for the same searches. Identifying and consolidating these is part of this service, alongside the core pin and listing work, for businesses on Koh Phangan, Koh Samui and Koh Tao alike.",
+        "We also check how a listing appears across different devices and apps, not just the main Google Maps app — the same business can display slightly differently in search results, in a rideshare app, or embedded on a booking platform, and small inconsistencies between them are worth catching before a customer does, particularly for businesses that depend on delivery or airport transfer traffic to find them correctly the first time around.",
+      ],
+      industrySlugs: ["restaurants-food", "tourism-hospitality", "wellness-retreats"],
       scope: [
         { title: "Pin accuracy", description: "Correcting inaccurate or imprecise location pins." },
         { title: "Category optimization", description: "Selecting categories that best match how customers search." },
@@ -194,6 +260,8 @@ export const businessLocalPresenceHub: HubPage = {
         { q: "How long does a pin correction take to update?", a: "Google's review process can take from a few days to a few weeks, depending on the change." },
         { q: "Is this separate from Google Business Profile management?", a: "It's closely related — Maps optimization is one part of a well-managed Google Business Profile." },
         { q: "Can you fix duplicate listings for the same business?", a: "Yes, identifying and merging or removing duplicate listings is part of this service." },
+        { q: "Can you fix a pin for a villa or property that's hard to find by road?", a: "Yes — this is a common issue for villas and remote properties; we work through Google's correction tools and can add clearer directions information to compensate." },
+        { q: "Does an inaccurate pin affect our Local SEO too?", a: "Yes — Maps accuracy is one of the signals that feeds into broader local search visibility, so fixing it supports Local SEO as well." },
       ],
       related: [
         { label: "Google Business Profile", href: "/business-local-presence/google-business-profile", description: "The profile behind your Maps listing." },
@@ -211,12 +279,19 @@ export const businessLocalPresenceHub: HubPage = {
       secondaryTopics: ["customer reviews", "review strategy"],
       metaTitle: "Google Reviews Management Koh Phangan",
       metaDescription:
-        "Review request process, response management and monitoring for Koh Phangan businesses on Google and other platforms.",
+        "Review request process, response management and monitoring for businesses on Koh Phangan, Koh Samui and Koh Tao, on Google and other relevant platforms.",
       directAnswer:
-        "We help Koh Phangan businesses build a steady flow of genuine reviews and respond to them properly — a simple request process for happy customers, thoughtful responses (including to criticism), and ongoing monitoring across platforms.",
+        "We help businesses on Koh Phangan, Koh Samui and Koh Tao build a steady flow of genuine reviews and respond to them properly — a simple request process for happy customers, thoughtful responses, including to criticism, and ongoing monitoring across platforms that matter to your business.",
       heroSupport: "A steady request process and thoughtful responses — never fabricated reviews.",
       heroImage: images.team,
       heroImageAlt: "Business owner reviewing customer feedback",
+      overview: [
+        "Reviews influence both customers and Google, but the businesses that handle them well aren't the ones with the most five-star ratings — they're the ones with a consistent, honest process for asking for reviews and a thoughtful way of responding to whatever comes in, including the reviews they'd rather not have gotten.",
+        "The request side is simpler than it's often made out to be: asking happy customers at the right moment, through a straightforward, non-pushy process, tends to outperform sporadic or awkward asking by a wide margin. We build that process around your actual customer flow rather than a generic template that doesn't fit how your business operates.",
+        "Response management matters just as much as the requests. A thoughtful, professional reply to a negative review — acknowledging the issue without over-apologizing or getting defensive — is often visible to far more people than the original review itself, and it's frequently what turns a complaint into evidence that the business takes feedback seriously.",
+        "We never fabricate or purchase reviews — every review we help generate comes from an actual customer, asked honestly, because manufactured reviews violate platform policy and tend to be spotted eventually anyway, undermining the credibility this whole service is meant to build. This applies the same way for businesses on Koh Phangan, Koh Samui or Koh Tao, across whichever review platforms matter most to your customers and their guests.",
+      ],
+      industrySlugs: ["restaurants-food", "wellness-retreats", "hotels-resorts", "tourism-hospitality"],
       scope: [
         { title: "Review request process", description: "A simple, ethical system for asking satisfied customers to leave a review." },
         { title: "Response management", description: "Timely, professional responses to both positive and negative reviews." },
@@ -245,12 +320,14 @@ export const businessLocalPresenceHub: HubPage = {
         { title: "Businesses recovering reputation", description: "Handling a run of negative reviews professionally." },
       ],
       faqs: [
-        { q: "Can you get us fake or paid reviews?", a: "No — we never fabricate or purchase reviews; this violates platform policy and our own Truth Rule. We only build a genuine request process." },
+        { q: "Can you get us fake or paid reviews?", a: "No — we only ever build a genuine request process that asks real customers. Fabricated or purchased reviews break platform rules and, if discovered, damage trust far more than a few extra reviews are worth." },
         { q: "How do you handle an unfair or false negative review?", a: "We draft a calm, professional response and can advise on flagging it to the platform if it violates guidelines — we don't fabricate a rebuttal." },
         { q: "Do I need to approve every response before it's posted?", a: "We recommend approval for negative or sensitive reviews; routine positive responses can be handled directly." },
         { q: "Which platforms do you monitor besides Google?", a: "We can include TripAdvisor, Facebook and relevant booking platforms depending on your business type." },
         { q: "How quickly do you respond to new reviews?", a: "Typically within 24–48 hours, prioritizing negative reviews for faster response." },
         { q: "Can this help improve an already-damaged reputation?", a: "It's part of the solution — see our Reputation service for a more complete approach." },
+        { q: "What if we get a review that's clearly from someone who was never a customer?", a: "We can advise on flagging it to the platform if it violates guidelines; we don't fabricate a rebuttal or dispute it dishonestly." },
+        { q: "Can you help us catch up on a backlog of old unanswered reviews?", a: "Yes — clearing a backlog with thoughtful, individual responses is a common starting point before moving into ongoing monitoring." },
       ],
       related: [
         { label: "Reputation", href: "/business-local-presence/reputation", description: "Broader reputation monitoring and management." },
@@ -268,12 +345,21 @@ export const businessLocalPresenceHub: HubPage = {
       secondaryTopics: ["brand reputation", "review management"],
       metaTitle: "Online Reputation Management Koh Phangan",
       metaDescription:
-        "Reputation monitoring, response and consistency management for Koh Phangan businesses across review platforms and social media.",
+        "Reputation monitoring, response and consistency management for businesses on Koh Phangan, Koh Samui and Koh Tao, across review platforms and social media.",
       directAnswer:
-        "We monitor and manage online reputation for Koh Phangan businesses across reviews, social media and search — flagging issues early, coordinating consistent, honest responses, and escalating anything that needs your direct attention.",
+        "We monitor and manage online reputation for businesses on Koh Phangan, Koh Samui and Koh Tao across reviews, social media and search — flagging issues early, coordinating consistent, honest responses, and escalating anything that genuinely needs your direct attention and judgment.",
       heroSupport: "Monitoring, response and escalation that protects your reputation across every platform.",
       heroImage: images.team,
       heroImageAlt: "Team reviewing brand reputation across platforms",
+      overview: [
+        "Reputation management sits a level above individual reviews — it's about how a business is perceived across everywhere someone might encounter it: Google, social media, mentions in local groups or forums, and the reviews themselves. A business can handle reviews well and still miss a reputation issue building somewhere else entirely.",
+        "Monitoring is the foundation of this — tracking mentions and reviews across the platforms that actually matter for your business, so an issue gets noticed while it's still small and manageable rather than after it's already shaped how a chunk of potential customers see you.",
+        "Not everything gets handled the same way. Routine items get a consistent, on-brand response; anything legally sensitive, factually disputed, or genuinely requiring a decision only you can make gets escalated to you directly rather than answered on your behalf without context. That distinction is what keeps this service useful rather than risky.",
+        "This is most valuable for businesses with an established reputation worth protecting, or those working through the aftermath of a specific incident or a run of difficult reviews — relevant for operations across Koh Phangan, Koh Samui and Koh Tao, and particularly for multi-location businesses where a consistent public voice matters across every venue.",
+        "We also draw a clear line between managing a reputation and manufacturing one. Coordinated, consistent responses are about presenting an honest, professional face everywhere your business shows up — not about suppressing legitimate criticism or manufacturing an appearance that doesn't match reality.",
+        "For businesses that already work with us on reviews specifically, reputation management is the layer above that — the same honesty principle applies, just extended across social media, search results and wherever else your business might come up in conversation online, whether that's a specific mention or a general pattern worth tracking.",
+      ],
+      industrySlugs: ["hotels-resorts", "restaurants-food", "wellness-retreats"],
       scope: [
         { title: "Cross-platform monitoring", description: "Tracking mentions and reviews across Google, social media and relevant platforms." },
         { title: "Response coordination", description: "Consistent tone and message across every response." },
@@ -307,6 +393,8 @@ export const businessLocalPresenceHub: HubPage = {
         { q: "Can you help after a specific reputation incident?", a: "Yes — we can build a focused response plan for a particular situation." },
         { q: "Do you monitor competitor mentions too?", a: "This can be scoped separately if competitive monitoring is useful to you." },
         { q: "How often will I receive updates?", a: "Regular reporting, plus immediate flagging of anything urgent." },
+        { q: "Do you monitor mentions in local Facebook groups or forums, not just review platforms?", a: "This can be included where it's genuinely useful to your business — we'll scope which platforms make sense rather than monitoring everything by default." },
+        { q: "How is a reputation issue escalated to us in practice?", a: "We flag it directly and promptly, with context on what happened and what response we'd recommend, so you can make the final call quickly." },
       ],
       related: [
         { label: "Reviews", href: "/business-local-presence/reviews", description: "The review-specific side of reputation management." },
@@ -322,14 +410,23 @@ export const businessLocalPresenceHub: HubPage = {
       h1: "Business Listings Management on Koh Phangan",
       primaryKeyword: "business listings Koh Phangan",
       secondaryTopics: ["local citations", "directories"],
-      metaTitle: "Business Listings Koh Phangan | Local Citations",
+      metaTitle: "Business Listings Koh Phangan | Citations",
       metaDescription:
-        "Business listing and citation management for Koh Phangan businesses — consistent NAP data across relevant directories.",
+        "Business listing and citation management for businesses on Koh Phangan, Koh Samui and Koh Tao — consistent NAP data across relevant online directories.",
       directAnswer:
-        "We manage business listings and citations for Koh Phangan businesses — making sure your name, address and phone number are consistent across relevant directories, and cleaning up duplicate or outdated listings that confuse customers and search engines alike.",
+        "We manage business listings and citations for businesses on Koh Phangan, Koh Samui and Koh Tao — making sure your name, address and phone number are consistent across relevant directories, and cleaning up duplicate or outdated listings that confuse customers and search engines alike.",
       heroSupport: "Consistent business information across every directory that matters.",
       heroImage: images.studio,
       heroImageAlt: "Business directory listing shown on a screen",
+      overview: [
+        "Business listings are one of the least visible parts of local marketing and one of the easiest to let go wrong. Beyond Google, a business's name, address and phone number often live scattered across dozens of directories, some claimed deliberately, many generated automatically by third parties without anyone from the business ever logging in.",
+        "Inconsistency here is more than an aesthetic problem. When your address or phone number differs across even a few of these listings, it creates genuine confusion for customers trying to reach you and a weaker, less trustworthy signal for search engines trying to confirm your business actually exists where you say it does.",
+        "We focus the cleanup on directories that are actually relevant to your business type and location rather than blasting updates across a generic mass list — quality of listing matters more than quantity, and a handful of accurate, relevant citations outperforms dozens of irrelevant ones nobody checks.",
+        "Duplicate listings are a common complication, usually left behind by a past rebrand, relocation or change of ownership, and untangling them is part of the same project. This work applies the same way for a business on Koh Phangan, Koh Samui or Koh Tao, and it's often the quiet foundation that makes every other piece of local visibility work more effective.",
+        "We also keep the audit findings on record after the initial cleanup, so if a new duplicate or an inaccurate listing appears later — which does happen, usually from a third-party directory re-scraping old data — we can identify and correct it quickly rather than starting the search from scratch.",
+        "This service is often one of the least exciting things we do for a client and one of the most consistently useful — the businesses that skip it tend to be the ones later confused about why their profile or website work isn't translating into better visibility, when the real cause is scattered, conflicting data elsewhere.",
+      ],
+      industrySlugs: ["restaurants-food", "villas-real-estate", "wellness-retreats", "tourism-hospitality"],
       scope: [
         { title: "Listing audit", description: "Identify where your business is currently listed, correctly or not." },
         { title: "NAP consistency", description: "Aligning name, address and phone number across every listing." },
@@ -363,6 +460,8 @@ export const businessLocalPresenceHub: HubPage = {
         { q: "How long does a full listings cleanup take?", a: "Typically 2–4 weeks, since some directories require manual verification." },
         { q: "Do you monitor for new duplicate listings going forward?", a: "Periodic monitoring can be included in an ongoing Local SEO arrangement." },
         { q: "Is this needed if I only operate on Google/Maps?", a: "It's still useful — inconsistent data elsewhere can still confuse customers and indirectly affect trust signals." },
+        { q: "How do you find every place our business is listed?", a: "We run a structured search across major directories and data aggregators relevant to your business type, rather than relying on manual guessing." },
+        { q: "Will you tell us which listings were actually wrong before fixing them?", a: "Yes — the audit gives you a clear picture of what was inaccurate or duplicated before any corrections are made." },
       ],
       related: [
         { label: "Local SEO", href: "/business-local-presence/local-seo", description: "The broader strategy this work supports." },

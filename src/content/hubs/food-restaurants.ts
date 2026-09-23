@@ -8,11 +8,11 @@ export const foodRestaurantsHub: HubPage = {
   priority: "P0",
   h1: "Restaurant Marketing on Koh Phangan",
   primaryKeyword: "restaurant marketing Koh Phangan",
-  metaTitle: "Restaurant Marketing Koh Phangan | Food Photography & Ads",
+  metaTitle: "Restaurant Marketing Koh Phangan",
   metaDescription:
-    "Food photography, menu design, social media and advertising for restaurants and cafés on Koh Phangan — from a single shoot to full marketing.",
+    "Food photography, menu design, social media and advertising for restaurants and cafés on Koh Phangan, Koh Samui and Koh Tao — from one shoot to full marketing.",
   directAnswer:
-    "CreativeLAB helps restaurants and cafés on Koh Phangan get found and fill tables — food and menu photography, styling, menu design, social media, advertising and websites built around the full customer journey, from discovery to reservation.",
+    "CreativeLAB helps restaurants and cafés on Koh Phangan, Koh Samui and Koh Tao get found and fill tables — food and menu photography, styling, menu design, social media, advertising and websites built around the full customer journey, from the first search to a booked table.",
   heroSupport:
     "Food photography, menu design, social media and advertising for restaurants that want fuller tables, not just nicer photos.",
   heroImage: images.food,
@@ -21,6 +21,42 @@ export const foodRestaurantsHub: HubPage = {
   editorialBody: [
     "On Koh Phangan, most diners decide where to eat from Google Maps photos, Instagram and a friend's recommendation, often within minutes of getting hungry. A restaurant's visual presence carries more weight than its menu wording.",
     "We treat food photography, menu design, social content and advertising as one connected system rather than separate purchases — so a dish photographed for the menu also works on Instagram, Google Business Profile and in paid ads.",
+    "We're based on Koh Phangan and travel to Koh Samui and Koh Tao for shoots and campaign work as needed. Most restaurant clients on Samui and Tao start with a single photography project before moving into ongoing content or advertising; travel is by boat, and a travel fee may apply for on-site work off Koh Phangan.",
+    "None of this replaces the fundamentals covered in our Business & Local Presence work — an accurate Google Business Profile and consistent listings still matter for a restaurant as much as for any other local business searched by name or by 'near me'. We treat the two as complementary: the visual and content side sits here, the underlying visibility infrastructure sits there, and most restaurant clients eventually use both.",
+    "Every restaurant project here follows the same broad path: understand what's actually driving or holding back bookings, decide what to produce and promote, produce it to a professional standard, and get it in front of the right audience at the right time. The specific mix of photography, design, content and advertising changes from project to project, but that sequence doesn't.",
+    "We'll also say plainly when a project doesn't need every service on this page. A quiet, well-established café might only ever need a photography refresh once a year and steady social content; a new opening chasing attention across three islands might need most of the list at once. The brief follows the restaurant, not the other way around, and we'd rather scope a smaller, honest project than sell a bigger one nobody needs.",
+  ],
+  sections: [
+    {
+      title: "How diners actually choose where to eat",
+      body: [
+        "A hungry visitor on Koh Phangan, Koh Samui or Koh Tao rarely opens a search engine and reads reviews line by line. They scroll Google Maps photos, glance at an Instagram grid, and decide in under a minute — often based on how appetizing the first few images look rather than what the menu actually says.",
+        "That behavior means a restaurant's visual presence does more selling than its copywriting. A single unappetizing or blurry photo on a Google Business Profile can cost a booking before a diner ever reads the menu description underneath it.",
+        "It also means the three islands don't behave identically. Koh Samui's larger, more developed tourist base and airport bring a wider mix of first-time visitors comparing options quickly; Koh Tao's diving crowd tends to eat on a tighter schedule around dive trips; Koh Phangan's mix of long-stay travellers, wellness guests and party crowds each search differently. We plan content with those differences in mind rather than treating every island the same.",
+        "Long-stay visitors and residents on any of the three islands also behave differently to someone passing through for a day — they return to the same handful of restaurants repeatedly rather than picking once and moving on, which means consistency across visits, not just a strong first impression, is what keeps a table booked from one week to the next.",
+        "None of this works if the photography oversells what's actually served. An over-edited photo that doesn't match the plate that arrives creates the opposite of the trust a restaurant needs, whatever short-term attention it generates — so we shoot for accuracy as much as for appeal.",
+      ],
+    },
+    {
+      title: "One system, not a stack of separate purchases",
+      body: [
+        "Food photography, menu design, social content and advertising are usually bought as unrelated one-off projects — a photographer here, a freelance designer there, an ad agency somewhere else — which means the same dish gets shot, retouched and formatted differently every time it's used.",
+        "We build these as one connected system instead. A dish photographed for the menu is composed and delivered so it also works as an Instagram post, a Google Business Profile photo and a paid ad creative, without a second shoot or a mismatched style.",
+        "That coordination is also why the services on this page link directly to each other — food photography feeds menu design, menu design and photography feed social content, and social content feeds advertising creative — so a restaurant can start with one project and expand without starting over.",
+        "For a restaurant owner already managing a kitchen, front of house and everything else that comes with running a venue, having one team responsible for the whole visual and marketing picture also means fewer handoffs to manage personally — one brief, one point of contact, one consistent standard, rather than chasing multiple freelancers toward a result that never quite matches.",
+        "Most clients don't start with everything at once. A typical starting point is a single photography or menu project, with social, advertising or a website added later once the initial work is in place and its value is clear — the system builds incrementally rather than requiring a large commitment up front.",
+      ],
+    },
+    {
+      title: "Built around a restaurant's real calendar",
+      body: [
+        "Restaurant demand on these islands isn't flat. High season, low season and event periods — Full Moon Party crowds on Koh Phangan among them — change how busy a kitchen is and what's worth promoting in a given month.",
+        "We plan shoots, content calendars and advertising pushes around that calendar rather than a generic monthly template, so a menu launch, a quiet-season promotion or a seasonal dish gets the right kind of attention at the right time.",
+        "That planning shows up concretely in what gets prioritized month to month — a photography refresh before high season starts, a social push around a specific event, or an advertising campaign timed to a known quiet period rather than run continuously at the same level year-round.",
+        "We don't promise a specific increase in bookings from any single piece of this. What we can say is that a restaurant showing up consistently, with appetizing photography and an active presence, is competing on equal footing with the businesses around it that do the same, rather than starting from behind.",
+        "Getting ahead of a busy period matters more here than most restaurants expect — a photography refresh or content push landing after high season has already started is worth less than the same work done a few weeks earlier, while the calendar still had room to plan around it.",
+      ],
+    },
   ],
   faqs: [
     { q: "Do you only take photos, or can you help with the whole marketing side?", a: "Both — from a single food photography shoot through to full restaurant marketing including social and advertising." },
@@ -29,6 +65,10 @@ export const foodRestaurantsHub: HubPage = {
     { q: "Can you manage our Google Business Profile too?", a: "Yes, through our Business & Local Presence hub — it pairs closely with restaurant marketing." },
     { q: "Do you offer ongoing monthly support, not just one-off projects?", a: "Yes — most restaurant clients move to a monthly content and marketing arrangement after an initial project." },
     { q: "Can you shoot delivery-platform-ready photos too?", a: "Yes — we deliver images sized and styled appropriately for delivery apps as well as your own menu and social channels." },
+    { q: "Do you work with restaurants on Koh Samui and Koh Tao, or only Koh Phangan?", a: "We're based on Koh Phangan and work with restaurants across all three islands — Koh Samui and Koh Tao projects usually start with a photography or content shoot, with travel arranged by boat." },
+    { q: "Can you help plan content and offers around Full Moon Party or high season?", a: "Yes — we plan restaurant content and campaigns around the island's known event and tourist-season patterns, including Full Moon Party periods on Koh Phangan." },
+    { q: "Do you work with bars and cafés, not just full-service restaurants?", a: "Yes — the same photography, design, social and advertising services apply to cafés, bars and other food and drink venues." },
+    { q: "Do you offer packages that combine several of these services together?", a: "Yes — most restaurant projects combine two or more services, for example photography with menu design, or social content with advertising, and we'll scope a combined project rather than pricing each piece in isolation, which is usually where the most value shows up." },
   ],
   finalCtaLabel: "Start a Project",
   services: [
@@ -39,14 +79,21 @@ export const foodRestaurantsHub: HubPage = {
       h1: "Food Photography on Koh Phangan",
       primaryKeyword: "food photography Koh Phangan",
       secondaryTopics: ["commercial food photography"],
-      metaTitle: "Food Photography Koh Phangan | CreativeLAB",
+      metaTitle: "Food Photography Koh Phangan | Menus & Ads",
       metaDescription:
-        "Commercial food photography for Koh Phangan restaurants — styling, lighting and formats ready for menus, delivery apps and social media.",
+        "Commercial food photography for restaurants and cafés on Koh Phangan, Koh Samui and Koh Tao — styling, lighting and formats ready for menus and social media.",
       directAnswer:
-        "We photograph food for restaurants and cafés on Koh Phangan — styled, well-lit images ready for menus, delivery platforms and social media, shot to make dishes look genuinely appetizing rather than generic.",
+        "We photograph food for restaurants and cafés on Koh Phangan, Koh Samui and Koh Tao — styled, well-lit images ready for menus, delivery platforms and social media, shot to make each dish look genuinely appetizing rather than generic or over-processed.",
       heroSupport: "Styled, appetizing food photography ready for menus, delivery apps and social media.",
       heroImage: images.food,
       heroImageAlt: "Chef's dish styled and photographed for a restaurant menu",
+      overview: [
+        "Most restaurant photography problems aren't about equipment — they're about not treating each dish as its own small creative decision. A curry looks best from a different angle and light than a stacked burger or a plated dessert, and photographing an entire menu with one formula produces a set that's technically fine and visually flat. We plan lighting, angle and composition dish by dish, so the sauce, the char, the garnish — whatever makes that particular plate look genuinely appetizing — actually reads in the final image.",
+        "The shoot happens on-site at your restaurant rather than in a studio, for two practical reasons: dishes are fresher when they don't have to travel, and the lighting reflects the space your guests actually sit in. That matters most for restaurants where atmosphere is part of the appeal — a moody evening dining room photographs differently to a bright daytime café, and the images should look like your restaurant, not a generic food-photography backdrop.",
+        "Because every image is shot and delivered in multiple formats from the same session, one afternoon of photography ends up doing several jobs — the printed menu, the Google Business Profile gallery, a delivery-app listing, an Instagram post — instead of paying for separate shoots each time a new channel needs new images. That reuse is usually where the real value of professional food photography shows up.",
+        "We shoot restaurants and cafés across Koh Phangan, Koh Samui and Koh Tao. Most sessions happen on Koh Phangan where we're based; Samui and Tao shoots are arranged around your service hours and travel by boat, with a travel fee that applies for on-site work off-island — we'll quote that alongside the shoot itself rather than folding it in as a surprise.",
+      ],
+      industrySlugs: ["restaurants-food", "hotels-resorts", "tourism-hospitality"],
       scope: [
         { title: "Styling consultation", description: "Guidance on plating and presentation before the shoot." },
         { title: "Lighting & composition", description: "Professional lighting suited to each dish's texture and color." },
@@ -81,6 +128,8 @@ export const foodRestaurantsHub: HubPage = {
         { q: "Can you match our existing brand's photography style?", a: "Yes, we'll review any existing photography and match tone and styling." },
         { q: "How long until we receive final images?", a: "Typically 3–5 business days after the shoot." },
         { q: "Can this be combined with menu design?", a: "Yes, through our Menu Design service using the same photography." },
+        { q: "Can you shoot at our restaurant on Koh Samui or Koh Tao?", a: "Yes — we travel to Koh Samui and Koh Tao by boat for photography shoots; a travel fee applies and we'll quote it alongside the shoot." },
+        { q: "Do you shoot dinner service or evening ambience, not just daylight dishes?", a: "Yes — evening and low-light shoots are common for restaurants where atmosphere is part of the appeal; we plan lighting for the actual conditions guests see." },
       ],
       related: [
         { label: "Menu Photography", href: "/food-restaurants/menu-photography", description: "A focused shoot for a printed or digital menu." },
@@ -96,14 +145,22 @@ export const foodRestaurantsHub: HubPage = {
       h1: "Menu Photography on Koh Phangan",
       primaryKeyword: "menu photography Koh Phangan",
       secondaryTopics: ["dish photography", "delivery menu"],
-      metaTitle: "Menu Photography Koh Phangan | Print & Delivery Ready",
+      metaTitle: "Menu Photography Koh Phangan | Print & Delivery",
       metaDescription:
-        "A consistent, platform-ready photo set for your printed or digital menu and delivery app listings on Koh Phangan.",
+        "A consistent, platform-ready photo set for your printed or digital menu and delivery listings on Koh Phangan, Koh Samui or Koh Tao, shot to one standard.",
       directAnswer:
-        "We shoot a consistent, complete photo set for your printed or digital menu — every dish photographed to the same standard, delivered in the exact formats your menu design and delivery platforms need.",
+        "We shoot a consistent, complete photo set for your printed or digital menu — every dish photographed to the same standard, delivered in the exact formats your menu design and delivery platforms need, whether your restaurant is on Koh Phangan, Koh Samui or Koh Tao.",
       heroSupport: "A complete, consistent photo set built specifically for your menu.",
       heroImage: images.food,
       heroImageAlt: "Menu items photographed in a consistent style",
+      overview: [
+        "A menu photographed piecemeal — some dishes shot well, others added later in a different style — reads as inconsistent even if every individual photo is decent. Menu Photography exists specifically to avoid that: every item shot to the same lighting, angle and color standard in one coordinated project, so the finished menu feels considered rather than assembled over time.",
+        "We start from your actual item list, not a rough estimate, and sequence the shoot so nothing gets missed — mains, sides, drinks, desserts and specials all included if they're on the menu. For larger menus, this usually runs across one or two sessions rather than a single rushed day, so quality doesn't drop toward the end of the list.",
+        "The output is organized specifically for how menus get used: high-resolution files for print, web-optimized versions for a digital or QR menu, and cropped sets matched to delivery-app image requirements. That structure matters more than it sounds — a photo that looks fine on a printed page can be the wrong shape or resolution for a delivery listing, and vice versa.",
+        "This service pairs directly with Menu Design — the same photography becomes the visual backbone of a redesigned menu — and it's used by restaurants on Koh Phangan, Koh Samui and Koh Tao at points where the existing photo set has become mismatched, outdated, or simply doesn't exist yet.",
+        "We also keep a simple internal record of exactly how each shoot was lit and styled, which matters more than it might sound — it's what lets a later addition to the menu get photographed months afterward and still slot into the existing set without anyone noticing where the two shoots meet, even years apart and with a different chef in the kitchen.",
+      ],
+      industrySlugs: ["restaurants-food", "hotels-resorts"],
       scope: [
         { title: "Full-menu coverage", description: "Every menu item photographed to the same visual standard." },
         { title: "Consistent framing", description: "A repeatable angle and crop so the menu feels cohesive." },
@@ -138,6 +195,8 @@ export const foodRestaurantsHub: HubPage = {
         { q: "What file formats do we receive?", a: "High-resolution files for print plus web-optimized versions for digital and delivery use." },
         { q: "Can you shoot drinks and desserts too?", a: "Yes, the full menu including drinks, desserts and specials." },
         { q: "How is this different from general Food Photography?", a: "Menu Photography specifically covers a complete, consistent set for a menu; Food Photography can be a smaller or more editorial selection." },
+        { q: "Do you photograph specials and limited-time items too?", a: "Yes — specials can be included in the main session or added in a short follow-up shoot matched to the existing set." },
+        { q: "Can you match a menu photo set for a restaurant with multiple locations?", a: "Yes — we can shoot each location separately while keeping the same visual standard across every venue." },
       ],
       related: [
         { label: "Menu Design", href: "/food-restaurants/menu-design", description: "Turn the photography into a finished menu." },
@@ -153,14 +212,22 @@ export const foodRestaurantsHub: HubPage = {
       h1: "Food Styling on Koh Phangan",
       primaryKeyword: "food stylist Koh Phangan",
       secondaryTopics: ["food styling", "commercial styling"],
-      metaTitle: "Food Stylist Koh Phangan | Commercial Food Styling",
+      metaTitle: "Food Stylist Koh Phangan | Commercial Styling",
       metaDescription:
-        "Professional food styling for commercial photography and video on Koh Phangan — composition, props and shoot preparation.",
+        "Professional food styling for commercial photography and video on Koh Phangan, Koh Samui and Koh Tao — composition, props and careful shoot preparation.",
       directAnswer:
-        "We provide food styling for commercial photography and video shoots on Koh Phangan — plating composition, prop selection and shoot preparation that makes food photograph well without looking artificial.",
+        "We provide food styling for commercial photography and video shoots for restaurants on Koh Phangan, Koh Samui and Koh Tao — plating composition, prop selection and shoot preparation that makes food photograph and film well without looking artificial or overworked.",
       heroSupport: "Plating, props and preparation that make food photograph and film well.",
       heroImage: images.food,
       heroImageAlt: "Food stylist arranging a dish before a photo shoot",
+      overview: [
+        "Styling is the difference between a technically correct photo and one that makes someone hungry. It's not about making food look unreal — over-styled, glossy food photography reads as fake and can work against a restaurant, especially when delivery customers compare the photo to what arrives. Our approach favors composition and freshness cues that are honest to the dish.",
+        "Preparation happens before the camera ever comes out: plating adjustments, checking how a dish holds up under continuous lighting, and having backup portions ready for dishes that wilt or cool quickly. That prep work is most of what separates a smooth shoot day from one where the crew is fighting melting ice cream or drying garnish between takes.",
+        "Styling continues throughout the shoot, not just at the start — small adjustments between shots as the food, light or angle changes. On a longer session this ongoing attention is often what keeps quality consistent from the first dish to the last, rather than the shoot visibly tiring out toward the end.",
+        "This is available bundled into a Food Photography or Menu Photography project with our own photographer, or as a standalone service if you're working with an external photographer or videographer — including for shoots on Koh Samui or Koh Tao, where travel is arranged alongside the rest of the production.",
+        "Where a shoot involves both a photographer and a stylist from our side, the two work from the same brief and shot list from the start, rather than styling being bolted onto a session planned without it — which tends to be where awkward, rushed styling decisions happen on other shoots, and where the finished images end up looking the least coherent.",
+      ],
+      industrySlugs: ["restaurants-food", "hotels-resorts", "events"],
       scope: [
         { title: "Plating composition", description: "Arranging each dish for the strongest possible shot." },
         { title: "Prop selection", description: "Tableware, linens and backgrounds suited to your brand." },
@@ -195,6 +262,8 @@ export const foodRestaurantsHub: HubPage = {
         { q: "How long does styling take per dish?", a: "A few minutes per dish once prep is done, though the first setup of a shoot takes longer." },
         { q: "Can you style drinks and desserts too?", a: "Yes, styling covers the full range of menu items." },
         { q: "Do you style for delivery-app photography differently?", a: "Yes — delivery photography favors clarity and accuracy over highly artistic composition." },
+        { q: "Will styled food still look like our actual dishes?", a: "Yes — styling enhances real plating and freshness rather than substituting props or inedible stand-ins; what's photographed is what you serve." },
+        { q: "Can you style a shoot on Koh Samui or Koh Tao, not just Koh Phangan?", a: "Yes — styling travels with the shoot itself; we coordinate timing and any travel fee alongside the photographer or videographer." },
       ],
       related: [
         { label: "Food Photography", href: "/food-restaurants/food-photography", description: "The photography this styling supports." },
@@ -210,14 +279,23 @@ export const foodRestaurantsHub: HubPage = {
       h1: "Restaurant Menu Design on Koh Phangan",
       primaryKeyword: "restaurant menu design Koh Phangan",
       secondaryTopics: ["menu graphic design", "digital menu"],
-      metaTitle: "Restaurant Menu Design Koh Phangan | Print & Digital",
+      metaTitle: "Restaurant Menu Design Koh Phangan",
       metaDescription:
-        "Menu design for Koh Phangan restaurants — print and digital layouts built for readability and brand consistency.",
+        "Menu design for restaurants on Koh Phangan, Koh Samui and Koh Tao — print and digital layouts built for readability and consistent brand presentation.",
       directAnswer:
-        "We design printed and digital menus for Koh Phangan restaurants — layouts built for readability, priced items that guide attention sensibly, and a look consistent with your restaurant's branding.",
+        "We design printed and digital menus for restaurants on Koh Phangan, Koh Samui and Koh Tao — layouts built for readability, priced items that guide attention sensibly, and a look consistent with your restaurant's branding across every format guests see.",
       heroSupport: "Menu layouts built for readability and brand consistency, print or digital.",
       heroImage: images.studio,
       heroImageAlt: "Restaurant menu design laid out on a desk",
+      overview: [
+        "A menu is a sales document diners read under time pressure, usually on a phone or in low restaurant lighting, deciding what to order within a minute or two. Layout and hierarchy do real work here — where the eye lands first, how prices are presented, how categories are grouped — and a cluttered or inconsistent layout makes that decision harder than it needs to be.",
+        "We design around your actual content rather than dropping dish names into a template: category structure, description length, and how much visual weight photography gets are all decided based on your menu's specific items and your restaurant's identity, not a one-size format reused across clients.",
+        "Typography and pricing presentation get particular attention, since poor hierarchy here is one of the most common menu problems we see — prices fighting for attention against dish names, or descriptions so dense diners skip reading them. Getting this right is a small design decision with a genuinely commercial effect on what gets ordered.",
+        "Every menu is delivered as both print-ready files for your printer of choice and a digital or QR-friendly version for phone browsing, so a single design project covers both a physical reprint and a digital menu — useful for restaurants on Koh Phangan, Koh Samui or Koh Tao adjusting to more guests scanning a QR code than picking up a printed card.",
+        "We also think about what a menu doesn't need to say. An overcrowded menu with too many dishes or too much descriptive text often performs worse than a shorter, more confidently edited one — part of the design conversation is occasionally recommending what to cut, not just how to lay out what's there.",
+        "For rebrands specifically, the menu is usually one of the first pieces of a new identity a returning guest actually sees up close, so it carries more weight in that transition than it might get credit for — a mismatched or dated-looking menu can undercut an otherwise well-executed rebrand elsewhere.",
+      ],
+      industrySlugs: ["restaurants-food", "hotels-resorts", "brands-lifestyle"],
       scope: [
         { title: "Layout design", description: "A clear structure that guides diners through the menu logically." },
         { title: "Typography & hierarchy", description: "Readable type and pricing that doesn't fight for attention." },
@@ -252,6 +330,8 @@ export const foodRestaurantsHub: HubPage = {
         { q: "Do you handle the printing?", a: "We prepare print-ready files; printing itself is usually handled by a local printer of your choice." },
         { q: "Can this include photography?", a: "Yes, paired with our Food or Menu Photography for a fully photographed menu." },
         { q: "How long does a menu design project take?", a: "Typically 1–2 weeks depending on content readiness and revision rounds." },
+        { q: "Can you redesign just our drinks or dessert menu, not the whole thing?", a: "Yes — a focused redesign of one section or menu is a common, smaller-scope project." },
+        { q: "Do you design menus in more than one language?", a: "Yes — we can lay out a multilingual menu; translated text is typically provided or reviewed by you for accuracy." },
       ],
       related: [
         { label: "Menu Photography", href: "/food-restaurants/menu-photography", description: "Photography to include in the design." },
@@ -267,14 +347,23 @@ export const foodRestaurantsHub: HubPage = {
       h1: "Restaurant Social Media on Koh Phangan",
       primaryKeyword: "restaurant social media Koh Phangan",
       secondaryTopics: ["Instagram", "Reels", "content"],
-      metaTitle: "Restaurant Social Media Koh Phangan | Instagram & Reels",
+      metaTitle: "Restaurant Social Media Koh Phangan",
       metaDescription:
-        "Social media management for Koh Phangan restaurants — content calendar, production and community management built for fuller tables.",
+        "Social media management for restaurants and cafés on Koh Phangan, Koh Samui and Koh Tao — content, production and community management for fuller tables.",
       directAnswer:
-        "We manage social media for restaurants and cafés on Koh Phangan — a content calendar built around your menu, events and offers, produced and published consistently, with community management that keeps diners engaged.",
+        "We manage social media for restaurants and cafés on Koh Phangan, Koh Samui and Koh Tao — a content calendar built around your menu, events and offers, produced and published consistently, with community management that keeps diners engaged between visits.",
       heroSupport: "A content calendar, production and community management built for a busy restaurant.",
       heroImage: images.social,
       heroImageAlt: "Restaurant social media content being reviewed",
+      overview: [
+        "Restaurant social media succeeds or fails on consistency more than on any single viral post. A feed that posts sporadically — active for a week around an opening, then quiet for a month — signals a business that isn't really open for attention, regardless of food quality. We build a calendar that keeps posting steady through busy and quiet periods alike.",
+        "Content is planned around what's actually happening at your restaurant: new dishes, events, seasonal changes and offers, rather than generic food-account content that could belong to any restaurant anywhere. That specificity is what turns a follower into someone who actually decides to visit because of what they saw.",
+        "Community management — replying to comments and messages in your voice — runs alongside the content calendar, because an account that posts well but ignores its inbox still loses potential bookings to slow or absent replies, especially from travellers messaging to check hours or availability before visiting.",
+        "We coordinate this with your other marketing rather than running it in isolation — the same photography feeds both organic posts and paid ads, and a Google Business Profile or website update gets reflected in what we post, so a diner sees a consistent restaurant across every channel, whether they're on Koh Phangan, Koh Samui or Koh Tao.",
+        "We also keep a simple boundary in mind: content should represent the restaurant honestly, not construct an exaggerated version of it. A slow Tuesday night doesn't get dressed up as a packed one, because followers who show up expecting one thing and find another rarely come back a second time.",
+        "For restaurants that already have a reasonable following but an inconsistent posting history, the first few weeks are usually about steadying the rhythm before trying anything more ambitious — a reliable, well-shot feed posted on schedule outperforms an occasional high-production post surrounded by silence.",
+      ],
+      industrySlugs: ["restaurants-food", "tourism-hospitality", "events"],
       scope: [
         { title: "Content calendar", description: "Planned posts tied to your menu, events and offers." },
         { title: "Production", description: "Photo and video content for feed, Stories and Reels." },
@@ -309,6 +398,8 @@ export const foodRestaurantsHub: HubPage = {
         { q: "Can this include paid advertising too?", a: "Advertising is a separate service (Restaurant Advertising) that we coordinate closely with social content." },
         { q: "How do you measure success for a restaurant account?", a: "Engagement, reach, and where trackable, reservation or foot-traffic impact." },
         { q: "Is this different from your general Social Media hub services?", a: "It's the same core service, tailored specifically to restaurant content and cadence." },
+        { q: "How far in advance do you plan the content calendar?", a: "Typically a month at a time, adjusted for events, offers or menu changes that come up during the month." },
+        { q: "Can you post in more than one language?", a: "Yes — captions can be prepared in the languages relevant to your actual customer mix, working from your input on tone and accuracy." },
       ],
       related: [
         { label: "Food Photography", href: "/food-restaurants/food-photography", description: "The photography behind the content." },
@@ -324,14 +415,22 @@ export const foodRestaurantsHub: HubPage = {
       h1: "Restaurant Advertising on Koh Phangan",
       primaryKeyword: "restaurant advertising Koh Phangan",
       secondaryTopics: ["Meta Ads", "Google Ads", "local advertising"],
-      metaTitle: "Restaurant Advertising Koh Phangan | Meta & Google Ads",
+      metaTitle: "Restaurant Advertising Koh Phangan",
       metaDescription:
-        "Advertising for restaurants on Koh Phangan — Meta and Google Ads campaigns built around offers, events and local targeting.",
+        "Advertising for restaurants on Koh Phangan, Koh Samui and Koh Tao — Meta and Google Ads campaigns built around offers, events, launches and local targeting.",
       directAnswer:
-        "We run advertising campaigns for restaurants on Koh Phangan — Meta and Google Ads built around specific offers, events or menu launches, targeted to the right local and traveller audiences, with tracking to see what actually drove visits.",
+        "We run advertising campaigns for restaurants on Koh Phangan, Koh Samui and Koh Tao — Meta and Google Ads built around specific offers, events or menu launches, targeted to the right local and traveller audiences, with tracking to see what actually drove visits.",
       heroSupport: "Meta and Google Ads campaigns built around your offers, events and menu.",
       heroImage: images.studio,
       heroImageAlt: "Restaurant offer being prepared for an ad campaign",
+      overview: [
+        "Restaurant advertising works best aimed at something specific — a new dish, a quiet Tuesday, a live event — rather than a generic 'we exist' campaign. We start by defining what a campaign actually needs to achieve and who it needs to reach, then build the offer, creative and targeting around that goal instead of running the same ad format for every client.",
+        "Targeting is built for how people actually decide where to eat on these islands: often locally, often last-minute, often while already nearby. Location, timing and interest targeting keep spend focused on people who could plausibly walk in tonight, rather than a broad audience that includes people who will never visit.",
+        "Creative comes from the same photography and video used across your menu and social content, adapted into ad formats rather than shot separately from scratch every time — which keeps campaigns affordable to launch and keeps the visual identity consistent between your ads, your menu and your Instagram feed.",
+        "Tracking is set up before a campaign goes live, not added afterward, so you can see reach, engagement and, where it's measurable, an indication of redemptions, reservations or foot traffic — useful whether you're promoting a Koh Phangan location during a quiet season or a launch on Koh Samui or Koh Tao aimed at a different visitor mix.",
+        "We also won't recommend advertising as the first move for every restaurant. A venue without a decent photo set or an active Google Business Profile usually gets more value fixing those first — ads sending traffic to a weak first impression tend to waste budget rather than build one, whichever platform they run on and however well the campaign itself is built.",
+      ],
+      industrySlugs: ["restaurants-food", "tourism-hospitality", "events"],
       scope: [
         { title: "Offer strategy", description: "Choosing what to promote and to whom." },
         { title: "Ad creative", description: "Food photography and video adapted into ad formats." },
@@ -366,6 +465,8 @@ export const foodRestaurantsHub: HubPage = {
         { q: "How much should I budget for ad spend?", a: "Most restaurants start testing with a modest monthly budget; we'll recommend a realistic figure based on your goal." },
         { q: "Can this promote a specific event or one-off night?", a: "Yes, short-term campaigns are common for one-off events." },
         { q: "How is success measured for a restaurant campaign?", a: "Reach, engagement and, where trackable, reservations, redemptions or foot traffic." },
+        { q: "Can you run a short campaign for a single weekend or event?", a: "Yes — short, time-boxed campaigns are common for one-off events, live nights or limited offers." },
+        { q: "Do you advertise to a Koh Samui or Koh Tao audience differently than Koh Phangan?", a: "Yes — targeting, timing and even offer type are adjusted for each island's visitor mix rather than reused unchanged." },
       ],
       related: [
         { label: "Restaurant Social", href: "/food-restaurants/social", description: "Organic content to pair with paid advertising." },
@@ -381,15 +482,23 @@ export const foodRestaurantsHub: HubPage = {
       h1: "Restaurant Website Design on Koh Phangan",
       primaryKeyword: "restaurant website Koh Phangan",
       secondaryTopics: ["menu website", "booking", "ordering"],
-      metaTitle: "Restaurant Website Koh Phangan | Menu, Booking & SEO",
+      metaTitle: "Restaurant Website Koh Phangan | Menu & SEO",
       metaDescription:
-        "Restaurant websites on Koh Phangan built around the menu, location, booking or ordering journey and local SEO.",
+        "Restaurant websites on Koh Phangan, Koh Samui and Koh Tao built around the menu, location, booking or ordering journey and local search visibility online.",
       directAnswer:
-        "We build restaurant websites on Koh Phangan structured around what diners actually need — the menu, location and hours, and a clear path to book a table or order, with the on-page SEO to be found when people search for a place to eat.",
+        "We build restaurant websites on Koh Phangan, Koh Samui and Koh Tao structured around what diners actually need — the menu, location and hours, and a clear path to book a table or order, with the on-page SEO to be found when people search for a place to eat.",
       heroSupport:
         "A website built around your menu, location and booking journey, as part of your restaurant's marketing.",
       heroImage: images.food,
       heroImageAlt: "Restaurant website displayed on a laptop screen",
+      overview: [
+        "A restaurant website has one real job on most visits: answer 'what do they serve, where are they, and how do I book or order' as fast as possible, usually on a phone held by someone who's already deciding whether to come. Anything that gets in the way of that — a slow load, a buried menu, no clear booking link — costs visits regardless of how good the design looks.",
+        "We structure the site around that journey specifically: the menu presented clearly and easy to browse on a small screen, location and hours prominent rather than buried in a footer, and a direct path to your reservation or ordering system rather than a generic 'contact us' form. Mobile performance is treated as a design constraint from the start, not a responsive-design afterthought.",
+        "On-page SEO basics are built in from launch — structured content, proper headings, accurate location information — so the site supports being found in local search rather than existing purely as a place to send people who already know your name. That groundwork pairs directly with our Local SEO service if visibility needs a bigger push.",
+        "The site becomes the landing point for the rest of your marketing — social links, Google Business Profile, and any advertising all point somewhere that actually converts. This applies equally to restaurants on Koh Phangan, Koh Samui and Koh Tao, including venues juggling multiple booking or ordering platforms that need to be brought together clearly in one place.",
+        "We also design with a realistic sense of what a restaurant can maintain afterward — a simple, well-structured site someone can actually keep updated beats an elaborate one that goes stale within months because every small change requires a developer.",
+      ],
+      industrySlugs: ["restaurants-food", "hotels-resorts", "tourism-hospitality"],
       scope: [
         { title: "Menu integration", description: "Your menu presented clearly, easy to browse on mobile." },
         { title: "Location & hours", description: "Clear, prominent details for finding and visiting you." },
@@ -424,6 +533,8 @@ export const foodRestaurantsHub: HubPage = {
         { q: "Can this include online ordering directly, not just a link?", a: "Full e-commerce ordering is scoped through our E-commerce service; most restaurant sites link to a dedicated ordering platform instead." },
         { q: "Do you handle hosting and maintenance after launch?", a: "We can set this up and hand over, or continue supporting it — we'll agree what fits your situation." },
         { q: "How long does a restaurant website project take?", a: "Typically 3–6 weeks depending on scope and content readiness." },
+        { q: "Can the site support more than one restaurant location?", a: "Yes — we can structure a site to represent several venues clearly, each with its own menu, location and booking details." },
+        { q: "Do you build sites for restaurants on Koh Samui or Koh Tao remotely?", a: "Yes — most of the build process happens remotely with regular check-ins; any on-site needs are coordinated separately." },
       ],
       related: [
         { label: "Menu Design", href: "/food-restaurants/menu-design", description: "A designed menu to feature on the site." },

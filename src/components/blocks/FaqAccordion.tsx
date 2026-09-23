@@ -1,13 +1,15 @@
 import { Container } from "@/components/ui/Container";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import type { FaqItem } from "@/content/types";
+import type { Locale } from "@/content/i18n";
+import { getUi } from "@/content/translations";
 
-export function FaqAccordion({ faqs }: { faqs: FaqItem[] }) {
+export function FaqAccordion({ faqs, locale }: { faqs: FaqItem[]; locale: Locale }) {
   if (!faqs.length) return null;
   return (
     <section className="bg-base py-16 lg:py-24">
       <Container narrow>
-        <SectionHeading title="Frequently asked questions" />
+        <SectionHeading title={getUi(locale).blocks.faqTitle} />
         <div className="mt-10 divide-y divide-line border-t border-b border-line">
           {faqs.map((faq) => (
             <details key={faq.q} className="group py-5">

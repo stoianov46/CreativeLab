@@ -1,0 +1,147 @@
+{
+  "navLabel": "Branding",
+  "h1": "Branding",
+  "primaryKeyword": "branding agency Koh Phangan",
+  "secondaryTopics": [
+    "brand identity",
+    "visual identity",
+    "creative direction",
+    "island business branding"
+  ],
+  "metaTitle": "Branding",
+  "metaDescription": "Brand identity and creative direction for businesses on Koh Phangan, Koh Samui and Koh Tao — original visual systems carried through every channel.",
+  "directAnswer": "CreativeLAB builds brand identities for businesses across Koh Phangan, Koh Samui and Koh Tao — strategy, visual identity and creative direction developed as one coherent system, then applied consistently through our own web, social, photography and advertising work rather than handed over as a static PDF.",
+  "heroSupport": "Brand identity and creative direction that actually gets used — across your website, social media, menus and signage.",
+  "heroImageAlt": "Brand identity materials laid out for review in a design studio",
+  "overview": [
+    "Most island businesses we meet have a logo but not a brand — a mark that was designed once and then applied inconsistently across a website built by one freelancer, social templates made by another, and signage ordered from a local printer with none of them talking to each other. The result is a business that looks less established than it actually is.",
+    "We treat branding as the foundation everything else gets built on, not a separate deliverable. Because CreativeLAB also produces the photography, video, websites and advertising that carry a brand day to day, an identity we design doesn't sit still — it gets tested and refined the moment it's applied to real work, across whichever of the three islands your business operates on.",
+    "This page introduces branding as part of that wider creative practice — what it covers and who it's for. For the detailed scope, process and pricing of a branding project, see our Branding & Creative service page, which is the canonical version of this content.",
+    "Businesses that operate across more than one of the three islands — a villa group with properties on Phangan and Samui, for instance, or a wellness brand expanding from one island to another — particularly benefit from a defined identity system, since it's what keeps the business recognizable as it grows rather than looking like several unrelated ventures."
+  ],
+  "scope": [
+    {
+      "title": "Brand strategy",
+      "description": "Positioning, tone of voice and audience definition grounded in how your business actually operates."
+    },
+    {
+      "title": "Visual identity",
+      "description": "Logo, color palette and typography system designed as an original, coherent whole."
+    },
+    {
+      "title": "Applications across channels",
+      "description": "How the identity carries through to your website, social media, print materials and advertising."
+    },
+    {
+      "title": "Practical guidelines",
+      "description": "A usable reference document, not a design-agency showcase piece nobody consults."
+    }
+  ],
+  "benefits": [
+    {
+      "title": "Real differentiation",
+      "description": "An original identity built for your business, not a template that looks like every other island brand."
+    },
+    {
+      "title": "Consistency across every channel",
+      "description": "One system applied to your website, social content, advertising and physical materials alike."
+    },
+    {
+      "title": "Applied by the same team that designed it",
+      "description": "Because CreativeLAB also produces your web, social and advertising work, the brand gets carried through consistently rather than lost in handoff."
+    },
+    {
+      "title": "A foundation for growth across islands",
+      "description": "A system flexible enough to represent a business expanding from one island to another."
+    }
+  ],
+  "process": [
+    {
+      "title": "Strategy",
+      "description": "Define positioning, audience and tone before any visual work begins."
+    },
+    {
+      "title": "Concept",
+      "description": "Initial visual identity directions presented for feedback."
+    },
+    {
+      "title": "Refine",
+      "description": "Develop the chosen direction into a full, applied system."
+    },
+    {
+      "title": "Deliver",
+      "description": "Final files and practical guidelines handed over."
+    }
+  ],
+  "pricing": [
+    {
+      "service": "Brand identity (logo + guidelines)",
+      "range": "THB 30,000 – 80,000",
+      "note": "Per project"
+    },
+    {
+      "service": "Full brand system (multi-channel applications)",
+      "range": "THB 70,000 – 150,000",
+      "note": "Includes web, social and print application"
+    }
+  ],
+  "useCases": [
+    {
+      "title": "New businesses launching on the islands",
+      "description": "A complete identity built from the ground up, ready for web, social and print from day one."
+    },
+    {
+      "title": "Rebrands",
+      "description": "Refreshing or replacing an identity that no longer reflects a growing or repositioned business."
+    },
+    {
+      "title": "Businesses expanding across islands",
+      "description": "A system built to scale from Koh Phangan into Koh Samui or Koh Tao without losing coherence."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you work with businesses on Koh Samui and Koh Tao, not just Koh Phangan?",
+      "a": "Yes — CreativeLAB is based on Koh Phangan and builds brand identities for businesses across all three islands."
+    },
+    {
+      "q": "How is this different from the Branding page under Branding & Creative?",
+      "a": "This page introduces branding as part of our wider creative practice across the three islands; the Branding & Creative hub page is the full service with detailed scope, process and pricing."
+    },
+    {
+      "q": "Do you only design logos, or full brand identities?",
+      "a": "Full brand identities — strategy, visual system and applications, not just a logo mark."
+    },
+    {
+      "q": "Can you apply our brand to our website and social media too?",
+      "a": "Yes — our web, social and video services are built to carry the brand system through consistently once it's designed."
+    },
+    {
+      "q": "How long does a brand identity project take?",
+      "a": "Typically 4–8 weeks depending on scope and how many touchpoints are included."
+    },
+    {
+      "q": "Can you refresh an existing brand rather than starting from scratch?",
+      "a": "Yes — we regularly refine and modernize existing identities rather than replacing them entirely."
+    },
+    {
+      "q": "Do you handle a brand that needs to work across more than one of the islands?",
+      "a": "Yes — we design with that flexibility in mind when a business already operates or plans to operate on more than one island."
+    }
+  ],
+  "related": [
+    {
+      "label": "Branding (full service)",
+      "description": "The complete brand identity service — scope, process and pricing."
+    },
+    {
+      "label": "Branding & Creative",
+      "description": "Our full creative practice — graphic design, creative direction and menu design."
+    },
+    {
+      "label": "Web Design",
+      "description": "Bringing your brand identity to your website."
+    }
+  ],
+  "finalCtaLabel": "Start a Project"
+}

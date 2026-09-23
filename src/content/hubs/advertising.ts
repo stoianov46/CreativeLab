@@ -10,7 +10,7 @@ export const advertisingHub: HubPage = {
   primaryKeyword: "advertising services Koh Phangan",
   metaTitle: "Advertising Agency Koh Phangan | Google & Meta Ads",
   metaDescription:
-    "CreativeLAB runs Google Ads, Meta Ads and full campaign launches for businesses on Koh Phangan — strategy, creative and tracking in one team.",
+    "CreativeLAB runs Google Ads, Meta Ads and campaign launches for businesses on Koh Phangan, Koh Samui and Koh Tao — strategy, creative and tracking in one team.",
   directAnswer:
     "CreativeLAB is an advertising agency on Koh Phangan running Google Ads, Meta Ads and complete campaign launches for villas, restaurants, hospitality brands and local businesses. We handle strategy, creative, tracking and ongoing optimization, so you get a working campaign — not just a set of ads.",
   heroSupport:
@@ -21,6 +21,44 @@ export const advertisingHub: HubPage = {
   editorialBody: [
     "Generic ad agencies run the same playbook everywhere. Koh Phangan has its own seasonality, booking patterns and customer mix — from Full Moon Party traffic to long-stay expats house-hunting for a villa.",
     "We build campaigns around how people actually search for and book things on the island: mobile-first, often last-minute, often comparing a handful of options in one sitting. That shapes keyword strategy, ad creative and landing page structure alike.",
+    "The same team runs campaigns for businesses on Koh Samui and Koh Tao, adjusted for how each island's audience actually behaves rather than treated as a copy-paste of the Koh Phangan setup.",
+    "We'd rather tell you what a channel realistically costs to test properly than promise a specific result we can't back up. Every figure on this site — pricing, timelines, example use cases — reflects how we actually scope work for businesses here; where something depends on your specific situation, we say so instead of inventing a number that sounds precise but isn't.",
+  ],
+  sections: [
+    {
+      title: "Strategy before spend",
+      body: [
+        "Before any account gets built, we work out what the campaign actually needs to achieve — bookings for a specific season, calls for a service business, inquiries for a property — and what a realistic cost per result looks like for that goal. That sets the budget, the platform mix and the structure of the account, rather than starting from a generic template.",
+        "Keyword and audience research is built around how each segment actually books: a traveller planning a trip weeks out searches differently from someone already on the island looking for something tonight, and a long-stay expat comparing villas behaves differently from either. Campaigns are structured to reach each of those intents on its own terms instead of one broad, unfocused audience.",
+        "Strategy and creative aren't separate hand-offs, either. Because the same team plans the campaign and produces the ad creative, the headlines, imagery and offer in the ads reflect the same strategy that decided who they're being shown to — instead of a media buyer briefing a separate creative team second-hand and losing nuance along the way.",
+      ],
+    },
+    {
+      title: "How advertising works across Koh Phangan, Koh Samui and Koh Tao",
+      body: [
+        "CreativeLAB is based on Koh Phangan, and that's where most of our production happens. Account management, strategy and reporting run the same way for a business on Koh Samui or Koh Tao as for one here — Google Ads and Meta Ads are managed remotely with no loss of quality. When a project needs an on-site shoot for ad creative on Samui or Tao, travel is by boat and a travel fee may apply, which we'll flag upfront.",
+        "The islands aren't interchangeable audiences. Koh Samui is the largest and most developed of the three, with an airport and a broader, more mainstream mix of hotels, restaurants and services — campaigns there often have more competition and a wider addressable audience. Koh Tao's economy leans heavily on diving, so advertising for a Tao business frequently means reaching a narrower, more specific audience of divers and backpackers. Koh Phangan sits between the two: wellness and yoga retreats, long-stay expats and Full Moon Party seasonality all shape what a campaign there needs to do.",
+        "Language matters as much as location. Audiences across all three islands mix Thai, English and Russian speakers, along with a rotating population of travellers from elsewhere — so a campaign built only in English quietly excludes a meaningful share of the addressable market on any of the three islands, not just Koh Phangan.",
+      ],
+    },
+    {
+      title: "What to expect working with us",
+      body: [
+        "You'll work with the same small team from strategy through to reporting — not handed off between a sales contact and an anonymous account manager. We'll ask for your goals, budget range and any existing account access up front, then come back with a plan before anything goes live.",
+        "Ad spend is always billed directly to Google or Meta so you can see exactly where it's going, and our management fee is separate and disclosed upfront. There's no requirement to lock into a long contract to get started — most clients continue because the reporting shows the campaigns are working, not because they're tied into one.",
+        "Timelines are realistic rather than rushed: account setup and creative typically take a week or two depending on scope, campaigns launch on a conservative test budget, and we tell you honestly when it's still too early to judge results rather than pretending three days of data means something it doesn't.",
+        "Most of the businesses we work with fall into a handful of categories — villas and real estate, restaurants and hospitality, wellness and retreat operators, and events or seasonal launches — and the team has run campaigns across all of them, so the questions we ask during onboarding are specific to your kind of business rather than generic marketing checklist items.",
+        "It also works well alongside an in-house team rather than only as a fully outsourced setup — some clients keep someone in-house watching day-to-day spend while we handle strategy, creative and optimization, and we'll agree the split that fits how your business already runs before anything launches.",
+      ],
+    },
+    {
+      title: "Working across different budgets and business types",
+      body: [
+        "A single villa taking its first Google Ads account and a multi-property manager coordinating campaigns across several listings need very different scopes, and we treat them differently rather than fitting every client into one package. Pricing guidance on each service page reflects a realistic range for the work involved, not a one-size number.",
+        "None of the figures on this site are invented or industry-average guesses pulled from outside Thailand — they're scoped to the kind of work we actually do for businesses on these islands, and every quote accounts for your specific goals, platforms and creative needs before a number is confirmed.",
+        "Engagements also scale over time rather than staying fixed. A business that starts with a single Google Ads test campaign often adds Meta Ads once there's a working landing page, then moves into ongoing performance marketing once there's enough data to optimize against — each step building on what the last one actually learned, not a forced upsell.",
+      ],
+    },
   ],
   faqs: [
     {
@@ -47,6 +85,22 @@ export const advertisingHub: HubPage = {
       q: "Can you take over an existing ad account that's underperforming?",
       a: "Yes — we regularly audit and rebuild campaigns that were set up but never properly optimized.",
     },
+    {
+      q: "Do you run advertising for businesses on Koh Samui and Koh Tao, or only Koh Phangan?",
+      a: "All three — we're based on Koh Phangan, but Google Ads and Meta Ads accounts are managed the same way regardless of which island your business is on. On-site production for ad creative involves boat travel and a possible travel fee.",
+    },
+    {
+      q: "Should I run Google Ads, Meta Ads, or both?",
+      a: "It depends on how people find your business — Google Ads captures active search demand, Meta Ads builds awareness with people who aren't searching yet. Most businesses eventually benefit from both, but we'll recommend where to start based on your goal and budget.",
+    },
+    {
+      q: "How long before an advertising campaign becomes profitable?",
+      a: "It varies by platform, budget and how competitive your category is. Search campaigns can produce leads within days; social and awareness campaigns typically need a few weeks of data before cost per result settles into a reliable range.",
+    },
+    {
+      q: "Am I locked into a long-term contract?",
+      a: "No — management is billed month to month. We ask for enough runway to gather real data before judging results, but there's no fixed-term commitment required to start.",
+    },
   ],
   finalCtaLabel: "Start a Project",
   services: [
@@ -59,13 +113,20 @@ export const advertisingHub: HubPage = {
       secondaryTopics: ["Google advertising", "PPC", "search ads", "local PPC"],
       metaTitle: "Google Ads Agency Koh Phangan | Search & Local PPC",
       metaDescription:
-        "Google Ads management for Koh Phangan businesses — strategy, campaign setup, conversion tracking and ongoing optimization from a local team.",
+        "Google Ads management for businesses on Koh Phangan, Koh Samui and Koh Tao — strategy, setup, conversion tracking and ongoing optimization from a local team.",
       directAnswer:
         "We plan, build and manage Google Ads campaigns for businesses on Koh Phangan — search, local and Google Maps ads that put you in front of people actively searching for what you offer, with conversion tracking so you know exactly what each lead costs.",
       heroSupport:
         "Search ads, local campaigns and conversion tracking built around how people actually search for services on Koh Phangan.",
       heroImage: images.studio,
       heroImageAlt: "Marketer reviewing Google Ads campaign performance",
+      overview: [
+        "Google Ads puts your business in front of someone at the exact moment they're searching for what you offer — a villa for a specific week, a restaurant near a specific beach, a diving course before a trip to Koh Tao. That intent is what makes search advertising different from social advertising: the person is already looking, and the ad only needs to be the clearest, most relevant answer to what they typed.",
+        "A campaign is more than a few keywords and an ad. We structure accounts around how your business actually gets booked — separate campaigns and ad groups for different services, locations or seasons where it matters, rather than one broad campaign trying to catch everything. Search ads, Google Maps promoted listings and local service ads (where eligible) are combined depending on what actually drives bookings in your category.",
+        "None of it means much without tracking that tells you which keywords and campaigns produced a real lead or booking, not just a click. We set up call tracking, form tracking and booking-event tracking before a campaign goes live, so budget decisions are based on cost per result rather than guesswork or platform-reported clicks.",
+        "The same setup works across Koh Phangan, Koh Samui and Koh Tao, adjusted for how people search on each island. Koh Samui's airport and larger tourist volume mean more competitive, higher-search-volume terms; Koh Tao campaigns often center on diving and course-related searches; Koh Phangan mixes retreat, villa and event-driven search behavior. Campaigns are geo-targeted to the areas and radius that actually match your customers.",
+      ],
+      industrySlugs: ["villas-real-estate", "restaurants-food", "tourism-hospitality", "brands-lifestyle"],
       scope: [
         {
           title: "Account setup & strategy",
@@ -192,6 +253,14 @@ export const advertisingHub: HubPage = {
           q: "How is performance reported?",
           a: "A recurring report covering spend, clicks, conversions and cost per lead, plus a short written summary of what changed and why.",
         },
+        {
+          q: "Can you run Google Ads for a business on Koh Samui or Koh Tao?",
+          a: "Yes — account setup, keyword strategy and geo-targeting work the same way regardless of island. We adjust radius targeting and search terms to match how each island's customers actually search.",
+        },
+        {
+          q: "What happens if my industry has genuinely low search volume?",
+          a: "We'll tell you honestly if Google Ads isn't the right first move — for some niche or highly seasonal businesses, Meta Ads or a campaign launch project reaches the audience more efficiently.",
+        },
       ],
       related: [
         {
@@ -219,15 +288,22 @@ export const advertisingHub: HubPage = {
       h1: "Meta Ads Agency on Koh Phangan",
       primaryKeyword: "Meta Ads agency Koh Phangan",
       secondaryTopics: ["Facebook ads", "Instagram ads", "social advertising"],
-      metaTitle: "Meta Ads Agency Koh Phangan | Facebook & Instagram Ads",
+      metaTitle: "Meta Ads Agency Koh Phangan",
       metaDescription:
-        "Facebook and Instagram advertising for Koh Phangan businesses — creative, audience targeting, retargeting and optimization from a local team.",
+        "Facebook and Instagram advertising for businesses on Koh Phangan, Koh Samui and Koh Tao — creative, targeting, retargeting and optimization from a local team.",
       directAnswer:
-        "We plan, design and run Facebook and Instagram advertising campaigns for businesses on Koh Phangan — from awareness campaigns that build a following to retargeting campaigns that turn website visitors into bookings.",
+        "We plan, design and run Facebook and Instagram advertising campaigns for businesses on Koh Phangan, Koh Samui and Koh Tao — from awareness campaigns that build a following to retargeting campaigns that turn website visitors into paying customers and bookings.",
       heroSupport:
         "Facebook and Instagram campaigns with creative built for scroll-stopping attention and island-specific targeting.",
       heroImage: images.social,
       heroImageAlt: "Reviewing Meta Ads creative on a phone and laptop",
+      overview: [
+        "Facebook and Instagram advertising works differently from search: nobody typed in a query, so the ad has to earn attention on its own, mid-scroll, against everything else in the feed. That's where photography, video and copy carry most of the weight — a well-targeted campaign with weak creative still underperforms, while strong creative gets more out of every baht of spend.",
+        "We build campaigns around a clear objective — awareness, traffic, leads or sales — because that choice changes how Meta's delivery system optimizes and who it shows your ad to. A retreat launching a new program needs a different campaign structure than a restaurant promoting tonight's event, even if both are technically 'boosting a post'.",
+        "Targeting combines location, interests and lookalike audiences built from your existing customers or website visitors, alongside retargeting for people who already engaged but didn't convert. Retargeting in particular tends to be the most cost-efficient part of a Meta account once there's enough traffic to build an audience from.",
+        "Creative and targeting both shift across the three islands. A campaign aimed at long-stay expats browsing villas on Koh Phangan needs different imagery and messaging than one reaching travellers arriving at Koh Samui's airport, or divers researching courses before a Koh Tao trip — we adjust both the audience definition and the creative direction accordingly rather than running one asset everywhere.",
+      ],
+      industrySlugs: ["restaurants-food", "villas-real-estate", "wellness-retreats", "events"],
       scope: [
         {
           title: "Campaign strategy",
@@ -331,6 +407,14 @@ export const advertisingHub: HubPage = {
           q: "How do you measure success?",
           a: "Against the objective we agreed — leads, bookings, traffic or engagement — reported on a regular schedule.",
         },
+        {
+          q: "Can you run Meta Ads for a business on Koh Samui or Koh Tao?",
+          a: "Yes — we manage Meta accounts for businesses across all three islands, adjusting location targeting and creative direction so the campaign speaks to that island's actual audience rather than a generic mix.",
+        },
+        {
+          q: "What if I don't have professional photos or video yet?",
+          a: "We can produce them as part of the campaign, through our own content production, so ad creative isn't limited to whatever's on your phone.",
+        },
       ],
       related: [
         { label: "Google Ads", href: "/advertising/google-ads", description: "Capture active search demand alongside social." },
@@ -348,13 +432,21 @@ export const advertisingHub: HubPage = {
       secondaryTopics: ["campaign strategy", "launch", "tracking"],
       metaTitle: "Advertising Campaign Launch Koh Phangan",
       metaDescription:
-        "Full campaign launch for Koh Phangan businesses — brief, audience definition, creative production, media setup and measurement in one project.",
+        "Campaign launch for Koh Phangan, Koh Samui and Koh Tao businesses — brief, audience definition, creative production, media setup and measurement in one project.",
       directAnswer:
-        "We take a new product, offer or business launch from brief to live advertising campaign — defining the audience, producing the creative, setting up media buying across the right platforms, and putting measurement in place from day one.",
+        "We take a new product, offer or business launch from brief to live advertising campaign — defining the audience, producing the creative, setting up media buying across the right platforms, and putting measurement in place from day one, not added on afterward.",
       heroSupport:
         "A single project to plan, produce and launch a new advertising campaign end to end.",
       heroImage: images.team,
       heroImageAlt: "Team planning a campaign launch on a whiteboard",
+      overview: [
+        "A campaign launch is for the moment you have something genuinely new to announce — an opening, a seasonal offer, a property coming to market — and need strategy, creative and media working together from day one rather than assembled piecemeal from separate vendors on a deadline.",
+        "We start from the outcome the launch needs to hit and work backward: who the audience is, what platforms they're actually on, and what the creative needs to say to move them. That plan shapes everything that follows, so production isn't guessing at what the campaign will need.",
+        "Creative — photography, video, copy and design — is produced specifically for the launch rather than repurposed from older assets, and media accounts on Google, Meta or both are configured and tested before the public launch date, with tracking already active so early results are measurable rather than a rough guess.",
+        "Launch timing matters differently on each island: a Koh Samui opening can lean on airport arrivals and a larger transient audience, a Koh Tao launch often does better targeting the dive and long-stay traveller community specifically, and a Koh Phangan launch has to work around known seasonal peaks like Full Moon Party periods. We factor that into the plan rather than launching on a generic calendar.",
+        "A launch project is deliberately scoped and time-boxed, which is what makes it different from an open-ended retainer: you know roughly when creative goes into production, when the account gets built and when the campaign actually goes live, rather than an ongoing relationship with no defined milestones. Once the launch is live, you can decide whether it makes sense to keep the campaign running under a monthly retainer or treat it as a one-off push.",
+      ],
+      industrySlugs: ["events", "brands-lifestyle", "hotels-resorts", "tourism-hospitality"],
       scope: [
         { title: "Brief & goal-setting", description: "Clarify what the campaign needs to achieve and by when." },
         { title: "Audience definition", description: "Who you're speaking to, and on which platforms they actually are." },
@@ -416,6 +508,14 @@ export const advertisingHub: HubPage = {
           q: "Is there a minimum budget for a campaign launch?",
           a: "We scope each project individually; tell us your budget range and we'll advise what's realistic within it.",
         },
+        {
+          q: "Can a campaign launch cover a business opening on Koh Samui or Koh Tao?",
+          a: "Yes — the process is the same regardless of island. On-location production involves boat travel from our Koh Phangan base and a possible travel fee, which we'll include in the project scope upfront.",
+        },
+        {
+          q: "Do you time launches around island events like Full Moon Party?",
+          a: "Where it's relevant, yes — we factor known seasonal peaks and quiet periods on each island into the launch timeline rather than defaulting to a generic schedule.",
+        },
       ],
       related: [
         { label: "Google Ads", href: "/advertising/google-ads", description: "Search advertising as part of your launch mix." },
@@ -431,15 +531,23 @@ export const advertisingHub: HubPage = {
       h1: "Performance Marketing on Koh Phangan",
       primaryKeyword: "performance marketing Koh Phangan",
       secondaryTopics: ["conversion optimization", "tracking", "ROAS"],
-      metaTitle: "Performance Marketing Koh Phangan | Conversion Optimization",
+      metaTitle: "Performance Marketing Koh Phangan",
       metaDescription:
-        "Ongoing performance marketing for Koh Phangan businesses — measurement, testing, optimization and reporting across your advertising channels.",
+        "Ongoing performance marketing for Koh Phangan, Koh Samui and Koh Tao businesses — measurement, testing, optimization and reporting across every channel.",
       directAnswer:
         "Performance marketing is the ongoing discipline of measuring, testing and improving your advertising results over time — we manage tracking, run structured tests, and optimize spend across Google, Meta and your website so results improve month over month rather than plateauing after launch.",
       heroSupport:
         "Continuous measurement, testing and optimization across your advertising channels — not a one-off campaign.",
       heroImage: images.studio,
       heroImageAlt: "Analyst reviewing performance marketing dashboards",
+      overview: [
+        "Launching a campaign is the easy part; keeping it improving month after month is where most businesses lose momentum. Performance marketing is the ongoing discipline that sits on top of Google Ads, Meta Ads and your website — measuring what's actually working, testing what might work better, and shifting budget toward the combinations that produce results.",
+        "That starts with measurement that's actually trustworthy: analytics and conversion tracking kept accurate as platforms change and your business evolves, so decisions are based on real numbers rather than a dashboard that quietly broke months ago. From there, structured tests — a new ad angle, a different landing page headline, an adjusted audience — run on a regular cadence rather than as occasional guesswork.",
+        "Because it looks across channels rather than one platform in isolation, performance marketing can catch things a single-channel manager would miss — a Google campaign generating leads that a weak landing page then loses, or a Meta audience that performs well but is being underfunded relative to a Google campaign with worse actual returns.",
+        "For businesses running campaigns across more than one of the three islands, this is also where cross-location comparisons happen — seeing whether a Koh Samui campaign is genuinely outperforming a Koh Phangan one, or whether the difference is really about audience size and seasonality rather than the campaign itself.",
+        "This service tends to make the most sense once a business has at least a few months of Google Ads or Meta Ads history to work from — enough data for tests to produce a meaningful result rather than noise. If you're just starting out, we'll usually recommend beginning with a Google Ads or Meta Ads engagement and moving into performance marketing once there's a real baseline to improve on.",
+      ],
+      industrySlugs: ["hotels-resorts", "villas-real-estate", "tourism-hospitality", "brands-lifestyle"],
       scope: [
         { title: "Measurement setup", description: "Analytics, conversion tracking and reporting dashboards kept accurate over time." },
         { title: "Structured testing", description: "Creative, audience and landing page tests run on a regular cadence." },
@@ -499,6 +607,14 @@ export const advertisingHub: HubPage = {
         {
           q: "What tools do you use for tracking?",
           a: "Standard, privacy-conscious analytics and conversion tracking setups — no unsupported or invented tracking IDs.",
+        },
+        {
+          q: "Can you compare performance across Koh Phangan, Koh Samui and Koh Tao locations?",
+          a: "Yes — for businesses advertising in more than one location, we can report performance by island so you can see genuine differences in results rather than guessing whether one location is really outperforming another.",
+        },
+        {
+          q: "How soon will I see improvement once performance marketing starts?",
+          a: "It depends on existing traffic and data volume — accounts with more history and spend show test results faster than brand-new ones, but most clients see a clearer optimization roadmap within the first month.",
         },
       ],
       related: [

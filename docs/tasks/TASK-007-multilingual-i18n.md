@@ -2,7 +2,7 @@
 
 **Priority:** P0
 **Phase:** 7
-**Status:** Infrastructure done, translated content not started
+**Status:** Done as LLM draft (2026-09-22), pending native review — see `docs/i18n.md`
 
 EN is the master copy; RU, TH and HE need **native, professionally
 adapted** translations per page — the proposal explicitly rules out

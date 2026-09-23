@@ -1,0 +1,171 @@
+import { images } from "@/assets/images";
+import type { ServicePage } from "@/content/types";
+
+export const contentCreationService: ServicePage = {
+  slug: "content-creation",
+  hubSlug: "services",
+  canonicalPath: "/social-media/content-creation",
+  navLabel: "Content Creation",
+  h1: "Content Creation for Koh Phangan, Koh Samui & Koh Tao Businesses",
+  primaryKeyword: "content creation Koh Phangan, Koh Samui and Koh Tao",
+  secondaryTopics: [
+    "photo and video content",
+    "branded content production",
+    "creative direction",
+    "multi-channel content",
+  ],
+  metaTitle: "Content Creation Koh Phangan, Samui & Tao",
+  metaDescription:
+    "Photo and video content production for businesses on Koh Phangan, Koh Samui and Koh Tao — one shoot supplying social, advertising and website content.",
+  directAnswer:
+    "Content creation is the photo and video production behind a business's marketing — the raw material for social media, advertising and your website. CreativeLAB produces this for businesses on Koh Phangan, Koh Samui and Koh Tao, planning shoots that supply multiple channels from one production day.",
+  heroSupport:
+    "Photo and video production planned to supply your social feed, ad creative and website — not three separate shoots.",
+  heroImage: images.photoshoot,
+  heroImageAlt: "Photographer directing a branded content shoot for a local business",
+  overview: [
+    "Content creation is the production layer underneath almost everything else on this site: the photos in your ads, the video in your Reels, the images on your website. Treated separately, each channel ends up commissioning its own shoot. Treated as one content operation, a single well-planned production day can supply weeks of social posts, a set of ad creative and fresh website imagery at once.",
+    "This page is the broad view of content creation across every channel it feeds. Our social-media-specific content service covers shoot planning tied to a posting calendar; this page is where we explain content creation as the production engine behind advertising, your website and your brand more generally, across Koh Phangan, Koh Samui and Koh Tao.",
+    "That matters practically on the islands. Getting a crew, equipment and a shot list to Koh Samui or Koh Tao means a boat crossing and a travel fee for on-site production — planning one thorough shoot day, rather than several small ones, is usually the more efficient way to work off Koh Phangan.",
+    "We plan every shoot with the end channels in mind from the brief stage: what needs to be square for the feed, vertical for Reels and Stories, wide for a website hero image or ad placement — so delivery is genuinely multi-format, not one crop applied everywhere.",
+  ],
+  industrySlugs: ["restaurants-food", "villas-real-estate", "hotels-resorts", "brands-lifestyle"],
+  scope: [
+    {
+      title: "Photography production",
+      description: "Product, lifestyle, interior and behind-the-scenes photography built around your brief.",
+    },
+    {
+      title: "Video production",
+      description: "Short-form and mid-length video shot and edited for social, ads and web use.",
+    },
+    {
+      title: "Creative direction",
+      description: "A consistent visual style, framing and color grading carried across every asset produced.",
+    },
+    {
+      title: "Multi-channel packaging",
+      description: "One shoot edited and exported into the specific formats each channel actually needs.",
+    },
+    {
+      title: "Shoot logistics across the islands",
+      description: "Planning, scheduling and travel handled for production on Koh Phangan, Koh Samui or Koh Tao.",
+    },
+  ],
+  benefits: [
+    {
+      title: "One shoot, multiple channels",
+      description: "A single production day can supply social content, ad creative and website imagery together.",
+    },
+    {
+      title: "A consistent visual identity",
+      description: "Every asset — regardless of where it's used — looks like it belongs to the same brand.",
+    },
+    {
+      title: "Efficient off-island production",
+      description: "Planning thoroughly for Koh Samui and Koh Tao shoots reduces the number of separate trips needed.",
+    },
+    {
+      title: "A real content backlog",
+      description: "Reduces the scramble to produce something new every time a channel needs an asset.",
+    },
+    {
+      title: "Formats that fit from the start",
+      description: "Content is shot and cropped correctly for its destination rather than force-fit afterward.",
+    },
+  ],
+  process: [
+    { title: "Brief & goals", description: "Agree what channels this content needs to serve and the themes involved." },
+    { title: "Shot list & logistics", description: "Plan the shot list, location and, for Koh Samui or Koh Tao, travel." },
+    { title: "Production day", description: "On-location photography and video production." },
+    { title: "Edit & multi-format export", description: "Selects, retouching and editing delivered in every format needed." },
+    { title: "Delivery & handoff", description: "Files organized and handed off to whichever channel or team will use them." },
+  ],
+  pricing: [
+    {
+      service: "Half-day content shoot",
+      range: "THB 10,000 – 20,000",
+      note: "Photo and short video, edited for multiple channels",
+    },
+    {
+      service: "Full-day content shoot",
+      range: "THB 18,000 – 35,000",
+      note: "Extended shot list, multiple setups or locations",
+    },
+    {
+      service: "Multi-channel content package (social + ads + web)",
+      range: "THB 22,000 – 45,000",
+      note: "Indicative — one shoot, formatted and delivered for several destinations",
+    },
+  ],
+  useCases: [
+    {
+      title: "Restaurants",
+      description: "A season's worth of dish, ambiance and event content across social, ads and menu use.",
+    },
+    {
+      title: "Villas & accommodation",
+      description: "Lifestyle and property content usable for listings, social and paid campaigns alike.",
+    },
+    {
+      title: "Retail & product brands",
+      description: "Product and behind-the-scenes content that builds trust across every channel it appears on.",
+    },
+    {
+      title: "Wellness & retreat brands",
+      description: "Content that supports a slower-considered booking journey across web, social and email.",
+    },
+  ],
+  faqs: [
+    {
+      q: "What's the difference between content creation and commercial photography?",
+      a: "Commercial photography is a specific production discipline for hospitality, product and brand images; content creation is the broader production of photo and video built to feed social, advertising and web at once.",
+    },
+    {
+      q: "Can one shoot really cover social, ads and website content?",
+      a: "Yes, when the shot list is planned with all three in mind from the start — that's the core of how we approach content creation rather than commissioning separate shoots.",
+    },
+    {
+      q: "Do you travel to Koh Samui and Koh Tao for content shoots?",
+      a: "Yes — production on both islands is by boat from Koh Phangan, and a travel fee may apply depending on the shoot's scope.",
+    },
+    {
+      q: "How far in advance should we book a content shoot?",
+      a: "A few weeks' notice helps, especially for off-island production or during busier seasons.",
+    },
+    {
+      q: "Do you provide creative direction, or do I need my own concept?",
+      a: "We can develop the concept and shot list, or work from a brief and references you already have.",
+    },
+    {
+      q: "Can you produce content for a specific campaign or launch?",
+      a: "Yes — content creation regularly ties into advertising campaign launches and new openings, timed to the launch date.",
+    },
+    {
+      q: "Is video included, or is this photo-only?",
+      a: "Both are available, and most content shoots combine photography with short-form video in one session.",
+    },
+    {
+      q: "Who owns the final content?",
+      a: "You do — delivered files are yours to use across your own channels once the project is complete.",
+    },
+  ],
+  related: [
+    {
+      label: "Content Creation (Social Media)",
+      href: "/social-media/content-creation",
+      description: "Content shoots planned specifically around your social posting calendar.",
+    },
+    {
+      label: "Commercial Photography",
+      href: "/services/commercial-photography",
+      description: "Dedicated hospitality, villa, food and product photography.",
+    },
+    {
+      label: "Commercial Video",
+      href: "/services/commercial-video",
+      description: "Longer-form video production for advertising and brand storytelling.",
+    },
+  ],
+  finalCtaLabel: "Book a Content Shoot",
+};

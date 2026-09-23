@@ -1,97 +1,88 @@
 /**
- * Thin wrapper around the WhatsApp Cloud API — just the calls this bot
- * needs (send text/buttons/list, resolve a media id to bytes). No SDK
- * dependency; the Cloud API is a plain REST/JSON API over fetch.
+ * Thin WhatsApp Cloud API client — only the calls this bot needs. No SDK;
+ * the Cloud API is plain REST/JSON. Errors are logged by status code only
+ * (response bodies can echo user content).
  */
-import type { Option } from '../shared/types.js';
-
 const GRAPH_VERSION = 'v21.0';
 
-function apiBase(): string {
-  const phoneNumberId = process.env.WHATSAPP_PHONE_NUMBER_ID;
-  if (!phoneNumberId) throw new Error('WHATSAPP_PHONE_NUMBER_ID is not set');
-  return `https://graph.facebook.com/${GRAPH_VERSION}/${phoneNumberId}`;
+function env(name: string): string {
+  const value = process.env[name];
+  if (!value) throw new Error(`${name} is not set`);
+  return value;
 }
 
-function authHeaders(): Record<string, string> {
-  const token = process.env.WHATSAPP_ACCESS_TOKEN;
-  if (!token) throw new Error('WHATSAPP_ACCESS_TOKEN is not set');
-  return { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' };
+function authHeaders(json = true): Record<string, string> {
+  return { Authorization: `Bearer ${env('WHATSAPP_ACCESS_TOKEN')}`, ...(json ? { 'Content-Type': 'application/json' } : {}) };
 }
 
-async function postToGraph(body: unknown): Promise<void> {
-  const res = await fetch(`${apiBase()}/messages`, {
+async function postMessage(body: Record<string, unknown>): Promise<boolean> {
+  const res = await fetch(`https://graph.facebook.com/${GRAPH_VERSION}/${env('WHATSAPP_PHONE_NUMBER_ID')}/messages`, {
     method: 'POST',
     headers: authHeaders(),
-    body: JSON.stringify({ messaging_product: 'whatsapp', ...(body as object) }),
+    body: JSON.stringify({ messaging_product: 'whatsapp', recipient_type: 'individual', ...body }),
   });
   if (!res.ok) {
-    const text = await res.text();
-    console.error('[whatsapp] Cloud API rejected message', res.status, text);
+    console.error(`[whatsapp] Cloud API rejected a ${String(body.type ?? 'status')} message: HTTP ${res.status}`);
+    return false;
   }
+  return true;
 }
 
-export async function sendText(to: string, text: string): Promise<void> {
-  await postToGraph({ to, type: 'text', text: { body: text } });
+export function sendText(to: string, text: string): Promise<boolean> {
+  return postMessage({ to, type: 'text', text: { body: text.slice(0, 4096), preview_url: false } });
 }
 
-/**
- * WhatsApp interactive list rows are capped at 10 per section — every
- * option list this bot renders (services=8, locations=7, project types=6,
- * languages=4) fits in one section, so no pagination is needed here.
- */
-export async function sendOptionList(to: string, body: string, buttonLabel: string, options: Option[]): Promise<void> {
-  if (options.length > 10) {
-    console.error(`[whatsapp] sendOptionList got ${options.length} options, WhatsApp caps a section at 10 — truncating.`);
-  }
-  await postToGraph({
+export function sendImage(to: string, link: string): Promise<boolean> {
+  return postMessage({ to, type: 'image', image: { link } });
+}
+
+export interface ReplyButton {
+  id: string;
+  title: string;
+}
+
+/** Max 3 buttons, title ≤ 20 chars, body ≤ 1024, footer ≤ 60. */
+export function sendButtons(to: string, body: string, buttons: ReplyButton[], footer?: string): Promise<boolean> {
+  return postMessage({
+    to,
+    type: 'interactive',
+    interactive: {
+      type: 'button',
+      body: { text: body },
+      ...(footer ? { footer: { text: footer } } : {}),
+      action: { buttons: buttons.slice(0, 3).map((b) => ({ type: 'reply', reply: { id: b.id, title: b.title } })) },
+    },
+  });
+}
+
+export interface ListRow {
+  id: string;
+  title: string;
+  description?: string;
+}
+
+export interface ListSection {
+  title: string;
+  rows: ListRow[];
+}
+
+/** Max 10 rows across all sections, row title ≤ 24, description ≤ 72, button label ≤ 20. */
+export function sendList(to: string, body: string, buttonLabel: string, sections: ListSection[], footer?: string): Promise<boolean> {
+  return postMessage({
     to,
     type: 'interactive',
     interactive: {
       type: 'list',
       body: { text: body },
-      action: {
-        button: buttonLabel,
-        sections: [
-          {
-            rows: options.slice(0, 10).map((opt) => ({ id: opt.value, title: opt.label.slice(0, 24) })),
-          },
-        ],
-      },
+      ...(footer ? { footer: { text: footer } } : {}),
+      action: { button: buttonLabel, sections },
     },
   });
 }
 
-/** For a text step that can be skipped — a single "Skip" reply button. */
-export async function sendTextPromptWithSkip(to: string, body: string, skipLabel: string): Promise<void> {
-  await postToGraph({
-    to,
-    type: 'interactive',
-    interactive: {
-      type: 'button',
-      body: { text: body },
-      action: { buttons: [{ type: 'reply', reply: { id: 'skip', title: skipLabel.slice(0, 20) } }] },
-    },
-  });
-}
-
-export interface ReplyButton {
-  id: string;
-  label: string;
-}
-
-export async function sendButtons(to: string, body: string, buttons: ReplyButton[]): Promise<void> {
-  await postToGraph({
-    to,
-    type: 'interactive',
-    interactive: {
-      type: 'button',
-      body: { text: body },
-      action: {
-        buttons: buttons.slice(0, 3).map((b) => ({ type: 'reply', reply: { id: b.id, title: b.label.slice(0, 20) } })),
-      },
-    },
-  });
+/** Marks the inbound message read and shows "typing…" (Cloud API typing indicator). Best effort. */
+export async function markReadWithTyping(messageId: string): Promise<void> {
+  await postMessage({ status: 'read', message_id: messageId, typing_indicator: { type: 'text' } }).catch(() => false);
 }
 
 export interface MediaInfo {
@@ -101,10 +92,15 @@ export interface MediaInfo {
 }
 
 export async function getMediaInfo(mediaId: string): Promise<MediaInfo> {
-  const res = await fetch(`https://graph.facebook.com/${GRAPH_VERSION}/${mediaId}`, {
-    headers: { Authorization: `Bearer ${process.env.WHATSAPP_ACCESS_TOKEN}` },
-  });
-  if (!res.ok) throw new Error(`Failed to resolve media ${mediaId}: ${res.status}`);
-  const data = (await res.json()) as { url: string; mime_type: string; file_size?: number };
-  return { url: data.url, mimeType: data.mime_type, sizeBytes: data.file_size };
+  const res = await fetch(`https://graph.facebook.com/${GRAPH_VERSION}/${encodeURIComponent(mediaId)}`, { headers: authHeaders(false) });
+  if (!res.ok) throw new Error(`media lookup failed: HTTP ${res.status}`);
+  const data = (await res.json()) as { url: string; mime_type: string; file_size?: number | string };
+  return { url: data.url, mimeType: data.mime_type, sizeBytes: data.file_size != null ? Number(data.file_size) : undefined };
+}
+
+export async function downloadMedia(mediaId: string): Promise<{ bytes: Uint8Array; mimeType: string }> {
+  const info = await getMediaInfo(mediaId);
+  const res = await fetch(info.url, { headers: authHeaders(false) });
+  if (!res.ok) throw new Error(`media download failed: HTTP ${res.status}`);
+  return { bytes: new Uint8Array(await res.arrayBuffer()), mimeType: info.mimeType };
 }

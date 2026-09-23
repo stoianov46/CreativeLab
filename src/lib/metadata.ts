@@ -15,16 +15,27 @@ export function buildMetadata(params: {
   path: string;
   /** Defaults to "en" for call sites that haven't gone locale-aware yet. */
   locale?: Locale;
+  /**
+   * For a page that overlaps another (the /services/* pages with a hub
+   * equivalent): the canonical (EN-relative) path of the page to index.
+   * canonical + hreflang then point there, per Google's guidance that
+   * hreflang should only reference canonical URLs.
+   */
+  canonicalPath?: string;
 }): Metadata {
   const locale = params.locale ?? DEFAULT_LOCALE;
   const url = `${SITE.url}${localePath(locale, params.path)}`;
-  const alternates = localeAlternates(params.path);
+  const indexedPath = params.canonicalPath ?? params.path;
+  const canonical = `${SITE.url}${localePath(locale, indexedPath)}`;
+  const alternates = localeAlternates(indexedPath);
 
   return {
-    title: params.title,
+    // The layout template appends " | CreativeLAB"; titles that already name
+    // the brand are used as-is so it never appears twice.
+    title: params.title.includes(SITE.name) ? { absolute: params.title } : params.title,
     description: params.description,
     alternates: {
-      canonical: url,
+      canonical,
       languages: {
         ...Object.fromEntries(
           Object.entries(alternates).map(([loc, path]) => [
@@ -36,6 +47,9 @@ export function buildMetadata(params: {
       },
     },
     openGraph: {
+      // Pages set their own openGraph, which would otherwise drop the
+      // file-based [locale]/opengraph-image — so reference it explicitly.
+      images: [{ url: localePath(locale, "/opengraph-image"), width: 1200, height: 630, alt: SITE.name }],
       title: params.title,
       description: params.description,
       url,
@@ -45,6 +59,7 @@ export function buildMetadata(params: {
     },
     twitter: {
       card: "summary_large_image",
+      images: [localePath(locale, "/opengraph-image")],
       title: params.title,
       description: params.description,
     },

@@ -105,7 +105,7 @@ than more code.
 - [ ] Real photography/video will affect LCP more than anything else at
       this stage — current images are placeholder JPEGs
 
-## Phase 7 — 4 languages (EN/RU/TH/HE) — ROUTING INFRASTRUCTURE DONE, CONTENT NOT STARTED
+## Phase 7 — 4 languages (EN/RU/TH/HE) — DONE AS LLM DRAFT, PENDING NATIVE REVIEW
 
 - [x] Routing: EN canonical/unprefixed, RU/TH/HE prefixed (`/ru/`, `/th/`,
       `/he/`) per `proposal.md` §09. Every route moved under
@@ -123,15 +123,32 @@ than more code.
 - [x] Thai font stack (`Noto_Sans_Thai` via `next/font/google`, applied
       for `locale==="th"`); ICU line-breaking unverified (no Thai copy to
       test against yet).
-- [ ] Translated content — deliberately not auto-translated: the proposal
-      explicitly requires native, professionally-adapted copy per
-      language ("never do literal machine translation"). Every locale
-      currently serves the same English copy through the new routing.
-      This needs either a native RU/TH/HE copywriter/reviewer in the
-      loop, or an explicit decision from the client to accept
-      LLM-translated copy as a starting draft pending human review.
+- [x] Translation layer (2026-09-22): English stays the master in
+      `src/content/**.ts`; RU/TH/HE live in
+      `src/content/locales/<locale>/{ui,pages,hubs/*}.json` and are merged
+      over English by `src/content/translations.ts` (missing strings fall
+      back to English). The menu, footer, breadcrumbs, homepage cards and
+      related-service cards all read names from the hub/service data, so
+      one edit updates the name everywhere. All interface text that was
+      hardcoded in components moved to `src/content/ui.ts`. Workflow:
+      `docs/i18n.md`; tooling: `npm run i18n:check|sync|export`
+      (`i18n:check` also runs in CI).
+- [x] Language switcher (EN/RU/TH/HE) in the header (desktop dropdown +
+      mobile menu), linking to the same page in the other language.
+- [x] RU/TH/HE copy for every page, drafted by LLM on 2026-09-22 at the
+      client's request ("translate everything, we'll review later").
+- [ ] **Native review of RU/TH/HE copy**: `proposal.md` forbids machine
+      translation as *final* copy, so every locale needs a native
+      reviewer before launch (SEO fields `metaTitle`/`metaDescription`/
+      `primaryKeyword` especially). Edit the JSON files directly; see
+      `docs/i18n.md`.
+- [ ] Visual check of Hebrew RTL and Thai line-breaking against the real
+      translated copy on mobile widths.
+- [ ] Not translated by design: `/llms.txt`, `/llms-full.txt` (English
+      for AI crawlers), Telegram lead messages to staff, and
+      `[[VERIFY: …]]` markers in the legal pages.
 
-### Deployment target (resolved for local dev, still open for CI)
+### Deployment target (resolved)
 
 On 2026-09-14 a teammate configured the repo for GitHub Pages static
 export (`output: "export"`, `.github/workflows/deploy.yml`) the same day
@@ -141,9 +158,10 @@ have shipped a build with no working unprefixed-EN routes and a
 non-functional contact form (verified by inspecting the exported `out/`
 directly). Confirmed with the team: production is Vercel/Node, not
 GitHub Pages — `next.config.ts` is back to plain, unblocking local dev.
-`deploy.yml` itself and the stale-but-currently-working live Pages site
-are still unresolved — see "Open Questions & Blockers" → "Needs a
-team/teammate decision" below.
+On 2026-09-22 `.github/workflows/deploy.yml` was removed from `main` at
+the client's decision (it failed on every push). The DrAndromeda fork
+keeps its own GitHub Pages preview; it can't run the contact form or
+locale routing.
 
 ## Phase 8 — QA — PARTIAL
 
@@ -167,6 +185,33 @@ team/teammate decision" below.
 Blocked on real content inputs — see "Open Questions & Blockers" above
 for the full list (contact details, real photography, bot credentials,
 legal review, translations, hosting/deployment decision).
+
+## Phase 10 — Proposal audit build (2026-09-22/23) — DONE, PENDING REVIEW
+
+Audit of `proposal.md` + `Improvements.md` against the code, then built
+per the client's answers (23.09):
+
+- [x] **IA per proposal §2/§4/§14.**
+  - `/services/*`: 13 P0 pages. 10 overlap a hub page and set `canonicalPath` → hub; they're not in the sitemap.
+  - `/industries/*`: 7 pages.
+  - `/locations/*`: Koh Phangan, Koh Samui, Koh Tao.
+  - Index pages for all three trees.
+  - Mega-menu in the spec's structure (Services in 5 groups / Industries / Locations / Work / Journal / About / Contact).
+- [x] **Geography:** all three islands. Organization schema has `areaServed` ×3, geo and contactPoint; location pages have Place schema.
+- [x] **Content depth §8:** hubs ~1.5k words, 8–10 FAQs; services ~800 words, 8 FAQs; service overview blocks; SEO field lengths fixed. Service page order per §16.
+- [x] **Templates:** case study (§20) and journal article (§22), both with schema and currently empty; `/editorial-policy` and `/accessibility`.
+- [x] **UI/UX:**
+  - hero slider and portfolio carousel;
+  - mobile contact bar;
+  - browser-language suggestion banner (no redirect);
+  - chat buttons in every CTA;
+  - bot deep links (`s_/l_/u_` payload).
+- [x] **Contact form:** consent checkbox, length limits, rate limit, phone field, UTM/page/locale, `?service=` prefill.
+- [x] **Analytics layer + consent banner:** consent-gated, no IDs yet.
+- [x] **Technical:** single brand in titles, localized 404 (`global-not-found`), Heebo for Hebrew, OG image, AVIF, security headers, sitemap/llms with new pages.
+- [x] **Bots rebuilt per proposal** (`bots/README.md`): 8 services × 3 islands × 4 languages, back/language/restart everywhere, persistence, webhook + signature checks, 35 tests in CI.
+- [x] **Translation tooling** (`docs/i18n.md`): per-string "translated-from" tracking; `i18n:pending` / `i18n:accept`. All new English translated to RU/TH/HE as an LLM draft.
+- [ ] **Not built (not selected 23.09):** site test suite, backlinks plan, AdFoto Wayback analysis. Homepage variants declined.
 
 ## Open Questions & Blockers
 
@@ -213,35 +258,40 @@ omitted, phrased qualitatively, or marked `[[VERIFY]]` in source.
   blocked end-to-end on the items above, plus analytics/tracking IDs and
   the hosting decision below.
 
+### Added 2026-09-23 (see NOTES.md for the short list)
+
+- **Shop:** e-commerce service page (exists) vs a real store (needs a brief).
+- **Bot matrix:** 8 × 3 as built vs the "13 × 5" row in the proposal table.
+- **Lead storage:** Telegram only for now; Sheets/Airtable/CRM later.
+- **LLM-written English copy** for the new pages and expansions needs a factual/tone review, including "Indicative" prices on new rows.
+- **Bots deployment:** host, WhatsApp account + app secret, bot photos, `CONTACT_EMAIL` confirmation, shared session store for multiple instances.
+- **Analytics IDs**, Search Console / Yandex Webmaster access, social profile URLs for `sameAs`, author bios.
+- **CSP header** not set; contact-form rate limit is per instance.
+
 ### Needs a team/teammate decision
 
-- **Hosting & deployment target**: on 2026-09-14 a teammate configured
-  the repo for GitHub Pages static export (`output: "export"`,
-  `.github/workflows/deploy.yml`) the same day this session built the
-  locale routing. Static export disables Next.js middleware and API
-  routes entirely — it broke `next dev` outright and would have shipped
-  a build with no working `/`, `/contact`, etc. and a non-functional
-  contact form (verified by inspecting the exported `out/` directly).
-  Confirmed with the team: production is Vercel/Node, not GitHub Pages —
-  `next.config.ts` is back to plain. **Still open**: `deploy.yml` still
-  triggers on every push to `main` and will now fail at its "Upload Pages
-  artifact" step rather than silently publish a broken site — the
-  workflow itself hasn't been removed or reconciled, and the **currently
-  live** Pages site (`https://drandromeda.github.io/CreativeLAB.in.th/`)
-  still works only because it's stale (built before locale routing
-  existed).
+- **Production host + domain**: Vercel/Node is confirmed and the Pages
+  workflow is gone from `main` (2026-09-22), but no production
+  deployment exists yet and `creativelab.in.th` isn't pointed at one.
+  The host needs `TELEGRAM_BOT_TOKEN` / `TELEGRAM_STAFF_CHAT_ID` set, or
+  the contact form returns an error instead of delivering leads.
 - **`creativelab.in.th` domain**: `SITE.url` (used for every canonical/
   hreflang/JSON-LD/sitemap URL) is `https://creativelab.in.th`, but the
   GitHub Pages deployment has no `public/CNAME` and actually serves from
   `https://drandromeda.github.io/CreativeLAB.in.th/`. Needs reconciling
   if Pages is ever used for anything — moot if the hosting question above
   resolves to "GitHub Pages isn't used at all."
-- **RU/TH/HE translated content**: routing/RTL/font infrastructure is
-  done (`docs/tasks/TASK-007-multilingual-i18n.md`); no translated copy
-  exists. Proposal explicitly rules out machine translation as final
-  copy. Needs either a native RU/TH/HE copywriter/reviewer in the loop,
-  or an explicit decision to accept LLM-drafted copy as a
-  reviewed-before-ship starting point.
+- **RU/TH/HE native review**: all copy exists as an LLM draft
+  (2026-09-22) and is live behind the language switcher. It needs a
+  native reviewer per language before launch; see Phase 7.
+- **Leaked Telegram bot token**: until 2026-09-22 the token was
+  hardcoded in client JS (`ContactForm.tsx`, commit `0bda801`) and is
+  still in git history. Confirm it was revoked via @BotFather (the fork
+  says it was), then set the new one only in the host's env vars. See
+  `SECURITY.md`.
+- **"Shop" in the fork's notes**: unclear whether it means the existing
+  `/websites-digital/ecommerce` service page or a real CreativeLAB store.
+  Needs a brief if it's the latter.
 - **Telegram/WhatsApp bot credentials**: `bots/` is built and
   type-checked but not deployed — needs a real Telegram bot token,
   WhatsApp Business/Cloud API account, and a host with a stable public
@@ -256,13 +306,12 @@ omitted, phrased qualitatively, or marked `[[VERIFY]]` in source.
 
 ### Technical debt (known, not urgent)
 
-- `robots.txt` / `llms.txt` are currently static files under `public/`
-  (from the GitHub Pages experiment above) rather than generated from
-  `src/content/**` — correct today, will drift as hubs/services are
-  added. Restoring the two route handlers is small and unblocked.
-- Contact form posts to `/api/contact`, which validates and logs
-  server-side but doesn't yet send email or hit a CRM — needs a real
-  provider (Resend/SES/CRM webhook).
+- Contact form: `/api/contact` delivers leads to the staff Telegram chat
+  (server-side). There's still no email/CRM copy or rate limiting; add
+  one if Telegram alone isn't enough.
+- `src/components/blocks/TrustStrip.tsx` isn't used anywhere and wasn't
+  moved to the translation layer. Delete it, or localize it before
+  reusing it.
 - Header is sticky + translucent at all times rather than
   transparent-on-hero/solid-on-scroll — avoids fragile per-template
   coordination, same visual intent. Revisit only if the client wants the
@@ -276,3 +325,5 @@ omitted, phrased qualitatively, or marked `[[VERIFY]]` in source.
   needed.
 - To add a new hub: create `src/content/hubs/<slug>.ts` following the
   existing files' shape, then register it in `src/content/hubs/index.ts`.
+- After adding or changing English content, run `npm run i18n:sync`, then
+  translate the new strings in `src/content/locales/*/` (`docs/i18n.md`).

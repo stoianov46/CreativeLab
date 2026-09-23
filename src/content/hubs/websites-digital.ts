@@ -10,17 +10,50 @@ export const websitesDigitalHub: HubPage = {
   primaryKeyword: "web design Koh Phangan",
   metaTitle: "Web Design Koh Phangan | Websites, SEO & AI Search",
   metaDescription:
-    "Website design, landing pages, technical SEO and AI search optimization for businesses on Koh Phangan — built for real conversion, not just looks.",
+    "Website design, landing pages, SEO and AI search optimization for businesses on Koh Phangan, Koh Samui and Koh Tao — built for real conversion, not just looks.",
   directAnswer:
-    "CreativeLAB designs and builds websites for Koh Phangan businesses — from single landing pages to full business and e-commerce sites — combined with technical SEO and AI search visibility so the site is actually found, not just well-designed.",
+    "CreativeLAB designs and builds websites for businesses across Koh Phangan, Koh Samui and Koh Tao — from single landing pages to full business and e-commerce sites — combined with technical SEO and AI search visibility, so the site is actually found by customers and answer engines, not just well-designed to look at.",
   heroSupport:
-    "Websites, landing pages, SEO and AI search visibility for businesses that need a site that performs, not just looks good.",
+    "Websites, landing pages, SEO and AI search visibility for businesses across Koh Phangan, Koh Samui and Koh Tao that need a site that performs, not just looks good.",
   heroImage: images.studio,
   heroImageAlt: "Website design being reviewed on a laptop screen",
   editorialTitle: "A website is infrastructure, not a brochure",
   editorialBody: [
     "A website that just describes your business isn't doing much work. The sites that perform are structured around what a visitor actually needs to do next — book, inquire, order — and are built so search engines and, increasingly, AI answer engines can understand and recommend them.",
     "We combine editorial design with the technical fundamentals — clean structure, fast loading, semantic HTML, proper schema — so the site looks premium and is genuinely visible where your customers are searching.",
+    "None of that depends on where the business itself is based. We build for clients on Koh Phangan, Koh Samui and Koh Tao from the same process — a site doesn't need a local server room, and most of a website project (discovery calls, design review, copywriting, development) happens remotely regardless of which island you're on. Only the parts that need us physically present, like an on-site product or property shoot, involve travel and a possible travel fee.",
+    "Premium design and technical rigor aren't a trade-off here. A site can look considered and editorial — with real typographic hierarchy, deliberate spacing and imagery that's actually been shot for the business rather than pulled from a stock library — while still loading fast and validating cleanly for search engines. The two goals inform each other: a page that's been simplified for speed usually reads more clearly too.",
+    "We also treat a website as something that keeps working after launch, not a one-time deliverable. Search visibility, AI citation and page performance shift over time as algorithms and competitors change, which is why several of the services in this group — technical SEO, AI search optimization, redesign — exist as ongoing or periodic work rather than a single fixed project.",
+    "The services below cover the full range of what a business actually needs from a website, from a single focused landing page through to a full e-commerce build, plus the ongoing technical, SEO and AI-visibility work that keeps a site performing after launch. Most businesses only need one or two of these at a time — we'll help you figure out which, rather than selling the full list regardless of fit, and we're happy to talk through the options before any commitment is made.",
+  ],
+  sections: [
+    {
+      title: "SEO and AI search are part of the build, not an add-on",
+      body: [
+        "A site that looks good but loses its structure the moment a search engine or an AI crawler tries to parse it is only half-built. We treat semantic HTML, heading hierarchy, schema markup and page speed as design constraints from the first wireframe, not a checklist run after launch.",
+        "That matters more every year. Traditional search still sends the majority of organic traffic, but a growing share of discovery now happens through AI answer engines that summarize or cite a handful of sources instead of listing ten blue links. A site built with clear entity definitions and direct-answer content is positioned for both, which is why technical SEO and AI search optimization sit inside this same team rather than being handled as a separate afterthought project.",
+        "In practice that means a heading structure that actually maps to how a page's content is organized, a sitemap that reflects real navigation rather than every URL the CMS has ever generated, and structured data that describes services, pricing and location accurately. None of it is exotic — it's the unglamorous groundwork that makes everything built on top of it perform better.",
+        "We also check this work against real crawl and speed data rather than assumptions — running the site through the same tools search engines and performance monitors use, so a claim like \"this page loads fast\" is backed by a measurement, not a guess based on how it feels to click through on a good connection.",
+      ],
+    },
+    {
+      title: "Built around how people actually book on the islands",
+      body: [
+        "Most visitors to a Koh Phangan, Koh Samui or Koh Tao business site are on a phone, often mid-trip-planning, often comparing a short list of options in one browsing session rather than researching over days. A site that loads slowly or buries the booking or contact action several clicks deep loses that visitor to a competitor's tab.",
+        "We design information architecture and page speed around that behavior specifically — the fastest possible path from landing on a page to inquiring, booking or calling, with the technical performance to back it up on the variable mobile connections common across the islands.",
+        "That same logic extends to contact methods. A form is one option, but many visitors would rather message on WhatsApp or Line, or simply call — so we design the contact and booking paths around the channels people actually use here, rather than defaulting to a form because it's the standard website pattern and the easiest one to build without thinking about it.",
+        "That also shapes how we think about content length and structure. A page can still say everything it needs to say while getting a visitor to the key facts — price range, location, availability, contact method — within the first screen or two, rather than making them scroll through paragraphs of introduction before reaching anything actionable.",
+      ],
+    },
+    {
+      title: "One team across design, build and content",
+      body: [
+        "Website projects that split design, development and copywriting across separate freelancers tend to lose coherence somewhere in the handoffs — a beautiful design that the developer can't build cleanly, or copy that doesn't fit the layout it was written for.",
+        "We keep design, development, SEO structure and content under one roof so decisions made at the wireframe stage are still intact by the time the site goes live, and so a change requested in review doesn't need to be relayed through three different people to get fixed.",
+        "This also makes a multi-service project genuinely coherent — a villa website, its photography and the advertising that drives traffic to it can be planned as one connected effort rather than three separate vendors each optimizing for their own piece without seeing the whole picture.",
+        "It also means a single point of contact throughout the project rather than being passed between a design lead, a developer and an SEO specialist who each only see their own part of the brief. Questions get answered by someone who understands the whole site, not just the piece they personally built.",
+      ],
+    },
   ],
   faqs: [
     { q: "Do you build the website, or just design it?", a: "Both — design and development are handled by the same team for a coherent result." },
@@ -29,6 +62,10 @@ export const websitesDigitalHub: HubPage = {
     { q: "Do you handle hosting?", a: "We can set up and hand over hosting, or continue managing it — we'll agree what fits your situation." },
     { q: "Is SEO included, or a separate cost?", a: "On-page SEO fundamentals are included in every build; deeper technical SEO work is scoped separately for complex sites." },
     { q: "How long does a typical website project take?", a: "From 2 weeks for a landing page to 6–10 weeks for a larger multi-page or e-commerce site." },
+    { q: "We're based on Koh Samui or Koh Tao — can you still build our site?", a: "Yes. Discovery, design, copy and development are handled remotely for every project; only an on-site photo or video shoot needs us to travel, and a travel fee may apply for that." },
+    { q: "Can you build a site in more than one language?", a: "Yes, multilingual structure can be built in from the start if your audience needs it — tell us which languages matter for your business." },
+    { q: "Do you help with the domain name and email setup?", a: "Yes, we can advise on or handle domain and business email setup as part of a build, or work with what you already have." },
+    { q: "Which service is right for us if we're not sure yet?", a: "Start with Web Design or Business Websites for a new site; Redesign if you already have one that isn't performing; Landing Pages if this is specifically for an ad campaign. We can also help you decide on a short call." },
   ],
   finalCtaLabel: "Start a Project",
   services: [
@@ -39,14 +76,22 @@ export const websitesDigitalHub: HubPage = {
       h1: "Web Design on Koh Phangan",
       primaryKeyword: "web design Koh Phangan",
       secondaryTopics: ["website development", "business websites"],
-      metaTitle: "Web Design Koh Phangan | CreativeLAB",
+      metaTitle: "Web Design Koh Phangan | Responsive Sites",
       metaDescription:
-        "Web design for Koh Phangan businesses — responsive, SEO-ready websites built around clear user experience and conversion.",
+        "Web design for Koh Phangan, Koh Samui and Koh Tao businesses — responsive, SEO-ready websites built around clear user experience and real conversion goals.",
       directAnswer:
-        "We design and build websites for Koh Phangan businesses — responsive, fast-loading sites with clear information architecture and SEO-ready structure from day one, not bolted on afterward.",
+        "We design and build websites for businesses on Koh Phangan, Koh Samui and Koh Tao — responsive, fast-loading sites with clear information architecture and SEO-ready structure from day one, not bolted on afterward. Design, development and copywriting are handled by one team, so the finished site matches what was planned at the wireframe stage.",
       heroSupport: "Responsive, SEO-ready web design built around clear user experience.",
       heroImage: images.studio,
       heroImageAlt: "Web design mockups displayed on a screen",
+      overview: [
+        "A website's design is a series of decisions about what a visitor sees first, what they're asked to do next, and how quickly they can do it — not a set of colors and fonts applied to a template. We start every project by mapping what the business actually needs the site to accomplish, whether that's inquiries, bookings, direct sales or simply a credible reference point for people who've already found the business elsewhere.",
+        "That decision-making shapes the visual design as much as the code. A homepage built to convert a first-time visitor into an inquiry looks different from one built to reassure a returning customer or to rank for a specific search term, and we design each page around its actual job rather than a generic template applied across every page on the site.",
+        "The build itself follows modern practice: semantic HTML, clean component structure, and performance treated as a design constraint rather than something optimized after the fact. Pages are built to load fast on the mobile connections most visitors on the islands actually use, and structured so search engines and AI crawlers can read the content correctly from day one.",
+        "We work with businesses at very different starting points — some arrive with a brand identity, photography and copy ready to go; others need all three built alongside the site. Either way, the same team handles design and development, so nothing gets lost in a handoff between separate freelancers working from different assumptions about the project.",
+        "Timelines depend on scope, but a typical web design project moves through discovery, design review and build in defined stages rather than an open-ended back-and-forth. You'll see wireframes before full visual design, and full visual design before development begins, so feedback happens at the point it's cheapest to act on rather than after the whole site is built.",
+      ],
+      industrySlugs: ["brands-lifestyle", "tourism-hospitality", "villas-real-estate"],
       scope: [
         { title: "UX & information architecture", description: "A clear structure that gets visitors to the right page fast." },
         { title: "Responsive design", description: "A site that works properly from mobile through desktop." },
@@ -81,6 +126,8 @@ export const websitesDigitalHub: HubPage = {
         { q: "Do you provide photography for the site?", a: "Yes, through our photography services, or we can work with assets you already have." },
         { q: "What happens after launch — do you offer support?", a: "We can agree an ongoing support arrangement, or hand over full documentation for your own team." },
         { q: "How many revision rounds are included?", a: "Typically two structured revision rounds at the design stage are included." },
+        { q: "Can you build the site if our business is on Koh Samui or Koh Tao?", a: "Yes — the design and development process is remote by default; only photography or on-site work requires travel." },
+        { q: "Do you optimize for AI search visibility too, or just traditional SEO?", a: "On-page SEO fundamentals cover both; deeper AI search structuring is available through our AI Search / GEO service if you want to go further." },
       ],
       related: [
         { label: "Landing Pages", href: "/websites-digital/landing-pages", description: "A focused single-page alternative." },
@@ -98,12 +145,20 @@ export const websitesDigitalHub: HubPage = {
       secondaryTopics: ["company website", "service website"],
       metaTitle: "Business Website Koh Phangan | Company Websites",
       metaDescription:
-        "Multi-page business websites for Koh Phangan companies — information architecture, conversion paths and CMS built for growth.",
+        "Multi-page business websites for companies on Koh Phangan, Koh Samui and Koh Tao — information architecture, conversion paths and CMS built for growth.",
       directAnswer:
-        "We build multi-page business websites for Koh Phangan companies — structured information architecture across services, about and contact pages, built on a CMS so your team can update content without needing a developer for every change.",
+        "We build multi-page business websites for companies across Koh Phangan, Koh Samui and Koh Tao — structured information architecture across services, about and contact pages, built on a CMS so your team can update content without needing a developer for every change. On-page SEO and a clear conversion path are built in from the first sitemap.",
       heroSupport: "A structured, CMS-ready website for a company with more than one service or story to tell.",
       heroImage: images.studio,
       heroImageAlt: "Business website homepage displayed on a monitor",
+      overview: [
+        "A single-page landing site works when a business has one offer and one audience. Once a company has several services, multiple team members, or a story that needs more than one page to tell properly, the website needs a real structure behind it — a sitemap that reflects how the business actually operates, not a handful of sections stacked on one long page.",
+        "We start by mapping every service, audience and content type the site needs to hold, then design the navigation and internal linking so a visitor researching one service can find the related ones without hunting through a menu. That structure also does double duty for SEO — a well-organized multi-page site gives search engines a much clearer signal of what the business does than a single page trying to cover everything at once.",
+        "The CMS setup is scoped to your team's actual comfort with editing a website, not the most feature-heavy option available. Some clients want to publish new pages and journal posts independently; others just need to update contact details, hours or a services list without calling a developer every time. We build and document the system for whichever of those is true for you.",
+        "Because this sits alongside our other services, a business website rarely stands alone in practice — brand identity, photography, ongoing content and advertising all plug into the same site once it's live, and the information architecture is built with that growth in mind rather than needing to be rebuilt the first time a new service is added.",
+        "We also plan the sitemap with future pages in mind — a new service, a new team member, an added location — so growth means adding a page within the existing structure rather than a redesign of the navigation every time the business changes. That's a large part of what separates a business website from a single landing page: it's built to hold more than one story at once, and to keep holding more as the business grows.",
+      ],
+      industrySlugs: ["brands-lifestyle", "wellness-retreats", "tourism-hospitality"],
       scope: [
         { title: "Information architecture", description: "A logical site structure across services, about and contact." },
         { title: "Conversion paths", description: "Clear routes to inquiry or contact from every key page." },
@@ -137,6 +192,8 @@ export const websitesDigitalHub: HubPage = {
         { q: "Can this integrate with our existing tools (CRM, booking, etc.)?", a: "In many cases yes — tell us what you use and we'll advise on integration options." },
         { q: "How many pages does a typical business website include?", a: "Most range from 8–15 pages depending on how many services and locations you cover." },
         { q: "Do you offer ongoing maintenance after launch?", a: "Yes, as an optional ongoing arrangement." },
+        { q: "Do you work with companies based on Koh Samui or Koh Tao?", a: "Yes — the discovery, design and build process runs remotely across all three islands; travel is only needed for on-site photography." },
+        { q: "Can the site grow as we add more services or locations?", a: "Yes, the information architecture is planned with that growth in mind rather than needing a rebuild for every addition." },
       ],
       related: [
         { label: "Web Design", href: "/websites-digital/web-design", description: "The core design and build service this extends." },
@@ -154,12 +211,20 @@ export const websitesDigitalHub: HubPage = {
       secondaryTopics: ["campaign landing page", "lead generation"],
       metaTitle: "Landing Page Design Koh Phangan | Campaign Pages",
       metaDescription:
-        "Landing pages for Koh Phangan advertising campaigns — message-matched, fast-loading pages built to convert traffic into leads.",
+        "Landing pages for Koh Phangan, Koh Samui and Koh Tao advertising campaigns — message-matched, fast-loading pages built to convert traffic into real leads.",
       directAnswer:
-        "We design landing pages built specifically for advertising campaigns — message-matched to your ad creative, fast-loading, and structured around one clear conversion action, rather than sending paid traffic to a generic homepage.",
+        "We design landing pages built specifically for advertising campaigns — message-matched to your ad creative, fast-loading, and structured around one clear conversion action, rather than sending paid traffic to a generic homepage. Tracking is configured before launch, so every visit and conversion is measurable from day one.",
       heroSupport: "Message-matched, fast-loading pages built around one clear conversion action.",
       heroImage: images.studio,
       heroImageAlt: "Landing page design shown on a laptop and phone",
+      overview: [
+        "Sending paid traffic to a general homepage is one of the most common ways a campaign underperforms. A visitor who clicked an ad for a specific offer lands somewhere that talks about the whole business instead, has to hunt for the thing they were promised, and leaves before converting. A landing page fixes that by matching the page to the ad, not the other way around.",
+        "We build each page around a single offer and a single action — book a table, request a quote, download a guide — and strip out the navigation, secondary links and competing calls to action that dilute a generic page. Every element on the page exists to move the visitor toward that one outcome or to answer the objection most likely to stop them.",
+        "Speed matters more here than on most pages. A slow-loading landing page doesn't just lose visitors — it actively works against ad platform quality scores on Google and Meta, pushing up your cost per click. We build these pages lean specifically to protect that performance, alongside proper conversion tracking configured before the page goes live rather than bolted on afterward.",
+        "Landing pages also pair naturally with testing. Because they're focused and quick to produce, we can build variants of the same offer with different headlines, imagery or structure and let real campaign data show which one converts better, rather than guessing which version is stronger.",
+        "This service is scoped as the page itself — the design, the copy, the build and the tracking setup. It works as a standalone project if you're already running ads through another team, or as part of a combined campaign with our Advertising services, where the ad creative and the landing page are planned together from the start rather than assembled by two teams working from separate briefs.",
+      ],
+      industrySlugs: ["events", "tourism-hospitality", "brands-lifestyle"],
       scope: [
         { title: "Message match", description: "Page headline and content aligned with the ad that brought the visitor." },
         { title: "Single clear CTA", description: "One conversion action, without competing distractions." },
@@ -194,6 +259,8 @@ export const websitesDigitalHub: HubPage = {
         { q: "Does this include the ad creative?", a: "Ad creative is part of our Advertising services; this covers the page traffic lands on." },
         { q: "Will this page be indexed by Google?", a: "We can set it to index or noindex depending on whether you want it discoverable organically." },
         { q: "Can an existing landing page be improved instead of rebuilt?", a: "Yes, we can audit and optimize an existing page rather than starting fresh." },
+        { q: "Can you build landing pages for a campaign targeting Koh Samui or Koh Tao specifically?", a: "Yes — pages can be built around a specific island or audience segment when a campaign calls for it." },
+        { q: "How many page variants can be built for one campaign?", a: "As many as the testing plan calls for — most campaigns start with two or three variants before narrowing to the best performer." },
       ],
       related: [
         { label: "Google Ads", href: "/advertising/google-ads", description: "Search campaigns that can point to this page." },
@@ -211,12 +278,20 @@ export const websitesDigitalHub: HubPage = {
       secondaryTopics: ["menu website", "online ordering", "booking"],
       metaTitle: "Restaurant Website Development Koh Phangan",
       metaDescription:
-        "Technical website development for Koh Phangan restaurants — menu structure, booking and ordering integration, built for performance.",
+        "Technical website development for restaurants on Koh Phangan, Koh Samui and Koh Tao — menu structure, booking and ordering integration, built for performance.",
       directAnswer:
-        "We build the technical foundation of a restaurant website — fast page loads, structured menu data, and integration with your booking or ordering platform — as a standalone development project or alongside our Food & Restaurants marketing team.",
+        "We build the technical foundation of a restaurant website — fast page loads, structured menu data, and integration with your booking or ordering platform — as a standalone development project or alongside our Food & Restaurants marketing team, for restaurants on Koh Phangan, Koh Samui and Koh Tao.",
       heroSupport: "Fast, well-structured restaurant website development, integrated with your booking or ordering platform.",
       heroImage: images.food,
       heroImageAlt: "Restaurant website structure being developed",
+      overview: [
+        "A restaurant website has a narrower job than most business sites: get a hungry visitor to the menu, then to a table or an order, as fast as possible. Diners rarely browse a restaurant site the way they browse a company's about page — they're checking hours, location, the menu and whether they can book, usually on a phone, often while already deciding where to eat that evening.",
+        "We treat the menu as structured content rather than a static PDF or image dump — organized so it's fast to scan, easy for you to update seasonally, and readable by search engines, which matters for showing up when someone searches for a dish or cuisine type near them. That same structure supports schema markup, which can help the site earn richer listings in search results.",
+        "Booking and ordering integration is scoped to whatever platform the restaurant already uses or wants to move to, rather than forcing a switch to a system we prefer. The technical goal throughout is reliability and speed — a restaurant site that's slow or breaks during a dinner rush costs real bookings, so performance is treated as a hard requirement, not a nice-to-have.",
+        "This service covers the technical build specifically; it can stand alone for a restaurant that already has its brand, photography and marketing sorted, or run alongside our Food & Restaurants team when a restaurant wants the website built as part of a wider marketing push across menu design, photography and social content.",
+        "It also applies across formats a restaurant might run — a full-service dining site, a café with a simpler single-page presence, or a delivery-and-takeaway-led menu where ordering speed matters more than atmosphere photography. We scope the technical build to match the format rather than applying the same structure regardless of what kind of restaurant it's built for or how its customers actually order.",
+      ],
+      industrySlugs: ["restaurants-food", "tourism-hospitality", "events"],
       scope: [
         { title: "Menu data structure", description: "Menu content structured for easy updates and SEO." },
         { title: "Booking/ordering integration", description: "Connecting your chosen reservation or delivery platform." },
@@ -250,6 +325,8 @@ export const websitesDigitalHub: HubPage = {
         { q: "How fast will the site load?", a: "We target strong Core Web Vitals scores as a hard requirement, not an afterthought." },
         { q: "Can the menu be updated without a developer?", a: "Yes, menu content is structured to be editable by your team." },
         { q: "Do you handle multilingual menus?", a: "Yes, the technical structure supports multiple languages when needed." },
+        { q: "Do you build restaurant websites for businesses on Koh Samui or Koh Tao too?", a: "Yes — the build process is the same across all three islands; on-site food photography is the main reason we'd need to travel." },
+        { q: "Can the site show real-time table availability?", a: "That depends on the booking platform's capabilities — where it supports it, we integrate that directly into the site." },
       ],
       related: [
         { label: "Restaurant Website", href: "/food-restaurants/website", description: "The marketing-led version of this service." },
@@ -267,12 +344,20 @@ export const websitesDigitalHub: HubPage = {
       secondaryTopics: ["property website", "booking"],
       metaTitle: "Villa Website Development Koh Phangan",
       metaDescription:
-        "Villa and property websites on Koh Phangan — gallery, property information and booking or inquiry integration, built for performance.",
+        "Villa and property websites on Koh Phangan, Koh Samui and Koh Tao — gallery, property information and booking or inquiry integration, built for performance.",
       directAnswer:
-        "We build websites for individual villas and small property portfolios on Koh Phangan — a strong photo gallery, clear property information, and a direct path to inquire or book, technically built to load fast on the mobile connections most travellers use.",
+        "We build websites for individual villas and small property portfolios on Koh Phangan, Koh Samui and Koh Tao — a strong photo gallery, clear property information, and a direct path to inquire or book, technically built to load fast on the mobile connections most travellers use.",
       heroSupport: "A gallery-led villa website with a clear, fast path to inquire or book.",
       heroImage: images.photoshoot,
       heroImageAlt: "Villa website gallery displayed on a screen",
+      overview: [
+        "A villa is sold on how it feels, and that's mostly conveyed through imagery — so a villa website lives or dies on how well it presents a photo and video gallery, and how fast that gallery loads for someone browsing on a hotel Wi-Fi connection or mobile data from another country. We build the gallery experience first and design the rest of the site to support it, not compete with it.",
+        "Beyond the gallery, the site needs to answer the practical questions a traveller has before they'll commit to booking or inquiring — number of rooms, amenities, location relative to the beach or town, and how to actually reach the property. We lay that information out clearly rather than burying it in a long paragraph, and give every page one obvious next step: inquire, check availability, or book.",
+        "Villas across Koh Phangan, Koh Samui and Koh Tao are marketed to a similar audience — travellers comparing a shortlist of properties, often through Airbnb, Booking.com or a villa rental agent, before deciding whether to also look at the owner's own site. A dedicated villa website doesn't replace those listing platforms; it gives the owner a direct booking channel that isn't paying a platform commission on every reservation.",
+        "We integrate the site with whichever booking or inquiry system the property already uses, and can embed a 360° virtual tour where one exists. For portfolios covering more than one property, we build a shared site structure so each villa gets its own gallery and page without duplicating the surrounding site design for every listing.",
+        "Photography and video are usually the deciding factor in how well a villa site performs, so this service pairs naturally with our Villa Photography and Property Video work — either commissioned specifically for the site or reused from existing shoots where the material is strong enough to carry a premium presentation.",
+      ],
+      industrySlugs: ["villas-real-estate", "tourism-hospitality", "hotels-resorts"],
       scope: [
         { title: "Photo & video gallery", description: "A fast-loading, well-organized showcase of the property." },
         { title: "Property information", description: "Clear layout of rooms, amenities and location details." },
@@ -307,6 +392,8 @@ export const websitesDigitalHub: HubPage = {
         { q: "Which booking systems do you integrate with?", a: "Most common booking and inquiry tools — tell us what you use and we'll confirm compatibility." },
         { q: "Will the site work well for international visitors on slow connections?", a: "Yes, performance for varied connection speeds is a specific priority for this type of site." },
         { q: "Can this be a multilingual site?", a: "Yes, if your guest audience needs more than one language." },
+        { q: "Do you build villa websites for properties on Koh Samui or Koh Tao?", a: "Yes — we work with villa owners across all three islands; an on-site shoot involves travel and a possible travel fee." },
+        { q: "Can the site show live availability from our booking calendar?", a: "Where the booking platform supports it, yes — we connect the calendar so availability stays accurate without manual updates." },
       ],
       related: [
         { label: "Villa Photography", href: "/villas-real-estate/villa-photography", description: "The photography behind the gallery." },
@@ -324,12 +411,20 @@ export const websitesDigitalHub: HubPage = {
       secondaryTopics: ["online shop", "product website"],
       metaTitle: "E-commerce Website Koh Phangan | Online Shop",
       metaDescription:
-        "E-commerce website development for Koh Phangan businesses — product catalog, checkout and mobile-first shopping experience.",
+        "E-commerce website development for businesses on Koh Phangan, Koh Samui and Koh Tao — product catalog, checkout and a mobile-first shopping flow that sells.",
       directAnswer:
-        "We build e-commerce websites for Koh Phangan businesses selling products online — a clear product catalog, a straightforward checkout, and a mobile-first shopping experience, backed by a platform your team can manage independently.",
+        "We build e-commerce websites for businesses across Koh Phangan, Koh Samui and Koh Tao selling products online — a clear product catalog, a straightforward checkout, and a mobile-first shopping experience, backed by a platform your team can manage independently without needing a developer for routine updates.",
       heroSupport: "A product catalog and checkout built for how customers actually shop on their phones.",
       heroImage: images.studio,
       heroImageAlt: "E-commerce product catalog displayed on a phone",
+      overview: [
+        "Selling online adds real complexity beyond a normal business website — a product catalog that needs regular updates, a checkout that has to work reliably with real payments, and shipping or delivery logic that varies depending on where a customer is ordering from. We scope each of those separately rather than treating an online shop as a slightly bigger brochure site.",
+        "Most shopping traffic today arrives on a phone, so the catalog browsing and checkout flow are designed mobile-first rather than adapted from a desktop layout afterward. Every extra step or unclear field in a checkout is a chance for a customer to abandon the purchase, so we keep that path as short and as clear as the product range allows.",
+        "The platform is chosen so your team can manage products, prices and stock without needing a developer for routine changes, and configured with the payment and shipping options that suit customers ordering from within Thailand and from abroad. For businesses shipping between the islands or to mainland customers, shipping rules are set up to reflect that reality rather than a single flat rate that doesn't fit.",
+        "An online shop rarely launches in isolation — it usually needs traffic to actually sell anything, so we design the catalog structure to work well with the advertising and social content that will drive visitors to it, and can build the campaigns and landing pages alongside the store itself if that's part of the brief.",
+        "Catalog size shapes a lot of the scoping decisions — a small, curated product range needs a very different structure from a large multi-category shop, and we plan navigation, filtering and search around whichever of those actually reflects the business, rather than over-building a small shop with features it will never need or leaving a larger catalog without the structure it needs to stay navigable.",
+      ],
+      industrySlugs: ["brands-lifestyle", "wellness-retreats", "tourism-hospitality"],
       scope: [
         { title: "Product catalog", description: "Clear categorization and product presentation." },
         { title: "Checkout flow", description: "A straightforward, low-friction path to purchase." },
@@ -364,6 +459,8 @@ export const websitesDigitalHub: HubPage = {
         { q: "Can this integrate with an existing POS system?", a: "In many cases yes — tell us what you use and we'll advise on integration." },
         { q: "How long does an e-commerce build take?", a: "Typically 6–10 weeks depending on catalog size and integrations." },
         { q: "Do you offer ongoing support after launch?", a: "Yes, as an optional ongoing arrangement for updates and maintenance." },
+        { q: "Can you set up shipping between the islands, or only within Koh Phangan?", a: "Yes — shipping and delivery rules can be configured for inter-island orders and mainland or international shipping as needed." },
+        { q: "Do you build the marketing to drive traffic to the shop, or only the shop itself?", a: "Both are available — the store can be built standalone, or alongside advertising and social content through our other services." },
       ],
       related: [
         { label: "Web Design", href: "/websites-digital/web-design", description: "Our broader web design service." },
@@ -381,12 +478,20 @@ export const websitesDigitalHub: HubPage = {
       secondaryTopics: ["UX redesign", "website optimization"],
       metaTitle: "Website Redesign Koh Phangan | UX & SEO Migration",
       metaDescription:
-        "Website redesign for Koh Phangan businesses — audit, restructure and rebuild without losing existing SEO value.",
+        "Website redesign for businesses on Koh Phangan, Koh Samui and Koh Tao — audit, restructure and rebuild without losing your existing SEO value or rankings.",
       directAnswer:
-        "We redesign existing websites for Koh Phangan businesses — auditing what's underperforming, restructuring content and design, and migrating carefully so the SEO value you've already built isn't lost in the process.",
+        "We redesign existing websites for businesses across Koh Phangan, Koh Samui and Koh Tao — auditing what's underperforming, restructuring content and design, and migrating carefully so the SEO value you've already built isn't lost in the process. The result should fix real problems, not just refresh the visual style.",
       heroSupport: "A careful redesign that fixes what's underperforming without losing your existing SEO value.",
       heroImage: images.studio,
       heroImageAlt: "Before and after website redesign comparison",
+      overview: [
+        "An outdated-looking website isn't always the real problem. Sometimes a site's visual style is fine but its structure confuses visitors, its pages load slowly, or years of ad hoc edits have left the technical SEO in poor shape without anyone noticing. Redesigning based on appearance alone risks fixing the wrong thing and repeating the same underlying issues in a newer coat of paint.",
+        "We start with an audit — of analytics, user behavior where available, and the site's technical SEO health — before deciding what actually needs to change. That turns the redesign into a project with a clear brief: which pages are underperforming, why, and what the new structure needs to fix, rather than a subjective visual refresh.",
+        "Migration is the part of a redesign most likely to go wrong if it's rushed. A site that's accumulated organic rankings over time can lose a meaningful share of that traffic through a careless relaunch — broken URLs, missing redirects, or content quietly dropped in the rebuild. We treat proper redirects and technical checks as a core part of the project, not an afterthought handled the night before launch.",
+        "A redesign is also a natural point to build in things the original site never had — AI search readiness, better Core Web Vitals, a CMS your team can actually use, or a rebrand that's happened since the site was first built. We scope those additions into the same project when they make sense, rather than treating the redesign as a like-for-like swap of the old pages.",
+        "We're honest about what a redesign can and can't fix. If the underlying problem is a lack of demand or an off-target offer rather than the website itself, no amount of restructuring will solve it — the audit stage is where that distinction gets made, so the project targets a real, addressable problem.",
+      ],
+      industrySlugs: ["brands-lifestyle", "tourism-hospitality", "hotels-resorts"],
       scope: [
         { title: "Audit", description: "Identify what's underperforming in design, content and technical structure." },
         { title: "Restructure", description: "A revised information architecture based on the audit's findings." },
@@ -421,6 +526,8 @@ export const websitesDigitalHub: HubPage = {
         { q: "Can this include a full technical SEO overhaul?", a: "Yes, often bundled together when a redesign is being planned." },
         { q: "How long does a redesign project take?", a: "Typically 6–12 weeks depending on the site's size and complexity." },
         { q: "Do you provide before/after performance data?", a: "Yes, we track key metrics before and after launch to measure the impact." },
+        { q: "Can a redesign also improve our AI search visibility?", a: "Yes, we can build in the entity clarity and structured direct-answer content that AI search optimization relies on." },
+        { q: "Do you redesign sites for businesses outside Koh Phangan too?", a: "Yes, we take on redesign projects for businesses on Koh Samui and Koh Tao as well." },
       ],
       related: [
         { label: "Technical SEO", href: "/websites-digital/technical-seo", description: "Often bundled with a redesign." },
@@ -436,14 +543,22 @@ export const websitesDigitalHub: HubPage = {
       h1: "Technical SEO on Koh Phangan",
       primaryKeyword: "technical SEO Koh Phangan",
       secondaryTopics: ["crawlability", "indexing", "Core Web Vitals"],
-      metaTitle: "Technical SEO Koh Phangan | Core Web Vitals & Schema",
+      metaTitle: "Technical SEO Koh Phangan | Core Web Vitals",
       metaDescription:
-        "Technical SEO for Koh Phangan business websites — crawlability, indexing, structured data and Core Web Vitals fixes.",
+        "Technical SEO for business websites on Koh Phangan, Koh Samui and Koh Tao — crawlability, indexing, structured data and Core Web Vitals fixes done properly.",
       directAnswer:
-        "We fix the technical foundations that determine whether search engines can properly crawl, index and understand your website — canonical tags, sitemaps, structured data and Core Web Vitals — the unglamorous work that underpins everything else in SEO.",
+        "We fix the technical foundations that determine whether search engines can properly crawl, index and understand your website — canonical tags, sitemaps, structured data and Core Web Vitals — the unglamorous work that underpins everything else in SEO, for businesses anywhere on Koh Phangan, Koh Samui or Koh Tao.",
       heroSupport: "Crawlability, indexing, structured data and Core Web Vitals fixed properly.",
       heroImage: images.studio,
       heroImageAlt: "Technical SEO audit results on a dashboard",
+      overview: [
+        "Good content on a technically broken site often doesn't get the credit it deserves. If search engines can't crawl a page properly, can't tell which version of a page is canonical, or are shown a slow, unstable page when they try to render it, that page can rank far below what its actual content would justify. Technical SEO is the work of removing those hidden blockers.",
+        "We start with a full crawl and technical audit — checking indexing status, canonical tags, sitemap accuracy, internal linking structure and structured data against what the site's pages actually need. Issues are prioritized by impact, so the fixes most likely to move the needle happen first rather than working through an exhaustive list in an arbitrary order.",
+        "Core Web Vitals — the metrics Google uses to judge real-world loading speed, interactivity and visual stability — get particular attention, because they affect both search performance and how the site actually feels to a visitor on a mobile connection. Many Core Web Vitals problems can be fixed without a full rebuild, once the specific cause is identified rather than guessed at.",
+        "Structured data implementation is included as part of the work, not left as a set of recommendations for someone else to build. Schema markup reinforces what a page is about for both traditional search engines and AI systems, which makes technical SEO a natural partner to our AI Search / GEO service for businesses wanting to go further.",
+        "This work can be scoped as a one-time audit and fix, or as ongoing monitoring for a larger site where new pages and content are added regularly and need the same technical checks applied consistently over time.",
+      ],
+      industrySlugs: ["brands-lifestyle", "tourism-hospitality", "hotels-resorts"],
       scope: [
         { title: "Crawlability & indexing", description: "Ensuring search engines can properly access and index your pages." },
         { title: "Canonical & sitemap setup", description: "Clean canonical tags and an accurate XML sitemap." },
@@ -478,6 +593,8 @@ export const websitesDigitalHub: HubPage = {
         { q: "Do you implement schema markup for us?", a: "Yes, implementation is included, not just recommendations." },
         { q: "How long until we see ranking improvements?", a: "Technical fixes can improve crawlability quickly; ranking impact typically builds over 1–3 months." },
         { q: "Is this a one-time project or ongoing?", a: "It can be either — a one-time audit and fix, or ongoing monitoring as the site evolves." },
+        { q: "Do you work on sites for businesses on Koh Samui or Koh Tao?", a: "Yes — technical SEO work is done directly within the site's code or CMS, so it doesn't depend on where the business itself is based." },
+        { q: "Will fixing technical issues alone improve our rankings?", a: "It removes barriers that may be holding pages back, but content quality and authority still matter — technical SEO is the foundation, not the whole strategy." },
       ],
       related: [
         { label: "Website Redesign", href: "/websites-digital/redesign", description: "Often paired with a technical SEO overhaul." },
@@ -489,18 +606,25 @@ export const websitesDigitalHub: HubPage = {
     {
       slug: "ai-search",
       hubSlug: "websites-digital",
-      navLabel: "AI Search",
+      navLabel: "AI Search / GEO",
       h1: "AI Search Optimization (GEO) on Koh Phangan",
       primaryKeyword: "AI search optimization Koh Phangan",
       secondaryTopics: ["GEO", "AI visibility", "entity optimization"],
       metaTitle: "AI Search Optimization Koh Phangan | GEO",
       metaDescription:
-        "AI search / Generative Engine Optimization for Koh Phangan businesses — structured, machine-readable content built to be cited by AI answer engines.",
+        "AI search (GEO) for businesses on Koh Phangan, Koh Samui and Koh Tao — machine-readable content built to be understood and cited by AI answer engines.",
       directAnswer:
-        "We optimize websites so AI answer engines like ChatGPT, Perplexity and Google's AI Overviews can understand, trust and cite your business — clear entity definitions, structured direct-answer content, and machine-readable markup, alongside traditional SEO rather than instead of it.",
+        "We optimize websites so AI answer engines like ChatGPT, Perplexity and Google's AI Overviews can understand, trust and cite your business — clear entity definitions, structured direct-answer content, and machine-readable markup, alongside traditional SEO rather than instead of it. This applies equally to businesses on Koh Phangan, Koh Samui and Koh Tao.",
       heroSupport: "Structured, machine-readable content built to be understood and cited by AI answer engines.",
       heroImage: images.studio,
       heroImageAlt: "Structured content displayed for AI search optimization",
+      overview: [
+        "Discovery is shifting. A search that used to return ten blue links now often returns a single generated answer, sometimes with two or three sources cited underneath it. Being one of those cited sources — or not — increasingly depends on how clearly a website defines who it is, what it does and where, in language a machine can parse as confidently as a human reader can.",
+        "We start by auditing how clearly the site currently establishes its entity — the business name, service, location and specialty stated consistently and unambiguously across key pages — since inconsistency is one of the most common reasons an AI system fails to confidently cite a source. From there, we restructure key sections into clear, self-contained direct answers: a concise, factual statement that could be lifted and quoted accurately on its own.",
+        "Structured data reinforces that work at the code level, and we check that robots.txt allows relevant AI crawlers, like GPTBot and ClaudeBot, appropriate access where that supports the site's visibility goals. None of this replaces traditional SEO — the same clarity, structure and technical health that helps a page rank in classic search results is largely what helps it get picked up and cited by an AI system too.",
+        "We won't promise a specific mention in a specific AI tool's answers, because no one controls that outcome and claiming otherwise would be dishonest. What we do is implement the structural and content practices known to support AI visibility, and track what's measurable — citations and mentions where tools allow it, and the underlying content and structure improvements where they don't.",
+      ],
+      industrySlugs: ["brands-lifestyle", "tourism-hospitality", "wellness-retreats"],
       scope: [
         { title: "Entity clarity", description: "Clear, consistent definitions of who you are and what you do." },
         { title: "Direct-answer content", description: "Concise, factual answers positioned where AI systems can extract them." },
@@ -535,6 +659,8 @@ export const websitesDigitalHub: HubPage = {
         { q: "Do I need to block or allow specific AI crawlers?", a: "We configure robots.txt to allow relevant AI crawlers (like GPTBot and ClaudeBot) where that supports your visibility goals." },
         { q: "Is this only relevant for large businesses?", a: "No — clear, well-structured content on any size site can be picked up by AI answer engines." },
         { q: "How do you measure results here?", a: "Where tools allow it, we track mentions and citations; otherwise we track the underlying content and structure improvements." },
+        { q: "Does this work for a business based on Koh Samui or Koh Tao?", a: "Yes — the same entity clarity and structured-content approach applies regardless of which island the business operates from." },
+        { q: "How long before we might see any AI search visibility?", a: "It varies by tool and topic; because AI answer engines update how they cite sources continuously, this is treated as an ongoing practice rather than a one-time fix with a fixed timeline." },
       ],
       related: [
         { label: "Technical SEO", href: "/websites-digital/technical-seo", description: "The technical foundation this builds on." },

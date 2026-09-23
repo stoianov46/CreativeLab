@@ -10,11 +10,7 @@ import { PortfolioPreview } from "@/components/blocks/PortfolioPreview";
 import { ProcessSteps } from "@/components/blocks/ProcessSteps";
 import { LocationBlock } from "@/components/blocks/LocationBlock";
 import { CtaBanner } from "@/components/blocks/CtaBanner";
-import {
-  HOMEPAGE,
-  HOMEPAGE_PILLARS,
-  HOMEPAGE_PORTFOLIO,
-} from "@/content/homepage";
+import { getHubs, getPages, getUi } from "@/content/translations";
 import { buildMetadata } from "@/lib/metadata";
 import { jsonLdGraph, webPageSchema, breadcrumbSchema } from "@/lib/schema";
 import { SITE } from "@/content/site";
@@ -24,9 +20,10 @@ export async function generateMetadata(
 ): Promise<Metadata> {
   const { locale: rawLocale } = await props.params;
   const locale = toLocale(rawLocale);
+  const { home } = getPages(locale);
   return buildMetadata({
-    title: HOMEPAGE.metaTitle,
-    description: HOMEPAGE.metaDescription,
+    title: home.metaTitle,
+    description: home.metaDescription,
     path: "/",
     locale,
   });
@@ -35,15 +32,17 @@ export async function generateMetadata(
 export default async function Home(props: PageProps<"/[locale]">) {
   const { locale: rawLocale } = await props.params;
   const locale = toLocale(rawLocale);
+  const { home, pillars, portfolioItems } = getPages(locale);
+  const ui = getUi(locale);
   const url = `${SITE.url}${localePath(locale, "/")}`;
   const graph = jsonLdGraph([
     webPageSchema({
-      name: HOMEPAGE.metaTitle,
-      description: HOMEPAGE.metaDescription,
+      name: home.metaTitle,
+      description: home.metaDescription,
       url,
       inLanguage: locale,
     }),
-    breadcrumbSchema([{ name: "Home", url }]),
+    breadcrumbSchema([{ name: ui.nav.home, url }]),
   ]);
 
   return (
@@ -52,37 +51,43 @@ export default async function Home(props: PageProps<"/[locale]">) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(graph) }}
       />
-      <AnnouncementBar text="CreativeLAB — creative advertising & production team on Koh Phangan." />
+      <AnnouncementBar text={home.announcement} dismissLabel={ui.announcement.dismiss} />
       <Hero
-        eyebrow={HOMEPAGE.heroEyebrow}
-        h1={HOMEPAGE.h1}
-        support={HOMEPAGE.heroSupport}
+        eyebrow={home.heroEyebrow}
+        h1={home.h1}
+        support={home.heroSupport}
         image={images.studio}
-        imageAlt="Creative studio on Koh Phangan preparing a shoot"
+        imageAlt={home.heroImageAlt}
+        locale={locale}
       />
-      <DirectAnswer text={HOMEPAGE.directAnswer} />
+      <DirectAnswer text={home.directAnswer} />
       <SplitEditorial
-        eyebrow="Why CreativeLAB"
-        title={HOMEPAGE.editorialTitle}
+        eyebrow={home.editorialEyebrow}
+        title={home.editorialTitle}
         image={images.team}
-        imageAlt="CreativeLAB team working on Koh Phangan"
+        imageAlt={home.editorialImageAlt}
       >
-        {HOMEPAGE.editorialBody.map((paragraph) => (
+        {home.editorialBody.map((paragraph) => (
           <p key={paragraph}>{paragraph}</p>
         ))}
       </SplitEditorial>
       <ServiceGrid
-        eyebrow="What we do"
-        title="Eight ways we grow island businesses"
-        description="Every pillar below can stand alone as a single project, or combine into a full monthly marketing program."
-        items={HOMEPAGE_PILLARS}
+        eyebrow={home.servicesEyebrow}
+        title={home.servicesTitle}
+        description={home.servicesDescription}
+        items={pillars.map((pillar) => ({
+          ...pillar,
+          title: getHubs(locale).find((hub) => `/${hub.slug}` === pillar.href)?.navLabel ?? "",
+        }))}
+        locale={locale}
       />
-      <PortfolioPreview items={HOMEPAGE_PORTFOLIO} />
-      <ProcessSteps title={HOMEPAGE.processTitle} steps={HOMEPAGE.process} />
-      <LocationBlock text={HOMEPAGE.locationText} />
+      <PortfolioPreview items={portfolioItems} locale={locale} />
+      <ProcessSteps title={home.processTitle} steps={home.process} locale={locale} />
+      <LocationBlock text={home.locationText} />
       <CtaBanner
-        title={HOMEPAGE.finalCtaTitle}
-        description={HOMEPAGE.finalCtaDescription}
+        title={home.finalCtaTitle}
+        description={home.finalCtaDescription}
+        locale={locale}
       />
     </>
   );

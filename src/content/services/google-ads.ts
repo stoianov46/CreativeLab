@@ -1,0 +1,167 @@
+import { images } from "@/assets/images";
+import type { ServicePage } from "@/content/types";
+
+export const googleAdsService: ServicePage = {
+  slug: "google-ads",
+  hubSlug: "services",
+  canonicalPath: "/advertising/google-ads",
+  navLabel: "Google Ads",
+  h1: "Google Ads for Businesses on Koh Phangan, Koh Samui & Koh Tao",
+  primaryKeyword: "Google Ads agency Koh Phangan, Koh Samui and Koh Tao",
+  secondaryTopics: [
+    "Google Ads management",
+    "search advertising",
+    "PPC across the islands",
+    "Google Ads and SEO",
+  ],
+  metaTitle: "Google Ads Agency Koh Phangan, Samui & Tao",
+  metaDescription:
+    "Google Ads for businesses on Koh Phangan, Koh Samui and Koh Tao — who it's for, how we plan and measure campaigns, and how it fits with Meta Ads and SEO.",
+  directAnswer:
+    "Google Ads puts your business in front of people actively searching for what you offer. CreativeLAB plans, sets up and manages Google Ads for businesses on Koh Phangan, Koh Samui and Koh Tao, deciding budget and geo-targeting per island and tracking every result so you know what each lead costs.",
+  heroSupport:
+    "Who Google Ads is for, how we plan and measure it across three islands, and how it fits alongside Meta Ads and SEO.",
+  heroImage: images.studio,
+  heroImageAlt: "Marketer reviewing Google Ads performance across island campaigns",
+  overview: [
+    "Google Ads works best for businesses whose customers already know what they're looking for — someone searching 'villa for rent Koh Phangan', 'restaurant near Chaweng' or 'dive shop Koh Tao'. If that describes how people find you, Google Ads is usually worth testing; if your business depends more on discovery than search, Meta Ads or social content will likely do more work first. This page covers the overall offer; for the detailed account setup and tracking process, see our Google Ads service under Advertising.",
+    "How we plan it starts with the island, not the keyword. Koh Samui's larger, airport-connected market supports broader search volume and more competitive keywords; Koh Phangan's demand shifts sharply with wellness season and Full Moon Party traffic; Koh Tao's is smaller and concentrated around diving and marine tourism. Budget, geo-targeting radius and even which keywords are worth bidding on differ by island, so campaigns are structured per island rather than lumped into one generic account.",
+    "How we measure it is the same discipline regardless of island: conversion tracking — calls, form fills or booking events — set up before a campaign launches, so performance is judged on actual leads and bookings rather than clicks or impressions. You always know what a result cost you, and reporting is written in plain language rather than a raw platform export.",
+    "How it fits alongside Meta and SEO: Google Ads is the fastest lever, because it captures demand that already exists. Meta Ads builds awareness with people who aren't searching yet, and SEO compounds slowly toward the same searches Google Ads captures immediately. Most businesses get the strongest result running Google Ads while SEO builds in the background, then easing paid spend as organic rankings take over — we'll recommend that sequencing specifically for your situation rather than running all three at full intensity from day one.",
+  ],
+  industrySlugs: ["villas-real-estate", "restaurants-food", "wellness-retreats", "tourism-hospitality"],
+  scope: [
+    {
+      title: "Fit assessment",
+      description: "An honest read on whether Google Ads suits your business and search intent before we recommend spending on it.",
+    },
+    {
+      title: "Cross-island planning",
+      description: "Budget and geo-targeting strategy built separately for Koh Phangan, Koh Samui and Koh Tao.",
+    },
+    {
+      title: "Measurement framework",
+      description: "Conversion tracking for calls, forms or bookings, set up before any campaign goes live.",
+    },
+    {
+      title: "Coordination with Meta Ads and SEO",
+      description: "Google Ads is planned alongside your other channels, not managed in isolation.",
+    },
+    {
+      title: "Ongoing governance",
+      description: "A regular reporting and review rhythm so budget keeps moving toward what's working.",
+    },
+  ],
+  benefits: [
+    {
+      title: "Visibility while SEO builds",
+      description: "Google Ads produces results immediately, covering the gap while organic rankings develop.",
+    },
+    {
+      title: "Captures demand that already exists",
+      description: "Reaches people actively searching, across all three islands, at the exact moment they're looking.",
+    },
+    {
+      title: "Clear cost accountability",
+      description: "Conversion tracking means every lead has a known, defensible cost attached to it.",
+    },
+    {
+      title: "Complements rather than competes",
+      description: "Planned as one part of your channel mix alongside Meta Ads and SEO, not a standalone effort.",
+    },
+  ],
+  process: [
+    { title: "Fit assessment", description: "Review your business, search intent and goals to confirm Google Ads is the right starting point." },
+    { title: "Cross-channel planning", description: "Decide how Google Ads fits alongside your existing or planned Meta Ads and SEO work." },
+    { title: "Account structure & tracking", description: "Build campaigns per island with conversion tracking in place before launch." },
+    { title: "Launch", description: "Campaigns go live with a conservative test budget to gather safe, early data." },
+    { title: "Coordinate & optimize", description: "Ongoing adjustment based on results, reviewed alongside your other channels." },
+  ],
+  pricing: [
+    {
+      service: "Google Ads setup (new account)",
+      range: "THB 15,000 – 35,000",
+      note: "One-time — strategy, cross-island structure, tracking setup",
+    },
+    {
+      service: "Monthly management",
+      range: "THB 12,000 – 30,000",
+      note: "Excludes ad spend, billed directly to Google",
+    },
+    {
+      service: "Campaign audit (existing account)",
+      range: "THB 6,000 – 12,000",
+      note: "One-time review with a written action plan",
+    },
+  ],
+  useCases: [
+    {
+      title: "Villa owners",
+      description: "Capture high-intent search traffic during each island's peak booking season.",
+    },
+    {
+      title: "Restaurants",
+      description: "Drive reservations and delivery orders around a specific menu or location.",
+    },
+    {
+      title: "Wellness & retreat operators",
+      description: "Reach travellers actively searching for a program before they commit.",
+    },
+    {
+      title: "Multi-island businesses",
+      description: "Coordinate separate, properly targeted campaigns across more than one island.",
+    },
+  ],
+  faqs: [
+    {
+      q: "Is Google Ads worth it for a small business on Koh Tao or Koh Samui?",
+      a: "Often yes, if customers search for what you offer — the budget just needs to match the smaller search volume on Koh Tao compared with the wider Koh Samui market.",
+    },
+    {
+      q: "Does Google Ads work differently on Koh Samui compared with Koh Phangan?",
+      a: "Yes — Koh Samui's larger, airport-connected market supports broader targeting, while Koh Phangan's demand is more seasonal and tied to specific events and travel patterns.",
+    },
+    {
+      q: "Should I run Google Ads and SEO at the same time, or one after the other?",
+      a: "Usually together — Google Ads produces immediate visibility while SEO compounds in the background, and we'll recommend how heavily to weight each based on your budget.",
+    },
+    {
+      q: "How does Google Ads work alongside Meta Ads in one strategy?",
+      a: "Google Ads captures people already searching; Meta Ads builds awareness with people who aren't yet. Running both, coordinated, typically outperforms either alone.",
+    },
+    {
+      q: "What's a realistic timeframe to know if Google Ads is working?",
+      a: "Campaigns can go live within days; meaningful, decision-ready data usually builds over the first 2–4 weeks of optimization.",
+    },
+    {
+      q: "Do you set up separate campaigns for each island?",
+      a: "Yes, where a business serves more than one island — budget, targeting and messaging are planned per island rather than combined.",
+    },
+    {
+      q: "Can Google Ads work for a business with no existing website?",
+      a: "You need at least a landing page for ads to send traffic to; we can build one as part of the project if needed.",
+    },
+    {
+      q: "How often do you review and adjust budget or bidding?",
+      a: "On a regular cadence agreed at the start, with additional adjustments whenever performance data clearly calls for it.",
+    },
+  ],
+  related: [
+    {
+      label: "Google Ads (Advertising)",
+      href: "/advertising/google-ads",
+      description: "The full detail on account setup, tracking and ongoing optimization.",
+    },
+    {
+      label: "Meta Ads",
+      href: "/advertising/meta-ads",
+      description: "Facebook and Instagram advertising to run alongside search.",
+    },
+    {
+      label: "Digital Marketing",
+      href: "/services/digital-marketing",
+      description: "See how Google Ads fits into a full, integrated marketing strategy.",
+    },
+  ],
+  finalCtaLabel: "Request a Google Ads Quote",
+};

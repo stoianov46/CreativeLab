@@ -1,6 +1,13 @@
 import { SITE } from "@/content/site";
 import type { FaqItem } from "@/content/types";
 
+/** The three islands CreativeLAB works on (client decision 2026-09-22). */
+const SERVICE_AREA = [
+  { "@type": "Place", name: "Koh Phangan, Surat Thani, Thailand" },
+  { "@type": "Place", name: "Koh Samui, Surat Thani, Thailand" },
+  { "@type": "Place", name: "Koh Tao, Surat Thani, Thailand" },
+];
+
 export function organizationSchema() {
   return {
     "@type": "ProfessionalService",
@@ -9,9 +16,23 @@ export function organizationSchema() {
     url: SITE.url,
     description:
       "Creative content and advertising agency on Koh Phangan, Thailand — advertising, social media, photography, video production, web and branding for island businesses.",
-    areaServed: {
-      "@type": "Place",
-      name: "Koh Phangan, Surat Thani, Thailand",
+    email: SITE.email,
+    telephone: SITE.phone,
+    // Base only — no street address until the client confirms one (NOTES.md).
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Koh Phangan",
+      addressRegion: "Surat Thani",
+      addressCountry: "TH",
+    },
+    geo: { "@type": "GeoCoordinates", latitude: 9.75, longitude: 100.03 },
+    areaServed: SERVICE_AREA,
+    contactPoint: {
+      "@type": "ContactPoint",
+      contactType: "sales",
+      email: SITE.email,
+      telephone: SITE.phone,
+      availableLanguage: ["en", "ru", "th", "he"],
     },
     knowsAbout: [
       "Advertising",
@@ -66,10 +87,7 @@ export function serviceSchema(params: {
     url: params.url,
     serviceType: params.serviceType,
     provider: { "@id": `${SITE.url}/#organization` },
-    areaServed: {
-      "@type": "Place",
-      name: "Koh Phangan, Thailand",
-    },
+    areaServed: SERVICE_AREA,
   };
 }
 
@@ -98,5 +116,72 @@ export function jsonLdGraph(nodes: (object | null)[]) {
   return {
     "@context": "https://schema.org",
     "@graph": nodes.filter(Boolean),
+  };
+}
+
+/** A /locations/* page: the island as a Place, served by the organization. */
+export function placeSchema(params: { name: string; url: string; latitude: number; longitude: number }) {
+  return {
+    "@type": "Place",
+    name: params.name,
+    url: params.url,
+    geo: { "@type": "GeoCoordinates", latitude: params.latitude, longitude: params.longitude },
+    containedInPlace: { "@type": "AdministrativeArea", name: "Surat Thani, Thailand" },
+  };
+}
+
+export function articleSchema(params: {
+  headline: string;
+  description: string;
+  url: string;
+  image: string;
+  author: string;
+  datePublished: string;
+  dateModified?: string;
+  inLanguage: string;
+}) {
+  return {
+    "@type": "Article",
+    headline: params.headline,
+    description: params.description,
+    url: params.url,
+    image: params.image,
+    author: { "@type": "Person", name: params.author },
+    publisher: { "@id": `${SITE.url}/#organization` },
+    datePublished: params.datePublished,
+    dateModified: params.dateModified ?? params.datePublished,
+    inLanguage: params.inLanguage,
+  };
+}
+
+export function creativeWorkSchema(params: {
+  name: string;
+  description: string;
+  url: string;
+  image: string;
+  datePublished: string;
+  inLanguage: string;
+}) {
+  return {
+    "@type": "CreativeWork",
+    name: params.name,
+    description: params.description,
+    url: params.url,
+    image: params.image,
+    creator: { "@id": `${SITE.url}/#organization` },
+    datePublished: params.datePublished,
+    inLanguage: params.inLanguage,
+  };
+}
+
+export function itemListSchema(items: { name: string; url: string }[]) {
+  return {
+    "@type": "ItemList",
+    itemListElement: items.map((item, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: item.name,
+      url: item.url,
+    })),
   };
 }

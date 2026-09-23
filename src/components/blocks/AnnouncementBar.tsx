@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 const STORAGE_KEY = "cl-announcement-dismissed";
 
-export function AnnouncementBar({ text }: { text: string }) {
+export function AnnouncementBar({ text, dismissLabel }: { text: string; dismissLabel: string }) {
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
@@ -25,7 +25,7 @@ export function AnnouncementBar({ text }: { text: string }) {
       <p>{text}</p>
       <button
         type="button"
-        aria-label="Dismiss announcement"
+        aria-label={dismissLabel}
         className="absolute end-4 text-text-inverse-secondary hover:text-text-inverse"
         onClick={() => {
           setVisible(false);

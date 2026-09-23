@@ -1,0 +1,142 @@
+import { images } from "@/assets/images";
+import type { ServicePage } from "@/content/types";
+
+export const webDesignService: ServicePage = {
+  slug: "web-design",
+  hubSlug: "services",
+  canonicalPath: "/websites-digital/web-design",
+  navLabel: "Web Design",
+  h1: "Web Design Agency for Koh Phangan, Koh Samui & Koh Tao",
+  primaryKeyword: "web design Koh Phangan",
+  secondaryTopics: [
+    "website development",
+    "business websites",
+    "island business websites",
+    "conversion-focused design",
+  ],
+  metaTitle: "Web Design Agency Koh Phangan",
+  metaDescription:
+    "Website design and development for businesses across Koh Phangan, Koh Samui and Koh Tao — built to convert, load fast and be found in search.",
+  directAnswer:
+    "CreativeLAB designs and builds websites for businesses on Koh Phangan, Koh Samui and Koh Tao — villas, restaurants, dive shops, wellness brands and service companies. Every site is built with SEO-ready structure, fast mobile loading and a clear path to booking or inquiry, as part of a wider digital and marketing practice rather than a standalone build.",
+  heroSupport:
+    "Websites for island businesses that need more than a brochure — a site that actually converts visitors into bookings and inquiries.",
+  heroImage: images.studio,
+  heroImageAlt: "Website design mockups displayed across devices",
+  overview: [
+    "A website built in isolation from the rest of a business's marketing tends to underperform, however good it looks. We approach web design as one part of a connected system: the same photography, brand identity and content strategy behind your social media and advertising should also shape your website, so a visitor lands somewhere consistent with what brought them there — an ad, a search result or an Instagram post.",
+    "Businesses across Koh Phangan, Koh Samui and Koh Tao share a common challenge — most visitors arrive on a phone, often on inconsistent mobile connections, and decide within seconds whether to stay. That shapes real design decisions: lean pages, clear information hierarchy, and a booking or inquiry path that doesn't force a visitor to hunt for it.",
+    "This page introduces web design as part of CreativeLAB's broader offer — how it connects to branding, SEO and advertising, and who it's typically built for. For the full scope, process and pricing of a website project, see our Websites & Digital service page, which is the canonical version of this content.",
+    "Where a business already has a site, we're just as often asked to fix specific problems — slow load times, unclear structure, or a design that doesn't reflect an otherwise strong brand — as we are to build from scratch.",
+  ],
+  industrySlugs: ["villas-real-estate", "restaurants-food", "wellness-retreats", "hotels-resorts"],
+  scope: [
+    {
+      title: "Design connected to your brand",
+      description: "Visual identity, photography and tone carried through consistently from your other marketing channels.",
+    },
+    {
+      title: "Mobile-first build",
+      description: "Fast, lean pages built for how visitors actually browse on the three islands — mostly on their phones.",
+    },
+    {
+      title: "SEO-ready structure",
+      description: "Semantic HTML, clean information architecture and metadata built in from the start, not retrofitted.",
+    },
+    {
+      title: "Clear conversion path",
+      description: "Every page built around a single obvious next step — book, inquire, call or visit.",
+    },
+  ],
+  benefits: [
+    {
+      title: "Consistent with the rest of your marketing",
+      description: "One team behind your website, social content and advertising means everything matches.",
+    },
+    {
+      title: "Fast on real island connections",
+      description: "Performance is treated as a design constraint, not an afterthought, given variable mobile networks across the islands.",
+    },
+    {
+      title: "SEO foundation from day one",
+      description: "Avoids the costly retrofit of structure and metadata that comes with a poorly built site.",
+    },
+    {
+      title: "Built to grow",
+      description: "A structure that can expand as you add services, locations or a second island's worth of content.",
+    },
+  ],
+  process: [
+    { title: "Discovery", description: "Understand your business, goals, audience and which island or islands the site needs to serve." },
+    { title: "Design", description: "Wireframes and visual design reviewed with you, consistent with your brand." },
+    { title: "Build", description: "Development with performance and SEO structure built in from the start." },
+    { title: "Launch", description: "Testing across devices, then go-live with analytics and tracking in place." },
+  ],
+  pricing: [
+    { service: "Website design (5-page landing)", range: "THB 40,000 – 100,000", note: "Responsive + SEO-ready" },
+    { service: "Website design (multi-page business site)", range: "THB 90,000 – 180,000", note: "8–15 pages, CMS-ready" },
+    { service: "Multi-island content add-on", range: "THB 8,000 – 20,000", note: "Indicative — for sites presenting service areas across islands" },
+  ],
+  useCases: [
+    {
+      title: "New businesses launching across the islands",
+      description: "A complete, professional web presence covering the locations you actually serve.",
+    },
+    {
+      title: "Businesses replacing a social-only presence",
+      description: "Moving beyond Instagram and Facebook to a proper, owned website.",
+    },
+    {
+      title: "Multi-location businesses",
+      description: "A single site structured to represent operations on more than one of the three islands clearly.",
+    },
+  ],
+  faqs: [
+    {
+      q: "Do you build websites for businesses on Koh Samui and Koh Tao, or only Koh Phangan?",
+      a: "All three — CreativeLAB is based on Koh Phangan and works with businesses across Koh Phangan, Koh Samui and Koh Tao.",
+    },
+    {
+      q: "How is this different from the Web Design page under Websites & Digital?",
+      a: "This page introduces web design as part of our wider marketing approach across the three islands; the Websites & Digital hub page is the full service page with detailed scope, process and pricing.",
+    },
+    {
+      q: "Do I need to travel or meet in person to start a website project?",
+      a: "No — most projects run remotely with calls and shared files; site visits for photography follow the relevant travel arrangement if you're on Samui or Tao.",
+    },
+    {
+      q: "Will you write the content, or do I need to provide it?",
+      a: "We write the copy following our content rules; you provide the facts we can't invent, like pricing, credentials or specific claims.",
+    },
+    {
+      q: "Can the site represent a business operating on more than one island?",
+      a: "Yes — we structure content and location information clearly when a business serves multiple islands rather than treating it as one generic service area.",
+    },
+    {
+      q: "Do you provide the photography for the site too?",
+      a: "Yes, through our photography services, or we can work with existing assets you already have.",
+    },
+    {
+      q: "How long does a typical website project take?",
+      a: "From around 2 weeks for a landing page to 6–10 weeks for a larger multi-page or e-commerce site.",
+    },
+  ],
+  related: [
+    {
+      label: "Web Design (full service)",
+      href: "/websites-digital/web-design",
+      description: "The complete web design service — scope, process and pricing.",
+    },
+    {
+      label: "Websites & Digital",
+      href: "/websites-digital",
+      description: "Our full digital practice — landing pages, redesigns, SEO and AI search.",
+    },
+    {
+      label: "Branding",
+      href: "/branding-creative/branding",
+      description: "Brand identity to inform the design of your site.",
+    },
+  ],
+  finalCtaLabel: "Start a Project",
+};

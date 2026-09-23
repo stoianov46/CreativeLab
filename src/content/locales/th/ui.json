@@ -1,0 +1,233 @@
+{
+  "location": "เกาะพะงัน ประเทศไทย",
+  "defaultDescription": "งานโฆษณาสร้างสรรค์ โซเชียลมีเดีย คอนเทนต์ ถ่ายภาพ วิดีโอ และเว็บไซต์ สำหรับธุรกิจบนเกาะพะงัน ประเทศไทย",
+  "tagline": "เอเจนซีโฆษณาและการตลาดเชิงสร้างสรรค์บนเกาะพะงัน",
+  "skipToContent": "ข้ามไปยังเนื้อหา",
+  "cta": {
+    "startProject": "เริ่มโปรเจกต์",
+    "requestQuote": "ขอใบเสนอราคา",
+    "discussProject": "ปรึกษาโปรเจกต์ของคุณ",
+    "bookConsultation": "นัดปรึกษา",
+    "seeOurWork": "ดูผลงานของเรา",
+    "explore": "ดูเพิ่มเติม",
+    "messageUs": "ส่งข้อความถึงเรา",
+    "chatWhatsapp": "แชทผ่าน WhatsApp",
+    "chatTelegram": "แชทผ่าน Telegram",
+    "whatsappGreeting": "สวัสดี สนใจสอบถามเกี่ยวกับบริการ {service}"
+  },
+  "nav": {
+    "primaryAria": "เมนูหลัก",
+    "more": "เพิ่มเติม",
+    "overview": "ภาพรวม {label}",
+    "openMenu": "เปิดเมนู",
+    "closeMenu": "ปิดเมนู",
+    "menu": "เมนู",
+    "mobileAria": "เมนูสำหรับมือถือ",
+    "language": "ภาษา",
+    "breadcrumbAria": "เส้นทางนำทาง",
+    "home": "หน้าแรก",
+    "portfolio": "ผลงาน",
+    "caseStudies": "กรณีศึกษา",
+    "about": "เกี่ยวกับเรา",
+    "journal": "บทความ",
+    "contact": "ติดต่อ",
+    "privacy": "นโยบายความเป็นส่วนตัว",
+    "terms": "ข้อกำหนดการใช้บริการ",
+    "editorial": "Editorial Policy",
+    "accessibility": "Accessibility",
+    "services": "Services",
+    "industries": "Industries",
+    "locations": "Locations",
+    "work": "Work",
+    "allServices": "All services",
+    "allIndustries": "All industries",
+    "allLocations": "All locations",
+    "serviceGroups": {
+      "advertising": "Advertising",
+      "socialContent": "Social & Content",
+      "photoVideo": "Photo & Video",
+      "digital": "Digital",
+      "creative": "Creative"
+    },
+    "featuredTitle": "Not sure where to start?",
+    "featuredText": "Tell us about your business and we'll suggest the right mix of services."
+  },
+  "footer": {
+    "services": "บริการ",
+    "moreServices": "บริการอื่น ๆ",
+    "agency": "เอเจนซี",
+    "contact": "ติดต่อ",
+    "industries": "Industries",
+    "locations": "Locations",
+    "rights": "สงวนลิขสิทธิ์"
+  },
+  "announcement": {
+    "dismiss": "ปิดประกาศ"
+  },
+  "blocks": {
+    "featuresTitle": "สิ่งที่คุณจะได้รับ",
+    "benefitsTitle": "ทำไมถึงคุ้มค่า",
+    "processTitle": "ขั้นตอนการทำงาน",
+    "faqTitle": "คำถามที่พบบ่อย",
+    "relatedTitle": "บริการที่เกี่ยวข้อง",
+    "useCasesEyebrow": "เหมาะกับใคร",
+    "useCasesTitle": "เหมาะกับธุรกิจแบบไหน",
+    "portfolioEyebrow": "ผลงานจริง",
+    "portfolioTitle": "ตัวอย่างงานที่เราสร้างสรรค์",
+    "portfolioDescription": "ภาพตัวอย่างที่แสดงสไตล์และฝีมือของทีมเรา — ส่วนนี้จะถูกแทนที่ด้วยโปรเจกต์จริงของลูกค้าเมื่องานส่งมอบและได้รับอนุญาตให้เผยแพร่แล้ว",
+    "pricingEyebrow": "งบประมาณ",
+    "pricingTitle": "ราคาโดยประมาณ",
+    "pricingDescription": "ราคาอ้างอิงเบื้องต้น เพื่อให้คุณวางแผนงบประมาณได้ก่อนที่เราจะประเมินขอบเขตโปรเจกต์",
+    "pricingService": "บริการ",
+    "pricingRange": "ช่วงราคา (THB)",
+    "pricingNotes": "หมายเหตุ",
+    "pricingCaption": "Indicative prices for {service}",
+    "overviewEyebrow": "Overview",
+    "overviewTitle": "Service overview",
+    "industriesEyebrow": "Industries",
+    "industriesTitle": "Who we do this for",
+    "locationsEyebrow": "Locations",
+    "locationsTitle": "Where we work",
+    "locationsDescription": "Based on Koh Phangan, working on-site across Koh Phangan, Koh Samui and Koh Tao. For shoots on Samui and Tao a travel fee may apply.",
+    "chatTitle": "Prefer to chat?",
+    "slidePrev": "Previous",
+    "slideNext": "Next",
+    "slidePause": "Pause slideshow",
+    "slidePlay": "Play slideshow",
+    "slideLabel": "Slide {n} of {total}",
+    "pricingDisclaimer": "ราคาเป็นเพียงการประมาณการตามอัตราตลาดทั่วไปบนเกาะพะงัน ทุกโปรเจกต์มีความแตกต่างกัน ติดต่อเราเพื่อรับใบเสนอราคาโดยละเอียด"
+  },
+  "hub": {
+    "approachEyebrow": "แนวทางของเรา",
+    "servicesEyebrow": "บริการ",
+    "servicesTitle": "บริการด้าน{hub}",
+    "processTitle": "ขั้นตอนการทำโปรเจกต์",
+    "process": [
+      {
+        "title": "บรีฟงาน",
+        "description": "บอกเราว่าคุณต้องการอะไรและมีกรอบเวลาเท่าไร"
+      },
+      {
+        "title": "วางแผน",
+        "description": "เราเลือกบริการที่เหมาะสมและวางงบประมาณที่เป็นจริง"
+      },
+      {
+        "title": "ลงมือผลิต",
+        "description": "ทีมของเราลงมือทำงานบนเกาะพะงัน"
+      },
+      {
+        "title": "ส่งมอบและดูแลต่อเนื่อง",
+        "description": "คุณจะได้รับไฟล์งานฉบับสมบูรณ์ พร้อมการดูแลต่อเนื่องหากต้องการ"
+      }
+    ],
+    "locationText": "CreativeLAB ให้บริการด้าน{hub}ถึงสถานที่จริงทั่วเกาะพะงัน ประเทศไทย และสามารถประสานงานทางออนไลน์สำหรับเจ้าของและผู้จัดการที่อยู่ที่อื่นได้",
+    "ctaTitle": "พร้อมคุยเรื่อง{hub}แล้วหรือยัง?",
+    "ctaDescription": "เล่าเรื่องธุรกิจของคุณให้เราฟัง แล้วเราจะแนะนำก้าวต่อไปที่เป็นไปได้จริง"
+  },
+  "service": {
+    "ctaTitle": "พร้อมเริ่มโปรเจกต์ {service} ของคุณแล้วหรือยัง?"
+  },
+  "industryPage": {
+    "needsEyebrow": "The challenge",
+    "servicesEyebrow": "Services",
+    "servicesTitle": "Services for {industry}",
+    "processTitle": "How we work with {industry}",
+    "hubLink": "Explore everything in {hub}",
+    "ctaTitle": "Marketing for {industry} — let's talk"
+  },
+  "locationPage": {
+    "areasEyebrow": "Areas",
+    "marketEyebrow": "Local businesses",
+    "servicesEyebrow": "Services",
+    "servicesTitle": "Our services on {location}",
+    "ctaTitle": "Working on {location}? Let's talk"
+  },
+  "indexPages": {
+    "explore": "Explore",
+    "canonicalNote": "Full detail"
+  },
+  "caseStudy": {
+    "eyebrow": "Case study",
+    "client": "Client",
+    "location": "Location",
+    "industry": "Industry",
+    "challenge": "The challenge",
+    "strategy": "Strategy",
+    "creative": "Creative",
+    "production": "Production",
+    "advertising": "Advertising",
+    "results": "Results",
+    "gallery": "Gallery",
+    "services": "Services used",
+    "readCase": "Read the case study"
+  },
+  "journal": {
+    "eyebrow": "Journal",
+    "by": "By {author}",
+    "published": "Published {date}",
+    "updated": "Updated {date}",
+    "readArticle": "Read article",
+    "relatedTitle": "Related services",
+    "clusters": {
+      "social-media": "Social Media",
+      "advertising": "Advertising",
+      "content": "Content",
+      "tourism-hospitality": "Tourism & Hospitality",
+      "local": "Local Marketing"
+    }
+  },
+  "mobileBar": {
+    "aria": "Quick contact",
+    "whatsapp": "WhatsApp",
+    "telegram": "Telegram",
+    "call": "Call",
+    "start": "Start"
+  },
+  "languageSuggestion": {
+    "text": "This page is available in English.",
+    "switch": "Switch to English",
+    "dismiss": "No thanks"
+  },
+  "consent": {
+    "title": "Cookies & analytics",
+    "text": "We'd like to measure how the site is used (analytics) and how our ads perform (marketing). Nothing is loaded until you choose. You can change this any time in the footer.",
+    "accept": "Accept all",
+    "reject": "Reject",
+    "settings": "Settings",
+    "save": "Save choices",
+    "analytics": "Analytics (e.g. Google Analytics, Yandex Metrica)",
+    "marketing": "Marketing (e.g. Meta Pixel)",
+    "necessary": "Necessary (always on)",
+    "manage": "Cookie settings",
+    "privacyLink": "Privacy Policy"
+  },
+  "form": {
+    "title": "เล่าเกี่ยวกับโปรเจกต์ของคุณ",
+    "serviceLabel": "บริการที่สนใจ",
+    "servicePlaceholder": "เช่น ถ่ายภาพวิลล่า, Google Ads, สร้างแบรนด์",
+    "aria": "Project enquiry form",
+    "nameLabel": "ชื่อ",
+    "phoneLabel": "Phone, WhatsApp or Telegram (optional)",
+    "consentLabel": "I agree that CreativeLAB may use these details to reply to my request, as described in the {privacy}.",
+    "consentPrivacy": "Privacy Policy",
+    "consentError": "Please confirm so we can reply to you.",
+    "rateLimited": "Too many messages in a short time. Please wait a minute or email us directly.",
+    "tooLong": "This is a bit long — please shorten it to {max} characters.",
+    "emailLabel": "อีเมล",
+    "messageLabel": "เล่าเกี่ยวกับโปรเจกต์ของคุณ",
+    "nameError": "กรุณากรอกชื่อของคุณ",
+    "emailError": "กรุณากรอกอีเมลที่ถูกต้อง",
+    "messageError": "กรุณาเล่ารายละเอียดโปรเจกต์ของคุณเพิ่มอีกเล็กน้อย",
+    "success": "ขอบคุณ — ข้อความของคุณถูกส่งเรียบร้อยแล้ว โดยปกติเราจะตอบกลับภายในหนึ่งวันทำการ",
+    "failure": "เกิดข้อผิดพลาดในการส่งข้อความ กรุณาลองใหม่อีกครั้งหรือส่งอีเมลถึงเราโดยตรง",
+    "sending": "กำลังส่ง…",
+    "send": "ส่งข้อความ"
+  },
+  "contact": {
+    "email": "อีเมล",
+    "phone": "โทรศัพท์",
+    "whatsapp": "WhatsApp",
+    "telegram": "Telegram",
+    "basedIn": "ที่ตั้ง"
+  }
+}

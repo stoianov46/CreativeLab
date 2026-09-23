@@ -1,0 +1,323 @@
+{
+  "home": {
+    "metaTitle": "Рекламное агентство на Ко Пангане | CreativeLAB",
+    "metaDescription": "CreativeLAB — креативное рекламное и маркетинговое агентство на Ко Пангане: Google и Meta Ads, соцсети, фото, видео и сайты для бизнеса на острове.",
+    "announcement": "CreativeLAB — креативная команда рекламы и продакшна на Ко Пангане.",
+    "heroEyebrow": "Ко Панган, Таиланд",
+    "heroImageAlt": "Креативная студия на Ко Пангане готовится к съёмке",
+    "h1": "Рекламное и креативное маркетинговое агентство на Ко Пангане",
+    "heroSupport": "Креативная реклама, соцсети, контент, фото, видео, сайты и digital-маркетинг для бизнеса на Ко Пангане.",
+    "directAnswer": "CreativeLAB — креативное контент- и рекламное агентство на Ко Пангане. Мы планируем и ведём рекламные кампании, управляем соцсетями, снимаем фото и видео и создаём сайты для вилл, ресторанов, гостиничных брендов и местного бизнеса — стратегия, продакшн и реализация в одной команде, прямо на острове.",
+    "editorialEyebrow": "Почему CreativeLAB",
+    "editorialTitle": "Одна команда на острове — весь маркетинг под ключ",
+    "editorialImageAlt": "Команда CreativeLAB за работой на Ко Пангане",
+    "editorialBody": [
+      "Большинству компаний на Ко Пангане приходится собирать маркетинг по кусочкам: фотограф на один проект, фрилансер для соцсетей и агентство за границей для рекламы. Три подрядчика, три часовых пояса, три разных визуальных стиля.",
+      "CreativeLAB объединяет стратегию, фото, видео, дизайн и платную рекламу под одной крышей — прямо на острове. Это значит более быстрые сроки, единый визуальный стиль во всех каналах и команда, которая уже знает местный свет, локации и поведение клиентов."
+    ],
+    "servicesEyebrow": "Что мы делаем",
+    "servicesTitle": "Восемь направлений для роста бизнеса на острове",
+    "servicesDescription": "Каждое направление можно заказать как отдельный проект или объединить в полноценную ежемесячную маркетинговую программу.",
+    "processTitle": "Как мы работаем",
+    "process": [
+      {
+        "title": "Бриф",
+        "description": "Мы начинаем с ваших бизнес-целей, аудитории и текущего маркетинга — а не с типовой анкеты."
+      },
+      {
+        "title": "Стратегия",
+        "description": "Подбираем оптимальное сочетание контента, рекламы и веб-разработки под ваш бюджет и сроки."
+      },
+      {
+        "title": "Продакшн",
+        "description": "Фото- и видеосъёмка, дизайн и запуск кампаний проходят на Ко Пангане в удобное для вас время."
+      },
+      {
+        "title": "Сдача и оптимизация",
+        "description": "Вы получаете готовые материалы и запущенные кампании, а если продолжаете работать с нами — регулярную отчётность и оптимизацию."
+      }
+    ],
+    "locationText": "CreativeLAB находится на Ко Пангане и работает с бизнесом по всему острову — от Тонг Сала и Шритану до Хаад Рина и северного побережья, — а также с удалёнными клиентами, которые готовятся открыть или продвигать объект на Ко Пангане.",
+    "finalCtaTitle": "Начать проект / обсудить ваш бизнес на Ко Пангане",
+    "finalCtaDescription": "Расскажите, над чем вы работаете — разовая съёмка, рекламная кампания или полный маркетинговый план, — и мы предложим реалистичный следующий шаг."
+  },
+  "pillars": [
+    {
+      "description": "Google Ads, Meta Ads, запуск кампаний и performance-маркетинг."
+    },
+    {
+      "description": "Ведение Instagram, контент, Reels, стратегия и работа с сообществом."
+    },
+    {
+      "description": "Фотосъёмка вилл и недвижимости, дрон, видео и маркетинг объектов."
+    },
+    {
+      "description": "Фотосъёмка еды и меню, фудстайлинг, дизайн, контент и реклама."
+    },
+    {
+      "description": "Google Business Profile, Google Maps, локальное SEO и репутация."
+    },
+    {
+      "description": "Сайты, лендинги, SEO, техническое SEO и видимость в AI-поиске."
+    },
+    {
+      "description": "Коммерческое видео, Reels, дрон, FPV и имиджевые фильмы."
+    },
+    {
+      "description": "Фирменный стиль, графический дизайн и дизайн меню, креативное руководство."
+    }
+  ],
+  "portfolioItems": [
+    {
+      "alt": "Команда CreativeLAB готовит оборудование к съёмке",
+      "caption": "Продакшн-команда на острове"
+    },
+    {
+      "alt": "Стилизованное блюдо, снятое для меню ресторана",
+      "caption": "Фуд-фотография и стайлинг"
+    },
+    {
+      "alt": "Закулисье съёмки контента для соцсетей",
+      "caption": "Производство контента для соцсетей"
+    },
+    {
+      "alt": "Оператор снимает коммерческий ролик",
+      "caption": "Коммерческое и имиджевое видео"
+    },
+    {
+      "alt": "Фотограф руководит съёмкой на локации",
+      "caption": "Выездная фотосъёмка"
+    },
+    {
+      "alt": "Рабочее пространство креативной студии с дизайн-проектами в работе",
+      "caption": "Студия брендинга и дизайна"
+    }
+  ],
+  "about": {
+    "metaTitle": "О CreativeLAB | Креативное агентство на Ко Пангане",
+    "metaDescription": "CreativeLAB — креативное контент- и рекламное агентство на Ко Пангане, Таиланд: наш подход, принципы и работа на острове.",
+    "h1": "О CreativeLAB",
+    "heroSupport": "Креативное контент- и рекламное агентство на Ко Пангане, где одна команда отвечает за стратегию, продакшн и результат.",
+    "directAnswer": "CreativeLAB — креативное контент- и рекламное агентство на Ко Пангане, Таиланд. Мы работаем с виллами, ресторанами, гостиничными брендами и местным бизнесом в сферах рекламы, соцсетей, фото, видео, веб-разработки и брендинга — стратегия, продакшн и реализация в одной команде, прямо на острове.",
+    "storyEyebrow": "Наша история",
+    "storyTitle": "Почему мы начали именно на острове",
+    "storyImageAlt": "Команда CreativeLAB за совместной работой",
+    "storyBody": [
+      "Бизнесу на Ко Пангане долго приходилось выбирать между местным фотографом для разовых съёмок, фрилансером для соцсетей и маркетинговым агентством за границей, которое ни разу не видело остров. Три подрядчика, три визуальных стиля — и никто не отвечает за картину в целом.",
+      "CreativeLAB создан, чтобы объединить стратегию, продакшн и реализацию под одной крышей, физически на Ко Пангане. Так владелец виллы, ресторан или местный сервисный бизнес может работать с одной командой, которая понимает рынок острова и делает последовательную профессиональную работу во всех каналах."
+    ],
+    "approachEyebrow": "Наш подход",
+    "approachTitle": "Как мы подходим к проекту",
+    "approachImageAlt": "Рабочее пространство студии CreativeLAB",
+    "approachBody": [
+      "Мы отталкиваемся от вашей бизнес-цели, а не от типового пакета: проект строится вокруг того, что действительно даст результат, — будь то одна фотосъёмка, запуск кампании или полная ежемесячная маркетинговая программа.",
+      "Мы никогда не придумываем факты, чтобы страница или презентация выглядели убедительнее: никаких вымышленных клиентов, наград, отзывов или результатов. Если что-то ещё не подтверждено — цена, утверждение, статистика, — мы либо чётко это оговариваем, либо не упоминаем вовсе."
+    ],
+    "principles": [
+      {
+        "title": "Честность важнее хайпа",
+        "description": "Мы не выдумываем клиентов, результаты, отзывы или регалии — ни на этом сайте, ни в разговорах с клиентами."
+      },
+      {
+        "title": "Одна команда — полная ответственность",
+        "description": "Стратегия, продакшн и реализация — от одной команды, а не от цепочки субподрядчиков."
+      },
+      {
+        "title": "Создано для рынка острова",
+        "description": "Местная сезонность, поведение клиентов и локации определяют каждый наш план."
+      },
+      {
+        "title": "Измеряем, а не просто сдаём",
+        "description": "Где результаты можно отследить, мы их отслеживаем — и честно о них рассказываем."
+      }
+    ],
+    "locationText": "CreativeLAB находится на Ко Пангане, Таиланд, и работает по всему острову — от Тонг Сала и Шритану до Хаад Рина и северного побережья.",
+    "ctaTitle": "Обсудить ваш бизнес на Ко Пангане",
+    "ctaDescription": "Расскажите, над чем вы работаете, и мы предложим реалистичный следующий шаг.",
+    "heroImageAlt": "Команда CreativeLAB на съёмке на Ко Пангане"
+  },
+  "contact": {
+    "metaTitle": "Контакты CreativeLAB | Креативное агентство Ко Панган",
+    "metaDescription": "Свяжитесь с CreativeLAB, чтобы обсудить проект на Ко Пангане: реклама, контент, фото, видео, сайты или брендинг.",
+    "h1": "Начать проект",
+    "heroSupport": "Расскажите о своём бизнесе на Ко Пангане и о том, над чем работаете, — мы предложим реалистичный следующий шаг.",
+    "directAnswer": "Свяжитесь с CreativeLAB, чтобы обсудить проект на Ко Пангане: разовую фото- или видеосъёмку, рекламную кампанию, новый сайт или полную ежемесячную маркетинговую программу. Заполните форму ниже или напишите нам на почту напрямую.",
+    "optionsTitle": "Другие способы связи"
+  },
+  "portfolio": {
+    "metaTitle": "Портфолио | CreativeLAB Ко Панган",
+    "metaDescription": "Какие креативные, рекламные и продакшн-проекты CreativeLAB делает на Ко Пангане — реальные работы добавляются по мере сдачи.",
+    "h1": "Портфолио",
+    "heroSupport": "Работы, которые мы делаем для бизнеса на Ко Пангане, — реальные клиентские проекты появляются здесь по мере завершения и согласования публикации.",
+    "directAnswer": "Здесь будут реальные проекты CreativeLAB — виллы, рестораны и местный бизнес по всему Ко Пангану — по мере их сдачи и согласования публикации. А пока референсные изображения ниже показывают стиль и уровень работы нашей команды.",
+    "ctaTitle": "Хотите увидеть здесь свой проект?",
+    "ctaDescription": "Начните работу с нами сейчас — и следующим на этой странице может появиться ваш проект.",
+    "heroImageAlt": "Рабочее пространство креативной студии на Ко Пангане"
+  },
+  "caseStudies": {
+    "metaTitle": "Кейсы | CreativeLAB Ко Панган",
+    "metaDescription": "Подробные кейсы CreativeLAB о работе с бизнесом на Ко Пангане — публикуются по мере завершения реальных проектов.",
+    "h1": "Кейсы",
+    "heroSupport": "Подробный разбор реальных проектов — задача, подход, реализация и результаты — публикуется по мере завершения и согласования.",
+    "directAnswer": "Кейс — это больше, чем картинка из портфолио: он показывает реальный бриф, подход и результат проекта. Мы публикуем кейсы только по реальным завершённым работам CreativeLAB — ничего выдуманного, и эта страница будет пополняться по мере сдачи проектов.",
+    "emptyTitle": "Первые кейсы уже в работе.",
+    "emptyBody": "Мы публикуем кейсы только по реальным завершённым проектам — загляните чуть позже или свяжитесь с нами, если хотите, чтобы ваш проект стал одним из первых.",
+    "ctaTitle": "Хотите стать одним из наших первых опубликованных кейсов?",
+    "ctaDescription": "Начните проект с нами, и мы задокументируем весь путь — от брифа до результатов.",
+    "heroImageAlt": "Команда разбирает завершённый проект"
+  },
+  "journal": {
+    "metaTitle": "Журнал | CreativeLAB Ко Панган",
+    "metaDescription": "Заметки о креативном маркетинге, рекламе и продакшне для бизнеса на Ко Пангане, Таиланд.",
+    "h1": "Журнал",
+    "heroSupport": "Заметки о маркетинге, рекламе и продакшне для бизнеса на Ко Пангане — статьи появляются здесь по мере написания.",
+    "directAnswer": "В журнале CreativeLAB мы будем разбирать практические темы маркетинга, рекламы и продакшна, актуальные для бизнеса на Ко Пангане. Статьи публикуются по мере исследования и написания — ни одна не датирована задним числом и не выдумана ради наполнения страницы.",
+    "emptyTitle": "Первые статьи уже на подходе.",
+    "emptyBody": "Статей пока нет — раздел будет наполняться по мере написания реальных, проработанных материалов, а не задним числом ради солидного вида.",
+    "ctaTitle": "Хотите, чтобы мы написали на определённую тему?",
+    "ctaDescription": "Напишите нам, и мы рассмотрим её для одной из будущих статей.",
+    "heroImageAlt": "Блокнот и ноутбук, подготовленные для работы над текстом"
+  },
+  "privacy": {
+    "metaTitle": "Политика конфиденциальности",
+    "metaDescription": "Как CreativeLAB собирает, использует и защищает персональные данные.",
+    "eyebrow": "Правовая информация",
+    "h1": "Политика конфиденциальности",
+    "draftNotice": "Черновик — до запуска будет проверен квалифицированным юристом. Эта страница описывает нашу планируемую практику и не должна рассматриваться как окончательные юридические условия до проверки.",
+    "sections": [
+      {
+        "title": "Какие данные мы собираем",
+        "body": "Когда вы связываетесь с нами через этот сайт — через контактную форму, email, WhatsApp или Telegram, — мы получаем предоставленную вами информацию: имя, контактные данные и содержание сообщения, включая любые файлы о проекте, которыми вы решите поделиться."
+      },
+      {
+        "title": "Как мы их используем",
+        "body": "Мы используем эту информацию исключительно для ответа на ваш запрос и, если вы нас наймёте, для выполнения согласованного проекта. Мы не продаём персональные данные третьим лицам."
+      },
+      {
+        "title": "Срок хранения",
+        "body": "[[VERIFY: retention period]] — мы намерены хранить данные запросов только столько, сколько нужно для ответа вам или выполнения проекта, а загруженные файлы удалять по истечении установленного срока. Точный график хранения будет указан здесь после его утверждения."
+      },
+      {
+        "title": "Ваши права",
+        "body": "Вы можете в любой момент запросить доступ к своим персональным данным, их исправление или удаление, написав на {email}."
+      },
+      {
+        "title": "Сторонние сервисы",
+        "body": "На сообщения, отправленные через WhatsApp или Telegram, помимо этой политики распространяются условия конфиденциальности самих платформ. Аналитика, если она включена, настроена с учётом приватности и не отслеживает вас на посторонних сайтах."
+      }
+    ]
+  },
+  "terms": {
+    "metaTitle": "Условия использования",
+    "metaDescription": "Условия использования сайта и услуг CreativeLAB.",
+    "eyebrow": "Правовая информация",
+    "h1": "Условия использования",
+    "draftNotice": "Черновик — до запуска будет проверен квалифицированным юристом. Эта страница описывает наши планируемые условия и не должна рассматриваться как окончательная до проверки.",
+    "sections": [
+      {
+        "title": "Услуги",
+        "body": "CreativeLAB оказывает креативные, рекламные, фото-, видео- и веб-услуги на проектной основе или по абонентскому договору, как письменно согласовано для каждого сотрудничества. Цены на этом сайте носят ориентировочный характер, как указано на каждой странице услуги, — окончательный объём работ и стоимость подтверждаются в письменном предложении до начала работ."
+      },
+      {
+        "title": "Оплата и интеллектуальная собственность",
+        "body": "[[VERIFY: payment terms, deposit structure, and intellectual property handover conditions]] — окончательные условия о графике платежей, отмене и передаче прав на использование готовых материалов будут закреплены в письменном договоре по каждому проекту."
+      },
+      {
+        "title": "Ответственность",
+        "body": "[[VERIFY: liability and indemnity clauses]] — будут окончательно согласованы с юристом с учётом законодательства Таиланда и характера наших услуг."
+      },
+      {
+        "title": "Контакты",
+        "body": "Вопросы по этим условиям можно направить на {email}."
+      }
+    ]
+  },
+  "servicesIndex": {
+    "metaTitle": "Services",
+    "metaDescription": "Advertising, social media, content, photography, video, web design and branding for businesses on Koh Phangan, Koh Samui and Koh Tao — one full-service team.",
+    "h1": "Services",
+    "heroSupport": "Browse every service by area, from advertising and social media to photography, video, web design and branding — for businesses across Koh Phangan, Koh Samui and Koh Tao.",
+    "directAnswer": "CreativeLAB's services cover advertising, social media, content creation, photography, video production, web design and branding for businesses on Koh Phangan, Koh Samui and Koh Tao. Browse by area below, or go straight to a specific service — each page explains what's included, how we work, and what it typically costs.",
+    "hubsTitle": "Browse by area",
+    "hubsDescription": "Each area groups related services together — start here if you're not sure exactly what you need.",
+    "landingsTitle": "Core services",
+    "landingsDescription": "Direct links to our core, most-requested services, if you already know what you're looking for.",
+    "heroImageAlt": "Creative team reviewing services across advertising, content and web design"
+  },
+  "industriesIndex": {
+    "metaTitle": "Industries",
+    "metaDescription": "Marketing for villas, hotels, restaurants, wellness brands, tour operators, events and lifestyle brands on Koh Phangan, Koh Samui and Koh Tao.",
+    "h1": "Industries",
+    "heroSupport": "Villas & real estate, hotels & resorts, restaurants & food, wellness & retreats, tourism & hospitality, events, and brands & lifestyle.",
+    "directAnswer": "CreativeLAB works with villa and real estate businesses, hotels and resorts, restaurants and food brands, wellness studios and retreats, tour operators, event organisers, and lifestyle and product brands across Koh Phangan, Koh Samui and Koh Tao — each with marketing built around how that kind of business actually gets discovered, compared and booked.",
+    "heroImageAlt": "Creative team reviewing a project brief for an island business"
+  },
+  "locationsIndex": {
+    "metaTitle": "Locations",
+    "metaDescription": "CreativeLAB is a creative agency working with businesses on Koh Phangan, Koh Samui and Koh Tao — see how our marketing services apply on each of the islands.",
+    "h1": "Locations",
+    "heroSupport": "Based on Koh Phangan and working across Koh Phangan, Koh Samui and Koh Tao — see what that looks like on each island.",
+    "directAnswer": "CreativeLAB is based on Koh Phangan and works with businesses across Koh Phangan, Koh Samui and Koh Tao. Each island has a different business landscape and different logistics — see how our advertising, content, photography, video and web services apply to yours below.",
+    "heroImageAlt": "Photographer on location for a shoot across Koh Phangan, Koh Samui and Koh Tao"
+  },
+  "editorial": {
+    "metaTitle": "Editorial Policy",
+    "metaDescription": "How CreativeLAB writes, reviews and corrects the content on this site — our approach to accuracy, pricing, translation and reader-reported corrections.",
+    "eyebrow": "Trust",
+    "h1": "Editorial Policy",
+    "draftNotice": "This page is maintained by CreativeLAB and was last reviewed in September 2026.",
+    "sections": [
+      {
+        "title": "Accuracy and honesty",
+        "body": "We don't publish invented clients, projects, results, reviews, awards or statistics. Where a fact about our business or the islands we work on isn't something we can verify, we qualify it clearly or leave it out rather than presenting a guess as fact."
+      },
+      {
+        "title": "How we present pricing",
+        "body": "Prices shown on our service pages are indicative ranges based on typical project scope, not fixed quotes. Every project is different, and final pricing is confirmed in writing before work begins."
+      },
+      {
+        "title": "How we write and review our pages",
+        "body": "Our service, industry and location pages are written by our own team based on direct experience working on Koh Phangan, Koh Samui and Koh Tao. Pages are reviewed periodically and updated when our services, pricing approach or island coverage change, rather than left untouched indefinitely."
+      },
+      {
+        "title": "Translations",
+        "body": "English is our master language and the source for every page. Russian, Thai and Hebrew versions are translated and then reviewed by someone fluent in that language, rather than published as an unchecked machine translation."
+      },
+      {
+        "title": "Corrections",
+        "body": "If you spot something inaccurate or out of date on this site, let us know at {email} and we'll review and correct it."
+      }
+    ]
+  },
+  "accessibility": {
+    "metaTitle": "Accessibility",
+    "metaDescription": "CreativeLAB's accessibility statement — our WCAG 2.2 AA target, what's implemented today, known limitations, and how to report an issue directly to us.",
+    "eyebrow": "Trust",
+    "h1": "Accessibility Statement",
+    "draftNotice": "This page is maintained by CreativeLAB and was last reviewed in September 2026.",
+    "sections": [
+      {
+        "title": "Our target",
+        "body": "We aim for this site to meet WCAG 2.2 Level AA, and treat that as an ongoing standard to maintain as the site grows rather than a one-time checkbox."
+      },
+      {
+        "title": "What we've built in",
+        "body": "Semantic HTML for headings, landmarks and lists; full keyboard navigation for menus, forms and interactive components; color contrast checked against WCAG AA thresholds; right-to-left layout support for Hebrew; and reduced-motion handling for visitors who prefer less animation."
+      },
+      {
+        "title": "Known limitations",
+        "body": "Some pages are still being reviewed for full accessibility compliance as the site is completed, and third-party embeds such as maps or booking widgets may not fully meet the same standard. We're working through these as we find them."
+      },
+      {
+        "title": "Contact us",
+        "body": "If you experience an accessibility barrier on this site, tell us at {email} and we'll work to fix it."
+      }
+    ]
+  },
+  "notFound": {
+    "metaTitle": "Page not found",
+    "eyebrow": "404",
+    "h1": "This page doesn't exist",
+    "body": "The link may be out of date, or the page may have moved. These are good places to continue:"
+  }
+}

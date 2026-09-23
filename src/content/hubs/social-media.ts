@@ -8,11 +8,11 @@ export const socialMediaHub: HubPage = {
   priority: "P0",
   h1: "Social Media Agency on Koh Phangan",
   primaryKeyword: "social media agency Koh Phangan",
-  metaTitle: "Social Media Agency Koh Phangan | Instagram & Content",
+  metaTitle: "Social Media Agency Koh Phangan",
   metaDescription:
-    "CreativeLAB manages Instagram accounts, produces content and Reels, and runs social strategy for businesses on Koh Phangan.",
+    "CreativeLAB manages Instagram accounts, produces content and Reels, and runs social strategy for Koh Phangan, Koh Samui and Koh Tao businesses, start to finish.",
   directAnswer:
-    "CreativeLAB manages social media for businesses on Koh Phangan — Instagram account management, content production, Reels, influencer collaborations and monthly content packages, built around a strategy rather than posting for its own sake.",
+    "CreativeLAB manages social media for businesses on Koh Phangan, Koh Samui and Koh Tao — Instagram account management, content production, Reels, influencer collaborations and monthly content packages, all built around a real strategy rather than posting for its own sake.",
   heroSupport:
     "Instagram management, content production, Reels and monthly packages for island businesses that want social media to actually convert.",
   heroImage: images.social,
@@ -21,6 +21,51 @@ export const socialMediaHub: HubPage = {
   editorialBody: [
     "Most visitors and locals find villas, restaurants and experiences on Koh Phangan through Instagram and TikTok before they ever search Google. A weak or inconsistent account is a real cost, not a minor gap.",
     "We treat social media as production plus strategy: a consistent visual identity, a content calendar tied to your business goals, and formats — Reels, carousels, Stories — chosen because they work for your audience, not because they're trending.",
+    "The same approach runs for businesses on Koh Samui and Koh Tao — the production team travels for shoots, and account management, planning and reporting work identically regardless of which island your business is based on.",
+    "We'd rather set expectations honestly than promise a specific follower count or growth rate we can't guarantee. Every figure on this site — package pricing, typical posting cadence, example use cases — reflects how accounts for businesses on these islands actually perform, not an inflated number designed to close a sale.",
+  ],
+  sections: [
+    {
+      title: "Strategy, not just posting",
+      body: [
+        "A content calendar without a strategy behind it just produces busywork. Before we plan a single post, we work out what the account actually needs to do — bookings, inquiries, a following that eventually converts, or simple brand visibility — and build the content mix, posting cadence and format choices around that goal rather than an arbitrary number of posts per week.",
+        "That's also why we don't chase every trend. A format gets used because it fits your audience and message, not because it's currently popular — a villa account and a beach bar account should not look or sound the same, even if they're both posting Reels.",
+        "Strategy and production sit with the same team, which matters in practice: the person planning next month's content calendar is working from the same brand direction as the person shooting and editing it, so the account doesn't drift between a polished shoot one month and a rushed, inconsistent one the next.",
+      ],
+    },
+    {
+      title: "How social media works across Koh Phangan, Koh Samui and Koh Tao",
+      body: [
+        "CreativeLAB is based on Koh Phangan, where most of our production happens day to day. For clients on Koh Samui or Koh Tao, content shoots involve travel by boat and a possible travel fee, but planning, publishing, community management and reporting run exactly the same way — there's no reduced version of the service for businesses on the other two islands.",
+        "Audience behavior differs by island, and content reflects that. Koh Samui's larger, more developed hospitality scene and airport-driven tourist mix supports a broader range of content styles and a bigger potential audience. Koh Tao's audience skews toward divers and long-stay travellers, so content for a Tao business often does better leaning into that community directly. Koh Phangan's mix of wellness retreats, long-stay expats and event-driven tourism shapes a different content calendar again.",
+        "Language is part of that picture too. Captions and community management can run in Thai, English or Russian depending on where your actual audience is, rather than defaulting to English because that's the default language of the platform.",
+      ],
+    },
+    {
+      title: "What to expect working with us",
+      body: [
+        "Onboarding starts with a short audit of your current account (or a blank start, if you don't have one) and a conversation about goals, so the first content calendar reflects your business rather than a generic template. From there you'll get a monthly plan to review before it goes live, then regular reporting on what actually happened.",
+        "Production and management can be split or bundled depending on what you already have — some clients only need publishing and community management around content they produce themselves, others want the whole thing handled, from shoot day to the post going live.",
+        "There's no requirement to commit long-term to start. Management is billed monthly, and while we recommend giving a new content strategy a few months to find its footing before judging results, you're never locked into a fixed-term contract to get going.",
+      ],
+    },
+    {
+      title: "Working across different budgets and business types",
+      body: [
+        "A café posting a few times a week and a hospitality group managing several properties' social presence need very different levels of support, and packages are scoped accordingly rather than forced into one fixed tier. The pricing guidance on each service page reflects a realistic range for the work involved.",
+        "None of the numbers on this site are generic industry averages pulled from outside Thailand — they reflect the kind of production and management work we actually do here, and every quote is confirmed against your specific content needs before it's final.",
+        "Engagements tend to grow with what the account needs rather than staying fixed. Some clients start with content production alone and add management once there's a backlog to publish; others start with management and add regular production once the account has proven the strategy is worth investing in further — each step building on what actually worked, not a forced upsell.",
+      ],
+    },
+    {
+      title: "Who this works well for",
+      body: [
+        "Most of the accounts we manage fall into a handful of categories — restaurants and bars, villas and accommodation, wellness and retreat operators, and growing local brands moving from ad hoc posting to a real strategy. The team has produced content and managed accounts across all of them, so onboarding questions are specific to your kind of business, not a generic marketing checklist.",
+        "It also works well alongside an in-house team rather than only as a full outsourced solution — some clients keep someone in-house for day-to-day community replies while we handle planning, production and reporting, and we'll agree the split that makes sense for how your business already operates.",
+        "For businesses that already run advertising with us, social and paid work stay connected rather than living in separate silos — the same visual identity and brand voice carry across organic posts and Meta Ads, and strong-performing organic content regularly becomes the starting point for paid creative once it's proven itself with a real audience.",
+        "Timelines are realistic rather than rushed: a first content calendar typically takes a week or two to plan around a shoot, and we're upfront when it's still too early to judge whether a new posting rhythm is working — a handful of posts rarely tells you as much as a full month does.",
+      ],
+    },
   ],
   faqs: [
     {
@@ -47,6 +92,22 @@ export const socialMediaHub: HubPage = {
       q: "Can social media work alongside paid advertising?",
       a: "Yes — our Advertising team runs Meta Ads using the same content and brand voice for a consistent presence.",
     },
+    {
+      q: "Do you manage social media for businesses on Koh Samui and Koh Tao too?",
+      a: "Yes — management, planning and reporting work the same regardless of island. Content shoots on Samui or Tao involve boat travel from our Koh Phangan base and a possible travel fee, which we'll flag before the shoot is booked so it's never a surprise on the invoice.",
+    },
+    {
+      q: "How long before I see results from social media?",
+      a: "Consistency shows up first — a steadier, more professional-looking account within the first month. Meaningful growth in reach and engagement typically builds over 2–3 months as the content calendar and posting rhythm settle in, and results tend to compound from there rather than plateau.",
+    },
+    {
+      q: "Do you write captions and hashtags, or do I?",
+      a: "We write captions in your brand voice as part of the service, and use hashtags and keywords relevant to your business and location rather than generic high-volume tags.",
+    },
+    {
+      q: "What if I already have a content backlog I want to use?",
+      a: "We're happy to plan around existing assets and fill any gaps with new production, rather than starting completely from scratch — the first content audit tells us what's genuinely usable and what's better replaced.",
+    },
   ],
   finalCtaLabel: "Start a Project",
   services: [
@@ -59,13 +120,21 @@ export const socialMediaHub: HubPage = {
       secondaryTopics: ["Instagram marketing", "account management"],
       metaTitle: "Instagram Management Koh Phangan | CreativeLAB",
       metaDescription:
-        "Instagram account management for Koh Phangan businesses — content planning, publishing, community management and analytics.",
+        "Instagram account management for businesses on Koh Phangan, Koh Samui and Koh Tao — content planning, publishing, community management and monthly analytics.",
       directAnswer:
-        "We manage Instagram accounts for Koh Phangan businesses end to end: planning a content calendar, publishing feed posts, Stories and Reels, engaging with your community, and reporting on what's actually growing the account.",
+        "We manage Instagram accounts for businesses on Koh Phangan, Koh Samui and Koh Tao end to end: planning a content calendar, publishing feed posts, Stories and Reels, engaging with your community, and reporting on what's actually moving the account forward.",
       heroSupport:
         "Planning, publishing and community management for an Instagram account that actually grows.",
       heroImage: images.social,
       heroImageAlt: "Phone screen showing an Instagram business profile",
+      overview: [
+        "An Instagram account left to run itself tends to drift — a burst of posts around a launch, then silence for weeks, then a scramble before a busy season. Management means someone is responsible for the account as an ongoing channel: a plan for what gets posted and when, not a reaction to whenever there's time.",
+        "That starts with a content calendar built around your actual business goals and seasonality, not a fixed generic cadence. A villa nearing peak booking season needs a different rhythm than a restaurant running a weekly special, and the calendar reflects that rather than applying one template to every client.",
+        "Publishing is only part of the job. Community management — replying to comments and DMs in your brand voice — is often where inquiries actually start, and a slow or generic response there costs more bookings than a missed post ever would. Monthly reporting closes the loop, showing what's actually moving reach, engagement and, where relevant, inquiries.",
+        "We manage accounts for businesses across Koh Phangan, Koh Samui and Koh Tao the same way — the difference is what performs well, not how the account is run. A Koh Samui hospitality account often benefits from a broader content mix given the island's larger, more mixed audience, while a Koh Tao account frequently does better leaning into the diving and long-stay community it's actually reaching.",
+        "Management is usually the first service a business adds once it has some content to work with, and it pairs naturally with Content Creation once the backlog runs low, or with Monthly Packages once you'd rather have planning, production and publishing handled as one predictable retainer instead of separate line items.",
+      ],
+      industrySlugs: ["restaurants-food", "villas-real-estate", "wellness-retreats", "brands-lifestyle"],
       scope: [
         { title: "Content calendar", description: "A planned posting schedule tied to your business goals and seasonality." },
         { title: "Publishing", description: "Feed posts, Stories and Reels published on schedule across the month." },
@@ -92,6 +161,7 @@ export const socialMediaHub: HubPage = {
         { title: "Restaurants & cafés", description: "Keep a consistent feed of dishes, events and offers." },
         { title: "Villas & accommodation", description: "Showcase the property and guest experience consistently." },
         { title: "Service businesses", description: "Build trust and visibility with a professional, active profile." },
+        { title: "Tour and activity operators", description: "Keep a rotating feed of experiences, availability and guest moments that drives inquiries." },
       ],
       faqs: [
         { q: "Do I need to approve posts before they go live?", a: "Most clients review a monthly content calendar in advance rather than approving each individual post, but we can adjust the workflow to your preference." },
@@ -100,6 +170,8 @@ export const socialMediaHub: HubPage = {
         { q: "Do you provide the photography and video, or do I?", a: "We can produce it through our Content Creation service, or work with assets you already have." },
         { q: "How is success measured?", a: "Against agreed goals — reach, engagement, saves, DMs or website clicks — reported monthly." },
         { q: "Can I cancel or pause the service?", a: "Yes, management is billed monthly with no long-term lock-in required." },
+        { q: "Do you manage Instagram accounts for businesses on Koh Samui or Koh Tao?", a: "Yes — management runs the same way regardless of island. If content production requires an on-site shoot, that involves boat travel from Koh Phangan and a possible travel fee." },
+        { q: "What happens if a post underperforms?", a: "We look at what's happening across the account rather than reacting to any single post — patterns over several weeks tell you far more than one low-performing piece of content." },
       ],
       related: [
         { label: "Content Creation", href: "/social-media/content-creation", description: "Photo and video production for your feed." },
@@ -115,15 +187,23 @@ export const socialMediaHub: HubPage = {
       h1: "Social Content Creation on Koh Phangan",
       primaryKeyword: "content creation Koh Phangan",
       secondaryTopics: ["social content", "branded content"],
-      metaTitle: "Content Creation Koh Phangan | Social Photo & Video",
+      metaTitle: "Content Creation Koh Phangan | Photo & Video",
       metaDescription:
-        "Photo and video content production for social media — planned shoots, creative direction and platform-ready formats for Koh Phangan brands.",
+        "Photo and video content for social media — planned shoots, creative direction and platform-ready formats for Koh Phangan, Koh Samui and Koh Tao brands.",
       directAnswer:
-        "We produce the photo and video content behind a strong social presence — planned shoots, creative direction and edits delivered in the formats each platform actually needs, from square feed posts to vertical Reels.",
+        "We produce the photo and video content behind a strong social presence for Koh Phangan, Koh Samui and Koh Tao businesses — planned shoots, creative direction and edits delivered in the formats each platform actually needs, from feed posts to vertical Reels.",
       heroSupport:
         "Planned photo and video shoots that give you a month (or more) of platform-ready social content.",
       heroImage: images.photoshoot,
       heroImageAlt: "Content creator setting up a shot for a branded social post",
+      overview: [
+        "Good social media content rarely happens by grabbing a phone between tasks. It comes from a planned shoot — a shot list built around your content calendar, enough setups to cover several weeks of posting, and someone directing the shoot with the final feed in mind rather than capturing whatever's convenient.",
+        "We produce both photography and short-form video in the same session where it makes sense: product and lifestyle stills for the feed, behind-the-scenes clips for Stories, and vertical footage cut down for Reels. That efficiency is part of the value — one well-planned shoot day can realistically supply weeks of content instead of a single post.",
+        "Creative direction is what keeps a feed looking coherent rather than like a collection of unrelated images — consistent framing, color grading and visual style across every asset, whether it's shot in a restaurant kitchen, a villa or on location for a tour or activity.",
+        "For clients on Koh Samui or Koh Tao, the same production process applies — we travel by boat from our Koh Phangan base for shoot days, with a travel fee factored into the project. The content itself is shaped by what actually works for that island's audience: a villa shoot on Samui often needs broader lifestyle coverage for a wider, more mixed audience, while a Koh Tao shoot for a dive operator leans into underwater and marine content specifically.",
+        "A single shoot day is usually the right starting point if you're testing the service, with a full-day session making sense once you know roughly how much content you actually get through in a month. From there, many clients move to a recurring shoot schedule so content production stops being a one-off scramble and becomes a predictable part of running the business.",
+      ],
+      industrySlugs: ["restaurants-food", "villas-real-estate", "wellness-retreats", "hotels-resorts"],
       scope: [
         { title: "Shoot planning", description: "A shot list built around your content calendar and goals." },
         { title: "Photography", description: "Product, lifestyle and behind-the-scenes photography." },
@@ -151,6 +231,7 @@ export const socialMediaHub: HubPage = {
         { title: "Restaurants", description: "A season's worth of dish, ambiance and event content." },
         { title: "Villas", description: "Lifestyle and property content for listings and social." },
         { title: "Retail & services", description: "Product and behind-the-scenes content that builds trust." },
+        { title: "Wellness & retreats", description: "Calm, considered imagery and video that reflects the pace of the experience itself." },
       ],
       faqs: [
         { q: "How much content comes out of one shoot day?", a: "Typically enough for 2–4 weeks of consistent posting, depending on your posting frequency." },
@@ -159,6 +240,8 @@ export const socialMediaHub: HubPage = {
         { q: "Is video included, or is this photo-only?", a: "Both are available; most packages combine photo and short-form video in one shoot." },
         { q: "How quickly do I receive the final files?", a: "Typical turnaround is 3–7 business days depending on volume." },
         { q: "Do you handle the scheduling and posting too?", a: "That's covered by Instagram Management or Monthly Packages — Content Creation is the production itself." },
+        { q: "Do you travel to Koh Samui or Koh Tao for a shoot?", a: "Yes — shoots on either island are scheduled the same way as on Koh Phangan, with boat travel and a travel fee added to the project scope upfront." },
+        { q: "Can one shoot day cover multiple platforms and formats?", a: "Yes — we typically capture stills, Stories-ready vertical clips and Reels footage in the same session so one day of production serves several formats." },
       ],
       related: [
         { label: "Instagram Management", href: "/social-media/instagram-management", description: "Publishing and community management for this content." },
@@ -174,15 +257,23 @@ export const socialMediaHub: HubPage = {
       h1: "Instagram Reels Production on Koh Phangan",
       primaryKeyword: "Instagram Reels agency Koh Phangan",
       secondaryTopics: ["short-form video", "social video"],
-      metaTitle: "Instagram Reels Agency Koh Phangan | Short-Form Video",
+      metaTitle: "Instagram Reels Agency Koh Phangan",
       metaDescription:
-        "Reels concept, filming and editing for Koh Phangan businesses — short-form video built for reach on Instagram and TikTok.",
+        "Reels concept, filming and editing for businesses across Koh Phangan, Koh Samui and Koh Tao — short-form video built for reach on Instagram and TikTok.",
       directAnswer:
-        "We concept, shoot and edit Instagram Reels for Koh Phangan businesses — short-form video built around hooks, pacing and trends that actually fit your brand, rather than generic templates.",
+        "We concept, shoot and edit Instagram Reels for businesses on Koh Phangan, Koh Samui and Koh Tao — short-form video built around hooks, pacing and trends that actually fit your brand, filmed on location and edited for retention, not generic templates.",
       heroSupport:
         "Concept, filming and editing for short-form video built to be watched, not scrolled past.",
       heroImage: images.video,
       heroImageAlt: "Vertical video being filmed for an Instagram Reel",
+      overview: [
+        "Reels are how most accounts reach people who don't already follow them — Instagram pushes short-form video to new audiences more aggressively than any other format, which makes it the highest-leverage type of content for growth if it's made well and a wasted opportunity if it isn't.",
+        "A Reel that works is built around a hook in the first second or two, a clear structure and pacing that holds attention, and a reason to exist beyond 'we filmed something.' We develop concepts around what your business actually has to show — a dish being plated, a property walkthrough, a class or activity in motion — rather than copying a trending format that doesn't fit.",
+        "Filming is usually batched: several Reels' worth of footage captured in one on-location session, then edited separately so each one gets proper attention to pacing, captions, sound and cuts. That batching keeps production efficient without making the finished Reels feel identical.",
+        "The same process runs for businesses on Koh Samui and Koh Tao, with on-location filming scheduled around boat travel from Koh Phangan. What performs differs by island and audience — a Koh Tao dive shop's Reels lean naturally into underwater footage and course content, while a Koh Samui hospitality brand often has more range to work with given the island's broader tourist mix.",
+        "Reels work well as a standalone project if you just need a handful of videos for a specific launch or event, and just as well as an ongoing part of a monthly package once you've seen how much reach they bring compared to static posts. Either way, the same care goes into hook, pacing and sound — the things that actually determine whether someone watches to the end or scrolls past in the first second.",
+      ],
+      industrySlugs: ["restaurants-food", "wellness-retreats", "tourism-hospitality", "events"],
       scope: [
         { title: "Concept development", description: "Hooks and formats matched to your brand and audience." },
         { title: "Filming", description: "On-location vertical video production." },
@@ -194,6 +285,7 @@ export const socialMediaHub: HubPage = {
         { title: "Higher engagement per post", description: "Well-made short video consistently outperforms static posts." },
         { title: "Repurposable across platforms", description: "The same production works for TikTok and Stories with light edits." },
         { title: "Trend-aware, brand-safe", description: "We use formats that fit your business rather than chasing every trend." },
+        { title: "Fast feedback on what resonates", description: "Reels surface what your audience actually responds to within days, informing the rest of your content strategy." },
       ],
       process: [
         { title: "Concept", description: "Agree the hook, structure and goal for each Reel." },
@@ -209,6 +301,7 @@ export const socialMediaHub: HubPage = {
         { title: "Restaurants & bars", description: "Menu highlights, event recaps and atmosphere clips." },
         { title: "Villas & tours", description: "Walkthroughs and lifestyle clips that drive inquiries." },
         { title: "Wellness & activities", description: "Short, engaging clips showing the experience itself." },
+        { title: "Events & launches", description: "Recap clips and countdown content that build anticipation before and momentum after." },
       ],
       faqs: [
         { q: "How long should a Reel be?", a: "Usually 7–20 seconds for the strongest retention, longer only when the content genuinely earns it." },
@@ -217,6 +310,8 @@ export const socialMediaHub: HubPage = {
         { q: "How many Reels should I post per week?", a: "Most active accounts benefit from 2–4 per week; we'll recommend a realistic cadence for your goals." },
         { q: "Do you appear on camera, or does my team?", a: "Usually your team, space or product — we can discuss on-camera talent if relevant." },
         { q: "Can Reels be used in paid ads too?", a: "Yes — strong-performing organic Reels often make effective Meta Ads creative." },
+        { q: "Do you produce Reels for businesses on Koh Samui or Koh Tao?", a: "Yes — filming is scheduled the same way, with boat travel from Koh Phangan and a travel fee built into the project for on-location shoots." },
+        { q: "How many Reels come out of one filming session?", a: "We typically batch 3–6 Reels' worth of footage per on-location session, depending on the concepts and locations involved, then edit each one separately." },
       ],
       related: [
         { label: "Content Creation", href: "/social-media/content-creation", description: "The broader photo and video production behind your content." },
@@ -232,15 +327,23 @@ export const socialMediaHub: HubPage = {
       h1: "Influencer Marketing on Koh Phangan",
       primaryKeyword: "influencer marketing Koh Phangan",
       secondaryTopics: ["creator marketing", "collaborations"],
-      metaTitle: "Influencer Marketing Koh Phangan | Creator Collaborations",
+      metaTitle: "Influencer Marketing Koh Phangan",
       metaDescription:
-        "Influencer and creator collaborations for Koh Phangan businesses — selection, campaign management, content and tracking.",
+        "Influencer and creator collaborations for businesses on Koh Phangan, Koh Samui and Koh Tao — selection, campaign management, content coordination and tracking.",
       directAnswer:
-        "We find and manage creator collaborations for Koh Phangan businesses — selecting the right local or travel creators, briefing the campaign, coordinating content, and tracking whether it actually drove bookings or visits.",
+        "We find and manage creator collaborations for businesses on Koh Phangan, Koh Samui and Koh Tao — selecting the right local or travel creators, briefing the campaign, coordinating content and logistics, and tracking whether it actually drove bookings or visits.",
       heroSupport:
         "Creator selection, campaign coordination and tracking for collaborations that reach real, relevant audiences.",
       heroImage: images.social,
       heroImageAlt: "Content creator collaborating on a branded shoot",
+      overview: [
+        "Creator content earns a kind of trust that a branded ad can't — it looks and sounds like a recommendation rather than a pitch. That's the whole case for influencer marketing, and it only holds up if the creator is genuinely relevant to your audience rather than chosen for follower count alone.",
+        "We start from your goal and audience, then shortlist creators — local or travel-focused — whose actual content and following fit what you're trying to reach, not just whichever account has the biggest number attached. A villa targeting long-stay travellers needs a different kind of creator than a restaurant targeting locals and short-stay tourists.",
+        "Once creators are selected, we manage the brief, logistics and content approval so the collaboration stays coordinated rather than a string of separate, unmanaged outreach messages — clear deliverables, timeline and messaging guardrails agreed upfront, while leaving the creator's actual content and voice authentic.",
+        "Across the three islands, creator selection reflects where your business actually operates. Koh Phangan has an active community of wellness, retreat and long-stay creators; Koh Samui attracts a broader mix of travel and lifestyle creators given its larger tourist volume; Koh Tao's most relevant creators are frequently diving and marine-focused. We match the shortlist to the island the business is actually trying to reach.",
+        "A single collaboration works well for testing whether creator content fits your business at all, while a multi-creator campaign makes more sense for a launch or a push that needs broader reach in a short window. We'll recommend which shape fits your goal and budget rather than defaulting to whichever is easier to coordinate.",
+      ],
+      industrySlugs: ["tourism-hospitality", "events", "wellness-retreats", "brands-lifestyle"],
       scope: [
         { title: "Creator selection", description: "Vetted local and travel creators matched to your audience, not just follower count." },
         { title: "Campaign brief", description: "Clear deliverables, messaging guardrails and timeline for each collaboration." },
@@ -252,6 +355,7 @@ export const socialMediaHub: HubPage = {
         { title: "Access to niche audiences", description: "Reach specific traveller or local segments through the right creator." },
         { title: "Content you can reuse", description: "Collaboration content can be repurposed across your own channels with permission." },
         { title: "Managed, not ad hoc", description: "One coordinated campaign instead of scattered individual outreach." },
+        { title: "Fits alongside your own content", description: "Creator collaborations layer on top of what your in-house or CreativeLAB-produced content is already doing, rather than replacing it." },
       ],
       process: [
         { title: "Define goals", description: "Clarify what the collaboration needs to achieve." },
@@ -262,11 +366,13 @@ export const socialMediaHub: HubPage = {
       pricing: [
         { service: "Single creator collaboration", range: "THB 8,000 – 25,000", note: "Coordination fee, excludes creator fees/gifting" },
         { service: "Multi-creator campaign", range: "THB 20,000 – 50,000", note: "3–5 creators, coordinated campaign" },
+        { service: "Creator content usage rights", range: "THB 3,000 – 8,000", note: "Indicative — for repurposing creator content as paid ad creative" },
       ],
       useCases: [
         { title: "New restaurant or venue openings", description: "Build initial buzz through a coordinated set of visits." },
         { title: "Villas & retreats", description: "Reach long-stay travellers through trusted creator recommendations." },
         { title: "Experience & activity providers", description: "Showcase the experience through authentic first-person content." },
+        { title: "Hotels & resorts", description: "Reach a wider travel audience through creators already trusted by the traveller segment you want more of." },
       ],
       faqs: [
         { q: "Do you pay creators, or do I?", a: "Creator fees or gifting are typically paid directly by you; we manage the coordination and can advise on typical rates." },
@@ -275,6 +381,8 @@ export const socialMediaHub: HubPage = {
         { q: "How do you measure whether it worked?", a: "Reach, engagement and, where trackable, referral clicks, promo code use or direct bookings." },
         { q: "Do you write the content, or does the creator?", a: "Creators produce their own authentic content within an agreed brief — that authenticity is the point." },
         { q: "Can I combine this with paid ads?", a: "Yes — creator content often performs well as paid ad creative when usage rights are agreed upfront." },
+        { q: "Do you work with creators for businesses on Koh Samui or Koh Tao?", a: "Yes — we shortlist creators relevant to whichever island your business is on, matching audience fit rather than defaulting to a Koh Phangan-only list." },
+        { q: "How long does a typical collaboration take to arrange?", a: "Usually a few weeks from shortlist to posted content, depending on creator availability and how much lead time the campaign needs." },
       ],
       related: [
         { label: "Content Creation", href: "/social-media/content-creation", description: "In-house content alongside creator collaborations." },
@@ -290,15 +398,23 @@ export const socialMediaHub: HubPage = {
       h1: "Monthly Social Media Packages on Koh Phangan",
       primaryKeyword: "social media management Koh Phangan",
       secondaryTopics: ["monthly content", "social media packages"],
-      metaTitle: "Social Media Management Koh Phangan | Monthly Packages",
+      metaTitle: "Social Media Management Koh Phangan",
       metaDescription:
-        "Monthly social media packages for Koh Phangan businesses — planning, production, publishing and optimization in one retainer.",
+        "Monthly social media packages for Koh Phangan, Koh Samui and Koh Tao businesses — planning, production, publishing and optimization bundled into one retainer.",
       directAnswer:
-        "Our monthly social media packages combine content planning, production, publishing and optimization into one fixed retainer — the simplest way for a Koh Phangan business to keep a consistent, professional social presence without managing multiple vendors.",
+        "Our monthly social media packages combine content planning, production, publishing and optimization into one fixed retainer — the simplest way for a business on Koh Phangan, Koh Samui or Koh Tao to keep a consistent, professional social presence going strong.",
       heroSupport:
         "Planning, production, publishing and optimization bundled into one predictable monthly retainer.",
       heroImage: images.social,
       heroImageAlt: "Monthly content calendar laid out for review",
+      overview: [
+        "Piecing social media together from separate services — a photographer here, someone posting there, nobody really responsible for the whole thing — is how accounts end up inconsistent. Monthly packages exist to remove that gap: one team, one fixed monthly rate, and planning, production, publishing and optimization run as a single coordinated process instead of scattered pieces.",
+        "Each month starts with a content calendar tied to your goals and seasonality, not a fixed template repeated indefinitely. Production happens as part of the package rather than as a separate add-on project, so there's no gap between planning content and actually having the assets to post it.",
+        "Because the same team plans, produces and reviews performance, each month's results genuinely inform the next month's plan — what got engagement, what didn't, what's worth doing more of — rather than the account running on autopilot once it's set up.",
+        "Packages work the same way for businesses on Koh Samui and Koh Tao as for Koh Phangan — the retainer structure doesn't change, though shoot days on the other islands involve boat travel from our base and a travel fee factored into the package scope.",
+        "The starter tier suits a business that mainly needs consistency — a steady posting rhythm and professional-looking feed without a heavy production schedule. The growth tier suits a business that wants social media actively contributing to bookings and inquiries, with more frequent production, Reels and community management included. Most clients can move between tiers as the business's needs change, without renegotiating the whole arrangement from scratch.",
+      ],
+      industrySlugs: ["restaurants-food", "villas-real-estate", "hotels-resorts", "brands-lifestyle"],
       scope: [
         { title: "Monthly planning", description: "A content calendar agreed each month, tied to your goals and seasonality." },
         { title: "Production", description: "Photo and video content produced as part of the package." },
@@ -310,6 +426,7 @@ export const socialMediaHub: HubPage = {
         { title: "Nothing falls through the cracks", description: "Planning, production and posting run as one coordinated process." },
         { title: "Improves over time", description: "Each month's results inform the next month's content decisions." },
         { title: "One point of contact", description: "A single team accountable for the whole social presence." },
+        { title: "Scales as you grow", description: "Move between package tiers as your business's needs and budget change, without starting the relationship over." },
       ],
       process: [
         { title: "Onboarding", description: "Brand review, goal-setting and first month's content plan." },
@@ -320,11 +437,14 @@ export const socialMediaHub: HubPage = {
       pricing: [
         { service: "Starter package", range: "THB 18,000 – 28,000 / month", note: "Management + light content production" },
         { service: "Growth package", range: "THB 30,000 – 55,000 / month", note: "Full production, Reels, community management" },
+        { service: "Multi-property add-on", range: "THB 8,000 – 18,000 / month", note: "Indicative — per additional property or location managed" },
       ],
       useCases: [
         { title: "Restaurants & hospitality", description: "A consistent, professional presence without an in-house team." },
         { title: "Villas & property managers", description: "Ongoing content across multiple properties or listings." },
         { title: "Growing local brands", description: "Businesses ready to move from ad hoc posting to a real strategy." },
+        { title: "Multi-property operators", description: "One coordinated social presence across several listings or locations, rather than each one run separately." },
+        { title: "Seasonal or event-driven businesses", description: "A package that flexes production and posting cadence around known busy and quiet periods through the year." },
       ],
       faqs: [
         { q: "What's included in the base package vs. add-ons?", a: "Base packages cover planning, publishing and community management; content production volume and Reels scale with the package tier." },
@@ -333,6 +453,8 @@ export const socialMediaHub: HubPage = {
         { q: "Does this include paid advertising?", a: "No — advertising is a separate service, though we coordinate closely if you run both." },
         { q: "How do you report results?", a: "A monthly report covering growth, engagement and content performance, in plain language." },
         { q: "What if I already have some content?", a: "We're happy to work with existing assets and fill gaps with new production." },
+        { q: "Are packages available for businesses on Koh Samui or Koh Tao?", a: "Yes — the retainer structure and pricing tiers are the same; shoot days on either island are scheduled around boat travel from Koh Phangan with a travel fee added to the package." },
+        { q: "Who do I talk to day to day?", a: "One point of contact coordinates planning, production and reporting, so you're not juggling separate conversations for content and posting." },
       ],
       related: [
         { label: "Instagram Management", href: "/social-media/instagram-management", description: "The core service inside every package." },

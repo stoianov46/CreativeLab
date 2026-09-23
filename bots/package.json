@@ -7,7 +7,11 @@
   "scripts": {
     "telegram": "tsx watch telegram/index.ts",
     "whatsapp": "tsx watch whatsapp/index.ts",
-    "typecheck": "tsc --noEmit"
+    "start:telegram": "tsx telegram/index.ts",
+    "start:whatsapp": "tsx whatsapp/index.ts",
+    "test": "SESSION_STORE=memory node --import tsx --test tests/*.test.ts",
+    "typecheck": "tsc --noEmit",
+    "check": "npm run typecheck && npm run test"
   },
   "dependencies": {
     "dotenv": "^16.4.5",

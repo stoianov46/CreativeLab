@@ -1,17 +1,28 @@
 import { Container } from "@/components/ui/Container";
 import { Button } from "@/components/ui/Button";
-import { MAIN_CTAS } from "@/content/site";
+import { BotEntry } from "@/components/blocks/BotEntry";
+import type { BotContext } from "@/lib/integrations";
+import type { Locale } from "@/content/i18n";
+import { getUi } from "@/content/translations";
 
 export function CtaBanner({
   title,
   description,
-  ctaLabel = MAIN_CTAS.startProject,
+  ctaLabel,
   ctaHref = "/contact",
+  serviceContext,
+  botContext,
+  locale,
 }: {
   title: string;
   description?: string;
   ctaLabel?: string;
   ctaHref?: string;
+  /** Human-readable service name for the pre-filled chat message. */
+  serviceContext?: string;
+  /** Preselects service/location in the chat bots. */
+  botContext?: BotContext;
+  locale: Locale;
 }) {
   return (
     <section className="bg-inverse py-16 text-text-inverse lg:py-24">
@@ -26,9 +37,12 @@ export function CtaBanner({
             </p>
           )}
         </div>
-        <Button href={ctaHref} variant="primary" className="shrink-0">
-          {ctaLabel}
-        </Button>
+        <div className="flex shrink-0 flex-col items-start gap-4">
+          <Button href={ctaHref} variant="primary">
+            {ctaLabel ?? getUi(locale).cta.startProject}
+          </Button>
+          <BotEntry serviceContext={serviceContext} context={botContext} tone="dark" locale={locale} />
+        </div>
       </Container>
     </section>
   );

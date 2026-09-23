@@ -1,0 +1,165 @@
+{
+  "navLabel": "Seo",
+  "h1": "Seo",
+  "primaryKeyword": "SEO agency Koh Phangan",
+  "secondaryTopics": [
+    "search engine optimization",
+    "local SEO",
+    "technical SEO",
+    "AI search / GEO",
+    "content strategy"
+  ],
+  "metaTitle": "Seo",
+  "metaDescription": "SEO for businesses on Koh Phangan, Koh Samui and Koh Tao — on-page, technical, local search and AI search optimization in one strategy.",
+  "directAnswer": "CreativeLAB is an SEO agency working with businesses on Koh Phangan, Koh Samui and Koh Tao. We cover the full discipline — on-page content, technical SEO, local search visibility and AI search (GEO) optimization — as one coordinated strategy, not a single narrow service sold on its own.",
+  "heroSupport": "On-page, technical, local and AI search optimization for businesses that need to be found — by search engines and by AI answer engines.",
+  "heroImageAlt": "SEO strategy and search performance reviewed on a laptop screen",
+  "overview": [
+    "SEO is often sold as one narrow thing — a monthly report, a handful of blog posts, or a technical audit nobody implements. We treat it as a full discipline made up of several parts that only really work together: what your pages say and how they're structured, whether search engines can technically crawl and understand your site, whether your business shows up correctly in local and Maps search, and — increasingly — whether AI answer engines like ChatGPT, Perplexity and Google's AI Overviews can accurately describe and recommend your business.",
+    "This is the general SEO page for CreativeLAB's work across Koh Phangan, Koh Samui and Koh Tao — it's the only page on the site dedicated to SEO strategy as a whole. For local search and Google Business Profile specifically, see our Local SEO service. For the technical foundations of a website, see Technical SEO. For AI search visibility specifically, see AI Search / GEO. Each of those pages goes deeper into its own part of the discipline; this page explains how they fit together and where to start.",
+    "Island businesses face a particular SEO challenge: search volume for any single keyword is modest compared to a major city, but competition for visibility is often surprisingly high, because most local businesses share the same few directories, the same generic descriptions, and often no real content strategy at all. That means a clearly differentiated, well-structured site can move up faster here than in a saturated market — but it also means generic, templated content barely moves the needle.",
+    "We start every SEO engagement with a strategy phase — understanding what your customers are actually searching for, on which of the three islands, and at what stage of their decision — before touching a single page. From there, the work splits across on-page content, technical fixes, local search presence and, where relevant, AI search structuring, prioritized by what will actually move a specific business forward rather than a generic checklist."
+  ],
+  "scope": [
+    {
+      "title": "SEO strategy",
+      "description": "Keyword and intent research specific to your business and the islands you serve, before any content or technical work begins."
+    },
+    {
+      "title": "On-page content",
+      "description": "Page structure, headings and copy written around real search intent, not keyword-stuffed filler."
+    },
+    {
+      "title": "Technical SEO",
+      "description": "Crawlability, indexing, structured data and Core Web Vitals — the foundation everything else depends on."
+    },
+    {
+      "title": "Local SEO",
+      "description": "Google Business Profile, Maps visibility and local citations for businesses that depend on nearby or on-island search."
+    },
+    {
+      "title": "Content strategy",
+      "description": "A content plan that supports commercial pages rather than a blog running independently of the rest of the site."
+    },
+    {
+      "title": "AI search / GEO",
+      "description": "Structuring content so AI answer engines can understand, trust and cite your business alongside traditional search."
+    }
+  ],
+  "benefits": [
+    {
+      "title": "One strategy, not disconnected fixes",
+      "description": "On-page, technical, local and AI search work planned together instead of purchased as unrelated one-off tasks."
+    },
+    {
+      "title": "Built for how islands actually get searched",
+      "description": "Strategy accounts for the specific, often lower-volume but high-intent way people search for businesses on Koh Phangan, Koh Samui and Koh Tao."
+    },
+    {
+      "title": "Future-facing, not just Google-facing",
+      "description": "AI search structuring is built alongside traditional SEO, not treated as a separate, optional add-on."
+    },
+    {
+      "title": "Grounded in real technical work",
+      "description": "Fixes are implemented, not just recommended in a report you have to hand to someone else."
+    }
+  ],
+  "process": [
+    {
+      "title": "Audit & strategy",
+      "description": "Review current visibility, technical health and content, and define a prioritized plan."
+    },
+    {
+      "title": "Foundation fixes",
+      "description": "Technical SEO and structural issues addressed first, since they affect everything built on top."
+    },
+    {
+      "title": "Content & local presence",
+      "description": "On-page content, local SEO and structured data implemented against the plan."
+    },
+    {
+      "title": "Measure & refine",
+      "description": "Ongoing tracking of visibility and rankings, with the plan adjusted as results come in."
+    }
+  ],
+  "pricing": [
+    {
+      "service": "SEO strategy & audit",
+      "range": "THB 12,000 – 25,000",
+      "note": "One-time — full-site review with a prioritized action plan"
+    },
+    {
+      "service": "Ongoing SEO management",
+      "range": "THB 15,000 – 40,000 / month",
+      "note": "Indicative — content, technical and local SEO work combined"
+    },
+    {
+      "service": "AI search optimization implementation",
+      "range": "THB 15,000 – 35,000",
+      "note": "Content and schema changes across key pages"
+    }
+  ],
+  "useCases": [
+    {
+      "title": "Businesses with an underperforming website",
+      "description": "A site that looks fine but isn't showing up for the searches that actually matter."
+    },
+    {
+      "title": "Multi-island businesses",
+      "description": "Companies that need to be found separately on Koh Phangan, Koh Samui and Koh Tao search results."
+    },
+    {
+      "title": "Established brands investing long-term",
+      "description": "Businesses adding AI search visibility on top of an existing SEO foundation."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is this different from the Local SEO, Technical SEO and AI Search pages?",
+      "a": "Yes — this is the only general SEO strategy page on the site, covering how those pieces fit together. Local SEO, Technical SEO and AI Search / GEO are each their own detailed service page for that specific part of the work."
+    },
+    {
+      "q": "Do I need all of on-page, technical, local and AI search work, or can I start with one part?",
+      "a": "You can start with one — most clients begin with a technical and content audit, then expand into local or AI search work once the foundation is solid."
+    },
+    {
+      "q": "How long does SEO take to show results?",
+      "a": "Technical fixes can improve crawlability quickly; meaningful ranking movement typically builds over 1–3 months and compounds from there."
+    },
+    {
+      "q": "Do you write the content, or just advise on strategy?",
+      "a": "Both — we write and implement the on-page content and technical changes, not just hand over recommendations."
+    },
+    {
+      "q": "What is AI search / GEO, and do I actually need it?",
+      "a": "It's structuring your content so AI answer engines like ChatGPT and Google's AI Overviews can accurately describe and cite your business. It's increasingly relevant alongside traditional SEO, not instead of it, for any business relying on being found online."
+    },
+    {
+      "q": "Can you improve SEO for a business operating across more than one island?",
+      "a": "Yes — strategy and content are built to represent each island's presence distinctly rather than treating the whole region as one generic location."
+    },
+    {
+      "q": "Do you guarantee rankings?",
+      "a": "No — we never fabricate guarantees or invented ranking promises; we implement the strategy and technical work known to support visibility and report honestly on progress."
+    },
+    {
+      "q": "How is SEO reported?",
+      "a": "Regular reporting on visibility, rankings where trackable, and the specific work completed each period, in plain language."
+    }
+  ],
+  "related": [
+    {
+      "label": "Local SEO",
+      "description": "Google Business Profile and Maps visibility for on-island and nearby search."
+    },
+    {
+      "label": "Technical SEO",
+      "description": "The crawlability, indexing and Core Web Vitals foundation SEO depends on."
+    },
+    {
+      "label": "AI Search / GEO",
+      "description": "Structuring content to be understood and cited by AI answer engines."
+    }
+  ],
+  "finalCtaLabel": "Start a Project"
+}

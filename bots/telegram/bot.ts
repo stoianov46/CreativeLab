@@ -1,222 +1,193 @@
 /**
- * Telegram adapter: renders shared/flow.ts's state machine as inline
- * keyboards and plain-text prompts, using grammY. Session storage is an
- * in-memory Map keyed by chat id — fine for a single always-on process;
- * swap for Redis/a KV store before running more than one instance (the
- * in-memory store would silently lose sessions on restart or with >1
- * replica behind a load balancer).
+ * Telegram adapter (grammY). Thin: turns updates into flow `Input`s, runs
+ * them through shared/runtime.ts, draws the resulting `View` as an inline
+ * keyboard. No flow logic lives here.
+ *
+ * Private chats only — the bot also sits in the staff chat to post leads and
+ * must never start an intake conversation there.
  */
-import { Bot, InlineKeyboard, type Context } from 'grammy';
-import {
-  advance,
-  createInitialState,
-  editStep,
-  finishAttachments,
-  formatSummary,
-  getOptionsFor,
-  getPromptText,
-  goBack,
-  isAttachmentsStep,
-  isChoiceStep,
-  isOptional,
-  isReadyToSubmit,
-  addAttachment,
-  buildLead,
-  restart,
-  skip,
-  preselectService,
-} from '../shared/flow.js';
-import { getBotDictionary } from '../shared/i18n.js';
-import { notifyStaff } from '../shared/notify.js';
-import type { FlowState, StepId } from '../shared/types.js';
+import { Bot, InlineKeyboard, Keyboard, type Context } from 'grammy';
+import type { Button, FileCandidate, Input, View } from '../shared/flow.js';
+import { processInput, type RuntimeDeps } from '../shared/runtime.js';
+import { KeyedQueue, RateLimiter, redact } from '../shared/guards.js';
+import { getBotDictionary, t } from '../shared/i18n.js';
+import { contactEmail, rateLimitWindowMs } from '../shared/config.js';
+import { LOCALES, type UserProfile } from '../shared/types.js';
 
-const sessions = new Map<number, FlowState>();
-
-function getSession(chatId: number): FlowState {
-  const existing = sessions.get(chatId);
-  if (existing) return existing;
-  const fresh = createInitialState();
-  sessions.set(chatId, fresh);
-  return fresh;
+export interface TelegramBotDeps extends RuntimeDeps {
+  limiter?: RateLimiter;
 }
 
-function setSession(chatId: number, state: FlowState): void {
-  sessions.set(chatId, state);
-}
+const MAX_TEXT = 4096;
 
-const EDITABLE_STEPS: StepId[] = ['service', 'location', 'projectType', 'description', 'budget', 'timeline', 'contactName', 'contactDetail'];
-
-function choiceKeyboard(state: FlowState): InlineKeyboard {
+function keyboard(rows: Button[][]): InlineKeyboard {
   const kb = new InlineKeyboard();
-  for (const opt of getOptionsFor(state)) {
-    kb.text(opt.label, `choice:${opt.value}`).row();
-  }
-  if (isOptional(state.step)) {
-    const dict = getBotDictionary(state.language ?? 'en');
-    kb.text(dict.skip, 'skip').row();
-  }
-  if (state.step !== 'language') {
-    const dict = getBotDictionary(state.language ?? 'en');
-    kb.text(`← ${dict.editAnswer}`, 'back');
-  }
-  return kb;
-}
-
-function textStepKeyboard(state: FlowState): InlineKeyboard | undefined {
-  if (!isOptional(state.step)) return undefined;
-  const dict = getBotDictionary(state.language ?? 'en');
-  return new InlineKeyboard().text(dict.skip, 'skip');
-}
-
-function attachmentsKeyboard(state: FlowState): InlineKeyboard {
-  const dict = getBotDictionary(state.language ?? 'en');
-  return new InlineKeyboard().text(dict.doneWithAttachments, 'attachments:done');
-}
-
-function reviewKeyboard(state: FlowState): InlineKeyboard {
-  const dict = getBotDictionary(state.language ?? 'en');
-  const kb = new InlineKeyboard();
-  kb.text(dict.confirmSubmit, 'review:submit').row();
-  for (const step of EDITABLE_STEPS) {
-    kb.text(`✎ ${labelFor(step, dict)}`, `edit:${step}`).row();
-  }
-  kb.text(dict.restart, 'review:restart');
-  return kb;
-}
-
-function labelFor(step: StepId, dict: ReturnType<typeof getBotDictionary>): string {
-  switch (step) {
-    case 'service':
-      return dict.reviewService;
-    case 'location':
-      return dict.reviewLocation;
-    case 'projectType':
-      return dict.reviewProjectType;
-    case 'description':
-      return dict.reviewDescription;
-    case 'budget':
-      return dict.reviewBudget;
-    case 'timeline':
-      return dict.reviewTimeline;
-    case 'contactName':
-      return dict.reviewName;
-    case 'contactDetail':
-      return dict.reviewContact;
-    default:
-      return step;
-  }
-}
-
-async function renderStep(ctx: Context, state: FlowState): Promise<void> {
-  if (state.step === 'review') {
-    await ctx.reply(`${getPromptText(state)}\n\n${formatSummary(state)}`, { reply_markup: reviewKeyboard(state) });
-    return;
-  }
-  if (isAttachmentsStep(state.step)) {
-    await ctx.reply(getPromptText(state), { reply_markup: attachmentsKeyboard(state) });
-    return;
-  }
-  if (isChoiceStep(state.step)) {
-    await ctx.reply(getPromptText(state), { reply_markup: choiceKeyboard(state) });
-    return;
-  }
-  await ctx.reply(getPromptText(state), { reply_markup: textStepKeyboard(state) });
-}
-
-export function createTelegramBot(token: string): Bot {
-  const bot = new Bot(token);
-
-  bot.command('start', async (ctx) => {
-    const chatId = ctx.chat.id;
-    const payload = ctx.match?.toString().trim();
-    let state = createInitialState();
-
-    // Deep link from a service page: t.me/<bot>?start=service_<slug>
-    if (payload?.startsWith('service_')) {
-      state = preselectService(state, payload.slice('service_'.length));
+  for (const row of rows) {
+    for (const b of row) {
+      if (b.kind === 'url') kb.url(b.label, b.url);
+      else kb.text(b.label, b.id);
     }
+    kb.row();
+  }
+  return kb;
+}
 
-    setSession(chatId, state);
-    await renderStep(ctx, state);
+function profileOf(ctx: Context): UserProfile {
+  const from = ctx.from;
+  if (!from) return {};
+  const displayName = [from.first_name, from.last_name].filter(Boolean).join(' ').trim() || undefined;
+  return { displayName, telegramUsername: from.username, telegramUserId: from.id };
+}
+
+/** Telegram → flow file candidate. Sizes come from Telegram's own `file_size`. */
+export function fileFromMessage(msg: NonNullable<Context['message']>): FileCandidate | undefined {
+  if (msg.photo?.length) {
+    const largest = msg.photo[msg.photo.length - 1];
+    return { id: largest.file_id, kind: 'photo', mimeType: 'image/jpeg', sizeBytes: largest.file_size };
+  }
+  if (msg.document) {
+    const d = msg.document;
+    return { id: d.file_id, kind: 'document', mimeType: d.mime_type, sizeBytes: d.file_size, fileName: d.file_name };
+  }
+  if (msg.voice) return { id: msg.voice.file_id, kind: 'voice', mimeType: msg.voice.mime_type, sizeBytes: msg.voice.file_size };
+  if (msg.audio) {
+    const a = msg.audio;
+    return { id: a.file_id, kind: 'audio', mimeType: a.mime_type, sizeBytes: a.file_size, fileName: a.file_name };
+  }
+  if (msg.video) return { id: msg.video.file_id, kind: 'video', mimeType: msg.video.mime_type, sizeBytes: msg.video.file_size };
+  if (msg.video_note) return { id: msg.video_note.file_id, kind: 'video', mimeType: 'video/mp4', sizeBytes: msg.video_note.file_size };
+  if (msg.sticker || msg.animation) return { id: 'unsupported', kind: 'unsupported' };
+  return undefined;
+}
+
+export function createTelegramBot(token: string, deps: TelegramBotDeps): Bot {
+  const bot = new Bot(token);
+  const queue = new KeyedQueue();
+  const limiter = deps.limiter ?? new RateLimiter();
+  const lastWarned = new Map<number, number>();
+  /** chats currently showing our "share phone" reply keyboard */
+  const replyKeyboardShown = new Set<number>();
+
+  // Private chats only.
+  bot.use(async (ctx, next) => {
+    if (ctx.chat?.type !== 'private') return;
+    await next();
   });
 
-  bot.on('callback_query:data', async (ctx) => {
+  // Per-user rate limit.
+  bot.use(async (ctx, next) => {
+    const userId = ctx.from?.id;
+    if (userId == null) return;
+    if (limiter.allow(String(userId))) return next();
+    const lang = LOCALES.find((l) => ctx.from?.language_code?.startsWith(l)) ?? 'en';
+    const text = getBotDictionary(lang).rateLimited;
+    if (ctx.callbackQuery) {
+      await ctx.answerCallbackQuery({ text }).catch(() => undefined);
+      return;
+    }
+    const now = Date.now();
+    if (now - (lastWarned.get(userId) ?? 0) > rateLimitWindowMs()) {
+      lastWarned.set(userId, now);
+      await ctx.reply(text).catch(() => undefined);
+    }
+  });
+
+  async function show(ctx: Context, chatId: number, view: View): Promise<void> {
+    const text = view.text.length > MAX_TEXT ? `${view.text.slice(0, MAX_TEXT - 1)}…` : view.text;
+    const markup = keyboard(view.rows);
+
+    if (view.photoUrl) {
+      await ctx.api.sendChatAction(chatId, 'upload_photo').catch(() => undefined);
+      // Optional example photo; a missing/broken image must never block the step.
+      await ctx.api.sendPhoto(chatId, view.photoUrl).catch(() => undefined);
+    }
+
+    // Edit the tapped message in place when possible (fewer bubbles, feels app-like).
+    const cbMsg = ctx.callbackQuery?.message;
+    const canEdit = !view.photoUrl && !view.requestPhone && !replyKeyboardShown.has(chatId) && cbMsg && 'text' in cbMsg && cbMsg.text;
+    if (canEdit) {
+      try {
+        await ctx.api.editMessageText(chatId, cbMsg.message_id, text, { parse_mode: 'HTML', reply_markup: markup, link_preview_options: { is_disabled: true } });
+        return;
+      } catch {
+        // "message is not modified", too old, etc. — fall through and send a new one.
+      }
+    } else if (cbMsg) {
+      await ctx.api.editMessageReplyMarkup(chatId, cbMsg.message_id).catch(() => undefined);
+    }
+
+    if (replyKeyboardShown.has(chatId) && !view.requestPhone) {
+      // Remove the "share phone" reply keyboard, then attach the inline keyboard to the same message.
+      const sent = await ctx.api.sendMessage(chatId, text, { parse_mode: 'HTML', reply_markup: { remove_keyboard: true }, link_preview_options: { is_disabled: true } });
+      replyKeyboardShown.delete(chatId);
+      await ctx.api.editMessageReplyMarkup(chatId, sent.message_id, { reply_markup: markup }).catch(() => undefined);
+      return;
+    }
+
+    await ctx.api.sendMessage(chatId, text, { parse_mode: 'HTML', reply_markup: markup, link_preview_options: { is_disabled: true } });
+
+    if (view.requestPhone && !replyKeyboardShown.has(chatId)) {
+      const d = getBotDictionary(view.locale);
+      await ctx.api.sendMessage(chatId, d.sharePhoneHint, {
+        reply_markup: new Keyboard().requestContact(d.sharePhone).resized().oneTime(),
+      });
+      replyKeyboardShown.add(chatId);
+    }
+  }
+
+  async function dispatch(ctx: Context, input: Input): Promise<void> {
     const chatId = ctx.chat?.id;
     if (chatId == null) return;
-    await ctx.answerCallbackQuery();
-
-    let state = getSession(chatId);
-    const data = ctx.callbackQuery.data;
-
-    if (data === 'back') {
-      state = goBack(state);
-    } else if (data === 'skip') {
-      state = skip(state);
-    } else if (data === 'attachments:done') {
-      state = finishAttachments(state);
-    } else if (data === 'review:restart') {
-      state = restart(state);
-    } else if (data === 'review:submit') {
-      if (isReadyToSubmit(state)) {
-        const lead = buildLead(state, 'telegram');
-        await notifyStaff(lead);
-        state = { ...state, step: 'submitted' };
+    await queue.run(String(chatId), async () => {
+      await ctx.api.sendChatAction(chatId, 'typing').catch(() => undefined);
+      try {
+        const { view } = await processInput(deps, 'telegram', `tg:${chatId}`, input, profileOf(ctx), async () => {
+          await ctx.api.sendChatAction(chatId, 'typing').catch(() => undefined);
+        });
+        await show(ctx, chatId, view);
+      } catch (err) {
+        console.error(`[telegram] update failed for chat ${redact(chatId)}:`, (err as Error).message);
+        const lang = LOCALES.find((l) => ctx.from?.language_code?.startsWith(l)) ?? 'en';
+        await ctx.reply(t(lang, 'errorGeneric', { email: contactEmail() })).catch(() => undefined);
       }
-    } else if (data.startsWith('edit:')) {
-      state = editStep(state, data.slice('edit:'.length) as StepId);
-    } else if (data.startsWith('choice:')) {
-      const result = advance(state, data.slice('choice:'.length), { returnTo: state.step === 'review' ? 'review' : undefined });
-      if (!result.accepted) {
-        const dict = getBotDictionary(state.language ?? 'en');
-        await ctx.reply(dict.invalidChoice);
-        return;
-      }
-      state = result.state;
-    }
-
-    setSession(chatId, state);
-    await renderStep(ctx, state);
-  });
-
-  bot.on('message:text', async (ctx) => {
-    const chatId = ctx.chat.id;
-    let state = getSession(chatId);
-
-    if (isChoiceStep(state.step) || state.step === 'review' || isAttachmentsStep(state.step) || state.step === 'submitted') {
-      // These steps expect a button tap, not free text — gently re-prompt.
-      await renderStep(ctx, state);
-      return;
-    }
-
-    const result = advance(state, ctx.message.text);
-    state = result.accepted ? result.state : state;
-    setSession(chatId, state);
-    await renderStep(ctx, state);
-  });
-
-  bot.on(['message:photo', 'message:document'], async (ctx) => {
-    const chatId = ctx.chat.id;
-    let state = getSession(chatId);
-
-    if (!isAttachmentsStep(state.step)) return;
-
-    const fileId = ctx.message.photo ? ctx.message.photo[ctx.message.photo.length - 1].file_id : ctx.message.document?.file_id;
-    const dict = getBotDictionary(state.language ?? 'en');
-
-    if (!fileId) {
-      await ctx.reply(dict.attachmentRejected);
-      return;
-    }
-
-    const { state: nextState, ok } = addAttachment(state, {
-      id: fileId,
-      kind: ctx.message.photo ? 'photo' : 'document',
-      channel: 'telegram',
     });
-    state = nextState;
-    setSession(chatId, state);
-    await ctx.reply(ok ? dict.attachmentSaved : dict.attachmentRejected, { reply_markup: attachmentsKeyboard(state) });
+  }
+
+  bot.command('start', (ctx) => dispatch(ctx, { type: 'start', payload: ctx.match?.toString().trim() || undefined }));
+  bot.command('language', (ctx) => dispatch(ctx, { type: 'action', id: 'nav:lang' }));
+  bot.command('back', (ctx) => dispatch(ctx, { type: 'action', id: 'nav:back' }));
+  bot.command('restart', (ctx) => dispatch(ctx, { type: 'action', id: 'nav:restart' }));
+
+  bot.on('callback_query:data', async (ctx) => {
+    await ctx.answerCallbackQuery().catch(() => undefined);
+    await dispatch(ctx, { type: 'action', id: ctx.callbackQuery.data });
+  });
+
+  bot.on('message:contact', (ctx) => dispatch(ctx, { type: 'contact', phone: ctx.message.contact.phone_number }));
+
+  bot.on('message:text', (ctx) => dispatch(ctx, { type: 'text', text: ctx.message.text }));
+
+  bot.on('message', async (ctx) => {
+    const file = fileFromMessage(ctx.message);
+    // Anything else (location, poll, …) is "unknown input" → re-prompt the current step.
+    await dispatch(ctx, file ? { type: 'file', file } : { type: 'text', text: '' });
   });
 
   return bot;
+}
+
+/** Localised command menu (shown by Telegram next to the input field). */
+export async function registerCommands(bot: Bot): Promise<void> {
+  for (const lang of LOCALES) {
+    const d = getBotDictionary(lang);
+    const commands = [
+      { command: 'start', description: d.cmdStart },
+      { command: 'language', description: d.cmdLanguage },
+      { command: 'back', description: d.cmdBack },
+      { command: 'restart', description: d.cmdRestart },
+    ];
+    await bot.api.setMyCommands(commands, lang === 'en' ? {} : { language_code: lang }).catch((err) => {
+      console.error(`[telegram] setMyCommands(${lang}) failed:`, (err as Error).message);
+    });
+  }
 }

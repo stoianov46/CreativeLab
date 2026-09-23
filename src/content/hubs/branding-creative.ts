@@ -10,17 +10,50 @@ export const brandingCreativeHub: HubPage = {
   primaryKeyword: "branding agency Koh Phangan",
   metaTitle: "Branding Agency Koh Phangan | Identity & Design",
   metaDescription:
-    "Brand identity, graphic design, creative direction and menu design for Koh Phangan businesses — original, editorial, built to last.",
+    "Brand identity, graphic design, creative direction and menu design for businesses on Koh Phangan, Koh Samui and Koh Tao — original, editorial, built to last.",
   directAnswer:
-    "CreativeLAB builds brand identities and creative direction for Koh Phangan businesses — strategy, visual identity, graphic design and menu design — original work built to differentiate you from generic template-based competitors.",
+    "CreativeLAB builds brand identities and creative direction for businesses across Koh Phangan, Koh Samui and Koh Tao — strategy, visual identity, graphic design and menu design — original work built to differentiate you from generic template-based competitors, then applied consistently across your website, social media and print materials.",
   heroSupport:
-    "Brand identity, graphic design, creative direction and menu design, built as a coherent system.",
+    "Brand identity, graphic design, creative direction and menu design for businesses on Koh Phangan, Koh Samui and Koh Tao, built as a coherent system.",
   heroImage: images.studio,
   heroImageAlt: "Brand identity materials laid out in a design studio",
   editorialTitle: "A brand is a system, not a logo",
   editorialBody: [
     "Many island businesses have a logo but not a brand — inconsistent colors, fonts and tone across their website, social media and printed materials that quietly undermine trust.",
     "We build brand identity as a full system: strategy, visual identity and clear applications across every channel, then apply it consistently through our own web, social and print work so it actually gets used, not just delivered as a PDF.",
+    "That system travels with a business wherever it operates. A villa brand identity built for a Koh Phangan property owner works the same way if that owner also has a listing on Koh Samui; a restaurant group expanding from one island to another needs the same visual language applied consistently at the new location, not a second identity invented from scratch.",
+    "This group of services covers the identity itself and everything built on top of it — the campaign assets, signage and packaging that come from Graphic Design, the multi-asset oversight that comes from Creative Direction, and the specific case of Menu Design for food and beverage brands. Each one assumes and reinforces the same underlying system rather than treating design as a series of disconnected requests.",
+    "We also work as an extension of an in-house team rather than only as an outside vendor delivering a finished file. A business with someone handling day-to-day social posting or signage requests can lean on us for the strategic and structural design work — the identity, the guidelines, the harder campaign pieces — while routine production stays in-house, guided by the system we've built together.",
+    "The services below can be commissioned individually or as a connected set. A new business might start with brand identity and menu design together; an established one might only need ongoing creative direction to keep an existing identity consistent across a growing volume of campaigns. We'll scope whichever combination actually matches where the business is right now, rather than defaulting to the largest package available regardless of what the project genuinely calls for.",
+  ],
+  sections: [
+    {
+      title: "Why a template logo isn't a brand",
+      body: [
+        "Plenty of island businesses have a logo pulled from a template site or generated quickly online. It's not that these logos always look bad — it's that they're rarely built with a reason behind any decision, which means there's nothing to reference when a new sign, menu or social template needs designing later. Every new asset ends up being a fresh guess rather than an application of an existing system.",
+        "A real identity starts with a handful of decisions made deliberately — what the brand needs to communicate, to whom, and how that translates into a mark, a palette and a typographic voice — so that every later design decision has something to check itself against. That's the difference between a logo and a brand: one is a picture, the other is a set of rules that make every future asset faster to produce and more consistent to look at.",
+        "This is also why a template identity tends to look like several other businesses nearby — the same font pairing and color combinations recur across template libraries because they're built to look acceptable in general, not to say something specific about one business. Original work built from your actual positioning doesn't have that ceiling.",
+        "We also research the direct competitive landscape before proposing any visual direction — the other villas, restaurants or wellness brands a potential customer is likely comparing you against — so the identity is differentiated against what's actually out there, not designed in isolation from the market it needs to stand out in.",
+      ],
+    },
+    {
+      title: "Consistency is a design problem before it's a discipline problem",
+      body: [
+        "Most inconsistency isn't a failure of discipline — a business owner posting on Instagram between service calls isn't going to check a style guide before every story. It's usually a failure of design: the brand system was never built with practical, repeatable applications in mind, so there was nothing quick to reach for that would have kept the output consistent.",
+        "We design brand guidelines around what a business will actually produce day to day — social templates, a menu, signage, a WhatsApp business profile — rather than a purely theoretical document that looks thorough but doesn't answer the questions that come up in practice. A guidelines document that's actually used is worth more than one that's simply comprehensive.",
+        "That's also why we build reusable templates as part of the system wherever it makes sense, rather than leaving your team to interpret a static guidelines PDF from scratch every time a new asset is needed. A template that already has the right colors, type and spacing built in removes most of the chances to get it wrong.",
+        "We also review applied work periodically rather than only at project handover — a quick check on how the identity is actually being used a few months after delivery catches small, gradual drift before it compounds into something that needs a much bigger correction later on.",
+      ],
+    },
+    {
+      title: "Original work, not a marketplace template",
+      body: [
+        "A lot of what's marketed as \"custom branding\" locally is a licensed template with the colors swapped and a new name dropped in. It's fast and it's cheap, and it's also why so many small island businesses end up looking interchangeable — the underlying structure, proportions and layout logic are identical to hundreds of other businesses using the same template elsewhere in the world.",
+        "Everything we design starts from your actual positioning and audience rather than a pre-built structure, which takes longer than customizing a template but produces something that can't be mistaken for a competitor's identity. It's a genuine investment rather than a shortcut, and we scope projects honestly around what that takes.",
+        "That doesn't mean every project needs the largest possible scope. A small business might genuinely only need a focused identity — mark, palette, type and a handful of core applications — while a hotel group with multiple properties needs a fuller system with more variants and edge cases covered. We size the work to what the business actually requires rather than upselling a bigger package than the situation calls for.",
+        "The same principle applies to timing. A business preparing for a launch has a fixed deadline that shapes the whole schedule; a business refreshing an existing identity while still trading has more room to move at a steadier pace and less appetite for disruption to what's already working day to day. We plan the project stages around whichever of those constraints is real, rather than applying one standard timeline to every brief regardless of the business behind it.",
+      ],
+    },
   ],
   faqs: [
     { q: "Do you only design logos, or full brand identities?", a: "Full brand identities — strategy, visual system and applications, not just a logo mark." },
@@ -29,6 +62,10 @@ export const brandingCreativeHub: HubPage = {
     { q: "Do you provide brand guidelines?", a: "Yes, a practical guidelines document covering logo use, color, type and tone." },
     { q: "Can you refresh an existing brand rather than starting from scratch?", a: "Yes — we regularly refine and modernize existing identities rather than replacing them entirely." },
     { q: "Do you design print materials too?", a: "Yes, through our Graphic Design service — menus, signage, packaging and campaign materials." },
+    { q: "Do you work with businesses on Koh Samui and Koh Tao, or only Koh Phangan?", a: "All three — brand and creative work is largely remote by nature, so location isn't a barrier; on-site production is the main reason we'd travel." },
+    { q: "Can you keep our brand consistent across multiple locations?", a: "Yes — that's exactly what a proper guidelines document and template system are built to support as a business expands." },
+    { q: "Do you design for both digital and print, or specialize in one?", a: "Both — brand identity, graphic design and menu design all cover digital and print applications within the same team." },
+    { q: "We already have some brand assets — can you work with what exists instead of starting over?", a: "Yes, we regularly build on an existing logo or partial identity rather than discarding usable work; the strategy phase identifies what to keep." },
   ],
   finalCtaLabel: "Start a Project",
   services: [
@@ -41,12 +78,21 @@ export const brandingCreativeHub: HubPage = {
       secondaryTopics: ["brand identity", "visual identity"],
       metaTitle: "Brand Identity Design Koh Phangan",
       metaDescription:
-        "Brand identity design for Koh Phangan businesses — strategy, visual identity and applications built as one coherent system.",
+        "Brand identity design for businesses on Koh Phangan, Koh Samui and Koh Tao — strategy, visual identity and applications built as one coherent brand system.",
       directAnswer:
-        "We design brand identities for Koh Phangan businesses — starting from strategy and positioning, through a visual identity system, to practical applications across your website, social media and print materials.",
+        "We design brand identities for businesses across Koh Phangan, Koh Samui and Koh Tao — starting from strategy and positioning, through a visual identity system, to practical applications across your website, social media and print materials, so the identity holds together wherever a customer encounters it.",
       heroSupport: "Strategy, visual identity and applications built as one coherent brand system.",
       heroImage: images.studio,
       heroImageAlt: "Brand identity design elements laid out for review",
+      overview: [
+        "Brand strategy comes before any visual work starts. We spend time understanding the business's actual positioning — what it offers, who it's for, and how it wants to be perceived against the competition it's actually up against, whether that's other Koh Phangan wellness retreats or hotel brands across all three islands. Skipping this step produces a nice-looking identity that doesn't say anything specific about the business behind it.",
+        "From that strategy, the visual identity system is developed: a mark, a color palette and a typographic voice that work together deliberately rather than being chosen for how they look in isolation. We typically present two or three distinct directions rather than a single option, so the choice reflects genuine positioning decisions rather than picking between minor variations of the same idea.",
+        "The identity is only as useful as its applications. We design how the system carries across a website, social media templates, signage and print material, so the brand looks like the same brand everywhere a customer encounters it — not a slightly different version on each channel because no one defined how it should adapt. That consistency is often the biggest visible difference between a business with a real identity and one without.",
+        "Everything is delivered with a practical guidelines document your team — or any freelancer or agency you bring in later — can actually reference: logo usage, color values, type specifications and tone of voice, written to answer real day-to-day questions rather than as a purely decorative brand book.",
+        "A brand identity project moves through defined stages — strategy, concept, refinement, delivery — with review points built in rather than an open-ended process. You'll see distinct visual directions before we develop any of them further, so the direction is agreed before the detailed design work begins.",
+        "Competitive research is part of the strategy phase too — understanding how other businesses in your category are presenting themselves locally so the identity we develop reads as distinct rather than accidentally echoing something already out there. That's a different kind of research from customer research, and we do both before any visual concepts are drafted.",
+      ],
+      industrySlugs: ["brands-lifestyle", "hotels-resorts", "wellness-retreats"],
       scope: [
         { title: "Brand strategy", description: "Positioning, tone of voice and audience definition." },
         { title: "Visual identity", description: "Logo, color palette and typography system." },
@@ -81,6 +127,8 @@ export const brandingCreativeHub: HubPage = {
         { q: "Can you also apply the brand to our existing website?", a: "Yes, through our Web Design or Redesign services." },
         { q: "How many revision rounds are included?", a: "Typically two structured rounds at the concept stage." },
         { q: "Do you trademark the logo for us?", a: "No — trademark registration should go through a qualified legal professional; we can advise on next steps." },
+        { q: "Do you design brand identities for businesses on Koh Samui or Koh Tao?", a: "Yes — strategy and design work is largely remote, so we take on identity projects across all three islands." },
+        { q: "Will the identity still work if we expand to a second island location?", a: "Yes — that's part of what a proper guidelines document is for; the same system applies wherever the business operates." },
       ],
       related: [
         { label: "Graphic Design", href: "/branding-creative/graphic-design", description: "Applying the identity across print and digital materials." },
@@ -98,12 +146,21 @@ export const brandingCreativeHub: HubPage = {
       secondaryTopics: ["print", "digital design"],
       metaTitle: "Graphic Design Koh Phangan | Print & Digital",
       metaDescription:
-        "Graphic design for Koh Phangan businesses — brand systems, campaign assets, social templates and menu design, print and digital.",
+        "Graphic design for businesses on Koh Phangan, Koh Samui and Koh Tao — brand systems, campaign assets, social templates and menu design, print and digital.",
       directAnswer:
-        "We design print and digital materials for Koh Phangan businesses — campaign assets, social media templates, signage and packaging — consistent with your brand system across every format.",
+        "We design print and digital materials for businesses across Koh Phangan, Koh Samui and Koh Tao — campaign assets, social media templates, signage and packaging — consistent with your brand system across every format, so nothing looks like it came from a different studio.",
       heroSupport: "Print and digital design consistent with your brand system, across every format you need.",
       heroImage: images.studio,
       heroImageAlt: "Graphic design layouts being reviewed",
+      overview: [
+        "Graphic design work rarely arrives as one big project — it's usually a stream of smaller, specific needs: a flyer for an event next month, a set of Instagram story templates, packaging for a new product line, signage for a shop front. We treat each of these as an application of your existing brand system rather than a one-off design exercise, so a flyer and a social template still look like they belong to the same business.",
+        "For businesses without an existing identity, we can develop one first — even a lightweight version covering color, type and a few core layout principles — so that ongoing design work has something consistent to build from instead of restarting the visual decisions for every new asset.",
+        "Templates are a deliberate part of the scope where they make sense. A set of editable social media templates or a signage system built once can be reused by your own team for months afterward, which speeds up routine content production without needing to commission a new design for every single post or notice.",
+        "We prepare print-ready files for physical materials — flyers, signage, packaging — and web-optimized files for digital use, and work with whichever local printer you already use rather than requiring you to switch. This service covers the design work; printing itself stays in your hands unless we've agreed otherwise.",
+        "Turnaround varies with the asset — a single flyer or social template is typically much faster to deliver than a coordinated set for a full campaign launch, and we'll give you a realistic estimate once we understand the brief rather than a generic promise that doesn't hold up under a real deadline.",
+        "Where a business has a steady stream of design needs rather than a single campaign, this work often pairs with our Creative Direction service on an ongoing basis, so requests are guided by one consistent point of oversight instead of being briefed and reviewed separately each time.",
+      ],
+      industrySlugs: ["events", "restaurants-food", "brands-lifestyle"],
       scope: [
         { title: "Campaign assets", description: "Design for a specific promotion, event or launch." },
         { title: "Social templates", description: "Reusable design templates for consistent social content." },
@@ -138,6 +195,8 @@ export const brandingCreativeHub: HubPage = {
         { q: "Do you handle the printing itself?", a: "We prepare print-ready files; printing is typically handled by a local printer of your choice." },
         { q: "How quickly can a single asset be turned around?", a: "Simple assets can often be delivered within a few days; larger campaign sets take longer." },
         { q: "Can this include packaging design?", a: "Yes, packaging design is part of our graphic design scope." },
+        { q: "Do you take on graphic design projects for businesses on Koh Samui or Koh Tao?", a: "Yes — briefs, reviews and file delivery are handled remotely, so location isn't a limiting factor for this service." },
+        { q: "Do you design assets that need to work across multiple languages?", a: "Yes, we can design layouts that accommodate Thai, English and other languages where your audience needs it." },
       ],
       related: [
         { label: "Branding", href: "/branding-creative/branding", description: "The identity system this design work applies." },
@@ -155,12 +214,20 @@ export const brandingCreativeHub: HubPage = {
       secondaryTopics: ["art direction", "campaign creative"],
       metaTitle: "Creative Direction Koh Phangan | Art Direction",
       metaDescription:
-        "Creative direction for Koh Phangan brands and campaigns — concept, visual language and production oversight across every asset.",
+        "Creative direction for brands and campaigns on Koh Phangan, Koh Samui and Koh Tao — concept, visual language and production oversight across every asset.",
       directAnswer:
-        "We provide creative direction for Koh Phangan brands and campaigns — developing the concept and visual language, then overseeing production across photography, video and design so every asset feels like part of one coherent campaign.",
+        "We provide creative direction for brands and campaigns across Koh Phangan, Koh Samui and Koh Tao — developing the concept and visual language, then overseeing production across photography, video and design so every asset feels like part of one coherent campaign rather than several disconnected pieces of content.",
       heroSupport: "Concept, visual language and production oversight for a coherent campaign or brand presence.",
       heroImage: images.team,
       heroImageAlt: "Creative director reviewing campaign concepts",
+      overview: [
+        "A campaign built from several separately commissioned pieces — a photographer here, a video editor there, a designer somewhere else — often shows the seams. Each contributor does competent work individually, but without one point of creative accountability, the photography, video and design end up feeling like three different projects loosely themed around the same launch.",
+        "Creative direction starts with a concept: the single idea the campaign is actually built around, developed before any camera or design software gets involved. That concept then defines the visual language — a consistent look, tone and set of reference points — that every subsequent asset is measured against, whether it's produced by our team or by external contributors you already work with.",
+        "Production oversight is where that concept gets protected in practice. We guide photo shoots, video production and design work toward the agreed direction, catching drift early rather than discovering at final delivery that one asset doesn't match the rest. This applies whether we're producing everything in-house or directing a shoot run by your own photographer or an external production team.",
+        "For businesses without a full-time creative lead, this service functions as senior creative oversight without the overhead of a permanent hire — available for a single campaign or on an ongoing basis for businesses with continuous production needs across multiple channels and, where relevant, multiple island locations.",
+        "Deliverables from the direction stage itself are practical rather than abstract — mood boards, treatments or shot lists a production team can actually work from — alongside the oversight during production and a final quality pass across everything delivered, so the campaign reads as one coherent piece of work by the time it ships to the client or goes live publicly.",
+      ],
+      industrySlugs: ["events", "brands-lifestyle", "hotels-resorts"],
       scope: [
         { title: "Concept development", description: "A clear creative idea underpinning the campaign or brand work." },
         { title: "Visual language", description: "A consistent look and feel across every asset produced." },
@@ -195,6 +262,8 @@ export const brandingCreativeHub: HubPage = {
         { q: "Is this a one-off or ongoing service?", a: "Both options are available depending on your needs." },
         { q: "What deliverables do we get from the direction itself?", a: "Creative concepts, mood boards or treatments, and oversight documentation as relevant to the project." },
         { q: "Can you direct video and photography in the same project?", a: "Yes, this is one of the most common creative direction scenarios." },
+        { q: "Can you direct a campaign shot across more than one island?", a: "Yes — we can oversee production spanning Koh Phangan, Koh Samui and Koh Tao and keep the visual language consistent across locations." },
+        { q: "Do you get involved before a shoot is booked, or only once production starts?", a: "Ideally before — concept and treatment work upfront makes the production itself far more efficient and reduces surprises on the day." },
       ],
       related: [
         { label: "Branding", href: "/branding-creative/branding", description: "The identity system creative direction builds on." },
@@ -210,14 +279,22 @@ export const brandingCreativeHub: HubPage = {
       h1: "Menu Design for Food & Beverage Brands on Koh Phangan",
       primaryKeyword: "menu design Koh Phangan",
       secondaryTopics: ["restaurant design", "food branding"],
-      metaTitle: "Menu Design Koh Phangan | Restaurant & Food Branding",
+      metaTitle: "Menu Design Koh Phangan | Food Branding",
       metaDescription:
-        "Menu design as part of a food and beverage brand identity on Koh Phangan — print and digital, built for hierarchy and brand consistency.",
+        "Menu design as part of a food and beverage brand identity on Koh Phangan, Koh Samui and Koh Tao — print and digital, built for hierarchy and consistency.",
       directAnswer:
-        "We design menus as part of a food or beverage brand's wider identity system on Koh Phangan — building the layout, typography and hierarchy to be consistent with the brand's visual identity, not as a standalone document disconnected from the rest of the business.",
+        "We design menus as part of a food or beverage brand's wider identity system for businesses on Koh Phangan, Koh Samui and Koh Tao — building the layout, typography and hierarchy to be consistent with the brand's visual identity, not as a standalone document disconnected from the rest of the business.",
       heroSupport: "Menu design built as part of your brand's wider visual identity system.",
       heroImage: images.food,
       heroImageAlt: "Menu design consistent with a restaurant brand identity",
+      overview: [
+        "A menu is one of the most frequently handled pieces of print a food or beverage business produces, and often one of the least considered from a design standpoint — a document formatted for readability alone, disconnected from the same visual identity that appears on the sign outside or the Instagram feed. That disconnect is what this service is built to fix.",
+        "We treat menu layout, typography and hierarchy as a direct application of the brand's existing identity, using the same color palette, type system and tone established elsewhere. The result is a menu that reinforces the brand every time a guest picks it up, rather than existing as an unrelated document that happens to sit on the same table.",
+        "Hierarchy matters as much as decoration — a menu still needs to guide a guest through categories, highlight what the kitchen wants to sell, and stay readable in low restaurant lighting or on a phone screen for a digital or QR version. Good brand design and good menu usability aren't in tension; we design for both at once rather than sacrificing one for the other.",
+        "Menus change more often than most other brand materials — seasonal dishes, price updates, new locations. We build the layout as a reusable structure your team (or ours, on an ongoing basis) can update without redesigning from scratch every time something on the menu changes, in both print and digital formats.",
+        "This service is most valuable once a brand identity actually exists to build from, but it doesn't require a full rebrand first — we can develop a lightweight visual direction specifically for the menu if that's all the project calls for, and expand it into a fuller identity later if the business decides to.",
+      ],
+      industrySlugs: ["restaurants-food", "hotels-resorts", "events"],
       scope: [
         { title: "Brand-consistent layout", description: "A menu that reflects the same visual identity as your other materials." },
         { title: "Typography & hierarchy", description: "Readable structure that also carries the brand's tone." },
@@ -249,9 +326,11 @@ export const brandingCreativeHub: HubPage = {
         { q: "How is this different from the Menu Design service under Food & Restaurants?", a: "This version is built as part of a wider brand identity project; the Food & Restaurants version is a standalone menu design project without a full rebrand." },
         { q: "Do you need to design our full brand identity first?", a: "Not necessarily, but the result is stronger when the menu is built alongside a defined identity." },
         { q: "Can you include food photography as well?", a: "Yes, through our Food Photography or Menu Photography services." },
-        { q: "Do you handle printing?", a: "We prepare print-ready files; printing is typically handled by a local printer of your choice." },
+        { q: "Do you handle printing?", a: "We deliver print-ready menu files (with bleed and the right paper size) plus an editable version for price updates; the printing itself is usually done by a local print shop you choose." },
         { q: "How many revision rounds are included?", a: "Typically two rounds of revisions are included." },
         { q: "Can this include a digital/QR menu version too?", a: "Yes, both print and digital formats are part of the standard scope." },
+        { q: "Do you design menus for venues on Koh Samui or Koh Tao?", a: "Yes — menu design is a design and layout service, so it's handled the same way regardless of which island the venue is on." },
+        { q: "Can you keep the menu consistent across multiple venue locations?", a: "Yes — that's a common reason to build the menu as a structured, brand-integrated template rather than a one-off document." },
       ],
       related: [
         { label: "Branding", href: "/branding-creative/branding", description: "The wider identity system this menu design supports." },

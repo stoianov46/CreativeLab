@@ -6,18 +6,26 @@ import type { ProcessStep } from "@/content/types";
 export const HOMEPAGE = {
   metaTitle: "Advertising & Creative Marketing Agency Koh Phangan | CreativeLAB",
   metaDescription:
-    "CreativeLAB is a creative advertising and marketing agency on Koh Phangan — Google & Meta Ads, social media, photography, video and web for island businesses.",
+    "CreativeLAB is a creative marketing agency based on Koh Phangan, serving businesses across Koh Phangan, Koh Samui and Koh Tao — ads, social, photo and video.",
+  announcement: "CreativeLAB — creative advertising & production team on Koh Phangan.",
   heroEyebrow: "Koh Phangan, Thailand",
+  heroImageAlt: "Creative studio on Koh Phangan preparing a shoot",
   h1: "Advertising & Creative Marketing Agency on Koh Phangan",
   heroSupport:
-    "Creative advertising, social media, content, photography, video, websites and digital marketing for businesses on Koh Phangan.",
+    "Advertising, social media, content, photography, video, websites and digital marketing for businesses across Koh Phangan, Koh Samui and Koh Tao.",
   directAnswer:
     "CreativeLAB is a creative content and advertising agency based on Koh Phangan. We plan and run advertising campaigns, manage social media, produce photography and video, and build websites for villas, restaurants, hospitality brands and local businesses — combining strategy, production and delivery inside one team, on the island.",
+  editorialEyebrow: "Why CreativeLAB",
   editorialTitle: "One island team, the full marketing stack",
+  editorialImageAlt: "CreativeLAB team working on Koh Phangan",
   editorialBody: [
     "Most businesses on Koh Phangan end up piecing together a photographer for one project, a freelancer for social media, and an agency abroad for advertising — three relationships, three time zones, three different visual styles.",
     "CreativeLAB puts strategy, photography, video, design and paid media under one roof, based on the island. That means faster turnarounds, a consistent visual identity across every channel, and a team that already understands local light, locations and customer behavior.",
   ],
+  servicesEyebrow: "What we do",
+  servicesTitle: "Eight ways we grow island businesses",
+  servicesDescription:
+    "Every pillar below can stand alone as a single project, or combine into a full monthly marketing program.",
   processTitle: "How we work",
   process: [
     {
@@ -42,55 +50,48 @@ export const HOMEPAGE = {
     },
   ] satisfies ProcessStep[],
   locationText:
-    "CreativeLAB is based on Koh Phangan and works with businesses across the island — from Thong Sala and Srithanu to Haad Rin and the north coast — as well as remote clients preparing to open or market a property on Koh Phangan.",
+    "CreativeLAB is based on Koh Phangan and works with businesses across the island — from Thong Sala and Srithanu to Haad Rin and the north coast — as well as with hotels, villas and restaurants on Koh Samui and Koh Tao, travelling over by boat for on-site photography and video.",
   finalCtaTitle: "Start a Project / Discuss Your Business on Koh Phangan",
   finalCtaDescription:
     "Tell us what you're working on — a single shoot, a campaign, or a full marketing plan — and we'll suggest a realistic next step.",
 } as const;
 
-export const HOMEPAGE_PILLARS: ServiceGridItem[] = [
+/** One card per hub — titles come from the hub itself (navLabel), so only the blurb lives here. */
+export const HOMEPAGE_PILLARS: Omit<ServiceGridItem, "title">[] = [
   {
-    title: "Advertising",
     description:
       "Google Ads, Meta Ads, campaign launch and performance marketing.",
     href: "/advertising",
   },
   {
-    title: "Social Media",
     description:
       "Instagram management, content, Reels, strategy and community.",
     href: "/social-media",
   },
   {
-    title: "Villas & Real Estate",
     description:
       "Villa and property photography, drone, video and property marketing.",
     href: "/villas-real-estate",
   },
   {
-    title: "Food & Restaurants",
     description:
       "Food and menu photography, styling, design, content and advertising.",
     href: "/food-restaurants",
   },
   {
-    title: "Business & Local Presence",
     description: "Google Business Profile, Maps, local SEO and reputation.",
     href: "/business-local-presence",
   },
   {
-    title: "Websites & Digital",
     description:
       "Websites, landing pages, SEO, technical SEO and AI search visibility.",
     href: "/websites-digital",
   },
   {
-    title: "Video & Production",
     description: "Commercial video, Reels, drone, FPV and brand films.",
     href: "/video-production",
   },
   {
-    title: "Branding & Creative",
     description: "Brand identity, graphic and menu design, creative direction.",
     href: "/branding-creative",
   },

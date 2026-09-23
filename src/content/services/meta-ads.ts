@@ -1,0 +1,158 @@
+import { images } from "@/assets/images";
+import type { ServicePage } from "@/content/types";
+
+export const metaAdsService: ServicePage = {
+  slug: "meta-ads",
+  hubSlug: "services",
+  canonicalPath: "/advertising/meta-ads",
+  navLabel: "Meta Ads",
+  h1: "Meta Ads Agency for Koh Phangan, Koh Samui & Koh Tao",
+  primaryKeyword: "Meta Ads agency Koh Phangan",
+  secondaryTopics: [
+    "Facebook Ads",
+    "Instagram Ads",
+    "social advertising",
+    "island tourism advertising",
+  ],
+  metaTitle: "Meta Ads Agency Koh Phangan",
+  metaDescription:
+    "Facebook and Instagram advertising for businesses on Koh Phangan, Koh Samui and Koh Tao — creative, targeting and retargeting from one island-based team.",
+  directAnswer:
+    "CreativeLAB is a Meta Ads agency running Facebook and Instagram advertising for businesses across Koh Phangan, Koh Samui and Koh Tao. We plan, design and manage campaigns — creative, audience targeting and retargeting — as part of a wider advertising and content practice, not a standalone ad-buying service.",
+  heroSupport:
+    "Facebook and Instagram advertising for villas, restaurants, dive shops, wellness brands and hospitality businesses across the three islands.",
+  heroImage: images.social,
+  heroImageAlt: "Reviewing Meta Ads campaign creative on a laptop and phone",
+  overview: [
+    "Meta advertising rarely works well as an isolated purchase — a set of boosted posts bought without a wider plan for who sees them, what they're asked to do, or what happens after they click. We treat Meta Ads as one channel inside a broader advertising and content system: the same photography, video and brand voice that appear on your Instagram feed and website also become the ad creative, so paid campaigns feel like an extension of your brand rather than a generic overlay on top of it.",
+    "That matters more on Koh Phangan, Koh Samui and Koh Tao than in most markets, because the audience mix is unusually varied within a small geography — long-stay expats, short-term travellers moving between islands, and a local Thai customer base, often within the same campaign. A villa on Koh Phangan, a dive operator on Koh Tao and a beach restaurant on Koh Samui each need different objectives, creative pacing and targeting radii, even though they're all running 'Meta Ads' in the technical sense.",
+    "This page is the general entry point to our Meta Ads work — what the service covers, who it's for, and how it fits with the rest of what we do. For the full breakdown of scope, process and pricing for a Meta Ads project, see our advertising service below, which is the canonical version of this page.",
+    "Because most businesses on the three islands run advertising alongside — not instead of — organic content, we also connect Meta Ads to content production, Google Ads and local search visibility, so a campaign builds on what's already working rather than duplicating it.",
+  ],
+  industrySlugs: ["villas-real-estate", "restaurants-food", "tourism-hospitality", "wellness-retreats"],
+  scope: [
+    {
+      title: "Campaign strategy across islands",
+      description:
+        "Objective and audience planning that accounts for where your customers actually are — on-island, still deciding, or planning ahead from abroad.",
+    },
+    {
+      title: "Creative built from real production",
+      description:
+        "Photography and video from our own shoots adapted into Meta's ad formats, rather than stock imagery or recycled social posts.",
+    },
+    {
+      title: "Cross-island targeting",
+      description:
+        "Location, interest and lookalike targeting set independently for Koh Phangan, Koh Samui and Koh Tao audiences where a business serves more than one.",
+    },
+    {
+      title: "Retargeting",
+      description:
+        "Campaigns that bring back people who viewed your site or engaged with content but didn't book or inquire.",
+    },
+  ],
+  benefits: [
+    {
+      title: "One brand, not two visual languages",
+      description: "Ad creative shares the same photography and tone as your organic content, so paid feels native.",
+    },
+    {
+      title: "Built for how travellers actually move",
+      description: "Campaigns account for visitors island-hopping between Phangan, Samui and Tao, not a single static location.",
+    },
+    {
+      title: "Coordinated with the rest of your marketing",
+      description: "Meta Ads sits alongside Google Ads, content and local SEO, run by the same team rather than a separate vendor.",
+    },
+    {
+      title: "Clear reporting",
+      description: "Regular, plain-language reporting on what a lead or booking actually costs, not just reach and impressions.",
+    },
+  ],
+  process: [
+    { title: "Discovery", description: "Understand the business, the islands it serves, and what a good result actually looks like." },
+    { title: "Creative & audience plan", description: "Define the objective, audience segments and creative direction for each island you're targeting." },
+    { title: "Launch & test", description: "Multiple creative and audience variants go live and are measured against each other." },
+    { title: "Optimize", description: "Budget shifts toward what's working, with regular reporting throughout." },
+  ],
+  pricing: [
+    {
+      service: "Meta Ads setup",
+      range: "THB 12,000 – 28,000",
+      note: "One-time — strategy, account structure, pixel/tracking setup",
+    },
+    {
+      service: "Monthly management",
+      range: "THB 10,000 – 25,000",
+      note: "Excludes ad spend, billed directly to Meta",
+    },
+    {
+      service: "Multi-island campaign add-on",
+      range: "THB 4,000 – 10,000 / month",
+      note: "Indicative — for businesses targeting more than one island separately",
+    },
+  ],
+  useCases: [
+    {
+      title: "Villa and property owners",
+      description: "Retarget people who viewed a listing on Koh Phangan or Koh Samui with a direct booking offer.",
+    },
+    {
+      title: "Restaurants and bars",
+      description: "Promote a specific night, offer or menu launch to a local and traveller audience near the venue.",
+    },
+    {
+      title: "Dive operators and tour businesses",
+      description: "Reach visitors currently on Koh Tao or planning a trip, with content built around the experience itself.",
+    },
+  ],
+  faqs: [
+    {
+      q: "Do you produce the ad creative, or do I need to supply it?",
+      a: "We produce it — photography, video and copy — usually drawing on the same content system we build for your organic social channels.",
+    },
+    {
+      q: "Can you run separate campaigns for Koh Phangan, Koh Samui and Koh Tao?",
+      a: "Yes, where it makes sense — location and audience settings can be configured per island rather than treating the region as one block.",
+    },
+    {
+      q: "How is this different from the Meta Ads page under Advertising?",
+      a: "This page introduces Meta Ads as part of our wider advertising and content approach across the three islands; the Advertising hub page is the full service page with scope, process and pricing in detail.",
+    },
+    {
+      q: "What budget should I start with?",
+      a: "It depends on your objective and island reach, but most businesses start with a modest monthly test budget and scale up once we see what performs.",
+    },
+    {
+      q: "Do you also handle Google Ads, or only Meta?",
+      a: "Both, along with SEO and content — most clients run Meta and Google Ads together for full-funnel coverage.",
+    },
+    {
+      q: "Is there a travel fee if you need to shoot new content on Samui or Tao?",
+      a: "For on-site shoots away from our base on Koh Phangan, a travel fee may apply — we'll confirm this as part of any quote.",
+    },
+    {
+      q: "Can you take over an underperforming Meta Ads account?",
+      a: "Yes, we regularly audit and rebuild campaigns that were set up but never properly optimized.",
+    },
+  ],
+  related: [
+    {
+      label: "Meta Ads (full service)",
+      href: "/advertising/meta-ads",
+      description: "The complete Meta Ads service — scope, process and pricing.",
+    },
+    {
+      label: "Advertising",
+      href: "/advertising",
+      description: "Our full advertising practice across Google, Meta and campaign launches.",
+    },
+    {
+      label: "Content Creation",
+      href: "/social-media/content-creation",
+      description: "The photography and video that fuel strong ad creative.",
+    },
+  ],
+  finalCtaLabel: "Start a Project",
+};

@@ -1,6 +1,8 @@
 import { LocalizedLink as Link } from "@/components/ui/LocalizedLink";
 import { Container } from "@/components/ui/Container";
 import { SectionHeading } from "@/components/ui/SectionHeading";
+import type { Locale } from "@/content/i18n";
+import { getUi } from "@/content/translations";
 
 export type ServiceGridItem = {
   title: string;
@@ -13,11 +15,13 @@ export function ServiceGrid({
   title,
   description,
   items,
+  locale,
 }: {
   eyebrow?: string;
   title: string;
   description?: string;
   items: ServiceGridItem[];
+  locale: Locale;
 }) {
   return (
     <section className="bg-base py-16 lg:py-24">
@@ -39,7 +43,7 @@ export function ServiceGrid({
                 </p>
               </div>
               <span className="mt-6 text-xs font-medium tracking-wide text-accent uppercase">
-                Explore <span className="inline-block rtl:rotate-180" aria-hidden>→</span>
+                {getUi(locale).cta.explore} <span className="inline-block rtl:rotate-180" aria-hidden>→</span>
               </span>
             </Link>
           ))}

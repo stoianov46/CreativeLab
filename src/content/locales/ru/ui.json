@@ -1,0 +1,233 @@
+{
+  "location": "Ко Панган, Таиланд",
+  "defaultDescription": "Креативная реклама, соцсети, контент, фото, видео и сайты для бизнеса на Ко Пангане, Ко Самуи и Ко Тао, Таиланд.",
+  "tagline": "Рекламное и креативное маркетинговое агентство на Ко Пангане",
+  "skipToContent": "Перейти к содержанию",
+  "cta": {
+    "startProject": "Начать проект",
+    "requestQuote": "Запросить расчёт",
+    "discussProject": "Обсудить проект",
+    "bookConsultation": "Записаться на консультацию",
+    "seeOurWork": "Наши работы",
+    "explore": "Подробнее",
+    "messageUs": "Написать нам",
+    "chatWhatsapp": "Написать в WhatsApp",
+    "chatTelegram": "Написать в Telegram",
+    "whatsappGreeting": "Здравствуйте! Хочу узнать подробнее об услуге «{service}»"
+  },
+  "nav": {
+    "primaryAria": "Основное меню",
+    "more": "Ещё",
+    "overview": "{label}: обзор",
+    "openMenu": "Открыть меню",
+    "closeMenu": "Закрыть меню",
+    "menu": "Меню",
+    "mobileAria": "Мобильная навигация",
+    "language": "Язык",
+    "breadcrumbAria": "Навигационная цепочка",
+    "home": "Главная",
+    "portfolio": "Портфолио",
+    "caseStudies": "Кейсы",
+    "about": "О нас",
+    "journal": "Журнал",
+    "contact": "Контакты",
+    "privacy": "Политика конфиденциальности",
+    "terms": "Условия использования",
+    "editorial": "Редакционная политика",
+    "accessibility": "Доступность",
+    "services": "Услуги",
+    "industries": "Отрасли",
+    "locations": "Локации",
+    "work": "Работы",
+    "allServices": "Все услуги",
+    "allIndustries": "Все отрасли",
+    "allLocations": "Все локации",
+    "serviceGroups": {
+      "advertising": "Реклама",
+      "socialContent": "Соцсети и контент",
+      "photoVideo": "Фото и видео",
+      "digital": "Digital",
+      "creative": "Креатив"
+    },
+    "featuredTitle": "Не знаете, с чего начать?",
+    "featuredText": "Расскажите о своём бизнесе, и мы подберём подходящий набор услуг."
+  },
+  "footer": {
+    "services": "Услуги",
+    "moreServices": "Другие услуги",
+    "agency": "Агентство",
+    "contact": "Контакты",
+    "industries": "Отрасли",
+    "locations": "Локации",
+    "rights": "Все права защищены."
+  },
+  "announcement": {
+    "dismiss": "Закрыть объявление"
+  },
+  "blocks": {
+    "featuresTitle": "Что входит",
+    "benefitsTitle": "Почему это стоит сделать",
+    "processTitle": "Как это работает",
+    "faqTitle": "Частые вопросы",
+    "relatedTitle": "Связанные услуги",
+    "useCasesEyebrow": "Для кого",
+    "useCasesTitle": "Кому это подойдёт",
+    "portfolioEyebrow": "Примеры",
+    "portfolioTitle": "Какие работы мы делаем",
+    "portfolioDescription": "Референсные изображения, передающие визуальный стиль и уровень работы нашей команды. По мере сдачи и согласования публикаций их заменят реальные клиентские проекты.",
+    "pricingEyebrow": "Инвестиции",
+    "pricingTitle": "Ориентировочные цены",
+    "pricingDescription": "Отправная точка, чтобы вы могли спланировать бюджет ещё до того, как мы оценим проект.",
+    "pricingService": "Услуга",
+    "pricingRange": "Диапазон цен (THB)",
+    "pricingNotes": "Примечания",
+    "pricingCaption": "Ориентировочные цены на «{service}»",
+    "overviewEyebrow": "Обзор",
+    "overviewTitle": "Обзор услуги",
+    "industriesEyebrow": "Отрасли",
+    "industriesTitle": "Для кого мы это делаем",
+    "locationsEyebrow": "Локации",
+    "locationsTitle": "Где мы работаем",
+    "locationsDescription": "Базируемся на Ко Пангане, работаем на месте по всему Ко Пангану, Ко Самуи и Ко Тао. Для съёмок на Самуи и Тао возможна доплата за выезд.",
+    "chatTitle": "Удобнее написать?",
+    "slidePrev": "Предыдущий",
+    "slideNext": "Следующий",
+    "slidePause": "Приостановить слайд-шоу",
+    "slidePlay": "Запустить слайд-шоу",
+    "slideLabel": "Слайд {n} из {total}",
+    "pricingDisclaimer": "Цены ориентировочные и основаны на типичных расценках рынка Ко Пангана. Каждый проект уникален — свяжитесь с нами для точного расчёта."
+  },
+  "hub": {
+    "approachEyebrow": "Подход",
+    "servicesEyebrow": "Услуги",
+    "servicesTitle": "Услуги: {hub}",
+    "processTitle": "Как складывается проект",
+    "process": [
+      {
+        "title": "Бриф",
+        "description": "Расскажите, что вам нужно и в какие сроки."
+      },
+      {
+        "title": "План",
+        "description": "Мы подбираем нужные услуги и реалистичный бюджет."
+      },
+      {
+        "title": "Продакшн",
+        "description": "Наша команда выполняет работу на месте — по всем островам."
+      },
+      {
+        "title": "Сдача и поддержка",
+        "description": "Вы получаете готовые материалы и, при необходимости, постоянную поддержку."
+      }
+    ],
+    "locationText": "Услуги CreativeLAB в направлении «{hub}» мы оказываем на месте на Ко Пангане, Ко Самуи и Ко Тао. Для владельцев и управляющих, которые находятся в другом месте, доступна удалённая координация.",
+    "ctaTitle": "Готовы обсудить направление «{hub}»?",
+    "ctaDescription": "Расскажите о своём бизнесе, и мы предложим реалистичный следующий шаг."
+  },
+  "service": {
+    "ctaTitle": "Готовы начать проект «{service}»?"
+  },
+  "industryPage": {
+    "needsEyebrow": "Задача",
+    "servicesEyebrow": "Услуги",
+    "servicesTitle": "Услуги для «{industry}»",
+    "processTitle": "Как мы работаем с «{industry}»",
+    "hubLink": "Смотреть все услуги в направлении «{hub}»",
+    "ctaTitle": "Маркетинг для «{industry}» — давайте обсудим"
+  },
+  "locationPage": {
+    "areasEyebrow": "Районы",
+    "marketEyebrow": "Местный бизнес",
+    "servicesEyebrow": "Услуги",
+    "servicesTitle": "Наши услуги на {location}",
+    "ctaTitle": "Работаете на {location}? Давайте обсудим"
+  },
+  "indexPages": {
+    "explore": "Смотреть",
+    "canonicalNote": "Подробная версия"
+  },
+  "caseStudy": {
+    "eyebrow": "Кейс",
+    "client": "Клиент",
+    "location": "Локация",
+    "industry": "Отрасль",
+    "challenge": "Задача",
+    "strategy": "Стратегия",
+    "creative": "Креатив",
+    "production": "Продакшн",
+    "advertising": "Реклама",
+    "results": "Результаты",
+    "gallery": "Галерея",
+    "services": "Использованные услуги",
+    "readCase": "Читать кейс"
+  },
+  "journal": {
+    "eyebrow": "Журнал",
+    "by": "Автор: {author}",
+    "published": "Опубликовано {date}",
+    "updated": "Обновлено {date}",
+    "readArticle": "Читать статью",
+    "relatedTitle": "Похожие услуги",
+    "clusters": {
+      "social-media": "Соцсети",
+      "advertising": "Реклама",
+      "content": "Контент",
+      "tourism-hospitality": "Туризм и гостеприимство",
+      "local": "Локальный маркетинг"
+    }
+  },
+  "mobileBar": {
+    "aria": "Быстрая связь",
+    "whatsapp": "WhatsApp",
+    "telegram": "Telegram",
+    "call": "Позвонить",
+    "start": "Начать"
+  },
+  "languageSuggestion": {
+    "text": "Эта страница доступна на русском языке.",
+    "switch": "Перейти на русский",
+    "dismiss": "Нет, спасибо"
+  },
+  "consent": {
+    "title": "Cookies и аналитика",
+    "text": "Мы хотели бы измерять, как используется сайт (аналитика), и как работает наша реклама (маркетинг). Ничего не загружается, пока вы не сделаете выбор. Изменить решение можно в любой момент внизу страницы.",
+    "accept": "Принять все",
+    "reject": "Отклонить",
+    "settings": "Настройки",
+    "save": "Сохранить выбор",
+    "analytics": "Аналитика (например, Google Analytics, Яндекс.Метрика)",
+    "marketing": "Маркетинг (например, Meta Pixel)",
+    "necessary": "Необходимые (всегда включены)",
+    "manage": "Настройки cookie",
+    "privacyLink": "Политика конфиденциальности"
+  },
+  "form": {
+    "title": "Расскажите о своём проекте",
+    "serviceLabel": "Интересующая услуга",
+    "servicePlaceholder": "Например: фотосъёмка виллы, Google Ads, брендинг",
+    "aria": "Форма заявки на проект",
+    "nameLabel": "Имя",
+    "phoneLabel": "Телефон, WhatsApp или Telegram (по желанию)",
+    "consentLabel": "Я даю согласие на то, что CreativeLAB может использовать эти данные для ответа на мой запрос, как описано в {privacy}.",
+    "consentPrivacy": "Политика конфиденциальности",
+    "consentError": "Пожалуйста, подтвердите, чтобы мы могли вам ответить.",
+    "rateLimited": "Слишком много сообщений за короткое время. Пожалуйста, подождите минуту или напишите нам напрямую на почту.",
+    "tooLong": "Это немного длинновато — сократите, пожалуйста, до {max} символов.",
+    "emailLabel": "Эл. почта",
+    "messageLabel": "Расскажите о своём проекте",
+    "nameError": "Пожалуйста, укажите имя.",
+    "emailError": "Пожалуйста, укажите корректный email.",
+    "messageError": "Расскажите о проекте чуть подробнее.",
+    "success": "Спасибо — ваше сообщение отправлено. Обычно мы отвечаем в течение одного рабочего дня.",
+    "failure": "Не удалось отправить сообщение. Попробуйте ещё раз или напишите нам на почту напрямую.",
+    "sending": "Отправляем…",
+    "send": "Отправить сообщение"
+  },
+  "contact": {
+    "email": "Эл. почта",
+    "phone": "Телефон",
+    "whatsapp": "WhatsApp",
+    "telegram": "Telegram",
+    "basedIn": "Где мы находимся"
+  }
+}

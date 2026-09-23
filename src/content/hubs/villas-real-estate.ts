@@ -10,9 +10,9 @@ export const villasRealEstateHub: HubPage = {
   primaryKeyword: "villa photography Koh Phangan",
   metaTitle: "Villa & Real Estate Photography Koh Phangan",
   metaDescription:
-    "Villa, land and architecture photography, drone, video, virtual tours and full property marketing for Koh Phangan real estate.",
+    "Villa, land and architecture photography, drone, video, virtual tours and full property marketing for real estate across Koh Phangan, Koh Samui and Koh Tao.",
   directAnswer:
-    "CreativeLAB photographs and markets villas, land and property developments on Koh Phangan — interiors, exteriors, drone, property video, virtual tours and full listing-ready marketing for owners, agents and developers.",
+    "CreativeLAB photographs and markets villas, land and property developments across Koh Phangan, Koh Samui and Koh Tao — interiors, exteriors, drone, property video, virtual tours and full listing-ready marketing for owners, agents, property managers and developers who need visuals that convert viewings into bookings or sales.",
   heroSupport:
     "Villa photography, drone, video and full property marketing for Koh Phangan real estate.",
   heroImage: images.photoshoot,
@@ -21,6 +21,39 @@ export const villasRealEstateHub: HubPage = {
   editorialBody: [
     "Koh Phangan's villa and land market moves fast, and most buyers or renters make their first judgment from photos alone. Weak or inconsistent imagery costs viewings before a single message is sent.",
     "We shoot and produce property content built for how it's actually used — listing platforms, social media, and direct outreach — so a single shoot covers photography, video and social content instead of separate vendors for each.",
+    "The same production standard applies whether the property is a one-bedroom rental in Srithanu, a beachfront villa on Koh Samui or a dive-focused guesthouse on Koh Tao — the brief changes, the quality bar doesn't.",
+    "Most owners and agents come to us needing one specific deliverable — photography for a new listing, a video to refresh a stale one, drone shots for a development brochure — and that's exactly how we scope a project: as a single, clearly defined shoot with a clear price, not a bundled package you have to buy into. The services below cover the individual deliverables in detail; where a property needs more than one, we plan the visit so they're produced together.",
+  ],
+  sections: [
+    {
+      title: "Why photography quality decides who gets the viewing",
+      body: [
+        "On a listing platform, a buyer or renter scrolls past dozens of near-identical thumbnails in seconds. The images that stop the scroll aren't necessarily the most expensive property — they're the ones shot with attention to light, composition and honest scale. A villa with average photography loses viewings to a comparable villa with better photography, regardless of which one is actually the stronger property.",
+        "This matters more on Koh Phangan, Koh Samui and Koh Tao than in a typical city market, because a large share of buyers and renters are evaluating a property remotely, before they've ever set foot on the island. Photography, video and virtual tours are often the entire basis for a first decision to inquire, shortlist or book a viewing — there's no passing foot traffic to fall back on.",
+        "That's why we treat every shoot as listing infrastructure, not a one-off task to tick off: consistent light, honest color and composition that shows real rooms and real space, so the property performs the same whether it's seen on Airbnb, an agency site or a social feed.",
+        "It also means we won't oversell a property with photography that misrepresents it. Wide-angle distortion and heavy editing might produce a striking single image, but they create a gap between what a viewer expects on arrival and what they actually find — and that gap shows up as a bad review or a cancelled booking, not a saved cost. Honest, well-lit photography protects the booking, not just the click.",
+        "The same logic applies to what we choose not to shoot. Not every angle flatters a property, and not every room needs its own image — a tighter, better-edited set of images consistently outperforms a bloated gallery padded with weak or repetitive shots. We'd rather deliver thirty strong images than sixty mixed ones, because a viewer's attention is the scarce resource, not the number of photos on the page.",
+      ],
+    },
+    {
+      title: "One production, not separate vendors for every deliverable",
+      body: [
+        "Most owners and agencies end up piecing a listing together from whatever's available — a phone photo here, an old drone clip there, a description written in a hurry. It works, but it rarely performs, and it costs more in lost time and missed inquiries than a single coordinated shoot would have.",
+        "We structure a property shoot so photography, drone, video and virtual tours can all be produced in the same visit where relevant, using the same light, the same color treatment and the same composition standard, so every asset feels like it belongs to the same property rather than several different shoots stitched together.",
+        "Where a project needs more than visuals — listing copy, social content, paid advertising — our Real Estate Marketing service builds a full campaign around the same production, so the photography and video aren't a standalone deliverable but the foundation of everything that follows.",
+        "This also keeps a property's visual identity consistent as it moves between channels. The same set of images and cuts can appear on a listing platform, an agency website, an Instagram feed and a paid ad without looking like they came from three different sources — which matters more than most owners expect, since inconsistent visuals are one of the quieter reasons a serious inquiry loses confidence and drops off.",
+      ],
+    },
+    {
+      title: "Working across Koh Phangan, Koh Samui and Koh Tao",
+      body: [
+        "CreativeLAB is based on Koh Phangan, and it's where most of our villa and real estate work happens — we know the island's developments, the light at different times of day and the logistics of getting to a property, which shows in how efficiently a shoot runs.",
+        "We also shoot property, land and development projects on Koh Samui and Koh Tao. Travel to either island is by boat, and a travel fee may apply on top of the shoot cost depending on the property's location and the scope of the visit — this is scoped and agreed before booking, not added afterward.",
+        "For agencies and developers with listings spread across more than one island, we can plan multi-property visits on the same trip, which is usually the most cost-effective way to cover a portfolio outside Koh Phangan.",
+        "Koh Samui's larger, more established market means more agency and developer listings; Koh Tao's is smaller and closely tied to its dive and hospitality economy; Koh Phangan sits between the two, with a mix of long-term rentals, short-term villas and land. The brief and audience shift with the island, and we scope each project accordingly rather than applying a single template across all three.",
+        "We plan every off-island shoot around the boat schedule and, where relevant, the property's own access — some plots and villas are easier to reach than others, and we'll ask about this upfront rather than discover it on the day. If a property needs a longer visit to cover properly, we'll say so before booking rather than rush a shoot to fit a single crossing.",
+      ],
+    },
   ],
   faqs: [
     {
@@ -41,11 +74,27 @@ export const villasRealEstateHub: HubPage = {
     },
     {
       q: "Can you help with the property's marketing beyond photography?",
-      a: "Yes, through our Real Estate Marketing service — listings, social content and advertising built around the same visuals.",
+      a: "Yes, through our Real Estate Marketing service — listings, social content and advertising built around the same visuals, so the shoot becomes the foundation of a full campaign rather than a standalone gallery.",
     },
     {
       q: "Do you stage the property before shooting?",
       a: "We advise on styling and can coordinate light staging, but full interior styling is outside our scope unless agreed separately.",
+    },
+    {
+      q: "Do you shoot properties on Koh Samui and Koh Tao, or only Koh Phangan?",
+      a: "All three — CreativeLAB is based on Koh Phangan and regularly travels to Koh Samui and Koh Tao for property shoots. Travel is by boat and a travel fee may apply depending on the property's location.",
+    },
+    {
+      q: "Which service is right if I just need a few photos versus a full launch?",
+      a: "Villa or Real Estate Photography covers standalone imagery; Real Estate Marketing is the right starting point when you need photography, video, listing copy and advertising coordinated as one campaign.",
+    },
+    {
+      q: "Can you deliver images and video in the specific formats our listing platform requires?",
+      a: "Yes — we ask which platforms the property will be listed on before the shoot and deliver files sized and formatted for each one, rather than a single generic export.",
+    },
+    {
+      q: "Do prices change for properties on Koh Samui or Koh Tao compared to Koh Phangan?",
+      a: "The production pricing is the same; the difference is a travel fee for the boat crossing and, for larger jobs, extra time on-island, both of which we confirm before booking.",
     },
   ],
   finalCtaLabel: "Start a Project",
@@ -57,14 +106,21 @@ export const villasRealEstateHub: HubPage = {
       h1: "Villa Photography on Koh Phangan",
       primaryKeyword: "villa photography Koh Phangan",
       secondaryTopics: ["luxury villa photography", "property photography"],
-      metaTitle: "Villa Photography Koh Phangan | CreativeLAB",
+      metaTitle: "Villa Photography Koh Phangan",
       metaDescription:
-        "Listing-ready villa photography on Koh Phangan — interiors, exteriors and composition built to sell or rent the property faster.",
+        "Listing-ready villa photography for owners, agents and developers on Koh Phangan, Koh Samui and Koh Tao — interiors, exteriors built to sell or rent faster.",
       directAnswer:
-        "We photograph villas on Koh Phangan for sale and rental listings — interiors, exteriors and composition built to show the property at its best, delivered ready for listing platforms and social media.",
+        "We photograph villas on Koh Phangan, Koh Samui and Koh Tao for sale and rental listings — interiors, exteriors and composition built to show the property at its best, delivered ready for listing platforms, agency sites and social media within days of the shoot.",
       heroSupport: "Interior and exterior villa photography built for listings that get booked.",
       heroImage: images.photoshoot,
       heroImageAlt: "Interior of a Koh Phangan villa photographed for a listing",
+      overview: [
+        "A villa is usually the highest-value listing an owner or agent will ever market on these islands, and it's judged almost entirely on its photography before anyone books a viewing. A buyer or renter scrolling a listing platform decides in seconds whether a property is worth a second look, and that decision is made on the strength of the images, not the copy underneath them.",
+        "We shoot each villa as its own project rather than running a fixed checklist. A one-bedroom rental in Srithanu needs different framing to a five-bedroom sale villa on a Koh Samui hillside — different light, different priority rooms, different pacing through the space — so the pre-shoot conversation is about what actually sells or rents this specific property, not a generic shot list applied to every job.",
+        "Light drives almost every decision on a villa shoot. Interiors are usually shot in the softer light of early morning or late afternoon, when direct sun doesn't blow out window views or create harsh shadows across a room; exteriors, pool areas and outdoor living spaces are often strongest around sunset, when the property's outdoor life — the part that sells a tropical villa — actually looks like something a guest would want to be in.",
+        "The result is a set of images built to work across every platform a villa realistically gets listed on: Airbnb and booking platforms for short-term rentals, agency websites and portals for sales, and social media for both. One shoot, consistently lit and composed, instead of a different vendor and a different look for every channel — and one point of contact for the owner or agent managing it.",
+      ],
+      industrySlugs: ["villas-real-estate", "tourism-hospitality", "brands-lifestyle"],
       scope: [
         { title: "Interior photography", description: "Living spaces, bedrooms and bathrooms shot to feel spacious and inviting." },
         { title: "Exterior photography", description: "Facades, pool areas and outdoor living spaces in the best available light." },
@@ -99,6 +155,8 @@ export const villasRealEstateHub: HubPage = {
         { q: "Can you shoot at sunset for exterior shots?", a: "Yes, this is often recommended for pool and outdoor living area photography." },
         { q: "Do you include drone shots?", a: "Drone photography is a separate service and can be added to the same shoot day." },
         { q: "What's the turnaround time for final images?", a: "Typically 3–5 business days after the shoot." },
+        { q: "Do you shoot villas on Koh Samui and Koh Tao as well as Koh Phangan?", a: "Yes — we regularly travel to both islands for villa shoots. Travel is by boat and a travel fee may apply depending on the property's location." },
+        { q: "Can the same shoot cover both a sale listing and rental marketing?", a: "Yes — the underlying photography is the same; we'll discuss framing and priority shots if the property needs to serve both purposes at once." },
       ],
       related: [
         { label: "Drone", href: "/villas-real-estate/drone", description: "Add aerial photography to the same shoot." },
@@ -116,12 +174,19 @@ export const villasRealEstateHub: HubPage = {
       secondaryTopics: ["property photography", "listing photography"],
       metaTitle: "Real Estate Photography Koh Phangan",
       metaDescription:
-        "Sale and rental-ready real estate photography on Koh Phangan for agencies, developers and private owners.",
+        "Sale and rental-ready real estate photography for agencies, developers and owners across Koh Phangan, Koh Samui and Koh Tao — consistent, fast turnaround.",
       directAnswer:
-        "We provide real estate photography for sale and rental listings across Koh Phangan — houses, apartments, condos and commercial properties — shot to a consistent standard agencies and developers can rely on across a portfolio.",
+        "We provide real estate photography for sale and rental listings across Koh Phangan, Koh Samui and Koh Tao — houses, apartments, condos and commercial properties — shot to a consistent standard agencies and developers can rely on across a growing portfolio of listings.",
       heroSupport: "Consistent, listing-ready photography for agencies, developers and private sellers.",
       heroImage: images.photoshoot,
       heroImageAlt: "Real estate property exterior photographed for a listing",
+      overview: [
+        "Real estate photography covers the broader property market beyond stand-alone villas — houses, apartments, condos, commercial units and mixed-use spaces — for agencies and developers who need a repeatable, reliable standard across many listings rather than a one-off shoot for a single property.",
+        "For an agency, the value isn't just in any one shoot being good — it's in every shoot looking like it came from the same professional source, whatever the property type or which day of the week it was photographed. We use a consistent process for light, color and framing so a buyer browsing an agency's full portfolio sees one credible visual standard, not a patchwork of styles from different photographers over time — which matters as much for trust as it does for aesthetics.",
+        "Turnaround matters as much as quality in this part of the market. Listings sit unpublished while they wait for photography, and every day a competing property is live and this one isn't is a day of lost inquiries. We build shoot scheduling and editing timelines around listing deadlines, not the other way around, and can commit to rush turnaround with advance notice when a listing genuinely can't wait for standard delivery.",
+        "This service is also where we work most closely with agencies on an ongoing basis — agreeing a standing rate, a consistent point of contact and a process that doesn't need to be renegotiated for every new listing, so photography stops being a bottleneck in the agency's own sales pipeline rather than a service they have to chase every time a new unit comes to market.",
+      ],
+      industrySlugs: ["villas-real-estate", "tourism-hospitality"],
       scope: [
         { title: "Interior & exterior coverage", description: "Full property coverage suited to the listing type." },
         { title: "Consistent standards", description: "A repeatable process for agencies managing multiple listings." },
@@ -151,11 +216,13 @@ export const villasRealEstateHub: HubPage = {
       ],
       faqs: [
         { q: "Do you offer agency rates for regular work?", a: "Yes — we can agree a standing rate for agencies with recurring listing photography needs." },
-        { q: "How quickly can you turn around a shoot before a listing deadline?", a: "Rush turnaround is possible with advance notice; standard delivery is 3–5 business days." },
+        { q: "How quickly can you turn around a shoot before a listing deadline?", a: "Rush turnaround is possible with advance notice; standard delivery is usually 3–5 business days after the shoot." },
         { q: "Do you photograph commercial and residential properties?", a: "Yes, both — the approach is adapted to the property type." },
         { q: "Can you shoot multiple units in one development on the same day?", a: "Yes, and this is typically the most cost-effective approach for developers." },
-        { q: "Do you provide floor plans or only photography?", a: "Photography is our focus; we can coordinate with a separate floor plan provider if needed." },
         { q: "What licensing do we get for the images?", a: "Standard licensing covers listing and marketing use; ask about extended commercial licensing if needed." },
+        { q: "Do you photograph properties on Koh Samui and Koh Tao for off-island agencies?", a: "Yes — this is a regular part of the service, with a travel fee for the boat crossing added to the standard shoot cost." },
+        { q: "Do you offer a dedicated account contact for agencies with recurring shoots?", a: "Yes — for agencies with ongoing volume, we agree a consistent point of contact and process so every new listing doesn't need to be re-briefed from scratch." },
+        { q: "Can you photograph a unit that's still furnished for the previous occupant?", a: "We prefer the space cleared or at least tidied, but can work around light furnishing if the timeline doesn't allow it — flag this before the shoot so we can plan angles accordingly." },
       ],
       related: [
         { label: "Virtual Tours", href: "/villas-real-estate/virtual-tours", description: "Add a 360 tour to the listing." },
@@ -173,12 +240,19 @@ export const villasRealEstateHub: HubPage = {
       secondaryTopics: ["land listing", "aerial land photography"],
       metaTitle: "Land Photography Koh Phangan | Listing & Aerial",
       metaDescription:
-        "Land listing photography on Koh Phangan — access, terrain, surroundings and aerial context for buyers evaluating a plot.",
+        "Land listing photography for sellers, agencies and developers across Koh Phangan, Koh Samui and Koh Tao — access, terrain, surroundings and aerial context.",
       directAnswer:
-        "We photograph land listings on Koh Phangan — showing access, terrain, boundaries and surroundings clearly, with aerial photography where useful, so buyers can properly evaluate a plot before visiting in person.",
+        "We photograph land listings on Koh Phangan, Koh Samui and Koh Tao — showing access, terrain, boundaries and surroundings clearly, with aerial photography where useful, so buyers can properly evaluate a plot before visiting in person or committing to travel.",
       heroSupport: "Ground and aerial photography that shows a plot's terrain, access and surroundings honestly.",
       heroImage: images.video,
       heroImageAlt: "Rural land plot photographed for a real estate listing",
+      overview: [
+        "Land is the hardest property type to sell remotely, because there's no interior to walk through and no finished space to photograph — the entire pitch rests on terrain, access and setting, and those are exactly the things a bad phone photo fails to communicate. A plot that's genuinely well-located can look unremarkable in weak photography, and a plot with real access problems can look deceptively appealing if the photos don't show them honestly.",
+        "We photograph land the way a serious buyer actually evaluates it: how you get there, what the road or track condition is like, how the ground slopes, what's around it, and what the plot would actually look and feel like standing on it. That's a different discipline to villa photography — less about composition for its own sake, more about giving a remote buyer enough honest visual information to make a real decision.",
+        "Aerial photography is often the single most useful image for a land listing, because it's the only angle that shows a plot's actual shape, boundaries relative to neighboring land, and its position against the coastline or road network — details that are difficult or impossible to convey from the ground alone. We recommend it for most land listings, though we'll say so honestly when a plot doesn't need it.",
+        "This service is photography only — we don't provide surveying, legal boundary confirmation or measurements, and we're careful never to imply boundaries in an image that haven't been confirmed by the seller or a licensed surveyor. Where a plot's documentation is unclear, we photograph based on what we're told and flag anything that looks inconsistent rather than guessing.",
+      ],
+      industrySlugs: ["villas-real-estate", "brands-lifestyle"],
       scope: [
         { title: "Access & boundary shots", description: "Clear documentation of road access and approximate boundaries." },
         { title: "Terrain photography", description: "Slope, vegetation and ground condition shown accurately." },
@@ -213,6 +287,8 @@ export const villasRealEstateHub: HubPage = {
         { q: "Do you provide measurements or surveying?", a: "No — we provide photography only; measurements and surveys should come from a licensed surveyor." },
         { q: "How do you handle land with unclear boundaries?", a: "We photograph based on information the seller provides and clearly avoid implying boundaries we haven't confirmed." },
         { q: "Can this be combined with a listing description?", a: "Yes, through our Real Estate Marketing service." },
+        { q: "Do you photograph land on Koh Samui and Koh Tao?", a: "Yes — land photography is available on all three islands, with a travel fee for Koh Samui and Koh Tao visits confirmed before booking." },
+        { q: "Can you photograph a plot with difficult access on foot?", a: "In most cases, yes — tell us about the terrain and access in advance so we can plan footwear, timing and whether an aerial pass can substitute for parts that are hard to reach on foot." },
       ],
       related: [
         { label: "Drone", href: "/villas-real-estate/drone", description: "Aerial photography for land and property." },
@@ -230,12 +306,19 @@ export const villasRealEstateHub: HubPage = {
       secondaryTopics: ["architectural photography", "building photography"],
       metaTitle: "Architecture Photography Koh Phangan",
       metaDescription:
-        "Architecture photography on Koh Phangan for architects, builders and developers — lines, materials and context, interior and exterior.",
+        "Architecture photography for architects, builders and developers on Koh Phangan, Koh Samui and Koh Tao — lines, materials and context, interior and exterior.",
       directAnswer:
-        "We photograph buildings and architectural projects on Koh Phangan for architects, builders and developers — capturing lines, materials and spatial context in a style suited to portfolios and publications, not just listings.",
+        "We photograph buildings and architectural projects on Koh Phangan, Koh Samui and Koh Tao for architects, builders and developers — capturing lines, materials and spatial context in a style suited to portfolios and publications, not just property listings.",
       heroSupport: "Photography that shows a building's design intent, materials and context clearly.",
       heroImage: images.studio,
       heroImageAlt: "Architectural detail photographed with strong composition",
+      overview: [
+        "Architecture photography serves a different audience to villa or real estate photography. A finished project is being documented for the architect's or builder's own portfolio, a publication submission, or a developer's marketing — the priority is showing the design intent and build quality, not maximizing a single property's perceived appeal to a buyer who may never see the architect's name attached to it.",
+        "That difference shows up in how we shoot. Composition is planned around the building's own lines, proportion and relationship to its site, rather than around which angle makes a room look most spacious. Interiors are photographed for how light, material and space actually interact — the qualities an architect or builder was designing for — and exteriors are composed to show the structure in its setting, not just isolated as a hero shot detached from its surroundings.",
+        "Material and detail work matters as much as the wider shots. Joinery, finishes, structural details and the small decisions that took real skill to execute are easy to lose in a standard listing-style shoot, and we spend time on them specifically because they're often what an architect or builder most wants documented — the craft, not just the finished silhouette, and often the part of the project a client remembers being told about but never actually saw photographed properly.",
+        "Editing is done to a portfolio and publication standard: careful perspective correction, accurate color and a restrained approach that doesn't distort the building's actual proportions. Files are delivered in formats suited to print submissions and digital portfolios alike, so the same shoot can serve an awards entry, a website case study and a client-facing brochure — without a separate edit for each use case.",
+      ],
+      industrySlugs: ["villas-real-estate", "brands-lifestyle"],
       scope: [
         { title: "Exterior composition", description: "Shots that show the building's form and relationship to its site." },
         { title: "Interior spatial photography", description: "Light, proportion and material captured accurately." },
@@ -264,12 +347,14 @@ export const villasRealEstateHub: HubPage = {
         { title: "Developers", description: "Showcasing a development's design for marketing and investors." },
       ],
       faqs: [
-        { q: "Do you work directly with architects, or only property owners?", a: "Both — we regularly shoot for architects and builders as well as property owners and developers." },
+        { q: "Do you work directly with architects, or only property owners?", a: "Both — we regularly shoot for architects and builders as well as property owners and developers commissioning the work." },
         { q: "Can you shoot a building at a specific time for the best light?", a: "Yes, we'll recommend the best time of day based on the building's orientation." },
         { q: "Do you photograph interiors as well as exteriors?", a: "Yes, both are typically included in an architecture photography project." },
-        { q: "Can this be used for a publication submission?", a: "Yes, editing is done to a standard suitable for portfolios and publication." },
+        { q: "Can this be used for a publication submission?", a: "Yes, editing is done to a standard suitable for portfolios, awards entries and publication submissions." },
         { q: "How is this different from villa photography?", a: "Architecture photography prioritizes design and composition; villa photography prioritizes listing appeal — the two often overlap." },
         { q: "Do you provide drone shots of the building and site?", a: "Yes, as an add-on where useful and permitted." },
+        { q: "Do you photograph projects on Koh Samui and Koh Tao for off-island architects and builders?", a: "Yes — we regularly travel for architecture projects across all three islands, with a travel fee for the boat crossing to Koh Samui or Koh Tao." },
+        { q: "Can you shoot a project across multiple visits as construction progresses?", a: "Yes — this can document design and construction quality from structure to finished build, useful for a firm's own case study or a developer's marketing." },
       ],
       related: [
         { label: "Villa Photography", href: "/villas-real-estate/villa-photography", description: "Listing-focused photography for finished villas." },
@@ -285,14 +370,21 @@ export const villasRealEstateHub: HubPage = {
       h1: "Drone Photography on Koh Phangan",
       primaryKeyword: "drone photography Koh Phangan",
       secondaryTopics: ["aerial photography", "property drone"],
-      metaTitle: "Drone Photography Koh Phangan | Aerial Property Shots",
+      metaTitle: "Drone Photography Koh Phangan",
       metaDescription:
-        "Drone photography on Koh Phangan for property, land and landscape — aerial context captured safely and within local regulations.",
+        "Drone photography for property, land and landscape across Koh Phangan, Koh Samui and Koh Tao — aerial context captured safely within local regulations.",
       directAnswer:
-        "We provide drone photography on Koh Phangan for villas, land and developments — aerial shots that show a property's setting, surroundings and scale, captured safely and in line with local drone regulations.",
+        "We provide drone photography on Koh Phangan, Koh Samui and Koh Tao for villas, land and developments — aerial shots that show a property's setting, surroundings and scale, captured safely and in line with local drone regulations.",
       heroSupport: "Aerial photography that shows a property's setting, scale and surroundings.",
       heroImage: images.video,
       heroImageAlt: "Drone prepared for an aerial property photography flight",
+      overview: [
+        "Ground photography can't show what a property actually sits within — how large the plot is, how close the neighbors are, how the land slopes away from the house, where the coastline or road actually falls relative to the building. Drone photography fills exactly that gap, and it's often the single image that gives a remote buyer real confidence in a property's setting before they've committed to a viewing.",
+        "We treat drone work as a planned part of a shoot, not an improvised extra. Every flight is checked against airspace rules, local restrictions and weather conditions before takeoff, and we'll reschedule the aerial portion of a shoot rather than fly in conditions that compromise safety or footage quality — a rushed flight produces worse images and isn't worth the risk. Where a plot borders restricted or sensitive airspace, we confirm what's permitted before the shoot day rather than finding out on arrival.",
+        "Aerial photography pairs naturally with almost any other service in this hub — villa, land or architecture photography, property video, even a virtual tour's opening establishing shot — and is usually most efficient when flown on the same visit as the ground shoot, since the crew, timing and site access are already arranged and don't need to be re-coordinated for a separate visit.",
+        "Not every property benefits from drone shots, and we say so honestly. A tightly built plot in a dense area or a small interior-focused rental may not need aerial coverage at all, and we'd rather tell an owner that upfront than add a service that doesn't move the needle on a listing's performance. Where it does help, it's usually one of the first images a serious buyer studies.",
+      ],
+      industrySlugs: ["villas-real-estate", "tourism-hospitality"],
       scope: [
         { title: "Aerial property shots", description: "Wide establishing shots showing the property and its context." },
         { title: "Land & site aerials", description: "Boundary, terrain and access context from above." },
@@ -322,11 +414,13 @@ export const villasRealEstateHub: HubPage = {
       ],
       faqs: [
         { q: "Is drone photography legal on Koh Phangan?", a: "Yes, within Thailand's drone regulations and appropriate permissions — we plan every flight accordingly." },
-        { q: "Can you fly near the coast or over the sea?", a: "Yes, subject to local regulations and any restricted zones near the flight location." },
         { q: "What happens if weather doesn't allow flying on the shoot day?", a: "We reschedule the drone portion rather than flying in unsafe conditions." },
         { q: "Do you also offer drone video, not just photos?", a: "Yes, through our Drone Video service — the same flight can often cover both." },
         { q: "Is drone photography included by default in villa shoots?", a: "No, it's an add-on — we'll recommend it where it genuinely improves the listing." },
         { q: "Who owns the drone footage?", a: "You receive full usage rights for your property marketing once the project is delivered." },
+        { q: "Do you fly drones for properties on Koh Samui and Koh Tao?", a: "Yes — drone photography is available on all three islands, subject to the same regulations and safety planning everywhere we fly." },
+        { q: "Can you fly a drone over a neighboring property to get the right angle?", a: "No — flights are planned to stay within the property being shot and applicable airspace rules; we won't fly over neighboring land or private property without permission." },
+        { q: "How many aerial images do we typically receive?", a: "Usually 8–15 edited aerial images per flight, depending on the property's size and how many angles are useful for the listing." },
       ],
       related: [
         { label: "Drone Video", href: "/video-production/drone-video", description: "Aerial video alongside aerial photography." },
@@ -342,14 +436,21 @@ export const villasRealEstateHub: HubPage = {
       h1: "Real Estate Video Production on Koh Phangan",
       primaryKeyword: "real estate video Koh Phangan",
       secondaryTopics: ["villa video", "property film"],
-      metaTitle: "Real Estate Video Koh Phangan | Property Walkthroughs",
+      metaTitle: "Real Estate Video Koh Phangan",
       metaDescription:
-        "Property walkthrough videos on Koh Phangan — atmosphere-led films and vertical social cuts for villas and real estate listings.",
+        "Property walkthrough videos for villas and real estate listings across Koh Phangan, Koh Samui and Koh Tao — atmosphere-led films and vertical social cuts.",
       directAnswer:
-        "We produce property walkthrough videos for villas and real estate listings on Koh Phangan — films that convey the atmosphere and flow of a property, delivered as both a full walkthrough and shorter vertical cuts for social media.",
+        "We produce property walkthrough videos for villas and real estate listings on Koh Phangan, Koh Samui and Koh Tao — films that convey the atmosphere and flow of a property, delivered as both a full walkthrough and shorter vertical cuts for social media.",
       heroSupport: "Walkthrough films and social cuts that show a property's atmosphere, not just its floor plan.",
       heroImage: images.video,
       heroImageAlt: "Camera operator filming a villa walkthrough",
+      overview: [
+        "Photography shows a property's rooms; video shows how they connect. Buyers and renters consistently say video gives them a clearer sense of a property's actual layout and flow than a photo gallery alone — how the kitchen opens to the living area, how far the bedroom is from the pool, whether the space feels open or closed as you move through it. That's information photography structurally can't deliver.",
+        "We plan every walkthrough around a route through the property's key spaces, shot with stabilized equipment so the footage feels smooth and intentional rather than handheld and improvised. The goal isn't to document every room in sequence — it's to give a viewer an accurate, unhurried sense of what it would actually feel like to walk through the property themselves, from arrival through to the spaces that would actually sell them on staying or buying.",
+        "Because a walkthrough and a social clip serve different viewing behaviors, we edit both from the same shoot: a longer-form walkthrough (typically 60–120 seconds) for listing platforms and agency sites, and shorter vertical cuts (15–30 seconds) built for how people actually watch on Instagram and TikTok — a different pace, a different opening, but recognizably the same property throughout.",
+        "Property video is most often filmed on the same day as photography, since the crew and site access are already arranged, and it pairs naturally with drone or FPV footage for properties where an aerial or dynamic opening shot adds real value. We'll advise on whether that combination makes sense for a specific property rather than defaulting to it every time.",
+      ],
+      industrySlugs: ["villas-real-estate", "tourism-hospitality"],
       scope: [
         { title: "Full walkthrough", description: "A complete filmed tour through the property's key spaces." },
         { title: "Atmosphere & pacing", description: "Editing that conveys how the property actually feels to move through." },
@@ -382,8 +483,10 @@ export const villasRealEstateHub: HubPage = {
         { q: "Do you use a gimbal or stabilizer for smooth footage?", a: "Yes, stabilized equipment is standard for walkthrough filming." },
         { q: "Can you combine this with drone footage?", a: "Yes — combining ground and aerial footage is common for larger properties." },
         { q: "What music do you use?", a: "Licensed stock music matched to the property's style, or your own if you have rights to use it." },
-        { q: "Do you include a voiceover or on-screen text?", a: "On-screen text with key details is available; voiceover can be added on request." },
         { q: "How long does editing take?", a: "Typically 5–10 business days depending on the number of cuts required." },
+        { q: "Do you film property videos on Koh Samui and Koh Tao?", a: "Yes — the same production is available on all three islands, with a travel fee for the boat crossing to Koh Samui or Koh Tao." },
+        { q: "Can the video include a short intro or property details on screen?", a: "Yes — on-screen text with key details such as bedroom count, location or price range is available and often included in listing-focused cuts." },
+        { q: "Do you shoot the walkthrough with narration or purely visual?", a: "Most walkthroughs are visual and music-led by default, since it travels better across platforms; a voiceover can be added where it suits the property." },
       ],
       related: [
         { label: "Villa Photography", href: "/villas-real-estate/villa-photography", description: "Photography to pair with the walkthrough video." },
@@ -399,14 +502,21 @@ export const villasRealEstateHub: HubPage = {
       h1: "FPV Drone Video on Koh Phangan",
       primaryKeyword: "FPV drone Koh Phangan",
       secondaryTopics: ["FPV property video"],
-      metaTitle: "FPV Drone Video Koh Phangan | Property & Real Estate",
+      metaTitle: "FPV Drone Video Koh Phangan",
       metaDescription:
-        "FPV drone video for Koh Phangan properties — dynamic walkthrough-style footage flown safely for suitable properties.",
+        "FPV drone video for premium villas and developments on Koh Phangan, Koh Samui and Koh Tao — dynamic walkthrough-style footage flown safely where suitable.",
       directAnswer:
-        "We fly FPV (first-person-view) drones to produce dynamic, continuous-motion footage of suitable properties on Koh Phangan — sweeping through spaces and grounds in a single fluid shot that a standard drone or gimbal can't replicate.",
+        "We fly FPV (first-person-view) drones to produce dynamic, continuous-motion footage of suitable properties on Koh Phangan, Koh Samui and Koh Tao — sweeping through spaces and grounds in a single fluid shot that a standard drone or gimbal can't replicate.",
       heroSupport: "Fast, fluid FPV footage for properties where a dynamic, cinematic shot makes sense.",
       heroImage: images.video,
       heroImageAlt: "FPV drone flying through a property for dynamic video",
+      overview: [
+        "FPV drones are flown manually in first-person view, close to surfaces and through spaces that a standard drone or gimbal-mounted camera simply can't access. The result is a continuous, fluid shot that can sweep from a rooftop, down through an open living area, and out across a pool in one uninterrupted take — a visual signature that stands out clearly from conventional property video and is difficult to mistake for anything else once you've seen it done well.",
+        "Not every property justifies it, and we say so before quoting rather than after. FPV works best on properties with dramatic sites, distinctive architecture, or spaces designed to flow into each other — a hillside villa, a development with a striking approach, a property where connecting the indoor and outdoor spaces in one shot genuinely adds something a standard walkthrough can't replicate.",
+        "Every flight is planned and rehearsed before it's flown for real. We assess the site for safety around people, structures and obstacles, choreograph the route in advance, and fly multiple passes to get the strongest take rather than relying on a single attempt — this is a technical, deliberate process, not an improvised flythrough, and it's treated with the same rigor whether the property is a private villa or a public development site.",
+        "FPV footage is usually strongest as hero content — the lead video on a premium listing or the opening sequence of a larger property marketing campaign — and combines well with standard drone stills and ground photography for a complete visual package rather than replacing them. Because it's a specialist skill, we're upfront when a property would be better served by standard drone or gimbal footage instead, rather than pushing FPV as the default option regardless of fit.",
+      ],
+      industrySlugs: ["villas-real-estate", "brands-lifestyle"],
       scope: [
         { title: "Suitability assessment", description: "An honest check on whether a property and site suit FPV filming safely." },
         { title: "Flight choreography", description: "Planned flight paths through and around the property." },
@@ -434,12 +544,14 @@ export const villasRealEstateHub: HubPage = {
         { title: "Marketing campaigns", description: "Distinctive video content for advertising and social." },
       ],
       faqs: [
-        { q: "Is FPV suitable for every property?", a: "No — some sites don't suit it safely or visually; we'll advise honestly rather than force it." },
-        { q: "How is FPV different from standard drone video?", a: "FPV drones are flown manually in first-person view for fast, fluid, close-proximity shots standard drones can't achieve." },
+        { q: "Is FPV suitable for every property?", a: "No — some sites don't suit it safely or visually; we'll advise honestly rather than force it onto a property that doesn't need it." },
+        { q: "How is FPV different from standard drone video?", a: "FPV drones are flown manually in first-person view for fast, fluid, close-proximity shots that standard, more stable drones simply can't achieve." },
         { q: "Is FPV filming safe around people and buildings?", a: "Yes, when flown by an experienced pilot with a proper flight plan — safety is assessed before every flight." },
         { q: "Can FPV combine with standard drone and ground footage?", a: "Yes, this combination often produces the strongest overall video." },
         { q: "How long does an FPV shoot take?", a: "Typically half a day including planning, multiple flight passes and safety checks." },
         { q: "What's the turnaround for the edited video?", a: "Usually 5–10 business days." },
+        { q: "Is FPV available for properties on Koh Samui and Koh Tao?", a: "Yes, subject to the same site assessment and safety planning applied everywhere — a travel fee applies for the boat crossing." },
+        { q: "Does FPV cost more than standard drone video?", a: "Yes — FPV requires specialist equipment, an experienced pilot and more planning time than a standard drone flight, which is reflected in the price." },
       ],
       related: [
         { label: "Property Video", href: "/villas-real-estate/property-video", description: "A standard walkthrough video alternative." },
@@ -455,14 +567,21 @@ export const villasRealEstateHub: HubPage = {
       h1: "360° Virtual Tours on Koh Phangan",
       primaryKeyword: "360 virtual tour Koh Phangan",
       secondaryTopics: ["property virtual tour"],
-      metaTitle: "360 Virtual Tours Koh Phangan | Property Listings",
+      metaTitle: "360 Virtual Tours Koh Phangan",
       metaDescription:
-        "360° virtual tours for Koh Phangan properties — self-navigable tours for remote viewing, embedded directly into your listing.",
+        "360° virtual tours for villas and property listings across Koh Phangan, Koh Samui and Koh Tao — self-navigable, remote-ready, embedded into your listing.",
       directAnswer:
-        "We produce 360° virtual tours for Koh Phangan properties, letting remote buyers and renters navigate a property room by room from anywhere — embedded directly into your listing page or shared as a standalone link.",
+        "We produce 360° virtual tours for properties on Koh Phangan, Koh Samui and Koh Tao, letting remote buyers and renters navigate a property room by room from anywhere — embedded directly into your listing page or shared as a standalone link.",
       heroSupport: "Self-navigable 360° tours that let remote buyers explore a property before they arrive.",
       heroImage: images.studio,
       heroImageAlt: "360-degree camera capturing a property interior",
+      overview: [
+        "A significant share of villa buyers and long-term renters on these islands are deciding from abroad, sometimes months before they can visit in person. Photography and video help, but neither lets someone actually explore a property at their own pace — a 360° virtual tour does, and it's often the deciding factor between a serious inquiry and a passed-over listing, particularly for buyers who can't easily fly out for a first look.",
+        "We capture a tour room by room, mapping the route to match how the property actually flows, then stitch the images into a tour with working navigation between points. The result behaves like walking through the property yourself — look around, move to the next room, go back — rather than a fixed slideshow of static panoramas that only shows what we chose to point the camera at.",
+        "Tours are hosted and delivered as a link that runs in any standard web browser, on desktop or mobile, with no app download required for the viewer. We provide an embed code for your own listing page or website alongside the standalone link, so the tour can live wherever it's actually needed rather than being locked to one platform or requiring the viewer to install anything first.",
+        "A virtual tour complements photography rather than replacing it — most serious listings benefit from both, since a tour handles exploration and photography handles the polished hero images used in marketing and advertising. We'll advise on which properties genuinely benefit from a tour rather than adding it as a default upsell. For agencies managing a portfolio, offering tours consistently across listings can also become part of what differentiates the agency itself, not just a single property, and it signals to buyers that the agency invests properly in how its listings are presented.",
+      ],
+      industrySlugs: ["villas-real-estate", "tourism-hospitality"],
       scope: [
         { title: "360° capture", description: "Room-by-room photography stitched into a navigable tour." },
         { title: "Navigation setup", description: "Logical room-to-room navigation matched to the property's layout." },
@@ -491,12 +610,14 @@ export const villasRealEstateHub: HubPage = {
         { title: "Agencies", description: "A standard offering across an agency's listing portfolio." },
       ],
       faqs: [
-        { q: "Do viewers need to download an app?", a: "No — tours run in a standard web browser on desktop or mobile." },
+        { q: "Do viewers need to download an app?", a: "No — tours run directly in a standard web browser on desktop or mobile, with nothing to install." },
         { q: "How long does capturing a tour take?", a: "Typically 1–3 hours depending on the property's size and number of rooms." },
-        { q: "Can the tour be embedded on my own website?", a: "Yes, we provide an embed code alongside a standalone link." },
+        { q: "Can the tour be embedded on my own website?", a: "Yes, we provide an embed code alongside a standalone shareable link for the tour." },
         { q: "Does a virtual tour replace photography?", a: "No — it complements standard photography rather than replacing it." },
         { q: "Can you add hotspots with extra information?", a: "Yes, informational hotspots can be added at key points in the tour." },
         { q: "How long is the tour hosted for?", a: "Hosting terms are agreed per project — ask about ongoing hosting if you need the tour live long-term." },
+        { q: "Are virtual tours available for properties on Koh Samui and Koh Tao?", a: "Yes — the same capture and hosting process applies across all three islands, with a travel fee for the boat crossing." },
+        { q: "Does a larger property take longer to capture?", a: "Yes — more rooms and tour points mean more capture time; we'll estimate this during scoping based on the property's size." },
       ],
       related: [
         { label: "Villa Photography", href: "/villas-real-estate/villa-photography", description: "Standard photography to pair with the tour." },
@@ -512,14 +633,21 @@ export const villasRealEstateHub: HubPage = {
       h1: "Real Estate Marketing on Koh Phangan",
       primaryKeyword: "real estate marketing Koh Phangan",
       secondaryTopics: ["villa marketing", "property promotion"],
-      metaTitle: "Real Estate Marketing Koh Phangan | Villa & Property",
+      metaTitle: "Real Estate Marketing Koh Phangan",
       metaDescription:
-        "Full property marketing on Koh Phangan — visuals, listing copy, social content, advertising and local visibility in one program.",
+        "Full property marketing across Koh Phangan, Koh Samui and Koh Tao — visuals, listing copy, social content, advertising and local visibility in one program.",
       directAnswer:
-        "We run full property marketing programs for villas and developments on Koh Phangan — combining photography, video, listing copy, social content, advertising and local visibility into one coordinated plan, rather than a single deliverable.",
+        "We run full property marketing programs for villas and developments on Koh Phangan, Koh Samui and Koh Tao — combining photography, video, listing copy, social content, advertising and local visibility into one coordinated plan, rather than a single standalone deliverable.",
       heroSupport: "Photography, listing content, social media and advertising coordinated into one property marketing plan.",
       heroImage: images.team,
       heroImageAlt: "Team planning a real estate marketing campaign",
+      overview: [
+        "Photography and video sell a property faster, but on their own they're still just assets sitting on a listing page waiting to be found. Real Estate Marketing is the service for owners, agencies and developers who need the visuals to actually reach the right buyer or renter — production plus distribution, planned as one program instead of separate, disconnected purchases made from different suppliers at different times.",
+        "We start from the property and the audience, not from a menu of services. A short-term rental villa needs a different plan to a pre-sale development unit — different platforms, different messaging, different advertising channels — so discovery focuses on who's actually going to book or buy this property and where they're likely to be looking, before any production or spend begins.",
+        "Production, listing content, social media and advertising then launch together rather than in a disjointed sequence, using the same visuals and messaging across every channel. That consistency is deliberate: a buyer who sees the property on Instagram and then clicks through to the listing should recognize it as the same property with the same story, not encounter a mismatch that erodes trust.",
+        "Once a campaign is live, we track what's actually generating inquiries — which channel, which creative, which audience — and adjust accordingly rather than running a fixed plan on autopilot for its full duration. For owners bringing existing photography or video, we'll work with what's usable and fill the gaps rather than insisting on a full reshoot from scratch.",
+      ],
+      industrySlugs: ["villas-real-estate", "tourism-hospitality", "brands-lifestyle"],
       scope: [
         { title: "Visual production", description: "Photography, video, drone and virtual tours as needed." },
         { title: "Listing content", description: "Copy and structure for listing platforms and your own website." },
@@ -549,12 +677,14 @@ export const villasRealEstateHub: HubPage = {
         { title: "Agencies", description: "A turnkey marketing service to offer premium listings." },
       ],
       faqs: [
-        { q: "Do I need to use all your production services, or can I bring my own?", a: "You can bring existing assets — we'll fill gaps and build the marketing plan around what you have." },
+        { q: "Do I need to use all your production services, or can I bring my own?", a: "You can bring existing assets — we'll fill any gaps and build the marketing plan around what you already have." },
         { q: "How long does a full property marketing campaign take to launch?", a: "Typically 2–4 weeks from kickoff to a fully live campaign, depending on production needs." },
-        { q: "Is advertising spend included in the package price?", a: "No — the package covers production and management; ad spend is billed separately, directly to the platform." },
+        { q: "Is advertising spend included in the package price?", a: "No — the package covers production and campaign management; ad spend itself is billed separately, directly to the platform." },
         { q: "Can this work for a portfolio of several villas at once?", a: "Yes — portfolio marketing is scoped individually based on the number of properties." },
         { q: "Do you handle listing on platforms like Airbnb or agency sites?", a: "We produce the content and copy; publishing to specific platforms is coordinated with you or your agent." },
         { q: "How do you measure whether the campaign is working?", a: "Inquiries, views and, where trackable, bookings or offers — reported on a regular schedule." },
+        { q: "Do you run real estate marketing campaigns for properties on Koh Samui and Koh Tao?", a: "Yes — the full service is available across all three islands; production visits include a travel fee for the boat crossing where relevant." },
+        { q: "Can you target buyers or renters outside Thailand?", a: "Yes — international targeting is common for villa sales and long-term rentals, and we'll scope audience and channels accordingly during discovery." },
       ],
       related: [
         { label: "Villa Photography", href: "/villas-real-estate/villa-photography", description: "The visual foundation of the marketing plan." },

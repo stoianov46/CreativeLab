@@ -113,3 +113,9 @@ body {
   --font-display: var(--font-thai), "Noto Sans Thai", "Segoe UI", sans-serif;
   --font-body: var(--font-thai), "Noto Sans Thai", "Segoe UI", sans-serif;
 }
+
+/* Hebrew: Heebo has Hebrew + Latin, so brand names in Latin stay consistent. */
+.font-hebrew {
+  --font-display: var(--font-hebrew), "Heebo", "Arial Hebrew", sans-serif;
+  --font-body: var(--font-hebrew), "Heebo", "Arial Hebrew", sans-serif;
+}

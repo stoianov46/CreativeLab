@@ -6,7 +6,7 @@ import { SplitEditorial } from "@/components/blocks/SplitEditorial";
 import { Benefits } from "@/components/blocks/Benefits";
 import { LocationBlock } from "@/components/blocks/LocationBlock";
 import { CtaBanner } from "@/components/blocks/CtaBanner";
-import { ABOUT_PAGE } from "@/content/pages";
+import { getPages, getUi } from "@/content/translations";
 import { images } from "@/assets/images";
 import { buildMetadata } from "@/lib/metadata";
 import { breadcrumbSchema, jsonLdGraph, webPageSchema } from "@/lib/schema";
@@ -18,9 +18,10 @@ export async function generateMetadata(
 ): Promise<Metadata> {
   const { locale: rawLocale } = await props.params;
   const locale = toLocale(rawLocale);
+  const { about } = getPages(locale);
   return buildMetadata({
-    title: ABOUT_PAGE.metaTitle,
-    description: ABOUT_PAGE.metaDescription,
+    title: about.metaTitle,
+    description: about.metaDescription,
     path: "/about",
     locale,
   });
@@ -29,52 +30,54 @@ export async function generateMetadata(
 export default async function AboutPage(props: PageProps<"/[locale]/about">) {
   const { locale: rawLocale } = await props.params;
   const locale = toLocale(rawLocale);
+  const { about } = getPages(locale);
+  const ui = getUi(locale);
   const url = `${SITE.url}${localePath(locale, "/about")}`;
   const homeUrl = `${SITE.url}${localePath(locale, "/")}`;
   const graph = jsonLdGraph([
-    webPageSchema({ name: ABOUT_PAGE.metaTitle, description: ABOUT_PAGE.metaDescription, url, inLanguage: locale }),
-    breadcrumbSchema([{ name: "Home", url: homeUrl }, { name: "About", url }]),
+    webPageSchema({ name: about.metaTitle, description: about.metaDescription, url, inLanguage: locale }),
+    breadcrumbSchema([{ name: ui.nav.home, url: homeUrl }, { name: ui.nav.about, url }]),
   ]);
 
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(graph) }} />
-      <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "About", href: "/about" }]} />
-      <Hero
-        h1={ABOUT_PAGE.h1}
-        support={ABOUT_PAGE.heroSupport}
-        image={ABOUT_PAGE.heroImage}
-        imageAlt={ABOUT_PAGE.heroImageAlt}
-        ctaLabel="Start a Project"
+      <Breadcrumbs
+        items={[{ label: ui.nav.home, href: "/" }, { label: ui.nav.about, href: "/about" }]}
+        locale={locale}
       />
-      <DirectAnswer text={ABOUT_PAGE.directAnswer} />
+      <Hero
+        h1={about.h1}
+        support={about.heroSupport}
+        image={about.heroImage}
+        imageAlt={about.heroImageAlt}
+        locale={locale}
+      />
+      <DirectAnswer text={about.directAnswer} />
       <SplitEditorial
-        eyebrow="Our story"
-        title={ABOUT_PAGE.storyTitle}
+        eyebrow={about.storyEyebrow}
+        title={about.storyTitle}
         image={images.team}
-        imageAlt="CreativeLAB team working together"
+        imageAlt={about.storyImageAlt}
       >
-        {ABOUT_PAGE.storyBody.map((p) => (
+        {about.storyBody.map((p) => (
           <p key={p}>{p}</p>
         ))}
       </SplitEditorial>
       <SplitEditorial
-        eyebrow="Our approach"
-        title={ABOUT_PAGE.approachTitle}
+        eyebrow={about.approachEyebrow}
+        title={about.approachTitle}
         image={images.studio}
-        imageAlt="CreativeLAB studio workspace"
+        imageAlt={about.approachImageAlt}
         reverse
       >
-        {ABOUT_PAGE.approachBody.map((p) => (
+        {about.approachBody.map((p) => (
           <p key={p}>{p}</p>
         ))}
       </SplitEditorial>
-      <Benefits items={[...ABOUT_PAGE.principles]} />
-      <LocationBlock text={`CreativeLAB is based on ${SITE.location} and works across the island, from Thong Sala and Srithanu to Haad Rin and the north coast.`} />
-      <CtaBanner
-        title="Discuss Your Business on Koh Phangan"
-        description="Tell us what you're working on and we'll suggest a realistic next step."
-      />
+      <Benefits items={[...about.principles]} locale={locale} />
+      <LocationBlock text={about.locationText} />
+      <CtaBanner title={about.ctaTitle} description={about.ctaDescription} locale={locale} />
     </>
   );
 }

@@ -23,6 +23,11 @@ jobs:
       - name: Lint
         run: npm run lint
 
+      # Translation files must match the English source's shape (stale keys,
+      # broken {placeholders}) — missing strings only warn, they fall back to English.
+      - name: Translations check
+        run: npm run i18n:check
+
       # Build first: it generates next-env.d.ts + .next/types (PageProps/
       # LayoutProps, image module declarations) that tsc --noEmit needs,
       # and next build already runs its own full type check internally —
@@ -33,3 +38,26 @@ jobs:
 
       - name: Type check
         run: npx tsc --noEmit
+
+  bots:
+    name: Bots — typecheck & flow tests
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: bots
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: bots/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      # All services × locations × languages reach submit with 0 dead ends,
+      # back/language switch on every step, deep-link parsing, uploads.
+      - name: Typecheck & tests
+        run: npm run check

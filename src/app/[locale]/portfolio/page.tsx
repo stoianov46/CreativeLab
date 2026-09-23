@@ -4,8 +4,7 @@ import { Hero } from "@/components/blocks/Hero";
 import { DirectAnswer } from "@/components/blocks/DirectAnswer";
 import { PortfolioPreview } from "@/components/blocks/PortfolioPreview";
 import { CtaBanner } from "@/components/blocks/CtaBanner";
-import { PORTFOLIO_PAGE } from "@/content/pages";
-import { HOMEPAGE_PORTFOLIO } from "@/content/homepage";
+import { getPages, getUi } from "@/content/translations";
 import { buildMetadata } from "@/lib/metadata";
 import { breadcrumbSchema, jsonLdGraph, webPageSchema } from "@/lib/schema";
 import { SITE } from "@/content/site";
@@ -16,9 +15,10 @@ export async function generateMetadata(
 ): Promise<Metadata> {
   const { locale: rawLocale } = await props.params;
   const locale = toLocale(rawLocale);
+  const page = getPages(locale).portfolio;
   return buildMetadata({
-    title: PORTFOLIO_PAGE.metaTitle,
-    description: PORTFOLIO_PAGE.metaDescription,
+    title: page.metaTitle,
+    description: page.metaDescription,
     path: "/portfolio",
     locale,
   });
@@ -27,30 +27,33 @@ export async function generateMetadata(
 export default async function PortfolioPage(props: PageProps<"/[locale]/portfolio">) {
   const { locale: rawLocale } = await props.params;
   const locale = toLocale(rawLocale);
+  const pages = getPages(locale);
+  const page = pages.portfolio;
+  const ui = getUi(locale);
   const url = `${SITE.url}${localePath(locale, "/portfolio")}`;
   const homeUrl = `${SITE.url}${localePath(locale, "/")}`;
   const graph = jsonLdGraph([
-    webPageSchema({ name: PORTFOLIO_PAGE.metaTitle, description: PORTFOLIO_PAGE.metaDescription, url, inLanguage: locale }),
-    breadcrumbSchema([{ name: "Home", url: homeUrl }, { name: "Portfolio", url }]),
+    webPageSchema({ name: page.metaTitle, description: page.metaDescription, url, inLanguage: locale }),
+    breadcrumbSchema([{ name: ui.nav.home, url: homeUrl }, { name: ui.nav.portfolio, url }]),
   ]);
 
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(graph) }} />
-      <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Portfolio", href: "/portfolio" }]} />
+      <Breadcrumbs
+        items={[{ label: ui.nav.home, href: "/" }, { label: ui.nav.portfolio, href: "/portfolio" }]}
+        locale={locale}
+      />
       <Hero
-        h1={PORTFOLIO_PAGE.h1}
-        support={PORTFOLIO_PAGE.heroSupport}
-        image={PORTFOLIO_PAGE.heroImage}
-        imageAlt={PORTFOLIO_PAGE.heroImageAlt}
-        ctaLabel="Start a Project"
+        h1={page.h1}
+        support={page.heroSupport}
+        image={page.heroImage}
+        imageAlt={page.heroImageAlt}
+        locale={locale}
       />
-      <DirectAnswer text={PORTFOLIO_PAGE.directAnswer} />
-      <PortfolioPreview items={HOMEPAGE_PORTFOLIO} />
-      <CtaBanner
-        title="Have a project you'd like to see here?"
-        description="Start with us now, and your work could be the next thing featured on this page."
-      />
+      <DirectAnswer text={page.directAnswer} />
+      <PortfolioPreview items={pages.portfolioItems} locale={locale} />
+      <CtaBanner title={page.ctaTitle} description={page.ctaDescription} locale={locale} />
     </>
   );
 }

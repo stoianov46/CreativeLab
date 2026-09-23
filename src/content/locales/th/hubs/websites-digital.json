@@ -1,0 +1,1435 @@
+{
+  "navLabel": "เว็บไซต์และดิจิทัล",
+  "h1": "รับออกแบบเว็บไซต์ เกาะพะงัน",
+  "primaryKeyword": "รับทำเว็บไซต์ เกาะพะงัน",
+  "metaTitle": "รับออกแบบเว็บไซต์ เกาะพะงัน | เว็บไซต์ SEO และ AI Search",
+  "metaDescription": "ออกแบบเว็บไซต์ แลนดิ้งเพจ Technical SEO และการปรับแต่งเพื่อ AI Search สำหรับธุรกิจบนเกาะพะงัน สร้างมาเพื่อยอดขายจริง ไม่ใช่แค่ความสวยงาม",
+  "directAnswer": "CreativeLAB ออกแบบและพัฒนาเว็บไซต์ให้ธุรกิจบนเกาะพะงัน ตั้งแต่แลนดิ้งเพจหน้าเดียวไปจนถึงเว็บไซต์ธุรกิจและอีคอมเมิร์ซเต็มรูปแบบ ควบคู่กับ Technical SEO และการมองเห็นบน AI Search เพื่อให้เว็บไซต์ถูกค้นเจอจริง ไม่ใช่แค่ดีไซน์สวย",
+  "heroSupport": "เว็บไซต์ แลนดิ้งเพจ SEO และการมองเห็นบน AI Search สำหรับธุรกิจที่ต้องการเว็บไซต์ที่สร้างผลลัพธ์ ไม่ใช่แค่ดูดี",
+  "heroImageAlt": "กำลังตรวจงานออกแบบเว็บไซต์บนหน้าจอแล็ปท็อป",
+  "editorialTitle": "เว็บไซต์คือโครงสร้างพื้นฐาน ไม่ใช่แค่โบรชัวร์",
+  "editorialBody": [
+    "เว็บไซต์ที่แค่บอกว่าธุรกิจของคุณทำอะไร ยังทำงานได้ไม่เต็มที่ เว็บไซต์ที่ให้ผลลัพธ์จริงถูกออกแบบตามสิ่งที่ผู้เข้าชมต้องทำต่อไป ไม่ว่าจะเป็นการจอง สอบถาม หรือสั่งซื้อ และถูกสร้างให้เสิร์ชเอนจิน รวมถึง AI Answer Engine ที่มีบทบาทมากขึ้นเรื่อยๆ เข้าใจและแนะนำได้",
+    "เราผสานงานดีไซน์ระดับพรีเมียมเข้ากับพื้นฐานทางเทคนิค ทั้งโครงสร้างที่สะอาด โหลดเร็ว Semantic HTML และ Schema ที่ถูกต้อง เพื่อให้เว็บไซต์ดูพรีเมียมและถูกมองเห็นจริงในที่ที่ลูกค้าของคุณกำลังค้นหา",
+    "None of that depends on where the business itself is based. We build for clients on Koh Phangan, Koh Samui and Koh Tao from the same process — a site doesn't need a local server room, and most of a website project (discovery calls, design review, copywriting, development) happens remotely regardless of which island you're on. Only the parts that need us physically present, like an on-site product or property shoot, involve travel and a possible travel fee.",
+    "Premium design and technical rigor aren't a trade-off here. A site can look considered and editorial — with real typographic hierarchy, deliberate spacing and imagery that's actually been shot for the business rather than pulled from a stock library — while still loading fast and validating cleanly for search engines. The two goals inform each other: a page that's been simplified for speed usually reads more clearly too.",
+    "We also treat a website as something that keeps working after launch, not a one-time deliverable. Search visibility, AI citation and page performance shift over time as algorithms and competitors change, which is why several of the services in this group — technical SEO, AI search optimization, redesign — exist as ongoing or periodic work rather than a single fixed project.",
+    "The services below cover the full range of what a business actually needs from a website, from a single focused landing page through to a full e-commerce build, plus the ongoing technical, SEO and AI-visibility work that keeps a site performing after launch. Most businesses only need one or two of these at a time — we'll help you figure out which, rather than selling the full list regardless of fit, and we're happy to talk through the options before any commitment is made."
+  ],
+  "sections": [
+    {
+      "title": "SEO and AI search are part of the build, not an add-on",
+      "body": [
+        "A site that looks good but loses its structure the moment a search engine or an AI crawler tries to parse it is only half-built. We treat semantic HTML, heading hierarchy, schema markup and page speed as design constraints from the first wireframe, not a checklist run after launch.",
+        "That matters more every year. Traditional search still sends the majority of organic traffic, but a growing share of discovery now happens through AI answer engines that summarize or cite a handful of sources instead of listing ten blue links. A site built with clear entity definitions and direct-answer content is positioned for both, which is why technical SEO and AI search optimization sit inside this same team rather than being handled as a separate afterthought project.",
+        "In practice that means a heading structure that actually maps to how a page's content is organized, a sitemap that reflects real navigation rather than every URL the CMS has ever generated, and structured data that describes services, pricing and location accurately. None of it is exotic — it's the unglamorous groundwork that makes everything built on top of it perform better.",
+        "We also check this work against real crawl and speed data rather than assumptions — running the site through the same tools search engines and performance monitors use, so a claim like \"this page loads fast\" is backed by a measurement, not a guess based on how it feels to click through on a good connection."
+      ]
+    },
+    {
+      "title": "Built around how people actually book on the islands",
+      "body": [
+        "Most visitors to a Koh Phangan, Koh Samui or Koh Tao business site are on a phone, often mid-trip-planning, often comparing a short list of options in one browsing session rather than researching over days. A site that loads slowly or buries the booking or contact action several clicks deep loses that visitor to a competitor's tab.",
+        "We design information architecture and page speed around that behavior specifically — the fastest possible path from landing on a page to inquiring, booking or calling, with the technical performance to back it up on the variable mobile connections common across the islands.",
+        "That also shapes how we think about content length and structure. A page can still say everything it needs to say while getting a visitor to the key facts — price range, location, availability, contact method — within the first screen or two, rather than making them scroll through paragraphs of introduction before reaching anything actionable.",
+        "That also shapes how we think about content length and structure. A page can still say everything it needs to say while getting a visitor to the key facts — price range, location, availability, contact method — within the first screen or two, rather than making them scroll through paragraphs of introduction before reaching anything actionable."
+      ]
+    },
+    {
+      "title": "One team across design, build and content",
+      "body": [
+        "Website projects that split design, development and copywriting across separate freelancers tend to lose coherence somewhere in the handoffs — a beautiful design that the developer can't build cleanly, or copy that doesn't fit the layout it was written for.",
+        "We keep design, development, SEO structure and content under one roof so decisions made at the wireframe stage are still intact by the time the site goes live, and so a change requested in review doesn't need to be relayed through three different people to get fixed.",
+        "This also makes a multi-service project genuinely coherent — a villa website, its photography and the advertising that drives traffic to it can be planned as one connected effort rather than three separate vendors each optimizing for their own piece without seeing the whole picture.",
+        "It also means a single point of contact throughout the project rather than being passed between a design lead, a developer and an SEO specialist who each only see their own part of the brief. Questions get answered by someone who understands the whole site, not just the piece they personally built."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "คุณพัฒนาเว็บไซต์ด้วย หรือแค่ออกแบบ?",
+      "a": "ทั้งสองอย่าง งานออกแบบและพัฒนาดูแลโดยทีมเดียวกัน เพื่อผลลัพธ์ที่สอดคล้องกันทั้งหมด"
+    },
+    {
+      "q": "คุณใช้แพลตฟอร์มอะไรในการสร้างเว็บไซต์?",
+      "a": "เราเลือกเฟรมเวิร์กที่ทันสมัย ปลอดภัยต่อ SEO และเน้น Static-first ให้เหมาะกับแต่ละโปรเจกต์ แทนที่จะใช้แพลตฟอร์มเดียวกับทุกงานโดยไม่ดูความเหมาะสม"
+    },
+    {
+      "q": "สามารถรีดีไซน์เว็บไซต์เดิมแทนการเริ่มใหม่ทั้งหมดได้ไหม?",
+      "a": "ได้ ผ่านบริการรีดีไซน์เว็บไซต์ของเรา โดยระมัดระวังไม่ให้สูญเสียคุณค่า SEO ที่มีอยู่"
+    },
+    {
+      "q": "คุณดูแลเรื่องโฮสติ้งด้วยไหม?",
+      "a": "เราสามารถตั้งค่าโฮสติ้งแล้วส่งมอบให้คุณ หรือดูแลต่อให้ก็ได้ โดยจะตกลงกันตามสิ่งที่เหมาะกับสถานการณ์ของคุณ"
+    },
+    {
+      "q": "SEO รวมอยู่ในราคาแล้ว หรือคิดค่าใช้จ่ายแยก?",
+      "a": "พื้นฐาน On-page SEO รวมอยู่ในทุกงานสร้างเว็บไซต์ ส่วนงาน Technical SEO เชิงลึกสำหรับเว็บไซต์ที่ซับซ้อนจะประเมินขอบเขตแยกต่างหาก"
+    },
+    {
+      "q": "โปรเจกต์เว็บไซต์โดยทั่วไปใช้เวลานานแค่ไหน?",
+      "a": "ตั้งแต่ 2 สัปดาห์สำหรับแลนดิ้งเพจ ไปจนถึง 6–10 สัปดาห์สำหรับเว็บไซต์หลายหน้าหรืออีคอมเมิร์ซขนาดใหญ่"
+    },
+    {
+      "q": "We're based on Koh Samui or Koh Tao — can you still build our site?",
+      "a": "Yes. Discovery, design, copy and development are handled remotely for every project; only an on-site photo or video shoot needs us to travel, and a travel fee may apply for that."
+    },
+    {
+      "q": "Can you build a site in more than one language?",
+      "a": "Yes, multilingual structure can be built in from the start if your audience needs it — tell us which languages matter for your business."
+    },
+    {
+      "q": "Do you help with the domain name and email setup?",
+      "a": "Yes, we can advise on or handle domain and business email setup as part of a build, or work with what you already have."
+    },
+    {
+      "q": "Which service is right for us if we're not sure yet?",
+      "a": "Start with Web Design or Business Websites for a new site; Redesign if you already have one that isn't performing; Landing Pages if this is specifically for an ad campaign. We can also help you decide on a short call."
+    }
+  ],
+  "finalCtaLabel": "เริ่มโปรเจกต์",
+  "services": {
+    "web-design": {
+      "navLabel": "ออกแบบเว็บไซต์",
+      "h1": "รับออกแบบเว็บไซต์ เกาะพะงัน",
+      "primaryKeyword": "รับออกแบบเว็บไซต์ เกาะพะงัน",
+      "secondaryTopics": [
+        "รับพัฒนาเว็บไซต์",
+        "เว็บไซต์ธุรกิจ"
+      ],
+      "metaTitle": "รับออกแบบเว็บไซต์ เกาะพะงัน | CreativeLAB",
+      "metaDescription": "ออกแบบเว็บไซต์สำหรับธุรกิจบนเกาะพะงัน รองรับทุกหน้าจอ พร้อมสำหรับ SEO สร้างบนประสบการณ์ผู้ใช้ที่ชัดเจนและเน้นการเปลี่ยนผู้เข้าชมเป็นลูกค้า",
+      "directAnswer": "เราออกแบบและพัฒนาเว็บไซต์ให้ธุรกิจบนเกาะพะงัน เว็บไซต์ที่รองรับทุกหน้าจอ โหลดเร็ว มีโครงสร้างข้อมูลชัดเจน และพร้อมสำหรับ SEO ตั้งแต่วันแรก ไม่ใช่มาเพิ่มทีหลัง",
+      "heroSupport": "งานออกแบบเว็บไซต์ที่รองรับทุกหน้าจอ พร้อมสำหรับ SEO และสร้างบนประสบการณ์ผู้ใช้ที่ชัดเจน",
+      "heroImageAlt": "ม็อกอัปงานออกแบบเว็บไซต์บนหน้าจอ",
+      "overview": [
+        "A website's design is a series of decisions about what a visitor sees first, what they're asked to do next, and how quickly they can do it — not a set of colors and fonts applied to a template. We start every project by mapping what the business actually needs the site to accomplish, whether that's inquiries, bookings, direct sales or simply a credible reference point for people who've already found the business elsewhere.",
+        "That decision-making shapes the visual design as much as the code. A homepage built to convert a first-time visitor into an inquiry looks different from one built to reassure a returning customer or to rank for a specific search term, and we design each page around its actual job rather than a generic template applied across every page on the site.",
+        "The build itself follows modern practice: semantic HTML, clean component structure, and performance treated as a design constraint rather than something optimized after the fact. Pages are built to load fast on the mobile connections most visitors on the islands actually use, and structured so search engines and AI crawlers can read the content correctly from day one.",
+        "We work with businesses at very different starting points — some arrive with a brand identity, photography and copy ready to go; others need all three built alongside the site. Either way, the same team handles design and development, so nothing gets lost in a handoff between separate freelancers working from different assumptions about the project.",
+        "Timelines depend on scope, but a typical web design project moves through discovery, design review and build in defined stages rather than an open-ended back-and-forth. You'll see wireframes before full visual design, and full visual design before development begins, so feedback happens at the point it's cheapest to act on rather than after the whole site is built."
+      ],
+      "scope": [
+        {
+          "title": "UX และโครงสร้างข้อมูล",
+          "description": "โครงสร้างที่ชัดเจน พาผู้เข้าชมไปยังหน้าที่ใช่ได้อย่างรวดเร็ว"
+        },
+        {
+          "title": "Responsive Design",
+          "description": "เว็บไซต์ที่ใช้งานได้ดีตั้งแต่มือถือไปจนถึงเดสก์ท็อป"
+        },
+        {
+          "title": "โครงสร้างพร้อมสำหรับ SEO",
+          "description": "Semantic HTML หัวข้อ และเมทาดาทาที่ถูกต้องตั้งแต่เริ่มต้น"
+        },
+        {
+          "title": "เน้นประสิทธิภาพตั้งแต่การพัฒนา",
+          "description": "ความเร็วในการโหลดเป็นข้อกำหนดของงานออกแบบ ไม่ใช่เรื่องที่มาคิดทีหลัง"
+        }
+      ],
+      "benefits": [
+        {
+          "title": "สร้างมาเพื่อเปลี่ยนผู้เข้าชมเป็นลูกค้า",
+          "description": "ทุกการตัดสินใจด้านดีไซน์ยึดเป้าหมายทางธุรกิจของคุณ ไม่ใช่แค่ความสวยงาม"
+        },
+        {
+          "title": "SEO ตั้งแต่วันแรก",
+          "description": "ไม่ต้องเสียค่าใช้จ่ายสูงแก้โครงสร้างและเมทาดาทาหลังเปิดตัว"
+        },
+        {
+          "title": "เร็วบนมือถือ",
+          "description": "ผู้เข้าชมส่วนใหญ่ใช้โทรศัพท์ เราจึงให้ความสำคัญกับประสิทธิภาพเป็นอันดับแรก"
+        },
+        {
+          "title": "สอดคล้องกับแบรนด์ของคุณ",
+          "description": "อัตลักษณ์ทางภาพต่อเนื่องจากสื่อการตลาดอื่นๆ ของคุณ"
+        }
+      ],
+      "process": [
+        {
+          "title": "ทำความเข้าใจ",
+          "description": "ศึกษาเป้าหมาย กลุ่มเป้าหมาย และเนื้อหาของคุณ"
+        },
+        {
+          "title": "ออกแบบ",
+          "description": "ไวร์เฟรมและงานออกแบบภาพ ตรวจทานร่วมกับคุณ"
+        },
+        {
+          "title": "พัฒนา",
+          "description": "พัฒนาเว็บไซต์โดยใส่ใจประสิทธิภาพและ SEO ตั้งแต่ต้น"
+        },
+        {
+          "title": "เปิดตัว",
+          "description": "ทดสอบ แล้วเปิดใช้งานจริงพร้อมระบบ Analytics"
+        }
+      ],
+      "pricing": [
+        {
+          "service": "ออกแบบเว็บไซต์ (แลนดิ้ง 5 หน้า)",
+          "range": "THB 40,000 – 100,000",
+          "note": "รองรับทุกหน้าจอ + พร้อมสำหรับ SEO"
+        },
+        {
+          "service": "ออกแบบเว็บไซต์ (เว็บไซต์ธุรกิจหลายหน้า)",
+          "range": "THB 90,000 – 180,000",
+          "note": "8–15 หน้า พร้อมรองรับ CMS"
+        }
+      ],
+      "useCases": [
+        {
+          "title": "ธุรกิจเปิดใหม่",
+          "description": "ตัวตนออนไลน์ที่ครบถ้วนและเป็นมืออาชีพตั้งแต่วันเปิดตัว"
+        },
+        {
+          "title": "ธุรกิจที่ยังไม่มีเว็บไซต์จริงจัง",
+          "description": "เปลี่ยนจากการมีแค่โซเชียลมีเดีย มาเป็นเว็บไซต์ที่เหมาะสม"
+        },
+        {
+          "title": "การรีแบรนด์",
+          "description": "เว็บไซต์ใหม่ที่เข้ากับอัตลักษณ์แบรนด์ที่ปรับปรุงแล้ว"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "ต้องเตรียมเนื้อหาเอง หรือคุณเขียนให้?",
+          "a": "เราเขียนคอนเทนต์ตามหลักการเขียนของเรา คุณเพียงให้ข้อเท็จจริงและข้อมูลที่เราไม่สามารถคิดขึ้นเองได้ (ราคา ใบรับรอง ฯลฯ)"
+        },
+        {
+          "q": "จะอัปเดตเว็บไซต์เองภายหลังได้ง่ายไหม?",
+          "a": "ได้ เราจัดโครงสร้างเนื้อหาให้พร้อมรองรับ CMS หรือส่งมอบให้แก้ไขได้ง่าย"
+        },
+        {
+          "q": "ทำให้เข้ากับอัตลักษณ์แบรนด์เดิมของเราได้ไหม?",
+          "a": "ได้ หรือหากยังไม่มี เราสามารถพัฒนาอัตลักษณ์แบรนด์ร่วมกันผ่านบริการสร้างแบรนด์ของเรา"
+        },
+        {
+          "q": "มีบริการถ่ายภาพสำหรับเว็บไซต์ด้วยไหม?",
+          "a": "มี ผ่านบริการถ่ายภาพของเรา หรือใช้ภาพที่คุณมีอยู่แล้วก็ได้"
+        },
+        {
+          "q": "หลังเปิดตัวมีบริการดูแลต่อไหม?",
+          "a": "เราสามารถตกลงรูปแบบการดูแลต่อเนื่อง หรือส่งมอบเอกสารทั้งหมดให้ทีมของคุณดูแลเอง"
+        },
+        {
+          "q": "แก้ไขงานได้กี่รอบ?",
+          "a": "โดยทั่วไปรวมการแก้ไขอย่างเป็นระบบ 2 รอบในขั้นตอนออกแบบ"
+        },
+        {
+          "q": "Can you build the site if our business is on Koh Samui or Koh Tao?",
+          "a": "Yes — the design and development process is remote by default; only photography or on-site work requires travel."
+        },
+        {
+          "q": "Do you optimize for AI search visibility too, or just traditional SEO?",
+          "a": "On-page SEO fundamentals cover both; deeper AI search structuring is available through our AI Search / GEO service if you want to go further."
+        }
+      ],
+      "related": [
+        {
+          "label": "แลนดิ้งเพจ",
+          "description": "ทางเลือกแบบหน้าเดียวที่เน้นเป้าหมายชัดเจน"
+        },
+        {
+          "label": "Technical SEO",
+          "description": "งาน SEO เชิงลึกสำหรับเว็บไซต์ขนาดใหญ่"
+        },
+        {
+          "label": "สร้างแบรนด์",
+          "description": "อัตลักษณ์แบรนด์ที่เป็นแนวทางให้งานออกแบบ"
+        }
+      ],
+      "finalCtaLabel": "ขอใบเสนอราคา"
+    },
+    "business-websites": {
+      "navLabel": "เว็บไซต์ธุรกิจ",
+      "h1": "รับทำเว็บไซต์ธุรกิจ เกาะพะงัน",
+      "primaryKeyword": "รับทำเว็บไซต์ธุรกิจ เกาะพะงัน",
+      "secondaryTopics": [
+        "เว็บไซต์บริษัท",
+        "เว็บไซต์ธุรกิจบริการ"
+      ],
+      "metaTitle": "รับทำเว็บไซต์ธุรกิจ เกาะพะงัน | เว็บไซต์บริษัท",
+      "metaDescription": "เว็บไซต์ธุรกิจหลายหน้าสำหรับบริษัทบนเกาะพะงัน วางโครงสร้างข้อมูล เส้นทางสู่การติดต่อ และระบบ CMS ที่พร้อมเติบโตไปกับธุรกิจ",
+      "directAnswer": "เราสร้างเว็บไซต์ธุรกิจหลายหน้าให้บริษัทบนเกาะพะงัน วางโครงสร้างข้อมูลครอบคลุมหน้าบริการ เกี่ยวกับเรา และติดต่อ บนระบบ CMS ที่ทีมของคุณอัปเดตเนื้อหาได้เอง โดยไม่ต้องพึ่งนักพัฒนาทุกครั้งที่มีการเปลี่ยนแปลง",
+      "heroSupport": "เว็บไซต์ที่มีโครงสร้างชัดเจนและพร้อมรองรับ CMS สำหรับบริษัทที่มีมากกว่าหนึ่งบริการหรือเรื่องราวที่อยากเล่า",
+      "heroImageAlt": "หน้าแรกของเว็บไซต์ธุรกิจบนจอมอนิเตอร์",
+      "overview": [
+        "A single-page landing site works when a business has one offer and one audience. Once a company has several services, multiple team members, or a story that needs more than one page to tell properly, the website needs a real structure behind it — a sitemap that reflects how the business actually operates, not a handful of sections stacked on one long page.",
+        "We start by mapping every service, audience and content type the site needs to hold, then design the navigation and internal linking so a visitor researching one service can find the related ones without hunting through a menu. That structure also does double duty for SEO — a well-organized multi-page site gives search engines a much clearer signal of what the business does than a single page trying to cover everything at once.",
+        "The CMS setup is scoped to your team's actual comfort with editing a website, not the most feature-heavy option available. Some clients want to publish new pages and journal posts independently; others just need to update contact details, hours or a services list without calling a developer every time. We build and document the system for whichever of those is true for you.",
+        "Because this sits alongside our other services, a business website rarely stands alone in practice — brand identity, photography, ongoing content and advertising all plug into the same site once it's live, and the information architecture is built with that growth in mind rather than needing to be rebuilt the first time a new service is added.",
+        "We also plan the sitemap with future pages in mind — a new service, a new team member, an added location — so growth means adding a page within the existing structure rather than a redesign of the navigation every time the business changes. That's a large part of what separates a business website from a single landing page: it's built to hold more than one story at once, and to keep holding more as the business grows."
+      ],
+      "scope": [
+        {
+          "title": "โครงสร้างข้อมูล",
+          "description": "โครงสร้างเว็บไซต์ที่เป็นระบบ ครอบคลุมหน้าบริการ เกี่ยวกับเรา และติดต่อ"
+        },
+        {
+          "title": "เส้นทางสู่การติดต่อ",
+          "description": "เส้นทางที่ชัดเจนไปสู่การสอบถามหรือติดต่อจากทุกหน้าสำคัญ"
+        },
+        {
+          "title": "ตั้งค่า CMS",
+          "description": "จัดโครงสร้างเนื้อหาให้ทีมของคุณอัปเดตได้ด้วยตัวเอง"
+        },
+        {
+          "title": "On-page SEO",
+          "description": "เมทาดาทา หัวข้อ และโครงสร้างของแต่ละหน้า"
+        }
+      ],
+      "benefits": [
+        {
+          "title": "พร้อมเติบโต",
+          "description": "โครงสร้างที่ขยายได้เมื่อบริการหรือเนื้อหาของคุณเพิ่มขึ้น"
+        },
+        {
+          "title": "อัปเดตเนื้อหาได้เอง",
+          "description": "ไม่ต้องพึ่งนักพัฒนาสำหรับการแก้ไขเนื้อหาทั่วไป"
+        },
+        {
+          "title": "เส้นทางสู่การติดต่อที่ชัดเจน",
+          "description": "ทุกหน้ามีขั้นตอนถัดไปที่ชัดเจนสำหรับผู้เข้าชม"
+        },
+        {
+          "title": "ความประทับใจแรกอย่างมืออาชีพ",
+          "description": "เว็บไซต์ที่สะท้อนความเป็นธุรกิจที่จริงจังและมั่นคง"
+        }
+      ],
+      "process": [
+        {
+          "title": "ทำความเข้าใจ",
+          "description": "วางแผนบริการ กลุ่มเป้าหมาย และความต้องการด้านเนื้อหาของคุณ"
+        },
+        {
+          "title": "วางโครงสร้างและออกแบบ",
+          "description": "โครงสร้างและงานออกแบบภาพสำหรับทั้งเว็บไซต์"
+        },
+        {
+          "title": "พัฒนาและตั้งค่า CMS",
+          "description": "พัฒนาเว็บไซต์พร้อมระบบจัดการเนื้อหาที่ทีมของคุณใช้งานได้"
+        },
+        {
+          "title": "เปิดตัวและอบรม",
+          "description": "เปิดใช้งานจริง พร้อมแนะนำวิธีจัดการเนื้อหา"
+        }
+      ],
+      "pricing": [
+        {
+          "service": "เว็บไซต์ธุรกิจ (8–12 หน้า)",
+          "range": "THB 70,000 – 140,000",
+          "note": "พร้อมรองรับ CMS รวม On-page SEO"
+        }
+      ],
+      "useCases": [
+        {
+          "title": "บริษัทที่มีหลายบริการ",
+          "description": "ธุรกิจที่มีบริการหลากหลายและต้องนำเสนอให้ชัดเจน"
+        },
+        {
+          "title": "B2B และธุรกิจบริการวิชาชีพ",
+          "description": "เว็บไซต์ที่น่าเชื่อถือและเป็นระบบสำหรับกลุ่มเป้าหมายมืออาชีพ"
+        },
+        {
+          "title": "บริษัทท้องถิ่นที่กำลังเติบโต",
+          "description": "ธุรกิจที่เติบโตเกินกว่าเว็บหน้าเดียวหรือการมีแค่โซเชียลมีเดีย"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "คุณใช้ CMS อะไร?",
+          "a": "เราเลือกระบบที่เหมาะกับความถนัดทางเทคนิคของทีมคุณและความต้องการของเว็บไซต์ พร้อมจัดทำเอกสารอย่างชัดเจนเมื่อส่งมอบ"
+        },
+        {
+          "q": "หลังเปิดตัว แก้ไขเว็บไซต์เองได้ไหม?",
+          "a": "ได้ นั่นคือจุดประสงค์ของการตั้งค่า CMS และเราจะสอนวิธีใช้งานให้"
+        },
+        {
+          "q": "คุณเขียนเนื้อหาทุกหน้าให้ไหม?",
+          "a": "ใช่ ตามหลักการเขียนของเรา โดยอิงจากข้อมูลและข้อเท็จจริงที่คุณให้มา"
+        },
+        {
+          "q": "เชื่อมต่อกับเครื่องมือที่เราใช้อยู่ (CRM ระบบจอง ฯลฯ) ได้ไหม?",
+          "a": "ในหลายกรณีได้ บอกเราว่าคุณใช้อะไรอยู่ แล้วเราจะแนะนำทางเลือกในการเชื่อมต่อ"
+        },
+        {
+          "q": "เว็บไซต์ธุรกิจโดยทั่วไปมีกี่หน้า?",
+          "a": "ส่วนใหญ่อยู่ที่ 8–15 หน้า ขึ้นอยู่กับจำนวนบริการและสาขาที่คุณมี"
+        },
+        {
+          "q": "มีบริการดูแลเว็บไซต์ต่อเนื่องหลังเปิดตัวไหม?",
+          "a": "มี เป็นบริการดูแลต่อเนื่องแบบเลือกได้"
+        },
+        {
+          "q": "Do you work with companies based on Koh Samui or Koh Tao?",
+          "a": "Yes — the discovery, design and build process runs remotely across all three islands; travel is only needed for on-site photography."
+        },
+        {
+          "q": "Can the site grow as we add more services or locations?",
+          "a": "Yes, the information architecture is planned with that growth in mind rather than needing a rebuild for every addition."
+        }
+      ],
+      "related": [
+        {
+          "label": "ออกแบบเว็บไซต์",
+          "description": "บริการออกแบบและพัฒนาหลักที่บริการนี้ต่อยอด"
+        },
+        {
+          "label": "Technical SEO",
+          "description": "การดูแล SEO เชิงลึกเมื่อเว็บไซต์เติบโต"
+        },
+        {
+          "label": "รีดีไซน์เว็บไซต์",
+          "description": "หากคุณมีเว็บไซต์อยู่แล้วและต้องการสร้างใหม่"
+        }
+      ],
+      "finalCtaLabel": "ขอใบเสนอราคา"
+    },
+    "landing-pages": {
+      "navLabel": "แลนดิ้งเพจ",
+      "h1": "รับทำแลนดิ้งเพจ เกาะพะงัน",
+      "primaryKeyword": "รับทำแลนดิ้งเพจ เกาะพะงัน",
+      "secondaryTopics": [
+        "แลนดิ้งเพจสำหรับแคมเปญ",
+        "หาลีดลูกค้า"
+      ],
+      "metaTitle": "รับทำแลนดิ้งเพจ เกาะพะงัน | หน้าเพจสำหรับแคมเปญ",
+      "metaDescription": "แลนดิ้งเพจสำหรับแคมเปญโฆษณาบนเกาะพะงัน ข้อความสอดคล้องกับโฆษณา โหลดเร็ว และสร้างมาเพื่อเปลี่ยนทราฟฟิกเป็นลีด",
+      "directAnswer": "เราออกแบบแลนดิ้งเพจสำหรับแคมเปญโฆษณาโดยเฉพาะ ข้อความสอดคล้องกับชิ้นงานโฆษณา โหลดเร็ว และมีโครงสร้างที่มุ่งสู่การกระทำเดียวที่ชัดเจน แทนการส่งทราฟฟิกที่จ่ายเงินมาไปยังหน้าแรกทั่วไป",
+      "heroSupport": "หน้าเพจที่ข้อความตรงกับโฆษณา โหลดเร็ว และมุ่งสู่การกระทำเดียวที่ชัดเจน",
+      "heroImageAlt": "งานออกแบบแลนดิ้งเพจบนแล็ปท็อปและโทรศัพท์",
+      "overview": [
+        "Sending paid traffic to a general homepage is one of the most common ways a campaign underperforms. A visitor who clicked an ad for a specific offer lands somewhere that talks about the whole business instead, has to hunt for the thing they were promised, and leaves before converting. A landing page fixes that by matching the page to the ad, not the other way around.",
+        "We build each page around a single offer and a single action — book a table, request a quote, download a guide — and strip out the navigation, secondary links and competing calls to action that dilute a generic page. Every element on the page exists to move the visitor toward that one outcome or to answer the objection most likely to stop them.",
+        "Speed matters more here than on most pages. A slow-loading landing page doesn't just lose visitors — it actively works against ad platform quality scores on Google and Meta, pushing up your cost per click. We build these pages lean specifically to protect that performance, alongside proper conversion tracking configured before the page goes live rather than bolted on afterward.",
+        "Landing pages also pair naturally with testing. Because they're focused and quick to produce, we can build variants of the same offer with different headlines, imagery or structure and let real campaign data show which one converts better, rather than guessing which version is stronger.",
+        "This service is scoped as the page itself — the design, the copy, the build and the tracking setup. It works as a standalone project if you're already running ads through another team, or as part of a combined campaign with our Advertising services, where the ad creative and the landing page are planned together from the start rather than assembled by two teams working from separate briefs."
+      ],
+      "scope": [
+        {
+          "title": "ข้อความสอดคล้องกับโฆษณา",
+          "description": "หัวข้อและเนื้อหาของหน้าสอดคล้องกับโฆษณาที่พาผู้เข้าชมมา"
+        },
+        {
+          "title": "CTA เดียวที่ชัดเจน",
+          "description": "การกระทำเดียว ไม่มีสิ่งรบกวนที่แย่งความสนใจ"
+        },
+        {
+          "title": "ตั้งค่าการติดตามผล",
+          "description": "ตั้งค่า Conversion Tracking ก่อนหน้าเพจเปิดใช้งานจริง"
+        },
+        {
+          "title": "โหลดเร็ว",
+          "description": "สร้างอย่างกระชับเพื่อรักษา Quality Score ของโฆษณาและอัตราคอนเวอร์ชัน"
+        }
+      ],
+      "benefits": [
+        {
+          "title": "อัตราคอนเวอร์ชันสูงขึ้น",
+          "description": "หน้าเพจที่ข้อความตรงกับโฆษณาให้ผลดีกว่าหน้าแรกทั่วไปอย่างสม่ำเสมอสำหรับทราฟฟิกจากโฆษณา"
+        },
+        {
+          "title": "คะแนนบนแพลตฟอร์มโฆษณาดีขึ้น",
+          "description": "แลนดิ้งเพจที่เร็วและตรงประเด็นช่วยให้โฆษณา Google/Meta มีประสิทธิภาพดีขึ้น"
+        },
+        {
+          "title": "วัดผลได้ชัดเจน",
+          "description": "ระบบติดตามผลติดตั้งตั้งแต่ต้น ไม่ใช่มาเพิ่มทีหลัง"
+        },
+        {
+          "title": "ผลิตได้รวดเร็ว",
+          "description": "หน้าเดียวที่เน้นเป้าหมายเปิดตัวได้เร็วกว่าการสร้างเว็บไซต์ใหม่ทั้งหมดมาก"
+        }
+      ],
+      "process": [
+        {
+          "title": "บรีฟ",
+          "description": "ทำความเข้าใจแคมเปญ ข้อเสนอ และกลุ่มเป้าหมาย"
+        },
+        {
+          "title": "ออกแบบ",
+          "description": "เลย์เอาต์หน้าเดียวที่มุ่งสู่เป้าหมายเดียว"
+        },
+        {
+          "title": "พัฒนาและติดตั้งการติดตามผล",
+          "description": "พัฒนาหน้าเพจพร้อมตั้งค่า Conversion Tracking"
+        },
+        {
+          "title": "เปิดตัว",
+          "description": "หน้าเพจเปิดใช้งานทันเวลาสำหรับแคมเปญ"
+        }
+      ],
+      "pricing": [
+        {
+          "service": "แลนดิ้งเพจ (ข้อเสนอเดียว)",
+          "range": "THB 15,000 – 35,000",
+          "note": "รวมการตั้งค่าการติดตามผล"
+        },
+        {
+          "service": "ชุดแลนดิ้งเพจ (หลายเวอร์ชัน)",
+          "range": "THB 30,000 – 60,000",
+          "note": "สำหรับทำ A/B Testing ข้อเสนอที่แตกต่างกัน"
+        }
+      ],
+      "useCases": [
+        {
+          "title": "แคมเปญโฆษณา",
+          "description": "หน้าเพจเฉพาะสำหรับทราฟฟิกจาก Google Ads หรือ Meta Ads"
+        },
+        {
+          "title": "ข้อเสนอตามฤดูกาล",
+          "description": "หน้าเพจสำหรับโปรโมชันเฉพาะในช่วงเวลาที่กำหนด"
+        },
+        {
+          "title": "หาลีดลูกค้า",
+          "description": "หน้าเพจที่สร้างมาเพื่อรับการสอบถามโดยเฉพาะ"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "สร้างให้เร็วสำหรับแคมเปญที่เร่งด่วนได้ไหม?",
+          "a": "ได้ โดยทั่วไปแลนดิ้งเพจหน้าเดียวส่งมอบได้เร็วกว่าโปรเจกต์เว็บไซต์เต็มรูปแบบ"
+        },
+        {
+          "q": "คุณดูแลเรื่องโฆษณาด้วยไหม?",
+          "a": "ใช่ ผ่านบริการโฆษณาของเรา แลนดิ้งเพจและแคมเปญมักถูกสร้างไปพร้อมกัน"
+        },
+        {
+          "q": "ทำแลนดิ้งเพจหลายเวอร์ชันเพื่อทดสอบได้ไหม?",
+          "a": "ได้ เราสร้างเวอร์ชันต่างๆ สำหรับการทำ A/B Testing โดยเฉพาะได้"
+        },
+        {
+          "q": "รวมชิ้นงานโฆษณาด้วยไหม?",
+          "a": "ชิ้นงานโฆษณาเป็นส่วนหนึ่งของบริการโฆษณาของเรา บริการนี้ครอบคลุมหน้าเพจที่ทราฟฟิกเข้ามา"
+        },
+        {
+          "q": "หน้าเพจนี้จะถูก Google จัดทำดัชนีไหม?",
+          "a": "เราตั้งค่าเป็น index หรือ noindex ได้ ขึ้นอยู่กับว่าคุณต้องการให้ค้นเจอแบบออร์แกนิกหรือไม่"
+        },
+        {
+          "q": "ปรับปรุงแลนดิ้งเพจที่มีอยู่แทนการสร้างใหม่ได้ไหม?",
+          "a": "ได้ เราสามารถตรวจสอบและปรับปรุงหน้าเพจเดิมแทนการเริ่มใหม่"
+        },
+        {
+          "q": "Can you build landing pages for a campaign targeting Koh Samui or Koh Tao specifically?",
+          "a": "Yes — pages can be built around a specific island or audience segment when a campaign calls for it."
+        },
+        {
+          "q": "How many page variants can be built for one campaign?",
+          "a": "As many as the testing plan calls for — most campaigns start with two or three variants before narrowing to the best performer."
+        }
+      ],
+      "related": [
+        {
+          "label": "Google Ads",
+          "description": "แคมเปญบนการค้นหาที่พาผู้เข้าชมมายังหน้านี้ได้"
+        },
+        {
+          "label": "Meta Ads",
+          "description": "แคมเปญบนโซเชียลที่พาผู้เข้าชมมายังหน้านี้ได้"
+        },
+        {
+          "label": "Performance Marketing",
+          "description": "การทดสอบและปรับปรุงอย่างต่อเนื่อง"
+        }
+      ],
+      "finalCtaLabel": "ขอใบเสนอราคา"
+    },
+    "restaurant-website": {
+      "navLabel": "เว็บไซต์ร้านอาหาร",
+      "h1": "รับพัฒนาเว็บไซต์ร้านอาหาร เกาะพะงัน",
+      "primaryKeyword": "รับทำเว็บไซต์ร้านอาหาร เกาะพะงัน",
+      "secondaryTopics": [
+        "เว็บไซต์เมนูอาหาร",
+        "ระบบสั่งอาหารออนไลน์",
+        "ระบบจองโต๊ะ"
+      ],
+      "metaTitle": "รับพัฒนาเว็บไซต์ร้านอาหาร เกาะพะงัน",
+      "metaDescription": "พัฒนาเว็บไซต์เชิงเทคนิคสำหรับร้านอาหารบนเกาะพะงัน โครงสร้างเมนู เชื่อมต่อระบบจองและสั่งอาหาร สร้างมาเพื่อประสิทธิภาพสูงสุด",
+      "directAnswer": "เราสร้างพื้นฐานทางเทคนิคของเว็บไซต์ร้านอาหาร ทั้งหน้าเว็บที่โหลดเร็ว ข้อมูลเมนูที่มีโครงสร้าง และการเชื่อมต่อกับแพลตฟอร์มจองหรือสั่งอาหารของคุณ ในรูปแบบโปรเจกต์พัฒนาแยก หรือทำงานร่วมกับทีมการตลาดอาหารและร้านอาหารของเรา",
+      "heroSupport": "พัฒนาเว็บไซต์ร้านอาหารที่เร็วและมีโครงสร้างดี เชื่อมต่อกับแพลตฟอร์มจองหรือสั่งอาหารของคุณ",
+      "heroImageAlt": "กำลังพัฒนาโครงสร้างเว็บไซต์ร้านอาหาร",
+      "overview": [
+        "A restaurant website has a narrower job than most business sites: get a hungry visitor to the menu, then to a table or an order, as fast as possible. Diners rarely browse a restaurant site the way they browse a company's about page — they're checking hours, location, the menu and whether they can book, usually on a phone, often while already deciding where to eat that evening.",
+        "We treat the menu as structured content rather than a static PDF or image dump — organized so it's fast to scan, easy for you to update seasonally, and readable by search engines, which matters for showing up when someone searches for a dish or cuisine type near them. That same structure supports schema markup, which can help the site earn richer listings in search results.",
+        "Booking and ordering integration is scoped to whatever platform the restaurant already uses or wants to move to, rather than forcing a switch to a system we prefer. The technical goal throughout is reliability and speed — a restaurant site that's slow or breaks during a dinner rush costs real bookings, so performance is treated as a hard requirement, not a nice-to-have.",
+        "This service covers the technical build specifically; it can stand alone for a restaurant that already has its brand, photography and marketing sorted, or run alongside our Food & Restaurants team when a restaurant wants the website built as part of a wider marketing push across menu design, photography and social content.",
+        "It also applies across formats a restaurant might run — a full-service dining site, a café with a simpler single-page presence, or a delivery-and-takeaway-led menu where ordering speed matters more than atmosphere photography. We scope the technical build to match the format rather than applying the same structure regardless of what kind of restaurant it's built for."
+      ],
+      "scope": [
+        {
+          "title": "โครงสร้างข้อมูลเมนู",
+          "description": "จัดโครงสร้างเนื้อหาเมนูให้อัปเดตง่ายและดีต่อ SEO"
+        },
+        {
+          "title": "เชื่อมต่อระบบจอง/สั่งอาหาร",
+          "description": "เชื่อมต่อแพลตฟอร์มจองโต๊ะหรือเดลิเวอรีที่คุณเลือก"
+        },
+        {
+          "title": "ปรับแต่งประสิทธิภาพ",
+          "description": "โหลดเร็ว โดยเฉพาะบนมือถือ"
+        },
+        {
+          "title": "พื้นฐาน SEO",
+          "description": "Schema และเมทาดาทาที่เหมาะกับพฤติกรรมการค้นหาร้านอาหาร"
+        }
+      ],
+      "benefits": [
+        {
+          "title": "เสถียรทางเทคนิค",
+          "description": "เว็บไซต์ที่พัฒนาอย่างถูกต้อง แทนหน้าเว็บจาก Page Builder ที่เปราะบาง"
+        },
+        {
+          "title": "ใช้งานบนมือถือได้เร็วกว่า",
+          "description": "ลูกค้าส่วนใหญ่เปิดดูเว็บไซต์ร้านอาหารบนโทรศัพท์"
+        },
+        {
+          "title": "มีโครงสร้างที่ดีต่อการค้นหา",
+          "description": "Schema เฉพาะสำหรับร้านอาหารช่วยให้แสดงผลการค้นหาแบบ Rich Results"
+        },
+        {
+          "title": "ใช้ได้กับเครื่องมือที่คุณมีอยู่",
+          "description": "เชื่อมต่อกับระบบจองหรือสั่งอาหารที่คุณใช้อยู่แล้ว"
+        }
+      ],
+      "process": [
+        {
+          "title": "กำหนดขอบเขตทางเทคนิค",
+          "description": "ยืนยันการเชื่อมต่อแพลตฟอร์มและข้อกำหนดด้านประสิทธิภาพ"
+        },
+        {
+          "title": "พัฒนา",
+          "description": "พัฒนาพื้นฐานทางเทคนิคของเว็บไซต์"
+        },
+        {
+          "title": "เชื่อมต่อ",
+          "description": "เชื่อมต่อระบบจอง/สั่งอาหาร และแหล่งข้อมูลเมนู"
+        },
+        {
+          "title": "เปิดตัวและทดสอบ",
+          "description": "ทดสอบประสิทธิภาพและการทำงานก่อนเปิดใช้งานจริง"
+        }
+      ],
+      "pricing": [
+        {
+          "service": "พัฒนาเว็บไซต์ร้านอาหาร",
+          "range": "THB 35,000 – 80,000",
+          "note": "งานพัฒนาเชิงเทคนิค รวมการเชื่อมต่อระบบ"
+        }
+      ],
+      "useCases": [
+        {
+          "title": "ร้านอาหารที่ต้องการสร้างเว็บไซต์ใหม่ทางเทคนิค",
+          "description": "แทนที่เว็บไซต์เดิมที่ช้าหรือไม่เสถียร"
+        },
+        {
+          "title": "กลุ่มร้านอาหารที่มีหลายสาขา",
+          "description": "แพลตฟอร์มทางเทคนิคที่สอดคล้องกันทุกสาขา"
+        },
+        {
+          "title": "ร้านอาหารที่เพิ่มระบบสั่งออนไลน์",
+          "description": "เชื่อมต่อระบบสั่งอาหารใหม่เข้ากับเว็บไซต์"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "บริการนี้ต่างจากบริการเว็บไซต์ในหมวดอาหารและร้านอาหารอย่างไร?",
+          "a": "บริการนี้คืองานพัฒนาเชิงเทคนิค ส่วนเวอร์ชันในหมวดอาหารและร้านอาหารจะรวมงานนี้เข้ากับกลยุทธ์เมนูและการตลาดสำหรับร้านอาหารโดยเฉพาะ"
+        },
+        {
+          "q": "เชื่อมต่อกับระบบ POS หรือระบบสั่งอาหารที่เราใช้อยู่ได้ไหม?",
+          "a": "ส่วนใหญ่ได้ บอกเราว่าคุณใช้อะไรอยู่ แล้วเราจะยืนยันทางเลือกในการเชื่อมต่อ"
+        },
+        {
+          "q": "คุณออกแบบเว็บไซต์ด้วย หรือแค่พัฒนา?",
+          "a": "เราดูแลทั้งการออกแบบและพัฒนา หรือพัฒนาจากดีไซน์ที่คุณมีอยู่แล้วก็ได้"
+        },
+        {
+          "q": "เว็บไซต์จะโหลดเร็วแค่ไหน?",
+          "a": "เราตั้งเป้าคะแนน Core Web Vitals ที่ดีเป็นข้อกำหนดหลัก ไม่ใช่เรื่องที่มาคิดทีหลัง"
+        },
+        {
+          "q": "อัปเดตเมนูเองได้โดยไม่ต้องพึ่งนักพัฒนาไหม?",
+          "a": "ได้ เนื้อหาเมนูถูกจัดโครงสร้างให้ทีมของคุณแก้ไขได้เอง"
+        },
+        {
+          "q": "รองรับเมนูหลายภาษาไหม?",
+          "a": "รองรับ โครงสร้างทางเทคนิครองรับหลายภาษาเมื่อจำเป็น"
+        },
+        {
+          "q": "Do you build restaurant websites for businesses on Koh Samui or Koh Tao too?",
+          "a": "Yes — the build process is the same across all three islands; on-site food photography is the main reason we'd need to travel."
+        },
+        {
+          "q": "Can the site show real-time table availability?",
+          "a": "That depends on the booking platform's capabilities — where it supports it, we integrate that directly into the site."
+        }
+      ],
+      "related": [
+        {
+          "label": "เว็บไซต์ร้านอาหาร",
+          "description": "บริการเดียวกันในเวอร์ชันที่เน้นการตลาด"
+        },
+        {
+          "label": "Technical SEO",
+          "description": "การดูแล SEO เชิงลึกหากจำเป็น"
+        },
+        {
+          "label": "ออกแบบเมนู",
+          "description": "งานออกแบบเมนูเพื่อนำไปใช้บนเว็บไซต์"
+        }
+      ],
+      "finalCtaLabel": "ขอใบเสนอราคา"
+    },
+    "villa-website": {
+      "navLabel": "เว็บไซต์วิลล่า",
+      "h1": "รับพัฒนาเว็บไซต์วิลล่า เกาะพะงัน",
+      "primaryKeyword": "รับทำเว็บไซต์วิลล่า เกาะพะงัน",
+      "secondaryTopics": [
+        "เว็บไซต์อสังหาริมทรัพย์",
+        "ระบบจอง"
+      ],
+      "metaTitle": "รับพัฒนาเว็บไซต์วิลล่า เกาะพะงัน",
+      "metaDescription": "เว็บไซต์วิลล่าและอสังหาริมทรัพย์บนเกาะพะงัน แกลเลอรี ข้อมูลที่พัก และเชื่อมต่อระบบจองหรือสอบถาม สร้างมาเพื่อประสิทธิภาพสูงสุด",
+      "directAnswer": "เราสร้างเว็บไซต์ให้วิลล่าเดี่ยวและพอร์ตอสังหาริมทรัพย์ขนาดเล็กบนเกาะพะงัน ด้วยแกลเลอรีภาพที่โดดเด่น ข้อมูลที่พักชัดเจน และเส้นทางตรงสู่การสอบถามหรือจอง พัฒนาให้โหลดเร็วบนเครือข่ายมือถือที่นักเดินทางส่วนใหญ่ใช้",
+      "heroSupport": "เว็บไซต์วิลล่าที่เน้นแกลเลอรี พร้อมเส้นทางที่ชัดเจนและรวดเร็วสู่การสอบถามหรือจอง",
+      "heroImageAlt": "แกลเลอรีเว็บไซต์วิลล่าบนหน้าจอ",
+      "overview": [
+        "A villa is sold on how it feels, and that's mostly conveyed through imagery — so a villa website lives or dies on how well it presents a photo and video gallery, and how fast that gallery loads for someone browsing on a hotel Wi-Fi connection or mobile data from another country. We build the gallery experience first and design the rest of the site to support it, not compete with it.",
+        "Beyond the gallery, the site needs to answer the practical questions a traveller has before they'll commit to booking or inquiring — number of rooms, amenities, location relative to the beach or town, and how to actually reach the property. We lay that information out clearly rather than burying it in a long paragraph, and give every page one obvious next step: inquire, check availability, or book.",
+        "Villas across Koh Phangan, Koh Samui and Koh Tao are marketed to a similar audience — travellers comparing a shortlist of properties, often through Airbnb, Booking.com or a villa rental agent, before deciding whether to also look at the owner's own site. A dedicated villa website doesn't replace those listing platforms; it gives the owner a direct booking channel that isn't paying a platform commission on every reservation.",
+        "We integrate the site with whichever booking or inquiry system the property already uses, and can embed a 360° virtual tour where one exists. For portfolios covering more than one property, we build a shared site structure so each villa gets its own gallery and page without duplicating the surrounding site design for every listing.",
+        "Photography and video are usually the deciding factor in how well a villa site performs, so this service pairs naturally with our Villa Photography and Property Video work — either commissioned specifically for the site or reused from existing shoots where the material is strong enough to carry a premium presentation."
+      ],
+      "scope": [
+        {
+          "title": "แกลเลอรีภาพและวิดีโอ",
+          "description": "การนำเสนอที่พักที่โหลดเร็วและจัดระเบียบอย่างดี"
+        },
+        {
+          "title": "ข้อมูลที่พัก",
+          "description": "เลย์เอาต์ที่ชัดเจนของห้องพัก สิ่งอำนวยความสะดวก และข้อมูลทำเล"
+        },
+        {
+          "title": "เชื่อมต่อระบบจอง/สอบถาม",
+          "description": "เชื่อมต่อโดยตรงกับแพลตฟอร์มจองหรือแบบฟอร์มสอบถามของคุณ"
+        },
+        {
+          "title": "ฝัง Virtual Tour",
+          "description": "รองรับการฝังทัวร์ 360° หากคุณมีอยู่แล้ว"
+        }
+      ],
+      "benefits": [
+        {
+          "title": "นำเสนอที่พักในมุมที่ดีที่สุด",
+          "description": "โครงสร้างที่ให้แกลเลอรีมาก่อน เหมาะกับวิธีที่นักเดินทางใช้พิจารณาวิลล่า"
+        },
+        {
+          "title": "เร็วบนเครือข่ายมือถือ",
+          "description": "สร้างมาสำหรับนักเดินทางที่ใช้เครือข่ายมือถือที่ไม่คงที่"
+        },
+        {
+          "title": "ขั้นตอนถัดไปที่ชัดเจนเพียงหนึ่งเดียว",
+          "description": "เส้นทางตรงและไม่กำกวมสู่การสอบถามหรือจอง"
+        },
+        {
+          "title": "ใช้ได้กับระบบจองของคุณ",
+          "description": "เชื่อมต่อกับแพลตฟอร์มที่คุณใช้อยู่แล้ว"
+        }
+      ],
+      "process": [
+        {
+          "title": "ทำความเข้าใจ",
+          "description": "ศึกษาที่พัก กลุ่มเป้าหมาย และขั้นตอนการจอง"
+        },
+        {
+          "title": "ออกแบบ",
+          "description": "เลย์เอาต์ที่เน้นแกลเลอรีให้เข้ากับเอกลักษณ์ของที่พัก"
+        },
+        {
+          "title": "พัฒนาและเชื่อมต่อ",
+          "description": "พัฒนาเว็บไซต์พร้อมเชื่อมต่อระบบจอง/สอบถาม"
+        },
+        {
+          "title": "เปิดตัว",
+          "description": "ทดสอบและเปิดใช้งานจริง รวมถึงบนเครือข่ายมือถือ"
+        }
+      ],
+      "pricing": [
+        {
+          "service": "เว็บไซต์วิลล่า (ที่พักเดียว)",
+          "range": "THB 35,000 – 75,000",
+          "note": "แกลเลอรี ข้อมูลที่พัก เชื่อมต่อระบบจอง"
+        },
+        {
+          "service": "เว็บไซต์พอร์ตวิลล่า",
+          "range": "THB 60,000 – 130,000",
+          "note": "หลายที่พัก บนแพลตฟอร์มเดียวกัน"
+        }
+      ],
+      "useCases": [
+        {
+          "title": "เจ้าของวิลล่าอิสระ",
+          "description": "เว็บไซต์ของตัวเองที่มากกว่าการลงประกาศบนแพลตฟอร์ม"
+        },
+        {
+          "title": "พอร์ตอสังหาริมทรัพย์ขนาดเล็ก",
+          "description": "เว็บไซต์เดียวที่นำเสนอวิลล่าหลายหลัง"
+        },
+        {
+          "title": "วิลล่าที่ประกาศขาย",
+          "description": "เว็บไซต์ที่เน้นการตลาดสำหรับอสังหาริมทรัพย์ที่กำลังขาย"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "เว็บไซต์นี้ใช้แทนหรือเสริมประกาศบน Airbnb ของเราได้ไหม?",
+          "a": "เป็นการเสริม เว็บไซต์ของตัวเองช่วยสร้างการจองตรงควบคู่ไปกับประกาศบนแพลตฟอร์ม"
+        },
+        {
+          "q": "รวมการถ่ายภาพด้วยไหม?",
+          "a": "รวมได้ ผ่านบริการถ่ายภาพวิลล่าและวิดีโออสังหาริมทรัพย์ของเรา หรือใช้ภาพและวิดีโอที่คุณมีอยู่แล้ว"
+        },
+        {
+          "q": "ฝัง Virtual Tour 360 ได้ไหม?",
+          "a": "ได้ หากคุณมีทัวร์จากบริการ Virtual Tour ของเราหรือจากที่อื่น"
+        },
+        {
+          "q": "เชื่อมต่อกับระบบจองอะไรได้บ้าง?",
+          "a": "เครื่องมือจองและสอบถามที่ใช้กันทั่วไปส่วนใหญ่ บอกเราว่าคุณใช้อะไรอยู่ แล้วเราจะยืนยันความเข้ากันได้"
+        },
+        {
+          "q": "เว็บไซต์จะใช้งานได้ดีสำหรับผู้เข้าชมต่างชาติที่อินเทอร์เน็ตช้าไหม?",
+          "a": "ได้ ประสิทธิภาพบนความเร็วอินเทอร์เน็ตที่หลากหลายเป็นสิ่งที่เราให้ความสำคัญเป็นพิเศษสำหรับเว็บไซต์ประเภทนี้"
+        },
+        {
+          "q": "ทำเป็นเว็บไซต์หลายภาษาได้ไหม?",
+          "a": "ได้ หากกลุ่มแขกของคุณต้องการมากกว่าหนึ่งภาษา"
+        },
+        {
+          "q": "Do you build villa websites for properties on Koh Samui or Koh Tao?",
+          "a": "Yes — we work with villa owners across all three islands; an on-site shoot involves travel and a possible travel fee."
+        },
+        {
+          "q": "Can the site show live availability from our booking calendar?",
+          "a": "Where the booking platform supports it, yes — we connect the calendar so availability stays accurate without manual updates."
+        }
+      ],
+      "related": [
+        {
+          "label": "ถ่ายภาพวิลล่า",
+          "description": "งานถ่ายภาพเบื้องหลังแกลเลอรี"
+        },
+        {
+          "label": "Virtual Tour",
+          "description": "ทัวร์ 360 สำหรับฝังบนเว็บไซต์"
+        },
+        {
+          "label": "การตลาดอสังหาริมทรัพย์",
+          "description": "การตลาดครบวงจรที่สร้างรอบเว็บไซต์"
+        }
+      ],
+      "finalCtaLabel": "ขอใบเสนอราคา"
+    },
+    "ecommerce": {
+      "navLabel": "อีคอมเมิร์ซ",
+      "h1": "รับพัฒนาเว็บไซต์อีคอมเมิร์ซ เกาะพะงัน",
+      "primaryKeyword": "รับทำเว็บไซต์ขายของออนไลน์ เกาะพะงัน",
+      "secondaryTopics": [
+        "ร้านค้าออนไลน์",
+        "เว็บไซต์สินค้า"
+      ],
+      "metaTitle": "เว็บไซต์อีคอมเมิร์ซ เกาะพะงัน | ร้านค้าออนไลน์",
+      "metaDescription": "พัฒนาเว็บไซต์อีคอมเมิร์ซสำหรับธุรกิจบนเกาะพะงัน แคตตาล็อกสินค้า ระบบชำระเงิน และประสบการณ์ช้อปปิ้งที่ออกแบบสำหรับมือถือก่อน",
+      "directAnswer": "เราสร้างเว็บไซต์อีคอมเมิร์ซให้ธุรกิจบนเกาะพะงันที่ขายสินค้าออนไลน์ ด้วยแคตตาล็อกสินค้าที่ชัดเจน ขั้นตอนชำระเงินที่ตรงไปตรงมา และประสบการณ์ช้อปปิ้งที่ออกแบบสำหรับมือถือก่อน บนแพลตฟอร์มที่ทีมของคุณจัดการได้เอง",
+      "heroSupport": "แคตตาล็อกสินค้าและระบบชำระเงินที่สร้างตามวิธีที่ลูกค้าช้อปปิ้งบนโทรศัพท์จริงๆ",
+      "heroImageAlt": "แคตตาล็อกสินค้าอีคอมเมิร์ซบนโทรศัพท์",
+      "overview": [
+        "Selling online adds real complexity beyond a normal business website — a product catalog that needs regular updates, a checkout that has to work reliably with real payments, and shipping or delivery logic that varies depending on where a customer is ordering from. We scope each of those separately rather than treating an online shop as a slightly bigger brochure site.",
+        "Most shopping traffic today arrives on a phone, so the catalog browsing and checkout flow are designed mobile-first rather than adapted from a desktop layout afterward. Every extra step or unclear field in a checkout is a chance for a customer to abandon the purchase, so we keep that path as short and as clear as the product range allows.",
+        "The platform is chosen so your team can manage products, prices and stock without needing a developer for routine changes, and configured with the payment and shipping options that suit customers ordering from within Thailand and from abroad. For businesses shipping between the islands or to mainland customers, shipping rules are set up to reflect that reality rather than a single flat rate that doesn't fit.",
+        "An online shop rarely launches in isolation — it usually needs traffic to actually sell anything, so we design the catalog structure to work well with the advertising and social content that will drive visitors to it, and can build the campaigns and landing pages alongside the store itself if that's part of the brief.",
+        "Catalog size shapes a lot of the scoping decisions — a small, curated product range needs a very different structure from a large multi-category shop, and we plan navigation, filtering and search around whichever of those actually reflects the business, rather than over-building a small shop with features it will never need."
+      ],
+      "scope": [
+        {
+          "title": "แคตตาล็อกสินค้า",
+          "description": "การจัดหมวดหมู่และการนำเสนอสินค้าที่ชัดเจน"
+        },
+        {
+          "title": "ขั้นตอนชำระเงิน",
+          "description": "เส้นทางสู่การซื้อที่ตรงไปตรงมาและไม่ติดขัด"
+        },
+        {
+          "title": "เชื่อมต่อระบบชำระเงิน",
+          "description": "เชื่อมต่อผู้ให้บริการชำระเงินที่เหมาะกับธุรกิจของคุณ"
+        },
+        {
+          "title": "UX ที่ออกแบบสำหรับมือถือก่อน",
+          "description": "ประสบการณ์ช้อปปิ้งที่ออกแบบสำหรับหน้าจอโทรศัพท์เป็นอันดับแรก"
+        }
+      ],
+      "benefits": [
+        {
+          "title": "ลดการทิ้งตะกร้าสินค้า",
+          "description": "ขั้นตอนชำระเงินที่สะอาดและเรียบง่ายช่วยลดอุปสรรค ณ จุดขาย"
+        },
+        {
+          "title": "จัดการสินค้าได้ง่ายขึ้น",
+          "description": "แพลตฟอร์มที่ทีมของคุณอัปเดตได้โดยไม่ต้องพึ่งนักพัฒนาสำหรับงานทั่วไป"
+        },
+        {
+          "title": "สร้างมาเพื่อนักช้อปบนมือถือ",
+          "description": "ทราฟฟิกช้อปปิ้งออนไลน์ส่วนใหญ่มาจากโทรศัพท์"
+        },
+        {
+          "title": "พื้นฐานที่ขยายได้",
+          "description": "โครงสร้างที่เติบโตไปพร้อมกับจำนวนสินค้าของคุณ"
+        }
+      ],
+      "process": [
+        {
+          "title": "ทำความเข้าใจ",
+          "description": "ศึกษาสินค้า ขนาดแคตตาล็อก และความต้องการด้านการชำระเงินของคุณ"
+        },
+        {
+          "title": "ออกแบบ",
+          "description": "UX ของแคตตาล็อกและขั้นตอนชำระเงินที่ออกแบบตามสินค้าของคุณ"
+        },
+        {
+          "title": "พัฒนาและเชื่อมต่อ",
+          "description": "พัฒนาเว็บไซต์พร้อมเชื่อมต่อระบบชำระเงินและสต็อกสินค้า"
+        },
+        {
+          "title": "เปิดตัว",
+          "description": "ทดสอบบนทุกอุปกรณ์ก่อนเปิดใช้งานจริง"
+        }
+      ],
+      "pricing": [
+        {
+          "service": "เว็บไซต์อีคอมเมิร์ซ (แคตตาล็อกขนาดเล็ก)",
+          "range": "THB 60,000 – 120,000",
+          "note": "สูงสุดประมาณ ~50 สินค้า"
+        },
+        {
+          "service": "เว็บไซต์อีคอมเมิร์ซ (แคตตาล็อกขนาดใหญ่)",
+          "range": "THB 120,000 – 220,000",
+          "note": "50+ สินค้า แคตตาล็อกที่ซับซ้อนกว่า"
+        }
+      ],
+      "useCases": [
+        {
+          "title": "แบรนด์สินค้าท้องถิ่น",
+          "description": "ขายสินค้าจับต้องได้ให้ลูกค้าโดยตรงทางออนไลน์"
+        },
+        {
+          "title": "ธุรกิจที่เพิ่มช่องทางขายออนไลน์",
+          "description": "จากการขายหน้าร้านอย่างเดียว สู่การขายออนไลน์ด้วย"
+        },
+        {
+          "title": "ร้านค้าที่มีสินค้าหลากหลาย",
+          "description": "แคตตาล็อกที่เป็นระบบสำหรับสินค้าจำนวนมาก"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "เชื่อมต่อผู้ให้บริการชำระเงินรายใดได้บ้าง?",
+          "a": "ผู้ให้บริการทั่วไปที่เหมาะกับลูกค้าชาวไทยและต่างชาติ บอกเราว่าคุณต้องการแบบไหน แล้วเราจะยืนยันความเข้ากันได้"
+        },
+        {
+          "q": "จัดการสินค้าและสต็อกเองได้ไหม?",
+          "a": "ได้ แพลตฟอร์มถูกตั้งค่าให้ทีมของคุณจัดการแคตตาล็อกได้โดยตรง"
+        },
+        {
+          "q": "คุณดูแลเรื่องการคำนวณค่าจัดส่งด้วยไหม?",
+          "a": "ใช่ เราตั้งค่าตัวเลือกและอัตราค่าจัดส่งเป็นส่วนหนึ่งของงานพัฒนา"
+        },
+        {
+          "q": "เชื่อมต่อกับระบบ POS ที่มีอยู่ได้ไหม?",
+          "a": "ในหลายกรณีได้ บอกเราว่าคุณใช้อะไรอยู่ แล้วเราจะแนะนำเรื่องการเชื่อมต่อ"
+        },
+        {
+          "q": "การพัฒนาอีคอมเมิร์ซใช้เวลานานแค่ไหน?",
+          "a": "โดยทั่วไป 6–10 สัปดาห์ ขึ้นอยู่กับขนาดแคตตาล็อกและการเชื่อมต่อระบบ"
+        },
+        {
+          "q": "มีบริการดูแลต่อเนื่องหลังเปิดตัวไหม?",
+          "a": "มี เป็นบริการแบบเลือกได้สำหรับการอัปเดตและดูแลระบบ"
+        },
+        {
+          "q": "Can you set up shipping between the islands, or only within Koh Phangan?",
+          "a": "Yes — shipping and delivery rules can be configured for inter-island orders and mainland or international shipping as needed."
+        },
+        {
+          "q": "Do you build the marketing to drive traffic to the shop, or only the shop itself?",
+          "a": "Both are available — the store can be built standalone, or alongside advertising and social content through our other services."
+        }
+      ],
+      "related": [
+        {
+          "label": "ออกแบบเว็บไซต์",
+          "description": "บริการออกแบบเว็บไซต์ในภาพรวมของเรา"
+        },
+        {
+          "label": "แลนดิ้งเพจ",
+          "description": "สำหรับโปรโมตสินค้าหรือข้อเสนอเฉพาะ"
+        },
+        {
+          "label": "Meta Ads",
+          "description": "เพิ่มทราฟฟิกสู่ร้านค้าออนไลน์ของคุณ"
+        }
+      ],
+      "finalCtaLabel": "ขอใบเสนอราคา"
+    },
+    "redesign": {
+      "navLabel": "รีดีไซน์เว็บไซต์",
+      "h1": "รับรีดีไซน์เว็บไซต์ เกาะพะงัน",
+      "primaryKeyword": "รีดีไซน์เว็บไซต์ เกาะพะงัน",
+      "secondaryTopics": [
+        "ปรับปรุง UX เว็บไซต์",
+        "ปรับปรุงประสิทธิภาพเว็บไซต์"
+      ],
+      "metaTitle": "รีดีไซน์เว็บไซต์ เกาะพะงัน | UX และย้าย SEO",
+      "metaDescription": "รีดีไซน์เว็บไซต์สำหรับธุรกิจบนเกาะพะงัน ตรวจสอบ ปรับโครงสร้าง และสร้างใหม่ โดยไม่สูญเสียคุณค่า SEO ที่มีอยู่",
+      "directAnswer": "เรารีดีไซน์เว็บไซต์เดิมให้ธุรกิจบนเกาะพะงัน ตรวจสอบสิ่งที่ยังให้ผลไม่ดี ปรับโครงสร้างเนื้อหาและดีไซน์ และย้ายระบบอย่างระมัดระวัง เพื่อไม่ให้คุณค่า SEO ที่คุณสร้างมาสูญหายไประหว่างทาง",
+      "heroSupport": "การรีดีไซน์อย่างรอบคอบ แก้สิ่งที่ยังให้ผลไม่ดี โดยไม่สูญเสียคุณค่า SEO ที่มีอยู่",
+      "heroImageAlt": "เปรียบเทียบเว็บไซต์ก่อนและหลังรีดีไซน์",
+      "overview": [
+        "An outdated-looking website isn't always the real problem. Sometimes a site's visual style is fine but its structure confuses visitors, its pages load slowly, or years of ad hoc edits have left the technical SEO in poor shape without anyone noticing. Redesigning based on appearance alone risks fixing the wrong thing and repeating the same underlying issues in a newer coat of paint.",
+        "We start with an audit — of analytics, user behavior where available, and the site's technical SEO health — before deciding what actually needs to change. That turns the redesign into a project with a clear brief: which pages are underperforming, why, and what the new structure needs to fix, rather than a subjective visual refresh.",
+        "Migration is the part of a redesign most likely to go wrong if it's rushed. A site that's accumulated organic rankings over time can lose a meaningful share of that traffic through a careless relaunch — broken URLs, missing redirects, or content quietly dropped in the rebuild. We treat proper redirects and technical checks as a core part of the project, not an afterthought handled the night before launch.",
+        "A redesign is also a natural point to build in things the original site never had — AI search readiness, better Core Web Vitals, a CMS your team can actually use, or a rebrand that's happened since the site was first built. We scope those additions into the same project when they make sense, rather than treating the redesign as a like-for-like swap of the old pages.",
+        "We're honest about what a redesign can and can't fix. If the underlying problem is a lack of demand or an off-target offer rather than the website itself, no amount of restructuring will solve it — the audit stage is where that distinction gets made, so the project targets a real, addressable problem."
+      ],
+      "scope": [
+        {
+          "title": "ตรวจสอบ",
+          "description": "ค้นหาสิ่งที่ยังให้ผลไม่ดีทั้งด้านดีไซน์ เนื้อหา และโครงสร้างทางเทคนิค"
+        },
+        {
+          "title": "ปรับโครงสร้าง",
+          "description": "ปรับโครงสร้างข้อมูลใหม่ตามผลการตรวจสอบ"
+        },
+        {
+          "title": "รีดีไซน์",
+          "description": "งานออกแบบภาพใหม่ที่สอดคล้องกับแบรนด์ปัจจุบันของคุณ"
+        },
+        {
+          "title": "ย้ายระบบอย่างปลอดภัย",
+          "description": "Redirect และการตรวจสอบทางเทคนิค เพื่อให้คุณค่า SEO ส่งต่อไปยังเว็บใหม่"
+        }
+      ],
+      "benefits": [
+        {
+          "title": "แก้สิ่งที่เป็นปัญหาจริง",
+          "description": "การตรวจสอบทำให้การรีดีไซน์แก้ปัญหาที่เกิดขึ้นจริง ไม่ใช่ปัญหาที่คาดเดาเอา"
+        },
+        {
+          "title": "ย้ายระบบอย่างปลอดภัยต่อ SEO",
+          "description": "Redirect อย่างรอบคอบช่วยปกป้องอันดับการค้นหาเดิมระหว่างการเปลี่ยนผ่าน"
+        },
+        {
+          "title": "ทันสมัยขึ้นโดยไม่ต้องเริ่มใหม่",
+          "description": "เก็บสิ่งที่ได้ผลไว้ และปรับปรุงสิ่งที่ยังไม่ได้ผล"
+        },
+        {
+          "title": "ประสิทธิภาพดีขึ้น",
+          "description": "โอกาสในการแก้หนี้ทางเทคนิคที่สะสมมาตลอดเวลา"
+        }
+      ],
+      "process": [
+        {
+          "title": "ตรวจสอบ",
+          "description": "ทบทวนข้อมูล Analytics ผลลัพธ์ SEO และความคิดเห็นของผู้ใช้ต่อเว็บไซต์ปัจจุบัน"
+        },
+        {
+          "title": "วางแผน",
+          "description": "กำหนดว่าอะไรจะเปลี่ยน และอะไรจะเก็บไว้"
+        },
+        {
+          "title": "รีดีไซน์และสร้างใหม่",
+          "description": "ออกแบบและพัฒนาเว็บไซต์เวอร์ชันใหม่"
+        },
+        {
+          "title": "ย้ายระบบ",
+          "description": "เปิดตัวอย่างระมัดระวัง พร้อม Redirect และการติดตามผล"
+        }
+      ],
+      "pricing": [
+        {
+          "service": "ตรวจสอบเว็บไซต์เพื่อรีดีไซน์",
+          "range": "THB 10,000 – 20,000",
+          "note": "ครั้งเดียว พร้อมแผนปฏิบัติงานเป็นลายลักษณ์อักษร"
+        },
+        {
+          "service": "รีดีไซน์และสร้างใหม่ทั้งหมด",
+          "range": "THB 60,000 – 150,000",
+          "note": "ขึ้นอยู่กับขนาดและความซับซ้อนของเว็บไซต์"
+        }
+      ],
+      "useCases": [
+        {
+          "title": "เว็บไซต์ที่ล้าสมัย",
+          "description": "เว็บไซต์ที่ไม่สะท้อนธุรกิจหรือให้ผลลัพธ์ที่ดีอีกต่อไป"
+        },
+        {
+          "title": "เว็บไซต์ที่การมองเห็นบนการค้นหาลดลง",
+          "description": "การรีดีไซน์ที่แก้ปัญหา Technical SEO ที่ซ่อนอยู่"
+        },
+        {
+          "title": "การรีแบรนด์",
+          "description": "ปรับเว็บไซต์เดิมให้สอดคล้องกับอัตลักษณ์ทางภาพใหม่"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "เราจะเสียอันดับการค้นหาปัจจุบันระหว่างรีดีไซน์ไหม?",
+          "a": "ไม่ หากย้ายระบบอย่างระมัดระวัง Redirect ที่ถูกต้องและการตรวจสอบทางเทคนิคคือหัวใจของวิธีที่เราทำงานนี้"
+        },
+        {
+          "q": "เนื้อหาเดิมจะถูกเก็บไว้บ้างไหม?",
+          "a": "เก็บไว้ในส่วนที่ยังให้ผลดี การตรวจสอบจะระบุว่าอะไรควรเก็บ ปรับปรุง หรือแทนที่"
+        },
+        {
+          "q": "คุณตัดสินใจอย่างไรว่าอะไรต้องเปลี่ยน?",
+          "a": "จากการตรวจสอบข้อมูล Analytics พฤติกรรมผู้ใช้ และ Technical SEO ไม่ใช่แค่ความชอบด้านภาพ"
+        },
+        {
+          "q": "รวมการปรับปรุง Technical SEO ทั้งหมดได้ไหม?",
+          "a": "ได้ มักทำควบคู่กันเมื่อวางแผนรีดีไซน์"
+        },
+        {
+          "q": "โปรเจกต์รีดีไซน์ใช้เวลานานแค่ไหน?",
+          "a": "โดยทั่วไป 6–12 สัปดาห์ ขึ้นอยู่กับขนาดและความซับซ้อนของเว็บไซต์"
+        },
+        {
+          "q": "มีข้อมูลประสิทธิภาพก่อน/หลังให้ไหม?",
+          "a": "มี เราติดตามตัวชี้วัดสำคัญทั้งก่อนและหลังเปิดตัวเพื่อวัดผลกระทบ"
+        },
+        {
+          "q": "Can a redesign also improve our AI search visibility?",
+          "a": "Yes, we can build in the entity clarity and structured direct-answer content that AI search optimization relies on."
+        },
+        {
+          "q": "Do you redesign sites for businesses outside Koh Phangan too?",
+          "a": "Yes, we take on redesign projects for businesses on Koh Samui and Koh Tao as well."
+        }
+      ],
+      "related": [
+        {
+          "label": "Technical SEO",
+          "description": "มักทำควบคู่กับการรีดีไซน์"
+        },
+        {
+          "label": "ออกแบบเว็บไซต์",
+          "description": "บริการออกแบบและพัฒนาหลักของเรา"
+        },
+        {
+          "label": "AI Search / GEO",
+          "description": "เพิ่มการมองเห็นบนการค้นหาที่ขับเคลื่อนด้วย AI ด้วย"
+        }
+      ],
+      "finalCtaLabel": "ขอใบเสนอราคา"
+    },
+    "technical-seo": {
+      "navLabel": "Technical SEO",
+      "h1": "บริการ Technical SEO เกาะพะงัน",
+      "primaryKeyword": "Technical SEO เกาะพะงัน",
+      "secondaryTopics": [
+        "การรวบรวมข้อมูลเว็บไซต์ (Crawl)",
+        "การจัดทำดัชนี (Index)",
+        "Core Web Vitals"
+      ],
+      "metaTitle": "Technical SEO เกาะพะงัน | Core Web Vitals และ Schema",
+      "metaDescription": "Technical SEO สำหรับเว็บไซต์ธุรกิจบนเกาะพะงัน แก้ปัญหาการ Crawl การจัดทำดัชนี Structured Data และ Core Web Vitals",
+      "directAnswer": "เราแก้ไขพื้นฐานทางเทคนิคที่กำหนดว่าเสิร์ชเอนจินจะ Crawl จัดทำดัชนี และเข้าใจเว็บไซต์ของคุณได้ดีเพียงใด ทั้ง Canonical Tag, Sitemap, Structured Data และ Core Web Vitals ซึ่งเป็นงานเบื้องหลังที่รองรับทุกอย่างใน SEO",
+      "heroSupport": "แก้ปัญหาการ Crawl การจัดทำดัชนี Structured Data และ Core Web Vitals อย่างถูกต้อง",
+      "heroImageAlt": "ผลการตรวจสอบ Technical SEO บนแดชบอร์ด",
+      "overview": [
+        "Good content on a technically broken site often doesn't get the credit it deserves. If search engines can't crawl a page properly, can't tell which version of a page is canonical, or are shown a slow, unstable page when they try to render it, that page can rank far below what its actual content would justify. Technical SEO is the work of removing those hidden blockers.",
+        "We start with a full crawl and technical audit — checking indexing status, canonical tags, sitemap accuracy, internal linking structure and structured data against what the site's pages actually need. Issues are prioritized by impact, so the fixes most likely to move the needle happen first rather than working through an exhaustive list in an arbitrary order.",
+        "Core Web Vitals — the metrics Google uses to judge real-world loading speed, interactivity and visual stability — get particular attention, because they affect both search performance and how the site actually feels to a visitor on a mobile connection. Many Core Web Vitals problems can be fixed without a full rebuild, once the specific cause is identified rather than guessed at.",
+        "Structured data implementation is included as part of the work, not left as a set of recommendations for someone else to build. Schema markup reinforces what a page is about for both traditional search engines and AI systems, which makes technical SEO a natural partner to our AI Search / GEO service for businesses wanting to go further.",
+        "This work can be scoped as a one-time audit and fix, or as ongoing monitoring for a larger site where new pages and content are added regularly and need the same technical checks applied consistently over time."
+      ],
+      "scope": [
+        {
+          "title": "การ Crawl และการจัดทำดัชนี",
+          "description": "ทำให้เสิร์ชเอนจินเข้าถึงและจัดทำดัชนีหน้าเว็บของคุณได้อย่างถูกต้อง"
+        },
+        {
+          "title": "ตั้งค่า Canonical และ Sitemap",
+          "description": "Canonical Tag ที่ถูกต้องและ XML Sitemap ที่แม่นยำ"
+        },
+        {
+          "title": "Structured Data",
+          "description": "ติดตั้ง Schema Markup อย่างถูกต้องตามประเภทหน้าเว็บของคุณ"
+        },
+        {
+          "title": "Core Web Vitals",
+          "description": "แก้ปัญหาประสิทธิภาพที่ส่งผลต่อ LCP, INP และ CLS"
+        }
+      ],
+      "benefits": [
+        {
+          "title": "กำจัดอุปสรรคที่ซ่อนอยู่",
+          "description": "ปัญหาทางเทคนิคมักจำกัดอันดับของเนื้อหาอย่างเงียบๆ"
+        },
+        {
+          "title": "แสดงผลบนการค้นหาได้ดีขึ้น",
+          "description": "Structured Data ช่วยให้แสดงผลแบบ Rich Results และรายการที่ชัดเจนขึ้น"
+        },
+        {
+          "title": "หน้าเว็บเร็วและเสถียรขึ้น",
+          "description": "การแก้ Core Web Vitals ยังช่วยปรับปรุงประสบการณ์ของผู้ใช้จริงด้วย"
+        },
+        {
+          "title": "พื้นฐานที่แข็งแรง",
+          "description": "งาน SEO และคอนเทนต์อื่นๆ ทั้งหมดให้ผลดีขึ้นบนพื้นฐานทางเทคนิคที่แข็งแรง"
+        }
+      ],
+      "process": [
+        {
+          "title": "ตรวจสอบทางเทคนิค",
+          "description": "Crawl และวิเคราะห์สุขภาพทางเทคนิคของเว็บไซต์อย่างครบถ้วน"
+        },
+        {
+          "title": "จัดลำดับความสำคัญ",
+          "description": "เรียงปัญหาตามผลกระทบ เพื่อแก้สิ่งที่คุ้มค่าที่สุดก่อน"
+        },
+        {
+          "title": "แก้ไข",
+          "description": "แก้ไขทั้งในโค้ด Markup และการตั้งค่า"
+        },
+        {
+          "title": "ยืนยันผล",
+          "description": "ยืนยันว่าการแก้ไขได้ผลด้วยข้อมูล Crawl และความเร็วจริง"
+        }
+      ],
+      "pricing": [
+        {
+          "service": "ตรวจสอบ Technical SEO",
+          "range": "THB 12,000 – 25,000",
+          "note": "Crawl ทั้งเว็บไซต์ พร้อมผลการตรวจที่จัดลำดับความสำคัญ"
+        },
+        {
+          "service": "ดำเนินการแก้ไข Technical SEO",
+          "range": "THB 15,000 – 45,000",
+          "note": "ขึ้นอยู่กับจำนวนปัญหาและขนาดเว็บไซต์"
+        }
+      ],
+      "useCases": [
+        {
+          "title": "เว็บไซต์ที่ทราฟฟิกออร์แกนิกลดลง",
+          "description": "ค้นหาและแก้ไขสิ่งที่ฉุดรั้งเว็บไซต์"
+        },
+        {
+          "title": "เว็บไซต์หลายหน้าขนาดใหญ่",
+          "description": "เว็บไซต์ซับซ้อนที่ปัญหาทางเทคนิคทวีคูณตามขนาด"
+        },
+        {
+          "title": "ตรวจสอบก่อนเปิดตัว",
+          "description": "ค้นพบปัญหาก่อนเว็บไซต์ใหม่เปิดใช้งานจริง"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "ต้องให้สิทธิ์เข้าถึงโค้ดเว็บไซต์ไหม?",
+          "a": "ต้อง หรือให้สิทธิ์ทำงานโดยตรงใน CMS/แพลตฟอร์มของคุณ ขึ้นอยู่กับเว็บไซต์"
+        },
+        {
+          "q": "ต่างจาก Local SEO อย่างไร?",
+          "a": "Technical SEO เน้นโครงสร้างและการ Crawl ของเว็บไซต์ ส่วน Local SEO เน้นการมองเห็นบนการค้นหาในพื้นที่และบน Maps โดยเฉพาะ"
+        },
+        {
+          "q": "แก้ปัญหา Core Web Vitals ได้โดยไม่ต้องสร้างเว็บไซต์ใหม่ไหม?",
+          "a": "ส่วนใหญ่ได้ ปัญหา Core Web Vitals หลายอย่างแก้ได้โดยไม่ต้องรีดีไซน์ทั้งหมด"
+        },
+        {
+          "q": "คุณติดตั้ง Schema Markup ให้ด้วยไหม?",
+          "a": "ใช่ รวมการติดตั้งด้วย ไม่ใช่แค่ให้คำแนะนำ"
+        },
+        {
+          "q": "นานแค่ไหนจึงจะเห็นอันดับดีขึ้น?",
+          "a": "การแก้ไขทางเทคนิคช่วยปรับปรุงการ Crawl ได้เร็ว ส่วนผลต่ออันดับโดยทั่วไปจะค่อยๆ เห็นภายใน 1–3 เดือน"
+        },
+        {
+          "q": "เป็นโปรเจกต์ครั้งเดียวหรือต่อเนื่อง?",
+          "a": "ได้ทั้งสองแบบ ตรวจสอบและแก้ไขครั้งเดียว หรือติดตามต่อเนื่องเมื่อเว็บไซต์พัฒนาไป"
+        },
+        {
+          "q": "Do you work on sites for businesses on Koh Samui or Koh Tao?",
+          "a": "Yes — technical SEO work is done directly within the site's code or CMS, so it doesn't depend on where the business itself is based."
+        },
+        {
+          "q": "Will fixing technical issues alone improve our rankings?",
+          "a": "It removes barriers that may be holding pages back, but content quality and authority still matter — technical SEO is the foundation, not the whole strategy."
+        }
+      ],
+      "related": [
+        {
+          "label": "รีดีไซน์เว็บไซต์",
+          "description": "มักทำควบคู่กับการปรับปรุง Technical SEO ทั้งหมด"
+        },
+        {
+          "label": "AI Search / GEO",
+          "description": "ต่อยอดงานทางเทคนิคสู่การมองเห็นบน AI Search"
+        },
+        {
+          "label": "Performance Marketing",
+          "description": "การวัดผลตลอดทั้ง Funnel"
+        }
+      ],
+      "finalCtaLabel": "ขอใบเสนอราคา"
+    },
+    "ai-search": {
+      "navLabel": "AI Search / GEO",
+      "h1": "AI Search Optimization (GEO) เกาะพะงัน",
+      "primaryKeyword": "AI Search Optimization เกาะพะงัน",
+      "secondaryTopics": [
+        "GEO",
+        "การมองเห็นบน AI",
+        "Entity Optimization"
+      ],
+      "metaTitle": "AI Search Optimization เกาะพะงัน | GEO",
+      "metaDescription": "AI Search / Generative Engine Optimization สำหรับธุรกิจบนเกาะพะงัน เนื้อหาที่มีโครงสร้างและเครื่องอ่านได้ เพื่อให้ AI Answer Engine อ้างอิงถึง",
+      "directAnswer": "เราปรับแต่งเว็บไซต์ให้ AI Answer Engine อย่าง ChatGPT, Perplexity และ AI Overviews ของ Google เข้าใจ เชื่อถือ และอ้างอิงถึงธุรกิจของคุณ ด้วยการนิยาม Entity ที่ชัดเจน เนื้อหาแบบตอบตรงคำถามที่มีโครงสร้าง และ Markup ที่เครื่องอ่านได้ ควบคู่ไปกับ SEO แบบดั้งเดิม ไม่ใช่แทนที่",
+      "heroSupport": "เนื้อหาที่มีโครงสร้างและเครื่องอ่านได้ สร้างมาเพื่อให้ AI Answer Engine เข้าใจและอ้างอิงถึง",
+      "heroImageAlt": "เนื้อหาที่มีโครงสร้างสำหรับ AI Search Optimization",
+      "overview": [
+        "Discovery is shifting. A search that used to return ten blue links now often returns a single generated answer, sometimes with two or three sources cited underneath it. Being one of those cited sources — or not — increasingly depends on how clearly a website defines who it is, what it does and where, in language a machine can parse as confidently as a human reader can.",
+        "We start by auditing how clearly the site currently establishes its entity — the business name, service, location and specialty stated consistently and unambiguously across key pages — since inconsistency is one of the most common reasons an AI system fails to confidently cite a source. From there, we restructure key sections into clear, self-contained direct answers: a concise, factual statement that could be lifted and quoted accurately on its own.",
+        "Structured data reinforces that work at the code level, and we check that robots.txt allows relevant AI crawlers, like GPTBot and ClaudeBot, appropriate access where that supports the site's visibility goals. None of this replaces traditional SEO — the same clarity, structure and technical health that helps a page rank in classic search results is largely what helps it get picked up and cited by an AI system too.",
+        "We won't promise a specific mention in a specific AI tool's answers, because no one controls that outcome and claiming otherwise would be dishonest. What we do is implement the structural and content practices known to support AI visibility, and track what's measurable — citations and mentions where tools allow it, and the underlying content and structure improvements where they don't."
+      ],
+      "scope": [
+        {
+          "title": "ความชัดเจนของ Entity",
+          "description": "นิยามที่ชัดเจนและสม่ำเสมอว่าคุณคือใครและทำอะไร"
+        },
+        {
+          "title": "เนื้อหาแบบตอบตรงคำถาม",
+          "description": "คำตอบที่กระชับและอิงข้อเท็จจริง วางในตำแหน่งที่ระบบ AI ดึงไปใช้ได้"
+        },
+        {
+          "title": "Structured Data",
+          "description": "Schema Markup ที่ช่วยเสริมข้อมูล Entity และบริการ"
+        },
+        {
+          "title": "การเข้าถึงของ Crawler",
+          "description": "อนุญาตให้ AI Crawler ที่เกี่ยวข้องเข้าถึงได้อย่างเหมาะสมผ่าน robots.txt"
+        }
+      ],
+      "benefits": [
+        {
+          "title": "มองเห็นได้ในคำตอบของ AI",
+          "description": "การค้นพบสัดส่วนที่เพิ่มขึ้นเรื่อยๆ เกิดผ่านคำตอบที่ AI สร้างขึ้น ไม่ใช่แค่ผลการค้นหา"
+        },
+        {
+          "title": "เสริม SEO แบบดั้งเดิม",
+          "description": "ความชัดเจนและโครงสร้างแบบเดียวกันให้ประโยชน์ทั้งกับ AI และการค้นหาทั่วไป"
+        },
+        {
+          "title": "การลงทุนเพื่ออนาคต",
+          "description": "เตรียมเว็บไซต์ของคุณให้พร้อมสำหรับโลกการค้นหาที่กำลังเปลี่ยนแปลง"
+        },
+        {
+          "title": "สร้างบนข้อเท็จจริง ไม่ใช่การปั่น",
+          "description": "เราเสริมความชัดเจนที่แท้จริง แทนการพยายามหลอกระบบ AI"
+        }
+      ],
+      "process": [
+        {
+          "title": "ตรวจสอบ",
+          "description": "ประเมินความชัดเจนของ Entity และ Structured Data ในปัจจุบัน"
+        },
+        {
+          "title": "จัดโครงสร้างเนื้อหา",
+          "description": "เขียนส่วนสำคัญใหม่ให้เป็นคำตอบตรงคำถามที่ชัดเจนและสมบูรณ์ในตัวเอง"
+        },
+        {
+          "title": "ติดตั้ง Schema",
+          "description": "เพิ่มหรือเสริม Structured Data ในหน้าสำคัญ"
+        },
+        {
+          "title": "ติดตามผล",
+          "description": "ติดตามการมองเห็นในคำตอบที่ AI สร้างขึ้นในส่วนที่วัดผลได้"
+        }
+      ],
+      "pricing": [
+        {
+          "service": "ตรวจสอบ AI Search Optimization",
+          "range": "THB 10,000 – 20,000",
+          "note": "ครั้งเดียว พร้อมแผนปฏิบัติงานเป็นลายลักษณ์อักษร"
+        },
+        {
+          "service": "ดำเนินการ AI Search Optimization",
+          "range": "THB 15,000 – 35,000",
+          "note": "ปรับเนื้อหาและ Schema ในหน้าสำคัญ"
+        }
+      ],
+      "useCases": [
+        {
+          "title": "ธุรกิจบริการ",
+          "description": "ถูกอธิบายอย่างชัดเจนและถูกต้องเมื่อมีคนถามผู้ช่วย AI"
+        },
+        {
+          "title": "แบรนด์ท้องถิ่นที่มีชื่อเสียงแล้ว",
+          "description": "เสริมความน่าเชื่อถือของ Entity ทั้งบน AI และการค้นหาแบบดั้งเดิม"
+        },
+        {
+          "title": "ธุรกิจที่ลงทุนใน SEO ระยะยาว",
+          "description": "เพิ่มการมองเห็นบน AI ให้กลยุทธ์ SEO ที่มีอยู่"
+        }
+      ],
+      "faqs": [
+        {
+          "q": "GEO / AI Search Optimization คืออะไร?",
+          "a": "Generative Engine Optimization คือการจัดโครงสร้างเนื้อหาให้ระบบ AI ที่สร้างคำตอบ (แทนที่จะแค่แสดงรายการลิงก์) เข้าใจและอ้างอิงถึงธุรกิจของคุณได้อย่างถูกต้อง"
+        },
+        {
+          "q": "สิ่งนี้มาแทนที่ SEO แบบดั้งเดิมไหม?",
+          "a": "ไม่ แต่เป็นการเสริมกัน ความชัดเจนและโครงสร้างแบบเดียวกันมักช่วยได้ทั้งสองทาง"
+        },
+        {
+          "q": "รับประกันได้ไหมว่าธุรกิจของฉันจะถูกกล่าวถึงโดย ChatGPT หรือเครื่องมือที่คล้ายกัน?",
+          "a": "ไม่ได้ เราไม่เคยให้คำรับประกันที่ไม่มีมูล แต่เราใช้แนวปฏิบัติที่ดีที่สุดด้านโครงสร้างและเนื้อหาที่รู้กันว่าช่วยเพิ่มการมองเห็นบน AI"
+        },
+        {
+          "q": "ต้องบล็อกหรืออนุญาต AI Crawler บางตัวไหม?",
+          "a": "เราตั้งค่า robots.txt ให้อนุญาต AI Crawler ที่เกี่ยวข้อง (เช่น GPTBot และ ClaudeBot) ในกรณีที่ช่วยสนับสนุนเป้าหมายด้านการมองเห็นของคุณ"
+        },
+        {
+          "q": "เหมาะกับธุรกิจขนาดใหญ่เท่านั้นหรือเปล่า?",
+          "a": "ไม่ เนื้อหาที่ชัดเจนและมีโครงสร้างดีบนเว็บไซต์ทุกขนาดสามารถถูก AI Answer Engine หยิบไปใช้ได้"
+        },
+        {
+          "q": "วัดผลอย่างไร?",
+          "a": "ในส่วนที่เครื่องมือรองรับ เราติดตามการกล่าวถึงและการอ้างอิง นอกเหนือจากนั้นเราติดตามการปรับปรุงด้านเนื้อหาและโครงสร้างเบื้องหลัง"
+        },
+        {
+          "q": "Does this work for a business based on Koh Samui or Koh Tao?",
+          "a": "Yes — the same entity clarity and structured-content approach applies regardless of which island the business operates from."
+        },
+        {
+          "q": "How long before we might see any AI search visibility?",
+          "a": "It varies by tool and topic; because AI answer engines update how they cite sources continuously, this is treated as an ongoing practice rather than a one-time fix with a fixed timeline."
+        }
+      ],
+      "related": [
+        {
+          "label": "Technical SEO",
+          "description": "พื้นฐานทางเทคนิคที่บริการนี้ต่อยอด"
+        },
+        {
+          "label": "รีดีไซน์เว็บไซต์",
+          "description": "โอกาสในการสร้างความพร้อมสำหรับ AI ตั้งแต่เริ่มต้น"
+        },
+        {
+          "label": "Local SEO",
+          "description": "การมองเห็นบนการค้นหาในพื้นที่ที่ช่วยเสริมกัน"
+        }
+      ],
+      "finalCtaLabel": "ขอใบเสนอราคา"
+    }
+  }
+}

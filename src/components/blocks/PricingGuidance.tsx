@@ -1,24 +1,28 @@
 import { Container } from "@/components/ui/Container";
 import { SectionHeading } from "@/components/ui/SectionHeading";
-import { PRICING_DISCLAIMER } from "@/content/site";
 import type { PricingRow } from "@/content/types";
+import type { Locale } from "@/content/i18n";
+import { getUi } from "@/content/translations";
 
-export function PricingGuidance({ rows }: { rows: PricingRow[] }) {
+export function PricingGuidance({ rows, caption, locale }: { rows: PricingRow[]; caption?: string; locale: Locale }) {
+  if (!rows.length) return null;
+  const ui = getUi(locale).blocks;
   return (
     <section className="border-t border-line bg-surface py-16 lg:py-24">
       <Container>
         <SectionHeading
-          eyebrow="Investment"
-          title="Indicative pricing"
-          description="A starting reference so you can plan your budget before we scope your project."
+          eyebrow={ui.pricingEyebrow}
+          title={ui.pricingTitle}
+          description={ui.pricingDescription}
         />
         <div className="mt-10 overflow-x-auto">
           <table className="w-full min-w-[560px] border-collapse text-start text-sm">
+            {caption && <caption className="sr-only">{caption}</caption>}
             <thead>
               <tr className="border-b border-line text-xs tracking-wide text-text-secondary uppercase">
-                <th className="py-3 pe-4 font-medium">Service</th>
-                <th className="py-3 pe-4 font-medium">Price range (THB)</th>
-                <th className="py-3 font-medium">Notes</th>
+                <th className="py-3 pe-4 font-medium">{ui.pricingService}</th>
+                <th className="py-3 pe-4 font-medium">{ui.pricingRange}</th>
+                <th className="py-3 font-medium">{ui.pricingNotes}</th>
               </tr>
             </thead>
             <tbody>
@@ -37,7 +41,7 @@ export function PricingGuidance({ rows }: { rows: PricingRow[] }) {
           </table>
         </div>
         <p className="mt-6 max-w-[70ch] text-sm text-text-secondary">
-          {PRICING_DISCLAIMER}
+          {ui.pricingDisclaimer}
         </p>
       </Container>
     </section>

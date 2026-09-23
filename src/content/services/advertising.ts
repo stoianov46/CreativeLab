@@ -1,0 +1,199 @@
+import { images } from "@/assets/images";
+import type { ServicePage } from "@/content/types";
+
+export const advertisingService: ServicePage = {
+  slug: "advertising",
+  hubSlug: "services",
+  canonicalPath: "/advertising",
+  navLabel: "Advertising",
+  h1: "Advertising Agency for Koh Phangan, Koh Samui & Koh Tao",
+  primaryKeyword: "advertising agency Koh Phangan, Koh Samui and Koh Tao",
+  secondaryTopics: [
+    "advertising campaigns",
+    "Google Ads and Meta Ads",
+    "performance marketing",
+    "island advertising strategy",
+  ],
+  metaTitle: "Advertising Agency Koh Phangan, Samui & Tao",
+  metaDescription:
+    "Advertising for businesses on Koh Phangan, Koh Samui and Koh Tao — Google Ads, Meta Ads, creative production and measurement from one accountable team.",
+  directAnswer:
+    "CreativeLAB is an advertising agency serving businesses on Koh Phangan, Koh Samui and Koh Tao. We plan the channel mix, produce the creative, run Google Ads and Meta Ads, and track results so advertising spend turns into bookings and inquiries rather than impressions alone.",
+  heroSupport:
+    "One team to plan, produce and run advertising across Koh Phangan, Koh Samui and Koh Tao — instead of a different vendor for strategy, creative and media buying.",
+  heroImage: images.team,
+  heroImageAlt: "CreativeLAB team planning an advertising campaign for an island business",
+  overview: [
+    "Advertising is usually the fastest way for a business on Koh Phangan, Koh Samui or Koh Tao to get in front of people who are already deciding where to eat, stay or book. The three islands aren't one market: Koh Samui has an airport and a broader, more established tourism and expat economy; Koh Phangan's audience mixes long-stay wellness and party-season travellers with a growing year-round local business scene; Koh Tao's is smaller and shaped heavily by diving. Advertising that ignores those differences wastes budget on the wrong audience in the wrong place.",
+    "This page is the overview of our advertising offer — how strategy, creative and media buying fit together as one service. For the detail on a specific channel, see our dedicated Google Ads and Meta Ads pages; this is where we explain how we decide the mix between them, and where advertising sits relative to your other marketing.",
+    "We don't treat advertising as a separate discipline from content and photography. The same team that plans your campaign can also produce the imagery and video it runs on, which matters on the islands: production here means coordinating shoot days, weather and — for Koh Samui and Koh Tao — travel by boat, so creative and media planning need to happen together rather than as two disconnected briefs.",
+    "Every campaign is set up with measurement from day one — conversion tracking, call tracking or booking-event tracking, depending on what a lead actually looks like for your business — so decisions about where to spend more or less are based on results, not assumptions.",
+  ],
+  industrySlugs: ["tourism-hospitality", "restaurants-food", "villas-real-estate", "brands-lifestyle"],
+  scope: [
+    {
+      title: "Channel strategy",
+      description:
+        "Deciding the right mix of search, social and local advertising for your goals, budget and island market before any account is built.",
+    },
+    {
+      title: "Cross-island planning",
+      description:
+        "Budget, targeting and seasonality planned around Koh Phangan, Koh Samui and Koh Tao individually rather than one generic setup.",
+    },
+    {
+      title: "Creative for advertising",
+      description:
+        "Photography, video and copy produced specifically for ad formats, not repurposed from unrelated content.",
+    },
+    {
+      title: "Campaign management",
+      description:
+        "Google Ads and Meta Ads accounts built, launched and managed by the same team that planned the strategy.",
+    },
+    {
+      title: "Measurement & reporting",
+      description:
+        "Tracking set up before launch, with regular reporting on spend, leads and cost per result in plain language.",
+    },
+  ],
+  benefits: [
+    {
+      title: "One strategy, not three vendors",
+      description:
+        "Channel planning, creative production and media buying come from a single team, so decisions stay coordinated.",
+    },
+    {
+      title: "Built for three different markets",
+      description:
+        "Koh Phangan, Koh Samui and Koh Tao get their own targeting and budget logic, not a copy-pasted campaign.",
+    },
+    {
+      title: "Creative that's made for the ad, not adapted to it",
+      description: "Photography and video are briefed and shot for the specific ad formats they'll run in.",
+    },
+    {
+      title: "Spend you can account for",
+      description: "Conversion tracking means you always know what a lead or booking actually cost.",
+    },
+    {
+      title: "A mix that evolves",
+      description:
+        "As results come in, budget shifts toward the channels and islands that are actually converting.",
+    },
+  ],
+  process: [
+    {
+      title: "Discovery",
+      description: "We review your business, current advertising (if any), goals and which islands you serve.",
+    },
+    {
+      title: "Channel & budget plan",
+      description: "We recommend a mix of Google Ads, Meta Ads or both, with a budget split you can defend.",
+    },
+    {
+      title: "Creative production",
+      description: "Photography, video and copy are produced or adapted specifically for the agreed campaigns.",
+    },
+    {
+      title: "Launch",
+      description: "Campaigns go live with tracking active from the first click or impression.",
+    },
+    {
+      title: "Optimize & report",
+      description: "We adjust spend and creative based on real performance and report on a regular schedule.",
+    },
+  ],
+  pricing: [
+    {
+      service: "Advertising strategy & channel plan",
+      range: "THB 10,000 – 20,000",
+      note: "Indicative — one-time, before any account is built",
+    },
+    {
+      service: "Campaign setup (single platform)",
+      range: "THB 15,000 – 35,000",
+      note: "Google Ads or Meta Ads, strategy and tracking included",
+    },
+    {
+      service: "Monthly advertising management",
+      range: "THB 12,000 – 30,000 / month",
+      note: "Excludes ad spend, billed directly to the platform",
+    },
+    {
+      service: "Multi-platform campaign launch",
+      range: "THB 45,000 – 95,000",
+      note: "Indicative — Google + Meta, coordinated creative and tracking",
+    },
+  ],
+  useCases: [
+    {
+      title: "Villas & vacation rentals",
+      description: "Capture high-intent search and social traffic during each island's booking season.",
+    },
+    {
+      title: "Restaurants & bars",
+      description: "Drive reservations, delivery orders or event turnout with targeted local campaigns.",
+    },
+    {
+      title: "Hotels & resorts",
+      description: "Coordinate search and social advertising with your booking engine and occupancy goals.",
+    },
+    {
+      title: "Wellness & retreat brands",
+      description: "Reach long-stay travellers researching retreats and programs before they arrive.",
+    },
+  ],
+  faqs: [
+    {
+      q: "Should I start with Google Ads or Meta Ads?",
+      a: "It depends on whether people are actively searching for what you offer (Google Ads) or need to discover you first (Meta Ads). We'll recommend a starting point based on your business and goals, not a default.",
+    },
+    {
+      q: "Do you run advertising for businesses on Koh Samui and Koh Tao, or only Koh Phangan?",
+      a: "All three — CreativeLAB is based on Koh Phangan and advertises for businesses across Koh Phangan, Koh Samui and Koh Tao, with campaigns geo-targeted to each island.",
+    },
+    {
+      q: "How does advertising connect with your content and social media work?",
+      a: "The same team can produce the photography, video and social content your ads run on, so paid and organic stay consistent instead of feeling like two separate brands.",
+    },
+    {
+      q: "What results can a new business realistically expect?",
+      a: "It varies by category and budget, but meaningful data usually builds over the first few weeks as we optimize; we'll set expectations specific to your situation rather than a generic promise.",
+    },
+    {
+      q: "Is there a minimum contract length?",
+      a: "No — management is billed monthly. We recommend enough runway to gather real data, but there's no long-term lock-in.",
+    },
+    {
+      q: "Do you supply the creative, or do I need my own photos and video?",
+      a: "We can produce it as part of the project, or work with strong existing assets if you already have them.",
+    },
+    {
+      q: "How do you decide how much budget goes to each island?",
+      a: "By where your customers actually come from and book — we split targeting and budget by island rather than treating the region as one audience.",
+    },
+    {
+      q: "Can I start with a small test budget?",
+      a: "Yes — we typically recommend launching conservatively to gather safe data before committing a larger monthly spend.",
+    },
+  ],
+  related: [
+    {
+      label: "Advertising Hub",
+      href: "/advertising",
+      description: "The full breakdown of Google Ads, Meta Ads, campaign launch and performance marketing.",
+    },
+    {
+      label: "Google Ads",
+      href: "/advertising/google-ads",
+      description: "Search and local campaigns for people actively looking for what you offer.",
+    },
+    {
+      label: "Digital Marketing",
+      href: "/services/digital-marketing",
+      description: "See how advertising fits into a full, integrated marketing strategy.",
+    },
+  ],
+  finalCtaLabel: "Plan Your Advertising",
+};

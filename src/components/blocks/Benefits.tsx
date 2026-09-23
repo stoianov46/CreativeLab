@@ -1,12 +1,15 @@
 import { Container } from "@/components/ui/Container";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import type { Benefit } from "@/content/types";
+import type { Locale } from "@/content/i18n";
+import { getUi } from "@/content/translations";
 
-export function Benefits({ items }: { items: Benefit[] }) {
+export function Benefits({ items, locale }: { items: Benefit[]; locale: Locale }) {
+  if (!items.length) return null;
   return (
     <section className="bg-base py-16 lg:py-24">
       <Container>
-        <SectionHeading title="Why it's worth doing" />
+        <SectionHeading title={getUi(locale).blocks.benefitsTitle} />
         <div className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2">
           {items.map((item) => (
             <div key={item.title} className="flex gap-4">

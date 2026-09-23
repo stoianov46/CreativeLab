@@ -17,6 +17,7 @@ function isBypassed(pathname: string): boolean {
     pathname === "/robots.txt" ||
     pathname === "/sitemap.xml" ||
     pathname === "/llms.txt" ||
+    pathname === "/llms-full.txt" ||
     /\.[a-zA-Z0-9]+$/.test(pathname)
   );
 }

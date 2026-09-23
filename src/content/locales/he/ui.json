@@ -1,0 +1,233 @@
+{
+  "location": "קו פנגן, תאילנד",
+  "defaultDescription": "פרסום קריאייטיב, רשתות חברתיות, תוכן, צילום, וידאו ואתרים לעסקים בקו פנגן, תאילנד.",
+  "tagline": "סוכנות פרסום ושיווק קריאייטיב בקו פנגן",
+  "skipToContent": "דלגו לתוכן",
+  "cta": {
+    "startProject": "התחילו פרויקט",
+    "requestQuote": "בקשו הצעת מחיר",
+    "discussProject": "ספרו לנו על הפרויקט",
+    "bookConsultation": "קבעו פגישת ייעוץ",
+    "seeOurWork": "לעבודות שלנו",
+    "explore": "לפרטים",
+    "messageUs": "שלחו לנו הודעה",
+    "chatWhatsapp": "דברו איתנו ב-WhatsApp",
+    "chatTelegram": "דברו איתנו ב-Telegram",
+    "whatsappGreeting": "היי, אשמח לשאול לגבי {service}"
+  },
+  "nav": {
+    "primaryAria": "ניווט ראשי",
+    "more": "עוד",
+    "overview": "סקירה: {label}",
+    "openMenu": "פתיחת תפריט",
+    "closeMenu": "סגירת תפריט",
+    "menu": "תפריט",
+    "mobileAria": "ניווט במובייל",
+    "language": "שפה",
+    "breadcrumbAria": "פירורי לחם",
+    "home": "דף הבית",
+    "portfolio": "תיק עבודות",
+    "caseStudies": "מקרי בוחן",
+    "about": "אודות",
+    "journal": "מגזין",
+    "contact": "צור קשר",
+    "privacy": "מדיניות פרטיות",
+    "terms": "תנאי שימוש",
+    "editorial": "Editorial Policy",
+    "accessibility": "Accessibility",
+    "services": "Services",
+    "industries": "Industries",
+    "locations": "Locations",
+    "work": "Work",
+    "allServices": "All services",
+    "allIndustries": "All industries",
+    "allLocations": "All locations",
+    "serviceGroups": {
+      "advertising": "Advertising",
+      "socialContent": "Social & Content",
+      "photoVideo": "Photo & Video",
+      "digital": "Digital",
+      "creative": "Creative"
+    },
+    "featuredTitle": "Not sure where to start?",
+    "featuredText": "Tell us about your business and we'll suggest the right mix of services."
+  },
+  "footer": {
+    "services": "שירותים",
+    "moreServices": "שירותים נוספים",
+    "agency": "הסוכנות",
+    "contact": "צור קשר",
+    "industries": "Industries",
+    "locations": "Locations",
+    "rights": "כל הזכויות שמורות."
+  },
+  "announcement": {
+    "dismiss": "סגירת ההודעה"
+  },
+  "blocks": {
+    "featuresTitle": "מה כלול",
+    "benefitsTitle": "למה זה שווה את זה",
+    "processTitle": "איך זה עובד",
+    "faqTitle": "שאלות נפוצות",
+    "relatedTitle": "שירותים קשורים",
+    "useCasesEyebrow": "למי זה מתאים",
+    "useCasesTitle": "איפה זה נכנס לתמונה",
+    "portfolioEyebrow": "הוכחות",
+    "portfolioTitle": "סוג העבודות שאנחנו יוצרים",
+    "portfolioDescription": "תמונות רפרנס שממחישות את הסגנון החזותי ואת רמת הביצוע של הצוות שלנו — פרויקטים אמיתיים של לקוחות יחליפו את החלק הזה ברגע שיימסרו ויאושרו לפרסום.",
+    "pricingEyebrow": "השקעה",
+    "pricingTitle": "מחירים לדוגמה",
+    "pricingDescription": "נקודת פתיחה שתעזור לכם לתכנן תקציב עוד לפני שנגדיר יחד את היקף הפרויקט.",
+    "pricingService": "שירות",
+    "pricingRange": "טווח מחירים (THB)",
+    "pricingNotes": "הערות",
+    "pricingCaption": "Indicative prices for {service}",
+    "overviewEyebrow": "Overview",
+    "overviewTitle": "Service overview",
+    "industriesEyebrow": "Industries",
+    "industriesTitle": "Who we do this for",
+    "locationsEyebrow": "Locations",
+    "locationsTitle": "Where we work",
+    "locationsDescription": "Based on Koh Phangan, working on-site across Koh Phangan, Koh Samui and Koh Tao. For shoots on Samui and Tao a travel fee may apply.",
+    "chatTitle": "Prefer to chat?",
+    "slidePrev": "Previous",
+    "slideNext": "Next",
+    "slidePause": "Pause slideshow",
+    "slidePlay": "Play slideshow",
+    "slideLabel": "Slide {n} of {total}",
+    "pricingDisclaimer": "המחירים להמחשה בלבד ומבוססים על תעריפי שוק מקובלים בקו פנגן. כל פרויקט הוא ייחודי — צרו קשר לקבלת הצעת מחיר מפורטת."
+  },
+  "hub": {
+    "approachEyebrow": "הגישה שלנו",
+    "servicesEyebrow": "שירותים",
+    "servicesTitle": "שירותי {hub}",
+    "processTitle": "איך פרויקט נבנה",
+    "process": [
+      {
+        "title": "בריף",
+        "description": "ספרו לנו מה אתם צריכים ומה לוח הזמנים."
+      },
+      {
+        "title": "תכנון",
+        "description": "אנחנו מגדירים את השירותים הנכונים ותקציב ריאלי."
+      },
+      {
+        "title": "הפקה",
+        "description": "הצוות שלנו מבצע את העבודה בקו פנגן."
+      },
+      {
+        "title": "מסירה וליווי",
+        "description": "אתם מקבלים את החומרים הסופיים, עם ליווי שוטף לפי הצורך."
+      }
+    ],
+    "locationText": "שירותי {hub} של CreativeLAB ניתנים בשטח ברחבי קו פנגן, תאילנד, עם אפשרות לתיאום מרחוק לבעלים ולמנהלים שנמצאים במקום אחר.",
+    "ctaTitle": "מוכנים לדבר על {hub}?",
+    "ctaDescription": "ספרו לנו על העסק שלכם ונציע צעד הבא ריאלי."
+  },
+  "service": {
+    "ctaTitle": "מוכנים להתחיל פרויקט {service}?"
+  },
+  "industryPage": {
+    "needsEyebrow": "The challenge",
+    "servicesEyebrow": "Services",
+    "servicesTitle": "Services for {industry}",
+    "processTitle": "How we work with {industry}",
+    "hubLink": "Explore everything in {hub}",
+    "ctaTitle": "Marketing for {industry} — let's talk"
+  },
+  "locationPage": {
+    "areasEyebrow": "Areas",
+    "marketEyebrow": "Local businesses",
+    "servicesEyebrow": "Services",
+    "servicesTitle": "Our services on {location}",
+    "ctaTitle": "Working on {location}? Let's talk"
+  },
+  "indexPages": {
+    "explore": "Explore",
+    "canonicalNote": "Full detail"
+  },
+  "caseStudy": {
+    "eyebrow": "Case study",
+    "client": "Client",
+    "location": "Location",
+    "industry": "Industry",
+    "challenge": "The challenge",
+    "strategy": "Strategy",
+    "creative": "Creative",
+    "production": "Production",
+    "advertising": "Advertising",
+    "results": "Results",
+    "gallery": "Gallery",
+    "services": "Services used",
+    "readCase": "Read the case study"
+  },
+  "journal": {
+    "eyebrow": "Journal",
+    "by": "By {author}",
+    "published": "Published {date}",
+    "updated": "Updated {date}",
+    "readArticle": "Read article",
+    "relatedTitle": "Related services",
+    "clusters": {
+      "social-media": "Social Media",
+      "advertising": "Advertising",
+      "content": "Content",
+      "tourism-hospitality": "Tourism & Hospitality",
+      "local": "Local Marketing"
+    }
+  },
+  "mobileBar": {
+    "aria": "Quick contact",
+    "whatsapp": "WhatsApp",
+    "telegram": "Telegram",
+    "call": "Call",
+    "start": "Start"
+  },
+  "languageSuggestion": {
+    "text": "This page is available in English.",
+    "switch": "Switch to English",
+    "dismiss": "No thanks"
+  },
+  "consent": {
+    "title": "Cookies & analytics",
+    "text": "We'd like to measure how the site is used (analytics) and how our ads perform (marketing). Nothing is loaded until you choose. You can change this any time in the footer.",
+    "accept": "Accept all",
+    "reject": "Reject",
+    "settings": "Settings",
+    "save": "Save choices",
+    "analytics": "Analytics (e.g. Google Analytics, Yandex Metrica)",
+    "marketing": "Marketing (e.g. Meta Pixel)",
+    "necessary": "Necessary (always on)",
+    "manage": "Cookie settings",
+    "privacyLink": "Privacy Policy"
+  },
+  "form": {
+    "title": "ספרו לנו על הפרויקט",
+    "serviceLabel": "השירות שמעניין אתכם",
+    "servicePlaceholder": "לדוגמה: צילום וילה, Google Ads, מיתוג",
+    "aria": "Project enquiry form",
+    "nameLabel": "שם",
+    "phoneLabel": "Phone, WhatsApp or Telegram (optional)",
+    "consentLabel": "I agree that CreativeLAB may use these details to reply to my request, as described in the {privacy}.",
+    "consentPrivacy": "Privacy Policy",
+    "consentError": "Please confirm so we can reply to you.",
+    "rateLimited": "Too many messages in a short time. Please wait a minute or email us directly.",
+    "tooLong": "This is a bit long — please shorten it to {max} characters.",
+    "emailLabel": "אימייל",
+    "messageLabel": "ספרו לנו על הפרויקט",
+    "nameError": "נא להזין שם.",
+    "emailError": "נא להזין כתובת אימייל תקינה.",
+    "messageError": "ספרו לנו עוד קצת על הפרויקט.",
+    "success": "תודה — ההודעה נשלחה. בדרך כלל אנחנו עונים תוך יום עסקים אחד.",
+    "failure": "משהו השתבש בשליחת ההודעה. נסו שוב או כתבו לנו ישירות באימייל.",
+    "sending": "שולחים…",
+    "send": "שליחת הודעה"
+  },
+  "contact": {
+    "email": "אימייל",
+    "phone": "טלפון",
+    "whatsapp": "WhatsApp",
+    "telegram": "Telegram",
+    "basedIn": "מיקום"
+  }
+}

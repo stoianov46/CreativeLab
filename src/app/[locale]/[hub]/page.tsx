@@ -5,21 +5,29 @@ import { Hero } from "@/components/blocks/Hero";
 import { DirectAnswer } from "@/components/blocks/DirectAnswer";
 import { SplitEditorial } from "@/components/blocks/SplitEditorial";
 import { ServiceGrid } from "@/components/blocks/ServiceGrid";
+import { ContentSections } from "@/components/blocks/ProseSection";
+import { botServiceFor } from "@/lib/integrations";
 import { PortfolioPreview } from "@/components/blocks/PortfolioPreview";
 import { ProcessSteps } from "@/components/blocks/ProcessSteps";
 import { LocationBlock } from "@/components/blocks/LocationBlock";
 import { FaqAccordion } from "@/components/blocks/FaqAccordion";
 import { CtaBanner } from "@/components/blocks/CtaBanner";
-import { allHubParams, getHub } from "@/content/hubs";
+import { allHubParams } from "@/content/hubs";
+import { getHub, getUi } from "@/content/translations";
+import { format } from "@/content/localize";
 import { buildMetadata } from "@/lib/metadata";
 import {
   breadcrumbSchema,
   faqSchema,
   jsonLdGraph,
+  serviceSchema,
   webPageSchema,
 } from "@/lib/schema";
 import { SITE } from "@/content/site";
 import { localePath, toLocale } from "@/content/i18n";
+
+// Unknown slugs are unmatched routes → app/global-not-found.tsx (localized 404).
+export const dynamicParams = false;
 
 export function generateStaticParams() {
   return allHubParams();
@@ -30,7 +38,7 @@ export async function generateMetadata(
 ): Promise<Metadata> {
   const { hub: hubSlug, locale: rawLocale } = await props.params;
   const locale = toLocale(rawLocale);
-  const hub = getHub(hubSlug);
+  const hub = getHub(hubSlug, locale);
   if (!hub) return {};
   return buildMetadata({
     title: hub.metaTitle,
@@ -43,8 +51,10 @@ export async function generateMetadata(
 export default async function HubPage(props: PageProps<"/[locale]/[hub]">) {
   const { hub: hubSlug, locale: rawLocale } = await props.params;
   const locale = toLocale(rawLocale);
-  const hub = getHub(hubSlug);
+  const hub = getHub(hubSlug, locale);
   if (!hub) notFound();
+  const ui = getUi(locale);
+  const vars = { hub: hub.navLabel };
 
   const url = `${SITE.url}${localePath(locale, `/${hub.slug}`)}`;
   const homeUrl = `${SITE.url}${localePath(locale, "/")}`;
@@ -55,8 +65,14 @@ export default async function HubPage(props: PageProps<"/[locale]/[hub]">) {
       url,
       inLanguage: locale,
     }),
+    serviceSchema({
+      name: hub.h1,
+      description: hub.metaDescription,
+      url,
+      serviceType: hub.primaryKeyword,
+    }),
     breadcrumbSchema([
-      { name: "Home", url: homeUrl },
+      { name: ui.nav.home, url: homeUrl },
       { name: hub.navLabel, url },
     ]),
     faqSchema(hub.faqs),
@@ -81,17 +97,21 @@ export default async function HubPage(props: PageProps<"/[locale]/[hub]">) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(graph) }}
       />
-      <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: hub.navLabel, href: `/${hub.slug}` }]} />
+      <Breadcrumbs
+        items={[{ label: ui.nav.home, href: "/" }, { label: hub.navLabel, href: `/${hub.slug}` }]}
+        locale={locale}
+      />
       <Hero
-        eyebrow={SITE.location}
+        eyebrow={ui.location}
         h1={hub.h1}
         support={hub.heroSupport}
         image={hub.heroImage}
         imageAlt={hub.heroImageAlt}
+        locale={locale}
       />
       <DirectAnswer text={hub.directAnswer} />
       <SplitEditorial
-        eyebrow="Approach"
+        eyebrow={ui.hub.approachEyebrow}
         title={hub.editorialTitle}
         image={hub.heroImage}
         imageAlt={hub.heroImageAlt}
@@ -100,31 +120,28 @@ export default async function HubPage(props: PageProps<"/[locale]/[hub]">) {
           <p key={paragraph}>{paragraph}</p>
         ))}
       </SplitEditorial>
+      {hub.sections && <ContentSections sections={hub.sections} />}
       <ServiceGrid
-        eyebrow="Services"
-        title={`${hub.navLabel} services`}
+        eyebrow={ui.hub.servicesEyebrow}
+        title={format(ui.hub.servicesTitle, vars)}
         items={hub.services.map((service) => ({
           title: service.navLabel,
           description: service.heroSupport,
           href: `/${hub.slug}/${service.slug}`,
         }))}
+        locale={locale}
       />
-      <PortfolioPreview items={portfolioItems} />
-      <ProcessSteps
-        title="How a project comes together"
-        steps={[
-          { title: "Brief", description: "Tell us what you need and your timeline." },
-          { title: "Plan", description: "We scope the right services and a realistic budget." },
-          { title: "Produce", description: "Our team delivers the work on Koh Phangan." },
-          { title: "Deliver & support", description: "You get final assets, with ongoing support if needed." },
-        ]}
-      />
-      <LocationBlock text={`${hub.navLabel} services from CreativeLAB are delivered on-site across Koh Phangan, Thailand, with remote coordination available for owners and managers based elsewhere.`} />
-      <FaqAccordion faqs={hub.faqs} />
+      <PortfolioPreview items={portfolioItems} locale={locale} />
+      <ProcessSteps title={ui.hub.processTitle} steps={ui.hub.process} locale={locale} />
+      <LocationBlock text={format(ui.hub.locationText, vars)} />
+      <FaqAccordion faqs={hub.faqs} locale={locale} />
       <CtaBanner
-        title={`Ready to talk about ${hub.navLabel.toLowerCase()}?`}
-        description="Tell us about your business and we'll suggest a realistic next step."
+        title={format(ui.hub.ctaTitle, vars)}
+        description={ui.hub.ctaDescription}
         ctaLabel={hub.finalCtaLabel}
+        serviceContext={hub.navLabel}
+        botContext={{ service: botServiceFor(hub.slug) }}
+        locale={locale}
       />
     </>
   );
