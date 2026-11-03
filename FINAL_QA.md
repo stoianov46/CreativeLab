@@ -73,3 +73,13 @@ Also tested in the browser: the language switcher by click (EN → RU), the form
 
 - **Safari (macOS, local build):** five pages opened in Safari (`/social-media/monthly-packages`, `/he/advertising/tracking-analytics`, `/ru/branding-creative/logo-design`, `/th/video-production/brand-films`, `/advertising/google-ads`); each loaded and Safari reported the correct localized title and URL. **Not tested in Safari:** layout, horizontal overflow, interactions, forms, Hebrew RTL rendering — screen capture and JavaScript from Apple Events are blocked on this machine, and Claude does not change those system/Safari settings. Firefox and Edge are not installed. Real iOS/Android devices not tested.
 - **Rendered-site checks of §§6.9, 7, 8, 9, 11** (against `next start`, not grep): contact page returns 200 with the address, an email link and a WhatsApp link in all 4 languages; footer address on all 4 home pages; no GBP "verified" wording; no Telegram link while no bot is configured; 84 public pages (21 routes × 4 languages) return 200; Hebrew pages carry `lang="he" dir="rtl"`; schema types present: Organization, WebSite, WebPage, Service, BreadcrumbList, FAQPage, ContactPage, CreativeWork (no LocalBusiness); `robots.txt` has a Sitemap line; `sitemap.xml` lists 436 URLs; `llms.txt` serves; no analytics scripts load without configured IDs and consent; concept label visible on a portfolio page. §10 is covered by `contact:check` (mocked delivery); §12 by Lighthouse, axe and the 12-width overflow matrices above; §13 documents all exist.
+
+## Cookie consent flow (§11), 2026-11-03
+
+Tested in headless Chrome on a local build with **fake** analytics IDs (`NEXT_PUBLIC_GA4_ID=G-TEST000000`, a dummy Meta Pixel id); requests to Google, Meta and Yandex hosts were intercepted and blocked, so nothing was sent to any third party. The normal build (no IDs) was restored afterwards. 20 of 20 checks passed:
+- First visit: banner with Accept / Reject / Settings; **no** tracking request before a choice.
+- Reject: banner closes, `false/false` stored, no banner and no tracking after reload.
+- Accept: `true/true` stored; Google tag and Meta Pixel requested only then.
+- Settings: "necessary" locked on, analytics and marketing off by default; analytics-only saves `true/false` and requests the Google tag but not the Pixel; the footer control reopens the settings.
+- Banner translated in RU, TH and HE; inherits RTL in Hebrew; keyboard Tab reaches the consent controls.
+Not tested: real GA4 / Pixel / Metrica delivery (needs the owner's IDs; BLOCKED item 4).
