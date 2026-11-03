@@ -28,7 +28,7 @@ export function CtaBanner({
     <section className="bg-inverse py-16 text-text-inverse lg:py-24">
       <Container className="flex flex-col items-start gap-8 lg:flex-row lg:items-center lg:justify-between">
         <div className="max-w-2xl">
-          <h2 className="text-balance font-display text-3xl leading-tight font-light sm:text-4xl">
+          <h2 className="text-balance font-display text-3xl leading-tight font-light [overflow-wrap:anywhere] sm:text-4xl">
             {title}
           </h2>
           {description && (

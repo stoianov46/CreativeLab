@@ -62,3 +62,9 @@ Also tested in the browser: the language switcher by click (EN → RU), the form
 - **The live site**, real network conditions and Core Web Vitals field data.
 - **Forms end to end**: delivery is `BLOCKED` until the Telegram credentials exist; only validation was tested.
 - **Hebrew copy quality** (LLM draft) — needs a native reviewer.
+
+## Sub-service pages (18) — browser checks, 2026-11-03
+
+- Standalone axe-core (WCAG 2.0–2.2 A/AA + best practice), 18 new pages × 4 languages × 390 / 1280 px = 144 runs: **no violations**.
+- Overflow, same 72 pages at 320 / 390 / 768 / 1280 px (288 checks): one failure — `/ru/websites-digital/structured-data` at 320 px (the long word «Структурированные» in the CTA heading, 334 > 320). Fixed with `[overflow-wrap:anywhere]` in `CtaBanner.tsx`; re-run at 320 and 360 px (144 checks): 0.
+- Translation alignment: length-ratio check of 1,206 long strings per language against the English found no misaligned lines (two translators had zipped line lists onto keys); digits and script checked on every string. Native review of RU/TH/HE is still open (BLOCKED item 16). Lighthouse was not re-run on the new pages.
