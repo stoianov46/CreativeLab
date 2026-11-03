@@ -1,5 +1,8 @@
 import { images } from "@/assets/images";
 import type { HubPage } from "@/content/types";
+import { campaignStrategyService } from "@/content/extra-services/campaign-strategy";
+import { advertisingCreativeService } from "@/content/extra-services/advertising-creative";
+import { trackingAnalyticsService } from "@/content/extra-services/tracking-analytics";
 
 export const advertisingHub: HubPage = {
   slug: "advertising",
@@ -724,3 +727,6 @@ export const advertisingHub: HubPage = {
     },
   ],
 };
+
+// Sub-service pages added 2026-11-03 (content in src/content/extra-services/).
+advertisingHub.services.push(campaignStrategyService, advertisingCreativeService, trackingAnalyticsService);

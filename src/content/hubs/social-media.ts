@@ -1,5 +1,6 @@
 import { images } from "@/assets/images";
 import type { HubPage } from "@/content/types";
+import { storiesService } from "@/content/extra-services/stories";
 
 export const socialMediaHub: HubPage = {
   slug: "social-media",
@@ -543,3 +544,6 @@ export const socialMediaHub: HubPage = {
     },
   ],
 };
+
+// Sub-service pages added 2026-11-03 (content in src/content/extra-services/).
+socialMediaHub.services.push(storiesService);

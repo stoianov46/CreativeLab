@@ -173,6 +173,52 @@ export const PRICES = {
   "services.social-media-management.3": { min: 35000, max: 65000, unit: "per-month" },
   "services.villas-real-estate.1": { kind: "custom" },
   "services.web-design.1": { min: 8000, max: 20000, unit: "fixed" },
+  // ---- Sub-service pages added 2026-11-03 (DRAFT prices, owner approval pending; evidence in PRICING_STRATEGY.md) ----
+  // Advertising
+  "campaign-strategy.single": { min: 10000, max: 22000, unit: "one-time", revisions: 1, turnaroundDays: 7 },
+  "campaign-strategy.multi": { min: 18000, max: 40000, unit: "one-time", revisions: 2, turnaroundDays: 10 },
+  "ad-creative.static": { min: 8000, max: 18000, unit: "one-time", revisions: 2, turnaroundDays: 10 },
+  "ad-creative.video": { min: 14000, max: 32000, unit: "one-time", revisions: 2, turnaroundDays: 14 },
+  "ad-creative.refresh": { min: 8000, max: 18000, unit: "per-month" },
+  "tracking.setup": { min: 8000, max: 20000, unit: "one-time", turnaroundDays: 7 },
+  "tracking.reporting": { min: 5000, max: 12000, unit: "per-month" },
+  // Social media
+  "stories.pack": { min: 4000, max: 9000, unit: "fixed", revisions: 2, turnaroundDays: 7 },
+  "stories.monthly": { min: 8000, max: 18000, unit: "per-month" },
+  // Villas & real estate
+  "property-social.launch": { min: 12000, max: 28000, unit: "one-time", revisions: 1, turnaroundDays: 10 },
+  "property-social.monthly": { min: 10000, max: 22000, unit: "per-month" },
+  "listing-presentation.single": { min: 10000, max: 24000, unit: "one-time", revisions: 2, turnaroundDays: 10 },
+  "listing-presentation.multi": { kind: "custom" },
+  // Food & restaurants
+  "restaurant-branding.identity": { min: 35000, max: 90000, unit: "one-time", revisions: 3, turnaroundDays: 30 },
+  "restaurant-branding.refresh": { min: 15000, max: 40000, unit: "one-time", revisions: 2, turnaroundDays: 14 },
+  "food-promo.single": { min: 12000, max: 30000, unit: "one-time", revisions: 2, turnaroundDays: 10 },
+  "food-promo.seasonal": { min: 25000, max: 60000, unit: "one-time", revisions: 2, turnaroundDays: 14 },
+  "restaurant-video.short": { min: 15000, max: 35000, unit: "fixed", revisions: 2, turnaroundDays: 14 },
+  "restaurant-video.reels": { min: 10000, max: 22000, unit: "fixed", revisions: 2, turnaroundDays: 10 },
+  // Business & local presence
+  "local-content.photos": { min: 5000, max: 12000, unit: "fixed", revisions: 1, turnaroundDays: 7 },
+  "local-content.monthly": { min: 6000, max: 15000, unit: "per-month" },
+  // Websites & digital
+  "structured-data.audit": { min: 5000, max: 12000, unit: "one-time", turnaroundDays: 5 },
+  "structured-data.implementation": { min: 10000, max: 25000, unit: "one-time", revisions: 1, turnaroundDays: 10 },
+  "maintenance.basic": { min: 2500, max: 5000, unit: "per-month" },
+  "maintenance.plus": { min: 5000, max: 12000, unit: "per-month" },
+  // Video & production
+  "brand-film.concept": { min: 12000, max: 30000, unit: "one-time", revisions: 2, turnaroundDays: 10 },
+  "brand-film.extended": { min: 120000, max: 280000, unit: "fixed", revisions: 3, turnaroundDays: 35 },
+  "video-editing.single": { min: 3000, max: 9000, unit: "fixed", revisions: 2, turnaroundDays: 5 },
+  "video-editing.monthly": { min: 12000, max: 30000, unit: "per-month" },
+  "creative-production.day": { min: 20000, max: 45000, unit: "fixed", revisions: 1, turnaroundDays: 10 },
+  "creative-production.package": { kind: "custom" },
+  // Branding & creative
+  "logo-design.mark": { min: 15000, max: 40000, unit: "one-time", revisions: 3, turnaroundDays: 14 },
+  "logo-design.suite": { min: 25000, max: 60000, unit: "one-time", revisions: 3, turnaroundDays: 21 },
+  "visual-system.core": { min: 35000, max: 90000, unit: "one-time", revisions: 3, turnaroundDays: 30 },
+  "visual-system.toolkit": { min: 20000, max: 50000, unit: "one-time", revisions: 2, turnaroundDays: 14 },
+  "packaging.label": { min: 12000, max: 30000, unit: "one-time", revisions: 2, turnaroundDays: 14 },
+  "packaging.range": { min: 35000, max: 90000, unit: "one-time", revisions: 3, turnaroundDays: 30 },
 } as const satisfies Record<string, PriceSpec>;
 
 export type PriceId = keyof typeof PRICES;

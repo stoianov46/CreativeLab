@@ -1,5 +1,7 @@
 import { images } from "@/assets/images";
 import type { HubPage } from "@/content/types";
+import { propertySocialMediaService } from "@/content/extra-services/property-social-media";
+import { listingPresentationService } from "@/content/extra-services/listing-presentation";
 
 export const villasRealEstateHub: HubPage = {
   slug: "villas-real-estate",
@@ -797,3 +799,6 @@ export const villasRealEstateHub: HubPage = {
     },
   ],
 };
+
+// Sub-service pages added 2026-11-03 (content in src/content/extra-services/).
+villasRealEstateHub.services.push(propertySocialMediaService, listingPresentationService);

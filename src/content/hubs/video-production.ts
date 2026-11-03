@@ -1,5 +1,8 @@
 import { images } from "@/assets/images";
 import type { HubPage } from "@/content/types";
+import { brandFilmsService } from "@/content/extra-services/brand-films";
+import { videoEditingService } from "@/content/extra-services/video-editing";
+import { creativeProductionService } from "@/content/extra-services/creative-production";
 
 export const videoProductionHub: HubPage = {
   slug: "video-production",
@@ -380,3 +383,6 @@ export const videoProductionHub: HubPage = {
     },
   ],
 };
+
+// Sub-service pages added 2026-11-03 (content in src/content/extra-services/).
+videoProductionHub.services.push(brandFilmsService, videoEditingService, creativeProductionService);

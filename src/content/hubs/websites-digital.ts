@@ -1,5 +1,7 @@
 import { images } from "@/assets/images";
 import type { HubPage } from "@/content/types";
+import { structuredDataService } from "@/content/extra-services/structured-data";
+import { websiteMaintenanceService } from "@/content/extra-services/website-maintenance";
 
 export const websitesDigitalHub: HubPage = {
   slug: "websites-digital",
@@ -767,3 +769,6 @@ export const websitesDigitalHub: HubPage = {
     },
   ],
 };
+
+// Sub-service pages added 2026-11-03 (content in src/content/extra-services/).
+websitesDigitalHub.services.push(structuredDataService, websiteMaintenanceService);

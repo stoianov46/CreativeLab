@@ -67,3 +67,7 @@ A second, Thai-language search found many more price points, almost all of them 
 - [x] The log now covers every category (thinly).
 - [ ] Define Starter / Growth / Signature packages from the evidence, with measurable deliverables.
 - [ ] Owner approval of the final positioning before any price is treated as final.
+
+## Draft prices for the 18 new sub-service pages (2026-11-03)
+
+37 new price ids were added for the sub-service pages built on the owner's instruction. **They are Claude's drafts, set relative to the neighbouring existing rows, with no new market evidence** (the research above found nothing for these services on the islands). They are marked indicative like every other price and need owner approval (BLOCKED item 18). `npm run pricing:check` enforces that every id is used and figures are identical in all four languages.

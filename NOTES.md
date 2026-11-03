@@ -82,3 +82,12 @@ omitted, phrased qualitatively, or marked `[[VERIFY]]` in source.
 - [ ] **No Content-Security-Policy header yet:** analytics hosts would need allow-listing once IDs exist.
 - [ ] **Contact-form rate limit is in-memory, per server instance.** Use a shared store (Upstash/KV) if spam appears.
 - [ ] **`TrustStrip.tsx` is unused** and not localized. Delete it, or localize before reuse.
+
+## Sub-service pages added 2026-11-03 (owner decision: "Build all ~18")
+
+- [ ] **OWNER INPUT REQUIRED — approve the 18 new pages:** campaign-strategy, advertising-creative, tracking-analytics, stories, property-social-media, listing-presentation, restaurant-branding, promotional-campaigns, restaurant-video, local-business-content, structured-data, website-maintenance, brand-films, video-editing, creative-production, logo-design, visual-systems, packaging-design. Scope, what each includes and the **37 draft prices** (`src/content/pricing.ts`, marked indicative) were set by Claude, not by the owner or market quotes.
+- [ ] **Contractual statement to confirm:** the logo-design FAQ says the final logo belongs to the client once paid in full. Confirm with the owner/lawyer before launch.
+- [ ] **Image problem (existing, not new):** `images.social` (`social.jpg`) shows a Netflix logo. It is used on the homepage, wellness-retreats, the food and social-media hubs, the advertising hub (~line 327), `/services/meta-ads` and `/services/social-media-management`. Replace with owned photography (item 13). The new pages avoid this image.
+- [ ] Hero photos on the new pages reuse the six existing JPGs (several pages share one photo) — real photos needed.
+- [ ] RU/TH/HE copy for the new pages is an LLM draft; native review as for the rest (BLOCKED item 16). Some Hebrew/Thai strings spell numbers differently from English; `pricing:check` enforces digits in price rows.
+- Drafter-defined terms to confirm: a Stories "sequence" = about 3–5 frames; ad copy is delivered in English unless Thai/Russian/Hebrew is raised at briefing; filming is not part of the creative or Stories packages.

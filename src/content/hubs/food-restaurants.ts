@@ -1,5 +1,8 @@
 import { images } from "@/assets/images";
 import type { HubPage } from "@/content/types";
+import { restaurantBrandingService } from "@/content/extra-services/restaurant-branding";
+import { promotionalCampaignsService } from "@/content/extra-services/promotional-campaigns";
+import { restaurantVideoService } from "@/content/extra-services/restaurant-video";
 
 export const foodRestaurantsHub: HubPage = {
   slug: "food-restaurants",
@@ -629,3 +632,6 @@ export const foodRestaurantsHub: HubPage = {
     },
   ],
 };
+
+// Sub-service pages added 2026-11-03 (content in src/content/extra-services/).
+foodRestaurantsHub.services.push(restaurantBrandingService, promotionalCampaignsService, restaurantVideoService);

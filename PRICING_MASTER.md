@@ -36,7 +36,7 @@ Landing-page rows that are the same service and price as a hub row share the hub
 | `campaign-launch.single` | 25,000 – 55,000 | one-time | 2 | 14 | 1 |
 | `campaign-launch.multi` | 45,000 – 95,000 | one-time | 2 | 21 | 1 |
 | `performance.retainer` | 20,000 – 50,000 | per month | – | – | 1 |
-| `performance.analytics-audit` | 8,000 – 15,000 | one-time | – | 7 | 1 |
+| `performance.analytics-audit` | 8,000 – 15,000 | one-time | – | 7 | 2 |
 | `social-media.content-creation.1` | 10,000 – 20,000 | per item named in the row | 1 | 7 | 2 |
 | `social-media.content-creation.2` | 18,000 – 35,000 | per item named in the row | 1 | 10 | 2 |
 | `social-media.content-creation.3` | 8,000 – 20,000 | per item named in the row | 1 | 7 | 1 |
@@ -106,7 +106,7 @@ Landing-page rows that are the same service and price as a hub row share the hub
 | `websites-digital.web-design.1` | 40,000 – 100,000 | per item named in the row | 2 | 21 | 2 |
 | `websites-digital.web-design.2` | 90,000 – 180,000 | per item named in the row | 2 | 35 | 2 |
 | `video-production.commercial.1` | 25,000 – 60,000 | per item named in the row | 2 | 14 | 2 |
-| `video-production.commercial.2` | 60,000 – 150,000 | per item named in the row | 2 | 21 | 2 |
+| `video-production.commercial.2` | 60,000 – 150,000 | per item named in the row | 2 | 21 | 3 |
 | `video-production.drone-video.1` | 5,000 – 12,000 | per item named in the row | – | 5 | 1 |
 | `video-production.drone-video.2` | 12,000 – 30,000 | per item named in the row | – | 5 | 1 |
 | `video-production.fpv-video.1` | 20,000 – 45,000 | per item named in the row | 2 | 14 | 1 |
@@ -142,6 +142,43 @@ Landing-page rows that are the same service and price as a hub row share the hub
 | `services.social-media-management.3` | 35,000 – 65,000 | per month | – | – | 1 |
 | `services.villas-real-estate.1` | Custom | – | – | – | 1 |
 | `services.web-design.1` | 8,000 – 20,000 | per item named in the row | – | – | 1 |
+| `campaign-strategy.single` | 10,000 – 22,000 | one-time | 1 | 7 | 1 |
+| `campaign-strategy.multi` | 18,000 – 40,000 | one-time | 2 | 10 | 1 |
+| `ad-creative.static` | 8,000 – 18,000 | one-time | 2 | 10 | 1 |
+| `ad-creative.video` | 14,000 – 32,000 | one-time | 2 | 14 | 1 |
+| `ad-creative.refresh` | 8,000 – 18,000 | per month | – | – | 1 |
+| `tracking.setup` | 8,000 – 20,000 | one-time | – | 7 | 1 |
+| `tracking.reporting` | 5,000 – 12,000 | per month | – | – | 1 |
+| `stories.pack` | 4,000 – 9,000 | per item named in the row | 2 | 7 | 1 |
+| `stories.monthly` | 8,000 – 18,000 | per month | – | – | 1 |
+| `property-social.launch` | 12,000 – 28,000 | one-time | 1 | 10 | 1 |
+| `property-social.monthly` | 10,000 – 22,000 | per month | – | – | 1 |
+| `listing-presentation.single` | 10,000 – 24,000 | one-time | 2 | 10 | 1 |
+| `listing-presentation.multi` | Custom | – | – | – | 1 |
+| `restaurant-branding.identity` | 35,000 – 90,000 | one-time | 3 | 30 | 1 |
+| `restaurant-branding.refresh` | 15,000 – 40,000 | one-time | 2 | 14 | 1 |
+| `food-promo.single` | 12,000 – 30,000 | one-time | 2 | 10 | 1 |
+| `food-promo.seasonal` | 25,000 – 60,000 | one-time | 2 | 14 | 1 |
+| `restaurant-video.short` | 15,000 – 35,000 | per item named in the row | 2 | 14 | 1 |
+| `restaurant-video.reels` | 10,000 – 22,000 | per item named in the row | 2 | 10 | 1 |
+| `local-content.photos` | 5,000 – 12,000 | per item named in the row | 1 | 7 | 1 |
+| `local-content.monthly` | 6,000 – 15,000 | per month | – | – | 1 |
+| `structured-data.audit` | 5,000 – 12,000 | one-time | – | 5 | 1 |
+| `structured-data.implementation` | 10,000 – 25,000 | one-time | 1 | 10 | 1 |
+| `maintenance.basic` | 2,500 – 5,000 | per month | – | – | 1 |
+| `maintenance.plus` | 5,000 – 12,000 | per month | – | – | 1 |
+| `brand-film.concept` | 12,000 – 30,000 | one-time | 2 | 10 | 1 |
+| `brand-film.extended` | 120,000 – 280,000 | per item named in the row | 3 | 35 | 1 |
+| `video-editing.single` | 3,000 – 9,000 | per item named in the row | 2 | 5 | 1 |
+| `video-editing.monthly` | 12,000 – 30,000 | per month | – | – | 1 |
+| `creative-production.day` | 20,000 – 45,000 | per item named in the row | 1 | 10 | 1 |
+| `creative-production.package` | Custom | – | – | – | 1 |
+| `logo-design.mark` | 15,000 – 40,000 | one-time | 3 | 14 | 1 |
+| `logo-design.suite` | 25,000 – 60,000 | one-time | 3 | 21 | 1 |
+| `visual-system.core` | 35,000 – 90,000 | one-time | 3 | 30 | 1 |
+| `visual-system.toolkit` | 20,000 – 50,000 | one-time | 2 | 14 | 1 |
+| `packaging.label` | 12,000 – 30,000 | one-time | 2 | 14 | 1 |
+| `packaging.range` | 35,000 – 90,000 | one-time | 3 | 30 | 1 |
 <!-- pricing:end -->
 
 ## Draft values awaiting owner approval

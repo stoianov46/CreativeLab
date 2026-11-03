@@ -1,5 +1,8 @@
 import { images } from "@/assets/images";
 import type { HubPage } from "@/content/types";
+import { logoDesignService } from "@/content/extra-services/logo-design";
+import { visualSystemsService } from "@/content/extra-services/visual-systems";
+import { packagingDesignService } from "@/content/extra-services/packaging-design";
 
 export const brandingCreativeHub: HubPage = {
   slug: "branding-creative",
@@ -389,3 +392,6 @@ export const brandingCreativeHub: HubPage = {
     },
   ],
 };
+
+// Sub-service pages added 2026-11-03 (content in src/content/extra-services/).
+brandingCreativeHub.services.push(logoDesignService, visualSystemsService, packagingDesignService);

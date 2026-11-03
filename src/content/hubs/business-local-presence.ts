@@ -1,5 +1,6 @@
 import { images } from "@/assets/images";
 import type { HubPage } from "@/content/types";
+import { localBusinessContentService } from "@/content/extra-services/local-business-content";
 
 export const businessLocalPresenceHub: HubPage = {
   slug: "business-local-presence",
@@ -526,3 +527,6 @@ export const businessLocalPresenceHub: HubPage = {
     },
   ],
 };
+
+// Sub-service pages added 2026-11-03 (content in src/content/extra-services/).
+businessLocalPresenceHub.services.push(localBusinessContentService);
