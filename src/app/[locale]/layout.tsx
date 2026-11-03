@@ -38,6 +38,9 @@ const notoSansThai = Noto_Sans_Thai({
   subsets: ["thai", "latin"],
   weight: ["400", "500", "600"],
   display: "swap",
+  // Not preloaded: every page would otherwise fetch the Thai and Hebrew files
+  // (Lighthouse LCP ~4.5 s on mobile); they load on demand when the locale uses them.
+  preload: false,
 });
 
 // Hebrew glyphs — Inter/Fraunces have none, so /he would otherwise fall back
@@ -47,6 +50,7 @@ const heebo = Heebo({
   subsets: ["hebrew", "latin"],
   weight: ["300", "400", "500", "600"],
   display: "swap",
+  preload: false,
 });
 
 export async function generateMetadata(
