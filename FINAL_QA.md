@@ -98,3 +98,13 @@ Not tested: real GA4 / Pixel / Metrica delivery (needs the owner's IDs; BLOCKED 
 - **Tried, reverted:** `experimental.inlineCss` (stylesheet inlined, no `<link rel="stylesheet">`): FCP unchanged at ~0.9 s and LCP 3.97 s vs 3.93 s — no gain, so it was not kept (experimental flag, no benefit).
 - **Checked, nothing to fix:** the hero image already has a preload tag and is not lazy-loaded.
 - **Open:** the 2.5 s LCP target is not met under slow-4G throttling and the LCP element/cause has not been pinned down (needs a Chrome trace, ideally on the deployed URL where real-user data exists). Left as a post-deploy measurement item (`RELEASE_CHECKLIST.md`, BLOCKED item 20).
+
+## LCP investigation, 2026-11-03 (cause narrowed, not fixed)
+
+Page: `/advertising/tracking-analytics`, Lighthouse mobile with real (devtools) throttling, trace saved and read event by event.
+
+- **The page is visually complete early.** First visual change 0.53 s; a throttled filmstrip (slow 4G, 4× CPU) shows the full hero, heading and first paragraph at 0.7 s, with only a heading font swap at ~1.7 s.
+- **The page is lean.** 10 scripts, 159 KB gzipped (507 KB raw; Next + React only), bootup 0.1 s, main-thread work 0.3 s, CLS 0, TBT ~2 ms. Hero image 19 KB AVIF, preloaded, finished by 1.7 s.
+- **What the trace shows.** Lighthouse emulates ~560 ms per request here. LCP is re-invalidated at 0.58, 1.53, 1.89, 2.84, 3.02 and **5.40 s**; the last one follows a late JavaScript chunk (finished 5.31 s) and the Link prefetches in the viewport (`?_rsc=` requests from ~3 s). The LCP *element* behind that last update could not be identified (headless Chrome exposes no `largestContentfulPaint::Candidate` event; a PerformanceObserver probe returned nothing).
+- **Tried without effect (all reverted):** `fetchPriority="high"` on the hero image (LCP 5.42 s vs 5.39 s); `display: "optional"` for Fraunces (5.39 s, unchanged); `experimental.inlineCss` (3.97 s vs 3.93 s simulated). **Kept:** no preload of Thai/Hebrew fonts (simulated LCP −0.6 s).
+- **Conclusion:** no code change found that moves the metric; the visible experience is fast and the 2.5 s target is not met by Lighthouse's LCP number under slow-4G throttling. Next step is a measurement on the deployed URL (real-user LCP, Chrome DevTools Performance panel to see the LCP element) — BLOCKED item 20. Not claimed as passing.
