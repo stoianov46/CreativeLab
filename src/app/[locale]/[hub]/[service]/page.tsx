@@ -53,7 +53,7 @@ export default async function ServicePageRoute(
   const homeUrl = `${SITE.url}${localePath(locale, "/")}`;
   const hubUrl = `${SITE.url}${localePath(locale, `/${hub.slug}`)}`;
   const graph = jsonLdGraph([
-    webPageSchema({ name: service.metaTitle, description: service.metaDescription, url, inLanguage: locale }),
+    webPageSchema({ name: service.metaTitle, description: service.metaDescription, url, inLanguage: locale, image: { src: service.heroImage.src, width: service.heroImage.width, height: service.heroImage.height, alt: service.heroImageAlt } }),
     serviceSchema({
       name: service.h1,
       description: service.metaDescription,

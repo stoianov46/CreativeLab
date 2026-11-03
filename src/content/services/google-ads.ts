@@ -91,6 +91,7 @@ export const googleAdsService: ServicePage = {
       note: "Excludes ad spend, billed directly to Google",
       included: ["Ongoing optimization and bid management", "Search term and negative keyword reviews", "Monthly plain-language report"],
       excluded: ["Advertising budget — paid directly by you to Google", "New creative or landing pages", "Taxes and platform fees"],
+      extras: ["Extra ad creative variations", "Landing page (separate service)", "Additional ad account or platform"],
     },
     {
       service: "Campaign audit (existing account)",

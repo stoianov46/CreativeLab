@@ -103,6 +103,7 @@ export const UI = {
     pricingCaption: "Indicative prices for {service}",
     pricingIncluded: "Included",
     pricingExcluded: "Not included",
+    pricingExtras: "Optional extras (quoted separately)",
     pricingRevisions: "Revisions",
     pricingTurnaround: "Turnaround",
     pricingTurnaroundDays: "{n} working days",

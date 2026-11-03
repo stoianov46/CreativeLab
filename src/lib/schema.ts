@@ -128,6 +128,12 @@ export function serviceSchema(params: {
   };
 }
 
+/**
+ * Photos known to be unsuitable (social.jpg shows a third-party logo, see NOTES.md);
+ * they are not marked up as ImageObject until replaced by owned photography.
+ */
+const PLACEHOLDER_IMAGES = /\/social\./;
+
 export function webPageSchema(params: {
   name: string;
   description: string;
@@ -136,6 +142,8 @@ export function webPageSchema(params: {
   inLanguage?: string;
   /** Schema.org page type; /contact uses "ContactPage". */
   type?: "WebPage" | "ContactPage";
+  /** The visible hero image of the page; emitted as an ImageObject (primaryImageOfPage). */
+  image?: { src: string; width: number; height: number; alt: string };
 }) {
   return {
     "@type": params.type ?? "WebPage",
@@ -145,6 +153,16 @@ export function webPageSchema(params: {
     inLanguage: params.inLanguage ?? "en",
     isPartOf: { "@id": `${SITE.url}/#website` },
     ...(params.type === "ContactPage" && { about: { "@id": `${SITE.url}/#organization` } }),
+    ...(params.image && !PLACEHOLDER_IMAGES.test(params.image.src) && {
+      primaryImageOfPage: {
+        "@type": "ImageObject",
+        url: `${SITE.url}${params.image.src}`,
+        contentUrl: `${SITE.url}${params.image.src}`,
+        width: params.image.width,
+        height: params.image.height,
+        caption: params.image.alt,
+      },
+    }),
   };
 }
 

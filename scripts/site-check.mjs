@@ -554,7 +554,7 @@ if (flag("--write-audit")) {
     "- `LocalBusiness` / `ProfessionalService`: not until the owner confirms a verified Google Business Profile and a street address.",
     "- `Offer` / `priceSpecification` / `price`: prices are indicative, not confirmed offers.",
     "- `Review`, `AggregateRating`, `award`: none exist; none may be invented.",
-    "- `ImageObject` for the portfolio: the concept boards are inline SVG; the photographic placeholders are not CreativeLAB's own work.",
+    "- `ImageObject`: emitted as `primaryImageOfPage` on service and hub pages for the visible hero photo (caption = alt text). Not emitted for `social.jpg` (shows a third-party logo, awaiting replacement), the homepage slider or the portfolio concept boards (inline SVG).",
     "- `Article` / `CreativeWork` for case studies and the journal: templates exist; no real entries yet.", "",
     "## Not validated here", "",
     "Google's Rich Results Test and the Schema.org validator were **not** run (no network tool was used for them). Run both on the deployed URL.", "",

@@ -64,6 +64,7 @@ export default async function HubPage(props: PageProps<"/[locale]/[hub]">) {
       description: hub.metaDescription,
       url,
       inLanguage: locale,
+      image: { src: hub.heroImage.src, width: hub.heroImage.width, height: hub.heroImage.height, alt: hub.heroImageAlt },
     }),
     serviceSchema({
       name: hub.h1,

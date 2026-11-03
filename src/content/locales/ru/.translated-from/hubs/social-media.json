@@ -603,5 +603,19 @@
   "services.monthly-packages.pricing.3.service": "b6f0775545",
   "services.monthly-packages.pricing.3.note": "2979c777ff",
   "services.monthly-packages.pricing.3.included.0": "e0731c1fc4",
-  "services.monthly-packages.pricing.3.excluded.0": "2b3dc8f756"
+  "services.monthly-packages.pricing.3.excluded.0": "2b3dc8f756",
+  "services.instagram-management.pricing.0.extras.0": "a54e5234b9",
+  "services.instagram-management.pricing.0.extras.1": "e9d015791e",
+  "services.instagram-management.pricing.0.extras.2": "50a651bf65",
+  "services.instagram-management.pricing.1.extras.0": "a54e5234b9",
+  "services.instagram-management.pricing.1.extras.1": "e9d015791e",
+  "services.instagram-management.pricing.1.extras.2": "50a651bf65",
+  "services.monthly-packages.pricing.0.extras.0": "a54e5234b9",
+  "services.monthly-packages.pricing.0.extras.1": "e9d015791e",
+  "services.monthly-packages.pricing.0.extras.2": "50a651bf65",
+  "services.monthly-packages.pricing.1.extras.0": "a54e5234b9",
+  "services.monthly-packages.pricing.1.extras.1": "e9d015791e",
+  "services.monthly-packages.pricing.1.extras.2": "50a651bf65",
+  "services.monthly-packages.pricing.2.extras.0": "e9d015791e",
+  "services.monthly-packages.pricing.2.extras.1": "50a651bf65"
 }

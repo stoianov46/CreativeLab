@@ -76,6 +76,16 @@ export function PricingGuidance({ rows, caption, locale }: { rows: PricingRow[];
                           </ul>
                         </div>
                       )}
+                      {row.extras && row.extras.length > 0 && (
+                        <div className="mt-2">
+                          <p className="text-xs font-medium tracking-wide text-text uppercase">{ui.pricingExtras}</p>
+                          <ul className="mt-1 list-disc ps-5">
+                            {row.extras.map((item) => (
+                              <li key={item}>{item}</li>
+                            ))}
+                          </ul>
+                        </div>
+                      )}
                       {meta.length > 0 && <p className="mt-2 text-xs">{meta.join(" · ")}</p>}
                     </td>
                   </tr>

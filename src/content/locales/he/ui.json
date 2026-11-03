@@ -85,6 +85,7 @@
     "pricingCaption": "מחירים מנחים עבור {service}",
     "pricingIncluded": "כלול",
     "pricingExcluded": "לא כלול",
+    "pricingExtras": "תוספות אופציונליות (בהצעת מחיר נפרדת)",
     "pricingRevisions": "סבבי תיקונים",
     "pricingTurnaround": "זמן ביצוע",
     "pricingTurnaroundDays": "{n} ימי עבודה",

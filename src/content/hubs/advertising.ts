@@ -231,6 +231,7 @@ export const advertisingHub: HubPage = {
             "New creative or landing pages",
             "Taxes and platform fees",
           ],
+          extras: ["Extra ad creative variations", "Landing page (separate service)", "Additional ad account or platform"],
         },
         {
           service: "Campaign audit (existing account)",
@@ -423,6 +424,7 @@ export const advertisingHub: HubPage = {
             "New creative production",
             "Taxes and platform fees",
           ],
+          extras: ["Extra ad creative variations", "Landing page (separate service)", "Additional ad account or platform"],
         },
         {
           service: "Ad creative pack (5 assets)",

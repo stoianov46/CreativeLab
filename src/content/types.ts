@@ -23,6 +23,8 @@ export type PricingRow = {
   included?: string[];
   /** What it does not cover (e.g. ad spend, taxes, travel). */
   excluded?: string[];
+  /** Optional add-ons, quoted separately (never a price — numbers live in pricing.ts). */
+  extras?: string[];
 };
 
 export type ScopeItem = {

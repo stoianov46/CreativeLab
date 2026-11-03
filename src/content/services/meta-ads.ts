@@ -90,6 +90,7 @@ export const metaAdsService: ServicePage = {
       note: "Excludes ad spend, billed directly to Meta",
       included: ["Ongoing audience and budget optimization", "Creative performance review", "Monthly plain-language report"],
       excluded: ["Advertising budget — paid directly by you to Meta", "New creative production", "Taxes and platform fees"],
+      extras: ["Extra ad creative variations", "Landing page (separate service)", "Additional ad account or platform"],
     },
     {
       service: "Multi-island campaign add-on",

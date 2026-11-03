@@ -85,6 +85,7 @@
     "pricingCaption": "ราคาโดยประมาณสำหรับ{service}",
     "pricingIncluded": "สิ่งที่รวมอยู่ด้วย",
     "pricingExcluded": "สิ่งที่ไม่รวม",
+    "pricingExtras": "ส่วนเสริมเพิ่มเติม (เสนอราคาแยก)",
     "pricingRevisions": "จำนวนครั้งที่แก้ไข",
     "pricingTurnaround": "ระยะเวลาดำเนินการ",
     "pricingTurnaroundDays": "{n} วันทำการ",
