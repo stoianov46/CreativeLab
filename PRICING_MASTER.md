@@ -28,10 +28,14 @@ Landing-page rows that are the same service and price as a hub row share the hub
 | Id | THB | Unit | Revisions | Turnaround (working days) | Rows using it |
 |---|---|---|---|---|---|
 | `google-ads.setup` | 15,000 – 35,000 | one-time | 1 | 7 | 2 |
-| `google-ads.management` | 12,000 – 30,000 | per month | – | – | 2 |
+| `google-ads.management.starter` | 12,000 – 20,000 | per month | – | – | 2 |
+| `google-ads.management.growth` | 20,000 – 30,000 | per month | – | – | 2 |
+| `google-ads.management.signature` | 30,000 – 45,000 | per month | – | – | 2 |
 | `google-ads.audit` | 6,000 – 12,000 | one-time | – | 5 | 2 |
 | `meta-ads.setup` | 12,000 – 28,000 | one-time | 1 | 7 | 2 |
-| `meta-ads.management` | 10,000 – 25,000 | per month | – | – | 2 |
+| `meta-ads.management.starter` | 10,000 – 15,000 | per month | – | – | 2 |
+| `meta-ads.management.growth` | 15,000 – 25,000 | per month | – | – | 2 |
+| `meta-ads.management.signature` | 25,000 – 40,000 | per month | – | – | 2 |
 | `meta-ads.creative-pack` | 6,000 – 15,000 | one-time | 2 | 10 | 1 |
 | `campaign-launch.single` | 25,000 – 55,000 | one-time | 2 | 14 | 1 |
 | `campaign-launch.multi` | 45,000 – 95,000 | one-time | 2 | 21 | 1 |
@@ -86,7 +90,9 @@ Landing-page rows that are the same service and price as a hub row share the hub
 | `business-local-presence.google-maps.1` | 4,000 – 9,000 | one-time | – | 5 | 1 |
 | `business-local-presence.listings.1` | 6,000 – 14,000 | one-time | – | 7 | 1 |
 | `business-local-presence.local-seo.1` | 8,000 – 15,000 | one-time | – | 7 | 1 |
-| `business-local-presence.local-seo.2` | 10,000 – 25,000 | per month | – | – | 1 |
+| `business-local-presence.local-seo.2.starter` | 10,000 – 15,000 | per month | – | – | 1 |
+| `business-local-presence.local-seo.2.growth` | 15,000 – 25,000 | per month | – | – | 1 |
+| `business-local-presence.local-seo.2.signature` | 25,000 – 40,000 | per month | – | – | 1 |
 | `business-local-presence.reputation.1` | 10,000 – 25,000 | per month | – | – | 1 |
 | `business-local-presence.reviews.1` | 5,000 – 10,000 | one-time | – | 5 | 1 |
 | `business-local-presence.reviews.2` | 6,000 – 15,000 | per month | – | – | 1 |

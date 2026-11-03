@@ -7,7 +7,7 @@ Order followed (the brief's §14, adapted): audit → pricing → SEO content �
 | # | Stage | Status | What was done | Verified by |
 |---|---|---|---|---|
 | 1 | Repo audit and automated checks | CODE DONE | `npm run site:check` crawls the production build in 4 languages; `AUDIT.md` and the four generated maps | 476 pages, 0 errors, 15 warnings (12 `[[VERIFY]]` markers on legal drafts, 3 FAQ "guarantee" questions answered "no") |
-| 2 | Pricing | CODE DONE | Central `src/content/pricing.ts` (153 ids, 173 rows), Included / Not included lists, units, "last reviewed" date | `npm run pricing:check` (CI) |
+| 2 | Pricing | CODE DONE | Central `src/content/pricing.ts` (159 ids, 183 rows), Included / Not included lists, units, "last reviewed" date | `npm run pricing:check` (CI) |
 | 3 | Pricing research | PARTIAL | Every category searched once and logged in `PRICING_STRATEGY.md` | Evidence is thin; no numbers changed |
 | 4 | SEO content | CODE DONE | Direct answers 40–60 words, descriptions, FAQs, links and keywords enforced | `site:check` |
 | 5 | Demonstration portfolio | CODE DONE | 8 labelled concept projects with original SVG boards | `site:check` concept rules; browser review |
@@ -35,9 +35,9 @@ Order followed (the brief's §14, adapted): audit → pricing → SEO content �
 |---|---|---|
 | 2 Production audit | **BLOCKED** (partly) | Local build crawled (476 pages × 4 locales, `AUDIT.md`); the live site returns 403 to everyone, so nothing is `PRODUCTION VERIFIED` |
 | 3 Services and child pages | CODE DONE | All named services have a page; 18 added on the owner's instruction. "Villa Marketing", "SEO", "Web Development", "Photography" map to existing pages (`/villas-real-estate/marketing`, `/websites-digital/technical-seo`, `/web-design`, the photography pages) |
-| 4 Pricing | CODE DONE, drafts | Central `pricing.ts` (153 ids / 173 rows), tables on every commercial page, ad spend separated, indicative + dated. Research is thin (no island data); the 10–20% premium has no evidence. Starter/Growth/Signature exists only on the monthly social packages; other recurring services have 1–2 tiers; per-package `extras` field added (rendered as "Optional extras (quoted separately)") on the tiered retainers: monthly social packages, Instagram management, Google/Meta Ads management |
+| 4 Pricing | CODE DONE, drafts | Central `pricing.ts` (153 ids / 173 rows), tables on every commercial page, ad spend separated, indicative + dated. Research is thin (no island data); the 10–20% premium has no evidence. Starter/Growth/Signature exist on the monthly social packages, Google Ads management, Meta Ads management and ongoing local SEO (other recurring rows keep their current structure); per-package `extras` field added (rendered as "Optional extras (quoted separately)") on the tiered retainers: monthly social packages, Instagram management, Google/Meta Ads management |
 | 5 SEO / AI search | CODE DONE | Enforced by `site:check` (direct answer, FAQ, links, keyword, word count); `llms.txt` |
-| 6 Demo portfolio | CODE DONE | 8 labelled concept projects (`DEMO_PORTFOLIO.md`); the spec's longer lists (e.g. Google Ads structures, storyboards) are covered by one concept board per category, not one asset each |
+| 6 Demo portfolio | CODE DONE | 8 labelled concept projects (`DEMO_PORTFOLIO.md`); owner decision 2026-11-03: keep the 8 boards as meeting §6 (the spec's longer example lists are not built as separate assets) |
 | 7 Address / contact | CODE DONE | Address everywhere, no GBP claim; phone and legal entity `OWNER INPUT REQUIRED` |
 | 8 Four languages, RTL | CODE DONE (LLM drafts) | `i18n:check` 0; RTL and 12-width overflow tests; native review open |
 | 9 Schema | CODE DONE | Organization, WebSite, WebPage, Service/OfferCatalog (no prices), BreadcrumbList, CreativeWork, Article, ContactPage, FAQPage. `ImageObject` as `primaryImageOfPage` on service and hub pages (skipped for `social.jpg` and the SVG concept boards) |

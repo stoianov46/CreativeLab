@@ -92,8 +92,8 @@ omitted, phrased qualitatively, or marked `[[VERIFY]]` in source.
 - [ ] RU/TH/HE copy for the new pages is an LLM draft; native review as for the rest (BLOCKED item 16). Some Hebrew/Thai strings spell numbers differently from English; `pricing:check` enforces digits in price rows.
 - Drafter-defined terms to confirm: a Stories "sequence" = about 3–5 frames; ad copy is delivered in English unless Thai/Russian/Hebrew is raised at briefing; filming is not part of the creative or Stories packages.
 
-## Spec gaps deliberately left open (2026-11-03)
+## Spec gaps — status after the owner's decisions (2026-11-03)
 
-- [ ] **OWNER DECISION — portfolio breadth (spec §6):** one labelled concept board per category exists; the spec's longer lists of separate demo assets are not built (design/scope decision, Obsidian BLOCKED item 35).
-- [ ] **OWNER DECISION — tiers on other recurring services:** only the monthly social packages have Starter/Growth/Signature; ad-management retainers and local SEO have one or two tiers (draft Signature prices would have no evidence behind them; BLOCKED item 25).
+- [x] **Portfolio breadth (spec §6):** owner chose to keep the 8 labelled concept boards. Closed.
+- [x] **Tiers on other recurring services:** owner chose "split the existing range"; done for Google Ads, Meta Ads and local SEO retainers. The new Signature prices (30,000–45,000 / 25,000–40,000 / 25,000–40,000) are drafts, owner to approve (BLOCKED item 18/25).
 - [ ] **Safari / Firefox / Edge:** not tested; Safari needs "Allow Remote Automation", Firefox and Edge are not installed (BLOCKED items 19 and 36).

@@ -65,7 +65,7 @@ A second, Thai-language search found many more price points, almost all of them 
 - [x] One standard search per category and a second, Thai-language extended search (2026-11-03): 5+ price points for websites, food photography, social media and logo/packaging. **Not obtainable by search:** island (Samui / Phangan) agency prices, villa photography and video day rates — those need real quotes.
 - [ ] Owner or team: get 3–5 real quotes from Samui/Phangan agencies (`OWNER INPUT REQUIRED`); published prices there are rare.
 - [x] The log now covers every category (thinly).
-- [x] Starter / Growth / Signature defined for the monthly social packages with measurable deliverables (2026-11-03; Signature is a draft with no market evidence). Other recurring services still to be tiered if the owner wants it.
+- [x] Starter / Growth / Signature defined for the monthly social packages with measurable deliverables (2026-11-03; Signature is a draft with no market evidence). Google Ads, Meta Ads and local SEO retainers were split into three tiers on 2026-11-03 (same combined range, plus a draft Signature above the old maximum).
 - [ ] Owner approval of the final positioning before any price is treated as final.
 
 ## Draft prices for the 18 new sub-service pages (2026-11-03)

@@ -48,11 +48,15 @@ export type PriceSpec = RangePrice | CustomPrice | BundledPrice;
 export const PRICES = {
   // Advertising → Google Ads
   "google-ads.setup": { min: 15000, max: 35000, unit: "one-time", revisions: 1, turnaroundDays: 7 },
-  "google-ads.management": { min: 12000, max: 30000, unit: "per-month" },
+  "google-ads.management.starter": { min: 12000, max: 20000, unit: "per-month" },
+  "google-ads.management.growth": { min: 20000, max: 30000, unit: "per-month" },
+  "google-ads.management.signature": { min: 30000, max: 45000, unit: "per-month" },
   "google-ads.audit": { min: 6000, max: 12000, unit: "one-time", turnaroundDays: 5 },
   // Advertising → Meta Ads
   "meta-ads.setup": { min: 12000, max: 28000, unit: "one-time", revisions: 1, turnaroundDays: 7 },
-  "meta-ads.management": { min: 10000, max: 25000, unit: "per-month" },
+  "meta-ads.management.starter": { min: 10000, max: 15000, unit: "per-month" },
+  "meta-ads.management.growth": { min: 15000, max: 25000, unit: "per-month" },
+  "meta-ads.management.signature": { min: 25000, max: 40000, unit: "per-month" },
   "meta-ads.creative-pack": { min: 6000, max: 15000, unit: "one-time", revisions: 2, turnaroundDays: 10 },
   // Advertising → Campaign launch
   "campaign-launch.single": { min: 25000, max: 55000, unit: "one-time", revisions: 2, turnaroundDays: 14 },
@@ -113,7 +117,9 @@ export const PRICES = {
   "business-local-presence.google-maps.1": { min: 4000, max: 9000, unit: "one-time", turnaroundDays: 5 },
   "business-local-presence.listings.1": { min: 6000, max: 14000, unit: "one-time", turnaroundDays: 7 },
   "business-local-presence.local-seo.1": { min: 8000, max: 15000, unit: "one-time", turnaroundDays: 7 },
-  "business-local-presence.local-seo.2": { min: 10000, max: 25000, unit: "per-month" },
+  "business-local-presence.local-seo.2.starter": { min: 10000, max: 15000, unit: "per-month" },
+  "business-local-presence.local-seo.2.growth": { min: 15000, max: 25000, unit: "per-month" },
+  "business-local-presence.local-seo.2.signature": { min: 25000, max: 40000, unit: "per-month" },
   "business-local-presence.reputation.1": { min: 10000, max: 25000, unit: "per-month" },
   "business-local-presence.reviews.1": { min: 5000, max: 10000, unit: "one-time", turnaroundDays: 5 },
   "business-local-presence.reviews.2": { min: 6000, max: 15000, unit: "per-month" },

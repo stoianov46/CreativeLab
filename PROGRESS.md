@@ -114,7 +114,7 @@ than more code.
 - [x] `Improvements.md` §24 Definition-of-Done ticked with evidence (24 of 27; the rest left open with the reason).
 - [x] Pricing research for every category logged in `PRICING_STRATEGY.md` (thin; no price changed; drone add-on flagged).
 - [x] Browser checks: language switcher by click, form success / rate-limited states (stubbed responses), mobile menu on 7 nested pages × 4 languages (0 failures), Thai and Russian visual review.
-- [x] **18 dedicated sub-service pages built (2026-11-03)** on the owner's instruction ("Build all ~18 candidates"): `src/content/extra-services/*.ts` wired into the 8 hubs, 37 new draft price ids (`pricing.ts`, now 153 ids / 173 rows), RU/TH/HE translated (1719 strings each, LLM drafts), `site:check` 476 pages · 0 errors · 15 warnings (unchanged baseline). Owner still approves scope, prices and wording (Obsidian BLOCKED).
+- [x] **18 dedicated sub-service pages built (2026-11-03)** on the owner's instruction ("Build all ~18 candidates"): `src/content/extra-services/*.ts` wired into the 8 hubs, 37 new draft price ids (`pricing.ts`, now 159 ids / 183 rows), RU/TH/HE translated (1719 strings each, LLM drafts), `site:check` 476 pages · 0 errors · 15 warnings (unchanged baseline). Owner still approves scope, prices and wording (Obsidian BLOCKED).
 - [x] **Standalone axe-core run** (npm packages in a scratch folder + separate headless Chrome): 112 page-runs, found and fixed 2 issues Lighthouse missed (language-button label-in-name; keyboard-unreachable scrolling price table) → no violations. Lighthouse accessibility on 48 pages also fixed one contrast bug on the concept label.
 - [x] **Headings reviewed by hand** (101 English pages): hubs `/business-local-presence` and `/websites-digital` no longer share H1 / primary keyword with their main child; 2 titles aligned. **Internal links:** sibling + concept link block on every service page.
 - [x] **Extended pricing search** (Thai-language): web, food photography, social media, logo/packaging price points logged (budget-tier only); island, villa and video prices not findable by search.
@@ -390,3 +390,5 @@ omitted, phrased qualitatively, or marked `[[VERIFY]]` in source.
   existing files' shape, then register it in `src/content/hubs/index.ts`.
 - After adding or changing English content, run `npm run i18n:sync`, then
   translate the new strings in `src/content/locales/*/` (`docs/i18n.md`).
+
+- [x] **Tiers split (2026-11-03, owner chose "Split the existing range")**: Google Ads management (12,000–20,000 / 20,000–30,000 / 30,000–45,000), Meta Ads management (10,000–15,000 / 15,000–25,000 / 25,000–40,000) and ongoing local SEO (10,000–15,000 / 15,000–25,000 / 25,000–40,000), each with measurable scope; Signature tiers are drafts above the old maximum. RU/TH/HE translated; 336 overflow checks + 56 axe runs on the changed pages: clean. **Portfolio:** owner chose to keep the 8 labelled concept boards (closes spec §6 breadth).
