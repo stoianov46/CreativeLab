@@ -69,9 +69,10 @@ export const PRICES = {
   "social-media.influencer-marketing.3": { min: 3000, max: 8000, unit: "fixed" },
   "social-media.instagram-management.1": { min: 12000, max: 20000, unit: "per-month" },
   "social-media.instagram-management.2": { min: 22000, max: 40000, unit: "per-month" },
-  "social-media.monthly-packages.1": { min: 18000, max: 28000, unit: "per-month" },
-  "social-media.monthly-packages.2": { min: 30000, max: 55000, unit: "per-month" },
+  "social-media.monthly-packages.1": { min: 18000, max: 28000, unit: "per-month", revisions: 1 },
+  "social-media.monthly-packages.2": { min: 30000, max: 55000, unit: "per-month", revisions: 2 },
   "social-media.monthly-packages.3": { min: 8000, max: 18000, unit: "per-month" },
+  "social-media.monthly-packages.4": { min: 60000, max: 100000, unit: "per-month", revisions: 2 },
   "social-media.reels.1": { min: 3500, max: 8000, unit: "fixed", revisions: 2, turnaroundDays: 7 },
   "social-media.reels.2": { min: 12000, max: 25000, unit: "fixed", revisions: 2, turnaroundDays: 14 },
   // villas-real-estate

@@ -45,9 +45,10 @@ Landing-page rows that are the same service and price as a hub row share the hub
 | `social-media.influencer-marketing.3` | 3,000 – 8,000 | per item named in the row | – | – | 1 |
 | `social-media.instagram-management.1` | 12,000 – 20,000 | per month | – | – | 1 |
 | `social-media.instagram-management.2` | 22,000 – 40,000 | per month | – | – | 1 |
-| `social-media.monthly-packages.1` | 18,000 – 28,000 | per month | – | – | 1 |
-| `social-media.monthly-packages.2` | 30,000 – 55,000 | per month | – | – | 1 |
+| `social-media.monthly-packages.1` | 18,000 – 28,000 | per month | 1 | – | 1 |
+| `social-media.monthly-packages.2` | 30,000 – 55,000 | per month | 2 | – | 1 |
 | `social-media.monthly-packages.3` | 8,000 – 18,000 | per month | – | – | 1 |
+| `social-media.monthly-packages.4` | 60,000 – 100,000 | per month | 2 | – | 1 |
 | `social-media.reels.1` | 3,500 – 8,000 | per item named in the row | 2 | 7 | 1 |
 | `social-media.reels.2` | 12,000 – 25,000 | per item named in the row | 2 | 14 | 1 |
 | `villas-real-estate.architecture-photography.1` | 8,000 – 15,000 | per item named in the row | 1 | 7 | 1 |

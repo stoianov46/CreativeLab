@@ -114,7 +114,7 @@ than more code.
 - [x] `Improvements.md` §24 Definition-of-Done ticked with evidence (24 of 27; the rest left open with the reason).
 - [x] Pricing research for every category logged in `PRICING_STRATEGY.md` (thin; no price changed; drone add-on flagged).
 - [x] Browser checks: language switcher by click, form success / rate-limited states (stubbed responses), mobile menu on 7 nested pages × 4 languages (0 failures), Thai and Russian visual review.
-- [x] **18 dedicated sub-service pages built (2026-11-03)** on the owner's instruction ("Build all ~18 candidates"): `src/content/extra-services/*.ts` wired into the 8 hubs, 37 new draft price ids (`pricing.ts`, now 152 ids / 172 rows), RU/TH/HE translated (1719 strings each, LLM drafts), `site:check` 476 pages · 0 errors · 15 warnings (unchanged baseline). Owner still approves scope, prices and wording (Obsidian BLOCKED).
+- [x] **18 dedicated sub-service pages built (2026-11-03)** on the owner's instruction ("Build all ~18 candidates"): `src/content/extra-services/*.ts` wired into the 8 hubs, 37 new draft price ids (`pricing.ts`, now 153 ids / 173 rows), RU/TH/HE translated (1719 strings each, LLM drafts), `site:check` 476 pages · 0 errors · 15 warnings (unchanged baseline). Owner still approves scope, prices and wording (Obsidian BLOCKED).
 - [x] **Standalone axe-core run** (npm packages in a scratch folder + separate headless Chrome): 112 page-runs, found and fixed 2 issues Lighthouse missed (language-button label-in-name; keyboard-unreachable scrolling price table) → no violations. Lighthouse accessibility on 48 pages also fixed one contrast bug on the concept label.
 - [x] **Headings reviewed by hand** (101 English pages): hubs `/business-local-presence` and `/websites-digital` no longer share H1 / primary keyword with their main child; 2 titles aligned. **Internal links:** sibling + concept link block on every service page.
 - [x] **Extended pricing search** (Thai-language): web, food photography, social media, logo/packaging price points logged (budget-tier only); island, villa and video prices not findable by search.
@@ -164,7 +164,7 @@ than more code.
 - [x] The other 7 hubs and the `/services/*` landing pages migrated: 133/133 rows on `priceId`, figures unchanged (verified against the committed versions); `pricing:master` generates the table in `PRICING_MASTER.md`; `custom`/`bundled` prices show translated labels
 - [~] `PRICING_STRATEGY.md` started: Advertising searched (thin evidence, no numbers changed); other categories not researched yet
 - [x] Included / Not included lists for all 133 rows, units set (16 one-time rows, retainers per month), draft revisions/turnaround by service type; RU/TH/HE translated (an English→Thai swap caught by `pricing:check` and fixed)
-- [ ] Starter / Growth / Signature packages; Service/OfferCatalog schema from pricing data
+- [x] **Starter / Growth / Signature** on the monthly social packages (2026-11-03): measurable deliverables (posts, Reels, Stories, platforms, production sessions, revisions); Signature priced as a draft (`social-media.monthly-packages.4`). Other recurring services keep their existing tiers. Service/OfferCatalog schema exists (no prices, by design).
 
 ## Phase 7 — 4 languages (EN/RU/TH/HE) — DONE AS LLM DRAFT, PENDING NATIVE REVIEW
 

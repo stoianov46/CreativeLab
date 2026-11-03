@@ -497,18 +497,25 @@ export const socialMediaHub: HubPage = {
       ],
       pricing: [
         {
-          service: "Starter package",
+          service: "Starter package (8 posts · 2 Reels · 1 platform)",
           priceId: "social-media.monthly-packages.1",
-          note: "Management + light content production",
-          included: ["Account management", "Light content production", "Reporting"],
-          excluded: ["Advertising budget — paid directly by you to the platform"],
+          note: "Management plus a light monthly content set",
+          included: ["8 feed posts per month", "2 Reels per month", "4 Stories per month", "1 platform", "Content calendar and captions", "Monthly report"],
+          excluded: ["Advertising budget — paid directly by you to the platform", "On-site photo or video session", "Travel to Koh Samui or Koh Tao"],
         },
         {
-          service: "Growth package",
+          service: "Growth package (12 posts · 4 Reels · 2 platforms)",
           priceId: "social-media.monthly-packages.2",
-          note: "Full production, Reels, community management",
-          included: ["Full content production", "Reels", "Community management", "Reporting"],
-          excluded: ["Advertising budget — paid directly by you to the platform"],
+          note: "Full production, Reels and community management",
+          included: ["12 feed posts per month", "4 Reels per month", "8 Stories per month", "2 platforms", "Community management during working hours", "1 production session per month on Koh Phangan", "Monthly report"],
+          excluded: ["Advertising budget — paid directly by you to the platform", "Travel to Koh Samui or Koh Tao"],
+        },
+        {
+          service: "Signature package (20 posts · 8 Reels · 3 platforms)",
+          priceId: "social-media.monthly-packages.4",
+          note: "Highest production volume with two shoot days each month",
+          included: ["20 feed posts per month", "8 Reels per month", "16 Stories per month", "3 platforms", "Community management during working hours", "2 production sessions per month on Koh Phangan", "Monthly strategy call", "Monthly report with recommendations"],
+          excluded: ["Advertising budget — paid directly by you to the platform", "Travel to Koh Samui or Koh Tao"],
         },
         {
           service: "Multi-property add-on",
