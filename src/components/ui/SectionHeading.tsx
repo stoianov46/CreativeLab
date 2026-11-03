@@ -25,7 +25,7 @@ export function SectionHeading({
         </p>
       )}
       <h2
-        className={`font-display text-balance text-4xl leading-[1.1] font-light tracking-tight sm:text-5xl lg:text-[52px] ${
+        className={`font-display text-balance text-4xl leading-[1.1] font-light tracking-tight [overflow-wrap:anywhere] sm:text-5xl lg:text-[52px] ${
           inverse ? "text-text-inverse" : "text-text"
         }`}
       >

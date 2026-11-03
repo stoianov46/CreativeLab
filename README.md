@@ -46,6 +46,7 @@ depend on these fall back gracefully (see `PROGRESS.md`):
 |---|---|---|
 | `NEXT_PUBLIC_WHATSAPP_NUMBER` | WhatsApp chat links (`BotEntry`, mobile contact bar) | Falls back to the team number in `SITE.whatsapp` |
 | `NEXT_PUBLIC_TELEGRAM_BOT` | Telegram bot handle for chat links (deep links `?start=s_<service>…`) | No Telegram buttons shown |
+| `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION` / `NEXT_PUBLIC_YANDEX_VERIFICATION` | Search Console / Yandex Webmaster ownership `<meta>` tags (`src/app/[locale]/layout.tsx`) | No tag emitted |
 | `NEXT_PUBLIC_GA4_ID` / `NEXT_PUBLIC_YM_ID` / `NEXT_PUBLIC_META_PIXEL_ID` | Analytics, loaded only after cookie consent (`src/lib/analytics.ts`) | No analytics and no consent banner |
 | `TELEGRAM_BOT_TOKEN` | **Server-only.** Bot that delivers contact-form leads (`/api/contact`) | Form shows its error state; lead is logged server-side, not delivered |
 | `TELEGRAM_STAFF_CHAT_ID` | **Server-only.** Staff chat the leads are sent to | Same as above |
@@ -71,6 +72,33 @@ process manager / reverse proxy.
 npx tsc --noEmit   # type check
 npm run lint       # ESLint
 ```
+
+### Contact form
+
+```bash
+npm run contact:check   # runs the real /api/contact handler with a MOCKED Telegram (no lead is sent)
+```
+
+The enquiry form collects service, island, business type, optional budget and timeline, and sends them with the first-touch UTM parameters and landing page (remembered in the visitor's session only) to `/api/contact`. Delivery needs `TELEGRAM_BOT_TOKEN` and `TELEGRAM_STAFF_CHAT_ID`; without them the endpoint answers 503 and the form shows its error state with the entered data kept.
+
+### Site audit
+
+```bash
+npm run build && npm run site:check                      # crawl the production build, all locales; exit 1 on any ERROR
+npm run site:check -- --write-audit                      # also regenerate AUDIT.md plus URL_INTENT_MAP / SEO_CONTENT_MAP / INTERNAL_LINKING_MAP / SCHEMA_QA
+npm run site:check -- --show /advertising/google-ads     # print what the crawler parsed for one page
+```
+
+It starts `next start` itself (or use `--base http://localhost:3000`). It does not replace manual checks: mobile layout, Hebrew RTL appearance, accessibility and Lighthouse still need a browser (see AUDIT.md).
+
+### Pricing
+
+```bash
+npm run pricing:check   # every row uses a priceId, no figures in locale files, numbers match across EN/RU/TH/HE, PRICING_MASTER.md table is current
+npm run pricing:master  # regenerate the price table in PRICING_MASTER.md after editing pricing.ts
+```
+
+Every number in a pricing table comes from `src/content/pricing.ts` (see `PRICING_MASTER.md`); never type a figure into a locale JSON file.
 
 ### Translations
 

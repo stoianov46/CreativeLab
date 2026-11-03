@@ -140,8 +140,20 @@ export const villasRealEstateHub: HubPage = {
         { title: "Deliver", description: "Final images delivered in the sizes each platform needs." },
       ],
       pricing: [
-        { service: "1–3 bedroom villa", range: "THB 6,000 – 12,000", note: "Half-day shoot, ~25–40 final images" },
-        { service: "4+ bedroom villa", range: "THB 12,000 – 22,000", note: "Full-day shoot, larger image set" },
+        {
+          service: "1–3 bedroom villa",
+          priceId: "villas-real-estate.villa-photography.1",
+          note: "Half-day shoot, ~25–40 final images",
+          included: ["Half-day shoot", "About 25–40 final edited images"],
+          excluded: ["Travel to Koh Samui or Koh Tao", "Video", "Listing copy and advertising"],
+        },
+        {
+          service: "4+ bedroom villa",
+          priceId: "villas-real-estate.villa-photography.2",
+          note: "Full-day shoot, larger image set",
+          included: ["Full-day shoot", "Larger set of final edited images"],
+          excluded: ["Travel to Koh Samui or Koh Tao", "Video", "Listing copy and advertising"],
+        },
       ],
       useCases: [
         { title: "Villa owners renting short-term", description: "Listing photography for Airbnb and booking platforms." },
@@ -206,8 +218,20 @@ export const villasRealEstateHub: HubPage = {
         { title: "Deliver", description: "Files delivered in the format your listing platform requires." },
       ],
       pricing: [
-        { service: "Standard property shoot", range: "THB 5,000 – 10,000", note: "Apartment, condo or small house" },
-        { service: "Agency portfolio rate", range: "Custom", note: "Volume pricing for ongoing listing work" },
+        {
+          service: "Standard property shoot",
+          priceId: "villas-real-estate.real-estate-photography.1",
+          note: "Apartment, condo or small house",
+          included: ["Standard property shoot for an apartment, condo or small house", "Edited images"],
+          excluded: ["Travel to Koh Samui or Koh Tao", "Video", "Listing copy and advertising"],
+        },
+        {
+          service: "Agency portfolio rate",
+          priceId: "villas-real-estate.real-estate-photography.2",
+          note: "Volume pricing for ongoing listing work",
+          included: ["Volume pricing for ongoing listing work"],
+          excluded: ["Work outside the agreed volume"],
+        },
       ],
       useCases: [
         { title: "Real estate agencies", description: "Consistent photography across an active listing portfolio." },
@@ -272,8 +296,20 @@ export const villasRealEstateHub: HubPage = {
         { title: "Deliver", description: "An organized image set covering the plot from every relevant angle." },
       ],
       pricing: [
-        { service: "Land photography (ground only)", range: "THB 4,000 – 8,000", note: "Access, terrain and surroundings" },
-        { service: "Land photography + drone", range: "THB 8,000 – 15,000", note: "Adds aerial context shots" },
+        {
+          service: "Land photography (ground only)",
+          priceId: "villas-real-estate.land-photography.1",
+          note: "Access, terrain and surroundings",
+          included: ["Ground photography of access, terrain and surroundings", "Edited images"],
+          excluded: ["Travel to Koh Samui or Koh Tao", "Aerial imagery"],
+        },
+        {
+          service: "Land photography + drone",
+          priceId: "villas-real-estate.land-photography.2",
+          note: "Adds aerial context shots",
+          included: ["Ground photography plus aerial context shots", "Edited images"],
+          excluded: ["Travel to Koh Samui or Koh Tao"],
+        },
       ],
       useCases: [
         { title: "Land for sale", description: "Photography for private sellers and agencies listing plots." },
@@ -308,7 +344,7 @@ export const villasRealEstateHub: HubPage = {
       metaDescription:
         "Architecture photography for architects, builders and developers on Koh Phangan, Koh Samui and Koh Tao — lines, materials and context, interior and exterior.",
       directAnswer:
-        "We photograph buildings and architectural projects on Koh Phangan, Koh Samui and Koh Tao for architects, builders and developers — capturing lines, materials and spatial context in a style suited to portfolios and publications, not just property listings.",
+        "We photograph buildings and architectural projects on Koh Phangan, Koh Samui and Koh Tao for architects, builders and developers — capturing lines, materials and spatial context in a style suited to portfolios and publications, not just property listings, and delivered as edited, publication-ready images.",
       heroSupport: "Photography that shows a building's design intent, materials and context clearly.",
       heroImage: images.studio,
       heroImageAlt: "Architectural detail photographed with strong composition",
@@ -338,8 +374,20 @@ export const villasRealEstateHub: HubPage = {
         { title: "Deliver", description: "Portfolio-ready files delivered for print and digital use." },
       ],
       pricing: [
-        { service: "Architecture photography (half-day)", range: "THB 8,000 – 15,000", note: "Single building or project" },
-        { service: "Architecture photography (full-day)", range: "THB 15,000 – 28,000", note: "Larger project or multiple structures" },
+        {
+          service: "Architecture photography (half-day)",
+          priceId: "villas-real-estate.architecture-photography.1",
+          note: "Single building or project",
+          included: ["Half-day shoot of a single building or project", "Edited images"],
+          excluded: ["Travel to Koh Samui or Koh Tao", "Video"],
+        },
+        {
+          service: "Architecture photography (full-day)",
+          priceId: "villas-real-estate.architecture-photography.2",
+          note: "Larger project or multiple structures",
+          included: ["Full-day shoot of a larger project or multiple structures", "Edited images"],
+          excluded: ["Travel to Koh Samui or Koh Tao", "Video"],
+        },
       ],
       useCases: [
         { title: "Architects", description: "Portfolio photography for completed projects." },
@@ -374,7 +422,7 @@ export const villasRealEstateHub: HubPage = {
       metaDescription:
         "Drone photography for property, land and landscape across Koh Phangan, Koh Samui and Koh Tao — aerial context captured safely within local regulations.",
       directAnswer:
-        "We provide drone photography on Koh Phangan, Koh Samui and Koh Tao for villas, land and developments — aerial shots that show a property's setting, surroundings and scale, captured safely and in line with local drone regulations.",
+        "We provide drone photography on Koh Phangan, Koh Samui and Koh Tao for villas, land and developments — aerial shots that show a property's setting, surroundings and scale, captured safely and in line with local drone regulations, and delivered as edited stills ready for listings and marketing.",
       heroSupport: "Aerial photography that shows a property's setting, scale and surroundings.",
       heroImage: images.video,
       heroImageAlt: "Drone prepared for an aerial property photography flight",
@@ -404,8 +452,20 @@ export const villasRealEstateHub: HubPage = {
         { title: "Deliver", description: "Aerial images delivered alongside ground photography." },
       ],
       pricing: [
-        { service: "Drone add-on (with existing shoot)", range: "THB 3,000 – 6,000", note: "Added to a villa/land shoot" },
-        { service: "Standalone drone session", range: "THB 6,000 – 12,000", note: "Aerial-only coverage" },
+        {
+          service: "Drone add-on (with existing shoot)",
+          priceId: "villas-real-estate.drone.1",
+          note: "Added to a villa/land shoot",
+          included: ["Aerial coverage added to a villa or land shoot"],
+          excluded: ["The ground shoot itself"],
+        },
+        {
+          service: "Standalone drone session",
+          priceId: "villas-real-estate.drone.2",
+          note: "Aerial-only coverage",
+          included: ["Aerial-only coverage session"],
+          excluded: ["Ground photography"],
+        },
       ],
       useCases: [
         { title: "Villa & land listings", description: "Aerial context alongside standard listing photography." },
@@ -470,8 +530,20 @@ export const villasRealEstateHub: HubPage = {
         { title: "Deliver", description: "Final files delivered in formats for listing sites and social media." },
       ],
       pricing: [
-        { service: "Property walkthrough video", range: "THB 15,000 – 30,000", note: "Full walkthrough + 1–2 social cuts" },
-        { service: "Video production (60s commercial)", range: "THB 25,000 – 60,000", note: "Higher-production commercial-style edit" },
+        {
+          service: "Property walkthrough video",
+          priceId: "villas-real-estate.property-video.1",
+          note: "Full walkthrough + 1–2 social cuts",
+          included: ["Full property walkthrough video", "1–2 cuts for social media"],
+          excluded: ["Travel to Koh Samui or Koh Tao", "Advertising budget"],
+        },
+        {
+          service: "Video production (60s commercial)",
+          priceId: "video-production.commercial.1",
+          note: "Higher-production commercial-style edit",
+          included: ["60-second commercial", "Filming, editing and music"],
+          excluded: ["Travel to Koh Samui or Koh Tao", "Advertising budget"],
+        },
       ],
       useCases: [
         { title: "Villa rentals", description: "Walkthrough video for booking platforms and social media." },
@@ -536,7 +608,13 @@ export const villasRealEstateHub: HubPage = {
         { title: "Edit", description: "Color grading, sound design and final cut delivered." },
       ],
       pricing: [
-        { service: "FPV property video", range: "THB 20,000 – 45,000", note: "Depends on property size and complexity" },
+        {
+          service: "FPV property video",
+          priceId: "villas-real-estate.fpv.1",
+          note: "Depends on property size and complexity",
+          included: ["FPV property video", "Edited final video"],
+          excluded: ["Travel to Koh Samui or Koh Tao"],
+        },
       ],
       useCases: [
         { title: "Premium villas", description: "A standout hero video for a high-value listing." },
@@ -601,8 +679,20 @@ export const villasRealEstateHub: HubPage = {
         { title: "Deliver & embed", description: "Link or embed code delivered for your listing." },
       ],
       pricing: [
-        { service: "Virtual tour (standard villa)", range: "THB 8,000 – 16,000", note: "Up to ~10 tour points" },
-        { service: "Virtual tour (larger property)", range: "THB 16,000 – 28,000", note: "10+ tour points" },
+        {
+          service: "Virtual tour (standard villa)",
+          priceId: "villas-real-estate.virtual-tours.1",
+          note: "Up to ~10 tour points",
+          included: ["Virtual tour of a standard villa", "Up to about 10 tour points"],
+          excluded: ["Travel to Koh Samui or Koh Tao", "Hosting beyond the agreed period"],
+        },
+        {
+          service: "Virtual tour (larger property)",
+          priceId: "villas-real-estate.virtual-tours.2",
+          note: "10+ tour points",
+          included: ["Virtual tour of a larger property", "More than 10 tour points"],
+          excluded: ["Travel to Koh Samui or Koh Tao", "Hosting beyond the agreed period"],
+        },
       ],
       useCases: [
         { title: "International buyers/renters", description: "Serious remote viewing before travel." },
@@ -668,8 +758,20 @@ export const villasRealEstateHub: HubPage = {
         { title: "Optimize", description: "Ongoing adjustment based on inquiries and engagement." },
       ],
       pricing: [
-        { service: "Property marketing package (single villa)", range: "THB 35,000 – 80,000", note: "Visuals + listing + social + launch advertising" },
-        { service: "Portfolio marketing (multiple properties)", range: "Custom", note: "Scoped per portfolio size" },
+        {
+          service: "Property marketing package (single villa)",
+          priceId: "villas-real-estate.marketing.1",
+          note: "Visuals + listing + social + launch advertising",
+          included: ["Property visuals", "Listing", "Social media content", "Launch advertising setup"],
+          excluded: ["Advertising budget — paid directly by you to the platform", "Travel to Koh Samui or Koh Tao"],
+        },
+        {
+          service: "Portfolio marketing (multiple properties)",
+          priceId: "villas-real-estate.marketing.2",
+          note: "Scoped per portfolio size",
+          included: ["Scope defined per portfolio size"],
+          excluded: ["Items outside the agreed scope"],
+        },
       ],
       useCases: [
         { title: "Villa owners selling or renting", description: "A complete marketing push rather than photography alone." },

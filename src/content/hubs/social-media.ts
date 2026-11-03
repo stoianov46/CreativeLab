@@ -154,8 +154,20 @@ export const socialMediaHub: HubPage = {
         { title: "Review", description: "Monthly check-in on performance and the plan for next month." },
       ],
       pricing: [
-        { service: "Instagram management (light)", range: "THB 12,000 – 20,000 / month", note: "3 posts/week, Stories, basic reporting" },
-        { service: "Instagram management (full)", range: "THB 22,000 – 40,000 / month", note: "5+ posts/week, Reels, community management" },
+        {
+          service: "Instagram management (light)",
+          priceId: "social-media.instagram-management.1",
+          note: "3 posts/week, Stories, basic reporting",
+          included: ["3 posts per week", "Stories", "Basic reporting"],
+          excluded: ["Reels", "Community management", "Advertising budget — paid directly by you to the platform"],
+        },
+        {
+          service: "Instagram management (full)",
+          priceId: "social-media.instagram-management.2",
+          note: "5+ posts/week, Reels, community management",
+          included: ["5 or more posts per week", "Reels", "Community management", "Reporting"],
+          excluded: ["Advertising budget — paid directly by you to the platform"],
+        },
       ],
       useCases: [
         { title: "Restaurants & cafés", description: "Keep a consistent feed of dishes, events and offers." },
@@ -223,9 +235,27 @@ export const socialMediaHub: HubPage = {
         { title: "Deliver", description: "Platform-ready files delivered, organized and ready to schedule." },
       ],
       pricing: [
-        { service: "Half-day content shoot", range: "THB 10,000 – 20,000", note: "Photo + short video, edited" },
-        { service: "Full-day content shoot", range: "THB 18,000 – 35,000", note: "Extended shot list, multiple setups" },
-        { service: "Social media content pack (15 photos)", range: "THB 8,000 – 20,000", note: "Edited, ready to post" },
+        {
+          service: "Half-day content shoot",
+          priceId: "social-media.content-creation.1",
+          note: "Photo + short video, edited",
+          included: ["Half-day shoot", "Photo and short video, edited"],
+          excluded: ["Travel to Koh Samui or Koh Tao", "Publishing and account management"],
+        },
+        {
+          service: "Full-day content shoot",
+          priceId: "social-media.content-creation.2",
+          note: "Extended shot list, multiple setups",
+          included: ["Full-day shoot", "Extended shot list with multiple setups", "Photo and short video, edited"],
+          excluded: ["Travel to Koh Samui or Koh Tao", "Publishing and account management"],
+        },
+        {
+          service: "Social media content pack (15 photos)",
+          priceId: "social-media.content-creation.3",
+          note: "Edited, ready to post",
+          included: ["15 edited photos", "Ready to post"],
+          excluded: ["Video", "Publishing and account management"],
+        },
       ],
       useCases: [
         { title: "Restaurants", description: "A season's worth of dish, ambiance and event content." },
@@ -294,8 +324,20 @@ export const socialMediaHub: HubPage = {
         { title: "Deliver & post", description: "Files delivered ready to post, or published directly if bundled with management." },
       ],
       pricing: [
-        { service: "Single Reel (concept to delivery)", range: "THB 3,500 – 8,000", note: "Per finished video" },
-        { service: "Reels batch (4 Reels)", range: "THB 12,000 – 25,000", note: "Filmed in one session, edited separately" },
+        {
+          service: "Single Reel (concept to delivery)",
+          priceId: "social-media.reels.1",
+          note: "Per finished video",
+          included: ["One Reel from concept to delivery"],
+          excluded: ["Publishing and account management", "Advertising budget — paid directly by you to the platform"],
+        },
+        {
+          service: "Reels batch (4 Reels)",
+          priceId: "social-media.reels.2",
+          note: "Filmed in one session, edited separately",
+          included: ["4 Reels filmed in one session", "Each Reel edited separately"],
+          excluded: ["Publishing and account management", "Advertising budget — paid directly by you to the platform"],
+        },
       ],
       useCases: [
         { title: "Restaurants & bars", description: "Menu highlights, event recaps and atmosphere clips." },
@@ -364,9 +406,27 @@ export const socialMediaHub: HubPage = {
         { title: "Track results", description: "Report on reach, engagement and any measurable referral impact." },
       ],
       pricing: [
-        { service: "Single creator collaboration", range: "THB 8,000 – 25,000", note: "Coordination fee, excludes creator fees/gifting" },
-        { service: "Multi-creator campaign", range: "THB 20,000 – 50,000", note: "3–5 creators, coordinated campaign" },
-        { service: "Creator content usage rights", range: "THB 3,000 – 8,000", note: "Indicative — for repurposing creator content as paid ad creative" },
+        {
+          service: "Single creator collaboration",
+          priceId: "social-media.influencer-marketing.1",
+          note: "Coordination fee, excludes creator fees/gifting",
+          included: ["Coordination of one creator collaboration"],
+          excluded: ["Creator fees and gifting"],
+        },
+        {
+          service: "Multi-creator campaign",
+          priceId: "social-media.influencer-marketing.2",
+          note: "3–5 creators, coordinated campaign",
+          included: ["Coordinated campaign with 3–5 creators"],
+          excluded: ["Creator fees and gifting"],
+        },
+        {
+          service: "Creator content usage rights",
+          priceId: "social-media.influencer-marketing.3",
+          note: "Indicative — for repurposing creator content as paid ad creative",
+          included: ["Rights to repurpose creator content as paid ad creative"],
+          excluded: ["Ad management", "Advertising budget — paid directly by you to the platform"],
+        },
       ],
       useCases: [
         { title: "New restaurant or venue openings", description: "Build initial buzz through a coordinated set of visits." },
@@ -396,9 +456,9 @@ export const socialMediaHub: HubPage = {
       hubSlug: "social-media",
       navLabel: "Monthly Packages",
       h1: "Monthly Social Media Packages on Koh Phangan",
-      primaryKeyword: "social media management Koh Phangan",
+      primaryKeyword: "monthly social media packages Koh Phangan",
       secondaryTopics: ["monthly content", "social media packages"],
-      metaTitle: "Social Media Management Koh Phangan",
+      metaTitle: "Monthly Social Media Packages Koh Phangan",
       metaDescription:
         "Monthly social media packages for Koh Phangan, Koh Samui and Koh Tao businesses — planning, production, publishing and optimization bundled into one retainer.",
       directAnswer:
@@ -435,9 +495,27 @@ export const socialMediaHub: HubPage = {
         { title: "Monthly review", description: "Performance review and plan adjustment for the following month." },
       ],
       pricing: [
-        { service: "Starter package", range: "THB 18,000 – 28,000 / month", note: "Management + light content production" },
-        { service: "Growth package", range: "THB 30,000 – 55,000 / month", note: "Full production, Reels, community management" },
-        { service: "Multi-property add-on", range: "THB 8,000 – 18,000 / month", note: "Indicative — per additional property or location managed" },
+        {
+          service: "Starter package",
+          priceId: "social-media.monthly-packages.1",
+          note: "Management + light content production",
+          included: ["Account management", "Light content production", "Reporting"],
+          excluded: ["Advertising budget — paid directly by you to the platform"],
+        },
+        {
+          service: "Growth package",
+          priceId: "social-media.monthly-packages.2",
+          note: "Full production, Reels, community management",
+          included: ["Full content production", "Reels", "Community management", "Reporting"],
+          excluded: ["Advertising budget — paid directly by you to the platform"],
+        },
+        {
+          service: "Multi-property add-on",
+          priceId: "social-media.monthly-packages.3",
+          note: "Indicative — per additional property or location managed",
+          included: ["Management of one additional property or location"],
+          excluded: ["Scope beyond the added property or location"],
+        },
       ],
       useCases: [
         { title: "Restaurants & hospitality", description: "A consistent, professional presence without an in-house team." },

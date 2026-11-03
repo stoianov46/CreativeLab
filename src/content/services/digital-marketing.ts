@@ -83,18 +83,24 @@ export const digitalMarketingService: ServicePage = {
   pricing: [
     {
       service: "Digital marketing strategy & audit",
-      range: "THB 15,000 – 30,000",
+      priceId: "services.digital-marketing.1",
       note: "Indicative — one-time, cross-channel plan before execution",
+      included: ["Digital marketing strategy and audit", "Cross-channel plan before execution"],
+      excluded: ["Execution of the plan", "Advertising budget — paid directly by you to the platform"],
     },
     {
       service: "Integrated management retainer",
-      range: "THB 35,000 – 80,000 / month",
+      priceId: "services.digital-marketing.2",
       note: "Indicative — advertising, social and SEO coordination; excludes ad spend",
+      included: ["Coordination of advertising, social media and SEO", "Monthly report"],
+      excluded: ["Advertising budget — paid directly by you to the platform", "Platform fees"],
     },
     {
       service: "Website & SEO foundation",
-      range: "THB 40,000 – 100,000",
+      priceId: "services.digital-marketing.3",
       note: "One-time, as part of a broader strategy",
+      included: ["Website and SEO foundation, as part of a broader strategy"],
+      excluded: ["Ongoing SEO management"],
     },
   ],
   useCases: [

@@ -75,13 +75,17 @@ export const villasRealEstateService: ServicePage = {
   pricing: [
     {
       service: "Property marketing package (single villa)",
-      range: "THB 35,000 – 80,000",
+      priceId: "villas-real-estate.marketing.1",
       note: "Visuals + listing + social + launch advertising",
+      included: ["Property visuals", "Listing", "Social media content", "Launch advertising setup"],
+      excluded: ["Advertising budget — paid directly by you to the platform", "Travel to Koh Samui or Koh Tao"],
     },
     {
       service: "Portfolio marketing (multiple properties or islands)",
-      range: "Custom",
+      priceId: "services.villas-real-estate.1",
       note: "Indicative — scoped per portfolio size and island spread",
+      included: ["Marketing for multiple properties or islands", "Scope defined per portfolio size and island spread"],
+      excluded: ["Advertising budget — paid directly by you to the platform", "Travel to Koh Samui or Koh Tao"],
     },
   ],
   useCases: [

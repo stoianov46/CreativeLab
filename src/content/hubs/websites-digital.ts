@@ -6,9 +6,9 @@ export const websitesDigitalHub: HubPage = {
   navLabel: "Websites & Digital",
   order: 6,
   priority: "P0",
-  h1: "Web Design on Koh Phangan",
-  primaryKeyword: "web design Koh Phangan",
-  metaTitle: "Web Design Koh Phangan | Websites, SEO & AI Search",
+  h1: "Websites & Digital Services on Koh Phangan",
+  primaryKeyword: "websites and SEO Koh Phangan",
+  metaTitle: "Websites & SEO Koh Phangan | Landing Pages, AI Search",
   metaDescription:
     "Website design, landing pages, SEO and AI search optimization for businesses on Koh Phangan, Koh Samui and Koh Tao — built for real conversion, not just looks.",
   directAnswer:
@@ -111,8 +111,20 @@ export const websitesDigitalHub: HubPage = {
         { title: "Launch", description: "Testing, then go-live with analytics in place." },
       ],
       pricing: [
-        { service: "Website design (5-page landing)", range: "THB 40,000 – 100,000", note: "Responsive + SEO-ready" },
-        { service: "Website design (multi-page business site)", range: "THB 90,000 – 180,000", note: "8–15 pages, CMS-ready" },
+        {
+          service: "Website design (5-page landing)",
+          priceId: "websites-digital.web-design.1",
+          note: "Responsive + SEO-ready",
+          included: ["5-page responsive landing website", "SEO-ready structure"],
+          excluded: ["Copywriting", "Photography", "Hosting and domain fees"],
+        },
+        {
+          service: "Website design (multi-page business site)",
+          priceId: "websites-digital.web-design.2",
+          note: "8–15 pages, CMS-ready",
+          included: ["Multi-page business website of 8–15 pages", "CMS-ready build"],
+          excluded: ["Copywriting", "Photography", "Hosting and domain fees"],
+        },
       ],
       useCases: [
         { title: "New businesses", description: "A complete, professional web presence from launch." },
@@ -178,7 +190,13 @@ export const websitesDigitalHub: HubPage = {
         { title: "Launch & train", description: "Go live, with a walkthrough of how to manage content." },
       ],
       pricing: [
-        { service: "Business website (8–12 pages)", range: "THB 70,000 – 140,000", note: "CMS-ready, on-page SEO included" },
+        {
+          service: "Business website (8–12 pages)",
+          priceId: "websites-digital.business-websites.1",
+          note: "CMS-ready, on-page SEO included",
+          included: ["Business website of 8–12 pages", "CMS-ready build", "On-page SEO included"],
+          excluded: ["Copywriting", "Photography", "Hosting and domain fees"],
+        },
       ],
       useCases: [
         { title: "Multi-service companies", description: "Businesses with several distinct services to present clearly." },
@@ -244,8 +262,20 @@ export const websitesDigitalHub: HubPage = {
         { title: "Launch", description: "Page goes live in time for the campaign." },
       ],
       pricing: [
-        { service: "Landing page (single offer)", range: "THB 15,000 – 35,000", note: "Includes tracking setup" },
-        { service: "Landing page set (multiple variants)", range: "THB 30,000 – 60,000", note: "For A/B testing different offers" },
+        {
+          service: "Landing page (single offer)",
+          priceId: "websites-digital.landing-pages.1",
+          note: "Includes tracking setup",
+          included: ["Landing page for a single offer", "Tracking setup included"],
+          excluded: ["Advertising budget", "Hosting and domain fees"],
+        },
+        {
+          service: "Landing page set (multiple variants)",
+          priceId: "websites-digital.landing-pages.2",
+          note: "For A/B testing different offers",
+          included: ["Landing page set with multiple variants", "For A/B testing different offers"],
+          excluded: ["Advertising budget", "Hosting and domain fees"],
+        },
       ],
       useCases: [
         { title: "Advertising campaigns", description: "A dedicated page for Google or Meta Ads traffic." },
@@ -311,7 +341,13 @@ export const websitesDigitalHub: HubPage = {
         { title: "Launch & test", description: "Performance and functionality testing before go-live." },
       ],
       pricing: [
-        { service: "Restaurant site development", range: "THB 35,000 – 80,000", note: "Technical build, integrations included" },
+        {
+          service: "Restaurant site development",
+          priceId: "websites-digital.restaurant-website.1",
+          note: "Technical build, integrations included",
+          included: ["Technical build of a restaurant website", "Integrations included"],
+          excluded: ["Design, quoted separately", "Hosting and domain fees"],
+        },
       ],
       useCases: [
         { title: "Restaurants needing a technical rebuild", description: "Replacing a slow or unreliable existing site." },
@@ -377,8 +413,20 @@ export const websitesDigitalHub: HubPage = {
         { title: "Launch", description: "Testing and go-live, including on mobile networks." },
       ],
       pricing: [
-        { service: "Villa website (single property)", range: "THB 35,000 – 75,000", note: "Gallery, info, booking integration" },
-        { service: "Villa portfolio website", range: "THB 60,000 – 130,000", note: "Multiple properties, shared platform" },
+        {
+          service: "Villa website (single property)",
+          priceId: "websites-digital.villa-website.1",
+          note: "Gallery, info, booking integration",
+          included: ["Website for a single property", "Gallery and property information", "Booking integration"],
+          excluded: ["Photography", "Hosting and domain fees"],
+        },
+        {
+          service: "Villa portfolio website",
+          priceId: "websites-digital.villa-website.2",
+          note: "Multiple properties, shared platform",
+          included: ["Website for multiple properties on a shared platform"],
+          excluded: ["Photography", "Hosting and domain fees"],
+        },
       ],
       useCases: [
         { title: "Independent villa owners", description: "A dedicated site beyond listing platforms alone." },
@@ -407,7 +455,7 @@ export const websitesDigitalHub: HubPage = {
       hubSlug: "websites-digital",
       navLabel: "E-commerce",
       h1: "E-commerce Website Development on Koh Phangan",
-      primaryKeyword: "ecommerce website Koh Phangan",
+      primaryKeyword: "e-commerce website Koh Phangan",
       secondaryTopics: ["online shop", "product website"],
       metaTitle: "E-commerce Website Koh Phangan | Online Shop",
       metaDescription:
@@ -444,8 +492,20 @@ export const websitesDigitalHub: HubPage = {
         { title: "Launch", description: "Testing across devices before go-live." },
       ],
       pricing: [
-        { service: "E-commerce site (small catalog)", range: "THB 60,000 – 120,000", note: "Up to ~50 products" },
-        { service: "E-commerce site (larger catalog)", range: "THB 120,000 – 220,000", note: "50+ products, more complex catalog" },
+        {
+          service: "E-commerce site (small catalog)",
+          priceId: "websites-digital.ecommerce.1",
+          note: "Up to ~50 products",
+          included: ["E-commerce site with up to about 50 products"],
+          excluded: ["Product photography", "Payment provider and hosting fees"],
+        },
+        {
+          service: "E-commerce site (larger catalog)",
+          priceId: "websites-digital.ecommerce.2",
+          note: "50+ products, more complex catalog",
+          included: ["E-commerce site with more than 50 products", "More complex catalog structure"],
+          excluded: ["Product photography", "Payment provider and hosting fees"],
+        },
       ],
       useCases: [
         { title: "Local product brands", description: "Selling physical products directly to customers online." },
@@ -511,8 +571,20 @@ export const websitesDigitalHub: HubPage = {
         { title: "Migrate", description: "Careful launch with redirects and monitoring in place." },
       ],
       pricing: [
-        { service: "Website redesign audit", range: "THB 10,000 – 20,000", note: "One-time, with a written action plan" },
-        { service: "Full redesign & rebuild", range: "THB 60,000 – 150,000", note: "Depends on site size and complexity" },
+        {
+          service: "Website redesign audit",
+          priceId: "websites-digital.redesign.1",
+          note: "One-time, with a written action plan",
+          included: ["Website redesign audit", "Written action plan"],
+          excluded: ["Implementation of the plan"],
+        },
+        {
+          service: "Full redesign & rebuild",
+          priceId: "websites-digital.redesign.2",
+          note: "Depends on site size and complexity",
+          included: ["Full redesign and rebuild of an existing website"],
+          excluded: ["Copywriting", "Hosting and domain fees"],
+        },
       ],
       useCases: [
         { title: "Outdated websites", description: "Sites that no longer reflect the business or perform well." },
@@ -578,8 +650,20 @@ export const websitesDigitalHub: HubPage = {
         { title: "Verify", description: "Confirm fixes resolved the issues using real crawl and speed data." },
       ],
       pricing: [
-        { service: "Technical SEO audit", range: "THB 12,000 – 25,000", note: "Full site crawl with prioritized findings" },
-        { service: "Technical SEO implementation", range: "THB 15,000 – 45,000", note: "Depends on issue volume and site size" },
+        {
+          service: "Technical SEO audit",
+          priceId: "websites-digital.technical-seo.1",
+          note: "Full site crawl with prioritized findings",
+          included: ["Full site crawl", "Prioritized findings"],
+          excluded: ["Implementation of the fixes"],
+        },
+        {
+          service: "Technical SEO implementation",
+          priceId: "websites-digital.technical-seo.2",
+          note: "Depends on issue volume and site size",
+          included: ["Implementation of technical SEO fixes"],
+          excluded: ["Ongoing monitoring"],
+        },
       ],
       useCases: [
         { title: "Sites with declining organic traffic", description: "Identifying and fixing what's holding the site back." },
@@ -644,8 +728,20 @@ export const websitesDigitalHub: HubPage = {
         { title: "Monitor", description: "Track visibility in AI-generated answers where measurable." },
       ],
       pricing: [
-        { service: "AI search optimization audit", range: "THB 10,000 – 20,000", note: "One-time, with a written action plan" },
-        { service: "AI search optimization implementation", range: "THB 15,000 – 35,000", note: "Content and schema changes across key pages" },
+        {
+          service: "AI search optimization audit",
+          priceId: "websites-digital.ai-search.1",
+          note: "One-time, with a written action plan",
+          included: ["AI search optimization audit", "Written action plan"],
+          excluded: ["Implementation of the plan"],
+        },
+        {
+          service: "AI search optimization implementation",
+          priceId: "websites-digital.ai-search.2",
+          note: "Content and schema changes across key pages",
+          included: ["Content and schema changes across key pages"],
+          excluded: ["Guaranteed rankings or AI citations, which no one can promise"],
+        },
       ],
       useCases: [
         { title: "Service businesses", description: "Being clearly and accurately described when someone asks an AI assistant." },

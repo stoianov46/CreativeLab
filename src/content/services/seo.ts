@@ -16,7 +16,7 @@ export const seoService: ServicePage = {
   ],
   metaTitle: "SEO Agency Koh Phangan",
   metaDescription:
-    "SEO for businesses on Koh Phangan, Koh Samui and Koh Tao — on-page, technical, local search and AI search optimization in one strategy.",
+    "SEO for businesses on Koh Phangan, Koh Samui and Koh Tao — on-page, technical, local search and AI search optimization in one strategy from a local team.",
   directAnswer:
     "CreativeLAB is an SEO agency working with businesses on Koh Phangan, Koh Samui and Koh Tao. We cover the full discipline — on-page content, technical SEO, local search visibility and AI search (GEO) optimization — as one coordinated strategy, not a single narrow service sold on its own.",
   heroSupport:
@@ -83,18 +83,24 @@ export const seoService: ServicePage = {
   pricing: [
     {
       service: "SEO strategy & audit",
-      range: "THB 12,000 – 25,000",
+      priceId: "services.seo.1",
       note: "One-time — full-site review with a prioritized action plan",
+      included: ["Full-site review", "Prioritized action plan"],
+      excluded: ["Implementation of the plan"],
     },
     {
       service: "Ongoing SEO management",
-      range: "THB 15,000 – 40,000 / month",
+      priceId: "services.seo.2",
       note: "Indicative — content, technical and local SEO work combined",
+      included: ["Content, technical and local SEO work", "Monthly report"],
+      excluded: ["Guaranteed rankings, which no one can promise", "Advertising budget"],
     },
     {
       service: "AI search optimization implementation",
-      range: "THB 15,000 – 35,000",
+      priceId: "websites-digital.ai-search.2",
       note: "Content and schema changes across key pages",
+      included: ["Content and schema changes across key pages"],
+      excluded: ["Guaranteed rankings or AI citations, which no one can promise"],
     },
   ],
   useCases: [

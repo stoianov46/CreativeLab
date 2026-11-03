@@ -6,9 +6,9 @@ export const businessLocalPresenceHub: HubPage = {
   navLabel: "Business & Local Presence",
   order: 5,
   priority: "P0",
-  h1: "Local SEO on Koh Phangan",
-  primaryKeyword: "local SEO Koh Phangan",
-  metaTitle: "Local SEO Koh Phangan | GBP & Maps",
+  h1: "Local Business Visibility on Koh Phangan",
+  primaryKeyword: "local business visibility Koh Phangan",
+  metaTitle: "Local Business Visibility Koh Phangan | Maps & GBP",
   metaDescription:
     "Local SEO, Google Business Profile, Maps optimization, reviews, reputation and listings management for businesses on Koh Phangan, Koh Samui and Koh Tao.",
   directAnswer:
@@ -112,8 +112,20 @@ export const businessLocalPresenceHub: HubPage = {
         { title: "Monitor", description: "Track visibility and refine over time." },
       ],
       pricing: [
-        { service: "Local SEO audit", range: "THB 8,000 – 15,000", note: "One-time, with a written action plan" },
-        { service: "Ongoing local SEO", range: "THB 10,000 – 25,000 / month", note: "Continuous improvement and monitoring" },
+        {
+          service: "Local SEO audit",
+          priceId: "business-local-presence.local-seo.1",
+          note: "One-time, with a written action plan",
+          included: ["Local SEO audit", "Written action plan"],
+          excluded: ["Implementation of the plan"],
+        },
+        {
+          service: "Ongoing local SEO",
+          priceId: "business-local-presence.local-seo.2",
+          note: "Continuous improvement and monitoring",
+          included: ["Continuous local SEO improvements", "Ongoing monitoring"],
+          excluded: ["Website development", "Advertising budget"],
+        },
       ],
       useCases: [
         { title: "Service businesses", description: "Improve visibility for 'near me' and service-specific searches." },
@@ -179,8 +191,20 @@ export const businessLocalPresenceHub: HubPage = {
         { title: "Report", description: "Regular updates on profile performance." },
       ],
       pricing: [
-        { service: "Google Business Profile setup/audit", range: "THB 5,000 – 10,000", note: "One-time" },
-        { service: "Ongoing GBP management", range: "THB 6,000 – 15,000 / month", note: "Posts, photos, monitoring" },
+        {
+          service: "Google Business Profile setup/audit",
+          priceId: "business-local-presence.google-business-profile.1",
+          note: "One-time",
+          included: ["Google Business Profile setup or audit"],
+          excluded: ["Ongoing management", "Verification, which only the business owner can complete"],
+        },
+        {
+          service: "Ongoing GBP management",
+          priceId: "business-local-presence.google-business-profile.2",
+          note: "Posts, photos, monitoring",
+          included: ["Posts", "Photo updates", "Monitoring"],
+          excluded: ["New photography or video production"],
+        },
       ],
       useCases: [
         { title: "New businesses", description: "A properly set up profile from day one." },
@@ -246,7 +270,13 @@ export const businessLocalPresenceHub: HubPage = {
         { title: "Monitor", description: "Ongoing checks as Maps data or your business details change." },
       ],
       pricing: [
-        { service: "Google Maps optimization", range: "THB 4,000 – 9,000", note: "One-time correction and optimization" },
+        {
+          service: "Google Maps optimization",
+          priceId: "business-local-presence.google-maps.1",
+          note: "One-time correction and optimization",
+          included: ["One-time correction and optimization of the Google Maps presence"],
+          excluded: ["Ongoing management", "Advertising budget"],
+        },
       ],
       useCases: [
         { title: "Hard-to-find locations", description: "Businesses in areas where GPS accuracy is often poor." },
@@ -311,8 +341,20 @@ export const businessLocalPresenceHub: HubPage = {
         { title: "Report", description: "Regular summary of review activity and trends." },
       ],
       pricing: [
-        { service: "Review management setup", range: "THB 5,000 – 10,000", note: "One-time — request process and initial audit" },
-        { service: "Ongoing review management", range: "THB 6,000 – 15,000 / month", note: "Monitoring and responses" },
+        {
+          service: "Review management setup",
+          priceId: "business-local-presence.reviews.1",
+          note: "One-time — request process and initial audit",
+          included: ["Review request process setup", "Initial audit of existing reviews"],
+          excluded: ["Ongoing monitoring and responses"],
+        },
+        {
+          service: "Ongoing review management",
+          priceId: "business-local-presence.reviews.2",
+          note: "Monitoring and responses",
+          included: ["Review monitoring", "Responses to reviews"],
+          excluded: ["Setup of the request process, quoted separately"],
+        },
       ],
       useCases: [
         { title: "Restaurants & hospitality", description: "High review volume that needs consistent, timely responses." },
@@ -379,7 +421,13 @@ export const businessLocalPresenceHub: HubPage = {
         { title: "Report", description: "Regular summary of reputation trends and actions taken." },
       ],
       pricing: [
-        { service: "Reputation monitoring & management", range: "THB 10,000 – 25,000 / month", note: "Cross-platform monitoring and response" },
+        {
+          service: "Reputation monitoring & management",
+          priceId: "business-local-presence.reputation.1",
+          note: "Cross-platform monitoring and response",
+          included: ["Cross-platform monitoring", "Responses to reviews and mentions"],
+          excluded: ["Removal of reviews, which platforms control"],
+        },
       ],
       useCases: [
         { title: "Established businesses", description: "Ongoing protection of a reputation built over years." },
@@ -446,7 +494,13 @@ export const businessLocalPresenceHub: HubPage = {
         { title: "Monitor", description: "Periodic checks to catch new inconsistencies." },
       ],
       pricing: [
-        { service: "Listings audit & cleanup", range: "THB 6,000 – 14,000", note: "One-time, covers relevant directories" },
+        {
+          service: "Listings audit & cleanup",
+          priceId: "business-local-presence.listings.1",
+          note: "One-time, covers relevant directories",
+          included: ["Audit of relevant directories", "Cleanup of inconsistent listings"],
+          excluded: ["Paid directory fees", "Ongoing monitoring"],
+        },
       ],
       useCases: [
         { title: "Businesses that rebranded or moved", description: "Cleaning up outdated information left across the web." },

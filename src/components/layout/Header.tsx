@@ -100,13 +100,18 @@ export function Header({
   return (
     <header
       ref={headerRef}
+      // backdrop-filter makes the header the containing block of `fixed`
+      // descendants, which squashed the full-screen mobile panel into the
+      // header's 64px height. So no blur while the panel is open.
       className={`sticky top-0 z-40 border-b transition-colors duration-200 ${
-        scrolled || openMenu
-          ? "border-line bg-base/95 backdrop-blur"
-          : "border-transparent bg-base/70 backdrop-blur"
+        mobileOpen
+          ? "border-transparent bg-base"
+          : scrolled || openMenu
+            ? "border-line bg-base/95 backdrop-blur"
+            : "border-transparent bg-base/70 backdrop-blur"
       }`}
     >
-      <div className="mx-auto flex h-16 max-w-[1440px] items-center justify-between gap-6 px-5 sm:px-8 lg:h-20 lg:px-12">
+      <div className="mx-auto flex h-16 max-w-[1440px] items-center justify-between gap-4 px-5 sm:px-8 lg:h-20 lg:px-6 xl:gap-6 xl:px-12">
         <Link
           href="/"
           className="font-display text-xl font-medium tracking-tight text-text"
@@ -124,7 +129,7 @@ export function Header({
                 <Link
                   key={item.label}
                   href={item.href}
-                  className="px-3 py-2 text-sm font-medium whitespace-nowrap text-text hover:text-accent"
+                  className="px-2 py-2 text-sm font-medium whitespace-nowrap text-text hover:text-accent xl:px-3"
                   onClick={closeAll}
                 >
                   {item.label}
@@ -140,7 +145,7 @@ export function Header({
               >
                 <button
                   type="button"
-                  className={`flex items-center gap-1 px-3 py-2 text-sm font-medium whitespace-nowrap hover:text-accent ${
+                  className={`flex items-center gap-1 px-2 py-2 text-sm font-medium whitespace-nowrap hover:text-accent xl:px-3 ${
                     isOpen ? "text-accent" : "text-text"
                   }`}
                   aria-expanded={isOpen}
@@ -184,7 +189,7 @@ export function Header({
           <LanguageSwitcher label={ui.nav.language} />
           <Link
             href="/contact"
-            className="hidden bg-accent px-5 py-2.5 text-sm font-medium whitespace-nowrap text-text-inverse hover:bg-[#804e33] sm:inline-flex"
+            className="hidden bg-accent px-4 py-2.5 text-sm font-medium whitespace-nowrap text-text-inverse hover:bg-[#804e33] sm:inline-flex xl:px-5"
           >
             {ui.cta.startProject}
           </Link>

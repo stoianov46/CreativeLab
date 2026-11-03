@@ -28,6 +28,16 @@ jobs:
       - name: Translations check
         run: npm run i18n:check
 
+      # Every price shown comes from src/content/pricing.ts; this fails on an
+      # unknown priceId or a number that differs between EN and a translation.
+      - name: Pricing check
+        run: npm run pricing:check
+
+      # Runs the real /api/contact handler with a mocked Telegram: validation,
+      # honeypot, rate limit, option whitelist, escaping. Sends no real lead.
+      - name: Contact form API check
+        run: npm run contact:check
+
       # Build first: it generates next-env.d.ts + .next/types (PageProps/
       # LayoutProps, image module declarations) that tsc --noEmit needs,
       # and next build already runs its own full type check internally —
@@ -38,6 +48,12 @@ jobs:
 
       - name: Type check
         run: npx tsc --noEmit
+
+      # Crawls the production build (next start) in all 4 locales: status, title,
+      # description, one H1, canonical, hreflang, JSON-LD, alt, internal links,
+      # banned phrases, old domains. Fails on any ERROR; warnings are reported.
+      - name: Site audit
+        run: npm run site:check
 
   bots:
     name: Bots — typecheck & flow tests

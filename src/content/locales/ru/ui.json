@@ -32,6 +32,7 @@
     "journal": "Журнал",
     "contact": "Контакты",
     "privacy": "Политика конфиденциальности",
+    "cookies": "Политика cookie",
     "terms": "Условия использования",
     "editorial": "Редакционная политика",
     "accessibility": "Доступность",
@@ -82,6 +83,16 @@
     "pricingRange": "Диапазон цен (THB)",
     "pricingNotes": "Примечания",
     "pricingCaption": "Ориентировочные цены на «{service}»",
+    "pricingIncluded": "Входит",
+    "pricingExcluded": "Не входит",
+    "pricingRevisions": "Правки",
+    "pricingTurnaround": "Срок выполнения",
+    "pricingTurnaroundDays": "{n} рабочих дней",
+    "pricingUnitOneTime": "разово",
+    "pricingUnitPerMonth": "в месяц",
+    "pricingCustom": "Индивидуально",
+    "pricingBundled": "Входит в пакет",
+    "pricingUpdated": "Ориентировочные цены, проверены {date}.",
     "overviewEyebrow": "Обзор",
     "overviewTitle": "Обзор услуги",
     "industriesEyebrow": "Отрасли",
@@ -125,7 +136,8 @@
     "ctaDescription": "Расскажите о своём бизнесе, и мы предложим реалистичный следующий шаг."
   },
   "service": {
-    "ctaTitle": "Готовы начать проект «{service}»?"
+    "ctaTitle": "Готовы начать проект «{service}»?",
+    "moreInHub": "Ещё в категории «{hub}»"
   },
   "industryPage": {
     "needsEyebrow": "Задача",
@@ -145,6 +157,17 @@
   "indexPages": {
     "explore": "Смотреть",
     "canonicalNote": "Подробная версия"
+  },
+  "concept": {
+    "eyebrow": "Концепт",
+    "disclaimerTitle": "Об этом концепте",
+    "disclaimer": "Это авторская работа CreativeLAB, которая показывает, как мы подошли бы к проекту такого рода. Это не реальный клиентский заказ: за ней нет ни клиента, ни бюджета, ни результатов, ни отзывов.",
+    "briefTitle": "Бриф",
+    "demonstratesTitle": "Что это показывает",
+    "deliverablesTitle": "Что входит в концепт",
+    "servicesTitle": "Связанные услуги",
+    "moreTitle": "Другие концептуальные проекты",
+    "viewConcept": "Смотреть концепт"
   },
   "caseStudy": {
     "eyebrow": "Кейс",
@@ -181,7 +204,7 @@
     "whatsapp": "WhatsApp",
     "telegram": "Telegram",
     "call": "Позвонить",
-    "start": "Начать"
+    "start": "Начать проект"
   },
   "languageSuggestion": {
     "text": "Эта страница доступна на русском языке.",
@@ -221,13 +244,37 @@
     "success": "Спасибо — ваше сообщение отправлено. Обычно мы отвечаем в течение одного рабочего дня.",
     "failure": "Не удалось отправить сообщение. Попробуйте ещё раз или напишите нам на почту напрямую.",
     "sending": "Отправляем…",
-    "send": "Отправить сообщение"
+    "send": "Отправить сообщение",
+    "selectPlaceholder": "Выберите…",
+    "optionalSuffix": "(необязательно)",
+    "locationLabel": "Остров",
+    "businessLabel": "Тип бизнеса",
+    "otherOption": "Другое / пока не знаю",
+    "budgetLabel": "Бюджет",
+    "budgetUnder20k": "До THB 20,000",
+    "budget20to50k": "THB 20,000–50,000",
+    "budget50to100k": "THB 50,000–100,000",
+    "budgetOver100k": "Более THB 100,000",
+    "budgetNotSure": "Пока не определились",
+    "timelineLabel": "Сроки",
+    "timelineAsap": "Как можно скорее",
+    "timelineMonth": "В течение месяца",
+    "timeline13": "1–3 месяца",
+    "timelineExploring": "Пока присматриваюсь",
+    "reviewButton": "Проверить запрос",
+    "reviewTitle": "Проверьте ваш запрос",
+    "reviewIntro": "Проверьте данные ниже и отправьте. Вы всё ещё можете вернуться и изменить их.",
+    "editButton": "Изменить",
+    "notProvided": "Не указано",
+    "replyLanguageLabel": "Предпочтительный язык нашего ответа"
   },
   "contact": {
     "email": "Эл. почта",
     "phone": "Телефон",
     "whatsapp": "WhatsApp",
     "telegram": "Telegram",
-    "basedIn": "Где мы находимся"
+    "basedIn": "Где мы находимся",
+    "address": "Адрес",
+    "viewOnMap": "Показать на карте"
   }
 }

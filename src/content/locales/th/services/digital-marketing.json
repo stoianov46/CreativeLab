@@ -1,172 +1,191 @@
 {
-  "navLabel": "Digital Marketing",
-  "h1": "Digital Marketing",
-  "primaryKeyword": "digital marketing agency Koh Phangan, Koh Samui and Koh Tao",
+  "navLabel": "การตลาดดิจิทัล",
+  "h1": "เอเจนซี่การตลาดดิจิทัลบนเกาะพะงัน เกาะสมุย และเกาะเต่า",
+  "primaryKeyword": "เอเจนซี่การตลาดดิจิทัลเกาะพะงัน เกาะสมุย และเกาะเต่า",
   "secondaryTopics": [
-    "integrated marketing strategy",
-    "advertising and SEO",
-    "website and analytics",
-    "island marketing strategy"
+    "กลยุทธ์การตลาดแบบบูรณาการ",
+    "โฆษณาและ SEO",
+    "เว็บไซต์และการวิเคราะห์",
+    "กลยุทธ์การตลาดบนเกาะ"
   ],
-  "metaTitle": "Digital Marketing",
-  "metaDescription": "Integrated digital marketing for businesses on Koh Phangan, Koh Samui and Koh Tao — advertising, social, SEO, website and analytics run as one strategy.",
-  "directAnswer": "Digital marketing is the coordination of advertising, social media, SEO, your website and analytics into one strategy rather than separate, disconnected efforts. CreativeLAB provides this for businesses on Koh Phangan, Koh Samui and Koh Tao, planning the mix and managing the channels as a single, accountable team.",
-  "heroSupport": "Advertising, social, SEO, your website and analytics, coordinated as one strategy for businesses across Koh Phangan, Koh Samui and Koh Tao.",
-  "heroImageAlt": "Marketing team reviewing an integrated strategy across advertising, SEO and social",
+  "metaTitle": "เอเจนซี่การตลาดดิจิทัล เกาะพะงันและสมุย",
+  "metaDescription": "การตลาดดิจิทัลแบบบูรณาการสำหรับธุรกิจบนเกาะพะงัน เกาะสมุย และเกาะเต่า โฆษณา โซเชียล SEO เว็บไซต์ และการวิเคราะห์ ภายใต้กลยุทธ์เดียว",
+  "directAnswer": "การตลาดดิจิทัลคือการประสานโฆษณา โซเชียลมีเดีย SEO เว็บไซต์ และการวิเคราะห์เข้าเป็นกลยุทธ์เดียว แทนที่จะเป็นความพยายามแยกส่วนที่ไม่เกี่ยวข้องกัน CreativeLAB ให้บริการนี้แก่ธุรกิจบนเกาะพะงัน เกาะสมุย และเกาะเต่า วางแผนส่วนผสมและบริหารช่องทางเป็นทีมเดียวที่รับผิดชอบ",
+  "heroSupport": "โฆษณา โซเชียล SEO เว็บไซต์ และการวิเคราะห์ ประสานเป็นกลยุทธ์เดียวสำหรับธุรกิจทั่วเกาะพะงัน เกาะสมุย และเกาะเต่า",
+  "heroImageAlt": "ทีมการตลาดกำลังทบทวนกลยุทธ์แบบบูรณาการข้ามโฆษณา SEO และโซเชียล",
   "overview": [
-    "Digital marketing means different things depending on who's selling it. For us, it means one thing specifically: your advertising, social media, SEO, website and analytics working from a single plan, with one team accountable for how they perform together — not five separate efforts competing for the same budget and attention.",
-    "Most businesses on Koh Phangan, Koh Samui and Koh Tao end up here by accident: a freelancer runs the Instagram, a different agency handles Google Ads, the website was built years ago by someone else, and no one is looking at how those pieces interact. This service exists for businesses that want that coordinated instead — where budget moves toward whatever's actually producing results, informed by data across every channel rather than siloed reporting from each one.",
-    "This is deliberately the broadest page on the site: for the specifics of a single channel, see our Advertising, Google Ads, Social Media Management or SEO pages. This page is where we explain how those pieces fit into one plan, and how we decide, for your business, which parts to prioritize first.",
-    "The three islands add a real layer of complexity worth planning for rather than ignoring: Koh Samui's larger, more established market behaves differently from Koh Phangan's wellness-and-nightlife mix or Koh Tao's diving-driven audience. An integrated strategy accounts for that from the start, rather than running one generic plan across all three."
+    "การตลาดดิจิทัลมีความหมายต่างกันขึ้นกับว่าใครเป็นคนขาย สำหรับเรา มันหมายถึงสิ่งเดียวโดยเฉพาะ โฆษณา โซเชียลมีเดีย SEO เว็บไซต์ และการวิเคราะห์ของคุณทำงานจากแผนเดียว โดยมีทีมเดียวรับผิดชอบว่าทั้งหมดทำงานร่วมกันได้ดีเพียงใด ไม่ใช่ห้าความพยายามแยกที่แย่งงบประมาณและความสนใจเดียวกัน",
+    "ธุรกิจส่วนใหญ่บนเกาะพะงัน เกาะสมุย และเกาะเต่าลงเอยที่นี่โดยบังเอิญ ฟรีแลนซ์คนหนึ่งดูแล Instagram เอเจนซี่อีกแห่งดูแล Google Ads เว็บไซต์ถูกสร้างเมื่อหลายปีก่อนโดยคนอื่น และไม่มีใครมองว่าชิ้นส่วนเหล่านั้นโต้ตอบกันอย่างไร บริการนี้มีไว้สำหรับธุรกิจที่ต้องการให้ประสานกัน งบเคลื่อนไปยังสิ่งที่สร้างผลลัพธ์จริง อิงข้อมูลข้ามทุกช่องทาง แทนที่จะเป็นรายงานแยกไซโลจากแต่ละช่องทาง",
+    "นี่คือหน้าที่กว้างที่สุดบนเว็บไซต์โดยตั้งใจ สำหรับรายละเอียดของช่องทางเดียว ดูหน้าโฆษณา Google Ads การบริหารโซเชียลมีเดีย หรือ SEO ของเรา หน้านี้คือที่ที่เราอธิบายว่าชิ้นส่วนเหล่านั้นเข้ากันเป็นแผนเดียวอย่างไร และเราตัดสินอย่างไรว่าจะให้ความสำคัญส่วนไหนก่อนสำหรับธุรกิจของคุณ",
+    "สามเกาะเพิ่มชั้นความซับซ้อนจริงที่ควรวางแผนแทนที่จะเมินเฉย ตลาดที่ใหญ่และมั่นคงกว่าของเกาะสมุยทำตัวต่างจากส่วนผสมเวลเนสและกลางคืนของเกาะพะงันหรือผู้ชมที่ขับเคลื่อนด้วยการดำน้ำของเกาะเต่า กลยุทธ์แบบบูรณาการคำนึงถึงสิ่งนั้นตั้งแต่ต้น แทนที่จะรันแผนทั่วไปเดียวทั้งสามเกาะ"
   ],
   "scope": [
     {
-      "title": "Strategy & planning",
-      "description": "Goals, channel mix and budget allocation agreed before any campaign or channel work begins."
+      "title": "กลยุทธ์และการวางแผน",
+      "description": "เป้าหมาย ส่วนผสมช่องทาง และการจัดสรรงบประมาณที่ตกลงก่อนเริ่มงานแคมเปญหรือช่องทางใด ๆ"
     },
     {
-      "title": "Advertising coordination",
-      "description": "Google Ads and Meta Ads run as part of the wider plan, not as isolated campaigns."
+      "title": "การประสานงานโฆษณา",
+      "description": "Google Ads และ Meta Ads รันเป็นส่วนหนึ่งของแผนที่กว้างกว่า ไม่ใช่แคมเปญที่แยกขาด"
     },
     {
-      "title": "Content & social",
-      "description": "Social media management and content production aligned to the same strategy and calendar."
+      "title": "คอนเทนต์และโซเชียล",
+      "description": "การบริหารโซเชียลมีเดียและการผลิตคอนเทนต์ที่สอดคล้องกับกลยุทธ์และปฏิทินเดียวกัน"
     },
     {
-      "title": "Website & SEO",
-      "description": "Your site's structure, content and technical SEO built to support the rest of the plan."
+      "title": "เว็บไซต์และ SEO",
+      "description": "โครงสร้าง เนื้อหา และ SEO เชิงเทคนิคของเว็บไซต์ที่สร้างเพื่อสนับสนุนแผนส่วนที่เหลือ"
     },
     {
-      "title": "Analytics & reporting",
-      "description": "One reporting view across every channel, rather than a separate report per vendor."
+      "title": "การวิเคราะห์และการรายงาน",
+      "description": "มุมมองการรายงานเดียวข้ามทุกช่องทาง แทนที่จะเป็นรายงานแยกต่อผู้ให้บริการ"
     }
   ],
   "benefits": [
     {
-      "title": "One team, one strategy",
-      "description": "Advertising, social, SEO and web decisions are made together instead of in isolation."
+      "title": "ทีมเดียว กลยุทธ์เดียว",
+      "description": "การตัดสินใจด้านโฆษณา โซเชียล SEO และเว็บทำร่วมกัน แทนที่จะแยกกัน"
     },
     {
-      "title": "Consistent messaging everywhere",
-      "description": "Your brand and offer look and sound the same across every channel a customer encounters."
+      "title": "ข้อความที่สอดคล้องทุกที่",
+      "description": "แบรนด์และข้อเสนอของคุณดูและฟังเหมือนกันทุกช่องทางที่ลูกค้าพบ"
     },
     {
-      "title": "Budget follows performance",
-      "description": "Spend shifts toward whichever channel is actually converting, based on shared data."
+      "title": "งบตามผลงาน",
+      "description": "งบเคลื่อนไปยังช่องทางที่แปลงผลได้จริง ตามข้อมูลร่วม"
     },
     {
-      "title": "One reporting view",
-      "description": "A single, plain-language picture of how the whole marketing effort is performing."
+      "title": "มุมมองการรายงานเดียว",
+      "description": "ภาพเดียวด้วยภาษาเข้าใจง่ายว่าความพยายามการตลาดทั้งหมดทำผลงานเป็นอย่างไร"
     },
     {
-      "title": "Built to flex with seasonality",
-      "description": "Resources can shift between channels and islands as demand changes through the year."
+      "title": "สร้างให้ยืดหยุ่นตามฤดูกาล",
+      "description": "ทรัพยากรเคลื่อนระหว่างช่องทางและเกาะได้เมื่อความต้องการเปลี่ยนตลอดปี"
     }
   ],
   "process": [
     {
-      "title": "Discovery & audit",
-      "description": "Review your current marketing, website, channels and goals."
+      "title": "ค้นหาข้อมูลและตรวจสอบ",
+      "description": "ทบทวนการตลาด เว็บไซต์ ช่องทาง และเป้าหมายปัจจุบันของคุณ"
     },
     {
-      "title": "Strategy & channel plan",
-      "description": "Agree priorities, budget split and a realistic sequence of work."
+      "title": "กลยุทธ์และแผนช่องทาง",
+      "description": "ตกลงลำดับความสำคัญ การแบ่งงบ และลำดับงานที่สมเหตุสมผล"
     },
     {
-      "title": "Production",
-      "description": "Creative, website and content work produced to support the plan."
+      "title": "การผลิต",
+      "description": "งานสร้างสรรค์ เว็บไซต์ และคอนเทนต์ที่ผลิตเพื่อสนับสนุนแผน"
     },
     {
-      "title": "Launch across channels",
-      "description": "Advertising, social and SEO work go live in a coordinated sequence."
+      "title": "เปิดตัวข้ามช่องทาง",
+      "description": "งานโฆษณา โซเชียล และ SEO ออนแอร์ตามลำดับที่ประสานกัน"
     },
     {
-      "title": "Measurement & reallocation",
-      "description": "Ongoing reporting drives where budget and effort go next."
+      "title": "การวัดผลและการจัดสรรใหม่",
+      "description": "การรายงานต่อเนื่องขับเคลื่อนว่างบและความพยายามไปที่ไหนต่อ"
     }
   ],
   "pricing": [
     {
-      "service": "Digital marketing strategy & audit",
-      "range": "THB 15,000 – 30,000",
-      "note": "Indicative — one-time, cross-channel plan before execution"
+      "service": "กลยุทธ์การตลาดดิจิทัลและการตรวจสอบ",
+      "note": "โดยประมาณ ครั้งเดียว แผนข้ามช่องทางก่อนดำเนินการ",
+      "included": [
+        "กลยุทธ์และการตรวจสอบการตลาดดิจิทัล",
+        "แผนข้ามช่องทางก่อนลงมือดำเนินการ"
+      ],
+      "excluded": [
+        "ดำเนินการตามแผน",
+        "งบโฆษณา — คุณชำระให้แพลตฟอร์มโดยตรง"
+      ]
     },
     {
-      "service": "Integrated management retainer",
-      "range": "THB 35,000 – 80,000 / month",
-      "note": "Indicative — advertising, social and SEO coordination; excludes ad spend"
+      "service": "สัญญาบริหารแบบบูรณาการ",
+      "note": "โดยประมาณ การประสานงานโฆษณา โซเชียล และ SEO ไม่รวมค่าโฆษณา",
+      "included": [
+        "ประสานงานด้านโฆษณา โซเชียลมีเดีย และ SEO",
+        "รายงานรายเดือน"
+      ],
+      "excluded": [
+        "งบโฆษณา — คุณชำระให้แพลตฟอร์มโดยตรง",
+        "ค่าธรรมเนียมแพลตฟอร์ม"
+      ]
     },
     {
-      "service": "Website & SEO foundation",
-      "range": "THB 40,000 – 100,000",
-      "note": "One-time, as part of a broader strategy"
+      "service": "รากฐานเว็บไซต์และ SEO",
+      "note": "ครั้งเดียว เป็นส่วนหนึ่งของกลยุทธ์ที่กว้างกว่า",
+      "included": [
+        "รากฐานเว็บไซต์และ SEO ในฐานะส่วนหนึ่งของกลยุทธ์ที่กว้างกว่า"
+      ],
+      "excluded": [
+        "การบริหาร SEO ต่อเนื่อง"
+      ]
     }
   ],
   "useCases": [
     {
-      "title": "Multi-channel hospitality brands",
-      "description": "Hotels and resorts coordinating advertising, social and SEO around occupancy goals."
+      "title": "แบรนด์การบริการหลายช่องทาง",
+      "description": "โรงแรมและรีสอร์ตที่ประสานโฆษณา โซเชียล และ SEO รอบเป้าหมายอัตราเข้าพัก"
     },
     {
-      "title": "Villa & property portfolios",
-      "description": "Consistent marketing across several listings or properties under one strategy."
+      "title": "พอร์ตโฟลิโอวิลล่าและทรัพย์สิน",
+      "description": "การตลาดที่สอดคล้องข้ามหลายประกาศหรือทรัพย์สินภายใต้กลยุทธ์เดียว"
     },
     {
-      "title": "Restaurant groups",
-      "description": "Coordinated advertising, social and local visibility across multiple venues."
+      "title": "กลุ่มร้านอาหาร",
+      "description": "โฆษณา โซเชียล และการมองเห็นในท้องถิ่นที่ประสานกันข้ามหลายสถานที่"
     },
     {
-      "title": "Seasonal tourism businesses",
-      "description": "Businesses that need marketing effort and spend to flex meaningfully with the season."
+      "title": "ธุรกิจท่องเที่ยวตามฤดูกาล",
+      "description": "ธุรกิจที่ต้องการให้ความพยายามและงบการตลาดยืดหยุ่นตามฤดูกาลอย่างมีความหมาย"
     }
   ],
   "faqs": [
     {
-      "q": "What's the difference between digital marketing and just running ads?",
-      "a": "Advertising is one channel; digital marketing coordinates advertising with social media, SEO, your website and analytics as a single strategy."
+      "q": "การตลาดดิจิทัลต่างจากการรันโฆษณาเฉย ๆ อย่างไร?",
+      "a": "โฆษณาเป็นหนึ่งช่องทาง การตลาดดิจิทัลประสานโฆษณากับโซเชียลมีเดีย SEO เว็บไซต์ และการวิเคราะห์เป็นกลยุทธ์เดียว"
     },
     {
-      "q": "Do I need a website before starting digital marketing?",
-      "a": "It helps, since your site is usually where campaigns send people, but we can include building or improving it as part of the plan."
+      "q": "ฉันต้องมีเว็บไซต์ก่อนเริ่มการตลาดดิจิทัลไหม?",
+      "a": "มีก็ช่วย เพราะเว็บไซต์มักเป็นที่ที่แคมเปญส่งผู้คนไป แต่เรารวมการสร้างหรือปรับปรุงไว้ในแผนได้"
     },
     {
-      "q": "How do you decide which channels to prioritize first?",
-      "a": "Based on your goals, budget and where your customers already are — we recommend a realistic starting point rather than launching everything at once."
+      "q": "คุณตัดสินอย่างไรว่าจะให้ความสำคัญช่องทางไหนก่อน?",
+      "a": "ตามเป้าหมาย งบประมาณ และที่ที่ลูกค้าของคุณอยู่แล้ว เราแนะนำจุดเริ่มต้นที่สมเหตุสมผลแทนการเปิดทุกอย่างพร้อมกัน"
     },
     {
-      "q": "Can you manage everything, or do I need separate vendors?",
-      "a": "We can manage advertising, social, SEO and your website as one team, or work alongside an in-house person or existing vendor where that makes sense."
+      "q": "คุณบริหารทุกอย่างได้ไหม หรือฉันต้องมีผู้ให้บริการแยก?",
+      "a": "เราบริหารโฆษณา โซเชียล SEO และเว็บไซต์ของคุณเป็นทีมเดียวได้ หรือทำงานร่วมกับคนในองค์กรหรือผู้ให้บริการเดิมเมื่อสมเหตุสมผล"
     },
     {
-      "q": "How is budget split between advertising spend and your management fee?",
-      "a": "Ad spend goes directly to Google or Meta; our management fee covers strategy, production and ongoing optimization, and we'll be clear about both."
+      "q": "งบแบ่งอย่างไรระหว่างค่าโฆษณากับค่าบริหารของคุณ?",
+      "a": "ค่าโฆษณาไปตรงที่ Google หรือ Meta ค่าบริหารของเราครอบคลุมกลยุทธ์ การผลิต และการปรับแต่งต่อเนื่อง และเราจะชัดเจนทั้งสองอย่าง"
     },
     {
-      "q": "How long before we see results across an integrated strategy?",
-      "a": "Advertising can show results within weeks; SEO and organic social typically compound over a longer period — we'll set expectations per channel."
+      "q": "นานแค่ไหนกว่าเราจะเห็นผลจากกลยุทธ์แบบบูรณาการ?",
+      "a": "โฆษณาแสดงผลได้ภายในไม่กี่สัปดาห์ ส่วน SEO และโซเชียลออร์แกนิกมักทบต้นในระยะที่ยาวกว่า เราจะตั้งความคาดหวังรายช่องทาง"
     },
     {
-      "q": "Can this start small and grow over time?",
-      "a": "Yes — many clients start with one or two channels and expand into a fuller integrated strategy as budget and results allow."
+      "q": "เริ่มเล็กแล้วโตตามเวลาได้ไหม?",
+      "a": "ได้ ลูกค้าหลายรายเริ่มจากหนึ่งถึงสองช่องทางแล้วขยายสู่กลยุทธ์แบบบูรณาการที่สมบูรณ์ขึ้นเมื่องบและผลลัพธ์เอื้อ"
     },
     {
-      "q": "Do you work with businesses that already have some of these pieces in place?",
-      "a": "Yes, regularly — we'll audit what's already working and build the strategy around it rather than starting from zero unnecessarily."
+      "q": "คุณทำงานกับธุรกิจที่มีบางส่วนเหล่านี้อยู่แล้วไหม?",
+      "a": "ทำเป็นประจำ เราตรวจสอบสิ่งที่ได้ผลอยู่แล้วและสร้างกลยุทธ์รอบนั้น แทนการเริ่มจากศูนย์โดยไม่จำเป็น"
     }
   ],
   "related": [
     {
-      "label": "Advertising",
-      "description": "The paid channel most integrated strategies start with."
+      "label": "โฆษณา",
+      "description": "ช่องทางแบบเสียเงินที่กลยุทธ์แบบบูรณาการส่วนใหญ่เริ่มจาก"
     },
     {
-      "label": "Websites & Digital",
-      "description": "Web design, technical SEO and AI search visibility."
+      "label": "เว็บไซต์และดิจิทัล",
+      "description": "ออกแบบเว็บ SEO เชิงเทคนิค และการมองเห็นในการค้นหาด้วย AI"
     },
     {
       "label": "SEO",
-      "description": "The organic search work that compounds alongside advertising."
+      "description": "งานค้นหาออร์แกนิกที่ทบต้นควบคู่กับโฆษณา"
     }
   ],
-  "finalCtaLabel": "Start a Project"
+  "finalCtaLabel": "สร้างแผนการตลาดของคุณ"
 }

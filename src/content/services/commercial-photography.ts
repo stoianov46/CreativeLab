@@ -87,23 +87,31 @@ export const commercialPhotographyService: ServicePage = {
   pricing: [
     {
       service: "Professional photo shoot (catalogue, 10 items)",
-      range: "THB 5,000 – 15,000",
+      priceId: "services.commercial-photography.1",
       note: "Per session, includes processing",
+      included: ["One photo session of a catalogue of 10 items", "Processing included"],
+      excluded: ["Travel to Koh Samui or Koh Tao", "Video"],
     },
     {
       service: "Half-day hospitality or villa shoot",
-      range: "THB 10,000 – 20,000",
+      priceId: "services.commercial-photography.2",
       note: "Interiors and exteriors, edited",
+      included: ["Half-day shoot of interiors and exteriors", "Edited images"],
+      excluded: ["Travel to Koh Samui or Koh Tao", "Video"],
     },
     {
       service: "Full-day hospitality or villa shoot",
-      range: "THB 18,000 – 35,000",
+      priceId: "services.commercial-photography.3",
       note: "Multiple areas or an extended shot list",
+      included: ["Full-day shoot across multiple areas or an extended shot list", "Edited images"],
+      excluded: ["Travel to Koh Samui or Koh Tao", "Video"],
     },
     {
       service: "Food photography (per dish)",
-      range: "THB 1,500 – 4,000",
+      priceId: "food-restaurants.food-photography.1",
       note: "Styling included",
+      included: ["Photography of one dish", "Food styling included", "Edited, ready-to-use images"],
+      excluded: ["Travel to Koh Samui or Koh Tao", "Menu design"],
     },
   ],
   useCases: [

@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import {
@@ -12,9 +11,11 @@ import {
 
 /**
  * EN / RU / TH / HE switcher — links to the same page in the other
- * language (every locale mirrors the same URL structure). Uses plain
- * next/link rather than LocalizedLink, since these hrefs are already
- * explicitly localized.
+ * language (every locale mirrors the same URL structure). The hrefs are
+ * already explicitly localized, and they are plain anchors on purpose: switching language
+ * changes <html lang/dir>, so it must be a full page load — a client-side
+ * (RSC) navigation from /he/… to the unprefixed English URL goes through the
+ * locale rewrite and fails with a 404 in the console.
  */
 export function LanguageSwitcher({
   label,
@@ -47,7 +48,7 @@ export function LanguageSwitcher({
   }, [open]);
 
   const links = LOCALES.map((locale) => (
-    <Link
+    <a
       key={locale}
       href={localePath(locale, path)}
       hrefLang={locale}
@@ -73,7 +74,7 @@ export function LanguageSwitcher({
       {variant === "dropdown" && (
         <span className="text-xs uppercase text-text-secondary">{locale}</span>
       )}
-    </Link>
+    </a>
   ));
 
   if (variant === "inline") {
@@ -91,7 +92,8 @@ export function LanguageSwitcher({
         className="flex h-10 items-center gap-1.5 border border-line px-3 text-xs font-medium tracking-wide text-text uppercase hover:border-text"
         aria-expanded={open}
         aria-haspopup="true"
-        aria-label={`${label}: ${LOCALE_NAMES[current]}`}
+        // The visible text is the code ("EN"); WCAG 2.5.3 needs it in the accessible name — leading, as a separate word.
+        aria-label={`${current.toUpperCase()}, ${label}: ${LOCALE_NAMES[current]}`}
         onClick={() => setOpen(!open)}
       >
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden>

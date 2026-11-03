@@ -1,12 +1,12 @@
 {
   "home": {
     "metaTitle": "Рекламное агентство на Ко Пангане | CreativeLAB",
-    "metaDescription": "CreativeLAB — креативное рекламное и маркетинговое агентство на Ко Пангане: Google и Meta Ads, соцсети, фото, видео и сайты для бизнеса на острове.",
+    "metaDescription": "CreativeLAB — креативное маркетинговое агентство на Ко Пангане, работающее с бизнесом на Ко Пангане, Ко Самуи и Ко Тао: реклама, соцсети, фото и видео.",
     "announcement": "CreativeLAB — креативная команда рекламы и продакшна на Ко Пангане.",
     "heroEyebrow": "Ко Панган, Таиланд",
     "heroImageAlt": "Креативная студия на Ко Пангане готовится к съёмке",
     "h1": "Рекламное и креативное маркетинговое агентство на Ко Пангане",
-    "heroSupport": "Креативная реклама, соцсети, контент, фото, видео, сайты и digital-маркетинг для бизнеса на Ко Пангане.",
+    "heroSupport": "Реклама, соцсети, контент, фотография, видео, сайты и цифровой маркетинг для бизнеса на Ко Пангане, Ко Самуи и Ко Тао.",
     "directAnswer": "CreativeLAB — креативное контент- и рекламное агентство на Ко Пангане. Мы планируем и ведём рекламные кампании, управляем соцсетями, снимаем фото и видео и создаём сайты для вилл, ресторанов, гостиничных брендов и местного бизнеса — стратегия, продакшн и реализация в одной команде, прямо на острове.",
     "editorialEyebrow": "Почему CreativeLAB",
     "editorialTitle": "Одна команда на острове — весь маркетинг под ключ",
@@ -37,7 +37,7 @@
         "description": "Вы получаете готовые материалы и запущенные кампании, а если продолжаете работать с нами — регулярную отчётность и оптимизацию."
       }
     ],
-    "locationText": "CreativeLAB находится на Ко Пангане и работает с бизнесом по всему острову — от Тонг Сала и Шритану до Хаад Рина и северного побережья, — а также с удалёнными клиентами, которые готовятся открыть или продвигать объект на Ко Пангане.",
+    "locationText": "CreativeLAB базируется на Ко Пангане и работает с бизнесом по всему острову — от Тонг Сала и Шритану до Хаад Рина и северного побережья, а также с отелями, виллами и ресторанами на Ко Самуи и Ко Тао: на лодке добираемся для съёмки фото и видео на месте.",
     "finalCtaTitle": "Начать проект / обсудить ваш бизнес на Ко Пангане",
     "finalCtaDescription": "Расскажите, над чем вы работаете — разовая съёмка, рекламная кампания или полный маркетинговый план, — и мы предложим реалистичный следующий шаг."
   },
@@ -131,7 +131,7 @@
         "description": "Где результаты можно отследить, мы их отслеживаем — и честно о них рассказываем."
       }
     ],
-    "locationText": "CreativeLAB находится на Ко Пангане, Таиланд, и работает по всему острову — от Тонг Сала и Шритану до Хаад Рина и северного побережья.",
+    "locationText": "CreativeLAB базируется на Ко Пангане (Таиланд) и работает по всему острову, от Тонг Сала и Шритану до Хаад Рина и северного побережья, а также с отелями, виллами и ресторанами на Ко Самуи и Ко Тао: на лодке добираемся для работы на месте.",
     "ctaTitle": "Обсудить ваш бизнес на Ко Пангане",
     "ctaDescription": "Расскажите, над чем вы работаете, и мы предложим реалистичный следующий шаг.",
     "heroImageAlt": "Команда CreativeLAB на съёмке на Ко Пангане"
@@ -149,7 +149,9 @@
     "metaDescription": "Какие креативные, рекламные и продакшн-проекты CreativeLAB делает на Ко Пангане — реальные работы добавляются по мере сдачи.",
     "h1": "Портфолио",
     "heroSupport": "Работы, которые мы делаем для бизнеса на Ко Пангане, — реальные клиентские проекты появляются здесь по мере завершения и согласования публикации.",
-    "directAnswer": "Здесь будут реальные проекты CreativeLAB — виллы, рестораны и местный бизнес по всему Ко Пангану — по мере их сдачи и согласования публикации. А пока референсные изображения ниже показывают стиль и уровень работы нашей команды.",
+    "directAnswer": "Реальные клиентские проекты CreativeLAB появятся здесь после их завершения и согласования публикации. А пока на этой странице представлены авторские концептуальные проекты — по одному для каждого направления услуг, каждый с чёткой пометкой, что это концепт, — и референсные изображения в стиле и качестве, в которых работает наша команда.",
+    "conceptsTitle": "Концептуальные проекты",
+    "conceptsIntro": "Авторские концепты, которые мы создали для вымышленных компаний, по одному для каждого из наших восьми направлений услуг, чтобы показать, как мы планируем и проектируем такую работу. Это не клиентские проекты, и ни один из них не сообщает о результатах.",
     "ctaTitle": "Хотите увидеть здесь свой проект?",
     "ctaDescription": "Начните работу с нами сейчас — и следующим на этой странице может появиться ваш проект.",
     "heroImageAlt": "Рабочее пространство креативной студии на Ко Пангане"
@@ -180,14 +182,14 @@
   },
   "privacy": {
     "metaTitle": "Политика конфиденциальности",
-    "metaDescription": "Как CreativeLAB собирает, использует и защищает персональные данные.",
+    "metaDescription": "Как CreativeLAB собирает, использует и защищает персональные данные при посещении сайта и отправке запроса.",
     "eyebrow": "Правовая информация",
     "h1": "Политика конфиденциальности",
     "draftNotice": "Черновик — до запуска будет проверен квалифицированным юристом. Эта страница описывает нашу планируемую практику и не должна рассматриваться как окончательные юридические условия до проверки.",
     "sections": [
       {
         "title": "Какие данные мы собираем",
-        "body": "Когда вы связываетесь с нами через этот сайт — через контактную форму, email, WhatsApp или Telegram, — мы получаем предоставленную вами информацию: имя, контактные данные и содержание сообщения, включая любые файлы о проекте, которыми вы решите поделиться."
+        "body": "Когда вы связываетесь с нами через этот сайт — через контактную форму, email, WhatsApp или Telegram, — мы получаем предоставленную вами информацию: имя, контактные данные и содержание сообщения, включая любые файлы о проекте, которыми вы решите поделиться. Контактная форма также позволяет вам по желанию указать свой остров, тип бизнеса, диапазон бюджета, сроки и язык, на котором вы хотели бы получить ответ. Чтобы понимать, откуда приходят запросы, форма отправляет вместе с вашим сообщением страницу, на которой вы находились, первую страницу, которую вы открыли в этом сеансе браузера, сайт, с которого вы перешли, и параметры кампании (UTM) из использованной вами ссылки; до тех пор, пока вы не решите отправить форму, эти данные хранятся только в хранилище сеанса (session storage) вкладки вашего браузера."
       },
       {
         "title": "Как мы их используем",
@@ -203,13 +205,54 @@
       },
       {
         "title": "Сторонние сервисы",
-        "body": "На сообщения, отправленные через WhatsApp или Telegram, помимо этой политики распространяются условия конфиденциальности самих платформ. Аналитика, если она включена, настроена с учётом приватности и не отслеживает вас на посторонних сайтах."
+        "body": "На сообщения, отправленные через WhatsApp или Telegram, помимо этой политики распространяются условия конфиденциальности самих платформ. Запросы, отправленные через контактную форму, доставляются нашей команде через Telegram. [[VERIFY: юристу подтвердить формулировку о передаче персональных данных за пределы Таиланда]] Инструменты аналитики и маркетинга, если они включены, загружаются только после того, как вы их примете, как описано в нашей Политика cookie."
+      },
+      {
+        "title": "Cookies и аналогичные технологии",
+        "body": "Этот сайт не устанавливает собственных рекламных cookies. Он сохраняет ваш выбор в отношении cookie в вашем браузере и хранит описанную выше информацию о первом посещении в хранилище сеанса (session storage) вашей вкладки. Скрипты аналитики или маркетинга, если оператор сайта их включит, загружаются только после того, как вы их примете. Полный список и способ изменить свой выбор смотрите в Политика cookie."
+      },
+      {
+        "title": "Закон Таиланда о защите персональных данных (PDPA)",
+        "body": "Поскольку мы работаем в Таиланде, к тому, как мы обращаемся с вашими персональными данными, применяется Закон о защите персональных данных B.E. 2562 (2019). Предоставляемые им права — на доступ, исправление, удаление данных или возражение против их использования, а также на отзыв согласия — перечислены в разделе «Ваши права», и вы можете воспользоваться ими, написав на {email}. [[VERIFY: юристу подтвердить данные оператора (контролёра), правовое основание для каждого вида использования, формулировку о передаче данных и срок хранения]]"
+      }
+    ]
+  },
+  "cookies": {
+    "metaTitle": "Политика cookie",
+    "metaDescription": "Что CreativeLAB сохраняет в вашем браузере, какие скрипты загружаются только после вашего согласия и как в любой момент изменить свой выбор в отношении cookie.",
+    "eyebrow": "Правовая информация",
+    "h1": "Политика cookie",
+    "draftNotice": "Черновик — до запуска будет проверен квалифицированным юристом. Эта страница описывает, как сайт работает сегодня, и не должна рассматриваться как окончательные юридические условия до проверки.",
+    "sections": [
+      {
+        "title": "О чём эта страница",
+        "body": "Cookies и аналогичные технологии — это небольшие фрагменты данных, которые сайт хранит в вашем браузере. На этой странице перечислено, что сохраняет этот сайт, зачем и как вы можете этим управлять. О том, как мы обращаемся с персональными данными в целом, см. Политику конфиденциальности."
+      },
+      {
+        "title": "Что сайт сохраняет в вашем браузере",
+        "body": "Ваш выбор в отношении cookie: чтобы сайт помнил, приняли вы или отклонили аналитику и маркетинг, он сохраняет этот выбор в локальном хранилище (local storage) вашего браузера, пока вы его не измените. Информация о первом посещении: страница, на которую вы впервые попали, сайт-источник перехода и параметры кампании (UTM) хранятся в хранилище сеанса (session storage) вашей вкладки, чтобы контактная форма могла приложить их, если вы отправите запрос; эти данные удаляются при закрытии вкладки и никуда не передаются, если вы не отправите форму."
+      },
+      {
+        "title": "Аналитика и маркетинг",
+        "body": "Скрипты аналитики и маркетинга (например, Google Analytics, Яндекс.Метрика или Meta Pixel) загружаются только если оператор сайта их включил и только после того, как вы их примете. Ничего не загружается до того, как вы сделаете выбор, а отказ не мешает вам пользоваться сайтом. [[VERIFY: перечислить инструменты аналитики и маркетинга, фактически включённые на момент запуска]]"
+      },
+      {
+        "title": "Шрифты и изображения",
+        "body": "Шрифты сайта отдаются с самого сайта, поэтому их загрузка не передаёт информацию о вашем визите поставщику шрифтов."
+      },
+      {
+        "title": "Изменение выбора",
+        "body": "Вы можете изменить или отозвать свой выбор в любой момент через «Настройки cookie» внизу каждой страницы. Также вы можете в любой момент очистить сохранённые данные браузера в его настройках."
+      },
+      {
+        "title": "Контакты",
+        "body": "Вопросы по этой политике можно направлять на {email}."
       }
     ]
   },
   "terms": {
     "metaTitle": "Условия использования",
-    "metaDescription": "Условия использования сайта и услуг CreativeLAB.",
+    "metaDescription": "Условия использования сайта CreativeLAB и описанных на нём услуг в сфере креатива, рекламы и продакшна.",
     "eyebrow": "Правовая информация",
     "h1": "Условия использования",
     "draftNotice": "Черновик — до запуска будет проверен квалифицированным юристом. Эта страница описывает наши планируемые условия и не должна рассматриваться как окончательная до проверки.",
@@ -233,91 +276,91 @@
     ]
   },
   "servicesIndex": {
-    "metaTitle": "Services",
-    "metaDescription": "Advertising, social media, content, photography, video, web design and branding for businesses on Koh Phangan, Koh Samui and Koh Tao — one full-service team.",
-    "h1": "Services",
-    "heroSupport": "Browse every service by area, from advertising and social media to photography, video, web design and branding — for businesses across Koh Phangan, Koh Samui and Koh Tao.",
-    "directAnswer": "CreativeLAB's services cover advertising, social media, content creation, photography, video production, web design and branding for businesses on Koh Phangan, Koh Samui and Koh Tao. Browse by area below, or go straight to a specific service — each page explains what's included, how we work, and what it typically costs.",
-    "hubsTitle": "Browse by area",
-    "hubsDescription": "Each area groups related services together — start here if you're not sure exactly what you need.",
-    "landingsTitle": "Core services",
-    "landingsDescription": "Direct links to our core, most-requested services, if you already know what you're looking for.",
-    "heroImageAlt": "Creative team reviewing services across advertising, content and web design"
+    "metaTitle": "Услуги",
+    "metaDescription": "Реклама, соцсети, контент, фотография, видео, веб-дизайн и брендинг для бизнеса на Ко Пангане, Ко Самуи и Ко Тао — одна команда полного цикла.",
+    "h1": "Услуги",
+    "heroSupport": "Все услуги по направлениям — от рекламы и соцсетей до фотографии, видео, веб-дизайна и брендинга — для бизнеса на Ко Пангане, Ко Самуи и Ко Тао.",
+    "directAnswer": "Услуги CreativeLAB охватывают рекламу, соцсети, создание контента, фотографию, видеопроизводство, веб-дизайн и брендинг для бизнеса на Ко Пангане, Ко Самуи и Ко Тао. Выберите направление ниже или сразу перейдите к нужной услуге — на каждой странице описано, что входит, как мы работаем и сколько это обычно стоит.",
+    "hubsTitle": "Направления",
+    "hubsDescription": "Каждое направление объединяет близкие услуги — начните отсюда, если не уверены, что именно вам нужно.",
+    "landingsTitle": "Основные услуги",
+    "landingsDescription": "Прямые ссылки на наши основные и самые востребованные услуги — если вы уже знаете, что ищете.",
+    "heroImageAlt": "Креативная команда обсуждает услуги: реклама, контент и веб-дизайн"
   },
   "industriesIndex": {
-    "metaTitle": "Industries",
-    "metaDescription": "Marketing for villas, hotels, restaurants, wellness brands, tour operators, events and lifestyle brands on Koh Phangan, Koh Samui and Koh Tao.",
-    "h1": "Industries",
-    "heroSupport": "Villas & real estate, hotels & resorts, restaurants & food, wellness & retreats, tourism & hospitality, events, and brands & lifestyle.",
-    "directAnswer": "CreativeLAB works with villa and real estate businesses, hotels and resorts, restaurants and food brands, wellness studios and retreats, tour operators, event organisers, and lifestyle and product brands across Koh Phangan, Koh Samui and Koh Tao — each with marketing built around how that kind of business actually gets discovered, compared and booked.",
-    "heroImageAlt": "Creative team reviewing a project brief for an island business"
+    "metaTitle": "Отрасли, с которыми мы работаем",
+    "metaDescription": "Маркетинг для вилл, отелей, ресторанов, wellness-брендов, туроператоров, мероприятий и lifestyle-брендов на Ко Пангане, Ко Самуи и Ко Тао.",
+    "h1": "Отрасли, с которыми мы работаем на Ко Пангане, Ко Самуи и Ко Тао",
+    "heroSupport": "Виллы и недвижимость, отели и курорты, рестораны и еда, wellness и ретриты, туризм и гостеприимство, мероприятия, бренды и lifestyle.",
+    "directAnswer": "CreativeLAB работает с бизнесом в сфере вилл и недвижимости, отелями и курортами, ресторанами и фудбрендами, wellness-студиями и ретритами, туроператорами, организаторами мероприятий, а также lifestyle- и продуктовыми брендами на Ко Пангане, Ко Самуи и Ко Тао — и строит маркетинг вокруг того, как клиенты на самом деле находят, сравнивают и бронируют именно такой бизнес.",
+    "heroImageAlt": "Креативная команда изучает бриф проекта для островного бизнеса"
   },
   "locationsIndex": {
-    "metaTitle": "Locations",
-    "metaDescription": "CreativeLAB is a creative agency working with businesses on Koh Phangan, Koh Samui and Koh Tao — see how our marketing services apply on each of the islands.",
-    "h1": "Locations",
-    "heroSupport": "Based on Koh Phangan and working across Koh Phangan, Koh Samui and Koh Tao — see what that looks like on each island.",
-    "directAnswer": "CreativeLAB is based on Koh Phangan and works with businesses across Koh Phangan, Koh Samui and Koh Tao. Each island has a different business landscape and different logistics — see how our advertising, content, photography, video and web services apply to yours below.",
-    "heroImageAlt": "Photographer on location for a shoot across Koh Phangan, Koh Samui and Koh Tao"
+    "metaTitle": "Локации",
+    "metaDescription": "CreativeLAB — креативное агентство, работающее с бизнесом на Ко Пангане, Ко Самуи и Ко Тао. Узнайте, как наши маркетинговые услуги применяются на каждом из островов.",
+    "h1": "Локации",
+    "heroSupport": "Мы базируемся на Ко Пангане и работаем на Ко Пангане, Ко Самуи и Ко Тао — посмотрите, как это выглядит на каждом острове.",
+    "directAnswer": "CreativeLAB базируется на Ко Пангане и работает с бизнесом на Ко Пангане, Ко Самуи и Ко Тао. У каждого острова свой деловой ландшафт и своя логистика — ниже показано, как наши рекламные, контентные, фото-, видео- и веб-услуги работают именно у вас.",
+    "heroImageAlt": "Фотограф на локации во время съёмки на Ко Пангане, Ко Самуи и Ко Тао"
   },
   "editorial": {
-    "metaTitle": "Editorial Policy",
-    "metaDescription": "How CreativeLAB writes, reviews and corrects the content on this site — our approach to accuracy, pricing, translation and reader-reported corrections.",
-    "eyebrow": "Trust",
-    "h1": "Editorial Policy",
-    "draftNotice": "This page is maintained by CreativeLAB and was last reviewed in September 2026.",
+    "metaTitle": "Редакционная политика",
+    "metaDescription": "Как CreativeLAB пишет, проверяет и исправляет контент на этом сайте: наш подход к точности, ценам, переводам и исправлениям по замечаниям читателей.",
+    "eyebrow": "Доверие",
+    "h1": "Редакционная политика",
+    "draftNotice": "Эта страница поддерживается CreativeLAB и последний раз проверялась в сентябре 2026 года.",
     "sections": [
       {
-        "title": "Accuracy and honesty",
-        "body": "We don't publish invented clients, projects, results, reviews, awards or statistics. Where a fact about our business or the islands we work on isn't something we can verify, we qualify it clearly or leave it out rather than presenting a guess as fact."
+        "title": "Точность и честность",
+        "body": "Мы не публикуем выдуманных клиентов, проектов, результатов, отзывов, наград и статистики. Если факт о нашем бизнесе или островах, на которых мы работаем, мы не можем подтвердить, мы чётко оговариваем это или опускаем его, а не выдаём догадку за факт."
       },
       {
-        "title": "How we present pricing",
-        "body": "Prices shown on our service pages are indicative ranges based on typical project scope, not fixed quotes. Every project is different, and final pricing is confirmed in writing before work begins."
+        "title": "Как мы указываем цены",
+        "body": "Цены на страницах наших услуг — ориентировочные диапазоны, основанные на типовом объёме проекта, а не фиксированные предложения. Каждый проект уникален, и окончательная стоимость подтверждается письменно до начала работы."
       },
       {
-        "title": "How we write and review our pages",
-        "body": "Our service, industry and location pages are written by our own team based on direct experience working on Koh Phangan, Koh Samui and Koh Tao. Pages are reviewed periodically and updated when our services, pricing approach or island coverage change, rather than left untouched indefinitely."
+        "title": "Как мы пишем и проверяем страницы",
+        "body": "Страницы об услугах, отраслях и локациях пишет наша собственная команда на основе прямого опыта работы на Ко Пангане, Ко Самуи и Ко Тао. Страницы периодически пересматриваются и обновляются при изменении услуг, подхода к ценам или географии работы, а не остаются без изменений на неопределённый срок."
       },
       {
-        "title": "Translations",
-        "body": "English is our master language and the source for every page. Russian, Thai and Hebrew versions are translated and then reviewed by someone fluent in that language, rather than published as an unchecked machine translation."
+        "title": "Переводы",
+        "body": "Английский — наш основной язык и источник для каждой страницы. Русская, тайская и ивритская версии переводятся и затем проверяются носителем соответствующего языка, а не публикуются как непроверенный машинный перевод."
       },
       {
-        "title": "Corrections",
-        "body": "If you spot something inaccurate or out of date on this site, let us know at {email} and we'll review and correct it."
+        "title": "Исправления",
+        "body": "Если вы заметили на сайте неточность или устаревшую информацию, напишите нам на {email} — мы проверим и исправим."
       }
     ]
   },
   "accessibility": {
-    "metaTitle": "Accessibility",
-    "metaDescription": "CreativeLAB's accessibility statement — our WCAG 2.2 AA target, what's implemented today, known limitations, and how to report an issue directly to us.",
-    "eyebrow": "Trust",
-    "h1": "Accessibility Statement",
-    "draftNotice": "This page is maintained by CreativeLAB and was last reviewed in September 2026.",
+    "metaTitle": "Доступность",
+    "metaDescription": "Заявление о доступности CreativeLAB: наша цель — WCAG 2.2 AA, что реализовано сегодня, известные ограничения и как напрямую сообщить нам о проблеме.",
+    "eyebrow": "Доверие",
+    "h1": "Заявление о доступности",
+    "draftNotice": "Эта страница поддерживается CreativeLAB и последний раз проверялась в сентябре 2026 года.",
     "sections": [
       {
-        "title": "Our target",
-        "body": "We aim for this site to meet WCAG 2.2 Level AA, and treat that as an ongoing standard to maintain as the site grows rather than a one-time checkbox."
+        "title": "Наша цель",
+        "body": "Мы стремимся к тому, чтобы сайт соответствовал WCAG 2.2 уровня AA, и считаем это стандартом, который нужно поддерживать по мере роста сайта, а не разовой галочкой."
       },
       {
-        "title": "What we've built in",
-        "body": "Semantic HTML for headings, landmarks and lists; full keyboard navigation for menus, forms and interactive components; color contrast checked against WCAG AA thresholds; right-to-left layout support for Hebrew; and reduced-motion handling for visitors who prefer less animation."
+        "title": "Что уже реализовано",
+        "body": "Семантический HTML для заголовков, ориентиров и списков; полноценная навигация с клавиатуры по меню, формам и интерактивным компонентам; контрастность цветов, проверенная по порогам WCAG AA; поддержка раскладки справа налево для иврита; и учёт настройки уменьшенной анимации для посетителей, которым она не нужна."
       },
       {
-        "title": "Known limitations",
-        "body": "Some pages are still being reviewed for full accessibility compliance as the site is completed, and third-party embeds such as maps or booking widgets may not fully meet the same standard. We're working through these as we find them."
+        "title": "Известные ограничения",
+        "body": "Некоторые страницы всё ещё проверяются на полное соответствие требованиям доступности по мере завершения сайта, а сторонние встраиваемые элементы, такие как карты или виджеты бронирования, могут не полностью соответствовать тому же стандарту. Мы устраняем такие случаи по мере их выявления."
       },
       {
-        "title": "Contact us",
-        "body": "If you experience an accessibility barrier on this site, tell us at {email} and we'll work to fix it."
+        "title": "Свяжитесь с нами",
+        "body": "Если вы столкнулись с барьером доступности на этом сайте, сообщите нам на {email} — мы постараемся это исправить."
       }
     ]
   },
   "notFound": {
-    "metaTitle": "Page not found",
+    "metaTitle": "Страница не найдена",
     "eyebrow": "404",
-    "h1": "This page doesn't exist",
-    "body": "The link may be out of date, or the page may have moved. These are good places to continue:"
+    "h1": "Такой страницы нет",
+    "body": "Ссылка могла устареть, или страница была перемещена. Вот куда можно перейти дальше:"
   }
 }

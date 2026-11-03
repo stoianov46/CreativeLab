@@ -14,7 +14,7 @@ export const metaAdsService: ServicePage = {
     "social advertising",
     "island tourism advertising",
   ],
-  metaTitle: "Meta Ads Agency Koh Phangan",
+  metaTitle: "Meta Ads Management Koh Phangan, Samui & Tao",
   metaDescription:
     "Facebook and Instagram advertising for businesses on Koh Phangan, Koh Samui and Koh Tao — creative, targeting and retargeting from one island-based team.",
   directAnswer:
@@ -79,18 +79,24 @@ export const metaAdsService: ServicePage = {
   pricing: [
     {
       service: "Meta Ads setup",
-      range: "THB 12,000 – 28,000",
+      priceId: "meta-ads.setup",
       note: "One-time — strategy, account structure, pixel/tracking setup",
+      included: ["Account and business manager setup", "Pixel and conversion tracking", "Audience and campaign structure", "Launch with a conservative test budget"],
+      excluded: ["Advertising budget — paid directly by you to Meta", "Ad creative production", "Taxes and platform fees"],
     },
     {
       service: "Monthly management",
-      range: "THB 10,000 – 25,000",
+      priceId: "meta-ads.management",
       note: "Excludes ad spend, billed directly to Meta",
+      included: ["Ongoing audience and budget optimization", "Creative performance review", "Monthly plain-language report"],
+      excluded: ["Advertising budget — paid directly by you to Meta", "New creative production", "Taxes and platform fees"],
     },
     {
       service: "Multi-island campaign add-on",
-      range: "THB 4,000 – 10,000 / month",
+      priceId: "services.meta-ads.3",
       note: "Indicative — for businesses targeting more than one island separately",
+      included: ["Separate targeting for each additional island"],
+      excluded: ["Advertising budget — paid directly by you to the platform", "Platform fees"],
     },
   ],
   useCases: [

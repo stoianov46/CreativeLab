@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { LOCALES, isRtl, localePath, splitLocaleFromPathname, type Locale } from "@/content/i18n";
@@ -51,17 +50,19 @@ export function LanguageSuggestion({ copy }: { copy: Record<Locale, UiStrings["l
       dir={isRtl(suggested) ? "rtl" : "ltr"}
       role="region"
       aria-label={text.text}
-      className="fixed inset-x-3 bottom-20 z-40 mx-auto flex max-w-md flex-wrap items-center gap-3 border border-line bg-surface p-4 text-sm text-text shadow-[0_12px_32px_rgba(20,18,16,0.12)] lg:bottom-6"
+      className="fixed inset-x-3 bottom-20 z-30 mx-auto flex max-w-md flex-wrap items-center gap-3 border border-line bg-surface p-4 text-sm text-text shadow-[0_12px_32px_rgba(20,18,16,0.12)] lg:bottom-6"
     >
       <p className="w-full">{text.text}</p>
-      <Link
+      {/* Plain anchor: switching language changes <html lang/dir>, so it must be a full page load
+          (a client-side navigation across locales fails through the locale rewrite). */}
+      <a
         href={localePath(suggested, path)}
         hrefLang={suggested}
         onClick={dismiss}
         className="bg-accent px-4 py-2 font-medium text-text-inverse hover:bg-[#804e33]"
       >
         {text.switch}
-      </Link>
+      </a>
       <button type="button" onClick={dismiss} className="px-3 py-2 text-text-secondary hover:text-text">
         {text.dismiss}
       </button>

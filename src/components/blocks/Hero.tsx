@@ -60,7 +60,7 @@ export function Hero({
             {eyebrow}
           </p>
         )}
-        <h1 className="text-balance max-w-4xl font-display [text-shadow:0_1px_24px_rgba(0,0,0,0.35)] text-4xl leading-[1.05] font-light tracking-tight sm:text-6xl lg:text-[80px]">
+        <h1 className="text-balance max-w-4xl font-display [overflow-wrap:anywhere] [text-shadow:0_1px_24px_rgba(0,0,0,0.35)] text-4xl leading-[1.05] font-light tracking-tight sm:text-6xl lg:text-[80px]">
           {h1}
         </h1>
         <p className="mt-6 max-w-xl text-lg leading-relaxed text-text-inverse-secondary">

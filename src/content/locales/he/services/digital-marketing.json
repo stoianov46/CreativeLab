@@ -1,172 +1,191 @@
 {
-  "navLabel": "Digital Marketing",
-  "h1": "Digital Marketing",
-  "primaryKeyword": "digital marketing agency Koh Phangan, Koh Samui and Koh Tao",
+  "navLabel": "שיווק דיגיטלי",
+  "h1": "סוכנות שיווק דיגיטלי בקו פנגן, קו סמוי וקו טאו",
+  "primaryKeyword": "סוכנות שיווק דיגיטלי בקו פנגן, קו סמוי וקו טאו",
   "secondaryTopics": [
-    "integrated marketing strategy",
-    "advertising and SEO",
-    "website and analytics",
-    "island marketing strategy"
+    "אסטרטגיית שיווק משולבת",
+    "פרסום ו-SEO",
+    "אתר ואנליטיקה",
+    "אסטרטגיית שיווק באיים"
   ],
-  "metaTitle": "Digital Marketing",
-  "metaDescription": "Integrated digital marketing for businesses on Koh Phangan, Koh Samui and Koh Tao — advertising, social, SEO, website and analytics run as one strategy.",
-  "directAnswer": "Digital marketing is the coordination of advertising, social media, SEO, your website and analytics into one strategy rather than separate, disconnected efforts. CreativeLAB provides this for businesses on Koh Phangan, Koh Samui and Koh Tao, planning the mix and managing the channels as a single, accountable team.",
-  "heroSupport": "Advertising, social, SEO, your website and analytics, coordinated as one strategy for businesses across Koh Phangan, Koh Samui and Koh Tao.",
-  "heroImageAlt": "Marketing team reviewing an integrated strategy across advertising, SEO and social",
+  "metaTitle": "סוכנות שיווק דיגיטלי בקו פנגן וקו סמוי",
+  "metaDescription": "שיווק דיגיטלי משולב לעסקים בקו פנגן, קו סמוי וקו טאו — פרסום, רשתות חברתיות, SEO, אתר ואנליטיקה שמנוהלים כאסטרטגיה אחת.",
+  "directAnswer": "שיווק דיגיטלי הוא תיאום של פרסום, רשתות חברתיות, SEO, האתר והאנליטיקה שלכם לאסטרטגיה אחת ולא למאמצים נפרדים ומנותקים. CreativeLAB מספקת זאת לעסקים בקו פנגן, קו סמוי וקו טאו, מתכננת את התמהיל ומנהלת את הערוצים כצוות אחד ואחראי.",
+  "heroSupport": "פרסום, רשתות חברתיות, SEO, האתר והאנליטיקה שלכם, מתואמים כאסטרטגיה אחת לעסקים בקו פנגן, קו סמוי וקו טאו.",
+  "heroImageAlt": "צוות שיווק סוקר אסטרטגיה משולבת בפרסום, ב-SEO וברשתות חברתיות",
   "overview": [
-    "Digital marketing means different things depending on who's selling it. For us, it means one thing specifically: your advertising, social media, SEO, website and analytics working from a single plan, with one team accountable for how they perform together — not five separate efforts competing for the same budget and attention.",
-    "Most businesses on Koh Phangan, Koh Samui and Koh Tao end up here by accident: a freelancer runs the Instagram, a different agency handles Google Ads, the website was built years ago by someone else, and no one is looking at how those pieces interact. This service exists for businesses that want that coordinated instead — where budget moves toward whatever's actually producing results, informed by data across every channel rather than siloed reporting from each one.",
-    "This is deliberately the broadest page on the site: for the specifics of a single channel, see our Advertising, Google Ads, Social Media Management or SEO pages. This page is where we explain how those pieces fit into one plan, and how we decide, for your business, which parts to prioritize first.",
-    "The three islands add a real layer of complexity worth planning for rather than ignoring: Koh Samui's larger, more established market behaves differently from Koh Phangan's wellness-and-nightlife mix or Koh Tao's diving-driven audience. An integrated strategy accounts for that from the start, rather than running one generic plan across all three."
+    "שיווק דיגיטלי אומר דברים שונים בהתאם למי שמוכר אותו. עבורנו, הוא אומר דבר אחד ספציפית: הפרסום, הרשתות החברתיות, ה-SEO, האתר והאנליטיקה שלכם עובדים מתוכנית אחת, עם צוות אחד שאחראי לאיך שהם מתפקדים יחד — לא חמישה מאמצים נפרדים שמתחרים על אותו תקציב ותשומת לב.",
+    "רוב העסקים בקו פנגן, בקו סמוי ובקו טאו מגיעים לכאן במקרה: פרילנסר מנהל את האינסטגרם, סוכנות אחרת מטפלת ב-Google Ads, האתר נבנה לפני שנים על ידי מישהו אחר, ואיש לא מסתכל על איך החלקים האלה מתקשרים. השירות הזה קיים לעסקים שרוצים את זה מתואם — כשהתקציב עובר לכל מה שבאמת מניב תוצאות, מונחה על ידי נתונים בכל ערוץ ולא דיווח מבודד מכל אחד.",
+    "זה בכוונה העמוד הרחב ביותר באתר: לפרטים על ערוץ בודד, ראו את עמודי הפרסום, Google Ads, ניהול רשתות חברתיות או SEO שלנו. העמוד הזה הוא המקום שבו אנחנו מסבירים איך החלקים האלה משתלבים לתוכנית אחת, ואיך אנחנו מחליטים, עבור העסק שלכם, אילו חלקים לתעדף קודם.",
+    "שלושת האיים מוסיפים שכבה ממשית של מורכבות ששווה לתכנן סביבה ולא להתעלם ממנה: השוק הגדול והמבוסס יותר של קו סמוי מתנהג אחרת מתמהיל הבריאות והחיי לילה של קו פנגן או מהקהל המונע צלילה של קו טאו. אסטרטגיה משולבת מביאה זאת בחשבון מההתחלה, ולא מריצה תוכנית גנרית אחת בשלושתם."
   ],
   "scope": [
     {
-      "title": "Strategy & planning",
-      "description": "Goals, channel mix and budget allocation agreed before any campaign or channel work begins."
+      "title": "אסטרטגיה ותכנון",
+      "description": "מטרות, תמהיל ערוצים והקצאת תקציב שמוסכמים לפני שמתחילה כל עבודת קמפיין או ערוץ."
     },
     {
-      "title": "Advertising coordination",
-      "description": "Google Ads and Meta Ads run as part of the wider plan, not as isolated campaigns."
+      "title": "תיאום פרסום",
+      "description": "Google Ads ו-Meta Ads מופעלים כחלק מהתוכנית הרחבה ולא כקמפיינים מבודדים."
     },
     {
-      "title": "Content & social",
-      "description": "Social media management and content production aligned to the same strategy and calendar."
+      "title": "תוכן ורשתות חברתיות",
+      "description": "ניהול רשתות חברתיות והפקת תוכן שמיושרים לאותה אסטרטגיה ולאותו לוח."
     },
     {
-      "title": "Website & SEO",
-      "description": "Your site's structure, content and technical SEO built to support the rest of the plan."
+      "title": "אתר ו-SEO",
+      "description": "מבנה האתר, התוכן וה-SEO הטכני שלכם שנבנים לתמוך בשאר התוכנית."
     },
     {
-      "title": "Analytics & reporting",
-      "description": "One reporting view across every channel, rather than a separate report per vendor."
+      "title": "אנליטיקה ודיווח",
+      "description": "תצוגת דיווח אחת על פני כל ערוץ, ולא דוח נפרד לכל ספק."
     }
   ],
   "benefits": [
     {
-      "title": "One team, one strategy",
-      "description": "Advertising, social, SEO and web decisions are made together instead of in isolation."
+      "title": "צוות אחד, אסטרטגיה אחת",
+      "description": "החלטות פרסום, רשתות חברתיות, SEO ואתר מתקבלות יחד ולא בבידוד."
     },
     {
-      "title": "Consistent messaging everywhere",
-      "description": "Your brand and offer look and sound the same across every channel a customer encounters."
+      "title": "מסרים עקביים בכל מקום",
+      "description": "המותג וההצעה שלכם נראים ונשמעים אותו דבר בכל ערוץ שלקוח פוגש."
     },
     {
-      "title": "Budget follows performance",
-      "description": "Spend shifts toward whichever channel is actually converting, based on shared data."
+      "title": "התקציב עוקב אחר הביצועים",
+      "description": "ההוצאה עוברת לכל ערוץ שבאמת ממיר, על סמך נתונים משותפים."
     },
     {
-      "title": "One reporting view",
-      "description": "A single, plain-language picture of how the whole marketing effort is performing."
+      "title": "תצוגת דיווח אחת",
+      "description": "תמונה אחת, בשפה פשוטה, של איך כל מאמץ השיווק מתפקד."
     },
     {
-      "title": "Built to flex with seasonality",
-      "description": "Resources can shift between channels and islands as demand changes through the year."
+      "title": "בנוי להתאים לעונתיות",
+      "description": "משאבים יכולים לעבור בין ערוצים ואיים ככל שהביקוש משתנה במהלך השנה."
     }
   ],
   "process": [
     {
-      "title": "Discovery & audit",
-      "description": "Review your current marketing, website, channels and goals."
+      "title": "גילוי וביקורת",
+      "description": "סקירת השיווק, האתר, הערוצים והמטרות הנוכחיים שלכם."
     },
     {
-      "title": "Strategy & channel plan",
-      "description": "Agree priorities, budget split and a realistic sequence of work."
+      "title": "אסטרטגיה ותוכנית ערוצים",
+      "description": "הסכמה על סדרי עדיפויות, חלוקת תקציב ורצף עבודה ריאלי."
     },
     {
-      "title": "Production",
-      "description": "Creative, website and content work produced to support the plan."
+      "title": "הפקה",
+      "description": "עבודת קריאייטיב, אתר ותוכן שמופקת כדי לתמוך בתוכנית."
     },
     {
-      "title": "Launch across channels",
-      "description": "Advertising, social and SEO work go live in a coordinated sequence."
+      "title": "השקה בכל הערוצים",
+      "description": "עבודת הפרסום, הרשתות החברתיות וה-SEO עולה לאוויר ברצף מתואם."
     },
     {
-      "title": "Measurement & reallocation",
-      "description": "Ongoing reporting drives where budget and effort go next."
+      "title": "מדידה והקצאה מחדש",
+      "description": "דיווח שוטף קובע לאן התקציב והמאמץ הולכים הלאה."
     }
   ],
   "pricing": [
     {
-      "service": "Digital marketing strategy & audit",
-      "range": "THB 15,000 – 30,000",
-      "note": "Indicative — one-time, cross-channel plan before execution"
+      "service": "אסטרטגיית שיווק דיגיטלי וביקורת",
+      "note": "מחיר מנחה — חד-פעמי, תוכנית בין-ערוצית לפני ביצוע",
+      "included": [
+        "אסטרטגיית שיווק דיגיטלי וביקורת",
+        "תוכנית בין-ערוצית לפני הביצוע"
+      ],
+      "excluded": [
+        "ביצוע התוכנית",
+        "תקציב פרסום — משולם על ידכם ישירות לפלטפורמה"
+      ]
     },
     {
-      "service": "Integrated management retainer",
-      "range": "THB 35,000 – 80,000 / month",
-      "note": "Indicative — advertising, social and SEO coordination; excludes ad spend"
+      "service": "ריטיינר ניהול משולב",
+      "note": "מחיר מנחה — תיאום פרסום, רשתות חברתיות ו-SEO; לא כולל הוצאת מדיה",
+      "included": [
+        "תיאום בין פרסום, רשתות חברתיות ו-SEO",
+        "דוח חודשי"
+      ],
+      "excluded": [
+        "תקציב פרסום — משולם על ידכם ישירות לפלטפורמה",
+        "עמלות פלטפורמה"
+      ]
     },
     {
-      "service": "Website & SEO foundation",
-      "range": "THB 40,000 – 100,000",
-      "note": "One-time, as part of a broader strategy"
+      "service": "יסוד אתר ו-SEO",
+      "note": "חד-פעמי, כחלק מאסטרטגיה רחבה יותר",
+      "included": [
+        "בסיס לאתר ול-SEO, כחלק מאסטרטגיה רחבה יותר"
+      ],
+      "excluded": [
+        "ניהול SEO שוטף"
+      ]
     }
   ],
   "useCases": [
     {
-      "title": "Multi-channel hospitality brands",
-      "description": "Hotels and resorts coordinating advertising, social and SEO around occupancy goals."
+      "title": "מותגי אירוח רב-ערוציים",
+      "description": "מלונות וריזורטים שמתאמים פרסום, רשתות חברתיות ו-SEO סביב יעדי תפוסה."
     },
     {
-      "title": "Villa & property portfolios",
-      "description": "Consistent marketing across several listings or properties under one strategy."
+      "title": "פורטפוליו של וילות ונכסים",
+      "description": "שיווק עקבי על פני כמה מודעות או נכסים תחת אסטרטגיה אחת."
     },
     {
-      "title": "Restaurant groups",
-      "description": "Coordinated advertising, social and local visibility across multiple venues."
+      "title": "קבוצות מסעדות",
+      "description": "פרסום, רשתות חברתיות ונראות מקומית מתואמים על פני כמה מקומות."
     },
     {
-      "title": "Seasonal tourism businesses",
-      "description": "Businesses that need marketing effort and spend to flex meaningfully with the season."
+      "title": "עסקי תיירות עונתיים",
+      "description": "עסקים שצריכים שמאמץ השיווק וההוצאה יתאימו באופן משמעותי לעונה."
     }
   ],
   "faqs": [
     {
-      "q": "What's the difference between digital marketing and just running ads?",
-      "a": "Advertising is one channel; digital marketing coordinates advertising with social media, SEO, your website and analytics as a single strategy."
+      "q": "מה ההבדל בין שיווק דיגיטלי לבין סתם הפעלת מודעות?",
+      "a": "פרסום הוא ערוץ אחד; שיווק דיגיטלי מתאם פרסום עם רשתות חברתיות, SEO, האתר והאנליטיקה שלכם כאסטרטגיה אחת."
     },
     {
-      "q": "Do I need a website before starting digital marketing?",
-      "a": "It helps, since your site is usually where campaigns send people, but we can include building or improving it as part of the plan."
+      "q": "האם אני צריך אתר לפני שמתחילים בשיווק דיגיטלי?",
+      "a": "זה עוזר, כי האתר הוא בדרך כלל המקום שאליו קמפיינים שולחים אנשים, אבל אנחנו יכולים לכלול בנייה או שיפור שלו כחלק מהתוכנית."
     },
     {
-      "q": "How do you decide which channels to prioritize first?",
-      "a": "Based on your goals, budget and where your customers already are — we recommend a realistic starting point rather than launching everything at once."
+      "q": "איך אתם מחליטים אילו ערוצים לתעדף קודם?",
+      "a": "לפי המטרות, התקציב והמקום שבו הלקוחות שלכם כבר נמצאים — אנחנו ממליצים על נקודת התחלה ריאלית ולא משיקים הכול בבת אחת."
     },
     {
-      "q": "Can you manage everything, or do I need separate vendors?",
-      "a": "We can manage advertising, social, SEO and your website as one team, or work alongside an in-house person or existing vendor where that makes sense."
+      "q": "האם אתם יכולים לנהל הכול, או שאני צריך ספקים נפרדים?",
+      "a": "אנחנו יכולים לנהל פרסום, רשתות חברתיות, SEO ואתר כצוות אחד, או לעבוד לצד איש צוות פנימי או ספק קיים היכן שזה הגיוני."
     },
     {
-      "q": "How is budget split between advertising spend and your management fee?",
-      "a": "Ad spend goes directly to Google or Meta; our management fee covers strategy, production and ongoing optimization, and we'll be clear about both."
+      "q": "איך התקציב מתחלק בין הוצאת פרסום לדמי הניהול שלכם?",
+      "a": "הוצאת המדיה הולכת ישירות ל-Google או ל-Meta; דמי הניהול שלנו מכסים אסטרטגיה, הפקה ואופטימיזציה שוטפת, ונהיה ברורים לגבי שניהם."
     },
     {
-      "q": "How long before we see results across an integrated strategy?",
-      "a": "Advertising can show results within weeks; SEO and organic social typically compound over a longer period — we'll set expectations per channel."
+      "q": "כמה זמן עד שרואים תוצאות באסטרטגיה משולבת?",
+      "a": "פרסום יכול להראות תוצאות בתוך שבועות; SEO ורשתות חברתיות אורגניות מצטברים בדרך כלל על פני תקופה ארוכה יותר — נגדיר ציפיות לכל ערוץ."
     },
     {
-      "q": "Can this start small and grow over time?",
-      "a": "Yes — many clients start with one or two channels and expand into a fuller integrated strategy as budget and results allow."
+      "q": "האם אפשר להתחיל בקטן ולגדול עם הזמן?",
+      "a": "כן — לקוחות רבים מתחילים בערוץ אחד או שניים ומתרחבים לאסטרטגיה משולבת מלאה יותר ככל שהתקציב והתוצאות מאפשרים."
     },
     {
-      "q": "Do you work with businesses that already have some of these pieces in place?",
-      "a": "Yes, regularly — we'll audit what's already working and build the strategy around it rather than starting from zero unnecessarily."
+      "q": "האם אתם עובדים עם עסקים שכבר יש להם חלק מהחלקים האלה?",
+      "a": "כן, באופן קבוע — נבדוק מה כבר עובד ונבנה את האסטרטגיה סביבו ולא נתחיל מאפס שלא לצורך."
     }
   ],
   "related": [
     {
-      "label": "Advertising",
-      "description": "The paid channel most integrated strategies start with."
+      "label": "פרסום",
+      "description": "הערוץ הממומן שרוב האסטרטגיות המשולבות מתחילות בו."
     },
     {
-      "label": "Websites & Digital",
-      "description": "Web design, technical SEO and AI search visibility."
+      "label": "אתרים ודיגיטל",
+      "description": "עיצוב אתרים, SEO טכני ונראות בחיפוש AI."
     },
     {
       "label": "SEO",
-      "description": "The organic search work that compounds alongside advertising."
+      "description": "עבודת החיפוש האורגני שמצטברת לצד הפרסום."
     }
   ],
-  "finalCtaLabel": "Start a Project"
+  "finalCtaLabel": "בנו את תוכנית השיווק שלכם"
 }

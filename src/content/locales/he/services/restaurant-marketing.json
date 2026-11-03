@@ -1,152 +1,175 @@
 {
-  "navLabel": "Restaurant Marketing",
-  "h1": "Restaurant Marketing",
-  "primaryKeyword": "restaurant marketing agency Koh Phangan",
+  "navLabel": "שיווק מסעדות",
+  "h1": "סוכנות שיווק מסעדות בקו פנגן, קו סמוי וקו טאו",
+  "primaryKeyword": "סוכנות שיווק מסעדות בקו פנגן",
   "secondaryTopics": [
-    "restaurant advertising",
-    "restaurant promotion",
-    "food photography",
-    "island restaurant marketing"
+    "פרסום מסעדות",
+    "קידום מסעדות",
+    "צילום אוכל",
+    "שיווק מסעדות באיים"
   ],
-  "metaTitle": "Restaurant Marketing",
-  "metaDescription": "Restaurant marketing across Koh Phangan, Koh Samui and Koh Tao — food photography, menus, social media and advertising built to fill tables.",
-  "directAnswer": "CreativeLAB is a restaurant marketing agency working with restaurants, cafés and bars across Koh Phangan, Koh Samui and Koh Tao — combining food photography, menu design, social media and advertising into one coordinated program built around how diners on the islands actually decide where to eat.",
-  "heroSupport": "Marketing built for restaurants across all three islands — not just food photos, a full path from discovery to a booked table.",
-  "heroImageAlt": "Styled restaurant dish photographed for marketing across the islands",
+  "metaTitle": "סוכנות שיווק מסעדות בקו פנגן",
+  "metaDescription": "שיווק מסעדות בקו פנגן, קו סמוי וקו טאו — צילום אוכל, תפריטים, רשתות חברתיות ופרסום שנבנו למלא שולחנות.",
+  "directAnswer": "CreativeLAB היא סוכנות שיווק מסעדות שעובדת עם מסעדות, בתי קפה וברים בקו פנגן, קו סמוי וקו טאו — משלבת צילום אוכל, עיצוב תפריטים, רשתות חברתיות ופרסום לתוכנית מתואמת אחת שנבנתה סביב האופן שבו סועדים באיים באמת מחליטים איפה לאכול.",
+  "heroSupport": "שיווק שנבנה למסעדות בשלושת האיים — לא רק תמונות אוכל, אלא נתיב מלא מגילוי ועד שולחן שהוזמן.",
+  "heroImageAlt": "מנת מסעדה מעוצבת שצולמה לשיווק ברחבי האיים",
   "overview": [
-    "A restaurant's marketing usually gets bought in disconnected pieces — a photographer hired once for the menu, a friend or staff member posting to Instagram sporadically, and maybe a boosted post for a busy night. Each piece works a little, but nothing compounds, and the restaurant ends up looking less consistent online than it actually is in person.",
-    "We build restaurant marketing as one connected system across Koh Phangan, Koh Samui and Koh Tao — the same food and venue photography feeds your menu, your Google Business Profile, your Instagram feed and your paid advertising, so a diner encountering your restaurant anywhere online sees a coherent, appetizing presentation rather than a mismatched set of assets.",
-    "This page introduces our restaurant marketing approach across all three islands and how the individual pieces connect. For the detailed breakdown of specific services — food photography, menu photography, food styling, menu design, restaurant social, restaurant advertising and restaurant websites — with full scope, process and pricing, see our Food & Restaurants hub, which is the canonical version of this content.",
-    "Restaurant demand on the three islands moves with tourist seasons, and a menu launch on Koh Phangan behaves differently from a resort-adjacent restaurant on Koh Samui or a dive-town café on Koh Tao. We plan content and campaign timing around the season and audience each island actually has, rather than applying one calendar everywhere."
+    "שיווק של מסעדה נרכש בדרך כלל בחלקים מנותקים — צלם שנשכר פעם אחת לתפריט, חבר או איש צוות שמפרסם באינסטגרם באופן ספורדי, ואולי פוסט מקודם לערב עמוס. כל חלק עובד קצת, אבל שום דבר לא מצטבר, והמסעדה נראית פחות עקבית ברשת ממה שהיא בפועל באופן אישי.",
+    "אנחנו בונים שיווק מסעדות כמערכת מחוברת אחת בקו פנגן, בקו סמוי ובקו טאו — אותו צילום אוכל ומקום מזין את התפריט, את Google Business Profile, את פיד האינסטגרם ואת הפרסום הממומן שלכם, כך שסועד שנתקל במסעדה שלכם בכל מקום ברשת רואה הצגה קוהרנטית ומעוררת תיאבון ולא סט נכסים לא תואם.",
+    "העמוד הזה מציג את גישת שיווק המסעדות שלנו בשלושת האיים ואיך החלקים הבודדים מתחברים. לפירוט המפורט של שירותים ספציפיים — צילום אוכל, צילום תפריטים, סטיילינג אוכל, עיצוב תפריטים, רשתות חברתיות למסעדות, פרסום למסעדות ואתרי מסעדות — עם היקף, תהליך ותמחור מלאים, ראו את תחום האוכל והמסעדות שלנו, שהוא הגרסה הקנונית של התוכן הזה.",
+    "הביקוש למסעדות בשלושת האיים נע עם עונות התיירות, והשקת תפריט בקו פנגן מתנהגת אחרת ממסעדה צמודת ריזורט בקו סמוי או מבית קפה בעיירת צלילה בקו טאו. אנחנו מתכננים תוכן ותזמון קמפיינים סביב העונה והקהל שיש לכל אי בפועל, ולא מחילים לוח שנה אחד בכל מקום."
   ],
   "scope": [
     {
-      "title": "Food and venue photography",
-      "description": "Styled photography that works across menus, delivery platforms, social media and Google listings."
+      "title": "צילום אוכל ומקום",
+      "description": "צילום מעוצב שעובד בתפריטים, בפלטפורמות משלוחים, ברשתות חברתיות וברישומי Google."
     },
     {
-      "title": "Menu and identity design",
-      "description": "Print and digital menu design consistent with your restaurant's visual identity."
+      "title": "עיצוב תפריט וזהות",
+      "description": "עיצוב תפריט להדפסה ודיגיטלי שעקבי עם הזהות החזותית של המסעדה שלכם."
     },
     {
-      "title": "Social media and content",
-      "description": "A content calendar built around your menu, events and offers, produced and published consistently."
+      "title": "רשתות חברתיות ותוכן",
+      "description": "לוח תוכן שנבנה סביב התפריט, האירועים וההצעות שלכם, מופק ומפורסם בעקביות."
     },
     {
-      "title": "Advertising and local visibility",
-      "description": "Meta and Google Ads campaigns paired with Google Business Profile and local SEO support."
+      "title": "פרסום ונראות מקומית",
+      "description": "קמפייני Meta ו-Google Ads בשילוב Google Business Profile ותמיכה ב-SEO מקומי."
     }
   ],
   "benefits": [
     {
-      "title": "One coherent presence, not scattered assets",
-      "description": "The same photography and brand voice carried across your menu, social channels and ads."
+      "title": "נוכחות קוהרנטית אחת, לא נכסים מפוזרים",
+      "description": "אותו צילום וקול מותג נישאים בתפריט, בערוצים החברתיים ובמודעות."
     },
     {
-      "title": "Built around how diners actually choose",
-      "description": "Most diners decide from Google Maps photos, Instagram and word of mouth within minutes — the marketing is designed around that behavior."
+      "title": "בנוי סביב האופן שבו סועדים באמת בוחרים",
+      "description": "רוב הסועדים מחליטים לפי תמונות ב-Google Maps, אינסטגרם ופה לאוזן תוך דקות — השיווק מתוכנן סביב ההתנהגות הזו."
     },
     {
-      "title": "Timed to island seasonality",
-      "description": "Content and campaigns planned around the tourist patterns specific to Koh Phangan, Koh Samui or Koh Tao."
+      "title": "מתוזמן לעונתיות האי",
+      "description": "תוכן וקמפיינים שמתוכננים סביב דפוסי התיירות הספציפיים לקו פנגן, קו סמוי או קו טאו."
     },
     {
-      "title": "Fills specific gaps, not just general visibility",
-      "description": "Targeted promotion for slow nights, new dishes or events, alongside ongoing brand-building content."
+      "title": "ממלא פערים ספציפיים, לא רק נראות כללית",
+      "description": "קידום ממוקד ללילות איטיים, מנות חדשות או אירועים, לצד תוכן שוטף שבונה מותג."
     }
   ],
   "process": [
     {
-      "title": "Discovery",
-      "description": "Understand the restaurant, its menu, its islands and its busiest and slowest periods."
+      "title": "גילוי",
+      "description": "הבנת המסעדה, התפריט שלה, האיים שלה והתקופות העמוסות והאיטיות ביותר."
     },
     {
-      "title": "Production",
-      "description": "Food, venue and social content photographed and produced on-site."
+      "title": "הפקה",
+      "description": "תוכן אוכל, מקום ורשתות חברתיות שמצולם ומופק באתר."
     },
     {
-      "title": "Launch",
-      "description": "Menu, social and advertising assets go live together."
+      "title": "השקה",
+      "description": "נכסי התפריט, הרשתות החברתיות והפרסום עולים לאוויר יחד."
     },
     {
-      "title": "Ongoing management",
-      "description": "Most restaurant clients move to a monthly content and marketing arrangement after the initial project."
+      "title": "ניהול שוטף",
+      "description": "רוב לקוחות המסעדות עוברים להסדר חודשי של תוכן ושיווק לאחר הפרויקט הראשוני."
     }
   ],
   "pricing": [
     {
-      "service": "Restaurant marketing starter (photography + menu)",
-      "range": "THB 20,000 – 45,000",
-      "note": "Indicative — food photography plus menu design"
+      "service": "חבילת פתיחה לשיווק מסעדה (צילום + תפריט)",
+      "note": "מחיר מנחה — צילום אוכל בתוספת עיצוב תפריט",
+      "included": [
+        "צילום אוכל",
+        "עיצוב תפריט"
+      ],
+      "excluded": [
+        "נסיעה לקו סמוי או לקו טאו",
+        "עלויות הדפסה"
+      ]
     },
     {
-      "service": "Restaurant social package (full)",
-      "range": "THB 24,000 – 40,000 / month",
-      "note": "5+ posts/week, Reels, community management"
+      "service": "חבילה חברתית למסעדה (מלאה)",
+      "note": "5+ פוסטים בשבוע, Reels, ניהול קהילה",
+      "included": [
+        "5 פוסטים בשבוע ומעלה",
+        "Reels",
+        "ניהול קהילה",
+        "דוחות"
+      ],
+      "excluded": [
+        "תקציב פרסום — משולם על ידכם ישירות לפלטפורמה"
+      ]
     },
     {
-      "service": "Monthly ad management",
-      "range": "THB 8,000 – 18,000 / month",
-      "note": "Excludes ad spend, billed directly to the platform"
+      "service": "ניהול מודעות חודשי",
+      "note": "לא כולל הוצאת מדיה, שמחויבת ישירות מול הפלטפורמה",
+      "included": [
+        "ניהול ואופטימיזציה שוטפים של קמפיינים",
+        "דוח חודשי"
+      ],
+      "excluded": [
+        "תקציב פרסום — משולם על ידכם ישירות לפלטפורמה",
+        "עמלות פלטפורמה",
+        "הפקת קריאייטיב חדש"
+      ]
     }
   ],
   "useCases": [
     {
-      "title": "New restaurant openings",
-      "description": "A coordinated launch across menu, photography, social and advertising on any of the three islands."
+      "title": "פתיחות מסעדות חדשות",
+      "description": "השקה מתואמת בתפריט, בצילום, ברשתות חברתיות ובפרסום בכל אחד משלושת האיים."
     },
     {
-      "title": "Established restaurants refreshing their presence",
-      "description": "Updated photography and a consistent content system for a restaurant that's outgrown ad-hoc marketing."
+      "title": "מסעדות מבוססות שמרעננות את הנוכחות שלהן",
+      "description": "צילום מעודכן ומערכת תוכן עקבית למסעדה שהתבגרה מעבר לשיווק אד-הוק."
     },
     {
-      "title": "Multi-location restaurant groups",
-      "description": "A consistent brand and marketing standard across venues on different islands."
+      "title": "קבוצות מסעדות עם כמה מיקומים",
+      "description": "מותג וסטנדרט שיווק עקביים בין מקומות באיים שונים."
     }
   ],
   "faqs": [
     {
-      "q": "Do you work with restaurants on Koh Samui and Koh Tao, or only Koh Phangan?",
-      "a": "All three — CreativeLAB is based on Koh Phangan and works with restaurants and cafés across Koh Phangan, Koh Samui and Koh Tao."
+      "q": "האם אתם עובדים עם מסעדות בקו סמוי ובקו טאו, או רק בקו פנגן?",
+      "a": "בשלושתם — CreativeLAB ממוקמת בקו פנגן ועובדת עם מסעדות ובתי קפה בקו פנגן, בקו סמוי ובקו טאו."
     },
     {
-      "q": "How is this different from the Food & Restaurants hub page?",
-      "a": "This page introduces restaurant marketing as one connected system across the three islands; the Food & Restaurants hub breaks it into individual services — food photography, menu design, social and advertising — each with detailed scope and pricing."
+      "q": "במה זה שונה מעמוד תחום האוכל והמסעדות?",
+      "a": "העמוד הזה מציג שיווק מסעדות כמערכת מחוברת אחת בשלושת האיים; תחום האוכל והמסעדות מפרק אותו לשירותים בודדים — צילום אוכל, עיצוב תפריטים, רשתות חברתיות ופרסום — כל אחד עם היקף ותמחור מפורטים."
     },
     {
-      "q": "Do you only take photos, or handle the whole marketing side?",
-      "a": "Both — from a single food photography shoot through to full restaurant marketing including social and advertising."
+      "q": "האם אתם רק מצלמים, או מטפלים בכל צד השיווק?",
+      "a": "שניהם — מצילום אוכל יחיד ועד שיווק מסעדות מלא שכולל רשתות חברתיות ופרסום."
     },
     {
-      "q": "Can you help launch a new menu across more than one location?",
-      "a": "Yes — menu photography, design and a coordinated social and advertising push, adapted per location if the restaurant operates on more than one island."
+      "q": "האם אתם יכולים לעזור להשיק תפריט חדש ביותר ממיקום אחד?",
+      "a": "כן — צילום תפריטים, עיצוב ומהלך חברתי ופרסומי מתואם, מותאם לכל מיקום אם המסעדה פועלת ביותר מאי אחד."
     },
     {
-      "q": "Is there a travel fee if our restaurant is on Koh Samui or Koh Tao?",
-      "a": "For on-site shoots away from our base on Koh Phangan, a travel fee may apply since travel between islands is by boat — we'll confirm this in the quote."
+      "q": "האם יש תשלום נסיעות אם המסעדה שלנו בקו סמוי או בקו טאו?",
+      "a": "בצילומים בשטח הרחק מהבסיס שלנו בקו פנגן, ייתכן תשלום נסיעות מכיוון שהנסיעה בין האיים היא בסירה — נאשר זאת בהצעת המחיר."
     },
     {
-      "q": "Do you understand the seasonality of restaurant business on the islands?",
-      "a": "Yes — we plan content and campaigns around each island's tourist seasons and local demand patterns rather than a single generic calendar."
+      "q": "האם אתם מבינים את העונתיות של עסקי המסעדות באיים?",
+      "a": "כן — אנחנו מתכננים תוכן וקמפיינים סביב עונות התיירות ודפוסי הביקוש המקומיים של כל אי ולא לוח שנה גנרי יחיד."
     },
     {
-      "q": "Can you manage our Google Business Profile as well?",
-      "a": "Yes, through our Business & Local Presence work, which pairs closely with restaurant marketing."
+      "q": "האם אתם יכולים לנהל גם את Google Business Profile שלנו?",
+      "a": "כן, באמצעות עבודת העסקים והנוכחות המקומית שלנו, שמשתלבת היטב עם שיווק מסעדות."
     }
   ],
   "related": [
     {
-      "label": "Food & Restaurants (full hub)",
-      "description": "The complete service breakdown — food photography, menu design, social and advertising."
+      "label": "אוכל ומסעדות (התחום המלא)",
+      "description": "פירוט השירותים המלא — צילום אוכל, עיצוב תפריטים, רשתות חברתיות ופרסום."
     },
     {
-      "label": "Restaurant Advertising",
-      "description": "Meta and Google Ads built around your restaurant's offers and events."
+      "label": "פרסום למסעדות",
+      "description": "Meta ו-Google Ads שנבנים סביב ההצעות והאירועים של המסעדה שלכם."
     },
     {
-      "label": "Restaurant Website",
-      "description": "A website built around your menu, location and booking journey."
+      "label": "אתר מסעדה",
+      "description": "אתר שנבנה סביב התפריט, המיקום ומסע ההזמנה שלכם."
     }
   ],
-  "finalCtaLabel": "Start a Project"
+  "finalCtaLabel": "התחילו פרויקט"
 }

@@ -1,172 +1,193 @@
 {
-  "navLabel": "Content Creation",
-  "h1": "Content Creation",
-  "primaryKeyword": "content creation Koh Phangan, Koh Samui and Koh Tao",
+  "navLabel": "การสร้างคอนเทนต์",
+  "h1": "การสร้างคอนเทนต์สำหรับธุรกิจบนเกาะพะงัน เกาะสมุย และเกาะเต่า",
+  "primaryKeyword": "การสร้างคอนเทนต์เกาะพะงัน เกาะสมุย และเกาะเต่า",
   "secondaryTopics": [
-    "photo and video content",
-    "branded content production",
-    "creative direction",
-    "multi-channel content"
+    "คอนเทนต์ภาพถ่ายและวิดีโอ",
+    "การผลิตคอนเทนต์แบรนด์",
+    "ทิศทางสร้างสรรค์",
+    "คอนเทนต์หลายช่องทาง"
   ],
-  "metaTitle": "Content Creation",
-  "metaDescription": "Photo and video content production for businesses on Koh Phangan, Koh Samui and Koh Tao — one shoot supplying social, advertising and website content.",
-  "directAnswer": "Content creation is the photo and video production behind a business's marketing — the raw material for social media, advertising and your website. CreativeLAB produces this for businesses on Koh Phangan, Koh Samui and Koh Tao, planning shoots that supply multiple channels from one production day.",
-  "heroSupport": "Photo and video production planned to supply your social feed, ad creative and website — not three separate shoots.",
-  "heroImageAlt": "Photographer directing a branded content shoot for a local business",
+  "metaTitle": "การสร้างคอนเทนต์ เกาะพะงัน สมุย และเต่า",
+  "metaDescription": "ผลิตคอนเทนต์ภาพถ่ายและวิดีโอสำหรับธุรกิจบนเกาะพะงัน เกาะสมุย และเกาะเต่า งานถ่ายครั้งเดียวป้อนทั้งโซเชียล โฆษณา และเว็บไซต์",
+  "directAnswer": "การสร้างคอนเทนต์คือการผลิตภาพถ่ายและวิดีโอเบื้องหลังการตลาดของธุรกิจ วัตถุดิบสำหรับโซเชียลมีเดีย โฆษณา และเว็บไซต์ของคุณ CreativeLAB ผลิตให้ธุรกิจบนเกาะพะงัน เกาะสมุย และเกาะเต่า วางแผนงานถ่ายที่ป้อนหลายช่องทางจากวันผลิตเดียว",
+  "heroSupport": "การผลิตภาพถ่ายและวิดีโอที่วางแผนให้ป้อนฟีดโซเชียล งานโฆษณา และเว็บไซต์ของคุณ ไม่ใช่สามงานถ่ายแยกกัน",
+  "heroImageAlt": "ช่างภาพกำลังกำกับงานถ่ายคอนเทนต์แบรนด์สำหรับธุรกิจท้องถิ่น",
   "overview": [
-    "Content creation is the production layer underneath almost everything else on this site: the photos in your ads, the video in your Reels, the images on your website. Treated separately, each channel ends up commissioning its own shoot. Treated as one content operation, a single well-planned production day can supply weeks of social posts, a set of ad creative and fresh website imagery at once.",
-    "This page is the broad view of content creation across every channel it feeds. Our social-media-specific content service covers shoot planning tied to a posting calendar; this page is where we explain content creation as the production engine behind advertising, your website and your brand more generally, across Koh Phangan, Koh Samui and Koh Tao.",
-    "That matters practically on the islands. Getting a crew, equipment and a shot list to Koh Samui or Koh Tao means a boat crossing and a travel fee for on-site production — planning one thorough shoot day, rather than several small ones, is usually the more efficient way to work off Koh Phangan.",
-    "We plan every shoot with the end channels in mind from the brief stage: what needs to be square for the feed, vertical for Reels and Stories, wide for a website hero image or ad placement — so delivery is genuinely multi-format, not one crop applied everywhere."
+    "การสร้างคอนเทนต์คือชั้นการผลิตที่อยู่ใต้เกือบทุกอย่างอื่นบนเว็บไซต์นี้ ภาพในโฆษณาของคุณ วิดีโอใน Reels ภาพบนเว็บไซต์ เมื่อมองแยกกัน แต่ละช่องทางลงเอยด้วยการว่าจ้างงานถ่ายของตัวเอง เมื่อมองเป็นปฏิบัติการคอนเทนต์เดียว วันผลิตเดียวที่วางแผนดีป้อนโพสต์โซเชียลหลายสัปดาห์ ชุดงานโฆษณา และภาพเว็บไซต์ใหม่ได้พร้อมกัน",
+    "หน้านี้คือมุมมองกว้างของการสร้างคอนเทนต์ข้ามทุกช่องทางที่มันป้อน บริการคอนเทนต์เฉพาะโซเชียลมีเดียของเราครอบคลุมการวางแผนงานถ่ายที่ผูกกับปฏิทินการโพสต์ ที่นี่คือที่ที่เราอธิบายการสร้างคอนเทนต์ในฐานะเครื่องยนต์การผลิตเบื้องหลังโฆษณา เว็บไซต์ และแบรนด์ของคุณโดยทั่วไป ทั่วเกาะพะงัน เกาะสมุย และเกาะเต่า",
+    "นั่นสำคัญในทางปฏิบัติบนเกาะ การพาทีม อุปกรณ์ และรายการช็อตไปเกาะสมุยหรือเกาะเต่าหมายถึงการข้ามเรือและค่าเดินทางสำหรับการผลิตหน้างาน การวางแผนวันถ่ายที่ละเอียดหนึ่งวันแทนหลายวันเล็ก ๆ มักเป็นวิธีที่มีประสิทธิภาพกว่าเมื่อทำงานนอกเกาะพะงัน",
+    "เราวางแผนทุกงานถ่ายโดยคำนึงถึงช่องทางปลายทางตั้งแต่ขั้นบรีฟ อะไรต้องเป็นจัตุรัสสำหรับฟีด แนวตั้งสำหรับ Reels และ Stories กว้างสำหรับภาพเด่นเว็บไซต์หรือตำแหน่งโฆษณา การส่งมอบจึงหลายรูปแบบจริง ไม่ใช่ครอบเดียวที่ใช้ทุกที่"
   ],
   "scope": [
     {
-      "title": "Photography production",
-      "description": "Product, lifestyle, interior and behind-the-scenes photography built around your brief."
+      "title": "การผลิตภาพถ่าย",
+      "description": "ภาพถ่ายสินค้า ไลฟ์สไตล์ ภายใน และเบื้องหลังที่สร้างรอบบรีฟของคุณ"
     },
     {
-      "title": "Video production",
-      "description": "Short-form and mid-length video shot and edited for social, ads and web use."
+      "title": "การผลิตวิดีโอ",
+      "description": "วิดีโอสั้นและความยาวปานกลางที่ถ่ายและตัดต่อสำหรับโซเชียล โฆษณา และการใช้งานบนเว็บ"
     },
     {
-      "title": "Creative direction",
-      "description": "A consistent visual style, framing and color grading carried across every asset produced."
+      "title": "ทิศทางสร้างสรรค์",
+      "description": "สไตล์ภาพ การจัดเฟรม และการเกรดสีที่สอดคล้องกันตลอดทุกชิ้นงานที่ผลิต"
     },
     {
-      "title": "Multi-channel packaging",
-      "description": "One shoot edited and exported into the specific formats each channel actually needs."
+      "title": "การจัดแพ็กเกจหลายช่องทาง",
+      "description": "งานถ่ายเดียวที่ตัดต่อและส่งออกเป็นรูปแบบเฉพาะที่แต่ละช่องทางต้องการจริง"
     },
     {
-      "title": "Shoot logistics across the islands",
-      "description": "Planning, scheduling and travel handled for production on Koh Phangan, Koh Samui or Koh Tao."
+      "title": "โลจิสติกส์งานถ่ายข้ามเกาะ",
+      "description": "การวางแผน จัดตาราง และการเดินทางสำหรับการผลิตบนเกาะพะงัน เกาะสมุย หรือเกาะเต่า"
     }
   ],
   "benefits": [
     {
-      "title": "One shoot, multiple channels",
-      "description": "A single production day can supply social content, ad creative and website imagery together."
+      "title": "งานถ่ายเดียว หลายช่องทาง",
+      "description": "วันผลิตเดียวป้อนคอนเทนต์โซเชียล งานโฆษณา และภาพเว็บไซต์ได้พร้อมกัน"
     },
     {
-      "title": "A consistent visual identity",
-      "description": "Every asset — regardless of where it's used — looks like it belongs to the same brand."
+      "title": "อัตลักษณ์ภาพที่สอดคล้อง",
+      "description": "ทุกชิ้นงานไม่ว่าใช้ที่ไหนดูเป็นของแบรนด์เดียวกัน"
     },
     {
-      "title": "Efficient off-island production",
-      "description": "Planning thoroughly for Koh Samui and Koh Tao shoots reduces the number of separate trips needed."
+      "title": "การผลิตนอกเกาะที่มีประสิทธิภาพ",
+      "description": "การวางแผนอย่างละเอียดสำหรับงานถ่ายเกาะสมุยและเกาะเต่าลดจำนวนทริปแยกที่ต้องใช้"
     },
     {
-      "title": "A real content backlog",
-      "description": "Reduces the scramble to produce something new every time a channel needs an asset."
+      "title": "คลังคอนเทนต์ที่แท้จริง",
+      "description": "ลดความโกลาหลในการผลิตของใหม่ทุกครั้งที่ช่องทางต้องการชิ้นงาน"
     },
     {
-      "title": "Formats that fit from the start",
-      "description": "Content is shot and cropped correctly for its destination rather than force-fit afterward."
+      "title": "รูปแบบที่พอดีตั้งแต่ต้น",
+      "description": "คอนเทนต์ถูกถ่ายและครอบอย่างถูกต้องสำหรับปลายทางแทนการฝืนใส่ภายหลัง"
     }
   ],
   "process": [
     {
-      "title": "Brief & goals",
-      "description": "Agree what channels this content needs to serve and the themes involved."
+      "title": "บรีฟและเป้าหมาย",
+      "description": "ตกลงว่าคอนเทนต์นี้ต้องรองรับช่องทางใดและธีมที่เกี่ยวข้อง"
     },
     {
-      "title": "Shot list & logistics",
-      "description": "Plan the shot list, location and, for Koh Samui or Koh Tao, travel."
+      "title": "รายการช็อตและโลจิสติกส์",
+      "description": "วางแผนรายการช็อต สถานที่ และสำหรับเกาะสมุยหรือเกาะเต่า การเดินทาง"
     },
     {
-      "title": "Production day",
-      "description": "On-location photography and video production."
+      "title": "วันผลิต",
+      "description": "การผลิตภาพถ่ายและวิดีโอหน้างาน"
     },
     {
-      "title": "Edit & multi-format export",
-      "description": "Selects, retouching and editing delivered in every format needed."
+      "title": "ตัดต่อและส่งออกหลายรูปแบบ",
+      "description": "การคัดเลือก รีทัช และตัดต่อ ส่งมอบในทุกรูปแบบที่ต้องการ"
     },
     {
-      "title": "Delivery & handoff",
-      "description": "Files organized and handed off to whichever channel or team will use them."
+      "title": "ส่งมอบและส่งต่อ",
+      "description": "ไฟล์ถูกจัดระเบียบและส่งต่อให้ช่องทางหรือทีมที่จะใช้"
     }
   ],
   "pricing": [
     {
-      "service": "Half-day content shoot",
-      "range": "THB 10,000 – 20,000",
-      "note": "Photo and short video, edited for multiple channels"
+      "service": "งานถ่ายคอนเทนต์ครึ่งวัน",
+      "note": "ภาพถ่ายและวิดีโอสั้น ตัดต่อสำหรับหลายช่องทาง",
+      "included": [
+        "ถ่ายทำครึ่งวัน",
+        "ภาพถ่ายและวิดีโอสั้นที่ตัดต่อแล้ว"
+      ],
+      "excluded": [
+        "ค่าเดินทางไปเกาะสมุยหรือเกาะเต่า",
+        "การเผยแพร่และการดูแลบัญชี"
+      ]
     },
     {
-      "service": "Full-day content shoot",
-      "range": "THB 18,000 – 35,000",
-      "note": "Extended shot list, multiple setups or locations"
+      "service": "งานถ่ายคอนเทนต์เต็มวัน",
+      "note": "รายการช็อตขยาย หลายการตั้งค่าหรือสถานที่",
+      "included": [
+        "ถ่ายทำเต็มวัน",
+        "รายการช็อตแบบขยายพร้อมหลายการจัดฉาก",
+        "ภาพถ่ายและวิดีโอสั้นที่ตัดต่อแล้ว"
+      ],
+      "excluded": [
+        "ค่าเดินทางไปเกาะสมุยหรือเกาะเต่า",
+        "การเผยแพร่และการดูแลบัญชี"
+      ]
     },
     {
-      "service": "Multi-channel content package (social + ads + web)",
-      "range": "THB 22,000 – 45,000",
-      "note": "Indicative — one shoot, formatted and delivered for several destinations"
+      "service": "แพ็กเกจคอนเทนต์หลายช่องทาง (โซเชียล + โฆษณา + เว็บ)",
+      "note": "โดยประมาณ งานถ่ายเดียว จัดรูปแบบและส่งมอบสำหรับหลายปลายทาง",
+      "included": [
+        "ถ่ายทำครั้งเดียว จัดฟอร์แมตและส่งมอบสำหรับโซเชียล โฆษณา และเว็บ"
+      ],
+      "excluded": [
+        "ค่าเดินทางไปเกาะสมุยหรือเกาะเต่า",
+        "การเผยแพร่และการดูแลบัญชี"
+      ]
     }
   ],
   "useCases": [
     {
-      "title": "Restaurants",
-      "description": "A season's worth of dish, ambiance and event content across social, ads and menu use."
+      "title": "ร้านอาหาร",
+      "description": "คอนเทนต์จาน บรรยากาศ และอีเวนต์เต็มซีซันสำหรับโซเชียล โฆษณา และการใช้งานเมนู"
     },
     {
-      "title": "Villas & accommodation",
-      "description": "Lifestyle and property content usable for listings, social and paid campaigns alike."
+      "title": "วิลล่าและที่พัก",
+      "description": "คอนเทนต์ไลฟ์สไตล์และทรัพย์สินที่ใช้ได้ทั้งประกาศ โซเชียล และแคมเปญแบบเสียเงิน"
     },
     {
-      "title": "Retail & product brands",
-      "description": "Product and behind-the-scenes content that builds trust across every channel it appears on."
+      "title": "แบรนด์ค้าปลีกและสินค้า",
+      "description": "คอนเทนต์สินค้าและเบื้องหลังที่สร้างความไว้วางใจทุกช่องทางที่ปรากฏ"
     },
     {
-      "title": "Wellness & retreat brands",
-      "description": "Content that supports a slower-considered booking journey across web, social and email."
+      "title": "แบรนด์เวลเนสและรีทรีต",
+      "description": "คอนเทนต์ที่สนับสนุนเส้นทางการจองที่ใช้เวลาพิจารณานานกว่าทั้งเว็บ โซเชียล และอีเมล"
     }
   ],
   "faqs": [
     {
-      "q": "What's the difference between content creation and commercial photography?",
-      "a": "Commercial photography is a specific production discipline for hospitality, product and brand images; content creation is the broader production of photo and video built to feed social, advertising and web at once."
+      "q": "การสร้างคอนเทนต์ต่างจากการถ่ายภาพเชิงพาณิชย์อย่างไร?",
+      "a": "การถ่ายภาพเชิงพาณิชย์เป็นศาสตร์การผลิตเฉพาะสำหรับภาพการบริการ สินค้า และแบรนด์ ส่วนการสร้างคอนเทนต์คือการผลิตภาพถ่ายและวิดีโอที่กว้างกว่าซึ่งสร้างเพื่อป้อนโซเชียล โฆษณา และเว็บพร้อมกัน"
     },
     {
-      "q": "Can one shoot really cover social, ads and website content?",
-      "a": "Yes, when the shot list is planned with all three in mind from the start — that's the core of how we approach content creation rather than commissioning separate shoots."
+      "q": "งานถ่ายครั้งเดียวครอบคลุมคอนเทนต์โซเชียล โฆษณา และเว็บไซต์ได้จริงไหม?",
+      "a": "ได้ เมื่อวางแผนรายการช็อตโดยคำนึงถึงทั้งสามตั้งแต่ต้น นั่นคือแก่นของวิธีที่เราทำการสร้างคอนเทนต์ แทนการว่าจ้างงานถ่ายแยกกัน"
     },
     {
-      "q": "Do you travel to Koh Samui and Koh Tao for content shoots?",
-      "a": "Yes — production on both islands is by boat from Koh Phangan, and a travel fee may apply depending on the shoot's scope."
+      "q": "คุณเดินทางไปเกาะสมุยและเกาะเต่าเพื่อถ่ายคอนเทนต์ไหม?",
+      "a": "เดินทาง การผลิตบนทั้งสองเกาะใช้เรือจากเกาะพะงัน และอาจมีค่าเดินทางตามขอบเขตของงานถ่าย"
     },
     {
-      "q": "How far in advance should we book a content shoot?",
-      "a": "A few weeks' notice helps, especially for off-island production or during busier seasons."
+      "q": "ควรจองงานถ่ายคอนเทนต์ล่วงหน้านานแค่ไหน?",
+      "a": "แจ้งล่วงหน้าไม่กี่สัปดาห์ช่วยได้ โดยเฉพาะการผลิตนอกเกาะหรือช่วงที่ยุ่งกว่า"
     },
     {
-      "q": "Do you provide creative direction, or do I need my own concept?",
-      "a": "We can develop the concept and shot list, or work from a brief and references you already have."
+      "q": "คุณให้บริการทิศทางสร้างสรรค์ไหม หรือฉันต้องมีแนวคิดเอง?",
+      "a": "เราพัฒนาแนวคิดและรายการช็อตได้ หรือทำงานจากบรีฟและภาพอ้างอิงที่คุณมีอยู่แล้ว"
     },
     {
-      "q": "Can you produce content for a specific campaign or launch?",
-      "a": "Yes — content creation regularly ties into advertising campaign launches and new openings, timed to the launch date."
+      "q": "คุณผลิตคอนเทนต์สำหรับแคมเปญหรือการเปิดตัวเฉพาะได้ไหม?",
+      "a": "ได้ การสร้างคอนเทนต์เชื่อมกับการเปิดตัวแคมเปญโฆษณาและการเปิดตัวใหม่เป็นประจำ กำหนดเวลาตามวันเปิดตัว"
     },
     {
-      "q": "Is video included, or is this photo-only?",
-      "a": "Both are available, and most content shoots combine photography with short-form video in one session."
+      "q": "รวมวิดีโอด้วยไหม หรือเฉพาะภาพถ่าย?",
+      "a": "มีทั้งสองอย่าง และงานถ่ายคอนเทนต์ส่วนใหญ่รวมภาพถ่ายกับวิดีโอสั้นในเซสชันเดียว"
     },
     {
-      "q": "Who owns the final content?",
-      "a": "You do — delivered files are yours to use across your own channels once the project is complete."
+      "q": "ใครเป็นเจ้าของคอนเทนต์สุดท้าย?",
+      "a": "คุณเป็นเจ้าของ ไฟล์ที่ส่งมอบเป็นของคุณที่จะใช้ทั่วช่องทางของคุณเองเมื่อโปรเจกต์เสร็จสมบูรณ์"
     }
   ],
   "related": [
     {
-      "label": "Content Creation (Social Media)",
-      "description": "Content shoots planned specifically around your social posting calendar."
+      "label": "การสร้างคอนเทนต์ (โซเชียลมีเดีย)",
+      "description": "งานถ่ายคอนเทนต์ที่วางแผนรอบปฏิทินการโพสต์โซเชียลของคุณโดยเฉพาะ"
     },
     {
-      "label": "Commercial Photography",
-      "description": "Dedicated hospitality, villa, food and product photography."
+      "label": "การถ่ายภาพเชิงพาณิชย์",
+      "description": "การถ่ายภาพการบริการ วิลล่า อาหาร และสินค้าโดยเฉพาะ"
     },
     {
-      "label": "Commercial Video",
-      "description": "Longer-form video production for advertising and brand storytelling."
+      "label": "วิดีโอเชิงพาณิชย์",
+      "description": "การผลิตวิดีโอแบบยาวสำหรับโฆษณาและการเล่าเรื่องแบรนด์"
     }
   ],
-  "finalCtaLabel": "Start a Project"
+  "finalCtaLabel": "จองงานถ่ายคอนเทนต์"
 }

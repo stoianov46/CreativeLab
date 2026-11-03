@@ -74,7 +74,7 @@ export const brandingCreativeHub: HubPage = {
       hubSlug: "branding-creative",
       navLabel: "Branding",
       h1: "Brand Identity Design on Koh Phangan",
-      primaryKeyword: "branding agency Koh Phangan",
+      primaryKeyword: "brand identity design Koh Phangan",
       secondaryTopics: ["brand identity", "visual identity"],
       metaTitle: "Brand Identity Design Koh Phangan",
       metaDescription:
@@ -112,8 +112,20 @@ export const brandingCreativeHub: HubPage = {
         { title: "Deliver", description: "Final files and guidelines handed over." },
       ],
       pricing: [
-        { service: "Brand identity (logo + guidelines)", range: "THB 30,000 – 80,000", note: "Per project" },
-        { service: "Full brand system (multi-channel applications)", range: "THB 70,000 – 150,000", note: "Includes web, social and print application" },
+        {
+          service: "Brand identity (logo + guidelines)",
+          priceId: "branding-creative.branding.1",
+          note: "Per project",
+          included: ["Logo design", "Brand guidelines document"],
+          excluded: ["Web, social and print application of the brand", "Packaging"],
+        },
+        {
+          service: "Full brand system (multi-channel applications)",
+          priceId: "branding-creative.branding.2",
+          note: "Includes web, social and print application",
+          included: ["Logo and brand guidelines", "Application across web, social and print"],
+          excluded: ["Printing and production costs", "Packaging"],
+        },
       ],
       useCases: [
         { title: "New businesses", description: "A complete identity built from the ground up." },
@@ -180,8 +192,20 @@ export const brandingCreativeHub: HubPage = {
         { title: "Deliver", description: "Final files in the formats you need, print or digital." },
       ],
       pricing: [
-        { service: "Single design asset", range: "THB 2,500 – 8,000", note: "Flyer, social template or similar" },
-        { service: "Campaign asset set", range: "THB 10,000 – 25,000", note: "Coordinated set of assets for one campaign" },
+        {
+          service: "Single design asset",
+          priceId: "branding-creative.graphic-design.1",
+          note: "Flyer, social template or similar",
+          included: ["One finished design asset (flyer, social template or similar)", "Print-ready and digital files"],
+          excluded: ["Printing costs", "Photography or video"],
+        },
+        {
+          service: "Campaign asset set",
+          priceId: "branding-creative.graphic-design.2",
+          note: "Coordinated set of assets for one campaign",
+          included: ["Coordinated set of assets for one campaign", "Print-ready and digital files"],
+          excluded: ["Printing costs", "Photography or video"],
+        },
       ],
       useCases: [
         { title: "Campaign launches", description: "A coordinated set of assets for a specific promotion." },
@@ -247,8 +271,20 @@ export const brandingCreativeHub: HubPage = {
         { title: "Review & refine", description: "Quality control across all final assets." },
       ],
       pricing: [
-        { service: "Creative direction (single campaign)", range: "THB 15,000 – 40,000", note: "Concept + production oversight" },
-        { service: "Ongoing creative direction", range: "THB 20,000 – 45,000 / month", note: "For businesses with continuous production needs" },
+        {
+          service: "Creative direction (single campaign)",
+          priceId: "branding-creative.creative-direction.1",
+          note: "Concept + production oversight",
+          included: ["Concept for one campaign", "Oversight of the production"],
+          excluded: ["The production itself, unless quoted separately"],
+        },
+        {
+          service: "Ongoing creative direction",
+          priceId: "branding-creative.creative-direction.2",
+          note: "For businesses with continuous production needs",
+          included: ["Continuous creative direction across productions", "Review of outputs against the brand"],
+          excluded: ["Production costs of the individual projects"],
+        },
       ],
       useCases: [
         { title: "Larger campaigns", description: "Coordinating photography, video and design under one concept." },
@@ -314,8 +350,20 @@ export const brandingCreativeHub: HubPage = {
         { title: "Final files", description: "Print-ready and digital files delivered." },
       ],
       pricing: [
-        { service: "Menu design (brand-integrated)", range: "THB 8,000 – 20,000", note: "As part of an existing brand identity" },
-        { service: "Menu design + brand identity", range: "THB 35,000 – 90,000", note: "Developing both together" },
+        {
+          service: "Menu design (brand-integrated)",
+          priceId: "branding-creative.menu-design.1",
+          note: "As part of an existing brand identity",
+          included: ["Menu design within your existing brand identity", "Print-ready or digital files"],
+          excluded: ["Printing costs", "Food photography"],
+        },
+        {
+          service: "Menu design + brand identity",
+          priceId: "branding-creative.menu-design.2",
+          note: "Developing both together",
+          included: ["Menu design and brand identity developed together", "Print-ready or digital files"],
+          excluded: ["Printing costs", "Food photography"],
+        },
       ],
       useCases: [
         { title: "New food & beverage brands", description: "Menu design developed alongside a new identity." },

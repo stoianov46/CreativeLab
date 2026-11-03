@@ -21,6 +21,7 @@ export type AnalyticsEvent =
   | "scroll_75"
   | "cta_click"
   | "form_start"
+  | "form_review"
   | "form_submit"
   | "form_error"
   | "whatsapp_click"

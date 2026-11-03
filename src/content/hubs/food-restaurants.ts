@@ -113,8 +113,20 @@ export const foodRestaurantsHub: HubPage = {
         { title: "Edit & deliver", description: "Retouched images delivered in the sizes you need." },
       ],
       pricing: [
-        { service: "Food photography (per dish)", range: "THB 1,500 – 4,000", note: "Styling included" },
-        { service: "Full menu shoot (15–25 dishes)", range: "THB 15,000 – 35,000", note: "Half to full day" },
+        {
+          service: "Food photography (per dish)",
+          priceId: "food-restaurants.food-photography.1",
+          note: "Styling included",
+          included: ["Photography of one dish", "Food styling included", "Edited, ready-to-use images"],
+          excluded: ["Travel to Koh Samui or Koh Tao", "Menu design"],
+        },
+        {
+          service: "Full menu shoot (15–25 dishes)",
+          priceId: "food-restaurants.food-photography.2",
+          note: "Half to full day",
+          included: ["Shoot of 15–25 dishes", "Half to full day on site", "Edited, ready-to-use images"],
+          excluded: ["Travel to Koh Samui or Koh Tao", "Menu design"],
+        },
       ],
       useCases: [
         { title: "New restaurant launches", description: "A complete photographed menu from day one." },
@@ -180,8 +192,20 @@ export const foodRestaurantsHub: HubPage = {
         { title: "Deliver", description: "Organized files matched to your menu format and platforms." },
       ],
       pricing: [
-        { service: "Menu photography set (up to 20 items)", range: "THB 12,000 – 28,000", note: "Consistent full-menu set" },
-        { service: "Menu photography set (20+ items)", range: "THB 28,000 – 45,000", note: "Larger menus, multiple sessions" },
+        {
+          service: "Menu photography set (up to 20 items)",
+          priceId: "food-restaurants.menu-photography.1",
+          note: "Consistent full-menu set",
+          included: ["Consistent photo set for up to 20 items", "Edited images"],
+          excluded: ["Travel to Koh Samui or Koh Tao", "Menu design"],
+        },
+        {
+          service: "Menu photography set (20+ items)",
+          priceId: "food-restaurants.menu-photography.2",
+          note: "Larger menus, multiple sessions",
+          included: ["Photo set for a menu of more than 20 items", "Multiple sessions as needed", "Edited images"],
+          excluded: ["Travel to Koh Samui or Koh Tao", "Menu design"],
+        },
       ],
       useCases: [
         { title: "Printed menus", description: "A complete photo set for a physical menu redesign." },
@@ -247,8 +271,20 @@ export const foodRestaurantsHub: HubPage = {
         { title: "Wrap", description: "Final checks against the shot list before finishing." },
       ],
       pricing: [
-        { service: "Food styling (half-day, with our photographer)", range: "Included in photography package", note: "Bundled with Food Photography by default" },
-        { service: "Food styling (standalone, your own crew)", range: "THB 6,000 – 15,000", note: "Styling only, for an external shoot" },
+        {
+          service: "Food styling (half-day, with our photographer)",
+          priceId: "food-restaurants.food-styling.1",
+          note: "Bundled with Food Photography by default",
+          included: ["Half-day of food styling alongside our photographer"],
+          excluded: ["Food photography, quoted separately"],
+        },
+        {
+          service: "Food styling (standalone, your own crew)",
+          priceId: "food-restaurants.food-styling.2",
+          note: "Styling only, for an external shoot",
+          included: ["Food styling only, for a shoot by your own crew"],
+          excluded: ["Photography", "Ingredients and props"],
+        },
       ],
       useCases: [
         { title: "Menu & marketing shoots", description: "Styling for a professional food photography session." },
@@ -315,8 +351,20 @@ export const foodRestaurantsHub: HubPage = {
         { title: "Final files", description: "Print-ready and digital files delivered." },
       ],
       pricing: [
-        { service: "Menu design (single page)", range: "THB 5,000 – 12,000", note: "Print or digital" },
-        { service: "Menu design (multi-page/section)", range: "THB 12,000 – 25,000", note: "Larger or multi-category menus" },
+        {
+          service: "Menu design (single page)",
+          priceId: "food-restaurants.menu-design.1",
+          note: "Print or digital",
+          included: ["Single-page menu design", "Print or digital files"],
+          excluded: ["Printing costs", "Food photography"],
+        },
+        {
+          service: "Menu design (multi-page/section)",
+          priceId: "food-restaurants.menu-design.2",
+          note: "Larger or multi-category menus",
+          included: ["Multi-page or multi-section menu design", "Print or digital files"],
+          excluded: ["Printing costs", "Food photography"],
+        },
       ],
       useCases: [
         { title: "New restaurant openings", description: "A complete menu design as part of launch." },
@@ -383,8 +431,20 @@ export const foodRestaurantsHub: HubPage = {
         { title: "Review", description: "Monthly check-in on what's working." },
       ],
       pricing: [
-        { service: "Restaurant social package (light)", range: "THB 14,000 – 22,000 / month", note: "3 posts/week + Stories" },
-        { service: "Restaurant social package (full)", range: "THB 24,000 – 40,000 / month", note: "5+ posts/week, Reels, community management" },
+        {
+          service: "Restaurant social package (light)",
+          priceId: "food-restaurants.social.1",
+          note: "3 posts/week + Stories",
+          included: ["3 posts per week", "Stories", "Basic reporting"],
+          excluded: ["Reels", "Community management", "Advertising budget — paid directly by you to the platform"],
+        },
+        {
+          service: "Restaurant social package (full)",
+          priceId: "food-restaurants.social.2",
+          note: "5+ posts/week, Reels, community management",
+          included: ["5 or more posts per week", "Reels", "Community management", "Reporting"],
+          excluded: ["Advertising budget — paid directly by you to the platform"],
+        },
       ],
       useCases: [
         { title: "Restaurants & cafés", description: "Consistent presence showcasing food, atmosphere and events." },
@@ -450,8 +510,20 @@ export const foodRestaurantsHub: HubPage = {
         { title: "Optimize & report", description: "Adjustments made based on real performance." },
       ],
       pricing: [
-        { service: "Restaurant ad campaign setup", range: "THB 8,000 – 18,000", note: "One-time — strategy, creative, setup" },
-        { service: "Monthly ad management", range: "THB 8,000 – 18,000 / month", note: "Excludes ad spend" },
+        {
+          service: "Restaurant ad campaign setup",
+          priceId: "food-restaurants.advertising.1",
+          note: "One-time — strategy, creative, setup",
+          included: ["Campaign strategy", "Creative for the campaign", "Account and campaign setup"],
+          excluded: ["Advertising budget — paid directly by you to the platform", "Platform fees", "Ongoing management"],
+        },
+        {
+          service: "Monthly ad management",
+          priceId: "food-restaurants.advertising.2",
+          note: "Excludes ad spend",
+          included: ["Ongoing campaign management and optimization", "Monthly report"],
+          excluded: ["Advertising budget — paid directly by you to the platform", "Platform fees", "New creative production"],
+        },
       ],
       useCases: [
         { title: "New menu or dish launches", description: "Get an offer in front of a relevant local audience fast." },
@@ -518,8 +590,20 @@ export const foodRestaurantsHub: HubPage = {
         { title: "Launch", description: "Site goes live with SEO basics in place." },
       ],
       pricing: [
-        { service: "Restaurant website (single page)", range: "THB 25,000 – 45,000", note: "Menu, location, booking link" },
-        { service: "Restaurant website (multi-page)", range: "THB 45,000 – 90,000", note: "Adds gallery, events, blog/journal" },
+        {
+          service: "Restaurant website (single page)",
+          priceId: "food-restaurants.website.1",
+          note: "Menu, location, booking link",
+          included: ["Single-page restaurant website", "Menu, location and booking link"],
+          excluded: ["Online ordering system", "Photography"],
+        },
+        {
+          service: "Restaurant website (multi-page)",
+          priceId: "food-restaurants.website.2",
+          note: "Adds gallery, events, blog/journal",
+          included: ["Multi-page restaurant website", "Gallery, events and blog or journal pages"],
+          excluded: ["Online ordering system", "Photography"],
+        },
       ],
       useCases: [
         { title: "New restaurant launches", description: "A proper web presence from opening day." },

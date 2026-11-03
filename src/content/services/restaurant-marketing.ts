@@ -75,18 +75,24 @@ export const restaurantMarketingService: ServicePage = {
   pricing: [
     {
       service: "Restaurant marketing starter (photography + menu)",
-      range: "THB 20,000 – 45,000",
+      priceId: "services.restaurant-marketing.1",
       note: "Indicative — food photography plus menu design",
+      included: ["Food photography", "Menu design"],
+      excluded: ["Travel to Koh Samui or Koh Tao", "Printing costs"],
     },
     {
       service: "Restaurant social package (full)",
-      range: "THB 24,000 – 40,000 / month",
+      priceId: "food-restaurants.social.2",
       note: "5+ posts/week, Reels, community management",
+      included: ["5 or more posts per week", "Reels", "Community management", "Reporting"],
+      excluded: ["Advertising budget — paid directly by you to the platform"],
     },
     {
       service: "Monthly ad management",
-      range: "THB 8,000 – 18,000 / month",
+      priceId: "food-restaurants.advertising.2",
       note: "Excludes ad spend, billed directly to the platform",
+      included: ["Ongoing campaign management and optimization", "Monthly report"],
+      excluded: ["Advertising budget — paid directly by you to the platform", "Platform fees", "New creative production"],
     },
   ],
   useCases: [

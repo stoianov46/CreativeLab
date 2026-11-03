@@ -1,181 +1,210 @@
 {
-  "navLabel": "Commercial Photography",
-  "h1": "Commercial Photography",
-  "primaryKeyword": "commercial photography Koh Phangan, Koh Samui and Koh Tao",
+  "navLabel": "צילום מסחרי",
+  "h1": "צילום מסחרי בקו פנגן, קו סמוי וקו טאו",
+  "primaryKeyword": "צילום מסחרי בקו פנגן, קו סמוי וקו טאו",
   "secondaryTopics": [
-    "hospitality photography",
-    "villa photography",
-    "food and product photography",
-    "brand photography"
+    "צילום אירוח",
+    "צילום וילות",
+    "צילום אוכל ומוצרים",
+    "צילום מותג"
   ],
-  "metaTitle": "Commercial Photography",
-  "metaDescription": "Commercial photography for hospitality, villas, food and products on Koh Phangan, Koh Samui and Koh Tao — professional imagery for listings, social and ads.",
-  "directAnswer": "Commercial photography is professional imagery produced for a business to use commercially — on listings, menus, websites, social media and advertising. CreativeLAB shoots hospitality, villas, food, products and brand portraits for businesses on Koh Phangan, Koh Samui and Koh Tao, delivered edited and ready for every channel.",
-  "heroSupport": "Hospitality, villa, food, product and brand photography for businesses across Koh Phangan, Koh Samui and Koh Tao — shot for how the images will actually be used.",
-  "heroImageAlt": "Commercial photographer shooting a hospitality interior on location",
+  "metaTitle": "צילום מסחרי בקו פנגן וקו סמוי",
+  "metaDescription": "צילום מסחרי לאירוח, וילות, אוכל ומוצרים בקו פנגן, קו סמוי וקו טאו — תמונות מקצועיות למודעות, לרשתות חברתיות ולפרסום.",
+  "directAnswer": "צילום מסחרי הוא תמונות מקצועיות שמופקות לשימוש מסחרי של עסק — במודעות, בתפריטים, באתרים, ברשתות חברתיות ובפרסום. CreativeLAB מצלמת אירוח, וילות, אוכל, מוצרים ופורטרטים של מותג לעסקים בקו פנגן, קו סמוי וקו טאו, ומספקת אותם ערוכים ומוכנים לכל ערוץ.",
+  "heroSupport": "צילום אירוח, וילות, אוכל, מוצרים ומותג לעסקים בקו פנגן, קו סמוי וקו טאו — מצולם לפי האופן שבו התמונות יהיו בשימוש בפועל.",
+  "heroImageAlt": "צלם מסחרי מצלם חלל אירוח בשטח",
   "overview": [
-    "Commercial photography is different from a casual photo: it's produced with a specific commercial use in mind — a listing, a menu, an ad, a hero image — and shot, lit and edited accordingly. On islands where most businesses compete for attention on Instagram, Google Maps and booking platforms before a guest ever arrives in person, the quality of that imagery has a direct effect on whether someone books.",
-    "We shoot across five commercial categories that cover most of what businesses on Koh Phangan, Koh Samui and Koh Tao need: hospitality interiors and exteriors, villas and real estate, food and menus, product photography, and brand or team portraits. Rather than specializing narrowly, we bring the same lighting, composition and post-production standard to all of them, briefed specifically for each shoot.",
-    "Hospitality and villa photography needs to sell a space and an experience — light, scale and atmosphere matter as much as accuracy. Food photography needs styling and consistency across a whole menu. Product photography needs clean, repeatable setups that work across a catalogue. Brand photography needs to represent real people and spaces credibly, without over-staging them. We plan each shoot around which of these it actually is.",
-    "Production is based on Koh Phangan, and we shoot regularly for businesses on Koh Samui and Koh Tao as well. Off-island shoots involve a boat crossing and a travel fee, which we'll factor into scheduling and quoting alongside the shoot itself — we plan thoroughly so one trip covers everything you need."
+    "צילום מסחרי שונה מתמונה מזדמנת: הוא מופק מתוך מחשבה על שימוש מסחרי ספציפי — מודעה, תפריט, פרסומת, תמונת הירו — ומצולם, מואר ונערך בהתאם. באיים שבהם רוב העסקים מתחרים על תשומת לב באינסטגרם, ב-Google Maps ובפלטפורמות הזמנה לפני שאורח מגיע אי פעם באופן אישי, לאיכות התמונות יש השפעה ישירה על האם מישהו מזמין.",
+    "אנחנו מצלמים בחמש קטגוריות מסחריות שמכסות את רוב מה שעסקים בקו פנגן, בקו סמוי ובקו טאו צריכים: פנים וחוץ של אירוח, וילות ונדל\"ן, אוכל ותפריטים, צילום מוצרים, ופורטרטים של מותג או צוות. במקום להתמחות באופן צר, אנחנו מביאים את אותו סטנדרט של תאורה, קומפוזיציה ופוסט-פרודקשן לכולן, עם בריף ספציפי לכל צילום.",
+    "צילום אירוח ווילות צריך למכור מרחב וחוויה — אור, קנה מידה ואווירה חשובים לא פחות מדיוק. צילום אוכל צריך סטיילינג ועקביות לאורך תפריט שלם. צילום מוצרים צריך מערכי צילום נקיים וחוזרים שעובדים על פני קטלוג. צילום מותג צריך לייצג אנשים ומרחבים אמיתיים באופן אמין, בלי להגזים בביימוי. אנחנו מתכננים כל צילום סביב מה שהוא באמת.",
+    "ההפקה מבוססת בקו פנגן, ואנחנו מצלמים באופן קבוע גם לעסקים בקו סמוי ובקו טאו. צילומים מחוץ לאי כרוכים במעבר בסירה ובתשלום נסיעות, שנביא בחשבון בתזמון ובהצעת המחיר לצד הצילום עצמו — אנחנו מתכננים ביסודיות כך שנסיעה אחת תכסה את כל מה שאתם צריכים."
   ],
   "scope": [
     {
-      "title": "Hospitality photography",
-      "description": "Interiors, exteriors, amenities and guest-experience imagery for hotels, resorts and stays."
+      "title": "צילום אירוח",
+      "description": "תמונות פנים, חוץ, מתקנים וחוויית אורחים למלונות, ריזורטים ומקומות לינה."
     },
     {
-      "title": "Villa & real estate photography",
-      "description": "Listing-ready interior and exterior photography for sale, rental or marketing use."
+      "title": "צילום וילות ונדל\"ן",
+      "description": "צילום פנים וחוץ מוכן למודעה לשימוש במכירה, בהשכרה או בשיווק."
     },
     {
-      "title": "Food & menu photography",
-      "description": "Styled dish and menu photography for print, delivery platforms and social use."
+      "title": "צילום אוכל ותפריטים",
+      "description": "צילום מנות ותפריטים מעוצב להדפסה, לפלטפורמות משלוחים ולשימוש חברתי."
     },
     {
-      "title": "Product photography",
-      "description": "Clean, consistent product imagery for e-commerce, packaging and catalogue use."
+      "title": "צילום מוצרים",
+      "description": "תמונות מוצר נקיות ועקביות לאי-קומרס, אריזות ושימוש בקטלוג."
     },
     {
-      "title": "Brand & portrait photography",
-      "description": "Team, founder and workplace photography that represents your business credibly."
+      "title": "צילום מותג ופורטרטים",
+      "description": "צילום צוות, מייסדים ומקום עבודה שמייצג את העסק שלכם באופן אמין."
     },
     {
-      "title": "Post-production & retouching",
-      "description": "Color grading, retouching and delivery in the specific formats each channel needs."
+      "title": "פוסט-פרודקשן ורטוש",
+      "description": "גריידינג צבע, רטוש ואספקה בפורמטים הספציפיים שכל ערוץ צריך."
     }
   ],
   "benefits": [
     {
-      "title": "Imagery that earns bookings",
-      "description": "Professional photography measurably outperforms phone photos on listings and social platforms."
+      "title": "תמונות שמרוויחות הזמנות",
+      "description": "צילום מקצועי עולה באופן מדיד על תמונות טלפון במודעות וברשתות החברתיות."
     },
     {
-      "title": "A consistent look across every touchpoint",
-      "description": "The same visual identity, from your website to your menu to your Instagram feed."
+      "title": "מראה עקבי בכל נקודת מגע",
+      "description": "אותה זהות חזותית, מהאתר שלכם דרך התפריט ועד פיד האינסטגרם."
     },
     {
-      "title": "Listing-ready for hotels, villas and OTAs",
-      "description": "Images shot with the specifications and expectations of booking platforms in mind."
+      "title": "מוכן למודעה למלונות, וילות ו-OTA",
+      "description": "תמונות שמצולמות מתוך מחשבה על המפרטים והציפיות של פלטפורמות ההזמנה."
     },
     {
-      "title": "One brief, every category covered",
-      "description": "Hospitality, food, product and brand photography from a single team who already knows your business."
+      "title": "בריף אחד, כל קטגוריה מכוסה",
+      "description": "צילום אירוח, אוכל, מוצרים ומותג מצוות אחד שכבר מכיר את העסק שלכם."
     },
     {
-      "title": "Built for multi-channel use",
-      "description": "Delivered in the formats your website, social and advertising each actually need."
+      "title": "נבנה לשימוש רב-ערוצי",
+      "description": "מסופק בפורמטים שהאתר, הרשתות החברתיות והפרסום שלכם צריכים בפועל."
     }
   ],
   "process": [
     {
-      "title": "Brief & shot list",
-      "description": "Agree the purpose of the shoot and build a detailed shot list around it."
+      "title": "בריף ורשימת צילומים",
+      "description": "הסכמה על מטרת הצילום ובניית רשימת צילומים מפורטת סביבה."
     },
     {
-      "title": "Location & logistics",
-      "description": "Scouting, scheduling and, for Koh Samui or Koh Tao, travel planning."
+      "title": "מיקום ולוגיסטיקה",
+      "description": "סיור מקדים, תזמון ולקו סמוי או קו טאו גם תכנון נסיעה."
     },
     {
-      "title": "Shoot day",
-      "description": "Professional lighting, styling where needed, and on-location production."
+      "title": "יום צילום",
+      "description": "תאורה מקצועית, סטיילינג היכן שצריך והפקה בשטח."
     },
     {
-      "title": "Selects & retouching",
-      "description": "Careful selection, color grading and retouching of the final set."
+      "title": "בחירה ורטוש",
+      "description": "בחירה קפדנית, גריידינג צבע ורטוש של הסט הסופי."
     },
     {
-      "title": "Multi-format delivery",
-      "description": "Final images delivered in the sizes and formats each channel requires."
+      "title": "אספקה רב-פורמטית",
+      "description": "התמונות הסופיות מסופקות בגדלים ובפורמטים שכל ערוץ דורש."
     }
   ],
   "pricing": [
     {
-      "service": "Professional photo shoot (catalogue, 10 items)",
-      "range": "THB 5,000 – 15,000",
-      "note": "Per session, includes processing"
+      "service": "צילום מקצועי (קטלוג, 10 פריטים)",
+      "note": "לסשן, כולל עיבוד",
+      "included": [
+        "מפגש צילום אחד לקטלוג של 10 פריטים",
+        "כולל עיבוד"
+      ],
+      "excluded": [
+        "נסיעה לקו סמוי או לקו טאו",
+        "וידאו"
+      ]
     },
     {
-      "service": "Half-day hospitality or villa shoot",
-      "range": "THB 10,000 – 20,000",
-      "note": "Interiors and exteriors, edited"
+      "service": "צילום אירוח או וילה חצי יום",
+      "note": "פנים וחוץ, ערוכים",
+      "included": [
+        "חצי יום צילום פנים וחוץ",
+        "תמונות ערוכות"
+      ],
+      "excluded": [
+        "נסיעה לקו סמוי או לקו טאו",
+        "וידאו"
+      ]
     },
     {
-      "service": "Full-day hospitality or villa shoot",
-      "range": "THB 18,000 – 35,000",
-      "note": "Multiple areas or an extended shot list"
+      "service": "צילום אירוח או וילה יום מלא",
+      "note": "כמה אזורים או רשימת צילומים מורחבת",
+      "included": [
+        "יום צילום מלא במספר אזורים או עם רשימת שוטים מורחבת",
+        "תמונות ערוכות"
+      ],
+      "excluded": [
+        "נסיעה לקו סמוי או לקו טאו",
+        "וידאו"
+      ]
     },
     {
-      "service": "Food photography (per dish)",
-      "range": "THB 1,500 – 4,000",
-      "note": "Styling included"
+      "service": "צילום אוכל (למנה)",
+      "note": "כולל סטיילינג",
+      "included": [
+        "צילום מנה אחת",
+        "כולל סטיילינג מזון",
+        "תמונות ערוכות ומוכנות לשימוש"
+      ],
+      "excluded": [
+        "נסיעה לקו סמוי או לקו טאו",
+        "עיצוב תפריט"
+      ]
     }
   ],
   "useCases": [
     {
-      "title": "Hotels & resorts",
-      "description": "Room, amenity and property photography for websites, OTAs and social channels."
+      "title": "מלונות וריזורטים",
+      "description": "צילום חדרים, מתקנים ונכס לאתרים, ל-OTA ולערוצים חברתיים."
     },
     {
-      "title": "Villas & real estate",
-      "description": "Listing photography that presents a property at its best for sale or rental."
+      "title": "וילות ונדל\"ן",
+      "description": "צילום מודעות שמציג נכס במיטבו למכירה או להשכרה."
     },
     {
-      "title": "Restaurants & food brands",
-      "description": "Menu and dish photography built for print, delivery apps and social feeds."
+      "title": "מסעדות ומותגי מזון",
+      "description": "צילום תפריטים ומנות שנבנה להדפסה, לאפליקציות משלוחים ולפידים חברתיים."
     },
     {
-      "title": "Retail & product brands",
-      "description": "Consistent product imagery for online stores, packaging and catalogues."
+      "title": "מותגי קמעונאות ומוצרים",
+      "description": "תמונות מוצר עקביות לחנויות אונליין, אריזות וקטלוגים."
     }
   ],
   "faqs": [
     {
-      "q": "What makes photography 'commercial' rather than just professional?",
-      "a": "Commercial photography is shot with a specific business use in mind — a listing, a menu, an ad — and licensed and delivered for that use, rather than being a general photo session."
+      "q": "מה הופך צילום ל\"מסחרי\" ולא רק מקצועי?",
+      "a": "צילום מסחרי מצולם מתוך מחשבה על שימוש עסקי ספציפי — מודעה, תפריט, פרסומת — ומורשה ומסופק לשימוש הזה, ולא כסשן צילום כללי."
     },
     {
-      "q": "Do you shoot on Koh Samui and Koh Tao, or only Koh Phangan?",
-      "a": "All three — we're based on Koh Phangan and travel by boat for shoots on Koh Samui and Koh Tao, with a travel fee factored into off-island quotes."
+      "q": "האם אתם מצלמים בקו סמוי ובקו טאו, או רק בקו פנגן?",
+      "a": "בשלושתם — אנחנו ממוקמים בקו פנגן ונוסעים בסירה לצילומים בקו סמוי ובקו טאו, כשתשלום נסיעות נכלל בהצעות המחיר מחוץ לאי."
     },
     {
-      "q": "How many final images do we receive from a shoot?",
-      "a": "It depends on the shoot length and shot list — we'll agree an expected image count during the brief so there are no surprises."
+      "q": "כמה תמונות סופיות אנחנו מקבלים מצילום?",
+      "a": "זה תלוי באורך הצילום וברשימת הצילומים — נסכים על מספר תמונות צפוי במהלך הבריף כך שלא יהיו הפתעות."
     },
     {
-      "q": "Do you provide food styling for restaurant shoots?",
-      "a": "Yes, styling is included as part of food and menu photography."
+      "q": "האם אתם מספקים סטיילינג אוכל לצילומי מסעדות?",
+      "a": "כן, סטיילינג כלול כחלק מצילום אוכל ותפריטים."
     },
     {
-      "q": "Can you photograph a villa for both listing and social use in one shoot?",
-      "a": "Yes — this is common, and planning for both uses at the brief stage means one shoot day can cover it."
+      "q": "האם אתם יכולים לצלם וילה גם למודעה וגם לשימוש חברתי בצילום אחד?",
+      "a": "כן — זה נפוץ, ותכנון לשני השימושים בשלב הבריף אומר שיום צילום אחד יכול לכסות זאת."
     },
     {
-      "q": "Do you retouch and edit every image?",
-      "a": "Yes, color grading and retouching are included in every delivered image, not just a selected few."
+      "q": "האם אתם מרטשים ועורכים כל תמונה?",
+      "a": "כן, גריידינג צבע ורטוש כלולים בכל תמונה שמסופקת, לא רק בכמה נבחרות."
     },
     {
-      "q": "How far in advance should we book, especially during high season?",
-      "a": "A few weeks' notice is recommended, more during peak travel periods when scheduling fills up faster."
+      "q": "כמה זמן מראש כדאי להזמין, במיוחד בעונה הגבוהה?",
+      "a": "מומלצת התראה של כמה שבועות, יותר בתקופות נסיעות שיא שבהן לוח הזמנים מתמלא מהר יותר."
     },
     {
-      "q": "How is this different from your content creation service?",
-      "a": "Commercial photography is the specific production discipline; content creation is the broader service that plans a shoot to feed social, advertising and web content together."
+      "q": "במה זה שונה משירות יצירת התוכן שלכם?",
+      "a": "צילום מסחרי הוא משמעת ההפקה הספציפית; יצירת תוכן היא השירות הרחב יותר שמתכנן צילום להזין יחד תוכן חברתי, פרסום ואתר."
     }
   ],
   "related": [
     {
-      "label": "Content Creation",
-      "description": "Content shoots planned around your social posting calendar and formats."
+      "label": "יצירת תוכן",
+      "description": "צילומי תוכן שמתוכננים סביב לוח הפרסום והפורמטים החברתיים שלכם."
     },
     {
-      "label": "Commercial Video",
-      "description": "Video production to pair with your commercial photography."
+      "label": "וידאו מסחרי",
+      "description": "הפקת וידאו שמשתלבת עם הצילום המסחרי שלכם."
     },
     {
-      "label": "Food Photography",
-      "description": "Menu and dish photography specifically for restaurants."
+      "label": "צילום אוכל",
+      "description": "צילום תפריטים ומנות ספציפית למסעדות."
     }
   ],
-  "finalCtaLabel": "Start a Project"
+  "finalCtaLabel": "הזמינו צילום"
 }

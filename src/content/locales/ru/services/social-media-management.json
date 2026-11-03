@@ -1,172 +1,192 @@
 {
-  "navLabel": "Social Media Management",
-  "h1": "Social Media Management",
-  "primaryKeyword": "social media management Koh Phangan, Koh Samui and Koh Tao",
+  "navLabel": "Ведение соцсетей",
+  "h1": "Ведение соцсетей для бизнеса на Ко Пангане, Ко Самуи и Ко Тао",
+  "primaryKeyword": "ведение соцсетей Ко Панган, Ко Самуи и Ко Тао",
   "secondaryTopics": [
-    "social media strategy",
-    "Instagram and TikTok management",
-    "community management",
-    "monthly social packages"
+    "стратегия для соцсетей",
+    "ведение Instagram и TikTok",
+    "работа с сообществом",
+    "ежемесячные пакеты для соцсетей"
   ],
-  "metaTitle": "Social Media Management",
-  "metaDescription": "Social media management for businesses on Koh Phangan, Koh Samui and Koh Tao — strategy, publishing, community management and reporting, run as one service.",
-  "directAnswer": "Social media management is the ongoing planning, publishing and community work behind a business's social accounts. CreativeLAB manages this for businesses on Koh Phangan, Koh Samui and Koh Tao — content calendars, posting, replies and reporting — built around business goals rather than posting for its own sake.",
-  "heroSupport": "Strategy, publishing and community management for businesses on Koh Phangan, Koh Samui and Koh Tao that need social media to actually work, not just exist.",
-  "heroImageAlt": "Manager reviewing a social media content calendar for an island business",
+  "metaTitle": "Ведение соцсетей на Ко Пангане и Ко Самуи",
+  "metaDescription": "Ведение соцсетей для бизнеса на Ко Пангане, Ко Самуи и Ко Тао: стратегия, публикации, работа с сообществом и отчётность в одной услуге.",
+  "directAnswer": "Ведение соцсетей — это постоянное планирование, публикации и работа с сообществом за аккаунтами бизнеса. CreativeLAB ведёт их для бизнеса на Ко Пангане, Ко Самуи и Ко Тао — контент-календари, публикации, ответы и отчётность — исходя из целей бизнеса, а не ради публикаций как таковых.",
+  "heroSupport": "Стратегия, публикации и работа с сообществом для бизнеса на Ко Пангане, Ко Самуи и Ко Тао, которому нужно, чтобы соцсети действительно работали, а не просто существовали.",
+  "heroImageAlt": "Менеджер просматривает контент-календарь соцсетей для островного бизнеса",
   "overview": [
-    "Social media management is a discipline, not a checklist of posts. It means deciding what to say, to whom, on which platform and how often — then actually publishing, responding and adjusting based on what happens. That's a different service from the photo and video production behind the content, which is why it's worth understanding as its own thing.",
-    "This page covers social media management as a whole: the planning and ongoing operation of your accounts. If you're specifically looking for Instagram account management or the photo and video shoots behind your content, those have their own dedicated pages; this is the higher-level view of how strategy, platforms and reporting fit together.",
-    "The three islands we work across don't behave the same way on social media. Koh Samui's audience skews toward families, longer-stay visitors and a more established expat and hospitality scene; Koh Phangan mixes wellness, long-stay and party-season audiences with a growing base of local followers; Koh Tao's is smaller and closely tied to diving and marine tourism. What we post, and when, is shaped by that — not a template applied to every account.",
-    "We manage accounts across Instagram, Facebook and TikTok, depending on where your specific audience actually spends time, and we report against goals that matter to your business — inquiries, bookings or website clicks — rather than follower count alone."
+    "Ведение соцсетей — это дисциплина, а не чек-лист постов. Оно означает решать, что говорить, кому, на какой платформе и как часто, а затем публиковать, отвечать и корректировать работу по результатам. Это отдельная услуга от фото- и видеопроизводства, стоящего за контентом, поэтому её стоит понимать как самостоятельную.",
+    "Эта страница охватывает ведение соцсетей в целом: планирование и постоянное управление вашими аккаунтами. Если вам нужно именно ведение аккаунта Instagram или фото- и видеосъёмки для вашего контента, у них есть собственные страницы; здесь — взгляд более высокого уровня на то, как сочетаются стратегия, платформы и отчётность.",
+    "Три острова, на которых мы работаем, ведут себя в соцсетях по-разному. Аудитория Ко Самуи смещена в сторону семей, гостей на длительный срок и более устоявшейся среды экспатов и гостеприимства; на Ко Пангане смешаны wellness-аудитория, гости на длительный срок и аудитория сезона вечеринок с растущей базой местных подписчиков; аудитория Ко Тао меньше и тесно связана с дайвингом и морским туризмом. Что и когда мы публикуем — определяется этим, а не шаблоном, применяемым к каждому аккаунту.",
+    "Мы ведём аккаунты в Instagram, Facebook и TikTok в зависимости от того, где ваша конкретная аудитория действительно проводит время, и отчитываемся по целям, важным для вашего бизнеса, — заявки, бронирования или переходы на сайт, — а не только по числу подписчиков."
   ],
   "scope": [
     {
-      "title": "Strategy & audit",
-      "description": "A review of your current accounts, audience and competitors, and a plan built around your goals."
+      "title": "Стратегия и аудит",
+      "description": "Обзор ваших текущих аккаунтов, аудитории и конкурентов и план, построенный вокруг ваших целей."
     },
     {
-      "title": "Content calendar",
-      "description": "A planned posting schedule that ties into your seasonality across whichever island you operate on."
+      "title": "Контент-календарь",
+      "description": "Запланированное расписание публикаций, привязанное к сезонности на том острове, где вы работаете."
     },
     {
-      "title": "Cross-platform publishing",
-      "description": "Feed posts, Stories, Reels and TikTok content published on schedule across the accounts you run."
+      "title": "Публикации на разных платформах",
+      "description": "Посты в ленте, Stories, Reels и контент для TikTok, публикуемые по расписанию на всех ваших аккаунтах."
     },
     {
-      "title": "Community management",
-      "description": "Comments and direct messages handled in your brand voice, on an agreed response standard."
+      "title": "Работа с сообществом",
+      "description": "Комментарии и личные сообщения обрабатываются в голосе вашего бренда по согласованному стандарту ответа."
     },
     {
-      "title": "Reporting & optimization",
-      "description": "Regular reporting on what's working, with next month's plan adjusted accordingly."
+      "title": "Отчётность и оптимизация",
+      "description": "Регулярные отчёты о том, что работает, с соответствующей корректировкой плана на следующий месяц."
     }
   ],
   "benefits": [
     {
-      "title": "A consistent presence, not sporadic bursts",
-      "description": "Planned management avoids the gaps in posting that quietly hurt momentum and reach."
+      "title": "Постоянное присутствие, а не разовые всплески",
+      "description": "Планомерное ведение избегает пауз в публикациях, которые незаметно вредят динамике и охвату."
     },
     {
-      "title": "One strategy across platforms",
-      "description": "Instagram, TikTok and Facebook are managed to the same plan instead of pulling in different directions."
+      "title": "Единая стратегия на всех платформах",
+      "description": "Instagram, TikTok и Facebook ведутся по одному плану, а не тянут в разные стороны."
     },
     {
-      "title": "Time back to run your business",
-      "description": "You stop having to plan, shoot and post yourself between everything else the business needs."
+      "title": "Время для управления бизнесом",
+      "description": "Вам больше не нужно самому планировать, снимать и публиковать между всеми остальными делами бизнеса."
     },
     {
-      "title": "Decisions based on what's engaging",
-      "description": "Content choices are informed by what your specific audience responds to, not general best practice."
+      "title": "Решения на основе того, что вовлекает",
+      "description": "Выбор контента опирается на то, на что реагирует именно ваша аудитория, а не на общие лучшие практики."
     },
     {
-      "title": "Ready to scale into advertising",
-      "description": "A well-managed organic presence gives paid Meta Ads campaigns stronger creative and audiences to work from."
+      "title": "Готовность перейти к рекламе",
+      "description": "Хорошо выстроенное органическое присутствие даёт платным кампаниям Meta Ads более сильные креативы и аудитории для работы."
     }
   ],
   "process": [
     {
-      "title": "Audit",
-      "description": "Review your existing accounts, audience and what's currently working or not."
+      "title": "Аудит",
+      "description": "Обзор ваших существующих аккаунтов, аудитории и того, что сейчас работает, а что нет."
     },
     {
-      "title": "Strategy",
-      "description": "Agree goals, platforms, posting cadence and tone."
+      "title": "Стратегия",
+      "description": "Согласование целей, платформ, частоты публикаций и тона."
     },
     {
-      "title": "Production & publishing",
-      "description": "Content is produced or sourced and published across the month."
+      "title": "Производство и публикации",
+      "description": "Контент создаётся или подбирается и публикуется в течение месяца."
     },
     {
-      "title": "Community management",
-      "description": "Comments and messages are handled to an agreed standard."
+      "title": "Работа с сообществом",
+      "description": "Комментарии и сообщения обрабатываются по согласованному стандарту."
     },
     {
-      "title": "Report & refine",
-      "description": "Monthly reporting drives adjustments to the following month's plan."
+      "title": "Отчёт и доработка",
+      "description": "Ежемесячная отчётность определяет корректировки плана на следующий месяц."
     }
   ],
   "pricing": [
     {
-      "service": "Social media management (starter)",
-      "range": "THB 18,000 – 28,000 / month",
-      "note": "Management and publishing, light content production"
+      "service": "Ведение соцсетей (стартовый)",
+      "note": "Управление и публикации, лёгкое производство контента",
+      "included": [
+        "Ведение аккаунта и публикации",
+        "Лёгкое производство контента",
+        "Отчётность"
+      ],
+      "excluded": [
+        "Рекламный бюджет — вы платите напрямую платформе"
+      ]
     },
     {
-      "service": "Social media management (growth)",
-      "range": "THB 30,000 – 55,000 / month",
-      "note": "Full production, Reels and community management included"
+      "service": "Ведение соцсетей (рост)",
+      "note": "Полное производство, Reels и работа с сообществом включены",
+      "included": [
+        "Полноценное производство контента",
+        "Reels и работа с комьюнити",
+        "Отчётность"
+      ],
+      "excluded": [
+        "Рекламный бюджет — вы платите напрямую платформе"
+      ]
     },
     {
-      "service": "Multi-platform management (Instagram + Facebook + TikTok)",
-      "range": "THB 35,000 – 65,000 / month",
-      "note": "Indicative — scope depends on platforms and posting volume"
+      "service": "Ведение на нескольких платформах (Instagram + Facebook + TikTok)",
+      "note": "Ориентировочно — объём зависит от платформ и количества публикаций",
+      "included": [
+        "Ведение Instagram, Facebook и TikTok"
+      ],
+      "excluded": [
+        "Рекламный бюджет — вы платите напрямую платформе",
+        "Платформы сверх трёх перечисленных"
+      ]
     }
   ],
   "useCases": [
     {
-      "title": "Restaurants & cafés",
-      "description": "A steady feed of dishes, events and offers across the islands you serve."
+      "title": "Рестораны и кафе",
+      "description": "Стабильная лента блюд, мероприятий и предложений на островах, где вы работаете."
     },
     {
-      "title": "Hotels, resorts & tour operators",
-      "description": "Consistent guest-facing content that supports bookings, not just visibility."
+      "title": "Отели, курорты и туроператоры",
+      "description": "Последовательный контент для гостей, поддерживающий бронирования, а не просто видимость."
     },
     {
-      "title": "Wellness & retreat brands",
-      "description": "Community-building content for an audience that researches thoroughly before booking."
+      "title": "Wellness- и ретрит-бренды",
+      "description": "Контент для построения сообщества для аудитории, которая тщательно изучает варианты перед бронированием."
     },
     {
-      "title": "Growing local brands",
-      "description": "Businesses moving from ad hoc posting to a managed, accountable social presence."
+      "title": "Растущие местные бренды",
+      "description": "Бизнесы, переходящие от нерегулярных публикаций к управляемому и подотчётному присутствию в соцсетях."
     }
   ],
   "faqs": [
     {
-      "q": "What's the difference between social media management and content creation?",
-      "a": "Content creation is the photo and video production; social media management is the ongoing strategy, calendar, publishing and community work built around that content."
+      "q": "В чём разница между ведением соцсетей и созданием контента?",
+      "a": "Создание контента — это фото- и видеопроизводство; ведение соцсетей — это постоянная стратегия, календарь, публикации и работа с сообществом, построенные вокруг этого контента."
     },
     {
-      "q": "Do you manage TikTok and Facebook, or only Instagram?",
-      "a": "We manage whichever platforms suit your audience — often Instagram alongside Facebook and TikTok, decided during the strategy stage rather than assumed upfront."
+      "q": "Вы ведёте TikTok и Facebook или только Instagram?",
+      "a": "Мы ведём те платформы, которые подходят вашей аудитории, — часто Instagram вместе с Facebook и TikTok, решая это на этапе стратегии, а не предполагая заранее."
     },
     {
-      "q": "Can this be combined with paid advertising?",
-      "a": "Yes — our Advertising team runs Meta Ads using the same content and brand voice, and the two often perform better run together."
+      "q": "Можно ли сочетать это с платной рекламой?",
+      "a": "Да — наша рекламная команда ведёт Meta Ads на том же контенте и в том же голосе бренда, и вместе они часто работают лучше."
     },
     {
-      "q": "How do you measure whether management is actually working?",
-      "a": "Against agreed goals — reach, engagement, saves, inquiries or website clicks — reported monthly, rather than follower count alone."
+      "q": "Как вы измеряете, что ведение действительно работает?",
+      "a": "По согласованным целям — охват, вовлечённость, сохранения, заявки или переходы на сайт — с ежемесячной отчётностью, а не только по числу подписчиков."
     },
     {
-      "q": "Is there a minimum contract length?",
-      "a": "Management is billed monthly with no long-term lock-in, though we recommend a few months to let strategy and content find their footing."
+      "q": "Есть ли минимальный срок контракта?",
+      "a": "Управление оплачивается помесячно без долгосрочных обязательств, хотя мы рекомендуем несколько месяцев, чтобы стратегия и контент нашли свою опору."
     },
     {
-      "q": "Can you take over an account that's already been running for years?",
-      "a": "Yes — we regularly audit and take over existing accounts, and will flag anything worth changing before we start."
+      "q": "Можете ли вы взять аккаунт, который уже ведётся годами?",
+      "a": "Да — мы регулярно проводим аудит и принимаем существующие аккаунты и сообщим обо всём, что стоит изменить, до начала работы."
     },
     {
-      "q": "What happens during low season?",
-      "a": "We can adjust posting cadence and budget seasonally rather than running the same plan year-round."
+      "q": "Что происходит в низкий сезон?",
+      "a": "Мы можем корректировать частоту публикаций и бюджет по сезонам, а не вести один и тот же план круглый год."
     },
     {
-      "q": "Do you manage accounts for businesses across all three islands?",
-      "a": "Yes — we manage accounts for businesses on Koh Phangan, Koh Samui and Koh Tao, with content and targeting adjusted to each island's audience."
+      "q": "Вы ведёте аккаунты для бизнеса на всех трёх островах?",
+      "a": "Да — мы ведём аккаунты для бизнеса на Ко Пангане, Ко Самуи и Ко Тао, настраивая контент и таргетинг под аудиторию каждого острова."
     }
   ],
   "related": [
     {
-      "label": "Social Media Hub",
-      "description": "The full range of social services, including Instagram management, Reels and monthly packages."
+      "label": "Направление «Соцсети»",
+      "description": "Полный спектр услуг для соцсетей, включая ведение Instagram, Reels и ежемесячные пакеты."
     },
     {
-      "label": "Instagram Management",
-      "description": "Focused, day-to-day management of an Instagram account."
+      "label": "Ведение Instagram",
+      "description": "Целенаправленное повседневное ведение аккаунта Instagram."
     },
     {
-      "label": "Content Creation",
-      "description": "The photo and video production behind your social presence."
+      "label": "Создание контента",
+      "description": "Фото- и видеопроизводство, стоящее за вашим присутствием в соцсетях."
     }
   ],
-  "finalCtaLabel": "Start a Project"
+  "finalCtaLabel": "Начать стратегию для соцсетей"
 }

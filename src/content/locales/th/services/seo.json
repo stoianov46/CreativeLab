@@ -1,165 +1,183 @@
 {
-  "navLabel": "Seo",
-  "h1": "Seo",
-  "primaryKeyword": "SEO agency Koh Phangan",
+  "navLabel": "SEO",
+  "h1": "เอเจนซี่ SEO สำหรับเกาะพะงัน เกาะสมุย และเกาะเต่า",
+  "primaryKeyword": "เอเจนซี่ SEO เกาะพะงัน",
   "secondaryTopics": [
-    "search engine optimization",
-    "local SEO",
-    "technical SEO",
-    "AI search / GEO",
-    "content strategy"
+    "การปรับแต่งเสิร์ชเอนจิน",
+    "Local SEO",
+    "SEO เชิงเทคนิค",
+    "การค้นหาด้วย AI / GEO",
+    "กลยุทธ์คอนเทนต์"
   ],
-  "metaTitle": "Seo",
-  "metaDescription": "SEO for businesses on Koh Phangan, Koh Samui and Koh Tao — on-page, technical, local search and AI search optimization in one strategy.",
-  "directAnswer": "CreativeLAB is an SEO agency working with businesses on Koh Phangan, Koh Samui and Koh Tao. We cover the full discipline — on-page content, technical SEO, local search visibility and AI search (GEO) optimization — as one coordinated strategy, not a single narrow service sold on its own.",
-  "heroSupport": "On-page, technical, local and AI search optimization for businesses that need to be found — by search engines and by AI answer engines.",
-  "heroImageAlt": "SEO strategy and search performance reviewed on a laptop screen",
+  "metaTitle": "เอเจนซี่ SEO เกาะพะงัน",
+  "metaDescription": "SEO สำหรับธุรกิจบนเกาะพะงัน เกาะสมุย และเกาะเต่า ทั้งบนหน้า เชิงเทคนิค การค้นหาท้องถิ่น และการปรับแต่งสำหรับการค้นหาด้วย AI ในกลยุทธ์เดียว จากทีมในพื้นที่.",
+  "directAnswer": "CreativeLAB เป็นเอเจนซี่ SEO ที่ทำงานกับธุรกิจบนเกาะพะงัน เกาะสมุย และเกาะเต่า เราครอบคลุมทั้งศาสตร์ ทั้งเนื้อหาบนหน้า SEO เชิงเทคนิค การมองเห็นในการค้นหาท้องถิ่น และการปรับแต่งการค้นหาด้วย AI (GEO) เป็นกลยุทธ์ที่ประสานกันหนึ่งเดียว ไม่ใช่บริการแคบ ๆ ที่ขายแยกเดี่ยว",
+  "heroSupport": "การปรับแต่งบนหน้า เชิงเทคนิค ท้องถิ่น และการค้นหาด้วย AI สำหรับธุรกิจที่ต้องถูกค้นพบ ทั้งโดยเสิร์ชเอนจินและเอนจินตอบคำถามด้วย AI",
+  "heroImageAlt": "กลยุทธ์ SEO และประสิทธิภาพการค้นหาที่ทบทวนบนหน้าจอแล็ปท็อป",
   "overview": [
-    "SEO is often sold as one narrow thing — a monthly report, a handful of blog posts, or a technical audit nobody implements. We treat it as a full discipline made up of several parts that only really work together: what your pages say and how they're structured, whether search engines can technically crawl and understand your site, whether your business shows up correctly in local and Maps search, and — increasingly — whether AI answer engines like ChatGPT, Perplexity and Google's AI Overviews can accurately describe and recommend your business.",
-    "This is the general SEO page for CreativeLAB's work across Koh Phangan, Koh Samui and Koh Tao — it's the only page on the site dedicated to SEO strategy as a whole. For local search and Google Business Profile specifically, see our Local SEO service. For the technical foundations of a website, see Technical SEO. For AI search visibility specifically, see AI Search / GEO. Each of those pages goes deeper into its own part of the discipline; this page explains how they fit together and where to start.",
-    "Island businesses face a particular SEO challenge: search volume for any single keyword is modest compared to a major city, but competition for visibility is often surprisingly high, because most local businesses share the same few directories, the same generic descriptions, and often no real content strategy at all. That means a clearly differentiated, well-structured site can move up faster here than in a saturated market — but it also means generic, templated content barely moves the needle.",
-    "We start every SEO engagement with a strategy phase — understanding what your customers are actually searching for, on which of the three islands, and at what stage of their decision — before touching a single page. From there, the work splits across on-page content, technical fixes, local search presence and, where relevant, AI search structuring, prioritized by what will actually move a specific business forward rather than a generic checklist."
+    "SEO มักถูกขายเป็นสิ่งแคบ ๆ อย่างเดียว รายงานรายเดือน บทความบล็อกไม่กี่ชิ้น หรือการตรวจสอบเชิงเทคนิคที่ไม่มีใครนำไปปฏิบัติ เราถือว่าเป็นศาสตร์เต็มรูปแบบที่ประกอบด้วยหลายส่วนซึ่งทำงานได้จริงเมื่อประกอบกันเท่านั้น หน้าของคุณพูดอะไรและจัดโครงสร้างอย่างไร เสิร์ชเอนจิน crawl และเข้าใจเว็บไซต์ของคุณได้ในทางเทคนิคหรือไม่ ธุรกิจของคุณปรากฏถูกต้องในการค้นหาท้องถิ่นและ Maps หรือไม่ และมากขึ้นเรื่อย ๆ เอนจินตอบคำถามด้วย AI อย่าง ChatGPT, Perplexity และ AI Overviews ของ Google อธิบายและแนะนำธุรกิจของคุณได้อย่างถูกต้องหรือไม่",
+    "นี่คือหน้า SEO ทั่วไปสำหรับงานของ CreativeLAB ทั่วเกาะพะงัน เกาะสมุย และเกาะเต่า เป็นหน้าเดียวบนเว็บไซต์ที่มุ่งกลยุทธ์ SEO โดยรวม สำหรับการค้นหาท้องถิ่นและ Google Business Profile โดยเฉพาะ ดูบริการ Local SEO ของเรา สำหรับรากฐานเชิงเทคนิคของเว็บไซต์ ดู SEO เชิงเทคนิค สำหรับการมองเห็นในการค้นหาด้วย AI โดยเฉพาะ ดู AI Search / GEO แต่ละหน้าลงลึกในส่วนของศาสตร์ตัวเอง หน้านี้อธิบายว่าเข้ากันอย่างไรและควรเริ่มที่ไหน",
+    "ธุรกิจบนเกาะเผชิญความท้าทาย SEO เฉพาะ ปริมาณการค้นหาของคีย์เวิร์ดเดียวต่ำเมื่อเทียบกับเมืองใหญ่ แต่การแข่งขันเพื่อการมองเห็นมักสูงอย่างน่าประหลาดใจ เพราะธุรกิจท้องถิ่นส่วนใหญ่ใช้ไดเรกทอรีไม่กี่แห่งเดียวกัน คำอธิบายทั่วไปเหมือนกัน และมักไม่มีกลยุทธ์คอนเทนต์จริงเลย นั่นหมายความว่าเว็บไซต์ที่แตกต่างชัดเจนและจัดโครงสร้างดีขยับขึ้นได้เร็วกว่าที่นี่เมื่อเทียบกับตลาดที่อิ่มตัว แต่ก็หมายความว่าเนื้อหาทั่วไปแบบเทมเพลตแทบไม่ขยับตัวเลข",
+    "เราเริ่มทุกโปรเจกต์ SEO ด้วยขั้นกลยุทธ์ เข้าใจว่าลูกค้าของคุณค้นหาอะไรจริง บนเกาะไหนในสามเกาะ และในขั้นไหนของการตัดสินใจ ก่อนแตะหน้าใด ๆ จากนั้นงานแตกไปทั่วเนื้อหาบนหน้า การแก้ไขเชิงเทคนิค การมีตัวตนในการค้นหาท้องถิ่น และเมื่อเกี่ยวข้อง การจัดโครงสร้างสำหรับการค้นหาด้วย AI จัดลำดับตามสิ่งที่จะขับเคลื่อนธุรกิจเฉพาะรายนั้นจริง ไม่ใช่รายการตรวจสอบทั่วไป"
   ],
   "scope": [
     {
-      "title": "SEO strategy",
-      "description": "Keyword and intent research specific to your business and the islands you serve, before any content or technical work begins."
+      "title": "กลยุทธ์ SEO",
+      "description": "การวิจัยคีย์เวิร์ดและเจตนาเฉพาะธุรกิจของคุณและเกาะที่คุณให้บริการ ก่อนเริ่มงานเนื้อหาหรือเทคนิคใด ๆ"
     },
     {
-      "title": "On-page content",
-      "description": "Page structure, headings and copy written around real search intent, not keyword-stuffed filler."
+      "title": "เนื้อหาบนหน้า",
+      "description": "โครงสร้างหน้า หัวข้อ และคำโฆษณาที่เขียนรอบเจตนาการค้นหาจริง ไม่ใช่เนื้อหาเติมที่ยัดคีย์เวิร์ด"
     },
     {
-      "title": "Technical SEO",
-      "description": "Crawlability, indexing, structured data and Core Web Vitals — the foundation everything else depends on."
+      "title": "SEO เชิงเทคนิค",
+      "description": "การ crawl การทำดัชนี ข้อมูลเชิงโครงสร้าง และ Core Web Vitals รากฐานที่ทุกอย่างอื่นพึ่งพา"
     },
     {
       "title": "Local SEO",
-      "description": "Google Business Profile, Maps visibility and local citations for businesses that depend on nearby or on-island search."
+      "description": "Google Business Profile การมองเห็นบน Maps และ citation ท้องถิ่นสำหรับธุรกิจที่พึ่งการค้นหาใกล้เคียงหรือบนเกาะ"
     },
     {
-      "title": "Content strategy",
-      "description": "A content plan that supports commercial pages rather than a blog running independently of the rest of the site."
+      "title": "กลยุทธ์คอนเทนต์",
+      "description": "แผนคอนเทนต์ที่สนับสนุนหน้าเชิงพาณิชย์ ไม่ใช่บล็อกที่ทำงานอิสระจากส่วนที่เหลือของเว็บไซต์"
     },
     {
-      "title": "AI search / GEO",
-      "description": "Structuring content so AI answer engines can understand, trust and cite your business alongside traditional search."
+      "title": "การค้นหาด้วย AI / GEO",
+      "description": "จัดโครงสร้างคอนเทนต์เพื่อให้เอนจินตอบคำถามด้วย AI เข้าใจ ไว้วางใจ และอ้างอิงธุรกิจของคุณควบคู่กับการค้นหาแบบดั้งเดิม"
     }
   ],
   "benefits": [
     {
-      "title": "One strategy, not disconnected fixes",
-      "description": "On-page, technical, local and AI search work planned together instead of purchased as unrelated one-off tasks."
+      "title": "หนึ่งกลยุทธ์ ไม่ใช่การแก้ไขที่แยกขาด",
+      "description": "งานบนหน้า เชิงเทคนิค ท้องถิ่น และการค้นหาด้วย AI วางแผนร่วมกัน แทนที่จะซื้อเป็นงานเดี่ยวที่ไม่เกี่ยวข้อง"
     },
     {
-      "title": "Built for how islands actually get searched",
-      "description": "Strategy accounts for the specific, often lower-volume but high-intent way people search for businesses on Koh Phangan, Koh Samui and Koh Tao."
+      "title": "สร้างตามวิธีที่เกาะถูกค้นหาจริง",
+      "description": "กลยุทธ์คำนึงถึงวิธีเฉพาะที่ผู้คนค้นหาธุรกิจบนเกาะพะงัน เกาะสมุย และเกาะเต่า ซึ่งมักปริมาณต่ำกว่าแต่เจตนาสูง"
     },
     {
-      "title": "Future-facing, not just Google-facing",
-      "description": "AI search structuring is built alongside traditional SEO, not treated as a separate, optional add-on."
+      "title": "มองไปข้างหน้า ไม่ใช่แค่มอง Google",
+      "description": "การจัดโครงสร้างสำหรับการค้นหาด้วย AI สร้างควบคู่กับ SEO แบบดั้งเดิม ไม่ถือเป็นส่วนเสริมทางเลือกแยกต่างหาก"
     },
     {
-      "title": "Grounded in real technical work",
-      "description": "Fixes are implemented, not just recommended in a report you have to hand to someone else."
+      "title": "อยู่บนงานเทคนิคจริง",
+      "description": "การแก้ไขถูกนำไปปฏิบัติ ไม่ใช่แค่แนะนำในรายงานที่คุณต้องส่งต่อให้คนอื่น"
     }
   ],
   "process": [
     {
-      "title": "Audit & strategy",
-      "description": "Review current visibility, technical health and content, and define a prioritized plan."
+      "title": "ตรวจสอบและกลยุทธ์",
+      "description": "ทบทวนการมองเห็น สุขภาพเชิงเทคนิค และเนื้อหาปัจจุบัน และกำหนดแผนที่จัดลำดับความสำคัญ"
     },
     {
-      "title": "Foundation fixes",
-      "description": "Technical SEO and structural issues addressed first, since they affect everything built on top."
+      "title": "การแก้ไขรากฐาน",
+      "description": "แก้ปัญหา SEO เชิงเทคนิคและโครงสร้างก่อน เพราะส่งผลต่อทุกอย่างที่สร้างบนนั้น"
     },
     {
-      "title": "Content & local presence",
-      "description": "On-page content, local SEO and structured data implemented against the plan."
+      "title": "คอนเทนต์และการมีตัวตนในท้องถิ่น",
+      "description": "เนื้อหาบนหน้า Local SEO และข้อมูลเชิงโครงสร้างที่นำไปปฏิบัติตามแผน"
     },
     {
-      "title": "Measure & refine",
-      "description": "Ongoing tracking of visibility and rankings, with the plan adjusted as results come in."
+      "title": "วัดผลและปรับปรุง",
+      "description": "ติดตามการมองเห็นและอันดับต่อเนื่อง ปรับแผนเมื่อผลลัพธ์เข้ามา"
     }
   ],
   "pricing": [
     {
-      "service": "SEO strategy & audit",
-      "range": "THB 12,000 – 25,000",
-      "note": "One-time — full-site review with a prioritized action plan"
+      "service": "กลยุทธ์ SEO และการตรวจสอบ",
+      "note": "ครั้งเดียว ทบทวนทั้งเว็บไซต์พร้อมแผนปฏิบัติการที่จัดลำดับความสำคัญ",
+      "included": [
+        "ตรวจสอบทั้งเว็บไซต์",
+        "แผนปฏิบัติการที่จัดลำดับความสำคัญ"
+      ],
+      "excluded": [
+        "ดำเนินการตามแผน"
+      ]
     },
     {
-      "service": "Ongoing SEO management",
-      "range": "THB 15,000 – 40,000 / month",
-      "note": "Indicative — content, technical and local SEO work combined"
+      "service": "บริหาร SEO ต่อเนื่อง",
+      "note": "โดยประมาณ งานคอนเทนต์ เทคนิค และ Local SEO รวมกัน",
+      "included": [
+        "งาน SEO ด้านเนื้อหา เทคนิค และ Local SEO",
+        "รายงานรายเดือน"
+      ],
+      "excluded": [
+        "รับประกันอันดับ ซึ่งไม่มีใครรับประกันได้",
+        "งบโฆษณา"
+      ]
     },
     {
-      "service": "AI search optimization implementation",
-      "range": "THB 15,000 – 35,000",
-      "note": "Content and schema changes across key pages"
+      "service": "การนำการปรับแต่งสำหรับการค้นหาด้วย AI ไปปฏิบัติ",
+      "note": "การเปลี่ยนเนื้อหาและ schema ทั่วหน้าสำคัญ",
+      "included": [
+        "ปรับเนื้อหาและ schema ในหน้าสำคัญ"
+      ],
+      "excluded": [
+        "รับประกันอันดับหรือการถูกอ้างอิงโดย AI ซึ่งไม่มีใครรับประกันได้"
+      ]
     }
   ],
   "useCases": [
     {
-      "title": "Businesses with an underperforming website",
-      "description": "A site that looks fine but isn't showing up for the searches that actually matter."
+      "title": "ธุรกิจที่เว็บไซต์ทำผลงานต่ำ",
+      "description": "เว็บไซต์ที่ดูปกติดีแต่ไม่ปรากฏในการค้นหาที่สำคัญจริง"
     },
     {
-      "title": "Multi-island businesses",
-      "description": "Companies that need to be found separately on Koh Phangan, Koh Samui and Koh Tao search results."
+      "title": "ธุรกิจหลายเกาะ",
+      "description": "บริษัทที่ต้องถูกค้นพบแยกกันในผลการค้นหาของเกาะพะงัน เกาะสมุย และเกาะเต่า"
     },
     {
-      "title": "Established brands investing long-term",
-      "description": "Businesses adding AI search visibility on top of an existing SEO foundation."
+      "title": "แบรนด์ที่มั่นคงลงทุนระยะยาว",
+      "description": "ธุรกิจที่เพิ่มการมองเห็นในการค้นหาด้วย AI บนรากฐาน SEO ที่มีอยู่"
     }
   ],
   "faqs": [
     {
-      "q": "Is this different from the Local SEO, Technical SEO and AI Search pages?",
-      "a": "Yes — this is the only general SEO strategy page on the site, covering how those pieces fit together. Local SEO, Technical SEO and AI Search / GEO are each their own detailed service page for that specific part of the work."
+      "q": "นี่ต่างจากหน้า Local SEO, SEO เชิงเทคนิค และ AI Search ไหม?",
+      "a": "ต่าง นี่เป็นหน้ากลยุทธ์ SEO ทั่วไปเดียวบนเว็บไซต์ ครอบคลุมว่าชิ้นส่วนเหล่านั้นเข้ากันอย่างไร Local SEO, SEO เชิงเทคนิค และ AI Search / GEO แต่ละอย่างเป็นหน้าบริการรายละเอียดของตัวเองสำหรับส่วนเฉพาะของงานนั้น"
     },
     {
-      "q": "Do I need all of on-page, technical, local and AI search work, or can I start with one part?",
-      "a": "You can start with one — most clients begin with a technical and content audit, then expand into local or AI search work once the foundation is solid."
+      "q": "ฉันต้องมีทั้งงานบนหน้า เชิงเทคนิค ท้องถิ่น และการค้นหาด้วย AI ไหม หรือเริ่มจากส่วนเดียวได้?",
+      "a": "เริ่มจากส่วนเดียวได้ ลูกค้าส่วนใหญ่เริ่มจากการตรวจสอบเชิงเทคนิคและคอนเทนต์ แล้วขยายสู่งานท้องถิ่นหรือการค้นหาด้วย AI เมื่อรากฐานแข็งแรง"
     },
     {
-      "q": "How long does SEO take to show results?",
-      "a": "Technical fixes can improve crawlability quickly; meaningful ranking movement typically builds over 1–3 months and compounds from there."
+      "q": "SEO ใช้เวลานานแค่ไหนกว่าจะเห็นผล?",
+      "a": "การแก้ไขเชิงเทคนิคปรับปรุงความสามารถในการ crawl ได้เร็ว การขยับอันดับที่มีความหมายมักสะสมใน 1–3 เดือนและทบต้นต่อจากนั้น"
     },
     {
-      "q": "Do you write the content, or just advise on strategy?",
-      "a": "Both — we write and implement the on-page content and technical changes, not just hand over recommendations."
+      "q": "คุณเขียนเนื้อหาให้ หรือแค่ให้คำแนะนำด้านกลยุทธ์?",
+      "a": "ทั้งสอง เราเขียนและนำเนื้อหาบนหน้าและการเปลี่ยนแปลงเชิงเทคนิคไปปฏิบัติ ไม่ใช่แค่ส่งมอบข้อเสนอแนะ"
     },
     {
-      "q": "What is AI search / GEO, and do I actually need it?",
-      "a": "It's structuring your content so AI answer engines like ChatGPT and Google's AI Overviews can accurately describe and cite your business. It's increasingly relevant alongside traditional SEO, not instead of it, for any business relying on being found online."
+      "q": "การค้นหาด้วย AI / GEO คืออะไร และฉันต้องการจริงไหม?",
+      "a": "คือการจัดโครงสร้างคอนเทนต์เพื่อให้เอนจินตอบคำถามด้วย AI เช่น ChatGPT และ AI Overviews ของ Google อธิบายและอ้างอิงธุรกิจของคุณได้อย่างถูกต้อง เกี่ยวข้องมากขึ้นเรื่อย ๆ ควบคู่กับ SEO แบบดั้งเดิม ไม่ใช่แทนที่ สำหรับธุรกิจใดก็ตามที่พึ่งการถูกค้นพบออนไลน์"
     },
     {
-      "q": "Can you improve SEO for a business operating across more than one island?",
-      "a": "Yes — strategy and content are built to represent each island's presence distinctly rather than treating the whole region as one generic location."
+      "q": "คุณปรับปรุง SEO สำหรับธุรกิจที่ดำเนินการมากกว่าหนึ่งเกาะได้ไหม?",
+      "a": "ได้ กลยุทธ์และเนื้อหาสร้างให้แสดงการมีตัวตนของแต่ละเกาะอย่างแยกชัด แทนการถือทั้งภูมิภาคเป็นสถานที่ทั่วไปแห่งเดียว"
     },
     {
-      "q": "Do you guarantee rankings?",
-      "a": "No — we never fabricate guarantees or invented ranking promises; we implement the strategy and technical work known to support visibility and report honestly on progress."
+      "q": "คุณรับประกันอันดับไหม?",
+      "a": "ไม่ เราไม่แต่งคำรับประกันหรือคำสัญญาอันดับที่คิดขึ้น เรานำกลยุทธ์และงานเทคนิคที่รู้ว่าสนับสนุนการมองเห็นไปปฏิบัติและรายงานความคืบหน้าอย่างซื่อตรง"
     },
     {
-      "q": "How is SEO reported?",
-      "a": "Regular reporting on visibility, rankings where trackable, and the specific work completed each period, in plain language."
+      "q": "SEO รายงานอย่างไร?",
+      "a": "รายงานสม่ำเสมอเรื่องการมองเห็น อันดับเมื่อติดตามได้ และงานเฉพาะที่เสร็จในแต่ละช่วง ด้วยภาษาเข้าใจง่าย"
     }
   ],
   "related": [
     {
       "label": "Local SEO",
-      "description": "Google Business Profile and Maps visibility for on-island and nearby search."
+      "description": "Google Business Profile และการมองเห็นบน Maps สำหรับการค้นหาบนเกาะและใกล้เคียง"
     },
     {
-      "label": "Technical SEO",
-      "description": "The crawlability, indexing and Core Web Vitals foundation SEO depends on."
+      "label": "SEO เชิงเทคนิค",
+      "description": "รากฐานด้านการ crawl การทำดัชนี และ Core Web Vitals ที่ SEO พึ่งพา"
     },
     {
-      "label": "AI Search / GEO",
-      "description": "Structuring content to be understood and cited by AI answer engines."
+      "label": "การค้นหาด้วย AI / GEO",
+      "description": "จัดโครงสร้างคอนเทนต์ให้เอนจินตอบคำถามด้วย AI เข้าใจและอ้างอิง"
     }
   ],
-  "finalCtaLabel": "Start a Project"
+  "finalCtaLabel": "เริ่มโปรเจกต์"
 }

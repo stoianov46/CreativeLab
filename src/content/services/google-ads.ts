@@ -80,18 +80,24 @@ export const googleAdsService: ServicePage = {
   pricing: [
     {
       service: "Google Ads setup (new account)",
-      range: "THB 15,000 – 35,000",
+      priceId: "google-ads.setup",
       note: "One-time — strategy, cross-island structure, tracking setup",
+      included: ["Keyword research and campaign structure", "Conversion tracking for calls, forms and bookings", "Ad copy for the launch campaigns", "Launch with a conservative test budget"],
+      excluded: ["Advertising budget — paid directly by you to Google", "Landing page build", "Taxes and platform fees"],
     },
     {
       service: "Monthly management",
-      range: "THB 12,000 – 30,000",
+      priceId: "google-ads.management",
       note: "Excludes ad spend, billed directly to Google",
+      included: ["Ongoing optimization and bid management", "Search term and negative keyword reviews", "Monthly plain-language report"],
+      excluded: ["Advertising budget — paid directly by you to Google", "New creative or landing pages", "Taxes and platform fees"],
     },
     {
       service: "Campaign audit (existing account)",
-      range: "THB 6,000 – 12,000",
+      priceId: "google-ads.audit",
       note: "One-time review with a written action plan",
+      included: ["Account structure, tracking and budget review", "Written action plan with priorities"],
+      excluded: ["Implementation of the recommendations", "Ongoing management"],
     },
   ],
   useCases: [

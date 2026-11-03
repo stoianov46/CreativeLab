@@ -1,172 +1,192 @@
 {
-  "navLabel": "Social Media Management",
-  "h1": "Social Media Management",
-  "primaryKeyword": "social media management Koh Phangan, Koh Samui and Koh Tao",
+  "navLabel": "ניהול רשתות חברתיות",
+  "h1": "ניהול רשתות חברתיות בקו פנגן, קו סמוי וקו טאו",
+  "primaryKeyword": "ניהול רשתות חברתיות בקו פנגן, קו סמוי וקו טאו",
   "secondaryTopics": [
-    "social media strategy",
-    "Instagram and TikTok management",
-    "community management",
-    "monthly social packages"
+    "אסטרטגיית רשתות חברתיות",
+    "ניהול אינסטגרם וטיקטוק",
+    "ניהול קהילה",
+    "חבילות חברתיות חודשיות"
   ],
-  "metaTitle": "Social Media Management",
-  "metaDescription": "Social media management for businesses on Koh Phangan, Koh Samui and Koh Tao — strategy, publishing, community management and reporting, run as one service.",
-  "directAnswer": "Social media management is the ongoing planning, publishing and community work behind a business's social accounts. CreativeLAB manages this for businesses on Koh Phangan, Koh Samui and Koh Tao — content calendars, posting, replies and reporting — built around business goals rather than posting for its own sake.",
-  "heroSupport": "Strategy, publishing and community management for businesses on Koh Phangan, Koh Samui and Koh Tao that need social media to actually work, not just exist.",
-  "heroImageAlt": "Manager reviewing a social media content calendar for an island business",
+  "metaTitle": "ניהול רשתות חברתיות בקו פנגן וקו סמוי",
+  "metaDescription": "ניהול רשתות חברתיות לעסקים בקו פנגן, קו סמוי וקו טאו — אסטרטגיה, פרסום, ניהול קהילה ודיווח, כשירות אחד.",
+  "directAnswer": "ניהול רשתות חברתיות הוא התכנון, הפרסום ועבודת הקהילה השוטפים שמאחורי החשבונות החברתיים של עסק. CreativeLAB מנהלת זאת לעסקים בקו פנגן, קו סמוי וקו טאו — לוחות תוכן, פרסום, תגובות ודיווח — בנוי סביב מטרות עסקיות ולא פרסום לשם פרסום.",
+  "heroSupport": "אסטרטגיה, פרסום וניהול קהילה לעסקים בקו פנגן, קו סמוי וקו טאו שצריכים שרשתות חברתיות באמת יעבדו, ולא רק יהיו קיימות.",
+  "heroImageAlt": "מנהל/ת סוקר/ת לוח תוכן לרשתות חברתיות עבור עסק באי",
   "overview": [
-    "Social media management is a discipline, not a checklist of posts. It means deciding what to say, to whom, on which platform and how often — then actually publishing, responding and adjusting based on what happens. That's a different service from the photo and video production behind the content, which is why it's worth understanding as its own thing.",
-    "This page covers social media management as a whole: the planning and ongoing operation of your accounts. If you're specifically looking for Instagram account management or the photo and video shoots behind your content, those have their own dedicated pages; this is the higher-level view of how strategy, platforms and reporting fit together.",
-    "The three islands we work across don't behave the same way on social media. Koh Samui's audience skews toward families, longer-stay visitors and a more established expat and hospitality scene; Koh Phangan mixes wellness, long-stay and party-season audiences with a growing base of local followers; Koh Tao's is smaller and closely tied to diving and marine tourism. What we post, and when, is shaped by that — not a template applied to every account.",
-    "We manage accounts across Instagram, Facebook and TikTok, depending on where your specific audience actually spends time, and we report against goals that matter to your business — inquiries, bookings or website clicks — rather than follower count alone."
+    "ניהול רשתות חברתיות הוא משמעת, לא רשימת פוסטים. הוא אומר להחליט מה לומר, למי, באיזו פלטפורמה ובאיזו תדירות — ואז באמת לפרסם, להגיב ולהתאים לפי מה שקורה. זה שירות שונה מהפקת הצילום והוידאו שמאחורי התוכן, ולכן כדאי להבין אותו כדבר בפני עצמו.",
+    "העמוד הזה מכסה ניהול רשתות חברתיות כמכלול: התכנון וההפעלה השוטפת של החשבונות שלכם. אם אתם מחפשים ספציפית ניהול חשבון אינסטגרם או את צילומי התמונות והוידאו שמאחורי התוכן, לאלה יש עמודים ייעודיים משלהם; זו התצוגה ברמה גבוהה יותר של איך אסטרטגיה, פלטפורמות ודיווח משתלבים.",
+    "שלושת האיים שבהם אנחנו עובדים לא מתנהגים אותו דבר ברשתות החברתיות. הקהל של קו סמוי נוטה למשפחות, מבקרים לשהייה ארוכה וסצנת אקספטים ואירוח מבוססת יותר; קו פנגן משלב קהלי בריאות, שהייה ארוכה ועונת מסיבות עם בסיס הולך וגדל של עוקבים מקומיים; הקהל של קו טאו קטן יותר וקשור הדוק לצלילה ולתיירות ימית. מה שאנחנו מפרסמים, ומתי, מעוצב על ידי זה — לא תבנית שמוחלת על כל חשבון.",
+    "אנחנו מנהלים חשבונות באינסטגרם, בפייסבוק ובטיקטוק, בהתאם למקום שבו הקהל הספציפי שלכם באמת מבלה, ומדווחים מול מטרות שחשובות לעסק שלכם — פניות, הזמנות או קליקים לאתר — ולא מספר עוקבים בלבד."
   ],
   "scope": [
     {
-      "title": "Strategy & audit",
-      "description": "A review of your current accounts, audience and competitors, and a plan built around your goals."
+      "title": "אסטרטגיה וביקורת",
+      "description": "סקירה של החשבונות, הקהל והמתחרים הנוכחיים שלכם, ותוכנית שנבנית סביב המטרות שלכם."
     },
     {
-      "title": "Content calendar",
-      "description": "A planned posting schedule that ties into your seasonality across whichever island you operate on."
+      "title": "לוח תוכן",
+      "description": "לוח פרסום מתוכנן שמתחבר לעונתיות שלכם בכל אי שבו אתם פועלים."
     },
     {
-      "title": "Cross-platform publishing",
-      "description": "Feed posts, Stories, Reels and TikTok content published on schedule across the accounts you run."
+      "title": "פרסום רב-פלטפורמות",
+      "description": "פוסטים בפיד, Stories, Reels ותוכן טיקטוק שמתפרסמים לפי לוח זמנים בחשבונות שאתם מפעילים."
     },
     {
-      "title": "Community management",
-      "description": "Comments and direct messages handled in your brand voice, on an agreed response standard."
+      "title": "ניהול קהילה",
+      "description": "תגובות והודעות ישירות מטופלות בקול המותג שלכם, לפי סטנדרט מענה מוסכם."
     },
     {
-      "title": "Reporting & optimization",
-      "description": "Regular reporting on what's working, with next month's plan adjusted accordingly."
+      "title": "דיווח ואופטימיזציה",
+      "description": "דיווח שוטף על מה שעובד, עם התאמת התוכנית של החודש הבא בהתאם."
     }
   ],
   "benefits": [
     {
-      "title": "A consistent presence, not sporadic bursts",
-      "description": "Planned management avoids the gaps in posting that quietly hurt momentum and reach."
+      "title": "נוכחות עקבית, לא פרצים ספורדיים",
+      "description": "ניהול מתוכנן מונע את הפערים בפרסום שפוגעים בשקט בתנופה ובחשיפה."
     },
     {
-      "title": "One strategy across platforms",
-      "description": "Instagram, TikTok and Facebook are managed to the same plan instead of pulling in different directions."
+      "title": "אסטרטגיה אחת בכל הפלטפורמות",
+      "description": "אינסטגרם, טיקטוק ופייסבוק מנוהלים לפי אותה תוכנית ולא מושכים לכיוונים שונים."
     },
     {
-      "title": "Time back to run your business",
-      "description": "You stop having to plan, shoot and post yourself between everything else the business needs."
+      "title": "זמן חוזר לניהול העסק",
+      "description": "אתם מפסיקים לתכנן, לצלם ולפרסם בעצמכם בין כל שאר מה שהעסק צריך."
     },
     {
-      "title": "Decisions based on what's engaging",
-      "description": "Content choices are informed by what your specific audience responds to, not general best practice."
+      "title": "החלטות שמבוססות על מה שמעורר מעורבות",
+      "description": "בחירות תוכן מונחות על ידי מה שהקהל הספציפי שלכם מגיב אליו, ולא פרקטיקות מיטביות כלליות."
     },
     {
-      "title": "Ready to scale into advertising",
-      "description": "A well-managed organic presence gives paid Meta Ads campaigns stronger creative and audiences to work from."
+      "title": "מוכן להתרחב לפרסום",
+      "description": "נוכחות אורגנית מנוהלת היטב נותנת לקמפייני Meta Ads ממומנים קריאייטיב וקהלים חזקים יותר לעבוד איתם."
     }
   ],
   "process": [
     {
-      "title": "Audit",
-      "description": "Review your existing accounts, audience and what's currently working or not."
+      "title": "ביקורת",
+      "description": "סקירת החשבונות הקיימים שלכם, הקהל ומה עובד כרגע או לא."
     },
     {
-      "title": "Strategy",
-      "description": "Agree goals, platforms, posting cadence and tone."
+      "title": "אסטרטגיה",
+      "description": "הסכמה על מטרות, פלטפורמות, קצב פרסום וטון."
     },
     {
-      "title": "Production & publishing",
-      "description": "Content is produced or sourced and published across the month."
+      "title": "הפקה ופרסום",
+      "description": "תוכן מופק או נאסף ומתפרסם לאורך החודש."
     },
     {
-      "title": "Community management",
-      "description": "Comments and messages are handled to an agreed standard."
+      "title": "ניהול קהילה",
+      "description": "תגובות והודעות מטופלות לפי סטנדרט מוסכם."
     },
     {
-      "title": "Report & refine",
-      "description": "Monthly reporting drives adjustments to the following month's plan."
+      "title": "דיווח ושיפור",
+      "description": "דיווח חודשי מניע התאמות לתוכנית של החודש שאחריו."
     }
   ],
   "pricing": [
     {
-      "service": "Social media management (starter)",
-      "range": "THB 18,000 – 28,000 / month",
-      "note": "Management and publishing, light content production"
+      "service": "ניהול רשתות חברתיות (בסיסי)",
+      "note": "ניהול ופרסום, הפקת תוכן קלה",
+      "included": [
+        "ניהול חשבון ופרסום תכנים",
+        "הפקת תוכן קלה",
+        "דוחות"
+      ],
+      "excluded": [
+        "תקציב פרסום — משולם על ידכם ישירות לפלטפורמה"
+      ]
     },
     {
-      "service": "Social media management (growth)",
-      "range": "THB 30,000 – 55,000 / month",
-      "note": "Full production, Reels and community management included"
+      "service": "ניהול רשתות חברתיות (צמיחה)",
+      "note": "כולל הפקה מלאה, Reels וניהול קהילה",
+      "included": [
+        "הפקת תוכן מלאה",
+        "Reels וניהול קהילה",
+        "דוחות"
+      ],
+      "excluded": [
+        "תקציב פרסום — משולם על ידכם ישירות לפלטפורמה"
+      ]
     },
     {
-      "service": "Multi-platform management (Instagram + Facebook + TikTok)",
-      "range": "THB 35,000 – 65,000 / month",
-      "note": "Indicative — scope depends on platforms and posting volume"
+      "service": "ניהול רב-פלטפורמות (אינסטגרם + פייסבוק + טיקטוק)",
+      "note": "מחיר מנחה — ההיקף תלוי בפלטפורמות ובנפח הפרסום",
+      "included": [
+        "ניהול ב-Instagram, Facebook ו-TikTok"
+      ],
+      "excluded": [
+        "תקציב פרסום — משולם על ידכם ישירות לפלטפורמה",
+        "פלטפורמות מעבר לשלוש שצוינו"
+      ]
     }
   ],
   "useCases": [
     {
-      "title": "Restaurants & cafés",
-      "description": "A steady feed of dishes, events and offers across the islands you serve."
+      "title": "מסעדות ובתי קפה",
+      "description": "פיד יציב של מנות, אירועים והצעות בכל האיים שאתם משרתים."
     },
     {
-      "title": "Hotels, resorts & tour operators",
-      "description": "Consistent guest-facing content that supports bookings, not just visibility."
+      "title": "מלונות, ריזורטים ומפעילי טיולים",
+      "description": "תוכן עקבי מול אורחים שתומך בהזמנות, ולא רק בנראות."
     },
     {
-      "title": "Wellness & retreat brands",
-      "description": "Community-building content for an audience that researches thoroughly before booking."
+      "title": "מותגי בריאות וריטריטים",
+      "description": "תוכן שבונה קהילה עבור קהל שחוקר ביסודיות לפני שהוא מזמין."
     },
     {
-      "title": "Growing local brands",
-      "description": "Businesses moving from ad hoc posting to a managed, accountable social presence."
+      "title": "מותגים מקומיים צומחים",
+      "description": "עסקים שעוברים מפרסום אקראי לנוכחות חברתית מנוהלת ואחראית."
     }
   ],
   "faqs": [
     {
-      "q": "What's the difference between social media management and content creation?",
-      "a": "Content creation is the photo and video production; social media management is the ongoing strategy, calendar, publishing and community work built around that content."
+      "q": "מה ההבדל בין ניהול רשתות חברתיות ליצירת תוכן?",
+      "a": "יצירת תוכן היא הפקת הצילום והוידאו; ניהול רשתות חברתיות הוא האסטרטגיה, לוח התוכן, הפרסום ועבודת הקהילה השוטפים שנבנים סביב התוכן הזה."
     },
     {
-      "q": "Do you manage TikTok and Facebook, or only Instagram?",
-      "a": "We manage whichever platforms suit your audience — often Instagram alongside Facebook and TikTok, decided during the strategy stage rather than assumed upfront."
+      "q": "האם אתם מנהלים טיקטוק ופייסבוק, או רק אינסטגרם?",
+      "a": "אנחנו מנהלים את הפלטפורמות שמתאימות לקהל שלכם — לעיתים קרובות אינסטגרם לצד פייסבוק וטיקטוק, שנקבעות בשלב האסטרטגיה ולא מונחות מראש."
     },
     {
-      "q": "Can this be combined with paid advertising?",
-      "a": "Yes — our Advertising team runs Meta Ads using the same content and brand voice, and the two often perform better run together."
+      "q": "האם אפשר לשלב זאת עם פרסום ממומן?",
+      "a": "כן — צוות הפרסום שלנו מפעיל Meta Ads עם אותו תוכן וקול מותג, ושניהם מניבים לעיתים קרובות ביצועים טובים יותר כשהם רצים יחד."
     },
     {
-      "q": "How do you measure whether management is actually working?",
-      "a": "Against agreed goals — reach, engagement, saves, inquiries or website clicks — reported monthly, rather than follower count alone."
+      "q": "איך אתם מודדים אם הניהול באמת עובד?",
+      "a": "מול מטרות מוסכמות — חשיפה, מעורבות, שמירות, פניות או קליקים לאתר — מדווח מדי חודש, ולא מספר עוקבים בלבד."
     },
     {
-      "q": "Is there a minimum contract length?",
-      "a": "Management is billed monthly with no long-term lock-in, though we recommend a few months to let strategy and content find their footing."
+      "q": "האם יש משך חוזה מינימלי?",
+      "a": "הניהול מחויב מדי חודש ללא נעילה לטווח ארוך, אם כי אנחנו ממליצים על כמה חודשים כדי לתת לאסטרטגיה ולתוכן למצוא את הקצב שלהם."
     },
     {
-      "q": "Can you take over an account that's already been running for years?",
-      "a": "Yes — we regularly audit and take over existing accounts, and will flag anything worth changing before we start."
+      "q": "האם אתם יכולים לקחת חשבון שכבר רץ שנים?",
+      "a": "כן — אנחנו עורכים ביקורת ולוקחים חשבונות קיימים באופן קבוע, ונסמן כל דבר ששווה לשנות לפני שאנחנו מתחילים."
     },
     {
-      "q": "What happens during low season?",
-      "a": "We can adjust posting cadence and budget seasonally rather than running the same plan year-round."
+      "q": "מה קורה בעונה הנמוכה?",
+      "a": "אנחנו יכולים להתאים את קצב הפרסום והתקציב עונתית ולא להריץ את אותה תוכנית כל השנה."
     },
     {
-      "q": "Do you manage accounts for businesses across all three islands?",
-      "a": "Yes — we manage accounts for businesses on Koh Phangan, Koh Samui and Koh Tao, with content and targeting adjusted to each island's audience."
+      "q": "האם אתם מנהלים חשבונות לעסקים בשלושת האיים?",
+      "a": "כן — אנחנו מנהלים חשבונות לעסקים בקו פנגן, בקו סמוי ובקו טאו, עם תוכן וטירגוט שמותאמים לקהל של כל אי."
     }
   ],
   "related": [
     {
-      "label": "Social Media Hub",
-      "description": "The full range of social services, including Instagram management, Reels and monthly packages."
+      "label": "תחום הרשתות החברתיות",
+      "description": "מכלול שירותי הרשתות החברתיות, כולל ניהול אינסטגרם, Reels וחבילות חודשיות."
     },
     {
-      "label": "Instagram Management",
-      "description": "Focused, day-to-day management of an Instagram account."
+      "label": "ניהול אינסטגרם",
+      "description": "ניהול ממוקד ויומיומי של חשבון אינסטגרם."
     },
     {
-      "label": "Content Creation",
-      "description": "The photo and video production behind your social presence."
+      "label": "יצירת תוכן",
+      "description": "הפקת הצילום והוידאו שמאחורי הנוכחות החברתית שלכם."
     }
   ],
-  "finalCtaLabel": "Start a Project"
+  "finalCtaLabel": "התחילו את האסטרטגיה החברתית שלכם"
 }

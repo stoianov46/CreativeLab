@@ -2,6 +2,7 @@ import { HUBS } from "@/content/hubs";
 import { SERVICE_LANDINGS } from "@/content/services";
 import { INDUSTRIES } from "@/content/industries";
 import { LOCATIONS } from "@/content/locations";
+import { CONCEPTS } from "@/content/concepts";
 import { SITE } from "@/content/site";
 
 export function GET() {
@@ -16,6 +17,7 @@ export function GET() {
   lines.push(`Website: ${SITE.url}`);
   lines.push(`Location: ${SITE.location}`);
   lines.push(`Contact: ${SITE.email}`);
+  lines.push(`Address: ${SITE.address.display}`);
   lines.push(`Full version (service descriptions + FAQs): ${SITE.url}/llms-full.txt`);
   lines.push("");
   lines.push("## Services");
@@ -40,6 +42,10 @@ export function GET() {
   lines.push("");
   lines.push("## Locations");
   for (const page of LOCATIONS) lines.push(`- ${page.navLabel}: ${SITE.url}/locations/${page.slug}`);
+  lines.push("");
+
+  lines.push("## Concept projects (original demonstration work for fictional businesses, not client projects)");
+  for (const c of CONCEPTS) lines.push(`- ${c.title}: ${SITE.url}/portfolio/${c.slug}`);
   lines.push("");
 
   lines.push("## Key pages");

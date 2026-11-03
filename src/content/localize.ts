@@ -20,6 +20,8 @@
 
 const NON_TRANSLATABLE_KEYS = new Set([
   "slug",
+  "priceId",
+  "visual",
   "hubSlug",
   "href",
   "priority",

@@ -30,6 +30,7 @@ export function ServicePageView({
   breadcrumbs,
   fallbackRelated,
   botSlugs,
+  moreInHub,
   locale,
 }: {
   service: ServicePage;
@@ -39,6 +40,8 @@ export function ServicePageView({
   fallbackRelated: RelatedLink[];
   /** Slugs to map to a bot service key (service slug first, then its hub). */
   botSlugs: string[];
+  /** Sibling services in the same hub, and the hub's concept project (both as link cards). */
+  moreInHub?: { title: string; items: { title: string; description?: string; href: string }[] };
   locale: Locale;
 }) {
   const ui = getUi(locale);
@@ -92,6 +95,7 @@ export function ServicePageView({
         items={locations.map((page) => ({ title: page.navLabel, description: page.heroSupport, href: `/locations/${page.slug}` }))}
       />
       <FaqAccordion faqs={service.faqs} locale={locale} />
+      {moreInHub && <LinkCards title={moreInHub.title} items={moreInHub.items} columns={3} tone="surface" />}
       <RelatedServices items={related} locale={locale} />
       <CtaBanner
         title={format(ui.service.ctaTitle, { service: service.navLabel })}

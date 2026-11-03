@@ -1,152 +1,174 @@
 {
-  "navLabel": "Web Design",
-  "h1": "Web Design",
-  "primaryKeyword": "web design Koh Phangan",
+  "navLabel": "ออกแบบเว็บไซต์",
+  "h1": "เอเจนซี่ออกแบบเว็บไซต์สำหรับเกาะพะงัน เกาะสมุย และเกาะเต่า",
+  "primaryKeyword": "ออกแบบเว็บไซต์เกาะพะงัน",
   "secondaryTopics": [
-    "website development",
-    "business websites",
-    "island business websites",
-    "conversion-focused design"
+    "การพัฒนาเว็บไซต์",
+    "เว็บไซต์ธุรกิจ",
+    "เว็บไซต์ธุรกิจบนเกาะ",
+    "การออกแบบที่เน้นการแปลงผล"
   ],
-  "metaTitle": "Web Design",
-  "metaDescription": "Website design and development for businesses across Koh Phangan, Koh Samui and Koh Tao — built to convert, load fast and be found in search.",
-  "directAnswer": "CreativeLAB designs and builds websites for businesses on Koh Phangan, Koh Samui and Koh Tao — villas, restaurants, dive shops, wellness brands and service companies. Every site is built with SEO-ready structure, fast mobile loading and a clear path to booking or inquiry, as part of a wider digital and marketing practice rather than a standalone build.",
-  "heroSupport": "Websites for island businesses that need more than a brochure — a site that actually converts visitors into bookings and inquiries.",
-  "heroImageAlt": "Website design mockups displayed across devices",
+  "metaTitle": "เอเจนซี่ออกแบบเว็บไซต์ เกาะพะงัน",
+  "metaDescription": "ออกแบบและพัฒนาเว็บไซต์สำหรับธุรกิจทั่วเกาะพะงัน เกาะสมุย และเกาะเต่า สร้างเพื่อแปลงผล โหลดเร็ว และถูกค้นพบในการค้นหา",
+  "directAnswer": "CreativeLAB ออกแบบและสร้างเว็บไซต์ให้ธุรกิจบนเกาะพะงัน เกาะสมุย และเกาะเต่า ทั้งวิลล่า ร้านอาหาร ร้านดำน้ำ แบรนด์เวลเนส และบริษัทบริการ ทุกเว็บไซต์สร้างด้วยโครงสร้างพร้อม SEO การโหลดบนมือถือที่รวดเร็ว และเส้นทางที่ชัดเจนสู่การจองหรือสอบถาม เป็นส่วนหนึ่งของงานดิจิทัลและการตลาดที่กว้างกว่า ไม่ใช่งานสร้างเดี่ยว",
+  "heroSupport": "เว็บไซต์สำหรับธุรกิจบนเกาะที่ต้องการมากกว่าโบรชัวร์ เว็บไซต์ที่เปลี่ยนผู้เข้าชมเป็นการจองและคำสอบถามได้จริง",
+  "heroImageAlt": "ภาพจำลองการออกแบบเว็บไซต์แสดงบนอุปกรณ์ต่าง ๆ",
   "overview": [
-    "A website built in isolation from the rest of a business's marketing tends to underperform, however good it looks. We approach web design as one part of a connected system: the same photography, brand identity and content strategy behind your social media and advertising should also shape your website, so a visitor lands somewhere consistent with what brought them there — an ad, a search result or an Instagram post.",
-    "Businesses across Koh Phangan, Koh Samui and Koh Tao share a common challenge — most visitors arrive on a phone, often on inconsistent mobile connections, and decide within seconds whether to stay. That shapes real design decisions: lean pages, clear information hierarchy, and a booking or inquiry path that doesn't force a visitor to hunt for it.",
-    "This page introduces web design as part of CreativeLAB's broader offer — how it connects to branding, SEO and advertising, and who it's typically built for. For the full scope, process and pricing of a website project, see our Websites & Digital service page, which is the canonical version of this content.",
-    "Where a business already has a site, we're just as often asked to fix specific problems — slow load times, unclear structure, or a design that doesn't reflect an otherwise strong brand — as we are to build from scratch."
+    "เว็บไซต์ที่สร้างโดยแยกจากการตลาดส่วนที่เหลือของธุรกิจมักทำผลงานต่ำ ไม่ว่าจะดูดีแค่ไหน เรามองการออกแบบเว็บไซต์เป็นส่วนหนึ่งของระบบที่เชื่อมต่อ ภาพถ่าย อัตลักษณ์แบรนด์ และกลยุทธ์คอนเทนต์เดียวกันเบื้องหลังโซเชียลมีเดียและโฆษณาของคุณควรหล่อหลอมเว็บไซต์ด้วย ผู้เข้าชมจึงมาถึงที่ที่สอดคล้องกับสิ่งที่พาพวกเขามา ไม่ว่าจะเป็นโฆษณา ผลการค้นหา หรือโพสต์ Instagram",
+    "ธุรกิจทั่วเกาะพะงัน เกาะสมุย และเกาะเต่าเผชิญความท้าทายร่วมกัน ผู้เข้าชมส่วนใหญ่มาถึงบนโทรศัพท์ มักบนการเชื่อมต่อมือถือที่ไม่คงที่ และตัดสินใจภายในไม่กี่วินาทีว่าจะอยู่ต่อหรือไม่ นั่นหล่อหลอมการตัดสินใจออกแบบจริง หน้าที่เบา ลำดับชั้นข้อมูลที่ชัดเจน และเส้นทางการจองหรือสอบถามที่ไม่บังคับให้ผู้เข้าชมต้องควานหา",
+    "หน้านี้แนะนำการออกแบบเว็บไซต์เป็นส่วนหนึ่งของข้อเสนอที่กว้างกว่าของ CreativeLAB เชื่อมกับแบรนดิ้ง SEO และโฆษณาอย่างไร และโดยทั่วไปสร้างให้ใคร สำหรับขอบเขต กระบวนการ และราคาเต็มของโปรเจกต์เว็บไซต์ ดูหน้าบริการเว็บไซต์และดิจิทัลของเรา ซึ่งเป็นเวอร์ชันหลักของเนื้อหานี้",
+    "เมื่อธุรกิจมีเว็บไซต์อยู่แล้ว เรามักถูกขอให้แก้ปัญหาเฉพาะ โหลดช้า โครงสร้างไม่ชัด หรือดีไซน์ที่ไม่สะท้อนแบรนด์ที่แข็งแรงอยู่แล้ว พอ ๆ กับที่ถูกขอให้สร้างตั้งแต่ศูนย์"
   ],
   "scope": [
     {
-      "title": "Design connected to your brand",
-      "description": "Visual identity, photography and tone carried through consistently from your other marketing channels."
+      "title": "การออกแบบที่เชื่อมกับแบรนด์ของคุณ",
+      "description": "อัตลักษณ์ภาพ ภาพถ่าย และน้ำเสียงที่ส่งต่ออย่างสม่ำเสมอจากช่องทางการตลาดอื่นของคุณ"
     },
     {
-      "title": "Mobile-first build",
-      "description": "Fast, lean pages built for how visitors actually browse on the three islands — mostly on their phones."
+      "title": "สร้างแบบ mobile-first",
+      "description": "หน้าที่เร็วและเบา สร้างตามวิธีที่ผู้เข้าชมเรียกดูจริงบนสามเกาะ ส่วนใหญ่บนโทรศัพท์"
     },
     {
-      "title": "SEO-ready structure",
-      "description": "Semantic HTML, clean information architecture and metadata built in from the start, not retrofitted."
+      "title": "โครงสร้างพร้อม SEO",
+      "description": "HTML เชิงความหมาย สถาปัตยกรรมข้อมูลที่สะอาด และเมตาดาต้าที่สร้างไว้ตั้งแต่ต้น ไม่ใช่ต่อเติมภายหลัง"
     },
     {
-      "title": "Clear conversion path",
-      "description": "Every page built around a single obvious next step — book, inquire, call or visit."
+      "title": "เส้นทางการแปลงผลที่ชัดเจน",
+      "description": "ทุกหน้าสร้างรอบก้าวต่อไปที่ชัดเจนเพียงอย่างเดียว จอง สอบถาม โทร หรือมาเยือน"
     }
   ],
   "benefits": [
     {
-      "title": "Consistent with the rest of your marketing",
-      "description": "One team behind your website, social content and advertising means everything matches."
+      "title": "สอดคล้องกับการตลาดส่วนที่เหลือของคุณ",
+      "description": "ทีมเดียวเบื้องหลังเว็บไซต์ คอนเทนต์โซเชียล และโฆษณาหมายความว่าทุกอย่างเข้ากัน"
     },
     {
-      "title": "Fast on real island connections",
-      "description": "Performance is treated as a design constraint, not an afterthought, given variable mobile networks across the islands."
+      "title": "เร็วบนการเชื่อมต่อจริงของเกาะ",
+      "description": "ประสิทธิภาพถือเป็นข้อจำกัดการออกแบบ ไม่ใช่ความคิดทีหลัง เพราะเครือข่ายมือถือทั่วเกาะไม่คงที่"
     },
     {
-      "title": "SEO foundation from day one",
-      "description": "Avoids the costly retrofit of structure and metadata that comes with a poorly built site."
+      "title": "รากฐาน SEO ตั้งแต่วันแรก",
+      "description": "หลีกเลี่ยงการแก้ไขโครงสร้างและเมตาดาต้าที่มีต้นทุนสูงอันมาจากเว็บไซต์ที่สร้างไม่ดี"
     },
     {
-      "title": "Built to grow",
-      "description": "A structure that can expand as you add services, locations or a second island's worth of content."
+      "title": "สร้างเพื่อเติบโต",
+      "description": "โครงสร้างที่ขยายได้เมื่อคุณเพิ่มบริการ สถานที่ หรือเนื้อหาของเกาะที่สอง"
     }
   ],
   "process": [
     {
-      "title": "Discovery",
-      "description": "Understand your business, goals, audience and which island or islands the site needs to serve."
+      "title": "ค้นหาข้อมูล",
+      "description": "เข้าใจธุรกิจ เป้าหมาย กลุ่มเป้าหมาย และเกาะที่เว็บไซต์ต้องให้บริการ"
     },
     {
-      "title": "Design",
-      "description": "Wireframes and visual design reviewed with you, consistent with your brand."
+      "title": "ออกแบบ",
+      "description": "ไวร์เฟรมและการออกแบบภาพที่ทบทวนร่วมกับคุณ สอดคล้องกับแบรนด์ของคุณ"
     },
     {
-      "title": "Build",
-      "description": "Development with performance and SEO structure built in from the start."
+      "title": "สร้าง",
+      "description": "การพัฒนาที่มีประสิทธิภาพและโครงสร้าง SEO สร้างไว้ตั้งแต่ต้น"
     },
     {
-      "title": "Launch",
-      "description": "Testing across devices, then go-live with analytics and tracking in place."
+      "title": "เปิดตัว",
+      "description": "ทดสอบข้ามอุปกรณ์ แล้วออนไลน์พร้อมการวิเคราะห์และการติดตาม"
     }
   ],
   "pricing": [
     {
-      "service": "Website design (5-page landing)",
-      "range": "THB 40,000 – 100,000",
-      "note": "Responsive + SEO-ready"
+      "service": "ออกแบบเว็บไซต์ (แลนดิ้ง 5 หน้า)",
+      "note": "Responsive + พร้อม SEO",
+      "included": [
+        "เว็บไซต์ Landing 5 หน้า รองรับทุกอุปกรณ์",
+        "โครงสร้างพร้อมสำหรับ SEO"
+      ],
+      "excluded": [
+        "การเขียนคอนเทนต์",
+        "ถ่ายภาพ",
+        "ค่าโฮสติ้งและโดเมน"
+      ]
     },
     {
-      "service": "Website design (multi-page business site)",
-      "range": "THB 90,000 – 180,000",
-      "note": "8–15 pages, CMS-ready"
+      "service": "ออกแบบเว็บไซต์ (เว็บไซต์ธุรกิจหลายหน้า)",
+      "note": "8–15 หน้า พร้อม CMS",
+      "included": [
+        "เว็บไซต์ธุรกิจหลายหน้า 8–15 หน้า",
+        "โครงสร้างเว็บพร้อมใช้กับ CMS"
+      ],
+      "excluded": [
+        "การเขียนคอนเทนต์",
+        "ถ่ายภาพ",
+        "ค่าโฮสติ้งและโดเมน"
+      ]
     },
     {
-      "service": "Multi-island content add-on",
-      "range": "THB 8,000 – 20,000",
-      "note": "Indicative — for sites presenting service areas across islands"
+      "service": "ส่วนเสริมเนื้อหาหลายเกาะ",
+      "note": "โดยประมาณ สำหรับเว็บไซต์ที่นำเสนอพื้นที่ให้บริการข้ามเกาะ",
+      "included": [
+        "เนื้อหานำเสนอพื้นที่ให้บริการในหลายเกาะ"
+      ],
+      "excluded": [
+        "การเขียนคอนเทนต์",
+        "ค่าโฮสติ้งและโดเมน"
+      ]
     }
   ],
   "useCases": [
     {
-      "title": "New businesses launching across the islands",
-      "description": "A complete, professional web presence covering the locations you actually serve."
+      "title": "ธุรกิจใหม่ที่เปิดตัวทั่วเกาะ",
+      "description": "การมีตัวตนบนเว็บที่สมบูรณ์และเป็นมืออาชีพ ครอบคลุมสถานที่ที่คุณให้บริการจริง"
     },
     {
-      "title": "Businesses replacing a social-only presence",
-      "description": "Moving beyond Instagram and Facebook to a proper, owned website."
+      "title": "ธุรกิจที่เปลี่ยนจากการมีตัวตนบนโซเชียลอย่างเดียว",
+      "description": "ก้าวข้าม Instagram และ Facebook ไปสู่เว็บไซต์ของตัวเองที่เหมาะสม"
     },
     {
-      "title": "Multi-location businesses",
-      "description": "A single site structured to represent operations on more than one of the three islands clearly."
+      "title": "ธุรกิจหลายสถานที่",
+      "description": "เว็บไซต์เดียวที่จัดโครงสร้างเพื่อแสดงการดำเนินงานบนมากกว่าหนึ่งในสามเกาะอย่างชัดเจน"
     }
   ],
   "faqs": [
     {
-      "q": "Do you build websites for businesses on Koh Samui and Koh Tao, or only Koh Phangan?",
-      "a": "All three — CreativeLAB is based on Koh Phangan and works with businesses across Koh Phangan, Koh Samui and Koh Tao."
+      "q": "คุณสร้างเว็บไซต์ให้ธุรกิจบนเกาะสมุยและเกาะเต่าไหม หรือเฉพาะเกาะพะงัน?",
+      "a": "ทั้งสามเกาะ CreativeLAB ตั้งอยู่ที่เกาะพะงันและทำงานกับธุรกิจทั่วเกาะพะงัน เกาะสมุย และเกาะเต่า"
     },
     {
-      "q": "How is this different from the Web Design page under Websites & Digital?",
-      "a": "This page introduces web design as part of our wider marketing approach across the three islands; the Websites & Digital hub page is the full service page with detailed scope, process and pricing."
+      "q": "นี่ต่างจากหน้าออกแบบเว็บไซต์ใต้หมวดเว็บไซต์และดิจิทัลอย่างไร?",
+      "a": "หน้านี้แนะนำการออกแบบเว็บไซต์เป็นส่วนหนึ่งของแนวทางการตลาดที่กว้างกว่าของเราทั่วสามเกาะ ส่วนหน้าหมวดเว็บไซต์และดิจิทัลเป็นหน้าบริการเต็มรูปแบบพร้อมขอบเขต กระบวนการ และราคาอย่างละเอียด"
     },
     {
-      "q": "Do I need to travel or meet in person to start a website project?",
-      "a": "No — most projects run remotely with calls and shared files; site visits for photography follow the relevant travel arrangement if you're on Samui or Tao."
+      "q": "ฉันต้องเดินทางหรือพบกันตัวต่อตัวเพื่อเริ่มโปรเจกต์เว็บไซต์ไหม?",
+      "a": "ไม่ต้อง โปรเจกต์ส่วนใหญ่ทำจากระยะไกลด้วยการโทรและไฟล์ที่แชร์ การเยี่ยมชมสถานที่เพื่อถ่ายภาพเป็นไปตามการจัดการเดินทางที่เกี่ยวข้องหากคุณอยู่บนเกาะสมุยหรือเกาะเต่า"
     },
     {
-      "q": "Will you write the content, or do I need to provide it?",
-      "a": "We write the copy following our content rules; you provide the facts we can't invent, like pricing, credentials or specific claims."
+      "q": "คุณเขียนเนื้อหาให้ หรือฉันต้องจัดหาเอง?",
+      "a": "เราเขียนคำโฆษณาตามกฎคอนเทนต์ของเรา คุณให้ข้อเท็จจริงที่เราคิดขึ้นเองไม่ได้ เช่น ราคา คุณสมบัติ หรือข้ออ้างเฉพาะ"
     },
     {
-      "q": "Can the site represent a business operating on more than one island?",
-      "a": "Yes — we structure content and location information clearly when a business serves multiple islands rather than treating it as one generic service area."
+      "q": "เว็บไซต์แทนธุรกิจที่ดำเนินการมากกว่าหนึ่งเกาะได้ไหม?",
+      "a": "ได้ เราจัดโครงสร้างเนื้อหาและข้อมูลสถานที่อย่างชัดเจนเมื่อธุรกิจให้บริการหลายเกาะ แทนการถือเป็นพื้นที่บริการทั่วไปแห่งเดียว"
     },
     {
-      "q": "Do you provide the photography for the site too?",
-      "a": "Yes, through our photography services, or we can work with existing assets you already have."
+      "q": "คุณให้บริการถ่ายภาพสำหรับเว็บไซต์ด้วยไหม?",
+      "a": "ให้ ผ่านบริการถ่ายภาพของเรา หรือทำงานกับทรัพยากรเดิมที่คุณมีอยู่แล้ว"
     },
     {
-      "q": "How long does a typical website project take?",
-      "a": "From around 2 weeks for a landing page to 6–10 weeks for a larger multi-page or e-commerce site."
+      "q": "โปรเจกต์เว็บไซต์ทั่วไปใช้เวลานานแค่ไหน?",
+      "a": "ตั้งแต่ประมาณ 2 สัปดาห์สำหรับแลนดิ้งเพจ ไปจนถึง 6–10 สัปดาห์สำหรับเว็บไซต์หลายหน้าหรืออีคอมเมิร์ซที่ใหญ่กว่า"
     }
   ],
   "related": [
     {
-      "label": "Web Design (full service)",
-      "description": "The complete web design service — scope, process and pricing."
+      "label": "ออกแบบเว็บไซต์ (บริการเต็มรูปแบบ)",
+      "description": "บริการออกแบบเว็บไซต์ฉบับสมบูรณ์ ขอบเขต กระบวนการ และราคา"
     },
     {
-      "label": "Websites & Digital",
-      "description": "Our full digital practice — landing pages, redesigns, SEO and AI search."
+      "label": "เว็บไซต์และดิจิทัล",
+      "description": "งานดิจิทัลเต็มรูปแบบของเรา แลนดิ้งเพจ ออกแบบใหม่ SEO และการค้นหาด้วย AI"
     },
     {
-      "label": "Branding",
-      "description": "Brand identity to inform the design of your site."
+      "label": "แบรนดิ้ง",
+      "description": "อัตลักษณ์แบรนด์เพื่อเป็นข้อมูลให้การออกแบบเว็บไซต์ของคุณ"
     }
   ],
-  "finalCtaLabel": "Start a Project"
+  "finalCtaLabel": "เริ่มโปรเจกต์"
 }

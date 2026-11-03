@@ -6,7 +6,7 @@ export const wellnessRetreatsIndustry: IndustryPage = {
   navLabel: "Wellness & Retreats",
   order: 4,
   h1: "Marketing for Wellness Businesses & Retreats on Koh Phangan, Koh Samui & Koh Tao",
-  primaryKeyword: "yoga and wellness retreat marketing agency",
+  primaryKeyword: "wellness retreat marketing agency",
   metaTitle: "Wellness & Retreat Marketing Agency",
   metaDescription:
     "Marketing for yoga studios, retreat centres and wellness brands on Koh Phangan, Koh Samui and Koh Tao — photography, content, branding and ad campaigns.",

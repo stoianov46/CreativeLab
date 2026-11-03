@@ -14,7 +14,7 @@ export function LegalDocument({ page }: { page: LegalContent }) {
   return (
     <Container narrow className="py-16 lg:py-24">
       <p className="mb-2 text-xs tracking-[0.15em] text-accent uppercase">{page.eyebrow}</p>
-      <h1 className="font-display text-4xl font-light text-text">{page.h1}</h1>
+      <h1 className="font-display text-4xl font-light text-text [overflow-wrap:anywhere]">{page.h1}</h1>
       <p className="mt-4 text-sm text-text-secondary">{page.draftNotice}</p>
 
       <div className="prose-content mt-10 space-y-8 text-text-secondary">

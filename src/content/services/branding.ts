@@ -73,8 +73,20 @@ export const brandingService: ServicePage = {
     { title: "Deliver", description: "Final files and practical guidelines handed over." },
   ],
   pricing: [
-    { service: "Brand identity (logo + guidelines)", range: "THB 30,000 – 80,000", note: "Per project" },
-    { service: "Full brand system (multi-channel applications)", range: "THB 70,000 – 150,000", note: "Includes web, social and print application" },
+    {
+      service: "Brand identity (logo + guidelines)",
+      priceId: "branding-creative.branding.1",
+      note: "Per project",
+      included: ["Logo design", "Brand guidelines document"],
+      excluded: ["Web, social and print application of the brand", "Packaging"],
+    },
+    {
+      service: "Full brand system (multi-channel applications)",
+      priceId: "branding-creative.branding.2",
+      note: "Includes web, social and print application",
+      included: ["Logo and brand guidelines", "Application across web, social and print"],
+      excluded: ["Printing and production costs", "Packaging"],
+    },
   ],
   useCases: [
     {

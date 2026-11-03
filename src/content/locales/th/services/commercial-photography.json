@@ -1,181 +1,210 @@
 {
-  "navLabel": "Commercial Photography",
-  "h1": "Commercial Photography",
-  "primaryKeyword": "commercial photography Koh Phangan, Koh Samui and Koh Tao",
+  "navLabel": "การถ่ายภาพเชิงพาณิชย์",
+  "h1": "การถ่ายภาพเชิงพาณิชย์บนเกาะพะงัน เกาะสมุย และเกาะเต่า",
+  "primaryKeyword": "การถ่ายภาพเชิงพาณิชย์เกาะพะงัน เกาะสมุย และเกาะเต่า",
   "secondaryTopics": [
-    "hospitality photography",
-    "villa photography",
-    "food and product photography",
-    "brand photography"
+    "การถ่ายภาพการบริการ",
+    "การถ่ายภาพวิลล่า",
+    "การถ่ายภาพอาหารและสินค้า",
+    "การถ่ายภาพแบรนด์"
   ],
-  "metaTitle": "Commercial Photography",
-  "metaDescription": "Commercial photography for hospitality, villas, food and products on Koh Phangan, Koh Samui and Koh Tao — professional imagery for listings, social and ads.",
-  "directAnswer": "Commercial photography is professional imagery produced for a business to use commercially — on listings, menus, websites, social media and advertising. CreativeLAB shoots hospitality, villas, food, products and brand portraits for businesses on Koh Phangan, Koh Samui and Koh Tao, delivered edited and ready for every channel.",
-  "heroSupport": "Hospitality, villa, food, product and brand photography for businesses across Koh Phangan, Koh Samui and Koh Tao — shot for how the images will actually be used.",
-  "heroImageAlt": "Commercial photographer shooting a hospitality interior on location",
+  "metaTitle": "การถ่ายภาพเชิงพาณิชย์ เกาะพะงันและสมุย",
+  "metaDescription": "การถ่ายภาพเชิงพาณิชย์สำหรับธุรกิจการบริการ วิลล่า อาหาร และสินค้าบนเกาะพะงัน เกาะสมุย และเกาะเต่า ภาพมืออาชีพสำหรับประกาศ โซเชียล และโฆษณา",
+  "directAnswer": "การถ่ายภาพเชิงพาณิชย์คือภาพมืออาชีพที่ผลิตเพื่อให้ธุรกิจใช้เชิงพาณิชย์ บนประกาศ เมนู เว็บไซต์ โซเชียลมีเดีย และโฆษณา CreativeLAB ถ่ายภาพการบริการ วิลล่า อาหาร สินค้า และภาพบุคคลแบรนด์ให้ธุรกิจบนเกาะพะงัน เกาะสมุย และเกาะเต่า ส่งมอบตัดต่อแล้วพร้อมสำหรับทุกช่องทาง",
+  "heroSupport": "การถ่ายภาพการบริการ วิลล่า อาหาร สินค้า และแบรนด์สำหรับธุรกิจทั่วเกาะพะงัน เกาะสมุย และเกาะเต่า ถ่ายตามวิธีที่ภาพจะถูกใช้จริง",
+  "heroImageAlt": "ช่างภาพเชิงพาณิชย์กำลังถ่ายภายในสถานที่การบริการหน้างาน",
   "overview": [
-    "Commercial photography is different from a casual photo: it's produced with a specific commercial use in mind — a listing, a menu, an ad, a hero image — and shot, lit and edited accordingly. On islands where most businesses compete for attention on Instagram, Google Maps and booking platforms before a guest ever arrives in person, the quality of that imagery has a direct effect on whether someone books.",
-    "We shoot across five commercial categories that cover most of what businesses on Koh Phangan, Koh Samui and Koh Tao need: hospitality interiors and exteriors, villas and real estate, food and menus, product photography, and brand or team portraits. Rather than specializing narrowly, we bring the same lighting, composition and post-production standard to all of them, briefed specifically for each shoot.",
-    "Hospitality and villa photography needs to sell a space and an experience — light, scale and atmosphere matter as much as accuracy. Food photography needs styling and consistency across a whole menu. Product photography needs clean, repeatable setups that work across a catalogue. Brand photography needs to represent real people and spaces credibly, without over-staging them. We plan each shoot around which of these it actually is.",
-    "Production is based on Koh Phangan, and we shoot regularly for businesses on Koh Samui and Koh Tao as well. Off-island shoots involve a boat crossing and a travel fee, which we'll factor into scheduling and quoting alongside the shoot itself — we plan thoroughly so one trip covers everything you need."
+    "การถ่ายภาพเชิงพาณิชย์ต่างจากภาพถ่ายทั่วไป ผลิตโดยคำนึงถึงการใช้เชิงพาณิชย์เฉพาะ ประกาศ เมนู โฆษณา ภาพเด่น และถ่าย จัดแสง และตัดต่อตามนั้น บนเกาะที่ธุรกิจส่วนใหญ่แข่งกันเพื่อความสนใจบน Instagram, Google Maps และแพลตฟอร์มจองก่อนที่แขกจะมาถึงด้วยตัวเอง คุณภาพของภาพส่งผลโดยตรงต่อการตัดสินใจจอง",
+    "เราถ่ายข้ามห้าหมวดเชิงพาณิชย์ที่ครอบคลุมสิ่งที่ธุรกิจบนเกาะพะงัน เกาะสมุย และเกาะเต่าต้องการส่วนใหญ่ ภายในและภายนอกสถานที่การบริการ วิลล่าและอสังหาริมทรัพย์ อาหารและเมนู ภาพถ่ายสินค้า และภาพบุคคลแบรนด์หรือทีม แทนที่จะเชี่ยวชาญแคบ เรานำมาตรฐานแสง องค์ประกอบ และโพสต์โปรดักชันเดียวกันมาใช้ทั้งหมด โดยบรีฟเฉพาะสำหรับแต่ละงานถ่าย",
+    "การถ่ายภาพการบริการและวิลล่าต้องขายพื้นที่และประสบการณ์ แสง ขนาด และบรรยากาศสำคัญเท่ากับความแม่นยำ การถ่ายภาพอาหารต้องมีสไตลิ่งและความสม่ำเสมอข้ามทั้งเมนู การถ่ายภาพสินค้าต้องมีการตั้งค่าที่สะอาดและทำซ้ำได้ซึ่งใช้ได้ข้ามแคตตาล็อก การถ่ายภาพแบรนด์ต้องแทนผู้คนและพื้นที่จริงอย่างน่าเชื่อถือโดยไม่จัดฉากเกินไป เราวางแผนแต่ละงานถ่ายรอบว่ามันคือแบบไหนจริง",
+    "การผลิตตั้งอยู่ที่เกาะพะงัน และเราถ่ายให้ธุรกิจบนเกาะสมุยและเกาะเต่าเป็นประจำด้วย งานถ่ายนอกเกาะเกี่ยวข้องกับการข้ามเรือและค่าเดินทาง ซึ่งเราจะรวมในการจัดตารางและเสนอราคาพร้อมงานถ่ายเอง เราวางแผนละเอียดเพื่อให้ทริปเดียวครอบคลุมทุกอย่างที่คุณต้องการ"
   ],
   "scope": [
     {
-      "title": "Hospitality photography",
-      "description": "Interiors, exteriors, amenities and guest-experience imagery for hotels, resorts and stays."
+      "title": "การถ่ายภาพการบริการ",
+      "description": "ภาพภายใน ภายนอก สิ่งอำนวยความสะดวก และประสบการณ์ของแขกสำหรับโรงแรม รีสอร์ต และที่พัก"
     },
     {
-      "title": "Villa & real estate photography",
-      "description": "Listing-ready interior and exterior photography for sale, rental or marketing use."
+      "title": "การถ่ายภาพวิลล่าและอสังหาริมทรัพย์",
+      "description": "ภาพถ่ายภายในและภายนอกพร้อมลงประกาศสำหรับการขาย เช่า หรือการตลาด"
     },
     {
-      "title": "Food & menu photography",
-      "description": "Styled dish and menu photography for print, delivery platforms and social use."
+      "title": "การถ่ายภาพอาหารและเมนู",
+      "description": "ภาพจานและเมนูที่จัดสไตล์สำหรับสิ่งพิมพ์ แพลตฟอร์มเดลิเวอรี และโซเชียล"
     },
     {
-      "title": "Product photography",
-      "description": "Clean, consistent product imagery for e-commerce, packaging and catalogue use."
+      "title": "การถ่ายภาพสินค้า",
+      "description": "ภาพสินค้าที่สะอาดและสม่ำเสมอสำหรับอีคอมเมิร์ซ บรรจุภัณฑ์ และแคตตาล็อก"
     },
     {
-      "title": "Brand & portrait photography",
-      "description": "Team, founder and workplace photography that represents your business credibly."
+      "title": "การถ่ายภาพแบรนด์และบุคคล",
+      "description": "ภาพทีม ผู้ก่อตั้ง และสถานที่ทำงานที่แทนธุรกิจของคุณอย่างน่าเชื่อถือ"
     },
     {
-      "title": "Post-production & retouching",
-      "description": "Color grading, retouching and delivery in the specific formats each channel needs."
+      "title": "โพสต์โปรดักชันและรีทัช",
+      "description": "เกรดสี รีทัช และส่งมอบในรูปแบบเฉพาะที่แต่ละช่องทางต้องการ"
     }
   ],
   "benefits": [
     {
-      "title": "Imagery that earns bookings",
-      "description": "Professional photography measurably outperforms phone photos on listings and social platforms."
+      "title": "ภาพที่ทำให้ได้การจอง",
+      "description": "ภาพถ่ายมืออาชีพทำผลงานเหนือภาพจากโทรศัพท์บนประกาศและแพลตฟอร์มโซเชียลอย่างวัดผลได้"
     },
     {
-      "title": "A consistent look across every touchpoint",
-      "description": "The same visual identity, from your website to your menu to your Instagram feed."
+      "title": "ลุคที่สอดคล้องทุกจุดสัมผัส",
+      "description": "อัตลักษณ์ภาพเดียวกัน ตั้งแต่เว็บไซต์ เมนู ไปจนถึงฟีด Instagram ของคุณ"
     },
     {
-      "title": "Listing-ready for hotels, villas and OTAs",
-      "description": "Images shot with the specifications and expectations of booking platforms in mind."
+      "title": "พร้อมลงประกาศสำหรับโรงแรม วิลล่า และ OTA",
+      "description": "ภาพถ่ายโดยคำนึงถึงสเปกและความคาดหวังของแพลตฟอร์มจอง"
     },
     {
-      "title": "One brief, every category covered",
-      "description": "Hospitality, food, product and brand photography from a single team who already knows your business."
+      "title": "หนึ่งบรีฟ ครอบคลุมทุกหมวด",
+      "description": "การถ่ายภาพการบริการ อาหาร สินค้า และแบรนด์จากทีมเดียวที่รู้จักธุรกิจของคุณอยู่แล้ว"
     },
     {
-      "title": "Built for multi-channel use",
-      "description": "Delivered in the formats your website, social and advertising each actually need."
+      "title": "สร้างเพื่อการใช้งานหลายช่องทาง",
+      "description": "ส่งมอบในรูปแบบที่เว็บไซต์ โซเชียล และโฆษณาของคุณต้องการจริง"
     }
   ],
   "process": [
     {
-      "title": "Brief & shot list",
-      "description": "Agree the purpose of the shoot and build a detailed shot list around it."
+      "title": "บรีฟและรายการช็อต",
+      "description": "ตกลงวัตถุประสงค์ของงานถ่ายและสร้างรายการช็อตละเอียดรอบนั้น"
     },
     {
-      "title": "Location & logistics",
-      "description": "Scouting, scheduling and, for Koh Samui or Koh Tao, travel planning."
+      "title": "สถานที่และโลจิสติกส์",
+      "description": "การสำรวจ จัดตาราง และสำหรับเกาะสมุยหรือเกาะเต่า การวางแผนการเดินทาง"
     },
     {
-      "title": "Shoot day",
-      "description": "Professional lighting, styling where needed, and on-location production."
+      "title": "วันถ่าย",
+      "description": "แสงมืออาชีพ สไตลิ่งเมื่อจำเป็น และการผลิตหน้างาน"
     },
     {
-      "title": "Selects & retouching",
-      "description": "Careful selection, color grading and retouching of the final set."
+      "title": "การคัดเลือกและรีทัช",
+      "description": "คัดเลือกอย่างระมัดระวัง เกรดสี และรีทัชชุดสุดท้าย"
     },
     {
-      "title": "Multi-format delivery",
-      "description": "Final images delivered in the sizes and formats each channel requires."
+      "title": "ส่งมอบหลายรูปแบบ",
+      "description": "ส่งมอบภาพสุดท้ายในขนาดและรูปแบบที่แต่ละช่องทางต้องการ"
     }
   ],
   "pricing": [
     {
-      "service": "Professional photo shoot (catalogue, 10 items)",
-      "range": "THB 5,000 – 15,000",
-      "note": "Per session, includes processing"
+      "service": "ถ่ายภาพมืออาชีพ (แคตตาล็อก 10 ชิ้น)",
+      "note": "ต่อเซสชัน รวมการประมวลผล",
+      "included": [
+        "ถ่ายภาพหนึ่งเซสชันสำหรับแคตตาล็อก 10 รายการ",
+        "รวมการประมวลผลภาพ"
+      ],
+      "excluded": [
+        "ค่าเดินทางไปเกาะสมุยหรือเกาะเต่า",
+        "วิดีโอ"
+      ]
     },
     {
-      "service": "Half-day hospitality or villa shoot",
-      "range": "THB 10,000 – 20,000",
-      "note": "Interiors and exteriors, edited"
+      "service": "ถ่ายการบริการหรือวิลล่าครึ่งวัน",
+      "note": "ภายในและภายนอก ตัดต่อแล้ว",
+      "included": [
+        "ถ่ายทำครึ่งวันทั้งภายในและภายนอก",
+        "ภาพที่ตกแต่งแล้ว"
+      ],
+      "excluded": [
+        "ค่าเดินทางไปเกาะสมุยหรือเกาะเต่า",
+        "วิดีโอ"
+      ]
     },
     {
-      "service": "Full-day hospitality or villa shoot",
-      "range": "THB 18,000 – 35,000",
-      "note": "Multiple areas or an extended shot list"
+      "service": "ถ่ายการบริการหรือวิลล่าเต็มวัน",
+      "note": "หลายพื้นที่หรือรายการช็อตขยาย",
+      "included": [
+        "ถ่ายทำเต็มวันในหลายพื้นที่หรือรายการช็อตแบบขยาย",
+        "ภาพที่ตกแต่งแล้ว"
+      ],
+      "excluded": [
+        "ค่าเดินทางไปเกาะสมุยหรือเกาะเต่า",
+        "วิดีโอ"
+      ]
     },
     {
-      "service": "Food photography (per dish)",
-      "range": "THB 1,500 – 4,000",
-      "note": "Styling included"
+      "service": "ถ่ายภาพอาหาร (ต่อจาน)",
+      "note": "รวมสไตลิ่ง",
+      "included": [
+        "ถ่ายภาพอาหารหนึ่งจาน",
+        "รวมการจัดสไตล์อาหาร",
+        "ภาพที่ตกแต่งแล้วพร้อมใช้งาน"
+      ],
+      "excluded": [
+        "ค่าเดินทางไปเกาะสมุยหรือเกาะเต่า",
+        "ออกแบบเมนู"
+      ]
     }
   ],
   "useCases": [
     {
-      "title": "Hotels & resorts",
-      "description": "Room, amenity and property photography for websites, OTAs and social channels."
+      "title": "โรงแรมและรีสอร์ต",
+      "description": "ภาพห้อง สิ่งอำนวยความสะดวก และสถานที่สำหรับเว็บไซต์ OTA และช่องทางโซเชียล"
     },
     {
-      "title": "Villas & real estate",
-      "description": "Listing photography that presents a property at its best for sale or rental."
+      "title": "วิลล่าและอสังหาริมทรัพย์",
+      "description": "ภาพประกาศที่นำเสนอทรัพย์สินในมุมที่ดีที่สุดสำหรับขายหรือให้เช่า"
     },
     {
-      "title": "Restaurants & food brands",
-      "description": "Menu and dish photography built for print, delivery apps and social feeds."
+      "title": "ร้านอาหารและแบรนด์อาหาร",
+      "description": "ภาพเมนูและจานที่สร้างสำหรับสิ่งพิมพ์ แอปเดลิเวอรี และฟีดโซเชียล"
     },
     {
-      "title": "Retail & product brands",
-      "description": "Consistent product imagery for online stores, packaging and catalogues."
+      "title": "แบรนด์ค้าปลีกและสินค้า",
+      "description": "ภาพสินค้าที่สม่ำเสมอสำหรับร้านค้าออนไลน์ บรรจุภัณฑ์ และแคตตาล็อก"
     }
   ],
   "faqs": [
     {
-      "q": "What makes photography 'commercial' rather than just professional?",
-      "a": "Commercial photography is shot with a specific business use in mind — a listing, a menu, an ad — and licensed and delivered for that use, rather than being a general photo session."
+      "q": "อะไรทำให้การถ่ายภาพเป็น 'เชิงพาณิชย์' ไม่ใช่แค่มืออาชีพ?",
+      "a": "การถ่ายภาพเชิงพาณิชย์ถ่ายโดยคำนึงถึงการใช้งานทางธุรกิจเฉพาะ ประกาศ เมนู โฆษณา และให้สิทธิ์และส่งมอบสำหรับการใช้งานนั้น ไม่ใช่เซสชันถ่ายภาพทั่วไป"
     },
     {
-      "q": "Do you shoot on Koh Samui and Koh Tao, or only Koh Phangan?",
-      "a": "All three — we're based on Koh Phangan and travel by boat for shoots on Koh Samui and Koh Tao, with a travel fee factored into off-island quotes."
+      "q": "คุณถ่ายบนเกาะสมุยและเกาะเต่าไหม หรือเฉพาะเกาะพะงัน?",
+      "a": "ทั้งสามเกาะ เราตั้งอยู่ที่เกาะพะงันและเดินทางด้วยเรือเพื่อถ่ายบนเกาะสมุยและเกาะเต่า โดยรวมค่าเดินทางในใบเสนอราคานอกเกาะ"
     },
     {
-      "q": "How many final images do we receive from a shoot?",
-      "a": "It depends on the shoot length and shot list — we'll agree an expected image count during the brief so there are no surprises."
+      "q": "เราได้รับภาพสุดท้ายกี่ภาพจากงานถ่าย?",
+      "a": "ขึ้นกับความยาวงานถ่ายและรายการช็อต เราจะตกลงจำนวนภาพที่คาดหวังระหว่างบรีฟเพื่อไม่ให้มีเรื่องเซอร์ไพรส์"
     },
     {
-      "q": "Do you provide food styling for restaurant shoots?",
-      "a": "Yes, styling is included as part of food and menu photography."
+      "q": "คุณให้บริการฟู้ดสไตลิ่งสำหรับงานถ่ายร้านอาหารไหม?",
+      "a": "ให้ สไตลิ่งรวมอยู่เป็นส่วนหนึ่งของการถ่ายภาพอาหารและเมนู"
     },
     {
-      "q": "Can you photograph a villa for both listing and social use in one shoot?",
-      "a": "Yes — this is common, and planning for both uses at the brief stage means one shoot day can cover it."
+      "q": "คุณถ่ายวิลล่าสำหรับทั้งประกาศและโซเชียลในงานถ่ายเดียวได้ไหม?",
+      "a": "ได้ เป็นเรื่องปกติ และการวางแผนสำหรับทั้งสองการใช้งานตั้งแต่ขั้นบรีฟทำให้วันถ่ายเดียวครอบคลุมได้"
     },
     {
-      "q": "Do you retouch and edit every image?",
-      "a": "Yes, color grading and retouching are included in every delivered image, not just a selected few."
+      "q": "คุณรีทัชและตัดต่อทุกภาพไหม?",
+      "a": "ใช่ เกรดสีและรีทัชรวมอยู่ในทุกภาพที่ส่งมอบ ไม่ใช่แค่ไม่กี่ภาพที่เลือก"
     },
     {
-      "q": "How far in advance should we book, especially during high season?",
-      "a": "A few weeks' notice is recommended, more during peak travel periods when scheduling fills up faster."
+      "q": "ควรจองล่วงหน้านานแค่ไหน โดยเฉพาะช่วงไฮซีซัน?",
+      "a": "แนะนำให้แจ้งล่วงหน้าไม่กี่สัปดาห์ มากกว่านั้นในช่วงท่องเที่ยวสูงสุดที่ตารางเต็มเร็วกว่า"
     },
     {
-      "q": "How is this different from your content creation service?",
-      "a": "Commercial photography is the specific production discipline; content creation is the broader service that plans a shoot to feed social, advertising and web content together."
+      "q": "นี่ต่างจากบริการสร้างคอนเทนต์ของคุณอย่างไร?",
+      "a": "การถ่ายภาพเชิงพาณิชย์เป็นศาสตร์การผลิตเฉพาะ ส่วนการสร้างคอนเทนต์เป็นบริการที่กว้างกว่าที่วางแผนงานถ่ายเพื่อป้อนโซเชียล โฆษณา และคอนเทนต์เว็บไปพร้อมกัน"
     }
   ],
   "related": [
     {
-      "label": "Content Creation",
-      "description": "Content shoots planned around your social posting calendar and formats."
+      "label": "การสร้างคอนเทนต์",
+      "description": "งานถ่ายคอนเทนต์ที่วางแผนรอบปฏิทินการโพสต์โซเชียลและรูปแบบของคุณ"
     },
     {
-      "label": "Commercial Video",
-      "description": "Video production to pair with your commercial photography."
+      "label": "วิดีโอเชิงพาณิชย์",
+      "description": "การผลิตวิดีโอที่จับคู่กับการถ่ายภาพเชิงพาณิชย์ของคุณ"
     },
     {
-      "label": "Food Photography",
-      "description": "Menu and dish photography specifically for restaurants."
+      "label": "การถ่ายภาพอาหาร",
+      "description": "การถ่ายภาพเมนูและจานสำหรับร้านอาหารโดยเฉพาะ"
     }
   ],
-  "finalCtaLabel": "Start a Project"
+  "finalCtaLabel": "จองงานถ่ายภาพ"
 }

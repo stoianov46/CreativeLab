@@ -17,7 +17,7 @@ export function MobileContactBar({
   telegram: string | null;
   phone: string;
 }) {
-  const item = "flex flex-1 flex-col items-center justify-center gap-0.5 py-2 text-[11px] font-medium";
+  const item = "flex flex-1 flex-col items-center justify-center gap-0.5 py-2 text-center text-[11px] leading-tight font-medium";
   return (
     <nav
       aria-label={ui.aria}

@@ -24,7 +24,7 @@ export function NotFoundView({ copy }: { copy: Record<string, Copy> }) {
         CreativeLAB
       </Link>
       <p className="mb-4 text-xs tracking-[0.2em] text-accent uppercase">{page.eyebrow}</p>
-      <h1 className="font-display text-4xl leading-tight font-light text-text sm:text-5xl">{page.h1}</h1>
+      <h1 className="font-display text-4xl leading-tight font-light text-text [overflow-wrap:anywhere] sm:text-5xl">{page.h1}</h1>
       <p className="mt-6 text-lg leading-relaxed text-text-secondary">{page.body}</p>
       <ul className="mt-10 flex flex-wrap gap-3">
         {page.links.map((link) => (

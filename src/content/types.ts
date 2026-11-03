@@ -1,4 +1,5 @@
 import type { StaticImageData } from "next/image";
+import type { PriceId } from "./pricing";
 
 export type FaqItem = {
   q: string;
@@ -12,8 +13,16 @@ export type ProcessStep = {
 
 export type PricingRow = {
   service: string;
-  range: string;
+  /**
+   * Id in `pricing.ts` — the single numeric source (price range, unit,
+   * revisions, turnaround). Never type a figure into content or locale files.
+   */
+  priceId: PriceId;
   note: string;
+  /** What the price covers — measurable items (counts, formats). */
+  included?: string[];
+  /** What it does not cover (e.g. ad spend, taxes, travel). */
+  excluded?: string[];
 };
 
 export type ScopeItem = {
@@ -187,6 +196,43 @@ export type CaseStudy = {
   /** Only verified results — never invented numbers. */
   results: string[];
   gallery: { image: StaticImageData; alt: string; caption: string }[];
+  datePublished: string;
+};
+
+/**
+ * /portfolio/<slug> — an ORIGINAL concept created by CreativeLAB, never a real
+ * client project (proposal Truth Rule): no client, budget, result, testimonial
+ * or award. `label` is the visible honesty label ("Concept Project",
+ * "Illustrative Campaign", …) shown on the card and the page.
+ */
+export type ConceptVisualId =
+  | "advertising"
+  | "social"
+  | "villa"
+  | "food"
+  | "local"
+  | "website"
+  | "video"
+  | "brand";
+
+export type ConceptProject = {
+  slug: string;
+  /** The service category (hub) this concept demonstrates. */
+  hubSlug: string;
+  visual: ConceptVisualId;
+  label: string;
+  title: string;
+  navLabel: string;
+  metaTitle: string;
+  metaDescription: string;
+  /** 40–60 words. */
+  directAnswer: string;
+  visualAlt: string;
+  brief: string;
+  demonstrates: string[];
+  deliverables: string[];
+  /** Canonical (EN) service paths this concept relates to. */
+  servicePaths: string[];
   datePublished: string;
 };
 

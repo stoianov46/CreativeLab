@@ -1,147 +1,161 @@
 {
-  "navLabel": "Branding",
-  "h1": "Branding",
-  "primaryKeyword": "branding agency Koh Phangan",
+  "navLabel": "Брендинг",
+  "h1": "Брендинговое агентство на Ко Пангане, Ко Самуи и Ко Тао",
+  "primaryKeyword": "брендинговое агентство Ко Панган",
   "secondaryTopics": [
-    "brand identity",
-    "visual identity",
-    "creative direction",
-    "island business branding"
+    "айдентика бренда",
+    "визуальная идентичность",
+    "креативное руководство",
+    "брендинг островного бизнеса"
   ],
-  "metaTitle": "Branding",
-  "metaDescription": "Brand identity and creative direction for businesses on Koh Phangan, Koh Samui and Koh Tao — original visual systems carried through every channel.",
-  "directAnswer": "CreativeLAB builds brand identities for businesses across Koh Phangan, Koh Samui and Koh Tao — strategy, visual identity and creative direction developed as one coherent system, then applied consistently through our own web, social, photography and advertising work rather than handed over as a static PDF.",
-  "heroSupport": "Brand identity and creative direction that actually gets used — across your website, social media, menus and signage.",
-  "heroImageAlt": "Brand identity materials laid out for review in a design studio",
+  "metaTitle": "Брендинговое агентство на Ко Пангане",
+  "metaDescription": "Айдентика и креативное руководство для бизнеса на Ко Пангане, Ко Самуи и Ко Тао: оригинальные визуальные системы, проведённые через все каналы.",
+  "directAnswer": "CreativeLAB создаёт айдентику для бизнеса на Ко Пангане, Ко Самуи и Ко Тао — стратегия, визуальная идентичность и креативное руководство разрабатываются как единая цельная система, а затем последовательно применяются в нашей собственной работе над сайтами, соцсетями, фотографией и рекламой, а не передаются как статичный PDF.",
+  "heroSupport": "Айдентика и креативное руководство, которыми действительно пользуются, — на сайте, в соцсетях, меню и вывесках.",
+  "heroImageAlt": "Материалы айдентики, разложенные для просмотра в дизайн-студии",
   "overview": [
-    "Most island businesses we meet have a logo but not a brand — a mark that was designed once and then applied inconsistently across a website built by one freelancer, social templates made by another, and signage ordered from a local printer with none of them talking to each other. The result is a business that looks less established than it actually is.",
-    "We treat branding as the foundation everything else gets built on, not a separate deliverable. Because CreativeLAB also produces the photography, video, websites and advertising that carry a brand day to day, an identity we design doesn't sit still — it gets tested and refined the moment it's applied to real work, across whichever of the three islands your business operates on.",
-    "This page introduces branding as part of that wider creative practice — what it covers and who it's for. For the detailed scope, process and pricing of a branding project, see our Branding & Creative service page, which is the canonical version of this content.",
-    "Businesses that operate across more than one of the three islands — a villa group with properties on Phangan and Samui, for instance, or a wellness brand expanding from one island to another — particularly benefit from a defined identity system, since it's what keeps the business recognizable as it grows rather than looking like several unrelated ventures."
+    "У большинства островных бизнесов, которых мы встречаем, есть логотип, но нет бренда — знак, который однажды нарисовали, а затем непоследовательно применили на сайте одного фрилансера, в шаблонах для соцсетей другого и на вывесках, заказанных в местной типографии, причём никто из них друг с другом не общается. В результате бизнес выглядит менее солидным, чем он есть на самом деле.",
+    "Мы рассматриваем брендинг как фундамент, на котором строится всё остальное, а не как отдельный результат. Поскольку CreativeLAB также производит фотографию, видео, сайты и рекламу, которые несут бренд изо дня в день, созданная нами айдентика не стоит на месте — она проверяется и дорабатывается в момент применения к реальной работе на любом из трёх островов, где работает ваш бизнес.",
+    "Эта страница представляет брендинг как часть этой более широкой креативной практики — что он охватывает и для кого. Подробное описание объёма, процесса и стоимости брендингового проекта смотрите на странице услуги «Брендинг и креатив» — это основная версия этого содержимого.",
+    "Бизнесу, работающему более чем на одном из трёх островов, — например, группе вилл с объектами на Пангане и Самуи или wellness-бренду, расширяющемуся с одного острова на другой, — особенно полезна чётко определённая система айдентики, поскольку именно она сохраняет узнаваемость бизнеса по мере роста, а не заставляет его выглядеть как несколько не связанных между собой предприятий."
   ],
   "scope": [
     {
-      "title": "Brand strategy",
-      "description": "Positioning, tone of voice and audience definition grounded in how your business actually operates."
+      "title": "Стратегия бренда",
+      "description": "Позиционирование, tone of voice и определение аудитории, основанные на том, как на самом деле работает ваш бизнес."
     },
     {
-      "title": "Visual identity",
-      "description": "Logo, color palette and typography system designed as an original, coherent whole."
+      "title": "Визуальная идентичность",
+      "description": "Логотип, цветовая палитра и система шрифтов, разработанные как оригинальное цельное целое."
     },
     {
-      "title": "Applications across channels",
-      "description": "How the identity carries through to your website, social media, print materials and advertising."
+      "title": "Применения в разных каналах",
+      "description": "Как айдентика переносится на сайт, соцсети, печатные материалы и рекламу."
     },
     {
-      "title": "Practical guidelines",
-      "description": "A usable reference document, not a design-agency showcase piece nobody consults."
+      "title": "Практические гайдлайны",
+      "description": "Рабочий справочный документ, а не витринный экспонат дизайн-агентства, в который никто не заглядывает."
     }
   ],
   "benefits": [
     {
-      "title": "Real differentiation",
-      "description": "An original identity built for your business, not a template that looks like every other island brand."
+      "title": "Реальное отличие",
+      "description": "Оригинальная айдентика, созданная для вашего бизнеса, а не шаблон, похожий на любой другой островной бренд."
     },
     {
-      "title": "Consistency across every channel",
-      "description": "One system applied to your website, social content, advertising and physical materials alike."
+      "title": "Единообразие во всех каналах",
+      "description": "Одна система, применяемая к сайту, соцконтенту, рекламе и физическим материалам."
     },
     {
-      "title": "Applied by the same team that designed it",
-      "description": "Because CreativeLAB also produces your web, social and advertising work, the brand gets carried through consistently rather than lost in handoff."
+      "title": "Применяется той же командой, которая её создала",
+      "description": "Поскольку CreativeLAB также делает ваш сайт, соцсети и рекламу, бренд проводится последовательно и не теряется при передаче."
     },
     {
-      "title": "A foundation for growth across islands",
-      "description": "A system flexible enough to represent a business expanding from one island to another."
+      "title": "Основа для роста на нескольких островах",
+      "description": "Система, достаточно гибкая, чтобы представлять бизнес, расширяющийся с одного острова на другой."
     }
   ],
   "process": [
     {
-      "title": "Strategy",
-      "description": "Define positioning, audience and tone before any visual work begins."
+      "title": "Стратегия",
+      "description": "Определить позиционирование, аудиторию и тон до начала любой визуальной работы."
     },
     {
-      "title": "Concept",
-      "description": "Initial visual identity directions presented for feedback."
+      "title": "Концепция",
+      "description": "Первые направления визуальной идентичности представляются для обратной связи."
     },
     {
-      "title": "Refine",
-      "description": "Develop the chosen direction into a full, applied system."
+      "title": "Доработка",
+      "description": "Развитие выбранного направления в полную, применённую систему."
     },
     {
-      "title": "Deliver",
-      "description": "Final files and practical guidelines handed over."
+      "title": "Сдача",
+      "description": "Передача итоговых файлов и практических гайдлайнов."
     }
   ],
   "pricing": [
     {
-      "service": "Brand identity (logo + guidelines)",
-      "range": "THB 30,000 – 80,000",
-      "note": "Per project"
+      "service": "Айдентика бренда (логотип + гайдлайны)",
+      "note": "За проект",
+      "included": [
+        "Дизайн логотипа",
+        "Документ с гайдлайнами бренда"
+      ],
+      "excluded": [
+        "Применение бренда на сайте, в соцсетях и в печати",
+        "Упаковка"
+      ]
     },
     {
-      "service": "Full brand system (multi-channel applications)",
-      "range": "THB 70,000 – 150,000",
-      "note": "Includes web, social and print application"
+      "service": "Полная система бренда (применения в нескольких каналах)",
+      "note": "Включает применение в вебе, соцсетях и печати",
+      "included": [
+        "Логотип и гайдлайны бренда",
+        "Применение на сайте, в соцсетях и в печати"
+      ],
+      "excluded": [
+        "Расходы на печать и производство",
+        "Упаковка"
+      ]
     }
   ],
   "useCases": [
     {
-      "title": "New businesses launching on the islands",
-      "description": "A complete identity built from the ground up, ready for web, social and print from day one."
+      "title": "Новый бизнес, запускающийся на островах",
+      "description": "Полная айдентика, созданная с нуля, готовая к вебу, соцсетям и печати с первого дня."
     },
     {
-      "title": "Rebrands",
-      "description": "Refreshing or replacing an identity that no longer reflects a growing or repositioned business."
+      "title": "Ребрендинг",
+      "description": "Обновление или замена айдентики, которая больше не отражает растущий или перепозиционированный бизнес."
     },
     {
-      "title": "Businesses expanding across islands",
-      "description": "A system built to scale from Koh Phangan into Koh Samui or Koh Tao without losing coherence."
+      "title": "Бизнес, расширяющийся на другие острова",
+      "description": "Система, рассчитанная на масштабирование с Ко Пангана на Ко Самуи или Ко Тао без потери цельности."
     }
   ],
   "faqs": [
     {
-      "q": "Do you work with businesses on Koh Samui and Koh Tao, not just Koh Phangan?",
-      "a": "Yes — CreativeLAB is based on Koh Phangan and builds brand identities for businesses across all three islands."
+      "q": "Вы работаете с бизнесом на Ко Самуи и Ко Тао, а не только на Ко Пангане?",
+      "a": "Да — CreativeLAB базируется на Ко Пангане и создаёт айдентику для бизнеса на всех трёх островах."
     },
     {
-      "q": "How is this different from the Branding page under Branding & Creative?",
-      "a": "This page introduces branding as part of our wider creative practice across the three islands; the Branding & Creative hub page is the full service with detailed scope, process and pricing."
+      "q": "Чем это отличается от страницы «Брендинг» в разделе «Брендинг и креатив»?",
+      "a": "Эта страница представляет брендинг как часть нашей более широкой креативной практики на трёх островах; страница направления «Брендинг и креатив» — полная услуга с подробным описанием объёма, процесса и цен."
     },
     {
-      "q": "Do you only design logos, or full brand identities?",
-      "a": "Full brand identities — strategy, visual system and applications, not just a logo mark."
+      "q": "Вы разрабатываете только логотипы или полноценную айдентику?",
+      "a": "Полноценную айдентику — стратегию, визуальную систему и применения, а не только знак-логотип."
     },
     {
-      "q": "Can you apply our brand to our website and social media too?",
-      "a": "Yes — our web, social and video services are built to carry the brand system through consistently once it's designed."
+      "q": "Можете ли вы применить наш бренд также к сайту и соцсетям?",
+      "a": "Да — наши услуги по сайтам, соцсетям и видео созданы для того, чтобы последовательно проводить систему бренда после её разработки."
     },
     {
-      "q": "How long does a brand identity project take?",
-      "a": "Typically 4–8 weeks depending on scope and how many touchpoints are included."
+      "q": "Сколько длится проект по созданию айдентики?",
+      "a": "Обычно 4–8 недель в зависимости от объёма и количества включённых точек контакта."
     },
     {
-      "q": "Can you refresh an existing brand rather than starting from scratch?",
-      "a": "Yes — we regularly refine and modernize existing identities rather than replacing them entirely."
+      "q": "Можете ли вы обновить существующий бренд, а не начинать с нуля?",
+      "a": "Да — мы регулярно дорабатываем и модернизируем существующую айдентику, а не заменяем её полностью."
     },
     {
-      "q": "Do you handle a brand that needs to work across more than one of the islands?",
-      "a": "Yes — we design with that flexibility in mind when a business already operates or plans to operate on more than one island."
+      "q": "Работаете ли вы с брендом, который должен работать более чем на одном из островов?",
+      "a": "Да — мы проектируем с учётом этой гибкости, когда бизнес уже работает или планирует работать более чем на одном острове."
     }
   ],
   "related": [
     {
-      "label": "Branding (full service)",
-      "description": "The complete brand identity service — scope, process and pricing."
+      "label": "Брендинг (полная услуга)",
+      "description": "Полная услуга по созданию айдентики — объём, процесс и цены."
     },
     {
-      "label": "Branding & Creative",
-      "description": "Our full creative practice — graphic design, creative direction and menu design."
+      "label": "Брендинг и креатив",
+      "description": "Вся наша креативная практика — графический дизайн, креативное руководство и дизайн меню."
     },
     {
-      "label": "Web Design",
-      "description": "Bringing your brand identity to your website."
+      "label": "Веб-дизайн",
+      "description": "Перенос вашей айдентики на сайт."
     }
   ],
-  "finalCtaLabel": "Start a Project"
+  "finalCtaLabel": "Начать проект"
 }

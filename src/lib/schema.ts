@@ -8,9 +8,16 @@ const SERVICE_AREA = [
   { "@type": "Place", name: "Koh Tao, Surat Thani, Thailand" },
 ];
 
+/**
+ * Plain `Organization`, deliberately not `LocalBusiness`/`ProfessionalService`:
+ * the address is the owner-specified shared one, CreativeLAB's own Google
+ * Business Profile is unverified and there are no opening hours, so a
+ * LocalBusiness claim would overreach. Switch only once the owner confirms
+ * the listing (NOTES.md). No `geo`, ratings, reviews, awards or certifications.
+ */
 export function organizationSchema() {
   return {
-    "@type": "ProfessionalService",
+    "@type": "Organization",
     "@id": `${SITE.url}/#organization`,
     name: SITE.name,
     url: SITE.url,
@@ -18,14 +25,14 @@ export function organizationSchema() {
       "Creative content and advertising agency on Koh Phangan, Thailand — advertising, social media, photography, video production, web and branding for island businesses.",
     email: SITE.email,
     telephone: SITE.phone,
-    // Base only — no street address until the client confirms one (NOTES.md).
     address: {
       "@type": "PostalAddress",
-      addressLocality: "Koh Phangan",
-      addressRegion: "Surat Thani",
-      addressCountry: "TH",
+      streetAddress: SITE.address.streetAddress,
+      addressLocality: SITE.address.locality,
+      addressRegion: SITE.address.region,
+      postalCode: SITE.address.postalCode,
+      addressCountry: SITE.address.country,
     },
-    geo: { "@type": "GeoCoordinates", latitude: 9.75, longitude: 100.03 },
     areaServed: SERVICE_AREA,
     contactPoint: {
       "@type": "ContactPoint",
@@ -44,6 +51,17 @@ export function organizationSchema() {
       "Video production",
       "Branding",
     ],
+  };
+}
+
+export function websiteSchema() {
+  return {
+    "@type": "WebSite",
+    "@id": `${SITE.url}/#website`,
+    name: SITE.name,
+    url: SITE.url,
+    inLanguage: ["en", "ru", "th", "he"],
+    publisher: { "@id": `${SITE.url}/#organization` },
   };
 }
 
@@ -74,11 +92,19 @@ export function faqSchema(faqs: FaqItem[]) {
   };
 }
 
+/**
+ * Service. The optional `catalog` lists the price-table rows as an
+ * OfferCatalog of *Service* items whose description carries the visible,
+ * INDICATIVE price text. It deliberately has no `Offer`, `price` or
+ * `priceSpecification`: the prices are provisional, and structured data must
+ * not present them as confirmed commercial offers (PRICING_MASTER.md).
+ */
 export function serviceSchema(params: {
   name: string;
   description: string;
   url: string;
   serviceType: string;
+  catalog?: { name: string; items: { name: string; description: string }[] };
 }) {
   return {
     "@type": "Service",
@@ -88,6 +114,17 @@ export function serviceSchema(params: {
     serviceType: params.serviceType,
     provider: { "@id": `${SITE.url}/#organization` },
     areaServed: SERVICE_AREA,
+    ...(params.catalog?.items.length && {
+      hasOfferCatalog: {
+        "@type": "OfferCatalog",
+        name: params.catalog.name,
+        itemListElement: params.catalog.items.map((item) => ({
+          "@type": "Service",
+          name: item.name,
+          description: item.description,
+        })),
+      },
+    }),
   };
 }
 
@@ -97,18 +134,17 @@ export function webPageSchema(params: {
   url: string;
   /** BCP 47 tag, e.g. "en", "ru", "th", "he" — defaults to "en". */
   inLanguage?: string;
+  /** Schema.org page type; /contact uses "ContactPage". */
+  type?: "WebPage" | "ContactPage";
 }) {
   return {
-    "@type": "WebPage",
+    "@type": params.type ?? "WebPage",
     name: params.name,
     description: params.description,
     url: params.url,
     inLanguage: params.inLanguage ?? "en",
-    isPartOf: {
-      "@type": "WebSite",
-      name: SITE.name,
-      url: SITE.url,
-    },
+    isPartOf: { "@id": `${SITE.url}/#website` },
+    ...(params.type === "ContactPage" && { about: { "@id": `${SITE.url}/#organization` } }),
   };
 }
 
@@ -168,6 +204,29 @@ export function creativeWorkSchema(params: {
     description: params.description,
     url: params.url,
     image: params.image,
+    creator: { "@id": `${SITE.url}/#organization` },
+    datePublished: params.datePublished,
+    inLanguage: params.inLanguage,
+  };
+}
+
+/**
+ * A /portfolio/<slug> concept: original work by CreativeLAB for a FICTIONAL
+ * business. Says so in `genre`, creates no client/result/review claims.
+ */
+export function conceptSchema(params: {
+  name: string;
+  description: string;
+  url: string;
+  datePublished: string;
+  inLanguage: string;
+}) {
+  return {
+    "@type": "CreativeWork",
+    name: params.name,
+    description: params.description,
+    url: params.url,
+    genre: "Concept project",
     creator: { "@id": `${SITE.url}/#organization` },
     datePublished: params.datePublished,
     inLanguage: params.inLanguage,

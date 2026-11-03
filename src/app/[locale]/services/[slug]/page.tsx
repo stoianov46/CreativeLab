@@ -5,6 +5,7 @@ import { SERVICE_LANDINGS } from "@/content/services";
 import { getServiceLandings, getUi, pageLabelFor } from "@/content/translations";
 import { buildMetadata } from "@/lib/metadata";
 import { breadcrumbSchema, faqSchema, jsonLdGraph, serviceSchema, webPageSchema } from "@/lib/schema";
+import { pricingCatalog } from "@/lib/pricing-schema";
 import { SITE } from "@/content/site";
 import { localePath, toLocale } from "@/content/i18n";
 
@@ -46,6 +47,7 @@ export default async function ServiceLandingPage(props: PageProps<"/[locale]/ser
       description: page.metaDescription,
       url: page.canonicalPath ? `${SITE.url}${localePath(locale, page.canonicalPath)}` : url,
       serviceType: page.primaryKeyword,
+      catalog: pricingCatalog(page.pricing, locale, `${page.navLabel} — ${ui.blocks.pricingTitle}`),
     }),
     breadcrumbSchema([
       { name: ui.nav.home, url: `${SITE.url}${localePath(locale, "/")}` },

@@ -23,6 +23,7 @@ export function GET() {
   lines.push(`Website: ${SITE.url}`);
   lines.push(`Location: ${SITE.location}`);
   lines.push(`Contact: ${SITE.email}`);
+  lines.push(`Address: ${SITE.address.display}`);
   lines.push(`Short index: ${SITE.url}/llms.txt`);
   lines.push("");
 

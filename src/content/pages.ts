@@ -69,7 +69,10 @@ export const PORTFOLIO_PAGE = {
   heroSupport:
     "The kind of work we make for businesses on Koh Phangan — real client projects are added here as they're completed and approved for publication.",
   directAnswer:
-    "This page will showcase real CreativeLAB projects — villas, restaurants and local businesses across Koh Phangan — as they're delivered and approved for publication. In the meantime, the reference imagery below shows the style and craft our team works in.",
+    "Real CreativeLAB client projects will appear here once they are delivered and approved for publication. Until then, this page shows original concept projects — one for each service area, each clearly labelled as a concept — and reference imagery of the style and craft our team works in.",
+  conceptsTitle: "Concept projects",
+  conceptsIntro:
+    "Original concepts we made for fictional businesses, one for each of our eight service areas, to show how we plan and design this kind of work. They are not client projects, and none of them reports results.",
   ctaTitle: "Have a project you'd like to see here?",
   ctaDescription:
     "Start with us now, and your work could be the next thing featured on this page.",
@@ -120,7 +123,7 @@ export const JOURNAL_PAGE = {
  */
 export const PRIVACY_PAGE = {
   metaTitle: "Privacy Policy",
-  metaDescription: "How CreativeLAB collects, uses and protects personal data.",
+  metaDescription: "How CreativeLAB collects, uses and protects personal data when you visit the site or send an inquiry.",
   eyebrow: "Legal",
   h1: "Privacy Policy",
   draftNotice:
@@ -128,7 +131,7 @@ export const PRIVACY_PAGE = {
   sections: [
     {
       title: "What we collect",
-      body: "When you contact us through this website — via the contact form, email, WhatsApp or Telegram — we collect the information you provide: your name, contact details, and the content of your message, including any files you choose to share about your project.",
+      body: "When you contact us through this website — via the contact form, email, WhatsApp or Telegram — we collect the information you provide: your name, contact details, and the content of your message, including any files you choose to share about your project. The contact form also lets you tell us, optionally, your island, type of business, budget range, timeline and the language you would like us to reply in. To understand where enquiries come from, the form sends with your message the page you were on, the first page you visited in this browser session, the website that referred you and any campaign (UTM) parameters in the link you used; these are kept only in your browser tab's session storage until you choose to send the form.",
     },
     {
       title: "How we use it",
@@ -144,14 +147,57 @@ export const PRIVACY_PAGE = {
     },
     {
       title: "Third-party services",
-      body: "Messages sent via WhatsApp or Telegram are subject to those platforms' own privacy terms in addition to this policy. Analytics, where enabled, is configured to be privacy-conscious and does not track you across unrelated sites.",
+      body: "Messages sent via WhatsApp or Telegram are subject to those platforms' own privacy terms in addition to this policy. Enquiries sent through the contact form are delivered to our team through Telegram. [[VERIFY: counsel to confirm wording on transfers of personal data outside Thailand]] Analytics and marketing tools, where enabled, load only after you accept them, as explained in our Cookie Policy.",
+    },
+    {
+      title: "Cookies and similar technologies",
+      body: "This website does not set advertising cookies of its own. It stores your cookie choice in your browser, and keeps the first-visit information described above in your tab's session storage. Analytics or marketing scripts, if the site operator turns them on, load only after you accept them. See the Cookie Policy for the full list and how to change your choice.",
+    },
+    {
+      title: "Thailand's Personal Data Protection Act (PDPA)",
+      body: "Because we operate in Thailand, the Personal Data Protection Act B.E. 2562 (2019) applies to how we handle your personal data. The rights it gives you — to access, correct, delete or object to the use of your data, and to withdraw consent — are listed under \"Your rights\", and you can exercise them by emailing {email}. [[VERIFY: counsel to confirm the controller details, the legal basis for each use, data-transfer wording and retention period]]",
+    },
+  ],
+};
+
+export const COOKIES_PAGE = {
+  metaTitle: "Cookie Policy",
+  metaDescription: "What CreativeLAB stores in your browser, which scripts load only after you accept, and how to change your cookie choice at any time.",
+  eyebrow: "Legal",
+  h1: "Cookie Policy",
+  draftNotice:
+    "Draft — pending review by qualified legal counsel before launch. This page describes how the website works today and should not be treated as final legal terms until reviewed.",
+  sections: [
+    {
+      title: "What this page covers",
+      body: "Cookies and similar technologies are small pieces of data a website keeps in your browser. This page lists what this website stores, why, and how you can control it. For how we handle personal data more generally, see the Privacy Policy.",
+    },
+    {
+      title: "What the website stores in your browser",
+      body: "Your cookie choice: so the website remembers whether you accepted or declined analytics and marketing, it saves that choice in your browser's local storage until you change it. First-visit information: the page where you first landed, the referring site and any campaign (UTM) parameters are kept in your tab's session storage, so the contact form can attach them if you send an enquiry; this is cleared when you close the tab and is not sent anywhere unless you submit the form.",
+    },
+    {
+      title: "Analytics and marketing",
+      body: "Analytics and marketing scripts (such as Google Analytics, Yandex Metrica or the Meta Pixel) load only if the site operator has switched them on and only after you accept them. Nothing is loaded before you choose, and declining does not stop you from using the website. [[VERIFY: list the analytics and marketing tools actually enabled at launch]]",
+    },
+    {
+      title: "Fonts and images",
+      body: "The website's fonts are served from the website itself, so loading them does not send your visit to a font provider.",
+    },
+    {
+      title: "Changing your choice",
+      body: "You can change or withdraw your choice at any time using \"Cookie settings\" in the footer of every page. You can also clear your browser's stored data at any time through your browser settings.",
+    },
+    {
+      title: "Contact",
+      body: "Questions about this policy can be sent to {email}.",
     },
   ],
 };
 
 export const TERMS_PAGE = {
   metaTitle: "Terms of Service",
-  metaDescription: "Terms governing the use of CreativeLAB's website and services.",
+  metaDescription: "Terms governing the use of CreativeLAB's website and the creative, advertising and production services it describes.",
   eyebrow: "Legal",
   h1: "Terms of Service",
   draftNotice:

@@ -1,160 +1,160 @@
 {
-  "navLabel": "Villas Real Estate",
-  "h1": "Villas Real Estate",
-  "primaryKeyword": "villa and real estate marketing agency",
-  "metaTitle": "Villas Real Estate",
-  "metaDescription": "Marketing for villas, land and developments on Koh Phangan, Koh Samui and Koh Tao — photography, video, listings and advertising built for real buyers.",
-  "directAnswer": "CreativeLAB works with agents, developers and private owners marketing villas, land and residential developments across Koh Phangan, Koh Samui and Koh Tao. We combine listing-ready photography and video with real estate advertising and web presence, so a property is presented consistently everywhere a buyer or renter finds it.",
-  "heroSupport": "Photography, video, listings and advertising for agents, developers and owners selling or renting property across the three islands.",
-  "heroImageAlt": "Villa exterior photographed for a real estate listing on Koh Phangan",
+  "navLabel": "Виллы и недвижимость",
+  "h1": "Маркетинг вилл и недвижимости на Ко Пангане, Ко Самуи и Ко Тао",
+  "primaryKeyword": "агентство маркетинга вилл и недвижимости",
+  "metaTitle": "Агентство маркетинга вилл и недвижимости",
+  "metaDescription": "Маркетинг вилл, земли и девелоперских проектов на Ко Пангане, Ко Самуи и Ко Тао: фото, видео, объявления и реклама для реальных покупателей.",
+  "directAnswer": "CreativeLAB работает с агентами, застройщиками и частными владельцами, продвигающими виллы, землю и жилые девелоперские проекты на Ко Пангане, Ко Самуи и Ко Тао. Мы объединяем фото и видео, готовые для объявлений, с рекламой недвижимости и веб-присутствием, чтобы объект подавался единообразно везде, где его находит покупатель или арендатор.",
+  "heroSupport": "Фото, видео, объявления и реклама для агентов, застройщиков и владельцев, продающих или сдающих недвижимость на трёх островах.",
+  "heroImageAlt": "Фасад виллы, снятый для объявления о недвижимости на Ко Пангане",
   "overview": [
-    "Villas and land on Koh Phangan, Koh Samui and Koh Tao are sold and rented mostly on trust built before anyone sets foot on the property. A large share of buyers and long-term renters start their search from abroad, comparing listings, social posts and agent websites long before a viewing is booked. Weak photography, an inconsistent listing, or no presence beyond a single portal costs interest before a message is ever sent.",
-    "The three islands don't behave the same way as a market. Koh Samui, with its airport and more developed infrastructure, attracts a broader international buyer pool and a faster-moving resale and rental market. Koh Phangan's appeal leans on land, lifestyle and long-stay renters drawn to its slower pace and wellness scene, with more owner-direct and boutique-agency activity. Koh Tao's market is smaller and more specialised, tied closely to the diving community and long-term residents. A property business working across more than one island needs marketing that respects those differences rather than a single template stretched over all three.",
-    "The buyer or renter journey is also longer and more considered than a typical retail purchase: research, comparison, a first message, questions about ownership structure and logistics, and — eventually — a visit. Every stage after that first search is a chance to lose the lead to a competitor's listing with better photos or a faster reply. Marketing has to hold attention through each step, not just win the first click.",
-    "That's the angle we bring to real estate marketing here: photography and video that make a property easy to trust from a screen, a web presence that presents listings clearly, and advertising and social content that keeps a development or agency visible across the islands it actually serves — not just the one it's based on."
+    "Виллы и землю на Ко Пангане, Ко Самуи и Ко Тао продают и сдают в основном на доверии, которое складывается до того, как кто-либо ступит на территорию. Значительная часть покупателей и арендаторов на длительный срок начинает поиск из-за рубежа, сравнивая объявления, соцпосты и сайты агентов задолго до записи на просмотр. Слабая фотография, несогласованное объявление или отсутствие присутствия за пределами одного портала стоят интереса ещё до того, как отправлено первое сообщение.",
+    "Три острова не ведут себя одинаково как рынок. Ко Самуи с его аэропортом и более развитой инфраструктурой привлекает более широкий пул международных покупателей и более динамичный рынок вторичной продажи и аренды. Привлекательность Ко Пангана опирается на землю, образ жизни и арендаторов на длительный срок, которых привлекает замедленный темп и wellness-среда, с большей долей прямых продаж от владельцев и бутиковых агентств. Рынок Ко Тао меньше и более специализирован, тесно связан с дайверским сообществом и постоянными жителями. Бизнесу в сфере недвижимости, работающему более чем на одном острове, нужен маркетинг, учитывающий эти различия, а не единый шаблон, натянутый на все три.",
+    "Путь покупателя или арендатора также длиннее и обдуманнее, чем типичная розничная покупка: исследование, сравнение, первое сообщение, вопросы о структуре владения и логистике и — в конце концов — визит. На каждом этапе после первого поиска можно потерять клиента в пользу объявления конкурента с лучшими фото или более быстрым ответом. Маркетинг должен удерживать внимание на каждом шаге, а не только выигрывать первый клик.",
+    "Именно с этой позиции мы подходим к маркетингу недвижимости здесь: фото и видео, благодаря которым объекту легко доверять с экрана, веб-присутствие, ясно представляющее объявления, а также реклама и соцконтент, поддерживающие видимость проекта или агентства на тех островах, которые оно на самом деле обслуживает, — а не только на том, где оно базируется."
   ],
-  "needsTitle": "What villa and real estate businesses need from marketing",
+  "needsTitle": "Что бизнесу в сфере вилл и недвижимости нужно от маркетинга",
   "needs": [
     {
-      "title": "Listings that convert browsing into an inquiry",
-      "description": "Photography, layout and copy have to work for someone who may never see the property in person before deciding to message."
+      "title": "Объявления, превращающие просмотр в обращение",
+      "description": "Фотография, макет и тексты должны работать для человека, который может ни разу не увидеть объект лично, прежде чем решит написать."
     },
     {
-      "title": "A presence that matches where buyers actually search",
-      "description": "Portals, Google, Maps, Instagram and referral — most island property leads come from more than one channel at once."
+      "title": "Присутствие там, где покупатели действительно ищут",
+      "description": "Порталы, Google, Карты, Instagram и рекомендации — большинство лидов по островной недвижимости приходит сразу из нескольких каналов."
     },
     {
-      "title": "Consistency across agents, portals and social content",
-      "description": "The same property often appears on multiple listings and profiles; mismatched photos and details undermine confidence."
+      "title": "Единообразие у агентов, на порталах и в соцконтенте",
+      "description": "Один и тот же объект часто появляется в нескольких объявлениях и профилях; несовпадающие фото и данные подрывают доверие."
     },
     {
-      "title": "Cross-island reach without a diluted message",
-      "description": "A development marketed on Samui needs a different pitch to buyers than a Phangan land plot — even from the same agency."
+      "title": "Охват нескольких островов без размытого сообщения",
+      "description": "Проекту, продвигаемому на Самуи, нужна иная подача для покупателей, чем земельному участку на Пангане, — даже у одного и того же агентства."
     },
     {
-      "title": "Speed from shoot to listing",
-      "description": "Motivated buyers move fast; a property that sits without proper photography or a live listing loses momentum quickly."
+      "title": "Скорость от съёмки до объявления",
+      "description": "Мотивированные покупатели действуют быстро; объект без нормальных фото или живого объявления быстро теряет импульс."
     },
     {
-      "title": "Trust signals for remote decision-making",
-      "description": "Clear ownership and process information, honest photography and responsive follow-up matter more when the buyer is overseas."
+      "title": "Сигналы доверия для удалённого принятия решений",
+      "description": "Ясная информация о праве собственности и процессе, честная фотография и оперативная обратная связь важнее, когда покупатель за рубежом."
     }
   ],
   "services": [
     {
-      "label": "Villa Photography",
-      "description": "Listing-ready interior and exterior photography for finished villas."
+      "label": "Фотосъёмка вилл",
+      "description": "Интерьерная и экстерьерная фотография для объявлений о готовых виллах."
     },
     {
-      "label": "Drone Photography",
-      "description": "Aerial context for the property, plot and surroundings."
+      "label": "Фотосъёмка с дрона",
+      "description": "Аэроконтекст объекта, участка и окружения."
     },
     {
-      "label": "Property Video",
-      "description": "Walkthrough and atmosphere video cut for listings and social."
+      "label": "Видео недвижимости",
+      "description": "Видео-обход и видео об атмосфере, смонтированные для объявлений и соцсетей."
     },
     {
-      "label": "Virtual Tours",
-      "description": "A 360 tour so overseas buyers can explore a property remotely."
+      "label": "Виртуальные туры",
+      "description": "Тур на 360°, чтобы покупатели из-за рубежа могли изучить объект удалённо."
     },
     {
-      "label": "Real Estate Marketing",
-      "description": "The full package — visuals, listing and promotion built together."
+      "label": "Маркетинг недвижимости",
+      "description": "Полный пакет — визуалы, объявление и продвижение, созданные вместе."
     },
     {
-      "label": "Villa Website",
-      "description": "A dedicated property or development website beyond the portal listing."
+      "label": "Сайт для виллы",
+      "description": "Отдельный сайт объекта или проекта поверх объявления на портале."
     },
     {
       "label": "Meta Ads",
-      "description": "Targeted campaigns and retargeting for viewers who didn't inquire yet."
+      "description": "Таргетированные кампании и ретаргетинг для тех, кто смотрел, но ещё не обратился."
     },
     {
-      "label": "Social Media Management",
-      "description": "Ongoing content and posting to keep a development or agency visible."
+      "label": "Ведение соцсетей",
+      "description": "Постоянный контент и публикации, поддерживающие видимость проекта или агентства."
     }
   ],
   "sections": [
     {
-      "title": "Agencies, developers and private owners need different things",
+      "title": "Агентствам, застройщикам и частным владельцам нужно разное",
       "body": [
-        "An agency managing a rotating portfolio needs a repeatable process: consistent photography standards across every listing, fast turnaround, and content that's easy to reuse across portals, its own website and social channels. A developer marketing a project under construction or newly completed needs a longer campaign — renders or progress documentation early, then a full shoot and launch push once units are ready to show. A private owner selling or renting a single villa usually needs a tighter, one-off package: a proper shoot, a clear listing and enough promotion to reach the right audience without an ongoing retainer.",
-        "We adjust scope to match — a single shoot for an owner, a documented process and standards for an agency's full portfolio, or a phased campaign for a developer moving from off-plan to delivered units."
+        "Агентству, управляющему меняющимся портфелем, нужен повторяемый процесс: единые фотостандарты для каждого объявления, быстрая сдача и контент, который легко переиспользовать на порталах, собственном сайте и в соцсетях. Застройщику, продвигающему строящийся или недавно завершённый проект, нужна более длинная кампания: рендеры или документация хода работ на раннем этапе, затем полная съёмка и запуск, когда юниты готовы к показу. Частному владельцу, продающему или сдающему одну виллу, обычно нужен более компактный разовый пакет: нормальная съёмка, понятное объявление и достаточно продвижения, чтобы достичь нужной аудитории без постоянного абонемента.",
+        "Мы корректируем объём под это — одна съёмка для владельца, документированный процесс и стандарты для всего портфеля агентства или поэтапная кампания для застройщика, переходящего от продаж на этапе проекта к сданным юнитам."
       ]
     },
     {
-      "title": "Selling to a buyer who can't visit yet",
+      "title": "Продажа покупателю, который пока не может приехать",
       "body": [
-        "Many villa and land inquiries on these islands start from someone still overseas, planning a visit or deciding whether one is worth booking. Photography and video have to answer the questions a viewing would: how the light moves through the space, what's actually nearby, how the plot sits on its land. A virtual tour or a well-shot walkthrough video does more work here than a handful of static photos, because it lets someone explore at their own pace instead of trusting a curated selection.",
-        "This is also where honest presentation pays off. Overpromising a listing — angles that hide a real limitation, a description that skips a genuine drawback — tends to surface at the viewing stage and costs more trust than it buys in clicks."
+        "Многие обращения по виллам и земле на этих островах приходят от людей, ещё находящихся за рубежом, которые планируют визит или решают, стоит ли его бронировать. Фото и видео должны отвечать на те вопросы, на которые ответил бы просмотр: как свет движется по пространству, что находится рядом, как участок расположен на своей земле. Виртуальный тур или хорошо снятый видео-обход здесь работают лучше нескольких статичных фото, потому что позволяют изучать объект в своём темпе, а не доверять отобранной подборке.",
+        "Именно здесь окупается и честная подача. Завышенные обещания в объявлении — ракурсы, скрывающие реальное ограничение, описание, умалчивающее о настоящем недостатке, — обычно всплывают на этапе просмотра и стоят большего доверия, чем приносят кликов."
       ]
     },
     {
-      "title": "Reaching buyers across three different markets",
+      "title": "Охват покупателей на трёх разных рынках",
       "body": [
-        "A listing that performs well on Koh Samui, where buyers often arrive via the airport and compare against a wider regional market, needs a different distribution mix to a Koh Phangan land plot marketed mainly to long-stay residents and lifestyle buyers already familiar with the island. Advertising and social content have to be built — or at least targeted — with that difference in mind, rather than running one identical campaign everywhere and hoping it lands."
+        "Объявлению, хорошо работающему на Ко Самуи, где покупатели часто прилетают через аэропорт и сравнивают с более широким региональным рынком, нужен иной набор каналов распространения, чем земельному участку на Ко Пангане, продвигаемому в основном среди постоянных жителей и покупателей образа жизни, уже знакомых с островом. Реклама и соцконтент должны создаваться — или хотя бы таргетироваться — с учётом этой разницы, а не запускать одну и ту же кампанию везде в надежде, что она сработает."
       ]
     }
   ],
   "process": [
     {
-      "title": "Brief & property review",
-      "description": "We look at the property, the target buyer or renter, and where it should appear — portals, own website, social, or all three."
+      "title": "Бриф и обзор объекта",
+      "description": "Мы изучаем объект, целевого покупателя или арендатора и то, где он должен появиться — на порталах, собственном сайте, в соцсетях или везде сразу."
     },
     {
-      "title": "Shoot & production",
-      "description": "Photography, drone, video or a virtual tour is scheduled and shot to a consistent standard, on Koh Phangan or with travel arranged to Koh Samui or Koh Tao."
+      "title": "Съёмка и производство",
+      "description": "Фото, дрон, видео или виртуальный тур планируются и снимаются по единому стандарту — на Ко Пангане или с организованной поездкой на Ко Самуи или Ко Тао."
     },
     {
-      "title": "Listing & content build",
-      "description": "Assets are edited and organised into a ready-to-publish listing, website page or social content set."
+      "title": "Сборка объявления и контента",
+      "description": "Материалы монтируются и упорядочиваются в готовое к публикации объявление, страницу сайта или набор соцконтента."
     },
     {
-      "title": "Distribution & promotion",
-      "description": "We publish, promote and — where agreed — run ongoing advertising to keep the listing visible until it converts."
+      "title": "Распространение и продвижение",
+      "description": "Мы публикуем, продвигаем и — по договорённости — ведём постоянную рекламу, чтобы объявление оставалось на виду, пока не принесёт результат."
     }
   ],
   "faqs": [
     {
-      "q": "Do you work with real estate agencies or only individual property owners?",
-      "a": "Both. We shoot for agencies managing multiple listings, developers marketing a project, and private owners selling or renting a single villa or plot, adjusting the scope to fit each."
+      "q": "Вы работаете с агентствами недвижимости или только с частными владельцами?",
+      "a": "С теми и другими. Мы снимаем для агентств с несколькими объявлениями, застройщиков, продвигающих проект, и частных владельцев, продающих или сдающих одну виллу или участок, подбирая объём под каждого."
     },
     {
-      "q": "Can you shoot properties on Koh Samui and Koh Tao, or only Koh Phangan?",
-      "a": "Yes — we work across all three islands. Travel to Koh Samui or Koh Tao is by boat, and a travel fee may apply on top of the shoot cost; we'll confirm this when scheduling."
+      "q": "Можете ли вы снимать объекты на Ко Самуи и Ко Тао или только на Ко Пангане?",
+      "a": "Да — мы работаем на всех трёх островах. На Ко Самуи или Ко Тао мы добираемся на лодке, и сверх стоимости съёмки может взиматься плата за выезд; мы подтвердим это при планировании."
     },
     {
-      "q": "Do you help market off-plan or under-construction developments?",
-      "a": "Yes. For projects that aren't finished yet, we typically start with renders, site and progress documentation, then move to a full photography and video shoot once units are ready to show."
+      "q": "Помогаете ли вы продвигать проекты на этапе проекта или в стадии строительства?",
+      "a": "Да. Для ещё не завершённых проектов мы обычно начинаем с рендеров, документации площадки и хода работ, а затем переходим к полной фото- и видеосъёмке, когда юниты готовы к показу."
     },
     {
-      "q": "Can you build a website for a single property, or just for an agency?",
-      "a": "Both — a dedicated villa or development website is available as a standalone service through our web team, separate from a standard portal listing."
+      "q": "Можете ли вы создать сайт для одного объекта, а не только для агентства?",
+      "a": "И то и другое — отдельный сайт виллы или проекта доступен как самостоятельная услуга нашей веб-команды, отдельно от стандартного объявления на портале."
     },
     {
-      "q": "How do you help a listing reach international buyers?",
-      "a": "Through a combination of well-optimised web presence, targeted Meta and Google advertising, and social content — matched to how buyers on each island typically search and compare properties."
+      "q": "Как вы помогаете объявлению достичь международных покупателей?",
+      "a": "Через сочетание хорошо оптимизированного веб-присутствия, таргетированной рекламы Meta и Google и соцконтента — с учётом того, как покупатели на каждом острове обычно ищут и сравнивают объекты."
     },
     {
-      "q": "Do you handle the listing itself, or just the visuals?",
-      "a": "We can do both — supply photography, video and virtual tours for you to use on your own portals, or manage the full listing, website and promotion as one package."
+      "q": "Вы занимаетесь самим объявлением или только визуалами?",
+      "a": "Можем и то и другое — предоставить фото, видео и виртуальные туры для использования на ваших порталах или вести полное объявление, сайт и продвижение как единый пакет."
     },
     {
-      "q": "How quickly can a property go from shoot to live listing?",
-      "a": "It depends on scope, but photography and a basic listing can usually move quickly once a shoot is booked; video and virtual tour turnaround take longer due to editing."
+      "q": "Как быстро объект может пройти путь от съёмки до живого объявления?",
+      "a": "Это зависит от объёма, но фото и базовое объявление обычно можно подготовить быстро после бронирования съёмки; видео и виртуальные туры занимают больше времени из-за монтажа."
     },
     {
-      "q": "Do you offer retainers for agencies with an ongoing portfolio?",
-      "a": "Yes — for agencies with regular new listings, we can set up a standing process and a recurring content and advertising arrangement rather than booking each property separately."
+      "q": "Предлагаете ли вы абонементы для агентств с постоянным портфелем?",
+      "a": "Да — для агентств с регулярными новыми объявлениями мы можем наладить постоянный процесс и регулярное сотрудничество по контенту и рекламе, а не бронировать каждый объект отдельно."
     },
     {
-      "q": "Can you advertise a villa in more than one language?",
-      "a": "Yes, we build multilingual listing pages and advertising to reach the different buyer and renter audiences active across the islands."
+      "q": "Можете ли вы рекламировать виллу на нескольких языках?",
+      "a": "Да, мы создаём многоязычные страницы объявлений и рекламу, чтобы охватить разные аудитории покупателей и арендаторов, активные на островах."
     },
     {
-      "q": "What if a property doesn't suit drone or aerial photography?",
-      "a": "We'll advise honestly — not every plot or villa benefits from aerial shots, and where regulations or the site don't support it, we'll recommend ground photography and video instead."
+      "q": "Что делать, если объекту не подходит съёмка с дрона или аэрофотосъёмка?",
+      "a": "Мы честно подскажем: не каждый участок или вилла выигрывает от аэроснимков, и там, где правила или местность этого не допускают, мы порекомендуем наземную фото- и видеосъёмку."
     }
   ],
-  "finalCtaLabel": "Start a Project"
+  "finalCtaLabel": "Запросить расчёт по маркетингу объекта"
 }

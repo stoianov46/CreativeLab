@@ -107,23 +107,31 @@ export const advertisingService: ServicePage = {
   pricing: [
     {
       service: "Advertising strategy & channel plan",
-      range: "THB 10,000 – 20,000",
+      priceId: "services.advertising.1",
       note: "Indicative — one-time, before any account is built",
+      included: ["Advertising strategy", "Channel plan, before any account is built"],
+      excluded: ["Advertising budget — paid directly by you to the platform", "Campaign setup and management"],
     },
     {
       service: "Campaign setup (single platform)",
-      range: "THB 15,000 – 35,000",
+      priceId: "services.advertising.2",
       note: "Google Ads or Meta Ads, strategy and tracking included",
+      included: ["Campaign setup on Google Ads or Meta Ads", "Strategy and tracking included"],
+      excluded: ["Advertising budget — paid directly by you to the platform", "Platform fees"],
     },
     {
       service: "Monthly advertising management",
-      range: "THB 12,000 – 30,000 / month",
+      priceId: "services.advertising.3",
       note: "Excludes ad spend, billed directly to the platform",
+      included: ["Ongoing campaign management and optimization", "Monthly report"],
+      excluded: ["Advertising budget — paid directly by you to the platform", "Platform fees", "New creative production"],
     },
     {
       service: "Multi-platform campaign launch",
-      range: "THB 45,000 – 95,000",
+      priceId: "services.advertising.4",
       note: "Indicative — Google + Meta, coordinated creative and tracking",
+      included: ["Coordinated Google and Meta launch", "Coordinated creative and tracking"],
+      excluded: ["Advertising budget — paid directly by you to the platform", "Platform fees"],
     },
   ],
   useCases: [

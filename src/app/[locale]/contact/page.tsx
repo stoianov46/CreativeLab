@@ -4,10 +4,11 @@ import { DirectAnswer } from "@/components/blocks/DirectAnswer";
 import { ContactForm } from "@/components/blocks/ContactForm";
 import { BotEntry } from "@/components/blocks/BotEntry";
 import { Container } from "@/components/ui/Container";
-import { getPages, getUi } from "@/content/translations";
+import { getIndustries, getLocations, getPages, getUi } from "@/content/translations";
 import { buildMetadata } from "@/lib/metadata";
 import { breadcrumbSchema, jsonLdGraph, webPageSchema } from "@/lib/schema";
 import { SITE } from "@/content/site";
+import { INTEGRATIONS, telegramLink } from "@/lib/integrations";
 import { localePath, toLocale } from "@/content/i18n";
 
 export async function generateMetadata(
@@ -27,12 +28,18 @@ export async function generateMetadata(
 export default async function ContactPage(props: PageProps<"/[locale]/contact">) {
   const { locale: rawLocale } = await props.params;
   const locale = toLocale(rawLocale);
+  // Telegram is shown only once a real bot is configured (NOTES.md): @creativelab1_bot is unconfirmed.
+  const telegram = telegramLink({ source: "contact-page" });
   const { contact } = getPages(locale);
   const ui = getUi(locale);
+  // Option values are stable slugs; labels are the translated page names.
+  const other = { value: "other", label: ui.form.otherOption };
+  const locationOptions = [...getLocations(locale).map((l) => ({ value: l.slug, label: l.navLabel })), other];
+  const businessOptions = [...getIndustries(locale).map((i) => ({ value: i.slug, label: i.navLabel })), other];
   const url = `${SITE.url}${localePath(locale, "/contact")}`;
   const homeUrl = `${SITE.url}${localePath(locale, "/")}`;
   const graph = jsonLdGraph([
-    webPageSchema({ name: contact.metaTitle, description: contact.metaDescription, url, inLanguage: locale }),
+    webPageSchema({ name: contact.metaTitle, description: contact.metaDescription, url, inLanguage: locale, type: "ContactPage" }),
     breadcrumbSchema([{ name: ui.nav.home, url: homeUrl }, { name: ui.nav.contact, url }]),
   ]);
 
@@ -64,7 +71,7 @@ export default async function ContactPage(props: PageProps<"/[locale]/contact">)
               <h2 className="font-display mb-8 text-2xl font-light text-text">
                 {ui.form.title}
               </h2>
-              <ContactForm ui={ui.form} />
+              <ContactForm ui={ui.form} locationOptions={locationOptions} businessOptions={businessOptions} />
             </div>
             <div>
               <h2 className="font-display mb-8 text-2xl font-light text-text">
@@ -83,7 +90,7 @@ export default async function ContactPage(props: PageProps<"/[locale]/contact">)
                   <dt className="text-text-secondary">{ui.contact.phone}</dt>
                   <dd className="mt-1 text-base text-text">
                     <a href={`tel:${SITE.phone}`} className="hover:text-accent">
-                      {SITE.phone}
+                      <bdi dir="ltr">{SITE.phone}</bdi>
                     </a>
                   </dd>
                 </div>
@@ -91,21 +98,34 @@ export default async function ContactPage(props: PageProps<"/[locale]/contact">)
                   <dt className="text-text-secondary">{ui.contact.whatsapp}</dt>
                   <dd className="mt-1 text-base text-text">
                     <a href={`https://wa.me/${SITE.whatsapp.replace(/[^0-9]/g, "")}`} className="hover:text-accent">
-                      {SITE.whatsapp}
+                      <bdi dir="ltr">{SITE.whatsapp}</bdi>
                     </a>
                   </dd>
                 </div>
-                <div>
-                  <dt className="text-text-secondary">{ui.contact.telegram}</dt>
-                  <dd className="mt-1 text-base text-text">
-                    <a href={SITE.telegram} className="hover:text-accent">
-                      @creativelab1_bot
-                    </a>
-                  </dd>
-                </div>
+                {telegram && (
+                  <div>
+                    <dt className="text-text-secondary">{ui.contact.telegram}</dt>
+                    <dd className="mt-1 text-base text-text">
+                      <a href={telegram} className="hover:text-accent">
+                        <bdi dir="ltr">@{INTEGRATIONS.telegramBotHandle}</bdi>
+                      </a>
+                    </dd>
+                  </div>
+                )}
                 <div>
                   <dt className="text-text-secondary">{ui.contact.basedIn}</dt>
                   <dd className="mt-1 text-base text-text">{ui.location}</dd>
+                </div>
+                <div>
+                  <dt className="text-text-secondary">{ui.contact.address}</dt>
+                  <dd className="mt-1 text-base text-text">
+                    <address className="not-italic">
+                      <bdi dir="ltr">{SITE.address.display}</bdi>
+                    </address>
+                    <a href={SITE.address.mapUrl} className="mt-1 inline-block text-sm text-accent hover:underline" rel="noopener noreferrer" target="_blank">
+                      {ui.contact.viewOnMap}
+                    </a>
+                  </dd>
                 </div>
               </dl>
               <div className="mt-8">

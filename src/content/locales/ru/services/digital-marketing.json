@@ -1,172 +1,191 @@
 {
-  "navLabel": "Digital Marketing",
-  "h1": "Digital Marketing",
-  "primaryKeyword": "digital marketing agency Koh Phangan, Koh Samui and Koh Tao",
+  "navLabel": "Digital-маркетинг",
+  "h1": "Агентство digital-маркетинга на Ко Пангане, Ко Самуи и Ко Тао",
+  "primaryKeyword": "агентство digital-маркетинга Ко Панган, Ко Самуи и Ко Тао",
   "secondaryTopics": [
-    "integrated marketing strategy",
-    "advertising and SEO",
-    "website and analytics",
-    "island marketing strategy"
+    "интегрированная маркетинговая стратегия",
+    "реклама и SEO",
+    "сайт и аналитика",
+    "островная маркетинговая стратегия"
   ],
-  "metaTitle": "Digital Marketing",
-  "metaDescription": "Integrated digital marketing for businesses on Koh Phangan, Koh Samui and Koh Tao — advertising, social, SEO, website and analytics run as one strategy.",
-  "directAnswer": "Digital marketing is the coordination of advertising, social media, SEO, your website and analytics into one strategy rather than separate, disconnected efforts. CreativeLAB provides this for businesses on Koh Phangan, Koh Samui and Koh Tao, planning the mix and managing the channels as a single, accountable team.",
-  "heroSupport": "Advertising, social, SEO, your website and analytics, coordinated as one strategy for businesses across Koh Phangan, Koh Samui and Koh Tao.",
-  "heroImageAlt": "Marketing team reviewing an integrated strategy across advertising, SEO and social",
+  "metaTitle": "Агентство digital-маркетинга на Ко Пангане и Самуи",
+  "metaDescription": "Интегрированный digital-маркетинг для бизнеса на Ко Пангане, Ко Самуи и Ко Тао: реклама, соцсети, SEO, сайт и аналитика как единая стратегия.",
+  "directAnswer": "Digital-маркетинг — это координация рекламы, соцсетей, SEO, вашего сайта и аналитики в единую стратегию, а не отдельные разрозненные усилия. CreativeLAB обеспечивает это для бизнеса на Ко Пангане, Ко Самуи и Ко Тао: планирует набор каналов и управляет ими как единая подотчётная команда.",
+  "heroSupport": "Реклама, соцсети, SEO, ваш сайт и аналитика, скоординированные как единая стратегия для бизнеса на Ко Пангане, Ко Самуи и Ко Тао.",
+  "heroImageAlt": "Маркетинговая команда обсуждает интегрированную стратегию рекламы, SEO и соцсетей",
   "overview": [
-    "Digital marketing means different things depending on who's selling it. For us, it means one thing specifically: your advertising, social media, SEO, website and analytics working from a single plan, with one team accountable for how they perform together — not five separate efforts competing for the same budget and attention.",
-    "Most businesses on Koh Phangan, Koh Samui and Koh Tao end up here by accident: a freelancer runs the Instagram, a different agency handles Google Ads, the website was built years ago by someone else, and no one is looking at how those pieces interact. This service exists for businesses that want that coordinated instead — where budget moves toward whatever's actually producing results, informed by data across every channel rather than siloed reporting from each one.",
-    "This is deliberately the broadest page on the site: for the specifics of a single channel, see our Advertising, Google Ads, Social Media Management or SEO pages. This page is where we explain how those pieces fit into one plan, and how we decide, for your business, which parts to prioritize first.",
-    "The three islands add a real layer of complexity worth planning for rather than ignoring: Koh Samui's larger, more established market behaves differently from Koh Phangan's wellness-and-nightlife mix or Koh Tao's diving-driven audience. An integrated strategy accounts for that from the start, rather than running one generic plan across all three."
+    "Digital-маркетинг означает разное в зависимости от того, кто его продаёт. Для нас он означает одно конкретное: ваша реклама, соцсети, SEO, сайт и аналитика работают по единому плану, а одна команда отвечает за то, как они работают вместе, — а не пять отдельных усилий, конкурирующих за один и тот же бюджет и внимание.",
+    "Большинство бизнесов на Ко Пангане, Ко Самуи и Ко Тао приходят к этому случайно: Instagram ведёт фрилансер, Google Ads — другое агентство, сайт много лет назад сделал кто-то третий, и никто не смотрит, как эти части взаимодействуют. Эта услуга существует для бизнесов, которым нужна согласованность: бюджет перетекает туда, где реально есть результат, на основе данных по всем каналам, а не разрозненной отчётности по каждому.",
+    "Это намеренно самая широкая страница сайта: за подробностями по отдельному каналу обращайтесь к страницам «Реклама», Google Ads, «Ведение соцсетей» или SEO. Здесь мы объясняем, как эти части складываются в единый план и как мы решаем для вашего бизнеса, какие части приоритизировать в первую очередь.",
+    "Три острова добавляют реальный слой сложности, который стоит планировать, а не игнорировать: более крупный и устоявшийся рынок Ко Самуи ведёт себя иначе, чем wellness- и ночная жизнь Ко Пангана или аудитория Ко Тао, определяемая дайвингом. Интегрированная стратегия учитывает это с самого начала, а не ведёт один универсальный план на все три острова."
   ],
   "scope": [
     {
-      "title": "Strategy & planning",
-      "description": "Goals, channel mix and budget allocation agreed before any campaign or channel work begins."
+      "title": "Стратегия и планирование",
+      "description": "Цели, набор каналов и распределение бюджета согласуются до начала любой кампании или работы по каналам."
     },
     {
-      "title": "Advertising coordination",
-      "description": "Google Ads and Meta Ads run as part of the wider plan, not as isolated campaigns."
+      "title": "Координация рекламы",
+      "description": "Google Ads и Meta Ads работают как часть общего плана, а не как изолированные кампании."
     },
     {
-      "title": "Content & social",
-      "description": "Social media management and content production aligned to the same strategy and calendar."
+      "title": "Контент и соцсети",
+      "description": "Ведение соцсетей и производство контента согласованы с той же стратегией и календарём."
     },
     {
-      "title": "Website & SEO",
-      "description": "Your site's structure, content and technical SEO built to support the rest of the plan."
+      "title": "Сайт и SEO",
+      "description": "Структура, контент и техническое SEO вашего сайта выстроены так, чтобы поддерживать остальной план."
     },
     {
-      "title": "Analytics & reporting",
-      "description": "One reporting view across every channel, rather than a separate report per vendor."
+      "title": "Аналитика и отчётность",
+      "description": "Единый вид отчётности по всем каналам, а не отдельный отчёт от каждого подрядчика."
     }
   ],
   "benefits": [
     {
-      "title": "One team, one strategy",
-      "description": "Advertising, social, SEO and web decisions are made together instead of in isolation."
+      "title": "Одна команда, одна стратегия",
+      "description": "Решения по рекламе, соцсетям, SEO и сайту принимаются вместе, а не изолированно."
     },
     {
-      "title": "Consistent messaging everywhere",
-      "description": "Your brand and offer look and sound the same across every channel a customer encounters."
+      "title": "Единые сообщения везде",
+      "description": "Ваш бренд и предложение выглядят и звучат одинаково во всех каналах, где с ними сталкивается клиент."
     },
     {
-      "title": "Budget follows performance",
-      "description": "Spend shifts toward whichever channel is actually converting, based on shared data."
+      "title": "Бюджет следует за результатом",
+      "description": "Расходы смещаются в тот канал, который реально конвертирует, на основе общих данных."
     },
     {
-      "title": "One reporting view",
-      "description": "A single, plain-language picture of how the whole marketing effort is performing."
+      "title": "Единый вид отчётности",
+      "description": "Одна понятная картина того, как работает весь маркетинг."
     },
     {
-      "title": "Built to flex with seasonality",
-      "description": "Resources can shift between channels and islands as demand changes through the year."
+      "title": "Гибкость под сезонность",
+      "description": "Ресурсы можно перераспределять между каналами и островами по мере изменения спроса в течение года."
     }
   ],
   "process": [
     {
-      "title": "Discovery & audit",
-      "description": "Review your current marketing, website, channels and goals."
+      "title": "Знакомство и аудит",
+      "description": "Обзор вашего текущего маркетинга, сайта, каналов и целей."
     },
     {
-      "title": "Strategy & channel plan",
-      "description": "Agree priorities, budget split and a realistic sequence of work."
+      "title": "Стратегия и план каналов",
+      "description": "Согласование приоритетов, распределения бюджета и реалистичной последовательности работ."
     },
     {
-      "title": "Production",
-      "description": "Creative, website and content work produced to support the plan."
+      "title": "Производство",
+      "description": "Креатив, сайт и контент создаются в поддержку плана."
     },
     {
-      "title": "Launch across channels",
-      "description": "Advertising, social and SEO work go live in a coordinated sequence."
+      "title": "Запуск по каналам",
+      "description": "Реклама, соцсети и SEO запускаются в скоординированной последовательности."
     },
     {
-      "title": "Measurement & reallocation",
-      "description": "Ongoing reporting drives where budget and effort go next."
+      "title": "Измерение и перераспределение",
+      "description": "Постоянная отчётность определяет, куда пойдут бюджет и усилия дальше."
     }
   ],
   "pricing": [
     {
-      "service": "Digital marketing strategy & audit",
-      "range": "THB 15,000 – 30,000",
-      "note": "Indicative — one-time, cross-channel plan before execution"
+      "service": "Стратегия и аудит digital-маркетинга",
+      "note": "Ориентировочно — разовый межканальный план до реализации",
+      "included": [
+        "Стратегия и аудит цифрового маркетинга",
+        "Межканальный план до реализации"
+      ],
+      "excluded": [
+        "Реализация плана",
+        "Рекламный бюджет — вы платите напрямую платформе"
+      ]
     },
     {
-      "service": "Integrated management retainer",
-      "range": "THB 35,000 – 80,000 / month",
-      "note": "Indicative — advertising, social and SEO coordination; excludes ad spend"
+      "service": "Интегрированное ведение по абонементу",
+      "note": "Ориентировочно — координация рекламы, соцсетей и SEO; без учёта рекламного бюджета",
+      "included": [
+        "Координация рекламы, соцсетей и SEO",
+        "Ежемесячный отчёт"
+      ],
+      "excluded": [
+        "Рекламный бюджет — вы платите напрямую платформе",
+        "Комиссии платформ"
+      ]
     },
     {
-      "service": "Website & SEO foundation",
-      "range": "THB 40,000 – 100,000",
-      "note": "One-time, as part of a broader strategy"
+      "service": "Основа сайта и SEO",
+      "note": "Разово, в рамках более широкой стратегии",
+      "included": [
+        "Основа сайта и SEO как часть более широкой стратегии"
+      ],
+      "excluded": [
+        "Постоянное ведение SEO"
+      ]
     }
   ],
   "useCases": [
     {
-      "title": "Multi-channel hospitality brands",
-      "description": "Hotels and resorts coordinating advertising, social and SEO around occupancy goals."
+      "title": "Бренды гостеприимства с несколькими каналами",
+      "description": "Отели и курорты, координирующие рекламу, соцсети и SEO вокруг целей по загрузке."
     },
     {
-      "title": "Villa & property portfolios",
-      "description": "Consistent marketing across several listings or properties under one strategy."
+      "title": "Портфели вилл и объектов недвижимости",
+      "description": "Единый маркетинг по нескольким объявлениям или объектам в рамках одной стратегии."
     },
     {
-      "title": "Restaurant groups",
-      "description": "Coordinated advertising, social and local visibility across multiple venues."
+      "title": "Ресторанные группы",
+      "description": "Скоординированная реклама, соцсети и локальная видимость для нескольких заведений."
     },
     {
-      "title": "Seasonal tourism businesses",
-      "description": "Businesses that need marketing effort and spend to flex meaningfully with the season."
+      "title": "Сезонный туристический бизнес",
+      "description": "Бизнесы, которым нужно, чтобы маркетинговые усилия и расходы ощутимо менялись вместе с сезоном."
     }
   ],
   "faqs": [
     {
-      "q": "What's the difference between digital marketing and just running ads?",
-      "a": "Advertising is one channel; digital marketing coordinates advertising with social media, SEO, your website and analytics as a single strategy."
+      "q": "Чем digital-маркетинг отличается от простого запуска рекламы?",
+      "a": "Реклама — один канал; digital-маркетинг координирует рекламу с соцсетями, SEO, вашим сайтом и аналитикой как единую стратегию."
     },
     {
-      "q": "Do I need a website before starting digital marketing?",
-      "a": "It helps, since your site is usually where campaigns send people, but we can include building or improving it as part of the plan."
+      "q": "Нужен ли мне сайт до начала digital-маркетинга?",
+      "a": "Это помогает, поскольку сайт обычно и есть то место, куда кампании приводят людей, но мы можем включить его создание или улучшение в план."
     },
     {
-      "q": "How do you decide which channels to prioritize first?",
-      "a": "Based on your goals, budget and where your customers already are — we recommend a realistic starting point rather than launching everything at once."
+      "q": "Как вы решаете, какие каналы приоритизировать первыми?",
+      "a": "Исходя из ваших целей, бюджета и того, где ваши клиенты уже находятся, — мы рекомендуем реалистичную отправную точку, а не запуск всего сразу."
     },
     {
-      "q": "Can you manage everything, or do I need separate vendors?",
-      "a": "We can manage advertising, social, SEO and your website as one team, or work alongside an in-house person or existing vendor where that makes sense."
+      "q": "Можете ли вы вести всё или мне нужны отдельные подрядчики?",
+      "a": "Мы можем вести рекламу, соцсети, SEO и ваш сайт как одна команда или работать вместе с сотрудником у вас или существующим подрядчиком, где это целесообразно."
     },
     {
-      "q": "How is budget split between advertising spend and your management fee?",
-      "a": "Ad spend goes directly to Google or Meta; our management fee covers strategy, production and ongoing optimization, and we'll be clear about both."
+      "q": "Как распределяется бюджет между рекламными расходами и вашим вознаграждением за управление?",
+      "a": "Рекламный бюджет идёт напрямую Google или Meta; наше вознаграждение покрывает стратегию, производство и постоянную оптимизацию, и мы чётко назовём обе части."
     },
     {
-      "q": "How long before we see results across an integrated strategy?",
-      "a": "Advertising can show results within weeks; SEO and organic social typically compound over a longer period — we'll set expectations per channel."
+      "q": "Как скоро мы увидим результаты интегрированной стратегии?",
+      "a": "Реклама может показать результат уже через недели; SEO и органические соцсети обычно накапливают эффект дольше — ожидания мы согласуем по каждому каналу."
     },
     {
-      "q": "Can this start small and grow over time?",
-      "a": "Yes — many clients start with one or two channels and expand into a fuller integrated strategy as budget and results allow."
+      "q": "Можно ли начать с малого и расти со временем?",
+      "a": "Да — многие клиенты начинают с одного-двух каналов и расширяются до более полной интегрированной стратегии по мере бюджета и результатов."
     },
     {
-      "q": "Do you work with businesses that already have some of these pieces in place?",
-      "a": "Yes, regularly — we'll audit what's already working and build the strategy around it rather than starting from zero unnecessarily."
+      "q": "Работаете ли вы с бизнесами, у которых уже есть часть этих элементов?",
+      "a": "Да, регулярно — мы проводим аудит того, что уже работает, и строим стратегию вокруг этого, а не начинаем с нуля без необходимости."
     }
   ],
   "related": [
     {
-      "label": "Advertising",
-      "description": "The paid channel most integrated strategies start with."
+      "label": "Реклама",
+      "description": "Платный канал, с которого начинается большинство интегрированных стратегий."
     },
     {
-      "label": "Websites & Digital",
-      "description": "Web design, technical SEO and AI search visibility."
+      "label": "Сайты и digital",
+      "description": "Веб-дизайн, техническое SEO и видимость в AI-поиске."
     },
     {
       "label": "SEO",
-      "description": "The organic search work that compounds alongside advertising."
+      "description": "Органический поиск, эффект от которого накапливается вместе с рекламой."
     }
   ],
-  "finalCtaLabel": "Start a Project"
+  "finalCtaLabel": "Составить маркетинговый план"
 }

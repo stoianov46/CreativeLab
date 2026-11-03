@@ -73,9 +73,27 @@ export const webDesignService: ServicePage = {
     { title: "Launch", description: "Testing across devices, then go-live with analytics and tracking in place." },
   ],
   pricing: [
-    { service: "Website design (5-page landing)", range: "THB 40,000 – 100,000", note: "Responsive + SEO-ready" },
-    { service: "Website design (multi-page business site)", range: "THB 90,000 – 180,000", note: "8–15 pages, CMS-ready" },
-    { service: "Multi-island content add-on", range: "THB 8,000 – 20,000", note: "Indicative — for sites presenting service areas across islands" },
+    {
+      service: "Website design (5-page landing)",
+      priceId: "websites-digital.web-design.1",
+      note: "Responsive + SEO-ready",
+      included: ["5-page responsive landing website", "SEO-ready structure"],
+      excluded: ["Copywriting", "Photography", "Hosting and domain fees"],
+    },
+    {
+      service: "Website design (multi-page business site)",
+      priceId: "websites-digital.web-design.2",
+      note: "8–15 pages, CMS-ready",
+      included: ["Multi-page business website of 8–15 pages", "CMS-ready build"],
+      excluded: ["Copywriting", "Photography", "Hosting and domain fees"],
+    },
+    {
+      service: "Multi-island content add-on",
+      priceId: "services.web-design.1",
+      note: "Indicative — for sites presenting service areas across islands",
+      included: ["Content presenting service areas across several islands"],
+      excluded: ["Copywriting", "Hosting and domain fees"],
+    },
   ],
   useCases: [
     {

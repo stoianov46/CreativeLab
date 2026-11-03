@@ -9,7 +9,7 @@ export const brandsLifestyleIndustry: IndustryPage = {
   primaryKeyword: "lifestyle brand marketing agency",
   metaTitle: "Lifestyle Brand Marketing Agency",
   metaDescription:
-    "Branding, photography and social content for fashion, cafés, beach clubs and product brands on Koh Phangan, Koh Samui and Koh Tao.",
+    "Branding, photography and social content for fashion, cafés, beach clubs and product brands on Koh Phangan, Koh Samui and Koh Tao — one team, one look.",
   directAnswer:
     "CreativeLAB builds branding, photography and social content for fashion labels, cafés, product brands and beach clubs across Koh Phangan, Koh Samui and Koh Tao — creative and production for businesses whose identity is as much a part of the sale as the product itself.",
   heroSupport:

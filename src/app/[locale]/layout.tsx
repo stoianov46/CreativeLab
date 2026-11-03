@@ -6,11 +6,12 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { MobileContactBar } from "@/components/layout/MobileContactBar";
 import { LanguageSuggestion } from "@/components/layout/LanguageSuggestion";
+import { AttributionCapture } from "@/components/layout/AttributionCapture";
 import { Analytics } from "@/components/layout/Analytics";
 import { images } from "@/assets/images";
 import { telegramLink, whatsappLink } from "@/lib/integrations";
 import { SITE } from "@/content/site";
-import { jsonLdGraph, organizationSchema } from "@/lib/schema";
+import { jsonLdGraph, organizationSchema, websiteSchema } from "@/lib/schema";
 import { LOCALES, isLocale, isRtl, toLocale, type Locale } from "@/content/i18n";
 import { getPrimaryNav, getUi } from "@/content/translations";
 
@@ -62,6 +63,12 @@ export async function generateMetadata(
       template: `%s | ${SITE.name}`,
     },
     description: ui.defaultDescription,
+    // Search Console / Yandex Webmaster ownership tags. Emitted only once the
+    // owner sets the codes (public by design: they end up in the page HTML).
+    verification: {
+      google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || undefined,
+      yandex: process.env.NEXT_PUBLIC_YANDEX_VERIFICATION || undefined,
+    },
   };
 }
 
@@ -81,7 +88,7 @@ export default async function RootLayout({
   const { locale } = await params;
   if (!isLocale(locale)) notFound();
 
-  const graph = jsonLdGraph([organizationSchema()]);
+  const graph = jsonLdGraph([organizationSchema(), websiteSchema()]);
   const ui = getUi(locale);
   const rtl = isRtl(locale);
 
@@ -119,6 +126,7 @@ export default async function RootLayout({
           copy={Object.fromEntries(LOCALES.map((l) => [l, getUi(l).languageSuggestion])) as Record<Locale, typeof ui.languageSuggestion>}
         />
         <Analytics ui={ui.consent} />
+        <AttributionCapture />
       </body>
     </html>
   );

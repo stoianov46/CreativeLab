@@ -11,7 +11,7 @@ export const hotelsResortsIndustry: IndustryPage = {
   metaDescription:
     "Marketing for hotels, resorts and guesthouses on Koh Phangan, Koh Samui and Koh Tao — photography, content, ads and Google presence for direct bookings.",
   directAnswer:
-    "CreativeLAB markets hotels, resorts and guesthouses across Koh Phangan, Koh Samui and Koh Tao — photography and video, social content, Google Ads and Meta Ads, and Google Business Profile management aimed at winning more direct bookings alongside OTA listings.",
+    "CreativeLAB markets hotels, resorts and guesthouses across Koh Phangan, Koh Samui and Koh Tao — photography and video, social content, Google Ads and Meta Ads, and Google Business Profile management aimed at winning more direct bookings alongside OTA listings, for properties of every size.",
   heroSupport:
     "Photography, content, advertising and local presence for properties competing for direct bookings, not just OTA traffic.",
   heroImage: images.team,

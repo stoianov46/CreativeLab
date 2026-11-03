@@ -84,18 +84,24 @@ export const contentCreationService: ServicePage = {
   pricing: [
     {
       service: "Half-day content shoot",
-      range: "THB 10,000 – 20,000",
+      priceId: "social-media.content-creation.1",
       note: "Photo and short video, edited for multiple channels",
+      included: ["Half-day shoot", "Photo and short video, edited"],
+      excluded: ["Travel to Koh Samui or Koh Tao", "Publishing and account management"],
     },
     {
       service: "Full-day content shoot",
-      range: "THB 18,000 – 35,000",
+      priceId: "social-media.content-creation.2",
       note: "Extended shot list, multiple setups or locations",
+      included: ["Full-day shoot", "Extended shot list with multiple setups", "Photo and short video, edited"],
+      excluded: ["Travel to Koh Samui or Koh Tao", "Publishing and account management"],
     },
     {
       service: "Multi-channel content package (social + ads + web)",
-      range: "THB 22,000 – 45,000",
+      priceId: "services.content-creation.1",
       note: "Indicative — one shoot, formatted and delivered for several destinations",
+      included: ["One shoot, formatted and delivered for social, ads and web"],
+      excluded: ["Travel to Koh Samui or Koh Tao", "Publishing and account management"],
     },
   ],
   useCases: [

@@ -18,6 +18,7 @@ import {
   JOURNAL_PAGE,
   PORTFOLIO_PAGE,
   PRIVACY_PAGE,
+  COOKIES_PAGE,
   TERMS_PAGE,
   SERVICES_INDEX,
   INDUSTRIES_INDEX,
@@ -30,10 +31,12 @@ import { SERVICE_LANDINGS } from "./services";
 import { INDUSTRIES } from "./industries";
 import { LOCATIONS } from "./locations";
 import { CASE_STUDIES } from "./case-studies";
+import { CONCEPTS } from "./concepts";
 import { ARTICLES } from "./journal";
 import type {
   Article,
   CaseStudy,
+  ConceptProject,
   HubPage,
   IndustryPage,
   LocationPage,
@@ -60,6 +63,7 @@ export const PAGES = {
   caseStudies: CASE_STUDIES_PAGE,
   journal: JOURNAL_PAGE,
   privacy: PRIVACY_PAGE,
+  cookies: COOKIES_PAGE,
   terms: TERMS_PAGE,
   servicesIndex: SERVICES_INDEX,
   industriesIndex: INDUSTRIES_INDEX,
@@ -78,6 +82,7 @@ export const TRANSLATION_SOURCES: Record<string, unknown> = {
   "ui.json": UI,
   "pages.json": PAGES,
   "case-studies.json": CASE_STUDIES,
+  "concepts.json": CONCEPTS,
   "journal.json": ARTICLES,
   ...Object.fromEntries(HUBS.map((hub) => [`hubs/${hub.slug}.json`, hub])),
   ...Object.fromEntries(SERVICE_LANDINGS.map((page) => [`services/${page.slug}.json`, page])),
@@ -120,6 +125,10 @@ export const getLocations = memo((locale): LocationPage[] =>
 
 export const getCaseStudies = memo((locale): CaseStudy[] =>
   localize(CASE_STUDIES, overlay(locale, "case-studies.json"))
+);
+
+export const getConcepts = memo((locale): ConceptProject[] =>
+  localize(CONCEPTS, overlay(locale, "concepts.json"))
 );
 
 export const getArticles = memo((locale): Article[] =>
@@ -222,6 +231,7 @@ export const getFooterColumns = memo((locale) => {
         { label: ui.nav.contact, href: "/contact" },
         { label: ui.cta.startProject, href: "/contact" },
         { label: ui.nav.privacy, href: "/privacy" },
+        { label: ui.nav.cookies, href: "/cookies" },
         { label: ui.nav.terms, href: "/terms" },
         { label: ui.nav.editorial, href: "/editorial-policy" },
         { label: ui.nav.accessibility, href: "/accessibility" },

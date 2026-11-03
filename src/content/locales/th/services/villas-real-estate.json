@@ -1,147 +1,163 @@
 {
-  "navLabel": "Villas Real Estate",
-  "h1": "Villas Real Estate",
-  "primaryKeyword": "real estate marketing Koh Phangan",
+  "navLabel": "วิลล่าและอสังหาริมทรัพย์",
+  "h1": "การตลาดวิลล่าและอสังหาริมทรัพย์สำหรับเกาะพะงัน เกาะสมุย และเกาะเต่า",
+  "primaryKeyword": "การตลาดอสังหาริมทรัพย์เกาะพะงัน",
   "secondaryTopics": [
-    "villa marketing",
-    "property marketing",
-    "villa photography",
-    "real estate advertising"
+    "การตลาดวิลล่า",
+    "การตลาดทรัพย์สิน",
+    "การถ่ายภาพวิลล่า",
+    "โฆษณาอสังหาริมทรัพย์"
   ],
-  "metaTitle": "Villas Real Estate",
-  "metaDescription": "Villa and property marketing across Koh Phangan, Koh Samui and Koh Tao — photography, video, listing content and advertising for owners, agents and developers.",
-  "directAnswer": "CreativeLAB markets villas, land and property developments for owners, agents and developers across Koh Phangan, Koh Samui and Koh Tao — combining photography, video, listing content, social media and advertising into one connected program, rather than a single photography shoot on its own.",
-  "heroSupport": "A full marketing partner for villa and property listings across the three islands, not just a photographer for hire.",
-  "heroImageAlt": "Villa exterior photographed for a real estate listing on the coast",
+  "metaTitle": "การตลาดวิลล่าและอสังหาริมทรัพย์ เกาะพะงัน",
+  "metaDescription": "การตลาดวิลล่าและทรัพย์สินทั่วเกาะพะงัน เกาะสมุย และเกาะเต่า ภาพถ่าย วิดีโอ เนื้อหาประกาศ และโฆษณาสำหรับเจ้าของ เอเจนต์ และผู้พัฒนา",
+  "directAnswer": "CreativeLAB ทำการตลาดวิลล่า ที่ดิน และโครงการพัฒนาอสังหาริมทรัพย์ให้เจ้าของ เอเจนต์ และผู้พัฒนาทั่วเกาะพะงัน เกาะสมุย และเกาะเต่า รวมภาพถ่าย วิดีโอ เนื้อหาประกาศ โซเชียลมีเดีย และโฆษณาเป็นโปรแกรมที่เชื่อมต่อกัน ไม่ใช่งานถ่ายภาพเดี่ยว ๆ",
+  "heroSupport": "พันธมิตรการตลาดเต็มรูปแบบสำหรับประกาศวิลล่าและทรัพย์สินทั่วสามเกาะ ไม่ใช่แค่ช่างภาพรับจ้าง",
+  "heroImageAlt": "ภายนอกวิลล่าที่ถ่ายสำหรับประกาศอสังหาริมทรัพย์ริมชายฝั่ง",
   "overview": [
-    "Villa and land marketing across Koh Phangan, Koh Samui and Koh Tao is usually bought piecemeal — a photographer for the listing photos, a separate freelancer for social posts, and an ad account nobody's monitoring closely. Each piece looks fine on its own, but nothing reinforces anything else, and buyers see an inconsistent picture of the same property across platforms.",
-    "We treat a property listing as a marketing problem, not just a photography job. The same visual set — interiors, exteriors, drone and video — gets structured to work across your listing pages, social channels and paid campaigns, so a buyer scrolling Instagram, browsing Airbnb or clicking a Meta ad sees the same considered presentation of the property, whether it's on Koh Phangan, Koh Samui or Koh Tao.",
-    "This page is the general entry point to how we approach villa and real estate marketing across all three islands — who it's for and how the pieces connect. For the detailed breakdown of individual services (villa photography, drone, video, virtual tours and full marketing packages) with scope, process and pricing, see our Villas & Real Estate hub, which is the canonical version of this content.",
-    "The three islands differ enough that a single approach doesn't fit all of them — Koh Samui's more developed resale and rental market moves differently from land sales on Koh Phangan or smaller coastal listings on Koh Tao — and we scope each project around the island and the type of buyer it's actually competing for."
+    "การตลาดวิลล่าและที่ดินทั่วเกาะพะงัน เกาะสมุย และเกาะเต่ามักถูกซื้อเป็นชิ้น ๆ ช่างภาพสำหรับภาพประกาศ ฟรีแลนซ์แยกสำหรับโพสต์โซเชียล และบัญชีโฆษณาที่ไม่มีใครดูแลใกล้ชิด แต่ละชิ้นดูดีเมื่ออยู่ลำพัง แต่ไม่มีอะไรเสริมกัน และผู้ซื้อเห็นภาพที่ไม่สอดคล้องของทรัพย์สินเดียวกันข้ามแพลตฟอร์ม",
+    "เราถือว่าประกาศทรัพย์สินเป็นปัญหาการตลาด ไม่ใช่แค่งานถ่ายภาพ ชุดภาพเดียวกัน ภายใน ภายนอก โดรน และวิดีโอ ถูกจัดโครงสร้างให้ใช้ได้ทั่วหน้าประกาศ ช่องทางโซเชียล และแคมเปญแบบเสียเงิน ผู้ซื้อที่เลื่อน Instagram เรียกดู Airbnb หรือคลิกโฆษณา Meta จึงเห็นการนำเสนอทรัพย์สินที่ผ่านการคิดเหมือนกัน ไม่ว่าจะอยู่บนเกาะพะงัน เกาะสมุย หรือเกาะเต่า",
+    "หน้านี้คือทางเข้าทั่วไปสู่วิธีที่เราทำการตลาดวิลล่าและอสังหาริมทรัพย์ทั่วสามเกาะ เหมาะกับใครและชิ้นส่วนเชื่อมต่อกันอย่างไร สำหรับรายละเอียดบริการแต่ละอย่าง (ถ่ายภาพวิลล่า โดรน วิดีโอ ทัวร์เสมือนจริง และแพ็กเกจการตลาดเต็มรูปแบบ) พร้อมขอบเขต กระบวนการ และราคา ดูหมวดวิลล่าและอสังหาริมทรัพย์ของเรา ซึ่งเป็นเวอร์ชันหลักของเนื้อหานี้",
+    "สามเกาะต่างกันมากพอที่แนวทางเดียวไม่เหมาะกับทั้งหมด ตลาดขายต่อและเช่าที่พัฒนากว่าของเกาะสมุยเคลื่อนต่างจากการขายที่ดินบนเกาะพะงันหรือประกาศชายฝั่งขนาดเล็กบนเกาะเต่า และเรากำหนดขอบเขตแต่ละโปรเจกต์รอบเกาะและประเภทผู้ซื้อที่ทรัพย์สินแข่งขันเพื่อจริง"
   ],
   "scope": [
     {
-      "title": "Visual production",
-      "description": "Villa, land and architecture photography, drone and video, produced to a consistent standard across islands."
+      "title": "การผลิตภาพ",
+      "description": "ภาพถ่ายวิลล่า ที่ดิน และสถาปัตยกรรม โดรน และวิดีโอ ผลิตตามมาตรฐานสม่ำเสมอข้ามเกาะ"
     },
     {
-      "title": "Listing content",
-      "description": "Copy and structure for listing platforms, agency sites and your own property website."
+      "title": "เนื้อหาประกาศ",
+      "description": "คำบรรยายและโครงสร้างสำหรับแพลตฟอร์มลงประกาศ เว็บไซต์เอเจนซี่ และเว็บไซต์ทรัพย์สินของคุณเอง"
     },
     {
-      "title": "Social and advertising",
-      "description": "A content and paid media plan built around the specific property or portfolio being marketed."
+      "title": "โซเชียลและโฆษณา",
+      "description": "แผนคอนเทนต์และสื่อแบบเสียเงินที่สร้างรอบทรัพย์สินหรือพอร์ตโฟลิโอที่ทำการตลาดโดยเฉพาะ"
     },
     {
-      "title": "Cross-island coordination",
-      "description": "Scheduling and logistics for shoots and campaigns spanning more than one of the three islands."
+      "title": "การประสานงานข้ามเกาะ",
+      "description": "การจัดตารางและโลจิสติกส์สำหรับงานถ่ายและแคมเปญที่ครอบคลุมมากกว่าหนึ่งในสามเกาะ"
     }
   ],
   "benefits": [
     {
-      "title": "One consistent presentation",
-      "description": "The same visuals and messaging carried across listings, social media and advertising."
+      "title": "การนำเสนอที่สอดคล้องหนึ่งเดียว",
+      "description": "ภาพและข้อความเดียวกันส่งต่อทั่วประกาศ โซเชียลมีเดีย และโฆษณา"
     },
     {
-      "title": "Built for how buyers actually decide",
-      "description": "Most buyers form a judgment from photos and video before ever messaging — the production is built around that."
+      "title": "สร้างตามวิธีที่ผู้ซื้อตัดสินใจจริง",
+      "description": "ผู้ซื้อส่วนใหญ่ตัดสินจากภาพถ่ายและวิดีโอก่อนส่งข้อความ การผลิตสร้างรอบสิ่งนั้น"
     },
     {
-      "title": "Works across all three islands",
-      "description": "A single marketing partner for property portfolios that span Koh Phangan, Koh Samui and Koh Tao."
+      "title": "ใช้ได้ทั่วทั้งสามเกาะ",
+      "description": "พันธมิตรการตลาดเดียวสำหรับพอร์ตโฟลิโอทรัพย์สินที่ครอบคลุมเกาะพะงัน เกาะสมุย และเกาะเต่า"
     },
     {
-      "title": "Scales from one villa to a full portfolio",
-      "description": "The same approach works for an individual owner or an agency managing multiple listings."
+      "title": "ขยายได้ตั้งแต่วิลล่าหลังเดียวถึงพอร์ตโฟลิโอเต็มรูปแบบ",
+      "description": "แนวทางเดียวกันใช้ได้กับเจ้าของรายเดียวหรือเอเจนซี่ที่ดูแลหลายประกาศ"
     }
   ],
   "process": [
     {
-      "title": "Discovery",
-      "description": "Understand the property, target buyer or renter, and which island's market it's competing in."
+      "title": "ค้นหาข้อมูล",
+      "description": "เข้าใจทรัพย์สิน ผู้ซื้อหรือผู้เช่าเป้าหมาย และตลาดของเกาะไหนที่แข่งขันอยู่"
     },
     {
-      "title": "Production",
-      "description": "Photography, video, drone and any additional assets are produced on-site."
+      "title": "การผลิต",
+      "description": "ผลิตภาพถ่าย วิดีโอ โดรน และชิ้นงานเพิ่มเติมใด ๆ หน้างาน"
     },
     {
-      "title": "Launch",
-      "description": "Listing content, social and advertising go live together, not staggered."
+      "title": "เปิดตัว",
+      "description": "เนื้อหาประกาศ โซเชียล และโฆษณาออนแอร์พร้อมกัน ไม่ใช่ทยอยเปิด"
     },
     {
-      "title": "Optimize",
-      "description": "Ongoing adjustment based on inquiries and engagement."
+      "title": "ปรับแต่ง",
+      "description": "ปรับต่อเนื่องตามคำสอบถามและการมีส่วนร่วม"
     }
   ],
   "pricing": [
     {
-      "service": "Property marketing package (single villa)",
-      "range": "THB 35,000 – 80,000",
-      "note": "Visuals + listing + social + launch advertising"
+      "service": "แพ็กเกจการตลาดทรัพย์สิน (วิลล่าหลังเดียว)",
+      "note": "ภาพ + ประกาศ + โซเชียล + โฆษณาเปิดตัว",
+      "included": [
+        "ภาพประกอบอสังหาริมทรัพย์",
+        "ลงรายการ",
+        "คอนเทนต์โซเชียลมีเดีย",
+        "ตั้งค่าโฆษณาเปิดตัว"
+      ],
+      "excluded": [
+        "งบโฆษณา — คุณชำระให้แพลตฟอร์มโดยตรง",
+        "ค่าเดินทางไปเกาะสมุยหรือเกาะเต่า"
+      ]
     },
     {
-      "service": "Portfolio marketing (multiple properties or islands)",
-      "range": "Custom",
-      "note": "Indicative — scoped per portfolio size and island spread"
+      "service": "การตลาดพอร์ตโฟลิโอ (หลายทรัพย์สินหรือหลายเกาะ)",
+      "note": "โดยประมาณ กำหนดขอบเขตตามขนาดพอร์ตโฟลิโอและการกระจายข้ามเกาะ",
+      "included": [
+        "การตลาดสำหรับหลายอสังหาริมทรัพย์หรือหลายเกาะ",
+        "ขอบเขตงานกำหนดตามขนาดพอร์ตโฟลิโอและการกระจายของเกาะ"
+      ],
+      "excluded": [
+        "งบโฆษณา — คุณชำระให้แพลตฟอร์มโดยตรง",
+        "ค่าเดินทางไปเกาะสมุยหรือเกาะเต่า"
+      ]
     }
   ],
   "useCases": [
     {
-      "title": "Independent villa owners",
-      "description": "A complete marketing push beyond a one-off photography shoot, for renting or selling."
+      "title": "เจ้าของวิลล่าอิสระ",
+      "description": "การผลักดันการตลาดครบวงจรเกินกว่างานถ่ายภาพครั้งเดียว สำหรับการเช่าหรือขาย"
     },
     {
-      "title": "Real estate agencies",
-      "description": "A consistent visual and marketing standard across an active listing portfolio spanning islands."
+      "title": "เอเจนซี่อสังหาริมทรัพย์",
+      "description": "มาตรฐานภาพและการตลาดที่สม่ำเสมอข้ามพอร์ตโฟลิโอประกาศที่ใช้งานอยู่ซึ่งครอบคลุมหลายเกาะ"
     },
     {
-      "title": "Developers",
-      "description": "Pre-sale and launch marketing for a development, coordinated with local advertising and social reach."
+      "title": "ผู้พัฒนา",
+      "description": "การตลาดก่อนขายและการเปิดตัวสำหรับโครงการ ประสานกับโฆษณาท้องถิ่นและการเข้าถึงบนโซเชียล"
     }
   ],
   "faqs": [
     {
-      "q": "Do you work on Koh Samui and Koh Tao, or only Koh Phangan properties?",
-      "a": "All three — CreativeLAB is based on Koh Phangan and regularly shoots and markets properties on Koh Samui and Koh Tao as well."
+      "q": "คุณทำงานบนเกาะสมุยและเกาะเต่าไหม หรือเฉพาะทรัพย์สินบนเกาะพะงัน?",
+      "a": "ทั้งสามเกาะ CreativeLAB ตั้งอยู่ที่เกาะพะงันและถ่ายและทำการตลาดทรัพย์สินบนเกาะสมุยและเกาะเต่าเป็นประจำ"
     },
     {
-      "q": "How is this different from the Villas & Real Estate hub page?",
-      "a": "This page introduces our real estate marketing approach across the three islands as a whole; the Villas & Real Estate hub breaks it down into individual services like villa photography, drone, video and virtual tours, each with detailed scope and pricing."
+      "q": "นี่ต่างจากหน้าหมวดวิลล่าและอสังหาริมทรัพย์อย่างไร?",
+      "a": "หน้านี้แนะนำแนวทางการตลาดอสังหาริมทรัพย์ของเราทั่วสามเกาะโดยรวม ส่วนหมวดวิลล่าและอสังหาริมทรัพย์แยกเป็นบริการแต่ละอย่าง เช่น ถ่ายภาพวิลล่า โดรน วิดีโอ และทัวร์เสมือนจริง พร้อมขอบเขตและราคาละเอียด"
     },
     {
-      "q": "Is there a travel fee for shoots on Koh Samui or Koh Tao?",
-      "a": "For on-site shoots away from our base on Koh Phangan, a travel fee may apply since travel between the islands is by boat — we'll confirm this as part of any quote."
+      "q": "มีค่าเดินทางสำหรับงานถ่ายบนเกาะสมุยหรือเกาะเต่าไหม?",
+      "a": "สำหรับงานถ่ายหน้างานนอกฐานของเราที่เกาะพะงัน อาจมีค่าเดินทางเพราะการเดินทางระหว่างเกาะใช้เรือ เราจะยืนยันเป็นส่วนหนึ่งของใบเสนอราคา"
     },
     {
-      "q": "Can you manage marketing for a portfolio spread across more than one island?",
-      "a": "Yes, this is a common scenario for agencies and multi-property owners, and we coordinate scheduling and consistency across the portfolio."
+      "q": "คุณบริหารการตลาดสำหรับพอร์ตโฟลิโอที่กระจายอยู่มากกว่าหนึ่งเกาะได้ไหม?",
+      "a": "ได้ เป็นกรณีที่พบบ่อยสำหรับเอเจนซี่และเจ้าของหลายทรัพย์สิน และเราประสานตารางและความสอดคล้องข้ามพอร์ตโฟลิโอ"
     },
     {
-      "q": "Do you only produce visuals, or handle the full marketing too?",
-      "a": "Both — you can commission a single shoot, or a full program covering listing content, social and advertising."
+      "q": "คุณผลิตแค่ภาพ หรือจัดการการตลาดเต็มรูปแบบด้วย?",
+      "a": "ทั้งสอง คุณว่าจ้างงานถ่ายครั้งเดียว หรือโปรแกรมเต็มรูปแบบที่ครอบคลุมเนื้อหาประกาศ โซเชียล และโฆษณาได้"
     },
     {
-      "q": "Is advertising spend included in a marketing package?",
-      "a": "No — packages cover production and management; ad spend is billed separately, directly to the advertising platform."
+      "q": "ค่าโฆษณารวมอยู่ในแพ็กเกจการตลาดไหม?",
+      "a": "ไม่ แพ็กเกจครอบคลุมการผลิตและการบริหาร ค่าโฆษณาเรียกเก็บแยกโดยตรงกับแพลตฟอร์มโฆษณา"
     },
     {
-      "q": "Do you work with agencies as well as individual owners?",
-      "a": "Yes — we regularly work with agencies, developers and independent owners across the three islands, adapting delivery to each one's needs."
+      "q": "คุณทำงานกับเอเจนซี่เช่นเดียวกับเจ้าของรายบุคคลไหม?",
+      "a": "ทำ เราทำงานกับเอเจนซี่ ผู้พัฒนา และเจ้าของอิสระทั่วสามเกาะเป็นประจำ ปรับการส่งมอบตามความต้องการของแต่ละราย"
     }
   ],
   "related": [
     {
-      "label": "Villas & Real Estate (full hub)",
-      "description": "The complete service breakdown — photography, drone, video, virtual tours and marketing packages."
+      "label": "วิลล่าและอสังหาริมทรัพย์ (หมวดเต็ม)",
+      "description": "รายละเอียดบริการครบถ้วน ถ่ายภาพ โดรน วิดีโอ ทัวร์เสมือนจริง และแพ็กเกจการตลาด"
     },
     {
-      "label": "Real Estate Marketing",
-      "description": "The full property marketing service — scope, process and pricing."
+      "label": "การตลาดอสังหาริมทรัพย์",
+      "description": "บริการการตลาดทรัพย์สินเต็มรูปแบบ ขอบเขต กระบวนการ และราคา"
     },
     {
-      "label": "Villa Website",
-      "description": "A dedicated website for a property or portfolio."
+      "label": "เว็บไซต์วิลล่า",
+      "description": "เว็บไซต์เฉพาะสำหรับทรัพย์สินหรือพอร์ตโฟลิโอ"
     }
   ],
-  "finalCtaLabel": "Start a Project"
+  "finalCtaLabel": "เริ่มโปรเจกต์"
 }

@@ -7,7 +7,7 @@ export const advertisingHub: HubPage = {
   order: 1,
   priority: "P0",
   h1: "Advertising Agency on Koh Phangan",
-  primaryKeyword: "advertising services Koh Phangan",
+  primaryKeyword: "advertising agency Koh Phangan",
   metaTitle: "Advertising Agency Koh Phangan | Google & Meta Ads",
   metaDescription:
     "CreativeLAB runs Google Ads, Meta Ads and campaign launches for businesses on Koh Phangan, Koh Samui and Koh Tao — strategy, creative and tracking in one team.",
@@ -200,18 +200,47 @@ export const advertisingHub: HubPage = {
       pricing: [
         {
           service: "Google Ads setup (new account)",
-          range: "THB 15,000 – 35,000",
+          priceId: "google-ads.setup",
           note: "One-time — strategy, structure, tracking setup",
+          included: [
+            "Keyword research and campaign structure",
+            "Conversion tracking for calls, forms and bookings",
+            "Ad copy for the launch campaigns",
+            "Launch with a conservative test budget",
+          ],
+          excluded: [
+            "Advertising budget — paid directly by you to Google",
+            "Landing page build",
+            "Taxes and platform fees",
+          ],
         },
         {
           service: "Monthly management",
-          range: "THB 12,000 – 30,000",
+          priceId: "google-ads.management",
           note: "Excludes ad spend, billed directly to Google",
+          included: [
+            "Ongoing optimization and bid management",
+            "Search term and negative keyword reviews",
+            "Monthly plain-language report",
+          ],
+          excluded: [
+            "Advertising budget — paid directly by you to Google",
+            "New creative or landing pages",
+            "Taxes and platform fees",
+          ],
         },
         {
           service: "Campaign audit (existing account)",
-          range: "THB 6,000 – 12,000",
+          priceId: "google-ads.audit",
           note: "One-time review with a written action plan",
+          included: [
+            "Account structure, tracking and budget review",
+            "Written action plan with priorities",
+          ],
+          excluded: [
+            "Implementation of the recommendations",
+            "Ongoing management",
+          ],
         },
       ],
       useCases: [
@@ -363,18 +392,47 @@ export const advertisingHub: HubPage = {
       pricing: [
         {
           service: "Meta Ads setup",
-          range: "THB 12,000 – 28,000",
+          priceId: "meta-ads.setup",
           note: "One-time — strategy, account structure, pixel/tracking setup",
+          included: [
+            "Account and business manager setup",
+            "Pixel and conversion tracking",
+            "Audience and campaign structure",
+            "Launch with a conservative test budget",
+          ],
+          excluded: [
+            "Advertising budget — paid directly by you to Meta",
+            "Ad creative production",
+            "Taxes and platform fees",
+          ],
         },
         {
           service: "Monthly management",
-          range: "THB 10,000 – 25,000",
+          priceId: "meta-ads.management",
           note: "Excludes ad spend, billed directly to Meta",
+          included: [
+            "Ongoing audience and budget optimization",
+            "Creative performance review",
+            "Monthly plain-language report",
+          ],
+          excluded: [
+            "Advertising budget — paid directly by you to Meta",
+            "New creative production",
+            "Taxes and platform fees",
+          ],
         },
         {
           service: "Ad creative pack (5 assets)",
-          range: "THB 6,000 – 15,000",
+          priceId: "meta-ads.creative-pack",
           note: "Static or short-form video, platform-ready",
+          included: [
+            "5 platform-ready ad assets (static or short-form video)",
+            "Formats for feed, Stories and Reels placements",
+          ],
+          excluded: [
+            "Ad management or ad spend",
+            "Location shoots requiring travel",
+          ],
         },
       ],
       useCases: [
@@ -469,13 +527,35 @@ export const advertisingHub: HubPage = {
       pricing: [
         {
           service: "Campaign launch (single platform)",
-          range: "THB 25,000 – 55,000",
+          priceId: "campaign-launch.single",
           note: "Strategy, one platform's creative and setup",
+          included: [
+            "Campaign strategy and messaging",
+            "Creative and setup for one platform",
+            "Conversion tracking",
+            "Launch and first-weeks monitoring",
+          ],
+          excluded: [
+            "Advertising budget — paid directly by you to the platform",
+            "Ongoing monthly management",
+            "Taxes and platform fees",
+          ],
         },
         {
           service: "Campaign launch (multi-platform)",
-          range: "THB 45,000 – 95,000",
+          priceId: "campaign-launch.multi",
           note: "Google + Meta, coordinated creative and tracking",
+          included: [
+            "Campaign strategy and messaging for Google and Meta",
+            "Coordinated creative and setup on both platforms",
+            "Shared conversion tracking",
+            "Launch and first-weeks monitoring",
+          ],
+          excluded: [
+            "Advertising budget — paid directly by you to each platform",
+            "Ongoing monthly management",
+            "Taxes and platform fees",
+          ],
         },
       ],
       useCases: [
@@ -569,13 +649,31 @@ export const advertisingHub: HubPage = {
       pricing: [
         {
           service: "Performance marketing retainer",
-          range: "THB 20,000 – 50,000 / month",
+          priceId: "performance.retainer",
           note: "Cross-channel management, excludes ad spend",
+          included: [
+            "Cross-channel campaign management",
+            "Budget allocation across channels",
+            "Monthly report with cost per result",
+          ],
+          excluded: [
+            "Advertising budget — paid directly by you to each platform",
+            "New creative production",
+            "Taxes and platform fees",
+          ],
         },
         {
           service: "Tracking & analytics audit",
-          range: "THB 8,000 – 15,000",
+          priceId: "performance.analytics-audit",
           note: "One-time — identifies measurement gaps",
+          included: [
+            "Review of tracking, events and attribution",
+            "Written list of measurement gaps with fixes",
+          ],
+          excluded: [
+            "Implementation of the fixes",
+            "Ongoing reporting",
+          ],
         },
       ],
       useCases: [

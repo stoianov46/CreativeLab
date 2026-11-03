@@ -1,168 +1,194 @@
 {
   "navLabel": "Google Ads",
-  "h1": "Google Ads",
-  "primaryKeyword": "Google Ads agency Koh Phangan, Koh Samui and Koh Tao",
+  "h1": "Google Ads สำหรับธุรกิจบนเกาะพะงัน เกาะสมุย และเกาะเต่า",
+  "primaryKeyword": "เอเจนซี่ Google Ads เกาะพะงัน เกาะสมุย และเกาะเต่า",
   "secondaryTopics": [
-    "Google Ads management",
-    "search advertising",
-    "PPC across the islands",
-    "Google Ads and SEO"
+    "การบริหาร Google Ads",
+    "โฆษณาบนการค้นหา",
+    "PPC ทั่วเกาะ",
+    "Google Ads และ SEO"
   ],
-  "metaTitle": "Google Ads",
-  "metaDescription": "Google Ads for businesses on Koh Phangan, Koh Samui and Koh Tao — who it's for, how we plan and measure campaigns, and how it fits with Meta Ads and SEO.",
-  "directAnswer": "Google Ads puts your business in front of people actively searching for what you offer. CreativeLAB plans, sets up and manages Google Ads for businesses on Koh Phangan, Koh Samui and Koh Tao, deciding budget and geo-targeting per island and tracking every result so you know what each lead costs.",
-  "heroSupport": "Who Google Ads is for, how we plan and measure it across three islands, and how it fits alongside Meta Ads and SEO.",
-  "heroImageAlt": "Marketer reviewing Google Ads performance across island campaigns",
+  "metaTitle": "เอเจนซี่ Google Ads เกาะพะงัน สมุย และเต่า",
+  "metaDescription": "Google Ads สำหรับธุรกิจบนเกาะพะงัน เกาะสมุย และเกาะเต่า เหมาะกับใคร เราวางแผนและวัดผลแคมเปญอย่างไร และเข้ากับ Meta Ads และ SEO อย่างไร",
+  "directAnswer": "Google Ads ทำให้ธุรกิจของคุณอยู่ตรงหน้าผู้คนที่กำลังค้นหาสิ่งที่คุณเสนอ CreativeLAB วางแผน ตั้งค่า และบริหาร Google Ads ให้ธุรกิจบนเกาะพะงัน เกาะสมุย และเกาะเต่า กำหนดงบและการกำหนดเป้าหมายตามภูมิศาสตร์ต่อเกาะ และติดตามทุกผลลัพธ์เพื่อให้คุณรู้ว่าลีดแต่ละรายมีต้นทุนเท่าไร",
+  "heroSupport": "Google Ads เหมาะกับใคร เราวางแผนและวัดผลข้ามสามเกาะอย่างไร และเข้ากับ Meta Ads และ SEO อย่างไร",
+  "heroImageAlt": "นักการตลาดกำลังทบทวนประสิทธิภาพ Google Ads ข้ามแคมเปญบนเกาะ",
   "overview": [
-    "Google Ads works best for businesses whose customers already know what they're looking for — someone searching 'villa for rent Koh Phangan', 'restaurant near Chaweng' or 'dive shop Koh Tao'. If that describes how people find you, Google Ads is usually worth testing; if your business depends more on discovery than search, Meta Ads or social content will likely do more work first. This page covers the overall offer; for the detailed account setup and tracking process, see our Google Ads service under Advertising.",
-    "How we plan it starts with the island, not the keyword. Koh Samui's larger, airport-connected market supports broader search volume and more competitive keywords; Koh Phangan's demand shifts sharply with wellness season and Full Moon Party traffic; Koh Tao's is smaller and concentrated around diving and marine tourism. Budget, geo-targeting radius and even which keywords are worth bidding on differ by island, so campaigns are structured per island rather than lumped into one generic account.",
-    "How we measure it is the same discipline regardless of island: conversion tracking — calls, form fills or booking events — set up before a campaign launches, so performance is judged on actual leads and bookings rather than clicks or impressions. You always know what a result cost you, and reporting is written in plain language rather than a raw platform export.",
-    "How it fits alongside Meta and SEO: Google Ads is the fastest lever, because it captures demand that already exists. Meta Ads builds awareness with people who aren't searching yet, and SEO compounds slowly toward the same searches Google Ads captures immediately. Most businesses get the strongest result running Google Ads while SEO builds in the background, then easing paid spend as organic rankings take over — we'll recommend that sequencing specifically for your situation rather than running all three at full intensity from day one."
+    "Google Ads ได้ผลดีที่สุดกับธุรกิจที่ลูกค้ารู้อยู่แล้วว่ากำลังมองหาอะไร เช่น ผู้ที่ค้นหา 'วิลล่าให้เช่าเกาะพะงัน' 'ร้านอาหารใกล้เฉวง' หรือ 'ร้านดำน้ำเกาะเต่า' หากนั่นคือวิธีที่ผู้คนค้นพบคุณ Google Ads มักคุ้มค่าที่จะทดสอบ หากธุรกิจของคุณพึ่งการค้นพบมากกว่าการค้นหา Meta Ads หรือคอนเทนต์โซเชียลน่าจะทำงานได้มากกว่าก่อน หน้านี้ครอบคลุมข้อเสนอโดยรวม สำหรับรายละเอียดการตั้งค่าบัญชีและกระบวนการติดตาม ดูบริการ Google Ads ของเราภายใต้โฆษณา",
+    "วิธีที่เราวางแผนเริ่มจากเกาะ ไม่ใช่คีย์เวิร์ด ตลาดที่ใหญ่กว่าและเชื่อมกับสนามบินของเกาะสมุยรองรับปริมาณการค้นหาที่กว้างกว่าและคีย์เวิร์ดที่แข่งขันสูงกว่า ความต้องการของเกาะพะงันเปลี่ยนอย่างมากตามฤดูเวลเนสและทราฟฟิกฟูลมูนปาร์ตี้ ส่วนเกาะเต่าเล็กกว่าและกระจุกอยู่รอบการดำน้ำและการท่องเที่ยวทางทะเล งบ รัศมีการกำหนดเป้าหมายตามภูมิศาสตร์ และแม้แต่คีย์เวิร์ดที่คุ้มค่าจะประมูลต่างกันตามเกาะ แคมเปญจึงจัดโครงสร้างตามเกาะ แทนที่จะรวมเป็นบัญชีทั่วไปเดียว",
+    "วิธีที่เราวัดผลเป็นวินัยเดียวกันไม่ว่าเกาะไหน การติดตามคอนเวอร์ชัน สายโทร การกรอกฟอร์ม หรือเหตุการณ์การจอง ตั้งค่าก่อนแคมเปญเปิดตัว ผลงานจึงตัดสินจากลีดและการจองจริง ไม่ใช่คลิกหรือการแสดงผล คุณรู้เสมอว่าผลลัพธ์มีต้นทุนเท่าไร และการรายงานเขียนด้วยภาษาเข้าใจง่ายแทนข้อมูลดิบที่ส่งออกจากแพลตฟอร์ม",
+    "วิธีที่เข้ากับ Meta และ SEO Google Ads เป็นคันโยกที่เร็วที่สุด เพราะจับความต้องการที่มีอยู่แล้ว Meta Ads สร้างการรับรู้กับคนที่ยังไม่ได้ค้นหา และ SEO ค่อย ๆ ทบต้นไปสู่การค้นหาเดียวกับที่ Google Ads จับได้ทันที ธุรกิจส่วนใหญ่ได้ผลแข็งแรงที่สุดจากการรัน Google Ads ขณะที่ SEO สร้างอยู่เบื้องหลัง แล้วค่อยลดค่าใช้จ่ายแบบเสียเงินเมื่ออันดับออร์แกนิกเข้ามาแทน เราจะแนะนำลำดับนั้นเฉพาะกับสถานการณ์ของคุณ แทนที่จะรันทั้งสามด้วยความเข้มข้นเต็มที่ตั้งแต่วันแรก"
   ],
   "scope": [
     {
-      "title": "Fit assessment",
-      "description": "An honest read on whether Google Ads suits your business and search intent before we recommend spending on it."
+      "title": "การประเมินความเหมาะสม",
+      "description": "การอ่านอย่างซื่อตรงว่า Google Ads เหมาะกับธุรกิจและเจตนาการค้นหาของคุณหรือไม่ ก่อนเราแนะนำให้ใช้เงินกับมัน"
     },
     {
-      "title": "Cross-island planning",
-      "description": "Budget and geo-targeting strategy built separately for Koh Phangan, Koh Samui and Koh Tao."
+      "title": "การวางแผนข้ามเกาะ",
+      "description": "กลยุทธ์งบประมาณและการกำหนดเป้าหมายตามภูมิศาสตร์ที่สร้างแยกสำหรับเกาะพะงัน เกาะสมุย และเกาะเต่า"
     },
     {
-      "title": "Measurement framework",
-      "description": "Conversion tracking for calls, forms or bookings, set up before any campaign goes live."
+      "title": "กรอบการวัดผล",
+      "description": "การติดตามคอนเวอร์ชันสำหรับสายโทร ฟอร์ม หรือการจอง ตั้งค่าก่อนแคมเปญใดออนแอร์"
     },
     {
-      "title": "Coordination with Meta Ads and SEO",
-      "description": "Google Ads is planned alongside your other channels, not managed in isolation."
+      "title": "การประสานงานกับ Meta Ads และ SEO",
+      "description": "Google Ads วางแผนควบคู่กับช่องทางอื่นของคุณ ไม่ได้บริหารแยกขาด"
     },
     {
-      "title": "Ongoing governance",
-      "description": "A regular reporting and review rhythm so budget keeps moving toward what's working."
+      "title": "การกำกับดูแลต่อเนื่อง",
+      "description": "จังหวะการรายงานและทบทวนสม่ำเสมอเพื่อให้งบเคลื่อนไปยังสิ่งที่ได้ผลต่อเนื่อง"
     }
   ],
   "benefits": [
     {
-      "title": "Visibility while SEO builds",
-      "description": "Google Ads produces results immediately, covering the gap while organic rankings develop."
+      "title": "การมองเห็นขณะ SEO กำลังสร้าง",
+      "description": "Google Ads ให้ผลทันที ครอบคลุมช่องว่างขณะที่อันดับออร์แกนิกพัฒนา"
     },
     {
-      "title": "Captures demand that already exists",
-      "description": "Reaches people actively searching, across all three islands, at the exact moment they're looking."
+      "title": "จับความต้องการที่มีอยู่แล้ว",
+      "description": "เข้าถึงผู้คนที่กำลังค้นหาอยู่ทั่วทั้งสามเกาะ ในจังหวะที่กำลังมองหาพอดี"
     },
     {
-      "title": "Clear cost accountability",
-      "description": "Conversion tracking means every lead has a known, defensible cost attached to it."
+      "title": "ความรับผิดชอบด้านต้นทุนที่ชัดเจน",
+      "description": "การติดตามคอนเวอร์ชันทำให้ทุกลีดมีต้นทุนที่รู้และชี้แจงได้"
     },
     {
-      "title": "Complements rather than competes",
-      "description": "Planned as one part of your channel mix alongside Meta Ads and SEO, not a standalone effort."
+      "title": "เสริมกันแทนแข่งกัน",
+      "description": "วางแผนเป็นส่วนหนึ่งของส่วนผสมช่องทางของคุณควบคู่กับ Meta Ads และ SEO ไม่ใช่ความพยายามเดี่ยว"
     }
   ],
   "process": [
     {
-      "title": "Fit assessment",
-      "description": "Review your business, search intent and goals to confirm Google Ads is the right starting point."
+      "title": "การประเมินความเหมาะสม",
+      "description": "ทบทวนธุรกิจ เจตนาการค้นหา และเป้าหมายของคุณเพื่อยืนยันว่า Google Ads เป็นจุดเริ่มต้นที่เหมาะ"
     },
     {
-      "title": "Cross-channel planning",
-      "description": "Decide how Google Ads fits alongside your existing or planned Meta Ads and SEO work."
+      "title": "การวางแผนข้ามช่องทาง",
+      "description": "ตัดสินใจว่า Google Ads เข้ากับงาน Meta Ads และ SEO ที่คุณมีหรือวางแผนไว้อย่างไร"
     },
     {
-      "title": "Account structure & tracking",
-      "description": "Build campaigns per island with conversion tracking in place before launch."
+      "title": "โครงสร้างบัญชีและการติดตาม",
+      "description": "สร้างแคมเปญตามเกาะพร้อมการติดตามคอนเวอร์ชันก่อนเปิดตัว"
     },
     {
-      "title": "Launch",
-      "description": "Campaigns go live with a conservative test budget to gather safe, early data."
+      "title": "เปิดตัว",
+      "description": "แคมเปญออนแอร์ด้วยงบทดสอบแบบระมัดระวังเพื่อเก็บข้อมูลช่วงแรกที่ปลอดภัย"
     },
     {
-      "title": "Coordinate & optimize",
-      "description": "Ongoing adjustment based on results, reviewed alongside your other channels."
+      "title": "ประสานและปรับแต่ง",
+      "description": "ปรับต่อเนื่องตามผลลัพธ์ ทบทวนควบคู่กับช่องทางอื่นของคุณ"
     }
   ],
   "pricing": [
     {
-      "service": "Google Ads setup (new account)",
-      "range": "THB 15,000 – 35,000",
-      "note": "One-time — strategy, cross-island structure, tracking setup"
+      "service": "ตั้งค่า Google Ads (บัญชีใหม่)",
+      "note": "ครั้งเดียว กลยุทธ์ โครงสร้างข้ามเกาะ การตั้งค่าการติดตาม",
+      "included": [
+        "วิจัยคีย์เวิร์ดและวางโครงสร้างแคมเปญ",
+        "ติดตามคอนเวอร์ชันของการโทร แบบฟอร์ม และการจอง",
+        "เขียนคำโฆษณาสำหรับแคมเปญเปิดตัว",
+        "เริ่มแคมเปญด้วยงบทดสอบแบบระมัดระวัง"
+      ],
+      "excluded": [
+        "งบโฆษณา — คุณชำระให้ Google โดยตรง",
+        "การสร้างหน้า Landing Page",
+        "ภาษีและค่าธรรมเนียมของแพลตฟอร์ม"
+      ]
     },
     {
-      "service": "Monthly management",
-      "range": "THB 12,000 – 30,000",
-      "note": "Excludes ad spend, billed directly to Google"
+      "service": "บริหารรายเดือน",
+      "note": "ไม่รวมค่าโฆษณา เรียกเก็บตรงกับ Google",
+      "included": [
+        "ปรับแต่งอย่างต่อเนื่องและจัดการราคาประมูล",
+        "ตรวจสอบคำค้นหาและคีย์เวิร์ดเชิงลบ",
+        "รายงานรายเดือนด้วยภาษาที่เข้าใจง่าย"
+      ],
+      "excluded": [
+        "งบโฆษณา — คุณชำระให้ Google โดยตรง",
+        "งานครีเอทีฟหรือ Landing Page ใหม่",
+        "ภาษีและค่าธรรมเนียมของแพลตฟอร์ม"
+      ]
     },
     {
-      "service": "Campaign audit (existing account)",
-      "range": "THB 6,000 – 12,000",
-      "note": "One-time review with a written action plan"
+      "service": "ตรวจสอบแคมเปญ (บัญชีเดิม)",
+      "note": "ทบทวนครั้งเดียวพร้อมแผนปฏิบัติการเป็นลายลักษณ์อักษร",
+      "included": [
+        "ตรวจสอบโครงสร้างบัญชี การติดตามผล และงบประมาณ",
+        "แผนปฏิบัติการเป็นลายลักษณ์อักษรพร้อมลำดับความสำคัญ"
+      ],
+      "excluded": [
+        "ดำเนินการตามข้อเสนอแนะ",
+        "การบริหารจัดการต่อเนื่อง"
+      ]
     }
   ],
   "useCases": [
     {
-      "title": "Villa owners",
-      "description": "Capture high-intent search traffic during each island's peak booking season."
+      "title": "เจ้าของวิลล่า",
+      "description": "จับทราฟฟิกการค้นหาที่มีความตั้งใจสูงในช่วงฤดูจองสูงสุดของแต่ละเกาะ"
     },
     {
-      "title": "Restaurants",
-      "description": "Drive reservations and delivery orders around a specific menu or location."
+      "title": "ร้านอาหาร",
+      "description": "ผลักดันการจองโต๊ะและออเดอร์เดลิเวอรีรอบเมนูหรือสถานที่เฉพาะ"
     },
     {
-      "title": "Wellness & retreat operators",
-      "description": "Reach travellers actively searching for a program before they commit."
+      "title": "ผู้ให้บริการเวลเนสและรีทรีต",
+      "description": "เข้าถึงนักท่องเที่ยวที่กำลังค้นหาโปรแกรมก่อนตัดสินใจ"
     },
     {
-      "title": "Multi-island businesses",
-      "description": "Coordinate separate, properly targeted campaigns across more than one island."
+      "title": "ธุรกิจหลายเกาะ",
+      "description": "ประสานแคมเปญที่แยกกันและกำหนดเป้าหมายอย่างเหมาะสมข้ามมากกว่าหนึ่งเกาะ"
     }
   ],
   "faqs": [
     {
-      "q": "Is Google Ads worth it for a small business on Koh Tao or Koh Samui?",
-      "a": "Often yes, if customers search for what you offer — the budget just needs to match the smaller search volume on Koh Tao compared with the wider Koh Samui market."
+      "q": "Google Ads คุ้มค่าสำหรับธุรกิจเล็กบนเกาะเต่าหรือเกาะสมุยไหม?",
+      "a": "มักคุ้ม หากลูกค้าค้นหาสิ่งที่คุณเสนอ เพียงต้องปรับงบให้ตรงกับปริมาณการค้นหาที่น้อยกว่าบนเกาะเต่าเมื่อเทียบกับตลาดที่กว้างกว่าของเกาะสมุย"
     },
     {
-      "q": "Does Google Ads work differently on Koh Samui compared with Koh Phangan?",
-      "a": "Yes — Koh Samui's larger, airport-connected market supports broader targeting, while Koh Phangan's demand is more seasonal and tied to specific events and travel patterns."
+      "q": "Google Ads ทำงานต่างกันบนเกาะสมุยเมื่อเทียบกับเกาะพะงันไหม?",
+      "a": "ต่าง ตลาดที่ใหญ่กว่าและเชื่อมกับสนามบินของเกาะสมุยรองรับการกำหนดเป้าหมายที่กว้างกว่า ขณะที่ความต้องการของเกาะพะงันเป็นฤดูกาลมากกว่าและผูกกับอีเวนต์และรูปแบบการเดินทางเฉพาะ"
     },
     {
-      "q": "Should I run Google Ads and SEO at the same time, or one after the other?",
-      "a": "Usually together — Google Ads produces immediate visibility while SEO compounds in the background, and we'll recommend how heavily to weight each based on your budget."
+      "q": "ควรรัน Google Ads และ SEO พร้อมกัน หรือทีละอย่าง?",
+      "a": "มักพร้อมกัน Google Ads ให้การมองเห็นทันทีขณะที่ SEO ทบต้นอยู่เบื้องหลัง และเราจะแนะนำว่าควรให้น้ำหนักแต่ละอย่างเท่าไรตามงบของคุณ"
     },
     {
-      "q": "How does Google Ads work alongside Meta Ads in one strategy?",
-      "a": "Google Ads captures people already searching; Meta Ads builds awareness with people who aren't yet. Running both, coordinated, typically outperforms either alone."
+      "q": "Google Ads ทำงานควบคู่กับ Meta Ads ในกลยุทธ์เดียวอย่างไร?",
+      "a": "Google Ads จับคนที่กำลังค้นหาอยู่แล้ว Meta Ads สร้างการรับรู้กับคนที่ยังไม่ได้ค้นหา การรันทั้งสองอย่างประสานกันมักทำผลงานเหนือกว่าอย่างใดอย่างหนึ่งเดี่ยว ๆ"
     },
     {
-      "q": "What's a realistic timeframe to know if Google Ads is working?",
-      "a": "Campaigns can go live within days; meaningful, decision-ready data usually builds over the first 2–4 weeks of optimization."
+      "q": "กรอบเวลาที่สมเหตุสมผลในการรู้ว่า Google Ads ได้ผลคือเท่าไร?",
+      "a": "แคมเปญออนแอร์ได้ภายในไม่กี่วัน ข้อมูลที่มีความหมายและพร้อมตัดสินใจมักสะสมใน 2–4 สัปดาห์แรกของการปรับแต่ง"
     },
     {
-      "q": "Do you set up separate campaigns for each island?",
-      "a": "Yes, where a business serves more than one island — budget, targeting and messaging are planned per island rather than combined."
+      "q": "คุณตั้งแคมเปญแยกสำหรับแต่ละเกาะไหม?",
+      "a": "ตั้ง เมื่อธุรกิจให้บริการมากกว่าหนึ่งเกาะ งบ การกำหนดเป้าหมาย และข้อความวางแผนตามเกาะแทนการรวมกัน"
     },
     {
-      "q": "Can Google Ads work for a business with no existing website?",
-      "a": "You need at least a landing page for ads to send traffic to; we can build one as part of the project if needed."
+      "q": "Google Ads ใช้ได้กับธุรกิจที่ยังไม่มีเว็บไซต์ไหม?",
+      "a": "คุณต้องมีอย่างน้อยแลนดิ้งเพจให้โฆษณาส่งทราฟฟิกไป เราสร้างให้เป็นส่วนหนึ่งของโปรเจกต์ได้หากจำเป็น"
     },
     {
-      "q": "How often do you review and adjust budget or bidding?",
-      "a": "On a regular cadence agreed at the start, with additional adjustments whenever performance data clearly calls for it."
+      "q": "คุณทบทวนและปรับงบหรือการประมูลบ่อยแค่ไหน?",
+      "a": "ตามรอบสม่ำเสมอที่ตกลงตอนต้น พร้อมการปรับเพิ่มเติมทุกครั้งที่ข้อมูลผลงานเรียกหาอย่างชัดเจน"
     }
   ],
   "related": [
     {
-      "label": "Google Ads (Advertising)",
-      "description": "The full detail on account setup, tracking and ongoing optimization."
+      "label": "Google Ads (โฆษณา)",
+      "description": "รายละเอียดเต็มเรื่องการตั้งค่าบัญชี การติดตาม และการปรับแต่งต่อเนื่อง"
     },
     {
       "label": "Meta Ads",
-      "description": "Facebook and Instagram advertising to run alongside search."
+      "description": "โฆษณา Facebook และ Instagram ที่รันควบคู่กับการค้นหา"
     },
     {
-      "label": "Digital Marketing",
-      "description": "See how Google Ads fits into a full, integrated marketing strategy."
+      "label": "การตลาดดิจิทัล",
+      "description": "ดูว่า Google Ads เข้ากับกลยุทธ์การตลาดแบบบูรณาการเต็มรูปแบบอย่างไร"
     }
   ],
-  "finalCtaLabel": "Start a Project"
+  "finalCtaLabel": "ขอใบเสนอราคา Google Ads"
 }

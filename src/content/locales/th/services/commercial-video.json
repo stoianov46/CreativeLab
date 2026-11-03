@@ -1,172 +1,191 @@
 {
-  "navLabel": "Commercial Video",
-  "h1": "Commercial Video",
-  "primaryKeyword": "commercial video production Koh Phangan, Koh Samui and Koh Tao",
+  "navLabel": "วิดีโอเชิงพาณิชย์",
+  "h1": "การผลิตวิดีโอเชิงพาณิชย์สำหรับเกาะพะงัน เกาะสมุย และเกาะเต่า",
+  "primaryKeyword": "การผลิตวิดีโอเชิงพาณิชย์เกาะพะงัน เกาะสมุย และเกาะเต่า",
   "secondaryTopics": [
-    "brand film production",
-    "advertising video",
-    "video distribution",
-    "island video production"
+    "การผลิตภาพยนตร์แบรนด์",
+    "วิดีโอโฆษณา",
+    "การกระจายวิดีโอ",
+    "การผลิตวิดีโอบนเกาะ"
   ],
-  "metaTitle": "Commercial Video",
-  "metaDescription": "Commercial video production for businesses on Koh Phangan, Koh Samui and Koh Tao — one production delivered for advertising, social media and your website.",
-  "directAnswer": "Commercial video is produced footage built for a specific business purpose — advertising, brand storytelling or a website hero video. CreativeLAB produces commercial video for businesses on Koh Phangan, Koh Samui and Koh Tao, delivering cuts suited to paid advertising, social distribution and your site from a single production.",
-  "heroSupport": "One video production delivered in the formats your advertising, social channels and website each need — for businesses on Koh Phangan, Koh Samui and Koh Tao.",
-  "heroImageAlt": "Camera operator filming a commercial video for a hospitality brand",
+  "metaTitle": "วิดีโอเชิงพาณิชย์ เกาะพะงัน สมุย และเต่า",
+  "metaDescription": "การผลิตวิดีโอเชิงพาณิชย์สำหรับธุรกิจบนเกาะพะงัน เกาะสมุย และเกาะเต่า งานผลิตเดียวส่งมอบสำหรับโฆษณา โซเชียลมีเดีย และเว็บไซต์ของคุณ",
+  "directAnswer": "วิดีโอเชิงพาณิชย์คือฟุตเทจที่ผลิตเพื่อวัตถุประสงค์ทางธุรกิจเฉพาะ โฆษณา การเล่าเรื่องแบรนด์ หรือวิดีโอเด่นบนเว็บไซต์ CreativeLAB ผลิตวิดีโอเชิงพาณิชย์ให้ธุรกิจบนเกาะพะงัน เกาะสมุย และเกาะเต่า ส่งมอบคัตที่เหมาะกับโฆษณาแบบเสียเงิน การกระจายบนโซเชียล และเว็บไซต์ของคุณจากงานผลิตเดียว",
+  "heroSupport": "งานผลิตวิดีโอเดียวส่งมอบในรูปแบบที่โฆษณา ช่องทางโซเชียล และเว็บไซต์ของคุณแต่ละอย่างต้องการ สำหรับธุรกิจบนเกาะพะงัน เกาะสมุย และเกาะเต่า",
+  "heroImageAlt": "ช่างกล้องกำลังถ่ายวิดีโอเชิงพาณิชย์สำหรับแบรนด์การบริการ",
   "overview": [
-    "Video is usually the format most likely to actually hold someone's attention, but only when it's produced for where it will be watched. This page covers our commercial video offer as a whole — how one production is planned to work across advertising, social and your website, and how it fits with the rest of your marketing across Koh Phangan, Koh Samui and Koh Tao.",
-    "Our dedicated commercial video service, under Video Production, goes deep on the concept-and-story process for a single brand film. This page is the broader view: who commercial video is for, how distribution shapes the production, and how it connects to the advertising, social and photography services around it.",
-    "A single well-planned commercial shoot can supply a paid advertising cut, several shorter social versions and a website hero video, because each of those is considered before filming starts — not decided afterward when the footage is already locked to one aspect ratio. That planning matters even more for off-island production, where a Koh Samui or Koh Tao shoot involves a boat crossing and a travel fee, and getting everything needed in one visit is genuinely more efficient than returning for a second cut.",
-    "We treat commercial video as part of a wider system rather than a stand-alone deliverable: the same footage and brand direction can inform Meta Ads creative, feed your social channels and sit on your homepage, so a business isn't commissioning three separate video projects to cover three separate needs."
+    "วิดีโอมักเป็นรูปแบบที่น่าจะรั้งความสนใจของใครได้จริงที่สุด แต่เฉพาะเมื่อผลิตสำหรับที่ที่จะถูกดู หน้านี้ครอบคลุมข้อเสนอวิดีโอเชิงพาณิชย์ของเราโดยรวม งานผลิตเดียววางแผนให้ใช้ได้ทั่วโฆษณา โซเชียล และเว็บไซต์อย่างไร และเข้ากับการตลาดส่วนที่เหลือของคุณทั่วเกาะพะงัน เกาะสมุย และเกาะเต่าอย่างไร",
+    "บริการวิดีโอเชิงพาณิชย์เฉพาะของเราภายใต้การผลิตวิดีโอลงลึกในกระบวนการแนวคิดและเรื่องราวสำหรับภาพยนตร์แบรนด์เรื่องเดียว หน้านี้คือมุมมองที่กว้างกว่า วิดีโอเชิงพาณิชย์เหมาะกับใคร การกระจายหล่อหลอมการผลิตอย่างไร และเชื่อมกับบริการโฆษณา โซเชียล และถ่ายภาพรอบข้างอย่างไร",
+    "งานถ่ายเชิงพาณิชย์ที่วางแผนดีงานเดียวป้อนคัตโฆษณาแบบเสียเงิน เวอร์ชันโซเชียลสั้นหลายเวอร์ชัน และวิดีโอเด่นเว็บไซต์ได้ เพราะแต่ละอย่างถูกพิจารณาก่อนเริ่มถ่าย ไม่ใช่ตัดสินใจภายหลังเมื่อฟุตเทจถูกล็อกกับสัดส่วนภาพเดียวแล้ว การวางแผนนั้นสำคัญยิ่งกว่าสำหรับการผลิตนอกเกาะ ที่งานถ่ายเกาะสมุยหรือเกาะเต่าเกี่ยวข้องกับการข้ามเรือและค่าเดินทาง และการได้ทุกอย่างที่ต้องการในการเข้าถ่ายครั้งเดียวมีประสิทธิภาพกว่าการกลับไปทำคัตที่สองจริง",
+    "เราถือว่าวิดีโอเชิงพาณิชย์เป็นส่วนหนึ่งของระบบที่กว้างกว่า ไม่ใช่งานส่งมอบเดี่ยว ฟุตเทจและทิศทางแบรนด์เดียวกันเป็นข้อมูลให้งานสร้างสรรค์ Meta Ads ป้อนช่องทางโซเชียลของคุณ และวางบนโฮมเพจ ธุรกิจจึงไม่ต้องว่าจ้างสามโปรเจกต์วิดีโอแยกเพื่อรองรับสามความต้องการแยก"
   ],
   "scope": [
     {
-      "title": "Concept & creative direction",
-      "description": "A story and visual direction built around your business goal and where the video will run."
+      "title": "แนวคิดและทิศทางสร้างสรรค์",
+      "description": "เรื่องราวและทิศทางภาพที่สร้างรอบเป้าหมายธุรกิจของคุณและที่ที่วิดีโอจะรัน"
     },
     {
-      "title": "Production across the islands",
-      "description": "Filming on Koh Phangan, Koh Samui or Koh Tao, planned around logistics and travel."
+      "title": "การผลิตข้ามเกาะ",
+      "description": "ถ่ายทำบนเกาะพะงัน เกาะสมุย หรือเกาะเต่า วางแผนรอบโลจิสติกส์และการเดินทาง"
     },
     {
-      "title": "Multi-format editing",
-      "description": "Cuts edited for advertising length, social formats and website use from one shoot."
+      "title": "ตัดต่อหลายรูปแบบ",
+      "description": "คัตที่ตัดต่อสำหรับความยาวโฆษณา รูปแบบโซเชียล และการใช้งานเว็บไซต์จากงานถ่ายเดียว"
     },
     {
-      "title": "Distribution-ready delivery",
-      "description": "Final files delivered in the aspect ratios and lengths each platform actually requires."
+      "title": "ส่งมอบพร้อมกระจาย",
+      "description": "ไฟล์สุดท้ายส่งมอบในสัดส่วนภาพและความยาวที่แต่ละแพลตฟอร์มต้องการจริง"
     },
     {
-      "title": "Aerial add-ons",
-      "description": "Drone or FPV footage coordinated with the Video Production team where a project calls for it."
+      "title": "ส่วนเสริมมุมสูง",
+      "description": "ฟุตเทจโดรนหรือ FPV ประสานกับทีมผลิตวิดีโอเมื่อโปรเจกต์ต้องการ"
     }
   ],
   "benefits": [
     {
-      "title": "The highest-attention format, done properly",
-      "description": "Concept, pacing and edit are treated as seriously as the shoot itself."
+      "title": "รูปแบบที่ดึงความสนใจสูงสุด ทำอย่างถูกต้อง",
+      "description": "แนวคิด จังหวะ และการตัดต่อถูกถือด้วยความจริงจังเท่ากับงานถ่ายเอง"
     },
     {
-      "title": "One production, several deliverables",
-      "description": "Advertising, social and website cuts come from a single, well-planned shoot."
+      "title": "งานผลิตเดียว หลายงานส่งมอบ",
+      "description": "คัตโฆษณา โซเชียล และเว็บไซต์มาจากงานถ่ายเดียวที่วางแผนดี"
     },
     {
-      "title": "A distinct look versus stock footage",
-      "description": "Original production shows a real business rather than generic library clips."
+      "title": "ลุคที่ต่างจากฟุตเทจสต็อก",
+      "description": "การผลิตต้นฉบับแสดงธุรกิจจริงแทนคลิปคลังทั่วไป"
     },
     {
-      "title": "Coordinated with your other creative",
-      "description": "Video direction stays consistent with your existing photography and brand identity."
+      "title": "ประสานกับงานสร้างสรรค์อื่นของคุณ",
+      "description": "ทิศทางวิดีโอสอดคล้องกับภาพถ่ายและอัตลักษณ์แบรนด์เดิมของคุณ"
     },
     {
-      "title": "Off-island logistics handled",
-      "description": "Travel and scheduling for Koh Samui and Koh Tao shoots are planned as part of the project."
+      "title": "จัดการโลจิสติกส์นอกเกาะ",
+      "description": "การเดินทางและตารางสำหรับงานถ่ายเกาะสมุยและเกาะเต่าวางแผนเป็นส่วนหนึ่งของโปรเจกต์"
     }
   ],
   "process": [
     {
-      "title": "Brief & goals",
-      "description": "Understand what the video needs to achieve and where it will run."
+      "title": "บรีฟและเป้าหมาย",
+      "description": "เข้าใจสิ่งที่วิดีโอต้องบรรลุและที่ที่จะรัน"
     },
     {
-      "title": "Concept & script",
-      "description": "Develop the story, direction and shot list before filming."
+      "title": "แนวคิดและสคริปต์",
+      "description": "พัฒนาเรื่องราว ทิศทาง และรายการช็อตก่อนถ่ายทำ"
     },
     {
-      "title": "Production day(s)",
-      "description": "On-location filming, including off-island travel where required."
+      "title": "วันผลิต",
+      "description": "ถ่ายทำหน้างาน รวมการเดินทางนอกเกาะเมื่อจำเป็น"
     },
     {
-      "title": "Edit & grade",
-      "description": "Pacing, color grading and sound design across every cut needed."
+      "title": "ตัดต่อและเกรด",
+      "description": "จังหวะ เกรดสี และออกแบบเสียงข้ามทุกคัตที่ต้องการ"
     },
     {
-      "title": "Multi-format delivery & handoff",
-      "description": "Files delivered ready for advertising, social and web use."
+      "title": "ส่งมอบหลายรูปแบบและส่งต่อ",
+      "description": "ส่งมอบไฟล์พร้อมสำหรับโฆษณา โซเชียล และการใช้งานเว็บ"
     }
   ],
   "pricing": [
     {
-      "service": "Video production (60-second commercial)",
-      "range": "THB 25,000 – 60,000",
-      "note": "Filming, editing and music"
+      "service": "การผลิตวิดีโอ (โฆษณา 60 วินาที)",
+      "note": "ถ่ายทำ ตัดต่อ และดนตรี",
+      "included": [
+        "โฆษณาความยาว 60 วินาที",
+        "ถ่ายทำ ตัดต่อ และดนตรี"
+      ],
+      "excluded": [
+        "ค่าเดินทางไปเกาะสมุยหรือเกาะเต่า",
+        "งบโฆษณา"
+      ]
     },
     {
-      "service": "Brand film (2–3 minutes)",
-      "range": "THB 60,000 – 150,000",
-      "note": "Larger production, multiple locations or setups"
+      "service": "ภาพยนตร์แบรนด์ (2–3 นาที)",
+      "note": "งานผลิตใหญ่กว่า หลายสถานที่หรือหลายการตั้งค่า",
+      "included": [
+        "แบรนด์ฟิล์มความยาว 2–3 นาที",
+        "หลายสถานที่หรือหลายการจัดฉาก"
+      ],
+      "excluded": [
+        "ค่าเดินทางไปเกาะสมุยหรือเกาะเต่า",
+        "งบโฆษณา"
+      ]
     },
     {
-      "service": "Multi-format delivery add-on",
-      "range": "THB 8,000 – 18,000",
-      "note": "Indicative — additional cuts for social and web from the same shoot"
+      "service": "ส่วนเสริมส่งมอบหลายรูปแบบ",
+      "note": "โดยประมาณ คัตเพิ่มสำหรับโซเชียลและเว็บจากงานถ่ายเดียวกัน",
+      "included": [
+        "คลิปตัดต่อเพิ่มเติมสำหรับโซเชียลมีเดียและเว็บจากการถ่ายทำครั้งเดียวกัน"
+      ],
+      "excluded": [
+        "ถ่ายทำใหม่"
+      ]
     }
   ],
   "useCases": [
     {
-      "title": "Hotels & resorts",
-      "description": "A brand film for the homepage, paired with shorter cuts for advertising and social."
+      "title": "โรงแรมและรีสอร์ต",
+      "description": "ภาพยนตร์แบรนด์สำหรับโฮมเพจ จับคู่กับคัตสั้นสำหรับโฆษณาและโซเชียล"
     },
     {
-      "title": "Villas & property developments",
-      "description": "Video that sells a property's atmosphere alongside listing photography."
+      "title": "วิลล่าและโครงการพัฒนาอสังหาริมทรัพย์",
+      "description": "วิดีโอที่ขายบรรยากาศของทรัพย์สินควบคู่กับภาพถ่ายประกาศ"
     },
     {
-      "title": "Restaurants & hospitality brands",
-      "description": "A brand story video used across advertising, social and in-venue screens."
+      "title": "ร้านอาหารและแบรนด์การบริการ",
+      "description": "วิดีโอเรื่องราวแบรนด์ที่ใช้ทั่วโฆษณา โซเชียล และจอในสถานที่"
     },
     {
-      "title": "Events & launches",
-      "description": "Highlight video from an event or opening, cut for both promotion and recap use."
+      "title": "อีเวนต์และการเปิดตัว",
+      "description": "วิดีโอไฮไลต์จากอีเวนต์หรือการเปิดตัว ตัดสำหรับทั้งการโปรโมตและการสรุป"
     }
   ],
   "faqs": [
     {
-      "q": "Do you produce commercial video on Koh Samui and Koh Tao, or only Koh Phangan?",
-      "a": "All three — production is based on Koh Phangan and we travel by boat for shoots on Koh Samui and Koh Tao, with a travel fee factored into off-island quotes."
+      "q": "คุณผลิตวิดีโอเชิงพาณิชย์บนเกาะสมุยและเกาะเต่าไหม หรือเฉพาะเกาะพะงัน?",
+      "a": "ทั้งสามเกาะ การผลิตตั้งอยู่ที่เกาะพะงันและเราเดินทางด้วยเรือเพื่อถ่ายบนเกาะสมุยและเกาะเต่า โดยรวมค่าเดินทางในใบเสนอราคานอกเกาะ"
     },
     {
-      "q": "How is commercial video different from social video?",
-      "a": "Commercial video is produced for advertising, brand storytelling and web use with longer, more deliberate cuts; social video is built specifically for short-form, vertical platform viewing."
+      "q": "วิดีโอเชิงพาณิชย์ต่างจากวิดีโอโซเชียลอย่างไร?",
+      "a": "วิดีโอเชิงพาณิชย์ผลิตสำหรับโฆษณา การเล่าเรื่องแบรนด์ และการใช้งานเว็บด้วยคัตที่ยาวและตั้งใจกว่า ส่วนวิดีโอโซเชียลสร้างเฉพาะสำหรับการรับชมแนวตั้งแบบสั้นบนแพลตฟอร์ม"
     },
     {
-      "q": "Can the same production be cut for both advertising and social media?",
-      "a": "Yes — planning multiple formats from the brief stage is exactly what makes one shoot cover several destinations."
+      "q": "งานผลิตเดียวตัดสำหรับทั้งโฆษณาและโซเชียลมีเดียได้ไหม?",
+      "a": "ได้ การวางแผนหลายรูปแบบตั้งแต่ขั้นบรีฟคือสิ่งที่ทำให้งานถ่ายเดียวครอบคลุมหลายปลายทาง"
     },
     {
-      "q": "Do you include drone or aerial footage?",
-      "a": "It can be added where a project calls for it, coordinated with our drone and FPV video services."
+      "q": "คุณรวมฟุตเทจโดรนหรือมุมสูงไหม?",
+      "a": "เพิ่มได้เมื่อโปรเจกต์ต้องการ ประสานกับบริการวิดีโอโดรนและ FPV ของเรา"
     },
     {
-      "q": "What do we need to provide before the shoot?",
-      "a": "Your goals, timeline and any existing brand assets — we can develop the concept, script and shot list from there."
+      "q": "เราต้องเตรียมอะไรก่อนงานถ่าย?",
+      "a": "เป้าหมาย ไทม์ไลน์ และทรัพยากรแบรนด์เดิมที่มี เราพัฒนาแนวคิด สคริปต์ และรายการช็อตจากตรงนั้นได้"
     },
     {
-      "q": "How long does a commercial video project take end to end?",
-      "a": "Typically 3–6 weeks from brief to final delivery, depending on production complexity and how many locations are involved."
+      "q": "โปรเจกต์วิดีโอเชิงพาณิชย์ใช้เวลานานแค่ไหนตั้งแต่ต้นจนจบ?",
+      "a": "โดยทั่วไป 3–6 สัปดาห์จากบรีฟถึงการส่งมอบสุดท้าย ขึ้นกับความซับซ้อนของการผลิตและจำนวนสถานที่"
     },
     {
-      "q": "Can this replace the need for a separate photographer too?",
-      "a": "Video and photography are usually planned as separate productions, though they're often scheduled around the same location visit where that makes sense."
+      "q": "นี่ทดแทนความต้องการช่างภาพแยกได้ด้วยไหม?",
+      "a": "วิดีโอและภาพถ่ายมักวางแผนเป็นงานผลิตแยกกัน แม้มักจัดตารางรอบการเข้าสถานที่เดียวกันเมื่อสมเหตุสมผล"
     },
     {
-      "q": "Is there a minimum production budget?",
-      "a": "We scope each project individually — tell us your budget range and goals and we'll advise what's realistic within it."
+      "q": "มีงบการผลิตขั้นต่ำไหม?",
+      "a": "เรากำหนดขอบเขตแต่ละโปรเจกต์เป็นรายกรณี บอกช่วงงบและเป้าหมายของคุณ แล้วเราจะแนะนำว่าอะไรสมเหตุสมผลในช่วงนั้น"
     }
   ],
   "related": [
     {
-      "label": "Commercial Video (Video Production)",
-      "description": "The full detail on story development and creative direction for brand video."
+      "label": "วิดีโอเชิงพาณิชย์ (การผลิตวิดีโอ)",
+      "description": "รายละเอียดเต็มเรื่องการพัฒนาเรื่องราวและทิศทางสร้างสรรค์สำหรับวิดีโอแบรนด์"
     },
     {
-      "label": "Social Video",
-      "description": "Short-form video built specifically for social platforms."
+      "label": "วิดีโอโซเชียล",
+      "description": "วิดีโอสั้นที่สร้างเฉพาะสำหรับแพลตฟอร์มโซเชียล"
     },
     {
-      "label": "Content Creation",
-      "description": "Photography alongside video for a complete content package."
+      "label": "การสร้างคอนเทนต์",
+      "description": "ภาพถ่ายควบคู่กับวิดีโอเป็นแพ็กเกจคอนเทนต์ครบถ้วน"
     }
   ],
-  "finalCtaLabel": "Start a Project"
+  "finalCtaLabel": "คุยเรื่องโปรเจกต์วิดีโอของคุณ"
 }

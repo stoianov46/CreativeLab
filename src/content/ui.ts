@@ -45,6 +45,7 @@ export const UI = {
     journal: "Journal",
     contact: "Contact",
     privacy: "Privacy Policy",
+    cookies: "Cookie Policy",
     terms: "Terms",
     editorial: "Editorial Policy",
     accessibility: "Accessibility",
@@ -100,6 +101,16 @@ export const UI = {
     pricingRange: "Price range (THB)",
     pricingNotes: "Notes",
     pricingCaption: "Indicative prices for {service}",
+    pricingIncluded: "Included",
+    pricingExcluded: "Not included",
+    pricingRevisions: "Revisions",
+    pricingTurnaround: "Turnaround",
+    pricingTurnaroundDays: "{n} working days",
+    pricingUnitOneTime: "one-time",
+    pricingUnitPerMonth: "per month",
+    pricingCustom: "Custom",
+    pricingBundled: "Included in package",
+    pricingUpdated: "Indicative pricing, last reviewed {date}.",
     overviewEyebrow: "Overview",
     overviewTitle: "Service overview",
     industriesEyebrow: "Industries",
@@ -137,6 +148,7 @@ export const UI = {
 
   service: {
     ctaTitle: "Ready to start your {service} project?",
+    moreInHub: "More in {hub}",
   },
 
   industryPage: {
@@ -159,6 +171,19 @@ export const UI = {
   indexPages: {
     explore: "Explore",
     canonicalNote: "Full detail",
+  },
+
+  concept: {
+    eyebrow: "Concept",
+    disclaimerTitle: "About this concept",
+    disclaimer:
+      "This is original work made by CreativeLAB to show how we would approach this kind of project. It is not a real client engagement: there is no client, budget, result or testimonial behind it.",
+    briefTitle: "The brief",
+    demonstratesTitle: "What it demonstrates",
+    deliverablesTitle: "What the concept contains",
+    servicesTitle: "Related services",
+    moreTitle: "More concept projects",
+    viewConcept: "View the concept",
   },
 
   caseStudy: {
@@ -198,7 +223,7 @@ export const UI = {
     whatsapp: "WhatsApp",
     telegram: "Telegram",
     call: "Call",
-    start: "Start",
+    start: "Start a Project",
   },
 
   /**
@@ -248,6 +273,28 @@ export const UI = {
     failure: "Something went wrong sending your message. Please try again or email us directly.",
     sending: "Sending…",
     send: "Send Message",
+    selectPlaceholder: "Select…",
+    optionalSuffix: "(optional)",
+    locationLabel: "Island",
+    businessLabel: "Type of business",
+    otherOption: "Other / not sure",
+    budgetLabel: "Budget",
+    budgetUnder20k: "Under THB 20,000",
+    budget20to50k: "THB 20,000–50,000",
+    budget50to100k: "THB 50,000–100,000",
+    budgetOver100k: "Over THB 100,000",
+    budgetNotSure: "Not sure yet",
+    timelineLabel: "Timeline",
+    timelineAsap: "As soon as possible",
+    timelineMonth: "Within a month",
+    timeline13: "1–3 months",
+    timelineExploring: "Just exploring",
+    reviewButton: "Review your request",
+    reviewTitle: "Review your request",
+    reviewIntro: "Check the details below, then send. You can still go back and edit.",
+    editButton: "Edit",
+    notProvided: "Not provided",
+    replyLanguageLabel: "Preferred language for our reply",
   },
 
   contact: {
@@ -256,6 +303,8 @@ export const UI = {
     whatsapp: "WhatsApp",
     telegram: "Telegram",
     basedIn: "Based in",
+    address: "Address",
+    viewOnMap: "View on map",
   },
 };
 

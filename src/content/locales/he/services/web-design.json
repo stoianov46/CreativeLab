@@ -1,152 +1,174 @@
 {
-  "navLabel": "Web Design",
-  "h1": "Web Design",
-  "primaryKeyword": "web design Koh Phangan",
+  "navLabel": "עיצוב אתרים",
+  "h1": "סוכנות עיצוב אתרים בקו פנגן, קו סמוי וקו טאו",
+  "primaryKeyword": "עיצוב אתרים בקו פנגן",
   "secondaryTopics": [
-    "website development",
-    "business websites",
-    "island business websites",
-    "conversion-focused design"
+    "פיתוח אתרים",
+    "אתרי עסק",
+    "אתרים לעסקים באיים",
+    "עיצוב ממוקד המרה"
   ],
-  "metaTitle": "Web Design",
-  "metaDescription": "Website design and development for businesses across Koh Phangan, Koh Samui and Koh Tao — built to convert, load fast and be found in search.",
-  "directAnswer": "CreativeLAB designs and builds websites for businesses on Koh Phangan, Koh Samui and Koh Tao — villas, restaurants, dive shops, wellness brands and service companies. Every site is built with SEO-ready structure, fast mobile loading and a clear path to booking or inquiry, as part of a wider digital and marketing practice rather than a standalone build.",
-  "heroSupport": "Websites for island businesses that need more than a brochure — a site that actually converts visitors into bookings and inquiries.",
-  "heroImageAlt": "Website design mockups displayed across devices",
+  "metaTitle": "סוכנות עיצוב אתרים בקו פנגן",
+  "metaDescription": "עיצוב ופיתוח אתרים לעסקים בקו פנגן, קו סמוי וקו טאו — נבנים להמיר, להיטען מהר ולהימצא בחיפוש.",
+  "directAnswer": "CreativeLAB מעצבת ובונה אתרים לעסקים בקו פנגן, קו סמוי וקו טאו — וילות, מסעדות, חנויות צלילה, מותגי בריאות וחברות שירותים. כל אתר נבנה עם מבנה מוכן ל-SEO, טעינה מהירה בנייד ונתיב ברור להזמנה או פנייה, כחלק מעשייה דיגיטלית ושיווקית רחבה יותר ולא כבנייה עצמאית.",
+  "heroSupport": "אתרים לעסקים באיים שצריכים יותר מברושור — אתר שבאמת ממיר מבקרים להזמנות ופניות.",
+  "heroImageAlt": "הדמיות עיצוב אתר המוצגות על פני מכשירים",
   "overview": [
-    "A website built in isolation from the rest of a business's marketing tends to underperform, however good it looks. We approach web design as one part of a connected system: the same photography, brand identity and content strategy behind your social media and advertising should also shape your website, so a visitor lands somewhere consistent with what brought them there — an ad, a search result or an Instagram post.",
-    "Businesses across Koh Phangan, Koh Samui and Koh Tao share a common challenge — most visitors arrive on a phone, often on inconsistent mobile connections, and decide within seconds whether to stay. That shapes real design decisions: lean pages, clear information hierarchy, and a booking or inquiry path that doesn't force a visitor to hunt for it.",
-    "This page introduces web design as part of CreativeLAB's broader offer — how it connects to branding, SEO and advertising, and who it's typically built for. For the full scope, process and pricing of a website project, see our Websites & Digital service page, which is the canonical version of this content.",
-    "Where a business already has a site, we're just as often asked to fix specific problems — slow load times, unclear structure, or a design that doesn't reflect an otherwise strong brand — as we are to build from scratch."
+    "אתר שנבנה בבידוד משאר השיווק של עסק נוטה להניב ביצועים נמוכים, כמה שהוא נראה טוב. אנחנו ניגשים לעיצוב אתרים כחלק ממערכת מחוברת: אותו צילום, זהות מותג ואסטרטגיית תוכן שמאחורי הרשתות החברתיות והפרסום שלכם צריכים לעצב גם את האתר, כך שמבקר נוחת במקום עקבי עם מה שהביא אותו לשם — מודעה, תוצאת חיפוש או פוסט באינסטגרם.",
+    "לעסקים בקו פנגן, בקו סמוי ובקו טאו יש אתגר משותף — רוב המבקרים מגיעים בטלפון, לעיתים קרובות בחיבורי נייד לא עקביים, ומחליטים בתוך שניות אם להישאר. זה מעצב החלטות עיצוב ממשיות: עמודים רזים, היררכיית מידע ברורה, ונתיב הזמנה או פנייה שלא מכריח מבקר לחפש אותו.",
+    "העמוד הזה מציג עיצוב אתרים כחלק מההצעה הרחבה יותר של CreativeLAB — איך הוא מתחבר למיתוג, ל-SEO ולפרסום, ולמי הוא בדרך כלל נבנה. להיקף, לתהליך ולתמחור המלאים של פרויקט אתר, ראו את עמוד השירות אתרים ודיגיטל שלנו, שהוא הגרסה הקנונית של התוכן הזה.",
+    "כשלעסק כבר יש אתר, מבקשים מאיתנו לעיתים קרובות לא פחות לתקן בעיות ספציפיות — זמני טעינה איטיים, מבנה לא ברור, או עיצוב שלא משקף מותג חזק אחרת — כמו לבנות מאפס."
   ],
   "scope": [
     {
-      "title": "Design connected to your brand",
-      "description": "Visual identity, photography and tone carried through consistently from your other marketing channels."
+      "title": "עיצוב שמחובר למותג שלכם",
+      "description": "זהות חזותית, צילום וטון שנישאים בעקביות מערוצי השיווק האחרים שלכם."
     },
     {
-      "title": "Mobile-first build",
-      "description": "Fast, lean pages built for how visitors actually browse on the three islands — mostly on their phones."
+      "title": "בנייה שמתחילה מהנייד",
+      "description": "עמודים מהירים ורזים שנבנים לאופן שבו מבקרים באמת גולשים בשלושת האיים — בעיקר בטלפון."
     },
     {
-      "title": "SEO-ready structure",
-      "description": "Semantic HTML, clean information architecture and metadata built in from the start, not retrofitted."
+      "title": "מבנה מוכן ל-SEO",
+      "description": "HTML סמנטי, ארכיטקטורת מידע נקייה ומטא-דאטה מובנים מההתחלה, ולא מוטמעים בדיעבד."
     },
     {
-      "title": "Clear conversion path",
-      "description": "Every page built around a single obvious next step — book, inquire, call or visit."
+      "title": "נתיב המרה ברור",
+      "description": "כל עמוד נבנה סביב צעד הבא אחד ברור — להזמין, לפנות, להתקשר או לבקר."
     }
   ],
   "benefits": [
     {
-      "title": "Consistent with the rest of your marketing",
-      "description": "One team behind your website, social content and advertising means everything matches."
+      "title": "עקבי עם שאר השיווק שלכם",
+      "description": "צוות אחד מאחורי האתר, התוכן החברתי והפרסום אומר שהכול תואם."
     },
     {
-      "title": "Fast on real island connections",
-      "description": "Performance is treated as a design constraint, not an afterthought, given variable mobile networks across the islands."
+      "title": "מהיר בחיבורי האיים האמיתיים",
+      "description": "ביצועים מטופלים כאילוץ עיצובי ולא כמחשבה שלאחר מעשה, בהתחשב ברשתות הנייד המשתנות ברחבי האיים."
     },
     {
-      "title": "SEO foundation from day one",
-      "description": "Avoids the costly retrofit of structure and metadata that comes with a poorly built site."
+      "title": "יסוד SEO מהיום הראשון",
+      "description": "מונע את ההטמעה המאוחרת והיקרה של מבנה ומטא-דאטה שבאה עם אתר שנבנה בצורה לקויה."
     },
     {
-      "title": "Built to grow",
-      "description": "A structure that can expand as you add services, locations or a second island's worth of content."
+      "title": "בנוי לצמוח",
+      "description": "מבנה שיכול להתרחב ככל שאתם מוסיפים שירותים, מיקומים או תוכן בהיקף של אי שני."
     }
   ],
   "process": [
     {
-      "title": "Discovery",
-      "description": "Understand your business, goals, audience and which island or islands the site needs to serve."
+      "title": "גילוי",
+      "description": "הבנת העסק, המטרות, הקהל והאי או האיים שהאתר צריך לשרת."
     },
     {
-      "title": "Design",
-      "description": "Wireframes and visual design reviewed with you, consistent with your brand."
+      "title": "עיצוב",
+      "description": "וירפריימים ועיצוב חזותי שנבחנים איתכם, עקביים עם המותג שלכם."
     },
     {
-      "title": "Build",
-      "description": "Development with performance and SEO structure built in from the start."
+      "title": "בנייה",
+      "description": "פיתוח עם ביצועים ומבנה SEO מובנים מההתחלה."
     },
     {
-      "title": "Launch",
-      "description": "Testing across devices, then go-live with analytics and tracking in place."
+      "title": "השקה",
+      "description": "בדיקות על פני מכשירים, ואז עלייה לאוויר עם אנליטיקה ומעקב במקום."
     }
   ],
   "pricing": [
     {
-      "service": "Website design (5-page landing)",
-      "range": "THB 40,000 – 100,000",
-      "note": "Responsive + SEO-ready"
+      "service": "עיצוב אתר (נחיתה של 5 עמודים)",
+      "note": "רספונסיבי + מוכן ל-SEO",
+      "included": [
+        "אתר נחיתה רספונסיבי בן 5 עמודים",
+        "מבנה מותאם ל-SEO"
+      ],
+      "excluded": [
+        "כתיבת טקסטים",
+        "צילום",
+        "עמלות אחסון ודומיין"
+      ]
     },
     {
-      "service": "Website design (multi-page business site)",
-      "range": "THB 90,000 – 180,000",
-      "note": "8–15 pages, CMS-ready"
+      "service": "עיצוב אתר (אתר עסק מרובה עמודים)",
+      "note": "8–15 עמודים, מוכן ל-CMS",
+      "included": [
+        "אתר עסקי רב-עמודי בן 8–15 עמודים",
+        "בנייה מוכנה ל-CMS"
+      ],
+      "excluded": [
+        "כתיבת טקסטים",
+        "צילום",
+        "עמלות אחסון ודומיין"
+      ]
     },
     {
-      "service": "Multi-island content add-on",
-      "range": "THB 8,000 – 20,000",
-      "note": "Indicative — for sites presenting service areas across islands"
+      "service": "תוספת תוכן לריבוי איים",
+      "note": "מחיר מנחה — לאתרים שמציגים אזורי שירות בין איים",
+      "included": [
+        "תוכן המציג אזורי שירות במספר איים"
+      ],
+      "excluded": [
+        "כתיבת טקסטים",
+        "עמלות אחסון ודומיין"
+      ]
     }
   ],
   "useCases": [
     {
-      "title": "New businesses launching across the islands",
-      "description": "A complete, professional web presence covering the locations you actually serve."
+      "title": "עסקים חדשים שמשיקים בכל האיים",
+      "description": "נוכחות רשת מקצועית ושלמה שמכסה את המיקומים שאתם באמת משרתים."
     },
     {
-      "title": "Businesses replacing a social-only presence",
-      "description": "Moving beyond Instagram and Facebook to a proper, owned website."
+      "title": "עסקים שמחליפים נוכחות חברתית בלבד",
+      "description": "מעבר מאינסטגרם ופייסבוק לאתר ראוי שבבעלותכם."
     },
     {
-      "title": "Multi-location businesses",
-      "description": "A single site structured to represent operations on more than one of the three islands clearly."
+      "title": "עסקים עם כמה מיקומים",
+      "description": "אתר יחיד שמובנה לייצג בבירור פעילות ביותר מאחד משלושת האיים."
     }
   ],
   "faqs": [
     {
-      "q": "Do you build websites for businesses on Koh Samui and Koh Tao, or only Koh Phangan?",
-      "a": "All three — CreativeLAB is based on Koh Phangan and works with businesses across Koh Phangan, Koh Samui and Koh Tao."
+      "q": "האם אתם בונים אתרים לעסקים בקו סמוי ובקו טאו, או רק בקו פנגן?",
+      "a": "בשלושתם — CreativeLAB ממוקמת בקו פנגן ועובדת עם עסקים בקו פנגן, בקו סמוי ובקו טאו."
     },
     {
-      "q": "How is this different from the Web Design page under Websites & Digital?",
-      "a": "This page introduces web design as part of our wider marketing approach across the three islands; the Websites & Digital hub page is the full service page with detailed scope, process and pricing."
+      "q": "במה זה שונה מעמוד עיצוב האתרים תחת אתרים ודיגיטל?",
+      "a": "העמוד הזה מציג עיצוב אתרים כחלק מגישת השיווק הרחבה שלנו בשלושת האיים; עמוד תחום אתרים ודיגיטל הוא עמוד השירות המלא עם היקף, תהליך ותמחור מפורטים."
     },
     {
-      "q": "Do I need to travel or meet in person to start a website project?",
-      "a": "No — most projects run remotely with calls and shared files; site visits for photography follow the relevant travel arrangement if you're on Samui or Tao."
+      "q": "האם אני צריך לנסוע או להיפגש באופן אישי כדי להתחיל פרויקט אתר?",
+      "a": "לא — רוב הפרויקטים רצים מרחוק עם שיחות וקבצים משותפים; ביקורים באתר לצילום כפופים לסידור הנסיעה הרלוונטי אם אתם בסמוי או בטאו."
     },
     {
-      "q": "Will you write the content, or do I need to provide it?",
-      "a": "We write the copy following our content rules; you provide the facts we can't invent, like pricing, credentials or specific claims."
+      "q": "האם אתם כותבים את התוכן, או שאני צריך לספק אותו?",
+      "a": "אנחנו כותבים את הקופי לפי כללי התוכן שלנו; אתם מספקים את העובדות שאיננו יכולים להמציא, כמו מחירים, הסמכות או טענות ספציפיות."
     },
     {
-      "q": "Can the site represent a business operating on more than one island?",
-      "a": "Yes — we structure content and location information clearly when a business serves multiple islands rather than treating it as one generic service area."
+      "q": "האם האתר יכול לייצג עסק שפועל ביותר מאי אחד?",
+      "a": "כן — אנחנו מבנים תוכן ומידע מיקום בבירור כשעסק משרת כמה איים ולא מתייחסים לזה כאזור שירות גנרי אחד."
     },
     {
-      "q": "Do you provide the photography for the site too?",
-      "a": "Yes, through our photography services, or we can work with existing assets you already have."
+      "q": "האם אתם מספקים גם את הצילום לאתר?",
+      "a": "כן, באמצעות שירותי הצילום שלנו, או שאנחנו יכולים לעבוד עם נכסים קיימים שכבר יש לכם."
     },
     {
-      "q": "How long does a typical website project take?",
-      "a": "From around 2 weeks for a landing page to 6–10 weeks for a larger multi-page or e-commerce site."
+      "q": "כמה זמן לוקח פרויקט אתר טיפוסי?",
+      "a": "מכשבועיים בערך לדף נחיתה ועד 6–10 שבועות לאתר גדול יותר מרובה עמודים או אי-קומרס."
     }
   ],
   "related": [
     {
-      "label": "Web Design (full service)",
-      "description": "The complete web design service — scope, process and pricing."
+      "label": "עיצוב אתרים (שירות מלא)",
+      "description": "שירות עיצוב האתרים המלא — היקף, תהליך ותמחור."
     },
     {
-      "label": "Websites & Digital",
-      "description": "Our full digital practice — landing pages, redesigns, SEO and AI search."
+      "label": "אתרים ודיגיטל",
+      "description": "העשייה הדיגיטלית המלאה שלנו — דפי נחיתה, עיצוב מחדש, SEO וחיפוש AI."
     },
     {
-      "label": "Branding",
-      "description": "Brand identity to inform the design of your site."
+      "label": "מיתוג",
+      "description": "זהות מותג שמעצבת את עיצוב האתר שלכם."
     }
   ],
-  "finalCtaLabel": "Start a Project"
+  "finalCtaLabel": "התחילו פרויקט"
 }

@@ -1,177 +1,206 @@
 {
-  "navLabel": "Advertising",
-  "h1": "Advertising",
-  "primaryKeyword": "advertising agency Koh Phangan, Koh Samui and Koh Tao",
+  "navLabel": "פרסום",
+  "h1": "סוכנות פרסום בקו פנגן, קו סמוי וקו טאו",
+  "primaryKeyword": "סוכנות פרסום בקו פנגן, קו סמוי וקו טאו",
   "secondaryTopics": [
-    "advertising campaigns",
-    "Google Ads and Meta Ads",
-    "performance marketing",
-    "island advertising strategy"
+    "קמפייני פרסום",
+    "Google Ads ו-Meta Ads",
+    "שיווק ביצועים",
+    "אסטרטגיית פרסום באיים"
   ],
-  "metaTitle": "Advertising",
-  "metaDescription": "Advertising for businesses on Koh Phangan, Koh Samui and Koh Tao — Google Ads, Meta Ads, creative production and measurement from one accountable team.",
-  "directAnswer": "CreativeLAB is an advertising agency serving businesses on Koh Phangan, Koh Samui and Koh Tao. We plan the channel mix, produce the creative, run Google Ads and Meta Ads, and track results so advertising spend turns into bookings and inquiries rather than impressions alone.",
-  "heroSupport": "One team to plan, produce and run advertising across Koh Phangan, Koh Samui and Koh Tao — instead of a different vendor for strategy, creative and media buying.",
-  "heroImageAlt": "CreativeLAB team planning an advertising campaign for an island business",
+  "metaTitle": "סוכנות פרסום בקו פנגן, סמוי וטאו",
+  "metaDescription": "פרסום לעסקים בקו פנגן, קו סמוי וקו טאו — Google Ads, Meta Ads, הפקת קריאייטיב ומדידה מצוות אחד ואחראי.",
+  "directAnswer": "CreativeLAB היא סוכנות פרסום שמשרתת עסקים בקו פנגן, קו סמוי וקו טאו. אנחנו מתכננים את תמהיל הערוצים, מפיקים את הקריאייטיב, מפעילים Google Ads ו-Meta Ads ועוקבים אחר התוצאות, כך שהוצאות הפרסום הופכות להזמנות ופניות ולא רק לחשיפות.",
+  "heroSupport": "צוות אחד שמתכנן, מפיק ומפעיל פרסום בקו פנגן, קו סמוי וקו טאו — במקום ספק שונה לאסטרטגיה, לקריאייטיב ולרכישת מדיה.",
+  "heroImageAlt": "צוות CreativeLAB מתכנן קמפיין פרסום לעסק באי",
   "overview": [
-    "Advertising is usually the fastest way for a business on Koh Phangan, Koh Samui or Koh Tao to get in front of people who are already deciding where to eat, stay or book. The three islands aren't one market: Koh Samui has an airport and a broader, more established tourism and expat economy; Koh Phangan's audience mixes long-stay wellness and party-season travellers with a growing year-round local business scene; Koh Tao's is smaller and shaped heavily by diving. Advertising that ignores those differences wastes budget on the wrong audience in the wrong place.",
-    "This page is the overview of our advertising offer — how strategy, creative and media buying fit together as one service. For the detail on a specific channel, see our dedicated Google Ads and Meta Ads pages; this is where we explain how we decide the mix between them, and where advertising sits relative to your other marketing.",
-    "We don't treat advertising as a separate discipline from content and photography. The same team that plans your campaign can also produce the imagery and video it runs on, which matters on the islands: production here means coordinating shoot days, weather and — for Koh Samui and Koh Tao — travel by boat, so creative and media planning need to happen together rather than as two disconnected briefs.",
-    "Every campaign is set up with measurement from day one — conversion tracking, call tracking or booking-event tracking, depending on what a lead actually looks like for your business — so decisions about where to spend more or less are based on results, not assumptions."
+    "פרסום הוא בדרך כלל הדרך המהירה ביותר לעסק בקו פנגן, בקו סמוי או בקו טאו להגיע לאנשים שכבר מחליטים איפה לאכול, ללון או להזמין. שלושת האיים אינם שוק אחד: לקו סמוי יש שדה תעופה וכלכלת תיירות ואקספטים רחבה ומבוססת יותר; הקהל של קו פנגן משלב מטיילים לשהייה ארוכה לבריאות ולעונת המסיבות עם סצנה עסקית מקומית צומחת כל השנה; הקהל של קו טאו קטן יותר ומעוצב במידה רבה על ידי צלילה. פרסום שמתעלם מההבדלים האלה מבזבז תקציב על קהל לא נכון במקום לא נכון.",
+    "העמוד הזה הוא הסקירה של הצעת הפרסום שלנו — איך אסטרטגיה, קריאייטיב ורכישת מדיה משתלבים כשירות אחד. לפרטים על ערוץ ספציפי, ראו את עמודי Google Ads ו-Meta Ads הייעודיים שלנו; כאן אנחנו מסבירים איך אנחנו מחליטים על התמהיל ביניהם, ואיפה פרסום ממוקם ביחס לשאר השיווק שלכם.",
+    "אנחנו לא מתייחסים לפרסום כמשמעת נפרדת מתוכן וצילום. אותו צוות שמתכנן את הקמפיין יכול גם להפיק את התמונות והוידאו שהוא רץ עליהם, וזה חשוב באיים: הפקה כאן פירושה תיאום ימי צילום, מזג אוויר ו — לקו סמוי ולקו טאו — הגעה בסירה, ולכן תכנון קריאייטיב ומדיה צריך להתרחש יחד ולא כשני בריפים מנותקים.",
+    "כל קמפיין מוגדר עם מדידה מהיום הראשון — מעקב המרות, מעקב שיחות או מעקב אירועי הזמנה, בהתאם לאיך ליד נראה בפועל עבור העסק שלכם — כך שהחלטות על איפה להוציא יותר או פחות מבוססות על תוצאות ולא על הנחות."
   ],
   "scope": [
     {
-      "title": "Channel strategy",
-      "description": "Deciding the right mix of search, social and local advertising for your goals, budget and island market before any account is built."
+      "title": "אסטרטגיית ערוצים",
+      "description": "החלטה על התמהיל הנכון של פרסום בחיפוש, ברשתות חברתיות ופרסום מקומי לפי המטרות, התקציב ושוק האי שלכם, לפני שנבנה חשבון כלשהו."
     },
     {
-      "title": "Cross-island planning",
-      "description": "Budget, targeting and seasonality planned around Koh Phangan, Koh Samui and Koh Tao individually rather than one generic setup."
+      "title": "תכנון בין איים",
+      "description": "תקציב, טירגוט ועונתיות שמתוכננים סביב קו פנגן, קו סמוי וקו טאו בנפרד ולא הגדרה גנרית אחת."
     },
     {
-      "title": "Creative for advertising",
-      "description": "Photography, video and copy produced specifically for ad formats, not repurposed from unrelated content."
+      "title": "קריאייטיב לפרסום",
+      "description": "צילום, וידאו וקופי שמופקים במיוחד לפורמטים של מודעות, ולא ממוחזרים מתוכן שאינו קשור."
     },
     {
-      "title": "Campaign management",
-      "description": "Google Ads and Meta Ads accounts built, launched and managed by the same team that planned the strategy."
+      "title": "ניהול קמפיינים",
+      "description": "חשבונות Google Ads ו-Meta Ads שנבנים, מושקים ומנוהלים על ידי אותו צוות שתכנן את האסטרטגיה."
     },
     {
-      "title": "Measurement & reporting",
-      "description": "Tracking set up before launch, with regular reporting on spend, leads and cost per result in plain language."
+      "title": "מדידה ודיווח",
+      "description": "מעקב שמוגדר לפני ההשקה, עם דיווח שוטף על הוצאה, לידים ועלות לתוצאה בשפה פשוטה."
     }
   ],
   "benefits": [
     {
-      "title": "One strategy, not three vendors",
-      "description": "Channel planning, creative production and media buying come from a single team, so decisions stay coordinated."
+      "title": "אסטרטגיה אחת, לא שלושה ספקים",
+      "description": "תכנון ערוצים, הפקת קריאייטיב ורכישת מדיה מגיעים מצוות אחד, כך שההחלטות נשארות מתואמות."
     },
     {
-      "title": "Built for three different markets",
-      "description": "Koh Phangan, Koh Samui and Koh Tao get their own targeting and budget logic, not a copy-pasted campaign."
+      "title": "בנוי לשלושה שווקים שונים",
+      "description": "לקו פנגן, לקו סמוי ולקו טאו יש לוגיקת טירגוט ותקציב משלהם, ולא קמפיין שהועתק והודבק."
     },
     {
-      "title": "Creative that's made for the ad, not adapted to it",
-      "description": "Photography and video are briefed and shot for the specific ad formats they'll run in."
+      "title": "קריאייטיב שנוצר למודעה, לא מותאם אליה",
+      "description": "צילום ווידאו מקבלים בריף ומצולמים לפורמטים הספציפיים של המודעות שבהן הם ירוצו."
     },
     {
-      "title": "Spend you can account for",
-      "description": "Conversion tracking means you always know what a lead or booking actually cost."
+      "title": "הוצאה שאפשר לתת עליה דין וחשבון",
+      "description": "מעקב המרות אומר שאתם תמיד יודעים כמה ליד או הזמנה עלו בפועל."
     },
     {
-      "title": "A mix that evolves",
-      "description": "As results come in, budget shifts toward the channels and islands that are actually converting."
+      "title": "תמהיל שמתפתח",
+      "description": "ככל שהתוצאות נכנסות, התקציב עובר לערוצים ולאיים שבאמת ממירים."
     }
   ],
   "process": [
     {
-      "title": "Discovery",
-      "description": "We review your business, current advertising (if any), goals and which islands you serve."
+      "title": "גילוי",
+      "description": "אנחנו סוקרים את העסק שלכם, את הפרסום הנוכחי (אם יש), את המטרות ואילו איים אתם משרתים."
     },
     {
-      "title": "Channel & budget plan",
-      "description": "We recommend a mix of Google Ads, Meta Ads or both, with a budget split you can defend."
+      "title": "תוכנית ערוצים ותקציב",
+      "description": "אנחנו ממליצים על תמהיל של Google Ads, Meta Ads או שניהם, עם חלוקת תקציב שאפשר לעמוד מאחוריה."
     },
     {
-      "title": "Creative production",
-      "description": "Photography, video and copy are produced or adapted specifically for the agreed campaigns."
+      "title": "הפקת קריאייטיב",
+      "description": "צילום, וידאו וקופי מופקים או מותאמים במיוחד לקמפיינים שהוסכמו."
     },
     {
-      "title": "Launch",
-      "description": "Campaigns go live with tracking active from the first click or impression."
+      "title": "השקה",
+      "description": "הקמפיינים עולים לאוויר עם מעקב פעיל מהקליק או החשיפה הראשונים."
     },
     {
-      "title": "Optimize & report",
-      "description": "We adjust spend and creative based on real performance and report on a regular schedule."
+      "title": "אופטימיזציה ודיווח",
+      "description": "אנחנו מתאימים הוצאה וקריאייטיב לפי ביצועים אמיתיים ומדווחים בלוח זמנים קבוע."
     }
   ],
   "pricing": [
     {
-      "service": "Advertising strategy & channel plan",
-      "range": "THB 10,000 – 20,000",
-      "note": "Indicative — one-time, before any account is built"
+      "service": "אסטרטגיית פרסום ותוכנית ערוצים",
+      "note": "מחיר מנחה — חד-פעמי, לפני שנבנה חשבון כלשהו",
+      "included": [
+        "אסטרטגיית פרסום",
+        "תוכנית ערוצים, לפני הקמת חשבונות"
+      ],
+      "excluded": [
+        "תקציב פרסום — משולם על ידכם ישירות לפלטפורמה",
+        "הקמה וניהול של קמפיינים"
+      ]
     },
     {
-      "service": "Campaign setup (single platform)",
-      "range": "THB 15,000 – 35,000",
-      "note": "Google Ads or Meta Ads, strategy and tracking included"
+      "service": "הקמת קמפיין (פלטפורמה אחת)",
+      "note": "Google Ads או Meta Ads, כולל אסטרטגיה ומעקב",
+      "included": [
+        "הקמת קמפיין ב-Google Ads או Meta Ads",
+        "כולל אסטרטגיה ומעקב"
+      ],
+      "excluded": [
+        "תקציב פרסום — משולם על ידכם ישירות לפלטפורמה",
+        "עמלות פלטפורמה"
+      ]
     },
     {
-      "service": "Monthly advertising management",
-      "range": "THB 12,000 – 30,000 / month",
-      "note": "Excludes ad spend, billed directly to the platform"
+      "service": "ניהול פרסום חודשי",
+      "note": "לא כולל הוצאת מדיה, שמחויבת ישירות מול הפלטפורמה",
+      "included": [
+        "ניהול ואופטימיזציה שוטפים של קמפיינים",
+        "דוח חודשי"
+      ],
+      "excluded": [
+        "תקציב פרסום — משולם על ידכם ישירות לפלטפורמה",
+        "עמלות פלטפורמה",
+        "הפקת קריאייטיב חדש"
+      ]
     },
     {
-      "service": "Multi-platform campaign launch",
-      "range": "THB 45,000 – 95,000",
-      "note": "Indicative — Google + Meta, coordinated creative and tracking"
+      "service": "השקת קמפיין רב-פלטפורמות",
+      "note": "מחיר מנחה — Google + Meta, קריאייטיב ומעקב מתואמים",
+      "included": [
+        "השקה מתואמת ב-Google וב-Meta",
+        "קריאייטיב ומעקב מתואמים"
+      ],
+      "excluded": [
+        "תקציב פרסום — משולם על ידכם ישירות לפלטפורמה",
+        "עמלות פלטפורמה"
+      ]
     }
   ],
   "useCases": [
     {
-      "title": "Villas & vacation rentals",
-      "description": "Capture high-intent search and social traffic during each island's booking season."
+      "title": "וילות והשכרות נופש",
+      "description": "לכידת תנועה בכוונה גבוהה מחיפוש וממדיה חברתית בעונת ההזמנות של כל אי."
     },
     {
-      "title": "Restaurants & bars",
-      "description": "Drive reservations, delivery orders or event turnout with targeted local campaigns."
+      "title": "מסעדות וברים",
+      "description": "הנעת הזמנות שולחן, הזמנות משלוח או הגעה לאירועים באמצעות קמפיינים מקומיים ממוקדים."
     },
     {
-      "title": "Hotels & resorts",
-      "description": "Coordinate search and social advertising with your booking engine and occupancy goals."
+      "title": "מלונות וריזורטים",
+      "description": "תיאום פרסום בחיפוש וברשתות חברתיות עם מנוע ההזמנות ויעדי התפוסה שלכם."
     },
     {
-      "title": "Wellness & retreat brands",
-      "description": "Reach long-stay travellers researching retreats and programs before they arrive."
+      "title": "מותגי בריאות וריטריטים",
+      "description": "הגעה למטיילים לשהייה ארוכה שחוקרים ריטריטים ותוכניות לפני שהם מגיעים."
     }
   ],
   "faqs": [
     {
-      "q": "Should I start with Google Ads or Meta Ads?",
-      "a": "It depends on whether people are actively searching for what you offer (Google Ads) or need to discover you first (Meta Ads). We'll recommend a starting point based on your business and goals, not a default."
+      "q": "האם להתחיל ב-Google Ads או ב-Meta Ads?",
+      "a": "זה תלוי אם אנשים מחפשים באופן פעיל את מה שאתם מציעים (Google Ads) או שצריכים לגלות אתכם קודם (Meta Ads). נמליץ על נקודת התחלה בהתאם לעסק ולמטרות שלכם, ולא ברירת מחדל."
     },
     {
-      "q": "Do you run advertising for businesses on Koh Samui and Koh Tao, or only Koh Phangan?",
-      "a": "All three — CreativeLAB is based on Koh Phangan and advertises for businesses across Koh Phangan, Koh Samui and Koh Tao, with campaigns geo-targeted to each island."
+      "q": "האם אתם מפעילים פרסום לעסקים בקו סמוי ובקו טאו, או רק בקו פנגן?",
+      "a": "בשלושתם — CreativeLAB ממוקמת בקו פנגן ומפרסמת עבור עסקים בקו פנגן, בקו סמוי ובקו טאו, עם קמפיינים שמכוונים גיאוגרפית לכל אי."
     },
     {
-      "q": "How does advertising connect with your content and social media work?",
-      "a": "The same team can produce the photography, video and social content your ads run on, so paid and organic stay consistent instead of feeling like two separate brands."
+      "q": "איך פרסום מתחבר לעבודת התוכן והרשתות החברתיות שלכם?",
+      "a": "אותו צוות יכול להפיק את הצילום, הוידאו והתוכן החברתי שהמודעות שלכם רצות עליהם, כך שהממומן והאורגני נשארים עקביים ולא מרגישים כשני מותגים נפרדים."
     },
     {
-      "q": "What results can a new business realistically expect?",
-      "a": "It varies by category and budget, but meaningful data usually builds over the first few weeks as we optimize; we'll set expectations specific to your situation rather than a generic promise."
+      "q": "אילו תוצאות עסק חדש יכול לצפות להן באופן ריאלי?",
+      "a": "זה משתנה לפי קטגוריה ותקציב, אבל נתונים משמעותיים נבנים בדרך כלל במהלך השבועות הראשונים תוך כדי אופטימיזציה; נגדיר ציפיות ספציפיות למצב שלכם ולא הבטחה גנרית."
     },
     {
-      "q": "Is there a minimum contract length?",
-      "a": "No — management is billed monthly. We recommend enough runway to gather real data, but there's no long-term lock-in."
+      "q": "האם יש משך חוזה מינימלי?",
+      "a": "לא — הניהול מחויב מדי חודש. אנחנו ממליצים על מספיק זמן לאסוף נתונים אמיתיים, אבל אין נעילה לטווח ארוך."
     },
     {
-      "q": "Do you supply the creative, or do I need my own photos and video?",
-      "a": "We can produce it as part of the project, or work with strong existing assets if you already have them."
+      "q": "האם אתם מספקים את הקריאייטיב, או שאני צריך תמונות ווידאו משלי?",
+      "a": "אנחנו יכולים להפיק אותו כחלק מהפרויקט, או לעבוד עם נכסים קיימים חזקים אם כבר יש לכם."
     },
     {
-      "q": "How do you decide how much budget goes to each island?",
-      "a": "By where your customers actually come from and book — we split targeting and budget by island rather than treating the region as one audience."
+      "q": "איך אתם מחליטים כמה תקציב הולך לכל אי?",
+      "a": "לפי המקום שבו הלקוחות שלכם באמת מגיעים ומזמינים — אנחנו מפצלים טירגוט ותקציב לפי אי ולא מתייחסים לאזור כקהל אחד."
     },
     {
-      "q": "Can I start with a small test budget?",
-      "a": "Yes — we typically recommend launching conservatively to gather safe data before committing a larger monthly spend."
+      "q": "האם אפשר להתחיל בתקציב בדיקה קטן?",
+      "a": "כן — אנחנו ממליצים בדרך כלל להשיק בשמרנות כדי לאסוף נתונים בטוחים לפני שמתחייבים להוצאה חודשית גדולה יותר."
     }
   ],
   "related": [
     {
-      "label": "Advertising Hub",
-      "description": "The full breakdown of Google Ads, Meta Ads, campaign launch and performance marketing."
+      "label": "תחום הפרסום",
+      "description": "הפירוט המלא של Google Ads, Meta Ads, השקת קמפיין ושיווק ביצועים."
     },
     {
       "label": "Google Ads",
-      "description": "Search and local campaigns for people actively looking for what you offer."
+      "description": "קמפייני חיפוש ומקומיים לאנשים שמחפשים באופן פעיל את מה שאתם מציעים."
     },
     {
-      "label": "Digital Marketing",
-      "description": "See how advertising fits into a full, integrated marketing strategy."
+      "label": "שיווק דיגיטלי",
+      "description": "ראו איך פרסום משתלב באסטרטגיית שיווק משולבת ומלאה."
     }
   ],
-  "finalCtaLabel": "Start a Project"
+  "finalCtaLabel": "תכננו את הפרסום שלכם"
 }

@@ -8,6 +8,7 @@ updating something, update it in one place.
 - [Proposals](./Proposals.md) — links to every proposal/brief and its status
 - [../README.md](../README.md) — how to run the project locally and in production
 - [Translations (i18n)](./i18n.md) — where RU/TH/HE text lives, how to edit it, `npm run i18n:*` commands
+- [../AUDIT.md](../AUDIT.md) — generated site audit (368 pages × 4 locales); [../FINAL_QA.md](../FINAL_QA.md) — browser QA results and what was **not** tested; [../DEMO_PORTFOLIO.md](../DEMO_PORTFOLIO.md) — the 8 labelled concept projects and the rules that keep them honest; [../IMPLEMENTATION_PLAN.md](../IMPLEMENTATION_PLAN.md), [../CONTENT_QA.md](../CONTENT_QA.md), [../SEO_GEO_AUDIT.md](../SEO_GEO_AUDIT.md), [../INTEGRATIONS.md](../INTEGRATIONS.md), [../RELEASE_CHECKLIST.md](../RELEASE_CHECKLIST.md) — plan, content QA, SEO/GEO audit, integration status, and the release checklist; generated from the crawl by `site:check`: [../URL_INTENT_MAP.md](../URL_INTENT_MAP.md), [../SEO_CONTENT_MAP.md](../SEO_CONTENT_MAP.md), [../INTERNAL_LINKING_MAP.md](../INTERNAL_LINKING_MAP.md), [../SCHEMA_QA.md](../SCHEMA_QA.md); the translation workflow is [i18n.md](./i18n.md) (the brief's `I18N.md`); [../PRICING_MASTER.md](../PRICING_MASTER.md) / [../PRICING_STRATEGY.md](../PRICING_STRATEGY.md) — central pricing and its research
 - [../NOTES.md](../NOTES.md) — short list of everything still pending human review
 - [../PROGRESS.md](../PROGRESS.md) — build progress against the current proposal, phase by phase, plus an "Open Questions & Blockers" section for everything that needs a person (client answer, teammate decision, external credentials), not more code
 
@@ -24,14 +25,18 @@ change (see [AGENTS.md](../AGENTS.md)).
 | File | What it controls |
 |---|---|
 | `next.config.ts` | Next.js config — `allowedDevOrigins` (LAN testing), `experimental.globalNotFound` (localized 404 in `src/app/global-not-found.tsx`), AVIF/WebP images, security headers; must stay without static export |
-| `package.json` | Scripts: `dev`, `build`, `start`, `lint`, `i18n:check`, `i18n:sync`, `i18n:pending`, `i18n:accept`, `i18n:export`; `jiti` (dev) lets `scripts/i18n.mjs` load the TS content |
+| `package.json` | Scripts: `dev`, `build`, `start`, `lint`, `contact:check`, `site:check`, `pricing:check`, `pricing:master`, `i18n:check`, `i18n:sync`, `i18n:pending`, `i18n:accept`, `i18n:export`; `jiti` (dev) lets `scripts/i18n.mjs` load the TS content |
 | `scripts/i18n.mjs` | Translation check/sync/export — see [i18n.md](./i18n.md) |
+| `scripts/contact-check.mjs` | `npm run contact:check` — runs the real `/api/contact` handler with a mocked Telegram: validation, honeypot, rate limit, option whitelist, escaping, attribution lines (no real lead is sent) |
+| `scripts/site-check.mjs` | `npm run site:check` — crawls the production build in all 4 locales (status, title, description, H1, canonical, hreflang, JSON-LD, alt, links, banned phrases, old domains, duplicate content, schema rules, direct answer / description / FAQ / links / keyword / word count on commercial pages); `-- --write-audit` regenerates [AUDIT.md](../AUDIT.md) and the four generated maps listed above |
+| `scripts/pricing-check.mjs` | `npm run pricing:check` (verify) / `npm run pricing:master` (regenerate the table in PRICING_MASTER.md) — every row on a priceId, no figures in locale files, numbers identical across locales — see [PRICING_MASTER.md](../PRICING_MASTER.md) |
+| `src/content/pricing.ts` | **Single source of truth for prices** (THB min/max, unit, revisions, turnaround); content rows reference it by `priceId` |
 | `src/proxy.ts` | Locale routing (EN unprefixed, `/ru` `/th` `/he`); bypass list for `/api`, `robots.txt`, `sitemap.xml`, `llms.txt`, `llms-full.txt` |
 | `tsconfig.json` | TypeScript; excludes `bots/` (separate package) |
 | `.env.example` | Template for `.env.local` — every env var the site reads |
 | `.gitignore` | Ignores `.env*` except `.env.example`; `.i18n-source/` (export output) |
 | `Makefile` | `make help` — app + board/workflow shortcuts |
-| `.github/workflows/ci.yml` | CI: site (lint → `i18n:check` → build → `tsc --noEmit`) + bots job (`bots/`: typecheck + flow tests) |
+| `.github/workflows/ci.yml` | CI: site (lint → `i18n:check` → `pricing:check` → `contact:check` → build → `tsc --noEmit` → `site:check`) + bots job (`bots/`: typecheck + flow tests) |
 | `.github/workflows/project-status-sync.yml` | Syncs issue status to the GitHub Project board |
 
 ### Env vars (site)
@@ -45,6 +50,8 @@ change (see [AGENTS.md](../AGENTS.md)).
 | `NEXT_PUBLIC_GA4_ID` | public | `src/lib/analytics.ts` (after consent) | Not loaded |
 | `NEXT_PUBLIC_YM_ID` | public | same (Yandex Metrica) | Not loaded |
 | `NEXT_PUBLIC_META_PIXEL_ID` | public | same (marketing consent) | Not loaded |
+| `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION` | public | `src/app/[locale]/layout.tsx` (`verification.google`) — Search Console ownership tag | No tag emitted |
+| `NEXT_PUBLIC_YANDEX_VERIFICATION` | public | same (`verification.yandex`) — Yandex Webmaster | No tag emitted |
 
 ### Env vars (bots)
 

@@ -3,8 +3,9 @@ import { Breadcrumbs } from "@/components/blocks/Breadcrumbs";
 import { Hero } from "@/components/blocks/Hero";
 import { DirectAnswer } from "@/components/blocks/DirectAnswer";
 import { PortfolioPreview } from "@/components/blocks/PortfolioPreview";
+import { ConceptCards } from "@/components/blocks/ConceptCards";
 import { CtaBanner } from "@/components/blocks/CtaBanner";
-import { getPages, getUi } from "@/content/translations";
+import { getConcepts, getPages, getUi } from "@/content/translations";
 import { buildMetadata } from "@/lib/metadata";
 import { breadcrumbSchema, jsonLdGraph, webPageSchema } from "@/lib/schema";
 import { SITE } from "@/content/site";
@@ -52,6 +53,7 @@ export default async function PortfolioPage(props: PageProps<"/[locale]/portfoli
         locale={locale}
       />
       <DirectAnswer text={page.directAnswer} />
+      <ConceptCards title={page.conceptsTitle} description={page.conceptsIntro} items={getConcepts(locale)} locale={locale} />
       <PortfolioPreview items={pages.portfolioItems} locale={locale} />
       <CtaBanner title={page.ctaTitle} description={page.ctaDescription} locale={locale} />
     </>

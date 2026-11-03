@@ -1,147 +1,161 @@
 {
-  "navLabel": "Branding",
-  "h1": "Branding",
-  "primaryKeyword": "branding agency Koh Phangan",
+  "navLabel": "แบรนดิ้ง",
+  "h1": "เอเจนซี่แบรนดิ้งสำหรับเกาะพะงัน เกาะสมุย และเกาะเต่า",
+  "primaryKeyword": "เอเจนซี่แบรนดิ้งเกาะพะงัน",
   "secondaryTopics": [
-    "brand identity",
-    "visual identity",
-    "creative direction",
-    "island business branding"
+    "อัตลักษณ์แบรนด์",
+    "อัตลักษณ์ภาพ",
+    "ทิศทางสร้างสรรค์",
+    "แบรนดิ้งธุรกิจบนเกาะ"
   ],
-  "metaTitle": "Branding",
-  "metaDescription": "Brand identity and creative direction for businesses on Koh Phangan, Koh Samui and Koh Tao — original visual systems carried through every channel.",
-  "directAnswer": "CreativeLAB builds brand identities for businesses across Koh Phangan, Koh Samui and Koh Tao — strategy, visual identity and creative direction developed as one coherent system, then applied consistently through our own web, social, photography and advertising work rather than handed over as a static PDF.",
-  "heroSupport": "Brand identity and creative direction that actually gets used — across your website, social media, menus and signage.",
-  "heroImageAlt": "Brand identity materials laid out for review in a design studio",
+  "metaTitle": "เอเจนซี่แบรนดิ้ง เกาะพะงัน",
+  "metaDescription": "อัตลักษณ์แบรนด์และทิศทางสร้างสรรค์สำหรับธุรกิจบนเกาะพะงัน เกาะสมุย และเกาะเต่า ระบบภาพต้นฉบับที่ส่งต่อทุกช่องทาง",
+  "directAnswer": "CreativeLAB สร้างอัตลักษณ์แบรนด์ให้ธุรกิจทั่วเกาะพะงัน เกาะสมุย และเกาะเต่า กลยุทธ์ อัตลักษณ์ภาพ และทิศทางสร้างสรรค์ที่พัฒนาเป็นระบบที่สอดคล้องหนึ่งเดียว แล้วนำไปใช้อย่างสม่ำเสมอผ่านงานเว็บ โซเชียล ภาพถ่าย และโฆษณาของเราเอง ไม่ใช่ส่งมอบเป็น PDF นิ่ง",
+  "heroSupport": "อัตลักษณ์แบรนด์และทิศทางสร้างสรรค์ที่ถูกใช้งานจริง ทั่วเว็บไซต์ โซเชียลมีเดีย เมนู และป้ายของคุณ",
+  "heroImageAlt": "สื่ออัตลักษณ์แบรนด์ที่วางเรียงเพื่อทบทวนในสตูดิโอออกแบบ",
   "overview": [
-    "Most island businesses we meet have a logo but not a brand — a mark that was designed once and then applied inconsistently across a website built by one freelancer, social templates made by another, and signage ordered from a local printer with none of them talking to each other. The result is a business that looks less established than it actually is.",
-    "We treat branding as the foundation everything else gets built on, not a separate deliverable. Because CreativeLAB also produces the photography, video, websites and advertising that carry a brand day to day, an identity we design doesn't sit still — it gets tested and refined the moment it's applied to real work, across whichever of the three islands your business operates on.",
-    "This page introduces branding as part of that wider creative practice — what it covers and who it's for. For the detailed scope, process and pricing of a branding project, see our Branding & Creative service page, which is the canonical version of this content.",
-    "Businesses that operate across more than one of the three islands — a villa group with properties on Phangan and Samui, for instance, or a wellness brand expanding from one island to another — particularly benefit from a defined identity system, since it's what keeps the business recognizable as it grows rather than looking like several unrelated ventures."
+    "ธุรกิจบนเกาะส่วนใหญ่ที่เราพบมีโลโก้แต่ไม่มีแบรนด์ เครื่องหมายที่ออกแบบครั้งเดียวแล้วนำไปใช้อย่างไม่สม่ำเสมอข้ามเว็บไซต์ที่สร้างโดยฟรีแลนซ์คนหนึ่ง เทมเพลตโซเชียลที่ทำโดยอีกคน และป้ายที่สั่งจากโรงพิมพ์ท้องถิ่น โดยไม่มีใครคุยกันเลย ผลคือธุรกิจที่ดูมั่นคงน้อยกว่าที่เป็นจริง",
+    "เราถือว่าแบรนดิ้งคือรากฐานที่ทุกอย่างอื่นสร้างขึ้นบน ไม่ใช่งานส่งมอบแยก เพราะ CreativeLAB ผลิตภาพถ่าย วิดีโอ เว็บไซต์ และโฆษณาที่แบกแบรนด์ไปทุกวันด้วย อัตลักษณ์ที่เราออกแบบจึงไม่นิ่ง ถูกทดสอบและขัดเกลาทันทีที่นำไปใช้กับงานจริง ไม่ว่าธุรกิจของคุณจะดำเนินการบนเกาะไหนในสามเกาะ",
+    "หน้านี้แนะนำแบรนดิ้งเป็นส่วนหนึ่งของงานสร้างสรรค์ที่กว้างกว่านั้น ครอบคลุมอะไรและสร้างให้ใคร สำหรับขอบเขต กระบวนการ และราคาโดยละเอียดของโปรเจกต์แบรนดิ้ง ดูหน้าบริการแบรนดิ้งและงานสร้างสรรค์ของเรา ซึ่งเป็นเวอร์ชันหลักของเนื้อหานี้",
+    "ธุรกิจที่ดำเนินการมากกว่าหนึ่งในสามเกาะ เช่น กลุ่มวิลล่าที่มีทรัพย์สินบนเกาะพะงันและเกาะสมุย หรือแบรนด์เวลเนสที่ขยายจากเกาะหนึ่งไปอีกเกาะ ได้ประโยชน์เป็นพิเศษจากระบบอัตลักษณ์ที่กำหนดไว้ เพราะเป็นสิ่งที่ทำให้ธุรกิจจดจำได้เมื่อเติบโต แทนที่จะดูเหมือนกิจการหลายแห่งที่ไม่เกี่ยวข้องกัน"
   ],
   "scope": [
     {
-      "title": "Brand strategy",
-      "description": "Positioning, tone of voice and audience definition grounded in how your business actually operates."
+      "title": "กลยุทธ์แบรนด์",
+      "description": "การวางตำแหน่ง น้ำเสียง และการนิยามกลุ่มเป้าหมายที่ยึดตามวิธีที่ธุรกิจของคุณดำเนินการจริง"
     },
     {
-      "title": "Visual identity",
-      "description": "Logo, color palette and typography system designed as an original, coherent whole."
+      "title": "อัตลักษณ์ภาพ",
+      "description": "โลโก้ พาเลตต์สี และระบบตัวอักษรที่ออกแบบเป็นองค์รวมต้นฉบับที่สอดคล้องกัน"
     },
     {
-      "title": "Applications across channels",
-      "description": "How the identity carries through to your website, social media, print materials and advertising."
+      "title": "การประยุกต์ใช้ข้ามช่องทาง",
+      "description": "อัตลักษณ์ส่งต่อไปยังเว็บไซต์ โซเชียลมีเดีย สื่อสิ่งพิมพ์ และโฆษณาของคุณอย่างไร"
     },
     {
-      "title": "Practical guidelines",
-      "description": "A usable reference document, not a design-agency showcase piece nobody consults."
+      "title": "แนวทางที่ใช้งานได้จริง",
+      "description": "เอกสารอ้างอิงที่ใช้ได้จริง ไม่ใช่ชิ้นโชว์ของเอเจนซี่ออกแบบที่ไม่มีใครเปิดดู"
     }
   ],
   "benefits": [
     {
-      "title": "Real differentiation",
-      "description": "An original identity built for your business, not a template that looks like every other island brand."
+      "title": "ความแตกต่างที่แท้จริง",
+      "description": "อัตลักษณ์ต้นฉบับที่สร้างสำหรับธุรกิจของคุณ ไม่ใช่เทมเพลตที่ดูเหมือนแบรนด์บนเกาะอื่นทุกแบรนด์"
     },
     {
-      "title": "Consistency across every channel",
-      "description": "One system applied to your website, social content, advertising and physical materials alike."
+      "title": "ความสม่ำเสมอทุกช่องทาง",
+      "description": "ระบบเดียวที่ใช้กับเว็บไซต์ คอนเทนต์โซเชียล โฆษณา และสื่อกายภาพเหมือนกัน"
     },
     {
-      "title": "Applied by the same team that designed it",
-      "description": "Because CreativeLAB also produces your web, social and advertising work, the brand gets carried through consistently rather than lost in handoff."
+      "title": "นำไปใช้โดยทีมเดียวกับที่ออกแบบ",
+      "description": "เพราะ CreativeLAB ผลิตงานเว็บ โซเชียล และโฆษณาของคุณด้วย แบรนด์จึงถูกส่งต่ออย่างสม่ำเสมอ ไม่หายระหว่างการส่งต่อ"
     },
     {
-      "title": "A foundation for growth across islands",
-      "description": "A system flexible enough to represent a business expanding from one island to another."
+      "title": "รากฐานสำหรับการเติบโตข้ามเกาะ",
+      "description": "ระบบที่ยืดหยุ่นพอจะแทนธุรกิจที่ขยายจากเกาะหนึ่งไปอีกเกาะ"
     }
   ],
   "process": [
     {
-      "title": "Strategy",
-      "description": "Define positioning, audience and tone before any visual work begins."
+      "title": "กลยุทธ์",
+      "description": "กำหนดการวางตำแหน่ง กลุ่มเป้าหมาย และน้ำเสียงก่อนเริ่มงานภาพใด ๆ"
     },
     {
-      "title": "Concept",
-      "description": "Initial visual identity directions presented for feedback."
+      "title": "แนวคิด",
+      "description": "นำเสนอทิศทางอัตลักษณ์ภาพเบื้องต้นเพื่อขอข้อเสนอแนะ"
     },
     {
-      "title": "Refine",
-      "description": "Develop the chosen direction into a full, applied system."
+      "title": "ขัดเกลา",
+      "description": "พัฒนาทิศทางที่เลือกเป็นระบบเต็มรูปแบบที่นำไปใช้ได้"
     },
     {
-      "title": "Deliver",
-      "description": "Final files and practical guidelines handed over."
+      "title": "ส่งมอบ",
+      "description": "ส่งมอบไฟล์สุดท้ายและแนวทางที่ใช้งานได้จริง"
     }
   ],
   "pricing": [
     {
-      "service": "Brand identity (logo + guidelines)",
-      "range": "THB 30,000 – 80,000",
-      "note": "Per project"
+      "service": "อัตลักษณ์แบรนด์ (โลโก้ + แนวทาง)",
+      "note": "ต่อโปรเจกต์",
+      "included": [
+        "ออกแบบโลโก้",
+        "เอกสารแนวทางแบรนด์"
+      ],
+      "excluded": [
+        "นำแบรนด์ไปใช้บนเว็บ โซเชียล และสิ่งพิมพ์",
+        "บรรจุภัณฑ์"
+      ]
     },
     {
-      "service": "Full brand system (multi-channel applications)",
-      "range": "THB 70,000 – 150,000",
-      "note": "Includes web, social and print application"
+      "service": "ระบบแบรนด์เต็มรูปแบบ (การประยุกต์ใช้หลายช่องทาง)",
+      "note": "รวมการประยุกต์ใช้บนเว็บ โซเชียล และสิ่งพิมพ์",
+      "included": [
+        "โลโก้และแนวทางแบรนด์",
+        "การนำไปใช้บนเว็บ โซเชียล และสิ่งพิมพ์"
+      ],
+      "excluded": [
+        "ค่าพิมพ์และค่าผลิต",
+        "บรรจุภัณฑ์"
+      ]
     }
   ],
   "useCases": [
     {
-      "title": "New businesses launching on the islands",
-      "description": "A complete identity built from the ground up, ready for web, social and print from day one."
+      "title": "ธุรกิจใหม่ที่เปิดตัวบนเกาะ",
+      "description": "อัตลักษณ์สมบูรณ์ที่สร้างตั้งแต่ศูนย์ พร้อมสำหรับเว็บ โซเชียล และสิ่งพิมพ์ตั้งแต่วันแรก"
     },
     {
-      "title": "Rebrands",
-      "description": "Refreshing or replacing an identity that no longer reflects a growing or repositioned business."
+      "title": "การรีแบรนด์",
+      "description": "รีเฟรชหรือเปลี่ยนอัตลักษณ์ที่ไม่สะท้อนธุรกิจที่เติบโตหรือปรับตำแหน่งใหม่อีกต่อไป"
     },
     {
-      "title": "Businesses expanding across islands",
-      "description": "A system built to scale from Koh Phangan into Koh Samui or Koh Tao without losing coherence."
+      "title": "ธุรกิจที่ขยายข้ามเกาะ",
+      "description": "ระบบที่สร้างให้ขยายจากเกาะพะงันสู่เกาะสมุยหรือเกาะเต่าโดยไม่เสียความสอดคล้อง"
     }
   ],
   "faqs": [
     {
-      "q": "Do you work with businesses on Koh Samui and Koh Tao, not just Koh Phangan?",
-      "a": "Yes — CreativeLAB is based on Koh Phangan and builds brand identities for businesses across all three islands."
+      "q": "คุณทำงานกับธุรกิจบนเกาะสมุยและเกาะเต่าไหม ไม่ใช่แค่เกาะพะงัน?",
+      "a": "ทำ CreativeLAB ตั้งอยู่ที่เกาะพะงันและสร้างอัตลักษณ์แบรนด์ให้ธุรกิจทั้งสามเกาะ"
     },
     {
-      "q": "How is this different from the Branding page under Branding & Creative?",
-      "a": "This page introduces branding as part of our wider creative practice across the three islands; the Branding & Creative hub page is the full service with detailed scope, process and pricing."
+      "q": "นี่ต่างจากหน้าแบรนดิ้งใต้หมวดแบรนดิ้งและงานสร้างสรรค์อย่างไร?",
+      "a": "หน้านี้แนะนำแบรนดิ้งเป็นส่วนหนึ่งของงานสร้างสรรค์ที่กว้างกว่าของเราทั่วสามเกาะ ส่วนหน้าหมวดแบรนดิ้งและงานสร้างสรรค์เป็นบริการเต็มรูปแบบพร้อมขอบเขต กระบวนการ และราคาอย่างละเอียด"
     },
     {
-      "q": "Do you only design logos, or full brand identities?",
-      "a": "Full brand identities — strategy, visual system and applications, not just a logo mark."
+      "q": "คุณออกแบบแค่โลโก้ หรืออัตลักษณ์แบรนด์เต็มรูปแบบ?",
+      "a": "อัตลักษณ์แบรนด์เต็มรูปแบบ กลยุทธ์ ระบบภาพ และการประยุกต์ใช้ ไม่ใช่แค่เครื่องหมายโลโก้"
     },
     {
-      "q": "Can you apply our brand to our website and social media too?",
-      "a": "Yes — our web, social and video services are built to carry the brand system through consistently once it's designed."
+      "q": "คุณนำแบรนด์ของเราไปใช้กับเว็บไซต์และโซเชียลมีเดียด้วยไหม?",
+      "a": "ใช่ บริการเว็บ โซเชียล และวิดีโอของเราสร้างมาเพื่อส่งต่อระบบแบรนด์อย่างสม่ำเสมอเมื่อออกแบบเสร็จ"
     },
     {
-      "q": "How long does a brand identity project take?",
-      "a": "Typically 4–8 weeks depending on scope and how many touchpoints are included."
+      "q": "โปรเจกต์อัตลักษณ์แบรนด์ใช้เวลานานแค่ไหน?",
+      "a": "โดยทั่วไป 4–8 สัปดาห์ ขึ้นกับขอบเขตและจำนวนจุดสัมผัสที่รวม"
     },
     {
-      "q": "Can you refresh an existing brand rather than starting from scratch?",
-      "a": "Yes — we regularly refine and modernize existing identities rather than replacing them entirely."
+      "q": "คุณรีเฟรชแบรนด์เดิมได้ไหมแทนการเริ่มจากศูนย์?",
+      "a": "ได้ เราขัดเกลาและปรับอัตลักษณ์เดิมให้ทันสมัยเป็นประจำแทนการแทนที่ทั้งหมด"
     },
     {
-      "q": "Do you handle a brand that needs to work across more than one of the islands?",
-      "a": "Yes — we design with that flexibility in mind when a business already operates or plans to operate on more than one island."
+      "q": "คุณจัดการแบรนด์ที่ต้องใช้ได้ข้ามมากกว่าหนึ่งเกาะไหม?",
+      "a": "จัดการ เราออกแบบโดยคำนึงถึงความยืดหยุ่นนั้นเมื่อธุรกิจดำเนินการหรือวางแผนจะดำเนินการบนมากกว่าหนึ่งเกาะ"
     }
   ],
   "related": [
     {
-      "label": "Branding (full service)",
-      "description": "The complete brand identity service — scope, process and pricing."
+      "label": "แบรนดิ้ง (บริการเต็มรูปแบบ)",
+      "description": "บริการอัตลักษณ์แบรนด์ฉบับสมบูรณ์ ขอบเขต กระบวนการ และราคา"
     },
     {
-      "label": "Branding & Creative",
-      "description": "Our full creative practice — graphic design, creative direction and menu design."
+      "label": "แบรนดิ้งและงานสร้างสรรค์",
+      "description": "งานสร้างสรรค์เต็มรูปแบบของเรา กราฟิกดีไซน์ ทิศทางสร้างสรรค์ และออกแบบเมนู"
     },
     {
-      "label": "Web Design",
-      "description": "Bringing your brand identity to your website."
+      "label": "ออกแบบเว็บไซต์",
+      "description": "นำอัตลักษณ์แบรนด์ของคุณสู่เว็บไซต์"
     }
   ],
-  "finalCtaLabel": "Start a Project"
+  "finalCtaLabel": "เริ่มโปรเจกต์"
 }

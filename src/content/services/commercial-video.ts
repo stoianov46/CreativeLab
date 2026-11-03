@@ -84,18 +84,24 @@ export const commercialVideoService: ServicePage = {
   pricing: [
     {
       service: "Video production (60-second commercial)",
-      range: "THB 25,000 – 60,000",
+      priceId: "services.commercial-video.1",
       note: "Filming, editing and music",
+      included: ["60-second commercial", "Filming, editing and music"],
+      excluded: ["Travel to Koh Samui or Koh Tao", "Advertising budget"],
     },
     {
       service: "Brand film (2–3 minutes)",
-      range: "THB 60,000 – 150,000",
+      priceId: "video-production.commercial.2",
       note: "Larger production, multiple locations or setups",
+      included: ["Brand film of 2–3 minutes", "Multiple locations or setups"],
+      excluded: ["Travel to Koh Samui or Koh Tao", "Advertising budget"],
     },
     {
       service: "Multi-format delivery add-on",
-      range: "THB 8,000 – 18,000",
+      priceId: "services.commercial-video.2",
       note: "Indicative — additional cuts for social and web from the same shoot",
+      included: ["Additional cuts for social media and web from the same shoot"],
+      excluded: ["New filming"],
     },
   ],
   useCases: [

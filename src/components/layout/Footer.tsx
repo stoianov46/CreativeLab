@@ -13,7 +13,7 @@ export function Footer({ locale }: { locale: Locale }) {
       <Container className="py-16 lg:py-24">
         <div className="grid grid-cols-2 gap-10 sm:grid-cols-3 lg:grid-cols-6">
           {getFooterColumns(locale).map((column) => (
-            <div key={column.title}>
+            <div key={column.title} className="min-w-0">
               <h3 className="text-xs tracking-[0.15em] text-text-inverse-secondary uppercase">
                 {column.title}
               </h3>
@@ -22,7 +22,7 @@ export function Footer({ locale }: { locale: Locale }) {
                   <li key={link.label}>
                     <Link
                       href={link.href}
-                      className="text-sm text-text-inverse-secondary hover:text-text-inverse"
+                      className="text-sm text-text-inverse-secondary [overflow-wrap:anywhere] hover:text-text-inverse"
                     >
                       {link.label}
                     </Link>
@@ -37,11 +37,16 @@ export function Footer({ locale }: { locale: Locale }) {
           <p className="font-display text-lg text-text-inverse">
             CreativeLAB — {ui.location}
           </p>
-          <p>
-            <a href={`mailto:${SITE.email}`} className="hover:text-text-inverse">
-              <bdi>{SITE.email}</bdi>
-            </a>
-          </p>
+          <div className="space-y-1 sm:text-end">
+            <p>
+              <a href={`mailto:${SITE.email}`} className="hover:text-text-inverse">
+                <bdi>{SITE.email}</bdi>
+              </a>
+            </p>
+            <address className="text-xs not-italic">
+              <bdi dir="ltr">{SITE.address.display}</bdi>
+            </address>
+          </div>
         </div>
         <p className="mt-6 text-xs text-text-inverse-secondary">
           © {year} {SITE.legalName}. {ui.footer.rights}{" "}

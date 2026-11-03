@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ServicePageView } from "@/components/pages/ServicePageView";
 import { allServiceParams } from "@/content/hubs";
-import { getService, getUi } from "@/content/translations";
+import { getConcepts, getService, getUi } from "@/content/translations";
+import { format } from "@/content/localize";
 import { buildMetadata } from "@/lib/metadata";
 import {
   breadcrumbSchema,
@@ -11,6 +12,7 @@ import {
   serviceSchema,
   webPageSchema,
 } from "@/lib/schema";
+import { pricingCatalog } from "@/lib/pricing-schema";
 import { SITE } from "@/content/site";
 import { localePath, toLocale } from "@/content/i18n";
 
@@ -45,13 +47,20 @@ export default async function ServicePageRoute(
   if (!match) notFound();
   const { hub, service } = match;
   const ui = getUi(locale);
+  const concepts = getConcepts(locale);
 
   const url = `${SITE.url}${localePath(locale, `/${hub.slug}/${service.slug}`)}`;
   const homeUrl = `${SITE.url}${localePath(locale, "/")}`;
   const hubUrl = `${SITE.url}${localePath(locale, `/${hub.slug}`)}`;
   const graph = jsonLdGraph([
     webPageSchema({ name: service.metaTitle, description: service.metaDescription, url, inLanguage: locale }),
-    serviceSchema({ name: service.h1, description: service.metaDescription, url, serviceType: service.primaryKeyword }),
+    serviceSchema({
+      name: service.h1,
+      description: service.metaDescription,
+      url,
+      serviceType: service.primaryKeyword,
+      catalog: pricingCatalog(service.pricing, locale, `${service.navLabel} — ${ui.blocks.pricingTitle}`),
+    }),
     breadcrumbSchema([
       { name: ui.nav.home, url: homeUrl },
       { name: hub.navLabel, url: hubUrl },
@@ -76,6 +85,17 @@ export default async function ServicePageRoute(
           .slice(0, 3)
           .map((s) => ({ label: s.navLabel, href: `/${hub.slug}/${s.slug}`, description: s.heroSupport }))}
         botSlugs={[service.slug, hub.slug]}
+        moreInHub={{
+          title: format(ui.service.moreInHub, { hub: hub.navLabel }),
+          items: [
+            ...hub.services
+              .filter((s) => s.slug !== service.slug)
+              .map((s) => ({ title: s.navLabel, href: `/${hub.slug}/${s.slug}` })),
+            ...concepts
+              .filter((c) => c.hubSlug === hub.slug)
+              .map((c) => ({ title: c.navLabel, description: c.label, href: `/portfolio/${c.slug}` })),
+          ],
+        }}
         locale={locale}
       />
     </>

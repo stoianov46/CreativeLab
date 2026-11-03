@@ -1,5 +1,14 @@
 import { NextResponse } from "next/server";
-import { CONTACT_LIMITS } from "@/lib/contact";
+import {
+  BUDGET_VALUES,
+  BUSINESS_VALUES,
+  CONTACT_LIMITS,
+  LOCATION_VALUES,
+  REPLY_LANGUAGE_VALUES,
+  STAFF_LABELS,
+  TIMELINE_VALUES,
+  pickOption,
+} from "@/lib/contact";
 
 function escapeHtml(value: string): string {
   return value.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
@@ -61,9 +70,17 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "Invalid submission" }, { status: 422 });
   }
 
+  // Optional qualifiers: only known option values are accepted, anything else is dropped.
+  const location = pickOption(body.location, LOCATION_VALUES);
+  const business = pickOption(body.businessType, BUSINESS_VALUES);
+  const budget = pickOption(body.budget, BUDGET_VALUES);
+  const timeline = pickOption(body.timeline, TIMELINE_VALUES);
+  const replyLanguage = pickOption(body.replyLanguage, REPLY_LANGUAGE_VALUES);
+
   const meta = {
     locale: text(body.locale, 5),
     page: text(body.page, 500),
+    landing: text(body.landing_page, 500),
     referrer: text(body.referrer, 500),
     utm: ["utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content"]
       .map((key) => [key.replace("utm_", ""), text(body[key], 100)])
@@ -97,8 +114,14 @@ export async function POST(request: Request) {
     `Email: ${escapeHtml(email)}`,
     phone ? `Phone / messenger: ${escapeHtml(phone)}` : null,
     `Service: ${service ? escapeHtml(service) : "—"}`,
+    location ? `Island: ${STAFF_LABELS.location[location]}` : null,
+    business ? `Business type: ${STAFF_LABELS.business[business]}` : null,
+    budget ? `Budget: ${STAFF_LABELS.budget[budget]}` : null,
+    timeline ? `Timeline: ${STAFF_LABELS.timeline[timeline]}` : null,
     `Language: ${escapeHtml(meta.locale || "—")}`,
+    replyLanguage ? `Reply language: ${STAFF_LABELS.replyLanguage[replyLanguage]}` : null,
     meta.page ? `Page: ${escapeHtml(meta.page)}` : null,
+    meta.landing && meta.landing !== meta.page ? `First page seen: ${escapeHtml(meta.landing)}` : null,
     meta.utm ? `UTM: ${escapeHtml(meta.utm)}` : null,
     meta.referrer ? `Referrer: ${escapeHtml(meta.referrer)}` : null,
     "",

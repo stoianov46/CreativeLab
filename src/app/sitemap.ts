@@ -5,6 +5,7 @@ import { INDUSTRIES } from "@/content/industries";
 import { LOCATIONS } from "@/content/locations";
 import { CASE_STUDIES } from "@/content/case-studies";
 import { ARTICLES } from "@/content/journal";
+import { CONCEPTS } from "@/content/concepts";
 import { SITE } from "@/content/site";
 import { DEFAULT_LOCALE, LOCALES, localeAlternates, localePath } from "@/content/i18n";
 
@@ -18,6 +19,7 @@ const STATIC_PATHS = [
   "/case-studies",
   "/journal",
   "/privacy",
+  "/cookies",
   "/terms",
   "/editorial-policy",
   "/accessibility",
@@ -36,6 +38,7 @@ const CANONICAL_PATHS = [
   ...INDUSTRIES.map((page) => `/industries/${page.slug}`),
   ...LOCATIONS.map((page) => `/locations/${page.slug}`),
   ...CASE_STUDIES.map((c) => `/case-studies/${c.slug}`),
+  ...CONCEPTS.map((c) => `/portfolio/${c.slug}`),
   ...ARTICLES.map((a) => `/journal/${a.slug}`),
 ];
 

@@ -84,18 +84,24 @@ export const socialMediaManagementService: ServicePage = {
   pricing: [
     {
       service: "Social media management (starter)",
-      range: "THB 18,000 – 28,000 / month",
+      priceId: "services.social-media-management.1",
       note: "Management and publishing, light content production",
+      included: ["Account management and publishing", "Light content production", "Reporting"],
+      excluded: ["Advertising budget — paid directly by you to the platform"],
     },
     {
       service: "Social media management (growth)",
-      range: "THB 30,000 – 55,000 / month",
+      priceId: "services.social-media-management.2",
       note: "Full production, Reels and community management included",
+      included: ["Full content production", "Reels and community management", "Reporting"],
+      excluded: ["Advertising budget — paid directly by you to the platform"],
     },
     {
       service: "Multi-platform management (Instagram + Facebook + TikTok)",
-      range: "THB 35,000 – 65,000 / month",
+      priceId: "services.social-media-management.3",
       note: "Indicative — scope depends on platforms and posting volume",
+      included: ["Management across Instagram, Facebook and TikTok"],
+      excluded: ["Advertising budget — paid directly by you to the platform", "Platforms beyond the three listed"],
     },
   ],
   useCases: [

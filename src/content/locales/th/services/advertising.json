@@ -1,177 +1,206 @@
 {
-  "navLabel": "Advertising",
-  "h1": "Advertising",
-  "primaryKeyword": "advertising agency Koh Phangan, Koh Samui and Koh Tao",
+  "navLabel": "โฆษณา",
+  "h1": "เอเจนซี่โฆษณาสำหรับเกาะพะงัน เกาะสมุย และเกาะเต่า",
+  "primaryKeyword": "เอเจนซี่โฆษณาเกาะพะงัน เกาะสมุย และเกาะเต่า",
   "secondaryTopics": [
-    "advertising campaigns",
-    "Google Ads and Meta Ads",
-    "performance marketing",
-    "island advertising strategy"
+    "แคมเปญโฆษณา",
+    "Google Ads และ Meta Ads",
+    "การตลาดเชิงประสิทธิภาพ",
+    "กลยุทธ์โฆษณาบนเกาะ"
   ],
-  "metaTitle": "Advertising",
-  "metaDescription": "Advertising for businesses on Koh Phangan, Koh Samui and Koh Tao — Google Ads, Meta Ads, creative production and measurement from one accountable team.",
-  "directAnswer": "CreativeLAB is an advertising agency serving businesses on Koh Phangan, Koh Samui and Koh Tao. We plan the channel mix, produce the creative, run Google Ads and Meta Ads, and track results so advertising spend turns into bookings and inquiries rather than impressions alone.",
-  "heroSupport": "One team to plan, produce and run advertising across Koh Phangan, Koh Samui and Koh Tao — instead of a different vendor for strategy, creative and media buying.",
-  "heroImageAlt": "CreativeLAB team planning an advertising campaign for an island business",
+  "metaTitle": "เอเจนซี่โฆษณา เกาะพะงัน สมุย และเต่า",
+  "metaDescription": "โฆษณาสำหรับธุรกิจบนเกาะพะงัน เกาะสมุย และเกาะเต่า Google Ads, Meta Ads การผลิตงานสร้างสรรค์ และการวัดผล จากทีมเดียวที่รับผิดชอบ",
+  "directAnswer": "CreativeLAB เป็นเอเจนซี่โฆษณาที่ให้บริการธุรกิจบนเกาะพะงัน เกาะสมุย และเกาะเต่า เราวางแผนส่วนผสมช่องทาง ผลิตงานสร้างสรรค์ รัน Google Ads และ Meta Ads และติดตามผล เพื่อให้งบโฆษณากลายเป็นการจองและคำสอบถาม ไม่ใช่แค่การแสดงผล",
+  "heroSupport": "ทีมเดียววางแผน ผลิต และรันโฆษณาทั่วเกาะพะงัน เกาะสมุย และเกาะเต่า แทนที่จะแยกผู้ให้บริการสำหรับกลยุทธ์ งานสร้างสรรค์ และการซื้อสื่อ",
+  "heroImageAlt": "ทีม CreativeLAB กำลังวางแผนแคมเปญโฆษณาสำหรับธุรกิจบนเกาะ",
   "overview": [
-    "Advertising is usually the fastest way for a business on Koh Phangan, Koh Samui or Koh Tao to get in front of people who are already deciding where to eat, stay or book. The three islands aren't one market: Koh Samui has an airport and a broader, more established tourism and expat economy; Koh Phangan's audience mixes long-stay wellness and party-season travellers with a growing year-round local business scene; Koh Tao's is smaller and shaped heavily by diving. Advertising that ignores those differences wastes budget on the wrong audience in the wrong place.",
-    "This page is the overview of our advertising offer — how strategy, creative and media buying fit together as one service. For the detail on a specific channel, see our dedicated Google Ads and Meta Ads pages; this is where we explain how we decide the mix between them, and where advertising sits relative to your other marketing.",
-    "We don't treat advertising as a separate discipline from content and photography. The same team that plans your campaign can also produce the imagery and video it runs on, which matters on the islands: production here means coordinating shoot days, weather and — for Koh Samui and Koh Tao — travel by boat, so creative and media planning need to happen together rather than as two disconnected briefs.",
-    "Every campaign is set up with measurement from day one — conversion tracking, call tracking or booking-event tracking, depending on what a lead actually looks like for your business — so decisions about where to spend more or less are based on results, not assumptions."
+    "โฆษณามักเป็นวิธีที่เร็วที่สุดที่ธุรกิจบนเกาะพะงัน เกาะสมุย หรือเกาะเต่าจะไปอยู่ตรงหน้าผู้คนที่กำลังตัดสินใจว่าจะกิน พัก หรือจองที่ไหน สามเกาะไม่ใช่ตลาดเดียวกัน เกาะสมุยมีสนามบินและเศรษฐกิจการท่องเที่ยวและชาวต่างชาติที่กว้างและมั่นคงกว่า ผู้ชมของเกาะพะงันผสมนักท่องเที่ยวพำนักระยะยาวด้านเวลเนสและช่วงปาร์ตี้ เข้ากับธุรกิจท้องถิ่นตลอดปีที่เติบโตขึ้น ส่วนเกาะเต่าเล็กกว่าและถูกหล่อหลอมโดยการดำน้ำเป็นหลัก โฆษณาที่มองข้ามความต่างเหล่านั้นเสียงบกับผู้ชมผิดกลุ่มในที่ผิด",
+    "หน้านี้คือภาพรวมข้อเสนอด้านโฆษณาของเรา กลยุทธ์ งานสร้างสรรค์ และการซื้อสื่อประกอบกันเป็นบริการเดียวอย่างไร สำหรับรายละเอียดของช่องทางเฉพาะ ดูหน้า Google Ads และ Meta Ads โดยเฉพาะ ที่นี่คือที่ที่เราอธิบายว่าตัดสินส่วนผสมระหว่างทั้งสองอย่างไร และโฆษณาอยู่ตรงไหนเมื่อเทียบกับการตลาดอื่นของคุณ",
+    "เราไม่ถือว่าโฆษณาเป็นศาสตร์แยกจากคอนเทนต์และภาพถ่าย ทีมเดียวกันที่วางแผนแคมเปญของคุณผลิตภาพและวิดีโอที่แคมเปญใช้ได้ด้วย ซึ่งสำคัญบนเกาะ เพราะการผลิตที่นี่หมายถึงการประสานวันถ่าย สภาพอากาศ และสำหรับเกาะสมุยและเกาะเต่า การเดินทางด้วยเรือ งานสร้างสรรค์และการวางแผนสื่อจึงต้องเกิดพร้อมกัน ไม่ใช่สองบรีฟที่ไม่เกี่ยวข้องกัน",
+    "ทุกแคมเปญตั้งค่าพร้อมการวัดผลตั้งแต่วันแรก ติดตามคอนเวอร์ชัน สายโทร หรือเหตุการณ์การจอง ขึ้นกับว่าลีดของธุรกิจคุณหน้าตาเป็นอย่างไร การตัดสินใจว่าจะใช้งบเพิ่มหรือลดที่ไหนจึงอิงผลลัพธ์ ไม่ใช่สมมติฐาน"
   ],
   "scope": [
     {
-      "title": "Channel strategy",
-      "description": "Deciding the right mix of search, social and local advertising for your goals, budget and island market before any account is built."
+      "title": "กลยุทธ์ช่องทาง",
+      "description": "ตัดสินใจส่วนผสมที่เหมาะของโฆษณาบนการค้นหา โซเชียล และท้องถิ่นสำหรับเป้าหมาย งบประมาณ และตลาดบนเกาะของคุณ ก่อนสร้างบัญชีใด ๆ"
     },
     {
-      "title": "Cross-island planning",
-      "description": "Budget, targeting and seasonality planned around Koh Phangan, Koh Samui and Koh Tao individually rather than one generic setup."
+      "title": "การวางแผนข้ามเกาะ",
+      "description": "งบประมาณ การกำหนดเป้าหมาย และฤดูกาลวางแผนรอบเกาะพะงัน เกาะสมุย และเกาะเต่าแยกกัน ไม่ใช่การตั้งค่าทั่วไปเดียว"
     },
     {
-      "title": "Creative for advertising",
-      "description": "Photography, video and copy produced specifically for ad formats, not repurposed from unrelated content."
+      "title": "งานสร้างสรรค์สำหรับโฆษณา",
+      "description": "ภาพถ่าย วิดีโอ และคำโฆษณาที่ผลิตเฉพาะสำหรับรูปแบบโฆษณา ไม่ใช่นำจากคอนเทนต์ที่ไม่เกี่ยวข้องมาใช้ซ้ำ"
     },
     {
-      "title": "Campaign management",
-      "description": "Google Ads and Meta Ads accounts built, launched and managed by the same team that planned the strategy."
+      "title": "การบริหารแคมเปญ",
+      "description": "บัญชี Google Ads และ Meta Ads ที่สร้าง เปิดตัว และบริหารโดยทีมเดียวกับที่วางแผนกลยุทธ์"
     },
     {
-      "title": "Measurement & reporting",
-      "description": "Tracking set up before launch, with regular reporting on spend, leads and cost per result in plain language."
+      "title": "การวัดผลและการรายงาน",
+      "description": "ตั้งค่าการติดตามก่อนเปิดตัว พร้อมรายงานสม่ำเสมอเรื่องค่าใช้จ่าย ลีด และต้นทุนต่อผลลัพธ์ด้วยภาษาเข้าใจง่าย"
     }
   ],
   "benefits": [
     {
-      "title": "One strategy, not three vendors",
-      "description": "Channel planning, creative production and media buying come from a single team, so decisions stay coordinated."
+      "title": "หนึ่งกลยุทธ์ ไม่ใช่สามผู้ให้บริการ",
+      "description": "การวางแผนช่องทาง การผลิตงานสร้างสรรค์ และการซื้อสื่อมาจากทีมเดียว การตัดสินใจจึงประสานกัน"
     },
     {
-      "title": "Built for three different markets",
-      "description": "Koh Phangan, Koh Samui and Koh Tao get their own targeting and budget logic, not a copy-pasted campaign."
+      "title": "สร้างสำหรับสามตลาดที่แตกต่างกัน",
+      "description": "เกาะพะงัน เกาะสมุย และเกาะเต่าได้ตรรกะการกำหนดเป้าหมายและงบของตัวเอง ไม่ใช่แคมเปญที่ลอกต่อกัน"
     },
     {
-      "title": "Creative that's made for the ad, not adapted to it",
-      "description": "Photography and video are briefed and shot for the specific ad formats they'll run in."
+      "title": "งานสร้างสรรค์ที่ทำเพื่อโฆษณา ไม่ใช่ปรับให้เข้ากับโฆษณา",
+      "description": "ภาพถ่ายและวิดีโอถูกบรีฟและถ่ายสำหรับรูปแบบโฆษณาเฉพาะที่จะใช้"
     },
     {
-      "title": "Spend you can account for",
-      "description": "Conversion tracking means you always know what a lead or booking actually cost."
+      "title": "ค่าใช้จ่ายที่ชี้แจงได้",
+      "description": "การติดตามคอนเวอร์ชันทำให้คุณรู้เสมอว่าลีดหรือการจองมีต้นทุนจริงเท่าไร"
     },
     {
-      "title": "A mix that evolves",
-      "description": "As results come in, budget shifts toward the channels and islands that are actually converting."
+      "title": "ส่วนผสมที่พัฒนาไป",
+      "description": "เมื่อผลลัพธ์เข้ามา งบเคลื่อนไปยังช่องทางและเกาะที่แปลงผลได้จริง"
     }
   ],
   "process": [
     {
-      "title": "Discovery",
-      "description": "We review your business, current advertising (if any), goals and which islands you serve."
+      "title": "ค้นหาข้อมูล",
+      "description": "เราทบทวนธุรกิจของคุณ โฆษณาปัจจุบัน (ถ้ามี) เป้าหมาย และเกาะที่คุณให้บริการ"
     },
     {
-      "title": "Channel & budget plan",
-      "description": "We recommend a mix of Google Ads, Meta Ads or both, with a budget split you can defend."
+      "title": "แผนช่องทางและงบประมาณ",
+      "description": "เราแนะนำส่วนผสมของ Google Ads, Meta Ads หรือทั้งสอง พร้อมการแบ่งงบที่คุณปกป้องได้"
     },
     {
-      "title": "Creative production",
-      "description": "Photography, video and copy are produced or adapted specifically for the agreed campaigns."
+      "title": "การผลิตงานสร้างสรรค์",
+      "description": "ภาพถ่าย วิดีโอ และคำโฆษณาถูกผลิตหรือปรับเฉพาะสำหรับแคมเปญที่ตกลง"
     },
     {
-      "title": "Launch",
-      "description": "Campaigns go live with tracking active from the first click or impression."
+      "title": "เปิดตัว",
+      "description": "แคมเปญออนแอร์พร้อมการติดตามที่ทำงานตั้งแต่คลิกหรือการแสดงผลแรก"
     },
     {
-      "title": "Optimize & report",
-      "description": "We adjust spend and creative based on real performance and report on a regular schedule."
+      "title": "ปรับแต่งและรายงาน",
+      "description": "เราปรับงบและงานสร้างสรรค์ตามผลงานจริงและรายงานตามกำหนดสม่ำเสมอ"
     }
   ],
   "pricing": [
     {
-      "service": "Advertising strategy & channel plan",
-      "range": "THB 10,000 – 20,000",
-      "note": "Indicative — one-time, before any account is built"
+      "service": "กลยุทธ์โฆษณาและแผนช่องทาง",
+      "note": "โดยประมาณ ครั้งเดียว ก่อนสร้างบัญชีใด ๆ",
+      "included": [
+        "กลยุทธ์โฆษณา",
+        "แผนช่องทางสื่อ ก่อนสร้างบัญชีใดๆ"
+      ],
+      "excluded": [
+        "งบโฆษณา — คุณชำระให้แพลตฟอร์มโดยตรง",
+        "การตั้งค่าและบริหารแคมเปญ"
+      ]
     },
     {
-      "service": "Campaign setup (single platform)",
-      "range": "THB 15,000 – 35,000",
-      "note": "Google Ads or Meta Ads, strategy and tracking included"
+      "service": "ตั้งค่าแคมเปญ (แพลตฟอร์มเดียว)",
+      "note": "Google Ads หรือ Meta Ads รวมกลยุทธ์และการติดตาม",
+      "included": [
+        "ตั้งค่าแคมเปญบน Google Ads หรือ Meta Ads",
+        "รวมกลยุทธ์และการติดตามผล"
+      ],
+      "excluded": [
+        "งบโฆษณา — คุณชำระให้แพลตฟอร์มโดยตรง",
+        "ค่าธรรมเนียมแพลตฟอร์ม"
+      ]
     },
     {
-      "service": "Monthly advertising management",
-      "range": "THB 12,000 – 30,000 / month",
-      "note": "Excludes ad spend, billed directly to the platform"
+      "service": "บริหารโฆษณารายเดือน",
+      "note": "ไม่รวมค่าโฆษณา เรียกเก็บตรงกับแพลตฟอร์ม",
+      "included": [
+        "ดูแลและปรับแต่งแคมเปญอย่างต่อเนื่อง",
+        "รายงานรายเดือน"
+      ],
+      "excluded": [
+        "งบโฆษณา — คุณชำระให้แพลตฟอร์มโดยตรง",
+        "ค่าธรรมเนียมแพลตฟอร์ม",
+        "การผลิตงานครีเอทีฟใหม่"
+      ]
     },
     {
-      "service": "Multi-platform campaign launch",
-      "range": "THB 45,000 – 95,000",
-      "note": "Indicative — Google + Meta, coordinated creative and tracking"
+      "service": "เปิดตัวแคมเปญหลายแพลตฟอร์ม",
+      "note": "โดยประมาณ Google + Meta งานสร้างสรรค์และการติดตามที่ประสานกัน",
+      "included": [
+        "เปิดตัว Google และ Meta อย่างประสานกัน",
+        "ประสานงานด้านครีเอทีฟและการติดตามผล"
+      ],
+      "excluded": [
+        "งบโฆษณา — คุณชำระให้แพลตฟอร์มโดยตรง",
+        "ค่าธรรมเนียมแพลตฟอร์ม"
+      ]
     }
   ],
   "useCases": [
     {
-      "title": "Villas & vacation rentals",
-      "description": "Capture high-intent search and social traffic during each island's booking season."
+      "title": "วิลล่าและที่พักเช่า",
+      "description": "จับทราฟฟิกการค้นหาและโซเชียลที่มีความตั้งใจสูงในช่วงฤดูจองของแต่ละเกาะ"
     },
     {
-      "title": "Restaurants & bars",
-      "description": "Drive reservations, delivery orders or event turnout with targeted local campaigns."
+      "title": "ร้านอาหารและบาร์",
+      "description": "ผลักดันการจองโต๊ะ ออเดอร์เดลิเวอรี หรือผู้เข้าร่วมอีเวนต์ด้วยแคมเปญท้องถิ่นที่กำหนดเป้าหมาย"
     },
     {
-      "title": "Hotels & resorts",
-      "description": "Coordinate search and social advertising with your booking engine and occupancy goals."
+      "title": "โรงแรมและรีสอร์ต",
+      "description": "ประสานโฆษณาบนการค้นหาและโซเชียลกับระบบจองและเป้าหมายอัตราเข้าพักของคุณ"
     },
     {
-      "title": "Wellness & retreat brands",
-      "description": "Reach long-stay travellers researching retreats and programs before they arrive."
+      "title": "แบรนด์เวลเนสและรีทรีต",
+      "description": "เข้าถึงนักท่องเที่ยวพำนักระยะยาวที่ค้นคว้ารีทรีตและโปรแกรมก่อนมาถึง"
     }
   ],
   "faqs": [
     {
-      "q": "Should I start with Google Ads or Meta Ads?",
-      "a": "It depends on whether people are actively searching for what you offer (Google Ads) or need to discover you first (Meta Ads). We'll recommend a starting point based on your business and goals, not a default."
+      "q": "ควรเริ่มจาก Google Ads หรือ Meta Ads?",
+      "a": "ขึ้นกับว่าผู้คนกำลังค้นหาสิ่งที่คุณเสนอโดยตรง (Google Ads) หรือต้องค้นพบคุณก่อน (Meta Ads) เราจะแนะนำจุดเริ่มต้นตามธุรกิจและเป้าหมายของคุณ ไม่ใช่ค่าเริ่มต้น"
     },
     {
-      "q": "Do you run advertising for businesses on Koh Samui and Koh Tao, or only Koh Phangan?",
-      "a": "All three — CreativeLAB is based on Koh Phangan and advertises for businesses across Koh Phangan, Koh Samui and Koh Tao, with campaigns geo-targeted to each island."
+      "q": "คุณรันโฆษณาให้ธุรกิจบนเกาะสมุยและเกาะเต่าไหม หรือเฉพาะเกาะพะงัน?",
+      "a": "ทั้งสามเกาะ CreativeLAB ตั้งอยู่ที่เกาะพะงันและโฆษณาให้ธุรกิจทั่วเกาะพะงัน เกาะสมุย และเกาะเต่า โดยกำหนดเป้าหมายแคมเปญตามภูมิศาสตร์ของแต่ละเกาะ"
     },
     {
-      "q": "How does advertising connect with your content and social media work?",
-      "a": "The same team can produce the photography, video and social content your ads run on, so paid and organic stay consistent instead of feeling like two separate brands."
+      "q": "โฆษณาเชื่อมกับงานคอนเทนต์และโซเชียลมีเดียของคุณอย่างไร?",
+      "a": "ทีมเดียวกันผลิตภาพถ่าย วิดีโอ และคอนเทนต์โซเชียลที่โฆษณาใช้ได้ ทั้งแบบเสียเงินและออร์แกนิกจึงสอดคล้องกัน ไม่รู้สึกเหมือนสองแบรนด์แยกกัน"
     },
     {
-      "q": "What results can a new business realistically expect?",
-      "a": "It varies by category and budget, but meaningful data usually builds over the first few weeks as we optimize; we'll set expectations specific to your situation rather than a generic promise."
+      "q": "ธุรกิจใหม่คาดหวังผลลัพธ์อะไรได้อย่างสมเหตุสมผล?",
+      "a": "ต่างกันตามหมวดและงบประมาณ แต่ข้อมูลที่มีความหมายมักสะสมในไม่กี่สัปดาห์แรกขณะที่เราปรับแต่ง เราจะตั้งความคาดหวังเฉพาะกับสถานการณ์ของคุณ ไม่ใช่คำสัญญาทั่วไป"
     },
     {
-      "q": "Is there a minimum contract length?",
-      "a": "No — management is billed monthly. We recommend enough runway to gather real data, but there's no long-term lock-in."
+      "q": "มีความยาวสัญญาขั้นต่ำไหม?",
+      "a": "ไม่มี ค่าบริหารเรียกเก็บรายเดือน เราแนะนำให้มีเวลาพอเก็บข้อมูลจริง แต่ไม่มีการผูกมัดระยะยาว"
     },
     {
-      "q": "Do you supply the creative, or do I need my own photos and video?",
-      "a": "We can produce it as part of the project, or work with strong existing assets if you already have them."
+      "q": "คุณจัดหางานสร้างสรรค์ให้ หรือฉันต้องมีภาพถ่ายและวิดีโอเอง?",
+      "a": "เราผลิตให้เป็นส่วนหนึ่งของโปรเจกต์ได้ หรือทำงานกับทรัพยากรเดิมที่แข็งแรงหากคุณมีอยู่แล้ว"
     },
     {
-      "q": "How do you decide how much budget goes to each island?",
-      "a": "By where your customers actually come from and book — we split targeting and budget by island rather than treating the region as one audience."
+      "q": "คุณตัดสินอย่างไรว่างบเท่าไรไปแต่ละเกาะ?",
+      "a": "ตามที่ลูกค้าของคุณมาและจองจริง เราแบ่งการกำหนดเป้าหมายและงบตามเกาะ แทนที่จะถือว่าภูมิภาคเป็นผู้ชมกลุ่มเดียว"
     },
     {
-      "q": "Can I start with a small test budget?",
-      "a": "Yes — we typically recommend launching conservatively to gather safe data before committing a larger monthly spend."
+      "q": "ฉันเริ่มด้วยงบทดสอบเล็ก ๆ ได้ไหม?",
+      "a": "ได้ เรามักแนะนำให้เปิดตัวอย่างระมัดระวังเพื่อเก็บข้อมูลที่ปลอดภัยก่อนผูกพันค่าใช้จ่ายรายเดือนที่มากขึ้น"
     }
   ],
   "related": [
     {
-      "label": "Advertising Hub",
-      "description": "The full breakdown of Google Ads, Meta Ads, campaign launch and performance marketing."
+      "label": "หมวดโฆษณา",
+      "description": "รายละเอียดครบถ้วนของ Google Ads, Meta Ads, การเปิดตัวแคมเปญ และการตลาดเชิงประสิทธิภาพ"
     },
     {
       "label": "Google Ads",
-      "description": "Search and local campaigns for people actively looking for what you offer."
+      "description": "แคมเปญค้นหาและท้องถิ่นสำหรับผู้ที่กำลังมองหาสิ่งที่คุณเสนอ"
     },
     {
-      "label": "Digital Marketing",
-      "description": "See how advertising fits into a full, integrated marketing strategy."
+      "label": "การตลาดดิจิทัล",
+      "description": "ดูว่าโฆษณาเข้ากับกลยุทธ์การตลาดแบบบูรณาการเต็มรูปแบบอย่างไร"
     }
   ],
-  "finalCtaLabel": "Start a Project"
+  "finalCtaLabel": "วางแผนโฆษณาของคุณ"
 }

@@ -80,7 +80,7 @@ export const videoProductionHub: HubPage = {
       metaDescription:
         "Commercial and brand video production for businesses on Koh Phangan, Koh Samui and Koh Tao — story, creative direction and multi-format ad distribution.",
       directAnswer:
-        "We produce commercial and brand videos for businesses on Koh Phangan, Koh Samui and Koh Tao — developing the story and creative direction, filming and editing, and delivering cuts suited to advertising, your website and social distribution.",
+        "We produce commercial and brand videos for businesses on Koh Phangan, Koh Samui and Koh Tao — developing the story and creative direction, filming and editing, and delivering cuts suited to advertising, your website and social distribution, all from one coordinated production.",
       heroSupport: "Story-led commercial video, produced and edited for advertising and brand use.",
       heroImage: images.video,
       heroImageAlt: "Commercial video shoot in progress",
@@ -111,8 +111,20 @@ export const videoProductionHub: HubPage = {
         { title: "Edit & deliver", description: "Post-production and final delivery in required formats." },
       ],
       pricing: [
-        { service: "Video production (60s commercial)", range: "THB 25,000 – 60,000", note: "Filming + editing + music" },
-        { service: "Brand film (2–3 minutes)", range: "THB 60,000 – 150,000", note: "Larger production, multiple locations" },
+        {
+          service: "Video production (60s commercial)",
+          priceId: "video-production.commercial.1",
+          note: "Filming + editing + music",
+          included: ["60-second commercial", "Filming, editing and music"],
+          excluded: ["Travel to Koh Samui or Koh Tao", "Advertising budget"],
+        },
+        {
+          service: "Brand film (2–3 minutes)",
+          priceId: "video-production.commercial.2",
+          note: "Larger production, multiple locations",
+          included: ["Brand film of 2–3 minutes", "Multiple locations or setups"],
+          excluded: ["Travel to Koh Samui or Koh Tao", "Advertising budget"],
+        },
       ],
       useCases: [
         { title: "Brand campaigns", description: "A hero video for a larger marketing campaign." },
@@ -147,7 +159,7 @@ export const videoProductionHub: HubPage = {
       metaDescription:
         "Short-form social video production for businesses on Koh Phangan, Koh Samui and Koh Tao — vertical formats, hooks and editing built for real engagement.",
       directAnswer:
-        "We produce short-form social video for businesses on Koh Phangan, Koh Samui and Koh Tao — vertical, hook-led content edited specifically for how people watch on Instagram and TikTok, distinct from longer commercial production.",
+        "We produce short-form social video for businesses on Koh Phangan, Koh Samui and Koh Tao — vertical, hook-led content edited specifically for how people watch on Instagram and TikTok, distinct from longer commercial production, and delivered ready to post on each platform.",
       heroSupport: "Vertical, hook-led video built specifically for social platforms.",
       heroImage: images.video,
       heroImageAlt: "Vertical social video being filmed",
@@ -178,8 +190,20 @@ export const videoProductionHub: HubPage = {
         { title: "Deliver", description: "Platform-ready files delivered on schedule." },
       ],
       pricing: [
-        { service: "Social video (single, edited)", range: "THB 4,000 – 9,000", note: "Per finished video" },
-        { service: "Social video batch (6 videos)", range: "THB 18,000 – 35,000", note: "Filmed in one session" },
+        {
+          service: "Social video (single, edited)",
+          priceId: "video-production.social-video.1",
+          note: "Per finished video",
+          included: ["One finished, edited video"],
+          excluded: ["Publishing and account management", "Advertising budget — paid directly by you to the platform"],
+        },
+        {
+          service: "Social video batch (6 videos)",
+          priceId: "video-production.social-video.2",
+          note: "Filmed in one session",
+          included: ["6 videos filmed in one session", "Each video edited"],
+          excluded: ["Publishing and account management", "Advertising budget — paid directly by you to the platform"],
+        },
       ],
       useCases: [
         { title: "Restaurants & hospitality", description: "Regular short-form content for Instagram and TikTok." },
@@ -214,7 +238,7 @@ export const videoProductionHub: HubPage = {
       metaDescription:
         "Drone video production for property, landscape and brand content across Koh Phangan, Koh Samui and Koh Tao — captured safely within local regulations.",
       directAnswer:
-        "We produce drone video for businesses on Koh Phangan, Koh Samui and Koh Tao — establishing shots, landscape footage and property context flown safely and within local drone regulations, used in brand videos, property marketing and social content alike.",
+        "We produce drone video for businesses on Koh Phangan, Koh Samui and Koh Tao — establishing shots, landscape footage and property context flown safely and within local drone regulations, used in brand videos, property marketing and social content alike, and edited to the length and format each channel needs.",
       heroSupport: "Aerial video captured safely and within local regulations, for brand and property content.",
       heroImage: images.video,
       heroImageAlt: "Drone capturing aerial video footage",
@@ -245,8 +269,20 @@ export const videoProductionHub: HubPage = {
         { title: "Deliver", description: "Final video delivered in required formats." },
       ],
       pricing: [
-        { service: "Drone video add-on", range: "THB 5,000 – 12,000", note: "Added to an existing video production" },
-        { service: "Standalone drone video project", range: "THB 12,000 – 30,000", note: "Aerial-only production" },
+        {
+          service: "Drone video add-on",
+          priceId: "video-production.drone-video.1",
+          note: "Added to an existing video production",
+          included: ["Aerial footage added to an existing video production"],
+          excluded: ["The base video production"],
+        },
+        {
+          service: "Standalone drone video project",
+          priceId: "video-production.drone-video.2",
+          note: "Aerial-only production",
+          included: ["Aerial-only video production"],
+          excluded: ["Ground footage"],
+        },
       ],
       useCases: [
         { title: "Brand films", description: "Establishing shots for a larger video production." },
@@ -281,7 +317,7 @@ export const videoProductionHub: HubPage = {
       metaDescription:
         "FPV drone video production for brand, event and property content on Koh Phangan, Koh Samui and Koh Tao — fast, dynamic motion flown safely on request.",
       directAnswer:
-        "We produce FPV (first-person-view) drone video for brand, event and property projects on Koh Phangan, Koh Samui and Koh Tao — fast, continuous-motion footage that moves through and around a space in ways standard drones and gimbals can't replicate.",
+        "We produce FPV (first-person-view) drone video for brand, event and property projects on Koh Phangan, Koh Samui and Koh Tao — fast, continuous-motion footage that moves through and around a space in ways standard drones and gimbals can't replicate, flown only where it is safe and permitted.",
       heroSupport: "Fast, continuous-motion FPV footage for brand, event and property video.",
       heroImage: images.video,
       heroImageAlt: "FPV drone in flight capturing dynamic footage",
@@ -312,7 +348,13 @@ export const videoProductionHub: HubPage = {
         { title: "Edit", description: "Cinematic post-production and final delivery." },
       ],
       pricing: [
-        { service: "FPV video production", range: "THB 20,000 – 45,000", note: "Depends on location and complexity" },
+        {
+          service: "FPV video production",
+          priceId: "video-production.fpv-video.1",
+          note: "Depends on location and complexity",
+          included: ["FPV video production", "Edited final video"],
+          excluded: ["Travel to Koh Samui or Koh Tao"],
+        },
       ],
       useCases: [
         { title: "Premium brand videos", description: "A standout dynamic sequence for a hero video." },
