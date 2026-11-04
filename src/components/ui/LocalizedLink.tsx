@@ -27,5 +27,5 @@ export const LocalizedLink = forwardRef<
 
   const localizedHref = EXTERNAL_HREF.test(href) ? href : localePath(locale, href);
 
-  return <Link ref={ref} href={localizedHref} {...rest} />;
+  return <Link ref={ref} href={localizedHref} prefetch={false} {...rest} />;
 });

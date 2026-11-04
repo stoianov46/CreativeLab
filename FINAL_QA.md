@@ -173,3 +173,11 @@ Page `/advertising/tracking-analytics`, Lighthouse mobile, devtools throttling (
 
 Findings: (1) the LCP element is the hero image (see above); (2) with no JavaScript the same page reaches an LCP of 3.0 s, so roughly **2.4 s of the 5.4 s is caused by the JavaScript path**, not by the image, CSS or fonts; (3) the delay is **not** caused by the blur placeholder, the layout-level client components, the image format or its priority; (4) there are no console errors and no hydration-time replacement of the hero `<img>` (DOM mutation observer: none), and total bootup and main-thread time are small (0.1 s / 0.3 s). Even the script-free page misses 2.5 s (3.0 s), so reaching the target needs both removing whatever JS work delays the paint and trimming the remaining ~0.5 s. Not claimed as met.
 Next diagnostic (cannot be done here): a foreground DevTools Performance recording of the baseline page to see what runs between ~2.7 s and ~5.4 s (BLOCKED item 20).
+
+## LCP fix found: no route prefetching, 2026-11-04
+
+Bisect continued: with only the external scripts removed LCP was 3.9 s, with only inline scripts removed 5.2 s, so the JavaScript path (not its execution time) was the cost. After hydration Next's `<Link>` started a burst of `?_rsc=` route-prefetch requests that competed for the throttled link. `LocalizedLink` (every internal link) now passes `prefetch={false}`.
+- Lighthouse mobile, devtools throttling (slow 4G, 4× CPU), same pages: `/advertising/tracking-analytics` LCP **5.4 s → 3.6 s**, performance 79 → 90; `/social-media/monthly-packages` LCP 5.3 s → 3.5 s, performance 76 → 87.
+- Trade-off: pages are no longer pre-fetched when links scroll into view, so a first click on an internal link loads that page on demand (a little slower per navigation, faster first load). Revert by removing `prefetch={false}` in `src/components/ui/LocalizedLink.tsx` if navigation speed matters more to the owner.
+- **Still above the 2.5 s target** (3.5–3.6 s in this profile; the script-free page reached 3.0 s). Not claimed as met; confirm on the deployed site.
+- Checks after the change: `tsc`, lint, `i18n:check`, `pricing:check`, `contact:check`, `site:check` (476 pages, 0 errors, 15 warnings) all unchanged.
