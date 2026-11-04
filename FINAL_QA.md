@@ -189,3 +189,9 @@ With link prefetching off (above) LCP was 3.5–3.6 s. Blocking `*.woff2` in Lig
 - Tried with no gain (reverted): inlined CSS (3.5–3.7 s), `fetchPriority="high"` on the hero (3.5–3.9 s), Inter as one variable font (same 84 KB of fonts, same LCP).
 - Re-checked after the change: 336 overflow checks (7 changed pages × 4 languages × 12 widths) none, 56 axe runs none; `tsc`, lint, `i18n:check`, `pricing:check`, `contact:check`, `site:check` (476 pages, 0 errors, 15 warnings) unchanged.
 - **Still above 2.5 s** in this deliberately harsh profile (slow 4G + ~560 ms latency + 4× CPU). The script-free page measured 3.0 s before the font change, so the remaining gap is the JavaScript and the fonts themselves; closing it further means shipping less JavaScript or system fonts (a design decision). Confirm on the deployed site with real-user data.
+
+## LCP: measurement noise and remaining gap, 2026-11-04
+
+- **Script-free page on the current build** (all `<script>` stripped through a local proxy): LCP 2.85 s on `/advertising/tracking-analytics` and 1.78 s on `/social-media/monthly-packages`. With scripts the same pages measured 3.3 s and 2.9 s, so JavaScript now costs about 0.5–1.1 s.
+- **Run-to-run noise:** server response time is under 30 ms, yet first paint (FCP) flips between ~1.5 s and a constant ~2.68 s for the *same* page on identical builds (seen with and without scripts). Single Lighthouse runs on this machine therefore carry roughly ±1 s of noise; differences of a few tenths of a second between variants are not meaningful, and only the large steps (5.4 s → ~3.3 s from disabling route prefetching and font preloading) are real.
+- **Remaining levers, none a clear win:** fewer or lighter JavaScript chunks (159 KB gzipped of Next + React; a framework baseline), or system fonts instead of Fraunces/Inter (a design decision). The 2.5 s target is **not claimed as met**; verify with real-user data after deployment (BLOCKED item 20).
