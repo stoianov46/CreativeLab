@@ -38,6 +38,10 @@ jobs:
       - name: Contact form API check
         run: npm run contact:check
 
+      # Mobile menu first level = the 8 service categories, all 4 languages.
+      - name: Mobile menu check
+        run: npm run nav:check
+
       # Build first: it generates next-env.d.ts + .next/types (PageProps/
       # LayoutProps, image module declarations) that tsc --noEmit needs,
       # and next build already runs its own full type check internally —

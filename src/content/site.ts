@@ -15,6 +15,8 @@ export const SITE = {
   whatsapp: "+66 80 870 5704",
   telegram: "https://t.me/creativelab1_bot",
   phone: "+66 80 870 5704",
+  /** Owner-confirmed 2026-11-04; E.164 for tel: / Telegram links. */
+  phoneTel: "+66808705704",
   /**
    * Physical address exactly as the owner specified it (2026-11-03): the same
    * address FORMA uses. The Plus Code is the address; no street/building

@@ -276,6 +276,8 @@
     "telegram": "Telegram",
     "basedIn": "Где мы находимся",
     "address": "Адрес",
-    "viewOnMap": "Показать на карте"
+    "viewOnMap": "Показать на карте",
+    "copyNumber": "Скопировать номер",
+    "copied": "Скопировано"
   }
 }

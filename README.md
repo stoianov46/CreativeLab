@@ -48,8 +48,11 @@ depend on these fall back gracefully (see `TO-DO_2026-11-03.md`):
 | `NEXT_PUBLIC_TELEGRAM_BOT` | Telegram bot handle for chat links (deep links `?start=s_<service>…`) | No Telegram buttons shown |
 | `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION` / `NEXT_PUBLIC_YANDEX_VERIFICATION` | Search Console / Yandex Webmaster ownership `<meta>` tags (`src/app/[locale]/layout.tsx`) | No tag emitted |
 | `NEXT_PUBLIC_GA4_ID` / `NEXT_PUBLIC_YM_ID` / `NEXT_PUBLIC_META_PIXEL_ID` | Analytics, loaded only after cookie consent (`src/lib/analytics.ts`) | No analytics and no consent banner |
-| `TELEGRAM_BOT_TOKEN` | **Server-only.** Bot that delivers contact-form leads (`/api/contact`) | Form shows its error state; lead is logged server-side, not delivered |
-| `TELEGRAM_STAFF_CHAT_ID` | **Server-only.** Staff chat the leads are sent to | Same as above |
+| `TELEGRAM_BOT_TOKEN` | **Server-only.** Bot that delivers contact-form leads (`/api/contact`). The owner adds it after hosting | Telegram channel skipped |
+| `TELEGRAM_CHAT_ID` | **Server-only.** Staff chat the leads go to (`TELEGRAM_STAFF_CHAT_ID` still works). Never the phone number | Telegram channel skipped |
+| `RESEND_API_KEY` + `CONTACT_EMAIL_FROM` | **Server-only.** Email delivery through the Resend HTTP API; sender must be verified there | Email channel skipped |
+| `CONTACT_EMAIL_TO` | **Server-only.** Lead recipient; defaults to `SITE.email` | Uses `SITE.email` |
+| `LEAD_WEBHOOK_URL` | **Server-only.** Optional CRM / automation endpoint; receives each lead as JSON | Webhook skipped |
 
 Tokens and secrets never go in `src/` or in `NEXT_PUBLIC_*` vars — see `SECURITY.md`.
 
@@ -76,10 +79,11 @@ npm run lint       # ESLint
 ### Contact form
 
 ```bash
-npm run contact:check   # runs the real /api/contact handler with a MOCKED Telegram (no lead is sent)
+npm run contact:check   # runs the real /api/contact handler with MOCKED Telegram, email and webhook (no lead is sent)
+npm run nav:check       # mobile menu: exactly the 8 service categories in all 4 languages
 ```
 
-The enquiry form collects service, island, business type, optional budget and timeline, and sends them with the first-touch UTM parameters and landing page (remembered in the visitor's session only) to `/api/contact`. Delivery needs `TELEGRAM_BOT_TOKEN` and `TELEGRAM_STAFF_CHAT_ID`; without them the endpoint answers 503 and the form shows its error state with the entered data kept.
+The enquiry form collects service, island, business type, optional budget and timeline, and sends them with the first-touch UTM parameters and landing page (remembered in the visitor's session only) to `/api/contact`. Delivery uses every configured channel (Telegram, email, webhook); the lead is accepted if at least one succeeds. With none configured the endpoint answers 503 and the form shows its error state with the entered data kept.
 
 ### Site audit
 
@@ -126,7 +130,7 @@ locale routing (`src/proxy.ts`) and the contact form
 which static export disables entirely. The GitHub Pages workflow
 (`.github/workflows/deploy.yml`) was removed from `main` on 2026-09-22
 (it failed on every push); the DrAndromeda fork keeps its own Pages
-preview. Set `TELEGRAM_BOT_TOKEN` / `TELEGRAM_STAFF_CHAT_ID` in the
+preview. Set `TELEGRAM_BOT_TOKEN` / `TELEGRAM_CHAT_ID` (and/or the email or webhook variables) in the
 host's env vars, or the contact form can't deliver leads. If you deploy behind a
 platform that needs a `Dockerfile` or specific build adapter, that isn't
 set up yet — ask before assuming a target platform.

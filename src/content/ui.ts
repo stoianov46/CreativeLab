@@ -306,6 +306,8 @@ export const UI = {
     basedIn: "Based in",
     address: "Address",
     viewOnMap: "View on map",
+    copyNumber: "Copy number",
+    copied: "Copied",
   },
 };
 

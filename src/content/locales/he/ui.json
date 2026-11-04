@@ -276,6 +276,8 @@
     "telegram": "Telegram",
     "basedIn": "מיקום",
     "address": "כתובת",
-    "viewOnMap": "הצג במפה"
+    "viewOnMap": "הצג במפה",
+    "copyNumber": "העתקת המספר",
+    "copied": "הועתק"
   }
 }

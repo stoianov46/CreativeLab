@@ -276,6 +276,8 @@
     "telegram": "Telegram",
     "basedIn": "ที่ตั้ง",
     "address": "ที่อยู่",
-    "viewOnMap": "ดูบนแผนที่"
+    "viewOnMap": "ดูบนแผนที่",
+    "copyNumber": "คัดลอกหมายเลข",
+    "copied": "คัดลอกแล้ว"
   }
 }

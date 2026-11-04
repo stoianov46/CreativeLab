@@ -18,14 +18,17 @@ const CLOSE_DELAY_MS = 150;
  * items with `children` a compact dropdown, the rest are plain links.
  * Menus open on hover (with a short close delay so diagonal mouse moves
  * don't drop them), on click/tap, and from the keyboard (Enter/Space,
- * Escape to close). Mobile: full-screen panel with collapsible sections.
+ * Escape to close). Mobile: full-screen panel listing the 8 service categories.
  */
 export function Header({
   nav,
+  mobileNav,
   ui,
   featuredImage,
 }: {
   nav: NavItem[];
+  /** Mobile first level: the 8 service categories only. */
+  mobileNav: { label: string; href: string }[];
   ui: Pick<UiStrings, "nav" | "cta">;
   featuredImage: StaticImageData;
 }) {
@@ -286,55 +289,16 @@ export function Header({
                 onNavigate={() => setMobileOpen(false)}
               />
             </div>
-            {nav.map((item) =>
-              item.groups || item.children ? (
-                <details key={item.label} className="border-b border-line py-3">
-                  <summary className="flex cursor-pointer list-none items-center justify-between py-2 text-base font-medium text-text">
-                    {item.label}
-                    <span aria-hidden className="text-accent">+</span>
-                  </summary>
-                  <div className="flex flex-col gap-1 pt-2 pb-1 ps-3">
-                    <Link href={item.href} className="py-1.5 text-sm font-medium text-accent" onClick={() => setMobileOpen(false)}>
-                      {item.groups ? ui.nav.allServices : format(ui.nav.overview, { label: item.label })}
-                    </Link>
-                    {item.groups?.map((group) => (
-                      <div key={group.title} className="pt-3">
-                        <p className="text-xs tracking-[0.15em] text-text-secondary uppercase">{group.title}</p>
-                        {group.items.map((child) => (
-                          <Link
-                            key={child.href}
-                            href={child.href}
-                            className="block py-1.5 text-sm text-text-secondary"
-                            onClick={() => setMobileOpen(false)}
-                          >
-                            {child.label}
-                          </Link>
-                        ))}
-                      </div>
-                    ))}
-                    {item.children?.map((child) => (
-                      <Link
-                        key={child.href}
-                        href={child.href}
-                        className="py-1.5 text-sm text-text-secondary"
-                        onClick={() => setMobileOpen(false)}
-                      >
-                        {child.label}
-                      </Link>
-                    ))}
-                  </div>
-                </details>
-              ) : (
-                <Link
-                  key={item.label}
-                  href={item.href}
-                  className="block border-b border-line py-5 text-base font-medium text-text"
-                  onClick={() => setMobileOpen(false)}
-                >
-                  {item.label}
-                </Link>
-              )
-            )}
+            {mobileNav.map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="block border-b border-line py-5 text-base font-medium text-text"
+                onClick={() => setMobileOpen(false)}
+              >
+                {item.label}
+              </Link>
+            ))}
             <Link
               href="/contact"
               className="mt-6 flex justify-center bg-accent px-5 py-3 text-sm font-medium text-text-inverse"

@@ -8,7 +8,8 @@ import { getIndustries, getLocations, getPages, getUi } from "@/content/translat
 import { buildMetadata } from "@/lib/metadata";
 import { breadcrumbSchema, jsonLdGraph, webPageSchema } from "@/lib/schema";
 import { SITE } from "@/content/site";
-import { INTEGRATIONS, telegramLink } from "@/lib/integrations";
+import { CopyButton } from "@/components/ui/CopyButton";
+import { INTEGRATIONS, telegramLink, telegramOwnerLink } from "@/lib/integrations";
 import { localePath, toLocale } from "@/content/i18n";
 
 export async function generateMetadata(
@@ -89,7 +90,7 @@ export default async function ContactPage(props: PageProps<"/[locale]/contact">)
                 <div>
                   <dt className="text-text-secondary">{ui.contact.phone}</dt>
                   <dd className="mt-1 text-base text-text">
-                    <a href={`tel:${SITE.phone}`} className="hover:text-accent">
+                    <a href={`tel:${SITE.phoneTel}`} className="hover:text-accent">
                       <bdi dir="ltr">{SITE.phone}</bdi>
                     </a>
                   </dd>
@@ -100,6 +101,15 @@ export default async function ContactPage(props: PageProps<"/[locale]/contact">)
                     <a href={`https://wa.me/${SITE.whatsapp.replace(/[^0-9]/g, "")}`} className="hover:text-accent">
                       <bdi dir="ltr">{SITE.whatsapp}</bdi>
                     </a>
+                  </dd>
+                </div>
+                <div>
+                  <dt className="text-text-secondary">{ui.contact.telegram}</dt>
+                  <dd className="mt-1 text-base text-text">
+                    <a href={telegramOwnerLink} className="hover:text-accent" rel="noopener noreferrer" target="_blank">
+                      <bdi dir="ltr">{SITE.phone}</bdi>
+                    </a>
+                    <CopyButton value={SITE.phoneTel} label={ui.contact.copyNumber} doneLabel={ui.contact.copied} />
                   </dd>
                 </div>
                 {telegram && (

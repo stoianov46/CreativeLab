@@ -73,3 +73,11 @@ export function botServiceFor(...slugs: (string | undefined)[]): string | undefi
   for (const slug of slugs) if (slug && BOT_SERVICE_BY_SLUG[slug]) return BOT_SERVICE_BY_SLUG[slug];
   return undefined;
 }
+
+/**
+ * The owner's own Telegram account, reached by the confirmed phone number
+ * (owner instruction 2026-11-04). Works only if the account allows finding it
+ * by phone number, so the contact page also offers the number to copy. Not a
+ * Bot API value.
+ */
+export const telegramOwnerLink = `https://t.me/${SITE.phoneTel}`;

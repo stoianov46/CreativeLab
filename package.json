@@ -9,6 +9,7 @@
     "lint": "eslint",
     "pricing:check": "node scripts/pricing-check.mjs",
     "contact:check": "node scripts/contact-check.mjs",
+    "nav:check": "node scripts/nav-check.mjs",
     "site:check": "node scripts/site-check.mjs",
     "pricing:master": "node scripts/pricing-check.mjs --write-master",
     "i18n:check": "node scripts/i18n.mjs check",

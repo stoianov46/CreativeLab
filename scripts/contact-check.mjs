@@ -22,8 +22,14 @@ const jiti = createJiti(import.meta.url, {
 // --- mocked network: only the Telegram endpoint exists; anything else is a bug ---
 const calls = [];
 let telegramStatus = 200;
+const other = [];
+let otherStatus = 200;
 globalThis.fetch = async (url, init) => {
   const u = String(url);
+  if (u.startsWith("https://api.resend.com/") || u.startsWith("https://crm.test/")) {
+    other.push({ url: u, headers: init.headers, body: JSON.parse(init.body) });
+    return new Response("{}", { status: otherStatus });
+  }
   if (!u.startsWith("https://api.telegram.org/bot")) throw new Error(`unexpected network call to ${u}`);
   calls.push({ url: u, body: JSON.parse(init.body) });
   return new Response(telegramStatus === 200 ? "{}" : "nope", { status: telegramStatus });
@@ -68,6 +74,11 @@ for (const [group, values] of [["location", contact.LOCATION_VALUES], ["business
 // 2. request handling without credentials
 delete process.env.TELEGRAM_BOT_TOKEN;
 delete process.env.TELEGRAM_STAFF_CHAT_ID;
+delete process.env.TELEGRAM_CHAT_ID;
+delete process.env.RESEND_API_KEY;
+delete process.env.CONTACT_EMAIL_FROM;
+delete process.env.CONTACT_EMAIL_TO;
+delete process.env.LEAD_WEBHOOK_URL;
 check("invalid JSON → 400", (await send(null, { raw: "{nope" })).status === 400);
 const before = calls.length;
 check("honeypot filled → 200 and nothing sent", (await send({ ...valid, website: "http://spam" })).status === 200 && calls.length === before);
@@ -79,11 +90,11 @@ for (const [label, patch] of [
   ["no consent", { consent: false }],
   ["consent as string", { consent: "true" }],
 ]) check(`${label} → 422`, (await send({ ...valid, ...patch })).status === 422);
-check("valid but no Telegram credentials → 503 (never a silent ok)", (await send(valid)).status === 503 && calls.length === before);
+check("valid but no delivery channel configured → 503 (never a silent ok)", (await send(valid)).status === 503 && calls.length === before);
 
 // 3. delivery with credentials (mocked)
 process.env.TELEGRAM_BOT_TOKEN = "TEST_TOKEN";
-process.env.TELEGRAM_STAFF_CHAT_ID = "TEST_CHAT";
+process.env.TELEGRAM_CHAT_ID = "TEST_CHAT";
 calls.length = 0;
 const full = {
   ...valid,
@@ -131,6 +142,37 @@ const codes = [];
 for (let i = 0; i < 7; i++) codes.push((await send(valid, { ip })).status);
 check("rate limit: 5 accepted then 429", codes.slice(0, 5).every((c) => c === 200) && codes.slice(5).every((c) => c === 429), codes.join(","));
 
+// 5. other channels: Telegram alias, email, webhook (all mocked)
+delete process.env.TELEGRAM_CHAT_ID;
+process.env.TELEGRAM_STAFF_CHAT_ID = "OLD_CHAT";
+calls.length = 0;
+await send(valid);
+check("legacy TELEGRAM_STAFF_CHAT_ID still works", calls[0]?.body?.chat_id === "OLD_CHAT");
+delete process.env.TELEGRAM_BOT_TOKEN;
+delete process.env.TELEGRAM_STAFF_CHAT_ID;
+process.env.RESEND_API_KEY = "TEST_RESEND";
+check("email key without sender → 503 (channel not configured)", (await send(valid)).status === 503);
+process.env.CONTACT_EMAIL_FROM = "CreativeLAB <leads@example.com>";
+calls.length = 0; other.length = 0;
+check("email only → 200", (await send({ ...full })).status === 200);
+const mail = other[0];
+check("email goes to Resend with auth, default recipient SITE.email, reply-to the visitor, plain-text body", other.length === 1 && calls.length === 0 && mail.url === "https://api.resend.com/emails" && mail.headers.Authorization === "Bearer TEST_RESEND" && mail.body.to[0] === "karma8chakra@gmail.com" && mail.body.reply_to === "test@example.com" && mail.body.text.includes("Name: Anna <b>Test</b> & Co") && mail.body.text.includes("Island: Koh Samui"));
+process.env.CONTACT_EMAIL_TO = "owner@example.com";
+other.length = 0;
+await send(valid);
+check("CONTACT_EMAIL_TO overrides the recipient", other[0]?.body?.to?.[0] === "owner@example.com");
+process.env.LEAD_WEBHOOK_URL = "https://crm.test/hook";
+other.length = 0;
+await send(full);
+const hook = other.find((c) => c.url === "https://crm.test/hook");
+check("webhook receives the lead as JSON", other.length === 2 && hook?.body?.email === "test@example.com" && hook?.body?.location === "koh-samui" && hook?.body?.utm?.includes("source=newsletter"));
+otherStatus = 500;
+check("all configured channels fail → 502", (await send(valid)).status === 502);
+process.env.TELEGRAM_BOT_TOKEN = "TEST_TOKEN";
+process.env.TELEGRAM_CHAT_ID = "TEST_CHAT";
+check("one channel fails, another succeeds → 200 (lead not lost)", (await send(valid)).status === 200);
+otherStatus = 200;
+
 console.error = origError;
-console.log(failures ? `\ncontact-check: ${failures} failure(s)` : "\ncontact-check: all checks passed (mocked Telegram, no real lead sent)");
+console.log(failures ? `\ncontact-check: ${failures} failure(s)` : "\ncontact-check: all checks passed (mocked Telegram, email and webhook, no real lead sent)");
 process.exit(failures ? 1 : 0);

@@ -199,6 +199,15 @@ export const getPrimaryNav = memo((locale): NavItem[] => {
   ];
 });
 
+/**
+ * Mobile menu, first level: exactly the 8 main service categories, each linking
+ * to its landing page (owner instruction 2026-11-04). Order follows HUBS.
+ * Secondary pages stay reachable from the hubs, the footer and desktop nav.
+ */
+export const getMobileNav = memo((locale): { label: string; href: string }[] =>
+  getHubs(locale).map((hub) => ({ label: hub.navLabel, href: `/${hub.slug}` }))
+);
+
 export const getFooterColumns = memo((locale) => {
   const ui = getUi(locale);
   const hubLinks = getHubs(locale).map((hub) => ({ label: hub.navLabel, href: `/${hub.slug}` }));

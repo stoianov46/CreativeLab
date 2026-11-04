@@ -1,0 +1,2056 @@
+> ARCHIVE — the full original specification (2026-11-03) plus the owner instructions of 2026-11-04 and an older status section. Long and partly outdated. The current TODO is `TO-DO_2026-11-03.md` in the repo root. Read this only to look up the exact wording of a requirement.
+
+# CreativeLAB.in.th — FINAL AUTONOMOUS COMPLETION TO-DO
+
+**Date:** November 3, 2026  
+**Repository:** https://github.com/stoianov46/CreativeLab  
+**Production website:** https://creativelab.in.th/  
+**Required languages:** English / Russian / Thai / Hebrew  
+**Service areas:** Koh Phangan / Koh Samui / Koh Tao  
+**Status:** Final development and completion instructions
+
+---
+
+## STATUS — what was done, what was missed (updated 2026-11-04, after the owner instructions of 2026-11-04)
+
+This is the single TODO and progress document. It replaces `PROGRESS.md`, `NOTES.md`, `IMPLEMENTATION_PLAN.md` and `Improvements.md` (still in git history before the consolidation commit). Evidence lives in `FINAL_QA.md` (test results), `AUDIT.md` and the generated maps. The checklist for you is in Obsidian (`Projects/Kim/CreativeLab/`: Index, DONE, BLOCKED, TODO).
+
+Labels: `CODE DONE` = built and verified on a **local build**. Nothing is `PRODUCTION VERIFIED`: the live site returns 403 to every request and nothing is pushed or deployed.
+
+### Done (CODE DONE, local build)
+
+| § | Area | Result |
+|---|---|---|
+| 2 | Audit | `npm run site:check` crawls 476 pages × 4 languages: 0 errors, 15 warnings (12 `[[VERIFY]]` legal markers, 3 FAQ "guarantee" answers that say no) |
+| 3 | Services | All named services have pages; 18 sub-service pages added on owner instruction (EN master + RU/TH/HE) |
+| 4 | Pricing | Central `src/content/pricing.ts` (159 ids / 183 rows), Included / Not included, `pricing:check` in CI; Starter / Growth / Signature tiers on monthly social, Google Ads, Meta Ads, local SEO |
+| 5 | SEO / AI search | Direct answers, FAQs, links, keywords, word counts enforced by `site:check`; `llms.txt` |
+| 6 | Portfolio | 8 labelled concept boards (`DEMO_PORTFOLIO.md`), kept by owner decision |
+| 7 | Address / contact | Address everywhere, no GBP claim |
+| 8 | Languages | RU/TH/HE fully translated (`i18n:check` 0 pending), Hebrew RTL, 1,104 overflow checks in Safari + Chrome matrix = 0 |
+| 9 | Schema | Organization, WebSite, Service/OfferCatalog (no prices), BreadcrumbList, CreativeWork, Article, ContactPage, FAQPage, ImageObject |
+| 10 | Forms | Island, business type, budget, timeline, reply language, review step, attribution; mocked Telegram (`contact:check`) |
+| 11 | Legal / analytics | Privacy, Terms, Cookies drafts; consent Accept / Reject / Settings; verification tags; sitemap; robots |
+| 12 | Performance / a11y | Lighthouse and axe on key pages and the 18 new pages; Safari 26.5 scripted checks; LCP 5.4 s → about 3 s in the harsh throttled profile |
+| Owner 2026-11-04 | Mobile menu (P1) | First level is exactly the 8 service categories linking to their landing pages (`getMobileNav`); no nested services, industries or locations. `npm run nav:check` (CI) + browser test: 120 runs (4 languages × 5 start routes × 6 widths 320–430, touch) = 8 categories, no overflow, no console errors, navigation closes the menu |
+| Owner 2026-11-04 | Contacts | `tel:+66808705704` everywhere; Telegram contact link `https://t.me/+66808705704` plus a "Copy number" button on `/contact` (4 languages); mobile bar falls back to it when no bot is set |
+| Owner 2026-11-04 | Lead delivery | `/api/contact` delivers to every configured channel: Telegram (`TELEGRAM_BOT_TOKEN` + `TELEGRAM_CHAT_ID`, old `TELEGRAM_STAFF_CHAT_ID` still read), email via Resend (`RESEND_API_KEY` + `CONTACT_EMAIL_FROM`, `CONTACT_EMAIL_TO` defaults to the business email), optional CRM webhook (`LEAD_WEBHOOK_URL`). 503 if none, 502 if all fail, 200 if any succeeds. `contact:check` covers all channels with mocks (README, `docs/Index.md`, `.env.example` updated) |
+| 13 | Documents | All spec documents exist (`I18N.md` = `docs/i18n.md`) |
+
+Regression commands (all pass): `npx tsc --noEmit`, `npm run lint`, `npm run build`, `npm run i18n:check`, `npm run pricing:check`, `npm run contact:check`, `npm run site:check`, `cd bots && npm run check` (35 tests).
+
+### Missed / open (needs owner, team or a deployed site)
+
+**Credentials and deploy**
+- [ ] **Owner, after hosting:** set `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID`; set `RESEND_API_KEY` + `CONTACT_EMAIL_FROM` (verified sender) for email delivery; then send one real test lead. Confirm the old leaked token is revoked and whether `@creativelab1_bot` is real (`NEXT_PUBLIC_TELEGRAM_BOT`)
+- [ ] DEFERRED BY OWNER: GA4 / Yandex / Meta Pixel IDs and Search Console / Yandex verification codes (env vars are ready; the owner adds them later)
+- [ ] EXTERNAL: hosting, Cloudflare Pages, DNS and deploy are handled by another assistant. Push needs explicit approval. Note: the site is Next.js 16 with an API route and `proxy.ts`, so the Cloudflare adapter (e.g. OpenNext) and Node-API compatibility must be checked by that assistant; the bots need a public URL and Redis/KV
+- [ ] After deploy: production crawl, real-user LCP / Core Web Vitals (LCP closed as "needs real data after deploy"), Rich Results Test, Search Console sitemap (`RELEASE_CHECKLIST.md`)
+
+**Business facts**
+- [x] Phone `+66808705704`, shared email and shared address CONFIRMED by the owner (2026-11-04). GBP: OWNER WILL HANDLE. Legal entity / certificates: DEFERRED BY OWNER (nothing invented)
+- [ ] Social profile URLs, team and author bios, logo, real photos and video, real portfolio and testimonials
+- [ ] Replace `social.jpg` (shows a Netflix logo; used on the homepage and five hubs)
+
+**Review and sign-off**
+- [ ] Lawyer review of Privacy, Terms, Cookies (PDPA B.E. 2562); remove the 12 `[[VERIFY]]` markers; confirm the form-data wording
+- [ ] Native review of all RU / TH / HE copy (LLM drafts): Thai and Hebrew place-name spellings, a Russian FAQ line, Hebrew gender-neutral phrasing, Hebrew pricing-table caption still English
+- [ ] Review new English content for tone and facts
+- [ ] Approve indicative prices (research found no island data; the 10–20% premium has no evidence), the draft revisions / turnaround values, the Included / Not included lists, the Signature tiers, and the 37 draft prices on the 18 new pages
+- [ ] Approve the 18 sub-service pages and drafter-defined terms (Stories sequence, ad copy language, filming exclusions); confirm the logo-ownership FAQ wording
+- [ ] Decisions: what "Shop" means; "Start a Project" in header vs footer; header style; near-duplicate hub pages; bot matrix 8 × 3 vs 13 × 5; drone add-on price
+- [ ] Real quotes from 3–5 island agencies
+
+**Testing not possible by Claude**
+- [ ] Firefox and Edge (not installed); real iPhone / Android; screen readers (VoiceOver, NVDA, TalkBack); an eye review of Thai line breaks and Russian wrapping; cookie-consent flow in real Safari
+
+**Not built (not selected, or needs real material)**
+- Free-backlinks plan, AdFoto Wayback analysis, homepage variants /v1–/v5 (client: not needed), real photo / video / drone portfolio, Service schema `Offer` prices (prices are provisional)
+
+---
+
+
+## 0. PRIMARY OBJECTIVE
+
+Bring the existing CreativeLAB website to a complete, professional, premium advertising, digital marketing and creative production agency standard.
+
+CreativeLAB is not just a photography or video production studio.
+
+Its positioning is:
+
+**Advertising, Digital Marketing, Creative Production and Brand Development Agency.**
+
+The main service categories are:
+
+1. Advertising.
+2. Social Media.
+3. Villas & Real Estate.
+4. Food & Restaurants.
+5. Business & Local Presence.
+6. Websites & Digital.
+7. Video & Production.
+8. Branding & Creative.
+
+The agency serves Koh Phangan, Koh Samui and Koh Tao.
+
+This is an existing website. Do not rebuild it from scratch or replace working components unnecessarily.
+
+Your responsibility is to:
+
+1. Audit the complete live production website.
+2. Compare every discovered page against the original project requirements.
+3. Identify completed, incomplete, missing, broken, outdated and unverified work.
+4. Implement all outstanding tasks that do not require unavailable external access or owner approval.
+5. Deliver a fully tested and documented project.
+
+**The most important rule: do not duplicate completed work.**
+
+Do not rely on old progress reports as proof that features currently work. Verify the production website and actual source code.
+
+Do not stop after producing an audit report. Execute the work.
+
+---
+
+## 1. SOURCE DOCUMENTS AND PROJECT CONTEXT
+
+Before implementation, inspect all relevant repository documentation:
+
+- `IMPROVEMENTS_CREATIVELAB.md`, if present.
+- `IMPROVEMENTS_CREATIVELAB_AUTONOMOUS.md`, if present.
+- `proposal.md`
+- `README.md`
+- `AGENTS.md` / `CLAUDE.md`
+- `docs/Index.md`
+- `package.json`
+- `.env.example`
+- Existing SEO, pricing, QA and deployment documentation.
+
+The primary repository is:
+
+`https://github.com/stoianov46/CreativeLab`
+
+Do not use the old `DrAndromeda/CreativeLAB.in.th` repository as the source of truth.
+
+Check the current Git branch, working tree, recent commits, CI configuration and deployment settings.
+
+The production domain is:
+
+`https://creativelab.in.th/`
+
+Use this domain consistently for canonical URLs, hreflang, sitemap, Open Graph and production references unless the actual deployment configuration proves otherwise.
+
+The original requirements are in `proposal.md`. Do not replace the original specification with this checklist.
+
+Resolve historical conflicting instructions according to the latest explicit owner decisions documented here.
+
+---
+
+## 2. COMPLETE PRODUCTION WEBSITE AUDIT
+
+Perform a full crawl of the live production website before implementation.
+
+Do not inspect only the homepage or a small selection of pages.
+
+### 2.1 Discover every URL
+
+Use all available sources:
+
+- Production sitemap.
+- `robots.txt`.
+- Internal navigation.
+- Footer links.
+- Source-code route definitions.
+- Language route definitions.
+- Service pages.
+- Subservice pages.
+- Industry landing pages.
+- Location landing pages.
+- Portfolio pages.
+- Case Studies.
+- Journal and articles.
+- Contact pages.
+- Legal pages.
+
+Identify:
+
+- All accessible production URLs.
+- All language versions.
+- Routes present in source code but missing from navigation.
+- Sitemap URLs that do not work.
+- Orphan pages.
+- Duplicate pages.
+- Redirect chains.
+- Broken routes and 404 responses.
+- Old domain references.
+- Incomplete or untranslated routes.
+
+Check all four languages: EN, RU, TH and HE.
+
+### 2.2 Audit every discovered page
+
+For every URL, verify:
+
+- HTTP status.
+- Correct page content.
+- Unique title tag.
+- Meta description.
+- One primary H1.
+- Logical H2/H3 hierarchy.
+- Search intent.
+- Content quality and uniqueness.
+- Direct-answer section.
+- Internal links.
+- Breadcrumbs.
+- Canonical URL.
+- Hreflang.
+- Open Graph metadata.
+- Structured data.
+- Image quality and alt text.
+- Pricing table.
+- Language consistency.
+- Mobile layout.
+- Accessibility.
+- CTA functionality.
+
+Create a complete audit matrix:
+
+`URL | Locale | Page Type | HTTP Status | SEO | Content | Pricing | Schema | Internal Links | Mobile | Evidence | Required Action`
+
+Every finding must include the affected URL, evidence, severity and recommended correction.
+
+Do not mark a page as verified unless it has actually been tested.
+
+---
+
+## 3. EXISTING WEBSITE STRUCTURE AND SERVICES
+
+The current production homepage presents eight main service categories, seven industries, three islands, a process section, reference imagery and contact CTAs.
+
+Preserve the useful existing architecture and content.
+
+Audit every service page and every child page.
+
+Pay particular attention to:
+
+### Advertising
+
+- Meta Ads.
+- Google Ads.
+- Campaign Launch.
+- Performance Marketing.
+- Campaign Strategy.
+- Advertising Creative.
+- Tracking and Analytics.
+
+### Social Media
+
+- Social Media Management.
+- Instagram Management.
+- Content Creation.
+- Reels.
+- Stories.
+- Influencer Marketing.
+- Monthly Social Media Packages.
+
+### Villas & Real Estate
+
+- Property Photography.
+- Villa Marketing.
+- Real Estate Video.
+- Drone Production.
+- Property Social Media.
+- Listing Presentation.
+
+### Food & Restaurants
+
+- Food Photography.
+- Restaurant Branding.
+- Menu Design.
+- Restaurant Social Media.
+- Promotional Campaigns.
+- Video Production.
+
+### Business & Local Presence
+
+- Google Business Profile.
+- Local SEO.
+- Maps Visibility.
+- Local Business Content.
+- Reputation Management, where genuinely offered.
+
+### Websites & Digital
+
+- Website Design.
+- Landing Pages.
+- Web Development.
+- SEO.
+- Technical SEO.
+- Structured Data.
+- Website Maintenance.
+
+### Video & Production
+
+- Commercial Video.
+- Brand Films.
+- Reels.
+- Drone / FPV Production, where available.
+- Editing.
+- Photography.
+- Creative Production.
+
+### Branding & Creative
+
+- Brand Identity.
+- Logo Design.
+- Visual Systems.
+- Creative Direction.
+- Graphic Design.
+- Packaging.
+- Menus and Marketing Materials.
+
+Do not create unnecessary pages merely to increase URL count.
+
+Every page must have a distinct purpose, useful content and a clear search intent.
+
+A parent service page does not replace a dedicated child service page when the child service is an important commercial offering.
+
+---
+
+## 4. PRICING STRATEGY — NEW OWNER DECISION
+
+Previous instructions asking the owner to provide a complete price list are superseded.
+
+**You are responsible for researching the market and creating the pricing strategy independently.**
+
+Do not wait for the owner to provide prices.
+
+### 4.1 Market research
+
+Research current 2026 market prices for comparable services in:
+
+- Koh Phangan.
+- Koh Samui.
+- Phuket.
+- Bangkok.
+- Other relevant Thai markets.
+
+Research comparable:
+
+- Advertising agencies.
+- Meta Ads management.
+- Google Ads management.
+- Social media retainers.
+- Photography services.
+- Video production.
+- Drone production.
+- Branding.
+- Web development.
+- SEO.
+- Google Business Profile services.
+- Content production.
+- Influencer marketing.
+
+Use credible publicly available sources, agency pricing pages, service proposals and industry references.
+
+Document sources, research dates, assumptions and methodology.
+
+### 4.2 Market positioning
+
+Position CreativeLAB in the upper-middle market / premium mid-market segment.
+
+As an initial pricing principle, aim approximately 10–20% above comparable market averages where justified by service quality, production scope and positioning.
+
+Do not apply an automatic markup without evidence.
+
+Do not copy competitor prices.
+
+Avoid artificially inflated prices that cannot be justified by the actual scope of work.
+
+### 4.3 Mandatory pricing tables
+
+**Every individual commercial service page must have its own visible pricing table.**
+
+A general pricing page does not replace service-specific pricing.
+
+For recurring services, use clear packages:
+
+- Starter.
+- Growth.
+- Signature.
+
+Package names may be adapted if a different structure better fits a specific service.
+
+Every package must specify measurable deliverables:
+
+- Price in THB.
+- Included work.
+- Number of deliverables.
+- Number of posts.
+- Number of videos.
+- Number of platforms.
+- Publishing frequency.
+- Number of revisions.
+- Reporting.
+- Turnaround time.
+- Exclusions.
+- Optional extras.
+
+Do not use vague descriptions such as "Full Service" without a clear scope.
+
+### 4.4 Advertising pricing
+
+Show separate pricing for:
+
+- Account and campaign setup.
+- Monthly campaign management.
+- Creative production.
+- Campaign strategy.
+- Tracking and analytics.
+- Landing pages, where included.
+- Reporting.
+
+**Advertising spend must always be separated from agency fees.**
+
+The client's advertising budget must never be presented as agency revenue.
+
+Clearly explain whether media buying costs, platform charges, taxes and production expenses are included or excluded.
+
+### 4.5 Social media pricing
+
+Specify:
+
+- Number of posts.
+- Number of Reels.
+- Number of Stories.
+- Photography sessions.
+- Video production.
+- Captions and copywriting.
+- Content calendar.
+- Scheduling.
+- Community management, if included.
+- Reporting.
+- Number of platforms.
+
+### 4.6 Photography and video production pricing
+
+Specify:
+
+- Shooting duration.
+- Number of delivered photographs.
+- Number of retouched images.
+- Number of video edits.
+- Final video duration.
+- Drone / FPV availability, where applicable.
+- Editing scope.
+- Number of revisions.
+- Usage rights.
+- Travel and location expenses.
+
+### 4.7 Websites and digital pricing
+
+Specify:
+
+- Website type.
+- Number of pages.
+- CMS or static architecture.
+- Number of languages.
+- SEO scope.
+- Structured data.
+- Forms and integrations.
+- Maintenance.
+- Delivery timeline.
+- Additional development costs.
+
+### 4.8 SEO and local presence pricing
+
+Specify:
+
+- Initial audit.
+- Technical corrections.
+- Content production.
+- Local SEO.
+- Google Business Profile work.
+- Reporting.
+- Number of pages.
+- Monthly deliverables.
+
+Never guarantee search rankings, leads, sales, conversions or AI visibility.
+
+### 4.9 Centralized pricing source
+
+Create:
+
+- `PRICING_STRATEGY.md`
+- `PRICING_MASTER.md`
+- A centralized pricing data source such as `pricing.ts` or `pricing.json`.
+
+All service pages and language versions must use the same underlying numerical values.
+
+Never manually duplicate different prices across language files.
+
+All preliminary prices must be labelled as indicative.
+
+Include a pricing update date and clear scope limitations.
+
+Do not mark provisional prices as confirmed commercial offers in structured data.
+
+---
+
+## 5. SEO, FEATURED SNIPPETS AND AI SEARCH
+
+Create or substantially improve the SEO content on every relevant service page.
+
+Every commercial page must explain:
+
+1. What the service is.
+2. Who it is for.
+3. Which problems it solves.
+4. Exactly what is included.
+5. How the process works.
+6. What the client receives.
+7. Pricing and factors affecting cost.
+8. Available packages.
+9. Relevant service locations.
+10. FAQ.
+11. Clear next step / CTA.
+
+### 5.1 SEO requirements
+
+Every page must have:
+
+- Unique SEO title.
+- Unique meta description.
+- One primary H1.
+- Primary keyword.
+- Secondary keywords.
+- Defined search intent.
+- Direct-answer section of approximately 40–60 words.
+- Logical H2/H3 hierarchy.
+- Useful original content.
+- Relevant FAQ.
+- Internal links.
+- Related services.
+- Related industries.
+- Relevant locations.
+- Correct structured data.
+
+### 5.2 Search and AI optimization
+
+Optimize content for:
+
+- Google organic search.
+- Google Featured Snippets.
+- Google AI Overviews.
+- ChatGPT search.
+- Perplexity.
+- Other AI search and answer systems.
+
+Clearly describe CreativeLAB's identity, services, service areas, deliverables, processes and pricing.
+
+Use concise factual answers and structured content that search engines and AI systems can understand.
+
+Do not promise guaranteed rankings, snippets, AI citations or lead generation.
+
+Avoid:
+
+- Keyword stuffing.
+- Thin content.
+- Duplicate pages.
+- Doorway pages.
+- Artificial word-count inflation.
+- Mass-produced location pages without genuine local value.
+
+### 5.3 Brand voice
+
+CreativeLAB should sound like a capable premium creative and advertising agency.
+
+The tone should be:
+
+- Confident.
+- Creative.
+- Professional.
+- Modern.
+- Clear.
+- Commercially aware.
+- Technically competent.
+
+Avoid repetitive empty marketing language and exaggerated claims.
+
+Every page must communicate real services and tangible deliverables.
+
+---
+
+## 6. DEMONSTRATION PROJECTS AND PORTFOLIO
+
+The owner explicitly authorizes you to create original demonstration projects and creative materials.
+
+Do not wait for real client work to build a complete and visually compelling portfolio.
+
+Create original demonstration work for all eight service categories.
+
+### 6.1 Advertising
+
+Create examples of:
+
+- Meta Ads concepts.
+- Google Ads campaign structures.
+- Creative variations.
+- Landing page concepts.
+- Advertising layouts.
+- Campaign strategy demonstrations.
+
+### 6.2 Social Media
+
+Create:
+
+- Instagram grid concepts.
+- Content calendars.
+- Reels concepts.
+- Stories.
+- Social campaigns.
+- Brand voice examples.
+
+### 6.3 Villas & Real Estate
+
+Create:
+
+- Villa photography concepts.
+- Drone imagery concepts.
+- Property films.
+- Real estate social campaigns.
+- Property listing presentation examples.
+
+### 6.4 Food & Restaurants
+
+Create:
+
+- Food photography concepts.
+- Menu design.
+- Restaurant branding.
+- Promotional campaigns.
+- Restaurant social content.
+
+### 6.5 Business & Local Presence
+
+Create:
+
+- Google Business Profile demonstrations.
+- Local SEO examples.
+- Maps visibility demonstrations.
+- Local business content examples.
+
+### 6.6 Websites & Digital
+
+Create:
+
+- Website concepts.
+- Landing pages.
+- SEO page examples.
+- Technical SEO demonstrations.
+- Structured data examples.
+
+### 6.7 Video & Production
+
+Create:
+
+- Commercial video concepts.
+- Brand film examples.
+- Reels.
+- Drone / FPV examples, where feasible.
+- Editing demonstrations.
+- Storyboards.
+
+### 6.8 Branding & Creative
+
+Create:
+
+- Brand identity concepts.
+- Logo concepts.
+- Typography systems.
+- Visual identity systems.
+- Menus.
+- Packaging.
+- Creative direction examples.
+
+Create original visual assets. Do not copy competitor portfolios, copyrighted campaign artwork or other agencies' work.
+
+### 6.9 Mandatory transparency
+
+Every fictional project must be clearly labelled:
+
+- `Concept Project`.
+- `Demonstration Project`.
+- `Illustrative Campaign`.
+- `Sample Creative`.
+- `Speculative Brand Concept`.
+
+Never present fictional work as a real client engagement.
+
+Never invent:
+
+- Real client names.
+- Actual advertising budgets.
+- ROAS.
+- Leads.
+- Revenue.
+- Conversion rates.
+- Campaign results.
+- Testimonials.
+- Awards.
+- Certifications.
+- Verified business outcomes.
+
+Create `DEMO_PORTFOLIO.md` documenting every demonstration project, its purpose and its status.
+
+---
+
+## 7. BUSINESS ADDRESS AND CONTACT INFORMATION
+
+The owner has specified the same physical address for FORMA and CreativeLAB.
+
+**CreativeLAB address:**
+
+`PX5R+JX7, Forma.in.th, Koh Phangan, Ko Pha-ngan District, Surat Thani 84280, Thailand`
+
+Use this address in the relevant contact sections and website components.
+
+Important verification distinction:
+
+The supplied Google Maps link identifies the FORMA listing. It does not establish that CreativeLAB has a separately verified Google Business Profile.
+
+Therefore:
+
+- Use the same physical address as instructed by the owner.
+- Do not claim that CreativeLAB's Google Business Profile is verified.
+- Do not represent the FORMA listing as a separate CreativeLAB listing.
+- Do not invent a second Maps listing or verification status.
+- Do not invent phone numbers or legal registration details.
+
+Preserve existing email, Telegram and WhatsApp contacts only where they are present and verified as functional.
+
+Check:
+
+- Contact page.
+- Footer.
+- Mobile contact elements.
+- CTAs.
+- Email links.
+- WhatsApp links.
+- Telegram links.
+- Contact forms.
+- Physical address.
+- Map links.
+- Structured data.
+
+If a phone number or legal detail is missing, mark it as `OWNER INPUT REQUIRED`.
+
+---
+
+## 8. FOUR-LANGUAGE IMPLEMENTATION
+
+Required languages:
+
+- English.
+- Russian.
+- Thai.
+- Hebrew.
+
+English is the master content language.
+
+Complete all public pages in all four languages.
+
+Include:
+
+- All eight service categories.
+- All individual service pages.
+- Industries.
+- Locations.
+- Portfolio.
+- Case Studies.
+- Journal.
+- About.
+- Contact.
+- Process.
+- Pricing tables.
+- Packages.
+- FAQ.
+- Privacy.
+- Terms.
+- Editorial Policy.
+- Accessibility.
+- Metadata.
+- Relevant structured-data text.
+
+### 8.1 Translation quality
+
+Translations must be complete, natural and professionally edited.
+
+Do not simply translate the homepage and leave the remaining pages in English.
+
+Do not leave accidental English fallback strings in RU, TH or HE.
+
+Prices and numerical deliverables must remain identical across all languages.
+
+### 8.2 Hebrew RTL
+
+Implement genuine RTL support, not merely `text-align: right`.
+
+Test:
+
+- Header.
+- Navigation.
+- Dropdowns.
+- Breadcrumbs.
+- Forms.
+- Pricing tables.
+- Grids.
+- Buttons.
+- Icons and directional controls.
+- Image captions.
+- Phone numbers.
+- URLs.
+- Responsive layouts.
+
+---
+
+## 9. STRUCTURED DATA — SCHEMA.ORG
+
+Audit and implement appropriate structured data:
+
+- Organization.
+- WebSite.
+- WebPage.
+- Service.
+- OfferCatalog.
+- Offer / priceSpecification where justified by accurate, visible pricing.
+- BreadcrumbList.
+- CreativeWork.
+- ImageObject.
+- Article / BlogPosting.
+- ContactPage.
+- FAQPage where applicable and compliant with current search-engine requirements.
+
+Use LocalBusiness only if the real business entity and physical address accurately qualify.
+
+Do not invent:
+
+- Ratings.
+- Reviews.
+- Awards.
+- Certifications.
+- Phone numbers.
+- Addresses.
+- Authors.
+- Advertising results.
+- Pricing claims.
+
+Structured data must accurately reflect visible page content.
+
+---
+
+## 10. CONTACT FORMS, LEAD GENERATION AND INTEGRATIONS
+
+Audit the complete lead-generation journey.
+
+Where applicable, the form should support:
+
+- Language selection.
+- Service selection.
+- Island / location.
+- Business type.
+- Project description.
+- Optional budget.
+- Optional timeline.
+- Contact details.
+- Review before submission.
+- Submission confirmation.
+- Error handling.
+
+Preserve lead source and UTM parameters where supported by the architecture.
+
+Test:
+
+- Validation.
+- Error messages.
+- Loading state.
+- Success state.
+- Spam protection.
+- Data persistence after failed submissions.
+- Accessibility.
+- Correct delivery endpoint.
+
+Do not submit real test inquiries to real customers or external recipients without permission.
+
+Do not expose API keys, tokens or private credentials.
+
+If an integration requires unavailable credentials:
+
+1. Implement the safe code structure.
+2. Provide configuration documentation.
+3. Use mocks where appropriate.
+4. Mark the external integration as `BLOCKED` or `OWNER INPUT REQUIRED`.
+
+Do not claim an integration works until delivery has been verified.
+
+---
+
+## 11. LEGAL, LOCAL SEO AND ANALYTICS
+
+Audit and improve:
+
+- Privacy Policy.
+- Terms.
+- Cookies.
+- PDPA.
+- Accessibility.
+- Editorial Policy.
+- Cookie consent: Accept / Reject / Settings.
+- `robots.txt`.
+- XML sitemap.
+- `llms.txt`.
+- Search Console readiness.
+- Google Business Profile.
+- GA4.
+- Analytics events.
+- Yandex Webmaster readiness.
+
+Do not load non-essential tracking scripts before user consent.
+
+Do not invent legal information or business registration details.
+
+Google Business Profile for CreativeLAB must be treated as unverified until the owner confirms actual verification.
+
+Do not publish false address or verification claims.
+
+---
+
+## 12. PERFORMANCE, MOBILE AND ACCESSIBILITY
+
+Test:
+
+- Lighthouse.
+- Core Web Vitals.
+- axe-core.
+- Image optimization.
+- Responsive image loading.
+- Font loading.
+- CSS and JavaScript performance.
+- Lazy loading.
+- Responsive layouts.
+- Keyboard navigation.
+- Mobile navigation.
+- Touch interactions.
+- Forms.
+- RTL rendering.
+- Horizontal overflow.
+
+Test these viewport widths:
+
+`320, 360, 375, 390, 412, 430, 768, 1024, 1280, 1440, 1728, 1920 px`
+
+Test Safari, Chrome, Firefox and Edge where available.
+
+Do not report manual tests as completed unless they were actually performed.
+
+---
+
+## 13. DOCUMENTATION REQUIREMENTS
+
+Create or update:
+
+- `AUDIT.md`
+- `PRICING_STRATEGY.md`
+- `PRICING_MASTER.md`
+- `SEO_CONTENT_MAP.md`
+- `URL_INTENT_MAP.md`
+- `INTERNAL_LINKING_MAP.md`
+- `CONTENT_QA.md`
+- `SEO_GEO_AUDIT.md`
+- `DEMO_PORTFOLIO.md`
+- `SCHEMA_QA.md`
+- `INTEGRATIONS.md`
+- `I18N.md`
+- `FINAL_QA.md`
+- `RELEASE_CHECKLIST.md`
+
+Do not create duplicate documents if equivalent files already exist. Update existing documents instead.
+
+Update `docs/Index.md` to reflect the current documentation structure.
+
+---
+
+## 14. IMPLEMENTATION PRIORITY
+
+Work in this order:
+
+1. Full production crawl and repository audit.
+2. Route, navigation and broken-link corrections.
+3. Pricing market research and centralized pricing data.
+4. Pricing tables on every commercial service page.
+5. Complete SEO content.
+6. Demonstration portfolio.
+7. Four-language implementation.
+8. Hebrew RTL.
+9. Schema.org.
+10. Contact and legal sections.
+11. Forms and integrations.
+12. Local SEO and analytics readiness.
+13. Performance and accessibility.
+14. Final QA.
+
+After each implementation stage, record:
+
+- What was completed.
+- Files changed.
+- Commands and tests executed.
+- Actual test results.
+- Remaining issues.
+
+Use these status labels:
+
+- `TODO`
+- `IN PROGRESS`
+- `CODE DONE`
+- `PRODUCTION VERIFIED`
+- `OWNER INPUT REQUIRED`
+- `BLOCKED`
+- `FAILED`
+
+**Do not push commits, change DNS or deploy to production without explicit owner approval.**
+
+---
+
+## 15. DEFINITION OF DONE
+
+CreativeLAB is complete only when:
+
+- Every discovered production page has been audited.
+- All eight service categories are fully developed.
+- Important individual services have dedicated pages.
+- Every commercial service page has its own pricing table.
+- Packages contain measurable deliverables.
+- Advertising spend is separated from agency fees.
+- Pricing is centralized and consistent.
+- All four languages work.
+- Hebrew RTL has been tested.
+- Demonstration portfolio has been created and clearly labelled.
+- No fictional client results or testimonials are presented as real.
+- The physical address is used consistently.
+- No false Google Business Profile verification claims exist.
+- Structured data matches visible content.
+- Forms and integrations have been tested.
+- No critical broken links or 404 errors remain.
+- Mobile and accessibility QA have been performed.
+- Build and CI pass.
+- Production has been verified after an approved deployment.
+
+### Final audit report
+
+Deliver a complete matrix:
+
+`URL | Locale | Status | Pricing | SEO | Schema | Issues | Fix Applied | Evidence | Test Result | Commit`
+
+Do not declare the project complete while critical P0/P1 issues remain.
+
+Do not claim that work is production-verified when it has only been tested locally.
+
+
+# ADDITIONAL OWNER INSTRUCTIONS — CONTACTS, BUSINESS DATA AND DEVELOPMENT SCOPE
+
+**Project:** CreativeLAB  
+**Repository:** `stoianov46/CreativeLab`  
+**Website:** https://creativelab.in.th/
+
+These instructions supplement the existing TO-DO.md and override any conflicting assumptions about missing owner information.
+
+### 1. Shared business identity and address
+
+CreativeLAB and FORMA use the same company identity, phone number, email address and physical business address.
+
+Use the following address:
+
+`PX5R+JX7, Forma.in.th, Ko Pha-ngan, Ko Pha-ngan District, Surat Thani 84280, Thailand`
+
+Use this address consistently on the website, contact page, footer and appropriate structured data.
+
+Do not invent additional company registration details, tax numbers or legal addresses.
+
+The supplied Google Maps link identifies the FORMA listing only. Do not represent it as a separately verified CreativeLAB Google Business Profile.
+
+### 2. Shared phone number — owner confirmed
+
+Use this exact number everywhere on CreativeLAB:
+
+**Phone:** `+66808705704`
+
+- Telephone: `tel:+66808705704`
+- WhatsApp: `https://wa.me/66808705704`
+- Telegram: use the supplied phone number as the owner's Telegram contact. Implement a tested Telegram contact link where supported; if direct phone-based linking is unavailable because of Telegram privacy settings, display the number and provide a copyable contact option.
+
+Use the same number in every language and on desktop and mobile.
+
+Remove outdated or conflicting contact numbers.
+
+Important: the phone number is not a Telegram Bot API token or Telegram chat ID.
+
+### 3. Email and CRM
+
+Use the existing business email address already published on the websites or present in the repository. The same email is used by FORMA and CreativeLAB.
+
+Use it for contact information, `mailto:` links and intended lead notifications.
+
+Implement the contact form, validation, error handling and email-delivery architecture. If SMTP credentials or an external service are required, make them configurable and document the activation steps.
+
+Do not invent CRM accounts, webhooks or email credentials. If no CRM is configured, implement an email-based lead workflow and an optional CRM integration interface.
+
+### 4. Telegram bot — token will be added later
+
+The owner will manually add the real Telegram bot token after hosting.
+
+Do not wait for it.
+
+Implement the Telegram notification code, message formatting, configuration, error handling and documentation now.
+
+Use environment variables:
+
+- `TELEGRAM_BOT_TOKEN`
+- `TELEGRAM_CHAT_ID`
+
+Never use the supplied phone number as either variable.
+
+For local tests, use a disposable test bot only if valid credentials are already available. Otherwise use a mock adapter.
+
+Do not hardcode or commit secrets.
+
+Document exactly where the owner must insert the real token and chat ID after hosting.
+
+### 5. Analytics — postponed
+
+Do not require or invent:
+
+- Google Analytics / GA4 IDs.
+- Google Tag Manager IDs.
+- Yandex Metrika IDs.
+- Meta Pixel IDs.
+- Meta Conversion API credentials.
+
+The owner will add analytics manually later.
+
+Keep optional integration points documented. Do not block development because these IDs are missing.
+
+**Status: DEFERRED BY OWNER.**
+
+### 6. Google Business Profile
+
+The owner will personally handle Google Business Profile verification.
+
+Complete all website-side local SEO work without waiting for verification.
+
+Do not claim that CreativeLAB's profile is verified or invent profile IDs, ratings or reviews.
+
+**Status: OWNER WILL HANDLE.**
+
+### 7. Legal details and certificates
+
+The shared physical address is the only additional business location information authorized at this stage.
+
+Do not invent company registration numbers, tax IDs, licenses or other legal details.
+
+The owner will provide professional certificates later. Do not display unverified certifications or badges.
+
+Do not block development because certificates are unavailable.
+
+**Status: DEFERRED BY OWNER.**
+
+### 8. Hosting and production deployment
+
+Another assistant will handle hosting, Cloudflare Pages, DNS and production deployment.
+
+Do not request hosting credentials, modify DNS or attempt deployment.
+
+Prepare the complete source code for handoff. Complete local builds, tests, environment templates and documentation.
+
+Do not push or deploy without explicit authorization.
+
+**Status: EXTERNAL DEPLOYMENT — HANDLED BY ANOTHER ASSISTANT.**
+
+### 9. Final instruction — do not create artificial blockers
+
+The following are not development blockers:
+
+- Missing production Telegram bot token.
+- Missing Telegram chat ID before bot activation.
+- Missing analytics IDs.
+- Google Business Profile verification.
+- Future professional certificates.
+- Additional legal registration details.
+- Hosting and Cloudflare credentials.
+- Production deployment access.
+- External CRM credentials, provided the email-based architecture is implemented.
+
+Use the confirmed phone number, existing shared email and shared address.
+
+Complete and locally test everything possible. Clearly document only the remaining owner actions.
+
+Do not mark these deferred items as failed or use them as a reason to stop development.
+
+# CRITICAL BUG — MOBILE NAVIGATION MENU
+
+**Priority:** P1 — Critical usability issue  
+**Project:** CreativeLAB  
+**Scope:** All pages and all languages (EN / RU / TH / HE)
+
+## Problem
+
+The mobile navigation menu is currently not working correctly on the CreativeLAB website.
+
+This is a critical usability issue because mobile visitors cannot reliably access the website navigation and service pages.
+
+A previous issue was also identified on the route:
+
+`/advertising/meta-ads/`
+
+Do not assume the problem is limited to this page. Audit the entire website.
+
+## Required actions
+
+1. Identify the root cause of the mobile menu failure.
+2. Inspect the shared header, navigation component and all related JavaScript.
+3. Check event handlers, menu state, click/touch events and event propagation.
+4. Check CSS visibility, positioning, `z-index`, overlays and pointer events.
+5. Check whether route changes, language switching or page navigation break the menu.
+6. Check for JavaScript errors and conflicting scripts.
+7. Verify that the menu opens and closes reliably on touch devices.
+8. Verify that all submenu items and nested navigation links work.
+9. Verify that clicking outside the menu closes it, where appropriate.
+10. Verify that selecting a navigation link closes the menu and opens the correct destination.
+11. Verify the mobile menu after direct navigation to nested URLs, not only from the homepage.
+12. Check browser back/forward navigation and language switching.
+
+## Required mobile testing
+
+Test at minimum:
+
+- 320 px
+- 360 px
+- 375 px
+- 390 px
+- 412 px
+- 430 px
+
+Test the following routes, including their language equivalents:
+
+- Homepage.
+- `/advertising/`
+- `/advertising/meta-ads/`
+- `/advertising/google-ads/`
+- `/social-media/`
+- `/villas-real-estate/`
+- `/food-restaurants/`
+- `/business-local-presence/`
+- `/websites-digital/`
+- `/video-production/`
+- `/branding-creative/`
+- `/industries/villas-real-estate/`
+- `/locations/koh-phangan/`
+- `/locations/koh-samui/`
+- `/locations/koh-tao/`
+- `/case-studies/`
+- `/about/`
+- `/contact/`
+
+Also test any additional routes discovered during the full production crawl.
+
+## Functional requirements
+
+The mobile navigation must:
+
+- Open when the menu button is tapped.
+- Close when the close button is tapped.
+- Display all navigation items correctly.
+- Support nested menus and submenus.
+- Allow scrolling when the menu is taller than the viewport.
+- Avoid being hidden behind page content or overlays.
+- Prevent unwanted horizontal scrolling.
+- Maintain correct RTL behavior in Hebrew.
+- Remain usable on small mobile screens.
+- Work after changing language.
+- Work after navigating directly to a nested page.
+
+Ensure the menu button has correct accessibility attributes, including `aria-expanded` and `aria-controls`. Support keyboard interaction where applicable.
+
+## Definition of Done
+
+- Root cause identified and documented.
+- Fix implemented in the shared navigation component where possible.
+- All language versions tested.
+- All relevant routes tested.
+- All listed mobile viewport sizes tested.
+- No console errors related to navigation.
+- No broken submenu links.
+- Desktop navigation remains functional.
+- Build and relevant automated tests pass.
+
+Do not simply hide the broken menu, replace it with a non-functional button or mark the issue complete after a desktop-only test.
+
+**Status:** Do not mark `CODE DONE` until the fix is implemented. Do not mark `PRODUCTION VERIFIED` until the deployed website has actually been tested.
+## MOBILE MENU — SIMPLIFIED FIRST-LEVEL HIERARCHY
+
+**Priority:** P1  
+**Applies to:** All languages (EN / RU / TH / HE)
+
+The first level of the mobile navigation menu must contain only the eight main service categories.
+
+### First-level navigation
+
+1. Advertising
+2. Social Media
+3. Villas & Real Estate
+4. Food & Restaurants
+5. Business & Local Presence
+6. Websites & Digital
+7. Video & Production
+8. Branding & Creative
+
+### Navigation rules
+
+- Display only these eight main service categories in the first-level menu.
+- Each item must link directly to its corresponding main service landing page.
+- Do not display individual services or subservice pages in the first level.
+- Do not display industry pages or location pages in the first level.
+- Do not overload the mobile menu with secondary navigation links.
+- Preserve the existing desktop navigation structure unless a separate issue requires changes.
+- Preserve the correct translations of all eight categories in EN, RU, TH and HE.
+- Maintain proper RTL layout for Hebrew.
+
+Secondary pages must remain accessible through their relevant main service pages and contextual internal links.  
+## Exact Mobile Menu Landing-Page URL Mappings
+
+The mobile menu's first level must contain exactly the eight main service categories below. Use these exact landing-page paths for their links:
+
+| First-level menu label | Exact landing-page URL |
+|---|---|
+| Advertising | `/advertising/` |
+| Social Media | `/social-media/` |
+| Villas & Real Estate | `/villas-real-estate/` |
+| Food & Restaurants | `/food-restaurants/` |
+| Business & Local Presence | `/business-local-presence/` |
+| Websites & Digital | `/websites-digital/` |
+| Video & Production | `/video-production/` |
+| Branding & Creative | `/branding-creative/` |
+
+### Implementation requirements
+
+1. Use the paths above as the canonical landing-page destinations. Do not link first-level menu items to individual subservice pages, industry pages, location pages, or campaign pages.
+2. Preserve the site's existing locale-aware routing conventions. Generate the correct equivalent destination for EN, RU, TH, and HE without duplicating or dropping locale prefixes.
+3. Before implementation, inspect the actual route configuration and confirm that every mapped landing page exists. If a route is missing or differs from the mapping, investigate and fix the routing or page implementation; do not silently substitute an unrelated URL.
+4. Ensure every menu item navigates to the correct landing page on mobile, including when opened from a nested route or a non-English locale.
+5. Verify direct URL loading, browser refresh, internal navigation, and language switching for all eight landing pages.
+6. Keep all individual subservices accessible from their relevant parent landing pages through contextual links or secondary navigation. They must not appear as first-level mobile menu items.
+7. Add automated link/route checks where practical so future changes cannot silently break these mappings.
+
+**Acceptance criteria:** Exactly eight first-level mobile menu items are present, and each resolves to its corresponding canonical landing page in all four languages. No first-level item points to a subservice or unrelated page.
+
+The mobile menu should be visually clean, compact and easy to navigate.
+
+**Definition of Done:** The first level displays exactly eight main service categories, all links work, and the mobile menu functions correctly on all required screen sizes and language versions.
+# CREATIVELAB — COMPLETE WEBSITE SEO, COPYWRITING AND CONTENT QUALITY SPECIFICATION
+
+**Priority:** P1 — Critical  
+**Repository:** `https://github.com/stoianov46/CreativeLab`  
+**Production website:** `https://creativelab.in.th/`  
+**Languages:** EN / RU / TH / HE  
+**Scope:** Entire website — all existing and future pages.
+
+## 1. Main objective
+
+Conduct a complete SEO, copywriting and content quality audit of the entire CreativeLAB website.
+
+The goal is to make every important page a properly optimized, useful and commercially effective landing page.
+
+Every page must have:
+
+- A clearly defined search intent.
+- A dedicated primary keyword and supporting keyword cluster.
+- A unique SEO Title and Meta Description.
+- An H1 containing the primary keyword.
+- A logical H2/H3 hierarchy.
+- Original, comprehensive and useful content.
+- A concise opening answer paragraph.
+- Clear service descriptions and deliverables.
+- Accurate pricing or transparent quotation information.
+- Appropriate Schema.org structured data.
+- Relevant internal links.
+- A clear conversion path.
+- Complete localization in EN / RU / TH / HE.
+
+Do not optimize only the homepage or the main Advertising page.
+
+Apply the standard to every service, subservice, industry, location, case study and relevant content page.
+
+Preserve useful existing content and improve it rather than replacing it with generic marketing copy.
+
+## 2. Complete website page inventory
+
+Inspect the entire repository and discover every route.
+
+Include:
+
+- Homepage.
+- Main service landing pages.
+- Individual advertising service pages.
+- Meta Ads and Google Ads pages.
+- Social Media pages.
+- Villa and Real Estate marketing pages.
+- Food and Restaurant marketing pages.
+- Business and Local Presence pages.
+- Websites and Digital pages.
+- Video and Production pages.
+- Branding and Creative pages.
+- Industry pages.
+- Koh Phangan, Koh Samui and Koh Tao location pages.
+- Case Studies.
+- Journal and educational articles.
+- About and Contact pages.
+- Other indexable pages.
+- All available language versions.
+
+Discover routes from:
+- Source code and route configuration.
+- Internal links.
+- Sitemap files.
+- Content collections.
+- Static and generated pages.
+
+Do not rely exclusively on the sitemap. Identify orphaned pages and pages missing from internal navigation.
+
+Create:
+
+`CREATIVELAB_SEO_CONTENT_AUDIT.md`
+
+For every page, record:
+
+- URL and language.
+- Page type and purpose.
+- Primary keyword.
+- Secondary keywords.
+- Search intent.
+- SEO Title.
+- Meta Description.
+- H1 and H2/H3 structure.
+- Approximate word count.
+- Content uniqueness.
+- Opening answer paragraph.
+- Service and deliverable descriptions.
+- Pricing information.
+- Structured data.
+- Internal links.
+- Canonical URL.
+- Hreflang status.
+- Issues and required corrections.
+- Implementation status.
+
+## 3. Keyword research and page-level keyword mapping
+
+Create a dedicated keyword strategy for every important page.
+
+Research and map relevant search queries for:
+
+### Advertising
+- Advertising Agency Koh Phangan.
+- Advertising Agency Koh Samui.
+- Digital Advertising.
+- Online Advertising Services.
+- Advertising Campaign Management.
+
+### Meta Ads
+- Meta Ads Agency.
+- Facebook Ads Management.
+- Instagram Ads Management.
+- Facebook and Instagram Advertising.
+- Meta Ads Campaign Setup.
+- Meta Ads Creative and Optimization.
+
+### Google Ads
+- Google Ads Management.
+- Google Ads Agency.
+- Google Search Advertising.
+- Google Display Advertising.
+- Google Ads Campaign Setup.
+- PPC Management.
+
+### Social Media
+- Social Media Marketing.
+- Social Media Management.
+- Social Media Content Creation.
+- Instagram Management.
+- Social Media Strategy.
+
+### Villas and Real Estate
+- Real Estate Marketing.
+- Villa Marketing.
+- Property Photography.
+- Villa Video Production.
+- Real Estate Social Media.
+- Property Advertising.
+
+### Food and Restaurants
+- Restaurant Marketing.
+- Restaurant Photography.
+- Food Photography.
+- Restaurant Social Media.
+- Menu Design.
+- Restaurant Advertising.
+
+### Business and Local Presence
+- Local SEO.
+- Google Business Profile Optimization.
+- Google Maps Visibility.
+- Local Business Marketing.
+- Business Listings Management.
+
+### Websites and Digital
+- Website Design.
+- Website Development.
+- Business Websites.
+- SEO Services.
+- Technical SEO.
+- AI Search Visibility.
+
+### Video and Production
+- Commercial Video Production.
+- Drone Video Production.
+- Promotional Videos.
+- Business Photography.
+- Creative Video Content.
+
+### Branding and Creative
+- Brand Identity.
+- Logo Design.
+- Visual Identity.
+- Creative Direction.
+- Marketing Design.
+
+These are initial keyword research topics, not confirmed search-volume or ranking data.
+
+Validate and refine the keyword selection using available search data and actual customer search intent.
+
+Create:
+
+`CREATIVELAB_KEYWORD_MAP.md`
+
+For every page include:
+
+- URL.
+- Primary keyword.
+- Secondary keywords.
+- Long-tail keywords.
+- Search intent.
+- Target audience.
+- Relevant location.
+- Conversion objective.
+- Language-specific keyword variations.
+
+Avoid keyword cannibalization between service pages, subservice pages and location pages.
+
+## 4. SEO Title, Meta Description and heading requirements
+
+Every important page must have unique metadata and a meaningful heading hierarchy.
+
+### SEO Title
+
+- Include the primary keyword naturally.
+- Communicate the exact service.
+- Include Koh Phangan, Koh Samui or Koh Tao where relevant.
+- Reflect CreativeLAB's professional creative and marketing positioning.
+- Avoid duplicate and generic titles.
+
+### Meta Description
+
+- Unique for every page and language.
+- Accurately describe the service.
+- Include the primary keyword naturally.
+- Explain a relevant customer benefit.
+- Encourage qualified inquiries.
+
+### H1
+
+- One primary H1 per page.
+- Must clearly identify the service or subject.
+- Must include the primary keyword naturally.
+- Must match the page's search intent.
+
+Do not use generic slogans as the only H1.
+
+### H2/H3
+
+- Logical hierarchy.
+- Descriptive headings.
+- Relevant supporting keywords.
+- No artificial keyword repetition.
+- No heading tags used only for visual styling.
+
+## 5. Content depth and originality
+
+Target at least **1,500 words of useful, original content per major commercial landing page, per language**, where the subject supports that depth.
+
+This is an internal content-quality target, not a Google ranking requirement.
+
+Suggested content depth:
+
+- Main service landing pages: target 1,500+ words.
+- Important subservice pages: target 1,000–1,500 words where appropriate.
+- Industry pages: target 1,000–1,500 words where useful.
+- Location pages: target 1,000–1,500 words where useful.
+- Case studies: based on the actual project and verified information.
+- Journal articles: based on subject and search intent.
+- About, Contact and legal pages: no artificial word-count requirement.
+
+Content must be:
+- Original.
+- Relevant to the specific service.
+- Commercially useful.
+- Informative and technically accurate.
+- Written for the actual target audience.
+- Free from generic AI filler.
+- Free from keyword stuffing.
+- Distinct from other pages.
+
+Do not create fake case studies, customers, campaign results or testimonials to increase word count.
+
+## 6. Standard commercial landing-page structure
+
+Adapt the following structure to each service page:
+
+1. H1 identifying the service and primary keyword.
+2. Opening answer paragraph of approximately 40–60 words.
+3. Service introduction and customer benefit.
+4. What the service includes.
+5. Target audience and business types.
+6. Strategy and methodology.
+7. Detailed workflow and stages.
+8. Deliverables and scope of work.
+9. Platforms, tools and technologies used.
+10. Pricing or quotation methodology.
+11. Relevant verified examples or case studies.
+12. Frequently asked questions.
+13. Contact and consultation CTA.
+
+Do not force irrelevant sections onto every page.
+
+## 7. Featured Snippet and AI search optimization
+
+Every major commercial landing page should begin its main content with a concise and independently understandable answer.
+
+Target approximately 40–60 words.
+
+The opening paragraph should:
+- Explain the service.
+- Include the primary keyword naturally.
+- Describe its main business value.
+- Mention the relevant location where appropriate.
+
+Structure suitable content for potential Featured Snippets and AI search extraction using:
+
+- Concise definitions.
+- Question-based headings.
+- Direct answers.
+- Numbered processes.
+- Bullet lists.
+- Comparison tables.
+- Useful FAQs.
+
+Explain services clearly enough that both customers and search systems can understand what CreativeLAB actually provides.
+
+Do not promise Featured Snippets, AI citations or specific search rankings.
+
+## 8. Service scope, deliverables and pricing
+
+Every commercial service page must explain what the customer actually receives.
+
+Where applicable, describe:
+
+- Initial consultation.
+- Research and strategy.
+- Setup and configuration.
+- Creative production.
+- Campaign management.
+- Reporting and optimization.
+- Deliverables and formats.
+- Project duration.
+- Client responsibilities.
+- Additional costs or exclusions.
+
+### Pricing tables
+
+Where verified pricing is available, display:
+
+- Service or package name.
+- Included deliverables.
+- Price or price range in THB.
+- Pricing unit (per project, month, campaign, video, etc.).
+- Conditions and exclusions.
+- Whether advertising spend is included or excluded.
+
+Clearly distinguish CreativeLAB service fees from advertising platform budgets.
+
+If prices are not confirmed:
+
+- Do not invent prices.
+- Use a transparent custom-quotation presentation.
+- Explain the factors affecting cost.
+- Add a Request a Quote CTA.
+- Mark missing information as `OWNER INPUT REQUIRED`.
+
+All visible prices and structured pricing data must match.
+
+## 9. Platform-specific accuracy
+
+When describing advertising and digital services, distinguish clearly between:
+
+- Meta Ads platform fees and CreativeLAB management fees.
+- Google Ads budget and management fees.
+- Organic social media management and paid social advertising.
+- Content production and campaign management.
+- Website development and ongoing maintenance.
+- SEO work and paid advertising.
+
+Do not promise specific advertising results, guaranteed leads, guaranteed rankings or guaranteed sales.
+
+Explain measurable deliverables and reporting where supported by the actual service.
+
+Do not claim official partnerships, platform certifications or agency status without verified evidence.
+
+## 10. Industry-specific content
+
+Industry pages must contain information specific to their target business sector.
+
+Examples:
+
+### Villas and Real Estate
+- Property positioning.
+- Professional photography.
+- Drone and video production.
+- Property listings.
+- Lead generation.
+- Target audience and buyer journey.
+
+### Food and Restaurants
+- Food photography.
+- Menu and visual presentation.
+- Restaurant social media.
+- Local discovery.
+- Campaigns and promotions.
+- Reservation and inquiry conversion.
+
+Other industry pages must be developed according to their actual audience and service requirements.
+
+Do not duplicate the same generic marketing paragraph across all industries.
+
+## 11. Location-specific SEO
+
+Create useful location relevance for:
+
+- Koh Phangan.
+- Koh Samui.
+- Koh Tao.
+
+Location pages must explain:
+- Which services are available in that location.
+- Relevant business audiences.
+- Local market context.
+- Geographic coverage.
+- Relevant service examples, if verified.
+- How customers can contact CreativeLAB.
+
+Do not create doorway pages that differ only by island name.
+
+Each location page must provide genuine local value and unique content.
+
+Do not claim a separately verified Google Business Profile or physical office in a location without confirmation.
+
+## 12. FAQ and customer questions
+
+Every major commercial landing page should contain useful FAQs.
+
+Examples for advertising:
+
+- How much does Meta Ads management cost?
+- Is the advertising budget included in the service fee?
+- How long does campaign setup take?
+- Does CreativeLAB create advertising creatives?
+- Can campaigns target Koh Phangan and Koh Samui?
+- How is campaign performance reported?
+
+Examples for websites and SEO:
+
+- How long does website development take?
+- Does website development include SEO?
+- Can CreativeLAB maintain an existing website?
+- What is included in technical SEO?
+- How does local SEO improve business visibility?
+
+Questions must reflect real customer concerns.
+
+Answers must be accurate and must not promise unsupported results.
+
+## 13. Schema.org structured data
+
+Inspect and validate structured data across all pages.
+
+Use appropriate types where applicable:
+
+- `Organization`
+- `WebSite`
+- `WebPage`
+- `Service`
+- `BreadcrumbList`
+- `Offer`
+- `OfferCatalog`
+- `FAQPage` only where appropriate and compliant with current Google eligibility requirements.
+
+Requirements:
+- Valid JSON-LD.
+- Consistent business identity.
+- Correct canonical URLs.
+- Correct language context.
+- No duplicate or conflicting entities.
+- Accurate visible service descriptions.
+- Visible pricing must match structured pricing data.
+- No fabricated ratings, reviews, awards or certifications.
+
+Use `Offer` only where genuine pricing exists.
+
+Do not claim that structured data guarantees rich results.
+
+## 14. International SEO and localization
+
+Apply complete international SEO to EN / RU / TH / HE.
+
+Each language must have:
+- Unique localized Title.
+- Unique Meta Description.
+- Localized H1/H2/H3.
+- Complete localized content.
+- Language-specific keyword targeting.
+- Correct canonical URL.
+- Reciprocal hreflang annotations.
+- Correct language identifiers.
+- Correct Hebrew RTL layout.
+
+Do not rely on literal machine translation.
+
+Do not leave language versions incomplete without documenting the reason.
+
+## 15. Internal linking and conversion optimization
+
+Build a meaningful internal linking structure between:
+
+- Main service pages.
+- Individual service pages.
+- Industry pages.
+- Location pages.
+- Case studies.
+- Journal articles.
+- About and Contact pages.
+
+Use descriptive anchor text.
+
+Every commercial page must have a clear next step for the visitor.
+
+Where appropriate, provide:
+- Request a Quote.
+- Book a Consultation.
+- Contact CreativeLAB.
+- WhatsApp contact.
+- Telegram contact.
+- Relevant inquiry forms.
+
+Ensure contact links and forms work.
+
+Do not claim that forms deliver messages until actual delivery has been tested.
+
+## 16. Image and media SEO
+
+Review all images and videos.
+
+Check:
+- Descriptive image filenames where practical.
+- Accurate alt text.
+- Empty alt attributes for decorative images.
+- Appropriate dimensions.
+- Responsive image delivery.
+- Modern image formats where supported.
+- Lazy loading below the fold.
+- Appropriate loading priority for the main image.
+- Video titles and descriptive context.
+- Performance impact of embedded media.
+
+Do not stuff keywords into alt attributes.
+
+## 17. AUTOMATED CODE-LEVEL SEO VALIDATION — MANDATORY
+
+Manual content review is not sufficient.
+
+Implement automated checks in the repository so SEO and content regressions can be detected across every page and language.
+
+Inspect the existing project framework and integrate validation into its current architecture.
+
+Create an appropriate script, for example:
+
+`scripts/seo-audit`
+
+The implementation must inspect actual generated pages or reliable source representations.
+
+### Required automated checks
+
+**Metadata**
+- Missing Title.
+- Empty or duplicate Title.
+- Missing Meta Description.
+- Empty or duplicate Description.
+- Missing canonical.
+- Incorrect canonical.
+
+**Headings**
+- Missing H1.
+- Multiple primary H1 elements.
+- Missing primary keyword in H1 where mapped.
+- Invalid heading hierarchy.
+- Missing primary keyword in opening content where applicable.
+
+**Content**
+- Word count by page and language.
+- Pages below configured content targets.
+- Duplicate or near-duplicate content.
+- Missing opening answer paragraph.
+- Missing required service sections.
+- Missing FAQ on pages where required.
+- Empty content and unresolved placeholders.
+- Missing keyword mapping.
+
+**International SEO**
+- Missing language metadata.
+- Incorrect hreflang.
+- Non-reciprocal hreflang.
+- Incorrect language canonical.
+- Missing expected language versions.
+- Incorrect Hebrew RTL.
+
+**Technical SEO**
+- Broken internal links.
+- Missing informative-image alt text.
+- Missing or invalid JSON-LD.
+- Duplicate structured data entities.
+- Incorrect sitemap entries.
+- Accidental noindex directives on commercial pages.
+- Incorrect robots directives.
+
+**Commercial content**
+- Missing service scope.
+- Missing deliverables where required.
+- Missing pricing or quote-based alternative.
+- Inconsistent visible and structured prices.
+- Missing conversion CTA.
+
+### Keyword-aware validation
+
+Read primary keywords from:
+
+`CREATIVELAB_KEYWORD_MAP.md`
+
+or an appropriate machine-readable configuration generated from it.
+
+Do not hardcode individual page keywords in the validation script.
+
+Allow documented exceptions when exact keyword matching would produce unnatural language.
+
+### Reports
+
+Generate:
+
+- `reports/seo-audit.json`
+- `reports/seo-audit.md`
+
+Each finding must include:
+
+- Page URL.
+- Language.
+- Check name.
+- PASS / WARNING / FAIL.
+- Actual detected value.
+- Expected value.
+- Recommended correction.
+
+### CI and build integration
+
+Integrate the audit into the existing test or CI workflow where practical.
+
+Requirements:
+- Critical technical failures must return a non-zero exit code.
+- Editorial warnings must be reported separately.
+- Exceptions must be configurable and documented.
+- Missing owner information must not make ordinary builds impossible.
+- Do not automatically modify content just to pass checks.
+- Ensure validation is repeatable and deterministic.
+
+## 18. Required deliverables
+
+Create or update:
+
+1. `CREATIVELAB_SEO_CONTENT_AUDIT.md`
+2. `CREATIVELAB_KEYWORD_MAP.md`
+3. `scripts/seo-audit` or equivalent.
+4. `reports/seo-audit.md`
+5. `reports/seo-audit.json`
+6. Updated page copy and metadata.
+7. Updated structured data.
+8. Updated internal linking.
+9. Updated `TO-DO.md`.
+10. Updated `PROGRESS.md`.
+
+## 19. Status tracking
+
+Use these statuses:
+
+- `TODO`
+- `IN PROGRESS`
+- `CODE DONE`
+- `LOCAL TESTED`
+- `PRODUCTION VERIFIED`
+- `OWNER INPUT REQUIRED`
+- `OWNER WILL HANDLE`
+- `DEFERRED BY OWNER`
+- `BLOCKED`
+- `FAILED`
+
+Do not mark a page SEO-complete merely because its metadata exists.
+
+## 20. Final acceptance criteria
+
+- [ ] All repository routes inventoried.
+- [ ] All indexable pages audited.
+- [ ] All four language versions reviewed.
+- [ ] Primary keywords mapped to all important pages.
+- [ ] Unique Titles and Descriptions implemented.
+- [ ] H1 includes the primary keyword where appropriate.
+- [ ] H2/H3 hierarchy reviewed.
+- [ ] Major commercial pages meet content quality targets.
+- [ ] Opening answer paragraphs implemented.
+- [ ] Service scopes and deliverables clearly explained.
+- [ ] Pricing is accurate or transparently quote-based.
+- [ ] Advertising spend is distinguished from service fees.
+- [ ] Industry pages contain unique content.
+- [ ] Location pages provide genuine local value.
+- [ ] FAQs answer real customer questions.
+- [ ] Schema.org validated.
+- [ ] International SEO verified.
+- [ ] Internal links and conversion paths tested.
+- [ ] Automated SEO validation implemented.
+- [ ] Audit reports generated.
+- [ ] Critical checks integrated into build or CI workflow.
+- [ ] No fabricated clients, campaigns, metrics, certifications, prices or business claims.
+
+**Important:** A manual audit is insufficient. The task must include automated code-level validation across all discovered routes and language versions.
+
+Do not mark `PRODUCTION VERIFIED` until the deployed website has been independently checked.

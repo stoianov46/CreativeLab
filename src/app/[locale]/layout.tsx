@@ -9,11 +9,11 @@ import { LanguageSuggestion } from "@/components/layout/LanguageSuggestion";
 import { AttributionCapture } from "@/components/layout/AttributionCapture";
 import { Analytics } from "@/components/layout/Analytics";
 import { images } from "@/assets/images";
-import { telegramLink, whatsappLink } from "@/lib/integrations";
+import { telegramLink, telegramOwnerLink, whatsappLink } from "@/lib/integrations";
 import { SITE } from "@/content/site";
 import { jsonLdGraph, organizationSchema, websiteSchema } from "@/lib/schema";
 import { LOCALES, isLocale, isRtl, toLocale, type Locale } from "@/content/i18n";
-import { getPrimaryNav, getUi } from "@/content/translations";
+import { getMobileNav, getPrimaryNav, getUi } from "@/content/translations";
 
 const fraunces = Fraunces({
   variable: "--font-fraunces",
@@ -117,7 +117,7 @@ export default async function RootLayout({
         >
           {ui.skipToContent}
         </a>
-        <Header nav={getPrimaryNav(locale)} ui={{ nav: ui.nav, cta: ui.cta }} featuredImage={images.photoshoot} />
+        <Header nav={getPrimaryNav(locale)} mobileNav={getMobileNav(locale)} ui={{ nav: ui.nav, cta: ui.cta }} featuredImage={images.photoshoot} />
         <main id="main-content" className="flex-1 pb-16 lg:pb-0">
           {children}
         </main>
@@ -125,8 +125,8 @@ export default async function RootLayout({
         <MobileContactBar
           ui={ui.mobileBar}
           whatsapp={whatsappLink(undefined, { source: "mobile-bar" })}
-          telegram={telegramLink({ source: "mobile-bar" })}
-          phone={SITE.phone}
+          telegram={telegramLink({ source: "mobile-bar" }) ?? telegramOwnerLink}
+          phone={SITE.phoneTel}
         />
         <LanguageSuggestion
           copy={Object.fromEntries(LOCALES.map((l) => [l, getUi(l).languageSuggestion])) as Record<Locale, typeof ui.languageSuggestion>}

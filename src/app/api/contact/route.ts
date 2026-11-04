@@ -9,6 +9,7 @@ import {
   TIMELINE_VALUES,
   pickOption,
 } from "@/lib/contact";
+import { SITE } from "@/content/site";
 
 function escapeHtml(value: string): string {
   return value.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
@@ -89,17 +90,30 @@ export async function POST(request: Request) {
       .join(" "),
   };
 
-  // Same env vars (and staff chat) as bots/shared/notify.ts, so website
-  // leads land in the one inbox the bots already use. Server-only — never
-  // NEXT_PUBLIC_, see SECURITY.md.
-  const token = process.env.TELEGRAM_BOT_TOKEN;
-  const chatId = process.env.TELEGRAM_STAFF_CHAT_ID;
+  // Delivery channels, each optional and server-only (never NEXT_PUBLIC_, see
+  // SECURITY.md). A lead is accepted when at least one configured channel
+  // takes it; with none configured the endpoint answers 503 so the form shows
+  // its error state instead of silently dropping the lead.
+  //  - Telegram: TELEGRAM_BOT_TOKEN + TELEGRAM_CHAT_ID (TELEGRAM_STAFF_CHAT_ID
+  //    is the older name, same as bots/shared/notify.ts).
+  //  - Email (Resend HTTP API, works on any host): RESEND_API_KEY +
+  //    CONTACT_EMAIL_FROM (verified sender); recipient CONTACT_EMAIL_TO,
+  //    default SITE.email.
+  //  - CRM / automation: LEAD_WEBHOOK_URL receives the lead as JSON.
+  const telegramToken = process.env.TELEGRAM_BOT_TOKEN;
+  const telegramChat = process.env.TELEGRAM_CHAT_ID || process.env.TELEGRAM_STAFF_CHAT_ID;
+  const resendKey = process.env.RESEND_API_KEY;
+  const emailFrom = process.env.CONTACT_EMAIL_FROM;
+  const emailTo = process.env.CONTACT_EMAIL_TO || SITE.email;
+  const webhookUrl = process.env.LEAD_WEBHOOK_URL;
 
-  if (!token || !chatId) {
-    // Fail visibly (the form shows its error state with direct contacts)
-    // rather than returning ok and silently dropping the lead. No personal
-    // data in the log line.
-    console.error("[contact] TELEGRAM_BOT_TOKEN or TELEGRAM_STAFF_CHAT_ID not set — lead was NOT delivered.", {
+  const useTelegram = Boolean(telegramToken && telegramChat);
+  const useEmail = Boolean(resendKey && emailFrom);
+  const useWebhook = Boolean(webhookUrl);
+
+  if (!useTelegram && !useEmail && !useWebhook) {
+    // No personal data in the log line.
+    console.error("[contact] No delivery channel configured (Telegram, email or webhook) — lead was NOT delivered.", {
       service: service || null,
       locale: meta.locale,
       messageLength: message.length,
@@ -107,41 +121,89 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "Delivery not configured" }, { status: 503 });
   }
 
-  const lines = [
-    "<b>New lead — website form</b>",
-    "",
-    `Name: ${escapeHtml(name)}`,
-    `Email: ${escapeHtml(email)}`,
-    phone ? `Phone / messenger: ${escapeHtml(phone)}` : null,
-    `Service: ${service ? escapeHtml(service) : "—"}`,
-    location ? `Island: ${STAFF_LABELS.location[location]}` : null,
-    business ? `Business type: ${STAFF_LABELS.business[business]}` : null,
-    budget ? `Budget: ${STAFF_LABELS.budget[budget]}` : null,
-    timeline ? `Timeline: ${STAFF_LABELS.timeline[timeline]}` : null,
-    `Language: ${escapeHtml(meta.locale || "—")}`,
-    replyLanguage ? `Reply language: ${STAFF_LABELS.replyLanguage[replyLanguage]}` : null,
-    meta.page ? `Page: ${escapeHtml(meta.page)}` : null,
-    meta.landing && meta.landing !== meta.page ? `First page seen: ${escapeHtml(meta.landing)}` : null,
-    meta.utm ? `UTM: ${escapeHtml(meta.utm)}` : null,
-    meta.referrer ? `Referrer: ${escapeHtml(meta.referrer)}` : null,
-    "",
-    escapeHtml(message),
-  ].filter((line): line is string => line !== null);
+  const build = (esc: (value: string) => string, title: string) =>
+    [
+      title,
+      "",
+      `Name: ${esc(name)}`,
+      `Email: ${esc(email)}`,
+      phone ? `Phone / messenger: ${esc(phone)}` : null,
+      `Service: ${service ? esc(service) : "—"}`,
+      location ? `Island: ${STAFF_LABELS.location[location]}` : null,
+      business ? `Business type: ${STAFF_LABELS.business[business]}` : null,
+      budget ? `Budget: ${STAFF_LABELS.budget[budget]}` : null,
+      timeline ? `Timeline: ${STAFF_LABELS.timeline[timeline]}` : null,
+      `Language: ${esc(meta.locale || "—")}`,
+      replyLanguage ? `Reply language: ${STAFF_LABELS.replyLanguage[replyLanguage]}` : null,
+      meta.page ? `Page: ${esc(meta.page)}` : null,
+      meta.landing && meta.landing !== meta.page ? `First page seen: ${esc(meta.landing)}` : null,
+      meta.utm ? `UTM: ${esc(meta.utm)}` : null,
+      meta.referrer ? `Referrer: ${esc(meta.referrer)}` : null,
+      "",
+      esc(message),
+    ]
+      .filter((line): line is string => line !== null)
+      .join("\n");
 
-  try {
-    const res = await fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ chat_id: chatId, text: lines.join("\n"), parse_mode: "HTML" }),
-    });
-    if (!res.ok) {
-      console.error("[contact] Telegram API rejected the lead", res.status, await res.text());
-      return NextResponse.json({ error: "Delivery failed" }, { status: 502 });
-    }
-  } catch (err) {
-    console.error("[contact] Failed to reach the Telegram API", err);
-    return NextResponse.json({ error: "Delivery failed" }, { status: 502 });
+  const deliveries: Promise<boolean>[] = [];
+  const attempt = (label: string, run: () => Promise<Response>) =>
+    deliveries.push(
+      run()
+        .then(async (res) => {
+          if (!res.ok) console.error(`[contact] ${label} rejected the lead`, res.status, await res.text());
+          return res.ok;
+        })
+        .catch((err) => {
+          console.error(`[contact] Failed to reach ${label}`, err);
+          return false;
+        })
+    );
+  const json = { "Content-Type": "application/json" };
+
+  if (useTelegram) {
+    attempt("Telegram", () =>
+      fetch(`https://api.telegram.org/bot${telegramToken}/sendMessage`, {
+        method: "POST",
+        headers: json,
+        body: JSON.stringify({
+          chat_id: telegramChat,
+          text: build(escapeHtml, "<b>New lead — website form</b>"),
+          parse_mode: "HTML",
+        }),
+      })
+    );
+  }
+  if (useEmail) {
+    attempt("the email service", () =>
+      fetch("https://api.resend.com/emails", {
+        method: "POST",
+        headers: { ...json, Authorization: `Bearer ${resendKey}` },
+        body: JSON.stringify({
+          from: emailFrom,
+          to: [emailTo],
+          reply_to: email,
+          subject: `New lead — ${service || "website form"} — ${name}`,
+          text: build((v) => v, "New lead — website form"),
+        }),
+      })
+    );
+  }
+  if (useWebhook) {
+    attempt("the lead webhook", () =>
+      fetch(webhookUrl as string, {
+        method: "POST",
+        headers: json,
+        body: JSON.stringify({
+          name, email, phone, service, location, businessType: business, budget, timeline, replyLanguage, message, ...meta,
+          receivedAt: new Date().toISOString(),
+        }),
+      })
+    );
   }
 
+  const results = await Promise.all(deliveries);
+  if (!results.some(Boolean)) {
+    return NextResponse.json({ error: "Delivery failed" }, { status: 502 });
+  }
   return NextResponse.json({ ok: true });
 }

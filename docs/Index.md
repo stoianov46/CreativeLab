@@ -9,6 +9,7 @@ updating something, update it in one place.
 - [../README.md](../README.md) — how to run the project locally and in production
 - [Translations (i18n)](./i18n.md) — where RU/TH/HE text lives, how to edit it, `npm run i18n:*` commands
 - [../AUDIT.md](../AUDIT.md) — generated site audit (476 pages across 4 locales); [../FINAL_QA.md](../FINAL_QA.md) — browser QA results and what was **not** tested; [../DEMO_PORTFOLIO.md](../DEMO_PORTFOLIO.md) — the 8 labelled concept projects and the rules that keep them honest; generated from the crawl by `site:check`: [../URL_INTENT_MAP.md](../URL_INTENT_MAP.md), [../SEO_CONTENT_MAP.md](../SEO_CONTENT_MAP.md), [../INTERNAL_LINKING_MAP.md](../INTERNAL_LINKING_MAP.md), [../SCHEMA_QA.md](../SCHEMA_QA.md); the translation workflow is [i18n.md](./i18n.md) (the brief's `I18N.md`); [../PRICING_MASTER.md](../PRICING_MASTER.md) / [../PRICING_STRATEGY.md](../PRICING_STRATEGY.md) — central pricing and its research
+- [archive/](./archive/) — the full original spec and the full old QA log (long, for looking up exact wording only)
 - [../TO-DO_2026-11-03.md](../TO-DO_2026-11-03.md) — the single TODO and progress document: what was done, what is missed or open, and what needs a person
 
 ## Setup, configuration & environment
@@ -24,10 +25,11 @@ change (see [AGENTS.md](../AGENTS.md)).
 | File | What it controls |
 |---|---|
 | `next.config.ts` | Next.js config — `allowedDevOrigins` (LAN testing), `experimental.globalNotFound` (localized 404 in `src/app/global-not-found.tsx`), AVIF/WebP images, security headers; must stay without static export |
-| `package.json` | Scripts: `dev`, `build`, `start`, `lint`, `contact:check`, `site:check`, `pricing:check`, `pricing:master`, `i18n:check`, `i18n:sync`, `i18n:pending`, `i18n:accept`, `i18n:export`; `jiti` (dev) lets `scripts/i18n.mjs` load the TS content |
+| `package.json` | Scripts: `dev`, `build`, `start`, `lint`, `contact:check`, `nav:check`, `site:check`, `pricing:check`, `pricing:master`, `i18n:check`, `i18n:sync`, `i18n:pending`, `i18n:accept`, `i18n:export`; `jiti` (dev) lets `scripts/i18n.mjs` load the TS content |
 | `scripts/i18n.mjs` | Translation check/sync/export — see [i18n.md](./i18n.md) |
 | `scripts/contact-check.mjs` | `npm run contact:check` — runs the real `/api/contact` handler with a mocked Telegram: validation, honeypot, rate limit, option whitelist, escaping, attribution lines (no real lead is sent) |
 | `scripts/site-check.mjs` | `npm run site:check` — crawls the production build in all 4 locales (status, title, description, H1, canonical, hreflang, JSON-LD, alt, links, banned phrases, old domains, duplicate content, schema rules, direct answer / description / FAQ / links / keyword / word count on commercial pages); `-- --write-audit` regenerates [AUDIT.md](../AUDIT.md) and the four generated maps listed above |
+| `scripts/nav-check.mjs` | `npm run nav:check` — mobile menu first level is exactly the 8 service categories in EN/RU/TH/HE; panel built from `mobileNav` |
 | `scripts/pricing-check.mjs` | `npm run pricing:check` (verify) / `npm run pricing:master` (regenerate the table in PRICING_MASTER.md) — every row on a priceId, no figures in locale files, numbers identical across locales — see [PRICING_MASTER.md](../PRICING_MASTER.md) |
 | `src/content/pricing.ts` | **Single source of truth for prices** (THB min/max, unit, revisions, turnaround); content rows reference it by `priceId` |
 | `src/proxy.ts` | Locale routing (EN unprefixed, `/ru` `/th` `/he`); bypass list for `/api`, `robots.txt`, `sitemap.xml`, `llms.txt`, `llms-full.txt` |
@@ -35,15 +37,17 @@ change (see [AGENTS.md](../AGENTS.md)).
 | `.env.example` | Template for `.env.local` — every env var the site reads |
 | `.gitignore` | Ignores `.env*` except `.env.example`; `.i18n-source/` (export output) |
 | `Makefile` | `make help` — app + board/workflow shortcuts |
-| `.github/workflows/ci.yml` | CI: site (lint → `i18n:check` → `pricing:check` → `contact:check` → build → `tsc --noEmit` → `site:check`) + bots job (`bots/`: typecheck + flow tests) |
+| `.github/workflows/ci.yml` | CI: site (lint → `i18n:check` → `pricing:check` → `contact:check` → `nav:check` → build → `tsc --noEmit` → `site:check`) + bots job (`bots/`: typecheck + flow tests) |
 | `.github/workflows/project-status-sync.yml` | Syncs issue status to the GitHub Project board |
 
 ### Env vars (site)
 
 | Variable | Scope | Used by | When unset |
 |---|---|---|---|
-| `TELEGRAM_BOT_TOKEN` | **server-only** | `src/app/api/contact/route.ts` | Contact form returns 503 → form shows error state; lead logged, not delivered |
-| `TELEGRAM_STAFF_CHAT_ID` | **server-only** | same | same |
+| `TELEGRAM_BOT_TOKEN` | **server-only** | `src/app/api/contact/route.ts` | With no channel configured (Telegram, email, webhook) the form returns 503 → error state; lead logged, not delivered |
+| `TELEGRAM_CHAT_ID` | **server-only** | same (`TELEGRAM_STAFF_CHAT_ID` is the older name, still read) | same |
+| `RESEND_API_KEY`, `CONTACT_EMAIL_FROM`, `CONTACT_EMAIL_TO` | **server-only** | same — email delivery (Resend HTTP API); `CONTACT_EMAIL_TO` defaults to `SITE.email` | Email channel skipped |
+| `LEAD_WEBHOOK_URL` | **server-only** | same — optional CRM / automation webhook, lead as JSON | Webhook skipped |
 | `NEXT_PUBLIC_WHATSAPP_NUMBER` | public | `BotEntry`, mobile contact bar (`src/lib/integrations.ts`) | Falls back to `SITE.whatsapp` (team number) |
 | `NEXT_PUBLIC_TELEGRAM_BOT` | public | same — deep links `?start=s_<service>__l_<location>__u_<source>` | No Telegram buttons |
 | `NEXT_PUBLIC_GA4_ID` | public | `src/lib/analytics.ts` (after consent) | Not loaded |
