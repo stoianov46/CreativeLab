@@ -134,3 +134,5 @@ Addendum (LCP element search): three more attempts to read the LCP element — h
 ## Fresh full regression on the committed state, 2026-11-04
 
 `tsc` clean, `lint` clean, `build` ok, `i18n:check` 0 pending (RU/TH/HE), `pricing:check` 159 ids / 183 rows, `contact:check` all passed (mocked Telegram), `bots` check 35 pass / 0 fail, `site:check` 476 pages · 0 errors · 15 warnings (12 `[[VERIFY]]` legal markers + 3 FAQ "guarantee" questions answered "no"). The audit's Commit column now records the HEAD hash when the source tree is clean (was a fixed `uncommitted`). Browser checks recorded above were run earlier on the same source (only docs and the audit script changed since).
+
+Addendum (Safari): the owner confirmed with a screenshot that Safari's Developer > Automation checkboxes ("Allow remote automation", "Allow JavaScript from Apple Events") cannot be enabled on this Mac (greyed out, likely a managed-device policy). Scripted Safari testing is therefore not possible here; a person must check Safari (macOS and iOS) by hand (BLOCKED item 36, item 19).
