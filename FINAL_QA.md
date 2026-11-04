@@ -157,3 +157,19 @@ Run against `next start` on the committed source (clean working tree): **66 of 6
 Lighthouse gather mode (`-G`, devtools throttling) saves a `TraceElements` artifact. On `/advertising/tracking-analytics` the only above-the-fold candidate is **the hero `<img>`** (`main#main-content > section.relative > div.absolute > img.object-cover`, 412 × 505 px at top 106, "A group of people working on laptops…"). The other listed nodes sit 5,400–6,400 px down the page (a price-table list item and a lazy portfolio image) and are layout/DOM-size entries, not LCP candidates. The hero image is preloaded, 19 KB, finished loading at ~1.7 s, yet LCP is reported at 5.4 s and FCP at 2.7 s, so the delay is between the image arriving and Chrome painting it under 4× CPU slowdown + ~560 ms per request.
 - Tried on that basis, no effect (reverted): WebP-only image formats (LCP 5.66 s / 5.33 s vs 5.39 s with AVIF) — so AVIF decode is not the cause; the earlier tests of `fetchPriority="high"`, a dark overlay instead of `opacity-45`, `display: "optional"` for Fraunces and `inlineCss` also gave the same ~5.4 s.
 - Open: why paint waits until ~2.7 s (FCP) and ~5.4 s (LCP) with all resources in hand; the next diagnostic is a foreground DevTools Performance recording on the deployed site (BLOCKED item 20). The 2.5 s target is **not** met in Lighthouse's throttled profile.
+
+## LCP bisect, 2026-11-04 (JavaScript implicated, mechanism not found)
+
+Page `/advertising/tracking-analytics`, Lighthouse mobile, devtools throttling (slow 4G + 4× CPU), same build each time:
+
+| Variant | FCP | LCP |
+|---|---|---|
+| Baseline | 2.7 s | **5.4 s** |
+| **Same HTML with every `<script>` stripped** (local proxy) | 2.4 s | **3.0 s** (performance 91) |
+| No blur placeholder on the hero image | 1.6 s | 5.4 s |
+| No language suggestion / analytics / attribution components | 2.7 s | 5.4 s |
+| No header / mobile bar / footer (all layout client components) | 2.7 s | 6.7 s (hero moves up) |
+| WebP only (no AVIF) | 2.7 s | 5.7 s |
+
+Findings: (1) the LCP element is the hero image (see above); (2) with no JavaScript the same page reaches an LCP of 3.0 s, so roughly **2.4 s of the 5.4 s is caused by the JavaScript path**, not by the image, CSS or fonts; (3) the delay is **not** caused by the blur placeholder, the layout-level client components, the image format or its priority; (4) there are no console errors and no hydration-time replacement of the hero `<img>` (DOM mutation observer: none), and total bootup and main-thread time are small (0.1 s / 0.3 s). Even the script-free page misses 2.5 s (3.0 s), so reaching the target needs both removing whatever JS work delays the paint and trimming the remaining ~0.5 s. Not claimed as met.
+Next diagnostic (cannot be done here): a foreground DevTools Performance recording of the baseline page to see what runs between ~2.7 s and ~5.4 s (BLOCKED item 20).
