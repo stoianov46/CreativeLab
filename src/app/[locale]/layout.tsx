@@ -21,6 +21,7 @@ const fraunces = Fraunces({
   weight: ["300", "400", "500"],
   style: ["normal", "italic"],
   display: "swap",
+  preload: false,
 });
 
 const inter = Inter({
@@ -28,6 +29,7 @@ const inter = Inter({
   subsets: ["latin"],
   weight: ["400", "500", "600"],
   display: "swap",
+  preload: false,
 });
 
 // Thai needs its own script subset — proposal.md §09 LANGUAGE (Thai fonts).

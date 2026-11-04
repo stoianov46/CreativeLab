@@ -181,3 +181,11 @@ Bisect continued: with only the external scripts removed LCP was 3.9 s, with onl
 - Trade-off: pages are no longer pre-fetched when links scroll into view, so a first click on an internal link loads that page on demand (a little slower per navigation, faster first load). Revert by removing `prefetch={false}` in `src/components/ui/LocalizedLink.tsx` if navigation speed matters more to the owner.
 - **Still above the 2.5 s target** (3.5–3.6 s in this profile; the script-free page reached 3.0 s). Not claimed as met; confirm on the deployed site.
 - Checks after the change: `tsc`, lint, `i18n:check`, `pricing:check`, `contact:check`, `site:check` (476 pages, 0 errors, 15 warnings) all unchanged.
+
+## LCP: fonts no longer preloaded, 2026-11-04 (target still not met)
+
+With link prefetching off (above) LCP was 3.5–3.6 s. Blocking `*.woff2` in Lighthouse gave 2.8 s, so the two main web fonts were competing with the hero image for the throttled link. `preload: false` is now set on Fraunces and Inter too (Thai and Hebrew already had it), so the page requests them right after the image; `font-display: swap` and size-matched fallback fonts are unchanged, so layout is stable (CLS 0 on the service pages; the home page's 0.058 is pre-existing).
+- Lighthouse mobile, devtools throttling: `/advertising/tracking-analytics` LCP **3.3 s**, `/social-media/monthly-packages` **2.9 s**, `/` 3.3 s, `/th/…` 3.3 s (was ~4.3), `/he/…` 3.4 s (was ~4.3), `/ru/…` 3.5 s; performance 87–92, accessibility 100. Overall since the start of this investigation: 5.4 s → 2.9–3.5 s.
+- Tried with no gain (reverted): inlined CSS (3.5–3.7 s), `fetchPriority="high"` on the hero (3.5–3.9 s), Inter as one variable font (same 84 KB of fonts, same LCP).
+- Re-checked after the change: 336 overflow checks (7 changed pages × 4 languages × 12 widths) none, 56 axe runs none; `tsc`, lint, `i18n:check`, `pricing:check`, `contact:check`, `site:check` (476 pages, 0 errors, 15 warnings) unchanged.
+- **Still above 2.5 s** in this deliberately harsh profile (slow 4G + ~560 ms latency + 4× CPU). The script-free page measured 3.0 s before the font change, so the remaining gap is the JavaScript and the fonts themselves; closing it further means shipping less JavaScript or system fonts (a design decision). Confirm on the deployed site with real-user data.
