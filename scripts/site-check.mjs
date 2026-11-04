@@ -23,10 +23,22 @@
  * mobile layout, RTL appearance and accessibility need a browser (see AUDIT.md).
  */
 import { createJiti } from "jiti";
-import { spawn } from "node:child_process";
+import { execFileSync, spawn } from "node:child_process";
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+
+// Commit column: the HEAD hash when the source tree (src/, public/, package files) has no
+// uncommitted changes, otherwise "uncommitted". Generated docs are ignored on purpose.
+const COMMIT_CELL = (() => {
+  try {
+    const git = (...a) => execFileSync("git", a, { encoding: "utf8" }).trim();
+    const dirty = git("status", "--porcelain", "--", "src", "public", "package.json", "next.config.ts");
+    return dirty ? "uncommitted" : `committed (HEAD ${git("rev-parse", "--short", "HEAD")})`;
+  } catch {
+    return "unknown";
+  }
+})();
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const src = path.join(root, "src");
@@ -438,7 +450,7 @@ if (flag("--write-audit")) {
     const f = per(d.path); const e = f.filter((x) => x.level === "ERROR"), w = f.filter((x) => x.level === "WARN");
     const seo = d.status !== 200 ? "–" : `${d.title ? "T" : "t?"}${d.desc ? "D" : "d?"}H${d.h1}${d.canonical ? "C" : "c?"}`;
     const issues = [...e, ...w].map((x) => `${x.level === "ERROR" ? "ERROR" : "warn"} ${x.check}`);
-    return `| ${d.path} | ${d.locale} | ${d.status} | ${d.pricingRows > 0 ? d.pricingRows : "–"} | ${seo} | ${[...new Set(d.jsonld ?? [])].join(", ") || "–"} | ${issues.length ? cell([...new Set(issues)].join(", ")) : "none"} | ${cell(fixesFor(d))} | site:check ${today}, local build | ${e.length ? "FAIL" : "pass"} | uncommitted |`;
+    return `| ${d.path} | ${d.locale} | ${d.status} | ${d.pricingRows > 0 ? d.pricingRows : "–"} | ${seo} | ${[...new Set(d.jsonld ?? [])].join(", ") || "–"} | ${issues.length ? cell([...new Set(issues)].join(", ")) : "none"} | ${cell(fixesFor(d))} | site:check ${today}, local build | ${e.length ? "FAIL" : "pass"} | ${COMMIT_CELL} |`;
   });
   const lines = [
     "# Site Audit",
@@ -474,7 +486,7 @@ if (flag("--write-audit")) {
     "",
     "## Final audit matrix",
     "",
-    "Columns follow the brief. Status = HTTP status. SEO: `T`itle, `D`escription, `H`n = number of H1s, `C`anonical (a `?` = missing). Pricing = price-table rows. Evidence is the local automated crawl only — mobile layout was tested separately (see FINAL_QA.md) and nothing here is a production result. **Commit is `uncommitted` until the work is committed.**",
+    "Columns follow the brief. Status = HTTP status. SEO: `T`itle, `D`escription, `H`n = number of H1s, `C`anonical (a `?` = missing). Pricing = price-table rows. Evidence is the local automated crawl only — mobile layout was tested separately (see FINAL_QA.md) and nothing here is a production result. **Commit shows the HEAD hash when the source tree had no uncommitted changes at generation time, otherwise `uncommitted`.**",
     "",
     "| URL | Locale | Status | Pricing | SEO | Schema | Issues | Fix Applied | Evidence | Test Result | Commit |",
     "|---|---|---|---|---|---|---|---|---|---|---|",
