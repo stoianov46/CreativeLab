@@ -8,7 +8,7 @@ import { ATTRIBUTION_KEY } from "@/lib/attribution";
  * referrer) for the length of the browser session, so the contact form can
  * attach it even if they browse a few pages before enquiring. Stored only in
  * this tab's sessionStorage and sent nowhere unless the visitor submits the
- * enquiry form (see the privacy policy and NOTES.md). Renders nothing.
+ * enquiry form (see the privacy policy and TO-DO_2026-11-03.md). Renders nothing.
  */
 export function AttributionCapture() {
   useEffect(() => {

@@ -28,7 +28,7 @@ lists them all):
 | **Task** — as many as needed, but each **large** | A GitHub Issue (`type: task`), usually backed by a pre-written `docs/tasks/TASK-XXX-*.md` | A real work session's worth of doing — not a five-minute step. This is what a branch and PR are built against. |
 
 **One proposal = one epic.** This repo used to split `proposal.md` into 9
-separate epic issues, one per `PROGRESS.md` phase — that turned out to be
+separate epic issues, one per `TO-DO_2026-11-03.md` phase — that turned out to be
 pure overhead: more issues to open, more links to keep straight, for work
 that's all one brief built by the same team in the same sessions. It's now
 one epic; what used to be 9 epics are now 9 large tasks under it. Don't
@@ -66,7 +66,7 @@ Every epic and task issue also carries:
 
 - **Priority**: `P0`, `P1`, `P2` — matches the priority already used in
   `proposal.md`.
-- **Phase**: matches the phase numbering in `PROGRESS.md` (Phase 1
+- **Phase**: matches the phase numbering in `TO-DO_2026-11-03.md` (Phase 1
   Foundation, Phase 2 Hubs, … Phase 9 Launch) where relevant. Not every
   issue needs a phase (e.g. an unplanned bug fix).
 

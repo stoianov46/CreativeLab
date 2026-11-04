@@ -5,7 +5,7 @@
 **Status:** Not started
 
 Final pre-launch checklist. Blocked on real content inputs — see
-`PROGRESS.md`'s "Open Questions & Blockers" for the running list of
+`TO-DO_2026-11-03.md`'s "Open Questions & Blockers" for the running list of
 what's still a placeholder.
 
 ## Scope
@@ -20,7 +20,7 @@ what's still a placeholder.
 - [ ] Analytics + conversion tracking configured (no invented tracking
       IDs shipped)
 - [ ] Domain, hosting and deployment pipeline finalized — see
-      `PROGRESS.md`'s "Open Questions & Blockers": a GitHub Pages static-export pipeline
+      `TO-DO_2026-11-03.md`'s "Open Questions & Blockers": a GitHub Pages static-export pipeline
       (`.github/workflows/deploy.yml`) exists but is incompatible with
       this site's locale routing and contact form (both need
       middleware/API routes, which static export disables); confirmed

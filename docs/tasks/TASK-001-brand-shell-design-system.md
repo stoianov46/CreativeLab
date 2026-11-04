@@ -18,5 +18,5 @@ service page is built from.
 
 ## Outcome
 
-Done. See `PROGRESS.md` Phase 1 for the verification record (build/lint/
+Done. See `TO-DO_2026-11-03.md` Phase 1 for the verification record (build/lint/
 typecheck all clean).

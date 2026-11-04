@@ -28,7 +28,7 @@ export async function generateMetadata(
 export default async function ContactPage(props: PageProps<"/[locale]/contact">) {
   const { locale: rawLocale } = await props.params;
   const locale = toLocale(rawLocale);
-  // Telegram is shown only once a real bot is configured (NOTES.md): @creativelab1_bot is unconfirmed.
+  // Telegram is shown only once a real bot is configured (TO-DO_2026-11-03.md): @creativelab1_bot is unconfirmed.
   const telegram = telegramLink({ source: "contact-page" });
   const { contact } = getPages(locale);
   const ui = getUi(locale);

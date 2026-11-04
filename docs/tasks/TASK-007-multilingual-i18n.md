@@ -78,7 +78,7 @@ warning and by inspecting the `out/` output — no unprefixed EN routes or
 
 Reverted `next.config.ts` to plain (no `output`/`basePath`/`assetPrefix`)
 to unblock local dev and match the real deployment target (Vercel/Node —
-confirmed with the team, not GitHub Pages). See `PROGRESS.md`'s "Open
+confirmed with the team, not GitHub Pages). See `TO-DO_2026-11-03.md`'s "Open
 Questions & Blockers" for the still-open GitHub Pages / `deploy.yml`
 reconciliation and the `SITE.url` vs. actual Pages URL mismatch —
 neither touched here since they're the teammate's call to make.

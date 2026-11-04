@@ -6,7 +6,7 @@ separately (see the linked epics/progress doc for each).
 
 | Proposal | Status | Tracked by |
 |---|---|---|
-| [proposal.md](../proposal.md) — CreativeLAB.in.th site build | In progress | [PROGRESS.md](../PROGRESS.md), [epics](./epics/) |
+| [proposal.md](../proposal.md) — CreativeLAB.in.th site build | In progress | [TO-DO_2026-11-03.md](../TO-DO_2026-11-03.md), [epics](./epics/) |
 
 ## Adding a new proposal
 

@@ -4,7 +4,7 @@
 **Status:** In progress — see task breakdown below
 
 The whole `proposal.md` brief, as one epic. Previously split across 9
-separate epic issues (one per `PROGRESS.md` phase); that added tracking
+separate epic issues (one per `TO-DO_2026-11-03.md` phase); that added tracking
 overhead without adding clarity, since it's all one proposal being built
 by the same team in the same sessions. It's now one epic with large tasks
 under it — see `docs/epics/README.md` for why.
@@ -38,7 +38,7 @@ sync with each task's own `**Status:**` line — see `docs/tasks/README.md`):
 
 The former per-phase epics' full detail wasn't lost — it's preserved in
 each corresponding `docs/tasks/TASK-*.md` file, just recategorized as a
-task instead of a separate epic. See `PROGRESS.md`'s "Open Questions &
+task instead of a separate epic. See `TO-DO_2026-11-03.md`'s "Open Questions &
 Blockers" for placeholder data and
 flagged assumptions that affect several of these tasks (contact details,
 bot credentials, legal review, translations, hosting/deployment target).

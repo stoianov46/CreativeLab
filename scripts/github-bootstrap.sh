@@ -50,7 +50,7 @@ create_label "priority: P1" "d93f0b" "Important, not blocking"
 create_label "priority: P2" "fbca04" "Nice to have"
 
 for i in 1 2 3 4 5 6 7 8 9; do
-  create_label "phase: $i" "c5def5" "Matches Phase $i in PROGRESS.md"
+  create_label "phase: $i" "c5def5" "Matches Phase $i in TO-DO_2026-11-03.md"
 done
 
 echo

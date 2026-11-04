@@ -18,7 +18,7 @@ function escapeHtml(value: string): string {
  * Best-effort rate limit: 5 submissions per IP per 10 minutes. In-memory, so
  * it's per server instance — on a serverless host each cold instance starts
  * fresh. Good enough against casual abuse; a shared store (e.g. Upstash/KV)
- * is the upgrade if spam becomes a problem (NOTES.md).
+ * is the upgrade if spam becomes a problem (TO-DO_2026-11-03.md).
  */
 const WINDOW_MS = 10 * 60 * 1000;
 const MAX_PER_WINDOW = 5;

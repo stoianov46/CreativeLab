@@ -119,7 +119,7 @@ export const JOURNAL_PAGE = {
 
 /**
  * Legal pages. `{email}` in a section body is rendered as a mailto link
- * to SITE.email. Both are drafts pending legal review (Improvements.md §3).
+ * to SITE.email. Both are drafts pending legal review (TO-DO_2026-11-03.md §3).
  */
 export const PRIVACY_PAGE = {
   metaTitle: "Privacy Policy",

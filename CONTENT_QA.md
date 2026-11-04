@@ -27,7 +27,7 @@ No client names, ratings, reviews, awards, certifications, results or testimonia
 ## Needs a person
 
 - **Read the new English copy** — it was written by an LLM from the existing pages: the Included / Not included lists on 133 price rows, the clauses added to 7 direct answers, the concept project texts, and the legal drafts.
-- **Native review of all RU / TH / HE copy** (every translation is an LLM draft); specifics are in `NOTES.md`.
+- **Native review of all RU / TH / HE copy** (every translation is an LLM draft); specifics are in `TO-DO_2026-11-03.md`.
 - **Price positioning and the draft revisions / turnaround values** shown in the price tables.
 - **Lawyer review** of Privacy, Terms and Cookie Policy (12 `[[VERIFY]]` markers across the four languages).
 - **Real proof content** when it exists: case studies, testimonials, journal articles, photography.

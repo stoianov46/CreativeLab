@@ -2,7 +2,7 @@
  * Analytics event layer (proposal §16). One `track()` call fans out to
  * whichever providers are configured AND consented to: GA4 (gtag),
  * Yandex Metrica (ym) and Meta Pixel (fbq). With no IDs set (the current
- * state — Improvements.md §6) nothing loads and `track()` is a no-op apart
+ * state — TO-DO_2026-11-03.md §6) nothing loads and `track()` is a no-op apart
  * from the dataLayer push.
  *
  * IDs (public, set on the host): NEXT_PUBLIC_GA4_ID, NEXT_PUBLIC_YM_ID,

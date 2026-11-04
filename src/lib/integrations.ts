@@ -6,7 +6,7 @@ import { SITE } from "@/content/site";
  *   confirmed number in SITE.whatsapp (already linked on /contact) — a human
  *   answers it even before the WhatsApp bot is deployed.
  * - Telegram: only NEXT_PUBLIC_TELEGRAM_BOT. SITE.telegram (@creativelab1_bot)
- *   is unconfirmed as a live bot (NOTES.md), so no Telegram link ships until
+ *   is unconfirmed as a live bot (TO-DO_2026-11-03.md), so no Telegram link ships until
  *   the env var is set.
  */
 export const INTEGRATIONS = {

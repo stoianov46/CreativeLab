@@ -58,7 +58,7 @@ This is where the actual planning happens. Write one
 `docs/tasks/TASK-XXX-<slug>.md` per substantial chunk of work — sized to a
 real work session, not a five-minute step (see `docs/tasks/README.md`;
 the 9 that exist now came straight from what used to be 9 separate
-epics, one per `PROGRESS.md` phase).
+epics, one per `TO-DO_2026-11-03.md` phase).
 
 ```bash
 $EDITOR docs/tasks/TASK-010-my-large-task.md   # write it, using the template

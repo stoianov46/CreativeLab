@@ -3,7 +3,7 @@
 Premium creative content & advertising agency website for Koh Phangan,
 Thailand. Built with Next.js (App Router) + TypeScript + Tailwind CSS.
 
-See `proposal.md` for the full brief, `PROGRESS.md` for what's built so
+See `proposal.md` for the full brief, `TO-DO_2026-11-03.md` for what's built so
 far, including its "Open Questions & Blockers" section for placeholder
 data / decisions flagged for client follow-up before launch.
 
@@ -40,7 +40,7 @@ Turbopack and hot-reloads on file changes.
 
 Copy `.env.example` to `.env.local` and fill in values as they become
 available. Nothing is required to run the site locally — features that
-depend on these fall back gracefully (see `PROGRESS.md`):
+depend on these fall back gracefully (see `TO-DO_2026-11-03.md`):
 
 | Variable | Purpose | Fallback when unset |
 |---|---|---|
@@ -131,7 +131,7 @@ host's env vars, or the contact form can't deliver leads. If you deploy behind a
 platform that needs a `Dockerfile` or specific build adapter, that isn't
 set up yet — ask before assuming a target platform.
 
-Before a real launch, see the outstanding items in `PROGRESS.md`'s
+Before a real launch, see the outstanding items in `TO-DO_2026-11-03.md`'s
 "Open Questions & Blockers" section (contact details, bot credentials,
 email/CRM delivery for the contact form) and its phase checklist.
 

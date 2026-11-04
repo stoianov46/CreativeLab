@@ -37,7 +37,7 @@ as long as it takes.
   `create-task-issues.sh` uses to avoid duplicating an already-created
   task (issue title becomes `[TASK] <this title>`).
 - **`**Priority:**`**, **`**Phase:**`** — optional, same rules as epics.
-  `Phase` is worth keeping since it matches `PROGRESS.md`'s numbering;
+  `Phase` is worth keeping since it matches `TO-DO_2026-11-03.md`'s numbering;
   drop it for a task that doesn't correspond to one of those phases.
 - **`**Status:**`** — optional, read by `make board-sync-tasks`
   (`scripts/sync-task-status.sh`) with the same mapping as epics: "not

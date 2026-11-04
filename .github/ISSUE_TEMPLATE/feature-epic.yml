@@ -38,7 +38,7 @@ body:
     id: phase
     attributes:
       label: Phase
-      description: Matches the phase numbering in PROGRESS.md, if applicable.
+      description: Matches the phase numbering in TO-DO_2026-11-03.md, if applicable.
       placeholder: "Phase 7"
   - type: textarea
     id: tasks

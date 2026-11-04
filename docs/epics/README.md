@@ -1,7 +1,7 @@
 # Epic files
 
 **One proposal = one epic.** This repo used to split the single
-`proposal.md` into 9 separate epic issues (one per `PROGRESS.md` phase) —
+`proposal.md` into 9 separate epic issues (one per `TO-DO_2026-11-03.md` phase) —
 that turned out to be pure overhead: more issues to open, more links to
 keep straight, for work that's all one brief built by the same team in the
 same sessions. Break the work into **large tasks** instead (see
@@ -42,7 +42,7 @@ gets copied into the created issue's body, plus a link back to this file.
 
 There's no `**Phase:**` field for epics anymore — with one epic per
 proposal, "phase" doesn't distinguish anything at the epic level. Tasks can
-still carry a `**Phase:**` line, matching `PROGRESS.md`'s phase numbering
+still carry a `**Phase:**` line, matching `TO-DO_2026-11-03.md`'s phase numbering
 (see `../tasks/README.md`).
 
 ## Turning a proposal into an epic is a manual, human step

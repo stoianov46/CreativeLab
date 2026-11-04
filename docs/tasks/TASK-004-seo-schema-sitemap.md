@@ -18,7 +18,7 @@ schema on every page, and a generated `llms.txt`.
       reciprocal `<xhtml:link rel="alternate">` tags.
 - ⚠️ `robots.txt` / `llms.txt`: **regressed from generated to static**.
   A teammate's GitHub Pages static-export experiment (see
-  `PROGRESS.md`'s "Open Questions & Blockers") replaced `src/app/robots.ts` and
+  `TO-DO_2026-11-03.md`'s "Open Questions & Blockers") replaced `src/app/robots.ts` and
   `src/app/llms.txt/route.ts` (generated from `src/content/**`, always in
   sync) with hand/one-time-generated files at `public/robots.txt` and
   `public/llms.txt`. The static-export attempt itself was reverted

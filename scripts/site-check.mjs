@@ -468,7 +468,7 @@ if (flag("--write-audit")) {
     "",
     "- `content` ([[VERIFY]] markers on Privacy and Terms): expected until a lawyer supplies the legal specifics — blocked on owner/legal input, not fixable in code.",
     "- `promise` (the word \"guarantee\"): reviewed; the hits are FAQ questions such as \"Do you guarantee rankings?\" answered \"No\", and disclaimers. Re-review any new hit.",
-    "- `duplicate-content`: near-duplicate page pairs the client chose to keep with different angles (see NOTES.md → Decisions needed). Review before launch.",
+    "- `duplicate-content`: near-duplicate page pairs the client chose to keep with different angles (see TO-DO_2026-11-03.md → Decisions needed). Review before launch.",
     "- `description`: lengths outside 70–175 characters; shorten or expand.",
     "",
     "## Findings by check",

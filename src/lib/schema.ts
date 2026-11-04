@@ -13,7 +13,7 @@ const SERVICE_AREA = [
  * the address is the owner-specified shared one, CreativeLAB's own Google
  * Business Profile is unverified and there are no opening hours, so a
  * LocalBusiness claim would overreach. Switch only once the owner confirms
- * the listing (NOTES.md). No `geo`, ratings, reviews, awards or certifications.
+ * the listing (TO-DO_2026-11-03.md). No `geo`, ratings, reviews, awards or certifications.
  */
 export function organizationSchema() {
   return {
@@ -129,7 +129,7 @@ export function serviceSchema(params: {
 }
 
 /**
- * Photos known to be unsuitable (social.jpg shows a third-party logo, see NOTES.md);
+ * Photos known to be unsuitable (social.jpg shows a third-party logo, see TO-DO_2026-11-03.md);
  * they are not marked up as ImageObject until replaced by owned photography.
  */
 const PLACEHOLDER_IMAGES = /\/social\./;

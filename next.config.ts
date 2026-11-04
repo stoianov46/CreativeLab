@@ -23,7 +23,7 @@ const nextConfig: NextConfig = {
   // /_next/static assets already get immutable caching from Next itself —
   // overriding that is discouraged by the build. No CSP yet: the
   // consent-gated analytics scripts would need their hosts allow-listed —
-  // see NOTES.md.
+  // see TO-DO_2026-11-03.md.
   async headers() {
     return [
       {

@@ -9,7 +9,7 @@ export const SITE = {
   // unless told otherwise. `telegram` was set in that SAME commit as the
   // fake "+66-00-000-0000" placeholder and never revisited afterward the
   // way phone/whatsapp were — unverified, do not wire bot integrations to
-  // it without confirming it's a real, live bot first. See PROGRESS.md's
+  // it without confirming it's a real, live bot first. See TO-DO_2026-11-03.md's
   // "Open Questions & Blockers".
   email: "karma8chakra@gmail.com",
   whatsapp: "+66 80 870 5704",
@@ -20,7 +20,7 @@ export const SITE = {
    * address FORMA uses. The Plus Code is the address; no street/building
    * number is invented. The Google Maps listing the owner supplied belongs to
    * FORMA, so it is NOT linked as a CreativeLAB listing and CreativeLAB's
-   * Google Business Profile is treated as UNVERIFIED (NOTES.md).
+   * Google Business Profile is treated as UNVERIFIED (TO-DO_2026-11-03.md).
    */
   address: {
     display: "PX5R+JX7, Forma.in.th, Koh Phangan, Ko Pha-ngan District, Surat Thani 84280, Thailand",
