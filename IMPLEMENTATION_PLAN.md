@@ -43,6 +43,6 @@ Order followed (the brief's §14, adapted): audit → pricing → SEO content �
 | 9 Schema | CODE DONE | Organization, WebSite, WebPage, Service/OfferCatalog (no prices), BreadcrumbList, CreativeWork, Article, ContactPage, FAQPage. `ImageObject` as `primaryImageOfPage` on service and hub pages (skipped for `social.jpg` and the SVG concept boards) |
 | 10 Forms | CODE DONE | Mocked delivery only; real Telegram delivery `BLOCKED` |
 | 11 Legal / analytics | CODE DONE | Privacy, Terms, Cookies, Accessibility, Editorial policy, consent Accept/Reject/Settings (renders once analytics IDs exist), sitemap, `llms.txt`, verification tags |
-| 12 Performance / a11y | CODE DONE for Chrome | Lighthouse and axe on key pages and on all 18 new pages; Safari: five pages opened and titles confirmed only (layout not inspected — screen capture and Apple-Events JavaScript blocked); Firefox / Edge not installed; real devices not tested |
+| 12 Performance / a11y | CODE DONE for Chrome | Lighthouse and axe on key pages and on all 18 new pages; Safari 26.5 (macOS): 1,104 overflow checks, form journey, mobile menu and Hebrew RTL scripted and passing; Firefox / Edge not installed; real devices not tested |
 | 13 Documents | CODE DONE | All listed documents exist (`I18N.md` = `docs/i18n.md`) |
 | 15 Definition of done | 27/27 ticked in `Improvements.md` §24, last item (production verification) needs an approved deploy | |

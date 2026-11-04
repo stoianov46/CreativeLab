@@ -96,4 +96,4 @@ omitted, phrased qualitatively, or marked `[[VERIFY]]` in source.
 
 - [x] **Portfolio breadth (spec §6):** owner chose to keep the 8 labelled concept boards. Closed.
 - [x] **Tiers on other recurring services:** owner chose "split the existing range"; done for Google Ads, Meta Ads and local SEO retainers. The new Signature prices (30,000–45,000 / 25,000–40,000 / 25,000–40,000) are drafts, owner to approve (BLOCKED item 18/25).
-- [ ] **Safari / Firefox / Edge:** Safari opened five pages and showed the right titles, but layout and overflow were not inspected (screen capture is blocked, and Safari's Automation checkboxes are greyed out — likely a managed-device policy); Firefox and Edge are not installed (BLOCKED items 19 and 36).
+- [ ] **Safari / Firefox / Edge:** Safari 26.5 on macOS was scripted on 2026-11-04 (1,104 overflow checks, form journey, mobile menu, Hebrew RTL — all pass, see `FINAL_QA.md`); real iOS devices, Firefox and Edge are untested (Firefox and Edge are not installed; BLOCKED items 19 and 36).
