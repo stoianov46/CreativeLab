@@ -42,6 +42,10 @@ const CANONICAL_PATHS = [
   ...ARTICLES.map((a) => `/journal/${a.slug}`),
 ];
 
+function withTrailingSlash(path: string): string {
+  return path.endsWith("/") ? path : `${path}/`;
+}
+
 function priorityFor(path: string): number {
   if (path === "/") return 1;
   if (HUBS.some((hub) => path === `/${hub.slug}`)) return 0.9;
@@ -61,12 +65,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return CANONICAL_PATHS.flatMap((path) => {
     const alternates = localeAlternates(path);
     const languages = Object.fromEntries(
-      LOCALES.map((locale) => [locale, `${SITE.url}${alternates[locale]}`])
+      LOCALES.map((locale) => [locale, `${SITE.url}${withTrailingSlash(alternates[locale])}`])
     );
-    languages["x-default"] = `${SITE.url}${alternates[DEFAULT_LOCALE]}`;
+    languages["x-default"] = `${SITE.url}${withTrailingSlash(alternates[DEFAULT_LOCALE])}`;
 
     return LOCALES.map((locale) => ({
-      url: `${SITE.url}${localePath(locale, path)}`,
+      url: `${SITE.url}${withTrailingSlash(localePath(locale, path))}`,
       lastModified: now,
       changeFrequency: (path === "/" ? "weekly" : "monthly") as "weekly" | "monthly",
       priority: priorityFor(path),
